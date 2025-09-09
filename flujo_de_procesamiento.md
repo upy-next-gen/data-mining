@@ -41,6 +41,28 @@ data/yucatan_processed/*.csv
 reports/reporte_final_YYYYMMDD.html + reports/resumen_ejecutivo.json
 ```
 
+### Columnas Requeridas vs Opcionales
+
+**Columnas REQUERIDAS (obligatorias):**
+- `NOM_ENT`: Nombre de la entidad federativa (⚠️ IMPORTANTE: formato varía por año - ver nota abajo)
+- `NOM_MUN`: Nombre del municipio  
+- `BP1_1`: Percepción de seguridad (1=Seguro, 2=Inseguro, 9=No responde)
+
+**Columnas OPCIONALES:**
+- `NOM_CD`: Nombre de la ciudad (si no existe, se usa "SIN_CIUDAD" como valor por defecto)
+
+### ⚠️ NOTA CRÍTICA: Formato de NOM_ENT
+
+El valor de "Yucatán" en NOM_ENT ha cambiado a través de los años:
+- **2016-2017**: `'Yucatán\r'` (con tilde y retorno de carro \r)
+- **2018-2021**: `'Yucatan\r'` o `'Yucatan'` (sin tilde, con o sin \r)
+- **2022-2025**: `'YUCATAN'` (mayúsculas sin tilde)
+
+El pipeline maneja automáticamente estas variaciones usando normalización:
+```python
+df['NOM_ENT'].str.strip().str.upper().str.contains('YUCAT')
+```
+
 ---
 
 ## Pre-requisitos
@@ -98,7 +120,8 @@ proyecto/
 
 ### Crear estructura inicial:
 ```bash
-mkdir -p data/yucatan_processed logs temp scripts reports
+# IMPORTANTE: Crear todos los directorios necesarios antes de ejecutar los scripts
+mkdir -p logs temp data/yucatan_processed reports scripts
 ```
 
 ### Nota Importante sobre Ejecución
@@ -1048,9 +1071,14 @@ def process_single_file(file_info):
                 logger.info(f"    BP1_1={val}: {count:,} ({count/len(df)*100:.1f}%)")
         
         # Filtrar por Yucatán
+        # IMPORTANTE: El formato de NOM_ENT varía según el año:
+        # - 2016-2017: 'Yucatán\r' (con tilde y retorno de carro)
+        # - 2018-2021: 'Yucatan\r' o 'Yucatan' (sin tilde, con o sin \r)
+        # - 2022+: 'YUCATAN' (mayúsculas sin tilde)
         logger.info("Filtrando registros de Yucatán...")
-        yucatan_mask = df['NOM_ENT'].str.upper().isin(['YUCATAN', 'YUCATÁN'])
-        df_yucatan = df[yucatan_mask].copy()
+        # Limpiar espacios, caracteres de retorno y normalizar
+        df['NOM_ENT_CLEAN'] = df['NOM_ENT'].str.strip().str.upper()
+        df_yucatan = df[df['NOM_ENT_CLEAN'].str.contains('YUCAT', case=False, na=False)].copy()
         
         logger.info(f"Resultados del filtrado por Yucatán:")
         logger.info(f"  - Registros de Yucatán: {len(df_yucatan):,}")
@@ -1266,407 +1294,446 @@ YUCATÁN,PROGRESO,PROGRESO,45,25,2,72,62.50,34.72,2.78,2025_Q2,2024-09-04T15:00:
 ### Objetivo
 Generar reportes consolidados y análisis de tendencias.
 
-### Script: `fase5_reporte_final.py`
+### Script: `fase5_reporte.py`
 
 #### Entradas
 - `data/yucatan_processed/*.csv`: Todos los archivos procesados
+- `temp/resumen_procesamiento.json`: Resumen de la Fase 4
 
 #### Salidas
-- `reports/reporte_final_YYYYMMDD.html`: Reporte HTML visual
-- `reports/resumen_ejecutivo.json`: Resumen ejecutivo en JSON
-- `logs/fase5_reporte_YYYYMMDD_HHMMSS.log`: Log de generación de reporte
+- `reports/dataset_maestro_yucatan.csv`: Dataset consolidado con todos los registros
+- `reports/reporte_ensu_yucatan.html`: Reporte HTML visual interactivo
+- `reports/estadisticas_finales.json`: Estadísticas completas en JSON
+- `logs/fase5_reporte.log`: Log de generación de reporte
 
 #### Código del Script
 
-**IMPORTANTE**: Guarda el siguiente código en el archivo `scripts/fase5_reporte_final.py`
+**IMPORTANTE**: Guarda el siguiente código en el archivo `scripts/fase5_reporte.py`
 
 ```python
 #!/usr/bin/env python3
 """
-Fase 5: Generación de Reporte Final
+Fase 5: Reporte Final
+Genera un reporte completo del procesamiento y un dataset maestro
 """
 
 import json
-import logging
 import pandas as pd
-import os
-from datetime import datetime
+import logging
 from pathlib import Path
+from datetime import datetime
+import os
+from glob import glob
 
-def setup_logging():
-    """Configurar sistema de logging"""
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    log_file = f"logs/fase5_reporte_{timestamp}.log"
-    
-    os.makedirs("logs", exist_ok=True)
-    
-    logging.basicConfig(
-        level=logging.INFO,
-        format='[%(asctime)s] %(levelname)s: %(message)s',
-        handlers=[
-            logging.FileHandler(log_file),
-            logging.StreamHandler()
-        ]
-    )
-    return logging.getLogger(__name__)
+# Configurar logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('logs/fase5_reporte.log'),
+        logging.StreamHandler()
+    ]
+)
 
-def load_all_processed_files(processed_dir="data/yucatan_processed"):
-    """Cargar todos los archivos procesados"""
-    logger = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)
+
+def cargar_datasets_procesados():
+    """
+    Carga todos los datasets procesados de Yucatán
+    """
+    logger.info("Cargando datasets procesados...")
+    archivos_csv = glob('data/yucatan_processed/*.csv')
     
-    all_data = []
+    datasets = []
+    for archivo in sorted(archivos_csv):
+        logger.info(f"  - Cargando: {os.path.basename(archivo)}")
+        df = pd.read_csv(archivo)
+        datasets.append(df)
     
-    for file in sorted(os.listdir(processed_dir)):
-        if file.endswith('.csv'):
-            filepath = os.path.join(processed_dir, file)
-            logger.info(f"Cargando: {file}")
-            
-            df = pd.read_csv(filepath)
-            all_data.append(df)
-    
-    if all_data:
-        combined_df = pd.concat(all_data, ignore_index=True)
-        logger.info(f"Total de registros combinados: {len(combined_df)}")
-        return combined_df
+    if datasets:
+        df_completo = pd.concat(datasets, ignore_index=True)
+        logger.info(f"Total de registros combinados: {len(df_completo)}")
+        return df_completo
     else:
-        logger.warning("No se encontraron archivos procesados")
+        logger.warning("No se encontraron datasets procesados")
         return pd.DataFrame()
 
-def analyze_trends(df):
-    """Analizar tendencias temporales"""
+def generar_estadisticas_globales(df):
+    """
+    Genera estadísticas globales del dataset completo
+    """
     if df.empty:
         return {}
     
-    # Agrupar por período
-    trends = df.groupby('PERIODO').agg({
-        'TOTAL_SEGUROS': 'sum',
-        'TOTAL_INSEGUROS': 'sum',
-        'TOTAL_NO_RESPONDE': 'sum',
-        'TOTAL_RESPUESTAS': 'sum',
-        'NOM_MUN': 'nunique',
-        'NOM_CD': 'nunique'
-    }).reset_index()
-    
-    # Calcular porcentajes
-    trends['PORCENTAJE_SEGUROS'] = (
-        trends['TOTAL_SEGUROS'] / trends['TOTAL_RESPUESTAS'] * 100
-    ).round(2)
-    trends['PORCENTAJE_INSEGUROS'] = (
-        trends['TOTAL_INSEGUROS'] / trends['TOTAL_RESPUESTAS'] * 100
-    ).round(2)
-    
-    # Renombrar columnas
-    trends.rename(columns={
-        'NOM_MUN': 'MUNICIPIOS_UNICOS',
-        'NOM_CD': 'CIUDADES_UNICAS'
-    }, inplace=True)
-    
-    return trends.to_dict('records')
-
-def identify_safest_unsafe_cities(df):
-    """Identificar ciudades más seguras e inseguras"""
-    if df.empty:
-        return {}, {}
-    
-    # Agrupar por ciudad (consolidando todos los períodos)
-    city_stats = df.groupby(['NOM_MUN', 'NOM_CD']).agg({
-        'TOTAL_SEGUROS': 'sum',
-        'TOTAL_INSEGUROS': 'sum',
-        'TOTAL_RESPUESTAS': 'sum'
-    }).reset_index()
-    
-    city_stats['PORCENTAJE_SEGUROS'] = (
-        city_stats['TOTAL_SEGUROS'] / city_stats['TOTAL_RESPUESTAS'] * 100
-    ).round(2)
-    city_stats['PORCENTAJE_INSEGUROS'] = (
-        city_stats['TOTAL_INSEGUROS'] / city_stats['TOTAL_RESPUESTAS'] * 100
-    ).round(2)
-    
-    # Top 5 más seguras
-    safest = city_stats.nlargest(5, 'PORCENTAJE_SEGUROS')[
-        ['NOM_MUN', 'NOM_CD', 'PORCENTAJE_SEGUROS', 'TOTAL_RESPUESTAS']
-    ].to_dict('records')
-    
-    # Top 5 más inseguras
-    unsafe = city_stats.nlargest(5, 'PORCENTAJE_INSEGUROS')[
-        ['NOM_MUN', 'NOM_CD', 'PORCENTAJE_INSEGUROS', 'TOTAL_RESPUESTAS']
-    ].to_dict('records')
-    
-    return safest, unsafe
-
-def generate_html_report(summary, output_path):
-    """Generar reporte HTML"""
-    html_content = f"""
-    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Reporte ENSU Yucatán - {summary['fecha_generacion']}</title>
-        <style>
-            body {{
-                font-family: Arial, sans-serif;
-                line-height: 1.6;
-                color: #333;
-                max-width: 1200px;
-                margin: 0 auto;
-                padding: 20px;
-                background-color: #f4f4f4;
-            }}
-            h1, h2, h3 {{
-                color: #2c3e50;
-            }}
-            .header {{
-                background-color: #3498db;
-                color: white;
-                padding: 20px;
-                border-radius: 5px;
-                margin-bottom: 20px;
-            }}
-            .summary-box {{
-                background-color: white;
-                padding: 20px;
-                border-radius: 5px;
-                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-                margin-bottom: 20px;
-            }}
-            .metrics {{
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-                gap: 15px;
-                margin-bottom: 20px;
-            }}
-            .metric {{
-                background-color: #ecf0f1;
-                padding: 15px;
-                border-radius: 5px;
-                text-align: center;
-            }}
-            .metric-value {{
-                font-size: 2em;
-                font-weight: bold;
-                color: #2c3e50;
-            }}
-            .metric-label {{
-                color: #7f8c8d;
-                margin-top: 5px;
-            }}
-            table {{
-                width: 100%;
-                border-collapse: collapse;
-                background-color: white;
-            }}
-            th, td {{
-                padding: 12px;
-                text-align: left;
-                border-bottom: 1px solid #ddd;
-            }}
-            th {{
-                background-color: #3498db;
-                color: white;
-            }}
-            tr:hover {{
-                background-color: #f5f5f5;
-            }}
-            .safe {{
-                color: #27ae60;
-                font-weight: bold;
-            }}
-            .unsafe {{
-                color: #e74c3c;
-                font-weight: bold;
-            }}
-        </style>
-    </head>
-    <body>
-        <div class="header">
-            <h1>Reporte de Percepción de Seguridad - Yucatán</h1>
-            <p>Generado: {summary['fecha_generacion']}</p>
-        </div>
+    estadisticas = {
+        'total_registros': int(len(df)),
+        'años_cubiertos': [int(x) for x in sorted(df['AÑO'].unique().tolist())],
+        'trimestres_totales': int(len(df[['AÑO', 'TRIMESTRE']].drop_duplicates())),
+        'municipios_unicos': int(df['NOM_MUN'].nunique()),
+        'ciudades_unicas': int(df['NOM_CD'].nunique()),
         
-        <div class="summary-box">
-            <h2>Resumen Ejecutivo</h2>
-            <div class="metrics">
-                <div class="metric">
-                    <div class="metric-value">{summary['total_periodos']}</div>
-                    <div class="metric-label">Períodos Analizados</div>
-                </div>
-                <div class="metric">
-                    <div class="metric-value">{summary['total_municipios']}</div>
-                    <div class="metric-label">Municipios</div>
-                </div>
-                <div class="metric">
-                    <div class="metric-value">{summary['total_respuestas']:,}</div>
-                    <div class="metric-label">Total Respuestas</div>
-                </div>
-                <div class="metric">
-                    <div class="metric-value">{summary['promedio_seguridad']:.1f}%</div>
-                    <div class="metric-label">Promedio Seguridad</div>
-                </div>
+        # Estadísticas de percepción
+        'total_respuestas_seguro': int(df['TOTAL_SEGUROS'].sum()),
+        'total_respuestas_inseguro': int(df['TOTAL_INSEGUROS'].sum()),
+        'total_no_responde': int(df['TOTAL_NO_RESPONDE'].sum()),
+        
+        # Promedios generales
+        'promedio_pct_seguros': round(df['PCT_SEGUROS'].mean(), 2),
+        'promedio_pct_inseguros': round(df['PCT_INSEGUROS'].mean(), 2),
+        
+        # Por año
+        'estadisticas_por_año': []
+    }
+    
+    # Calcular estadísticas por año
+    for año in sorted(df['AÑO'].unique()):
+        df_año = df[df['AÑO'] == año]
+        estadisticas['estadisticas_por_año'].append({
+            'año': int(año),
+            'trimestres': int(len(df_año['TRIMESTRE'].unique())),
+            'registros': int(len(df_año)),
+            'promedio_pct_seguros': round(df_año['PCT_SEGUROS'].mean(), 2),
+            'promedio_pct_inseguros': round(df_año['PCT_INSEGUROS'].mean(), 2)
+        })
+    
+    # Municipios más seguros/inseguros
+    municipios_stats = df.groupby('NOM_MUN').agg({
+        'PCT_SEGUROS': 'mean',
+        'PCT_INSEGUROS': 'mean',
+        'TOTAL_REGISTROS': 'sum'
+    }).round(2)
+    
+    estadisticas['municipio_mas_seguro'] = {
+        'nombre': municipios_stats['PCT_SEGUROS'].idxmax(),
+        'pct_promedio_seguros': float(municipios_stats['PCT_SEGUROS'].max())
+    }
+    
+    estadisticas['municipio_mas_inseguro'] = {
+        'nombre': municipios_stats['PCT_INSEGUROS'].idxmax(),
+        'pct_promedio_inseguros': float(municipios_stats['PCT_INSEGUROS'].max())
+    }
+    
+    return estadisticas
+
+def generar_reporte_html(estadisticas, resumen_procesamiento):
+    """
+    Genera un reporte HTML con todas las estadísticas
+    """
+    html_content = """
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte ENSU Yucatán - Percepción de Seguridad</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .stat-card {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .stat-label {
+            font-weight: bold;
+            color: #7f8c8d;
+        }
+        .stat-value {
+            font-size: 24px;
+            color: #2c3e50;
+            margin-top: 5px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        .success {
+            color: #27ae60;
+        }
+        .warning {
+            color: #f39c12;
+        }
+        .info {
+            color: #3498db;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            text-align: center;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Reporte ENSU Yucatán - Percepción de Seguridad</h1>
+        <p>Fecha de generación: {{FECHA_GENERACION}}</p>
+        
+        <h2>📈 Resumen del Procesamiento</h2>
+        <div class="grid">
+            <div class="stat-card">
+                <div class="stat-label">Archivos Procesados</div>
+                <div class="stat-value success">{{ARCHIVOS_EXITOSOS}}/{{TOTAL_ARCHIVOS}}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Total Registros Yucatán</div>
+                <div class="stat-value info">{{TOTAL_REGISTROS}}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Años Cubiertos</div>
+                <div class="stat-value">{{AÑOS_CUBIERTOS}}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Trimestres Procesados</div>
+                <div class="stat-value">{{TRIMESTRES_TOTALES}}</div>
             </div>
         </div>
         
-        <div class="summary-box">
-            <h2>Tendencias por Período</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Período</th>
-                        <th>Municipios</th>
-                        <th>Total Respuestas</th>
-                        <th>% Seguros</th>
-                        <th>% Inseguros</th>
-                    </tr>
-                </thead>
-                <tbody>
-    """
-    
-    # Agregar filas de tendencias
-    for trend in summary.get('tendencias', []):
-        html_content += f"""
-                    <tr>
-                        <td>{trend['PERIODO']}</td>
-                        <td>{trend['MUNICIPIOS_UNICOS']}</td>
-                        <td>{trend['TOTAL_RESPUESTAS']:,}</td>
-                        <td class="safe">{trend['PORCENTAJE_SEGUROS']:.1f}%</td>
-                        <td class="unsafe">{trend['PORCENTAJE_INSEGUROS']:.1f}%</td>
-                    </tr>
-        """
-    
-    html_content += """
-                </tbody>
-            </table>
+        <h2>🔍 Percepción General de Seguridad</h2>
+        <div class="grid">
+            <div class="stat-card">
+                <div class="stat-label">Promedio % Seguro</div>
+                <div class="stat-value success">{{PROMEDIO_PCT_SEGUROS}}%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Promedio % Inseguro</div>
+                <div class="stat-value warning">{{PROMEDIO_PCT_INSEGUROS}}%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Municipios Analizados</div>
+                <div class="stat-value">{{MUNICIPIOS_UNICOS}}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Ciudades Analizadas</div>
+                <div class="stat-value">{{CIUDADES_UNICAS}}</div>
+            </div>
         </div>
         
-        <div class="summary-box">
-            <h2>Ciudades Más Seguras</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Municipio</th>
-                        <th>Ciudad</th>
-                        <th>% Percepción Segura</th>
-                        <th>Total Respuestas</th>
-                    </tr>
-                </thead>
-                <tbody>
-    """
-    
-    # Agregar ciudades más seguras
-    for city in summary.get('ciudades_mas_seguras', []):
-        html_content += f"""
-                    <tr>
-                        <td>{city['NOM_MUN']}</td>
-                        <td>{city['NOM_CD']}</td>
-                        <td class="safe">{city['PORCENTAJE_SEGUROS']:.1f}%</td>
-                        <td>{city['TOTAL_RESPUESTAS']:,}</td>
-                    </tr>
-        """
-    
-    html_content += """
-                </tbody>
-            </table>
+        <h2>📅 Evolución por Año</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Trimestres</th>
+                    <th>Registros</th>
+                    <th>% Promedio Seguro</th>
+                    <th>% Promedio Inseguro</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{TABLA_AÑOS}}
+            </tbody>
+        </table>
+        
+        <h2>🏆 Rankings de Municipios</h2>
+        <div class="grid">
+            <div class="stat-card">
+                <div class="stat-label">Municipio Más Seguro</div>
+                <div class="stat-value success">{{MUNICIPIO_MAS_SEGURO}}</div>
+                <small>{{PCT_MAS_SEGURO}}% se sienten seguros</small>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Municipio Más Inseguro</div>
+                <div class="stat-value warning">{{MUNICIPIO_MAS_INSEGURO}}</div>
+                <small>{{PCT_MAS_INSEGURO}}% se sienten inseguros</small>
+            </div>
         </div>
         
-        <div class="summary-box">
-            <h2>Ciudades Más Inseguras</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Municipio</th>
-                        <th>Ciudad</th>
-                        <th>% Percepción Insegura</th>
-                        <th>Total Respuestas</th>
-                    </tr>
-                </thead>
-                <tbody>
-    """
+        <h2>📁 Archivos Procesados</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Archivo Original</th>
+                    <th>Año</th>
+                    <th>Trimestre</th>
+                    <th>Registros Yucatán</th>
+                    <th>Municipios</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{TABLA_ARCHIVOS}}
+            </tbody>
+        </table>
+        
+        <div class="footer">
+            <p>Pipeline de Procesamiento ENSU - Universidad Politécnica de Yucatán</p>
+            <p>Generado automáticamente el {{FECHA_GENERACION}}</p>
+        </div>
+    </div>
+</body>
+</html>
+"""
     
-    # Agregar ciudades más inseguras
-    for city in summary.get('ciudades_mas_inseguras', []):
-        html_content += f"""
-                    <tr>
-                        <td>{city['NOM_MUN']}</td>
-                        <td>{city['NOM_CD']}</td>
-                        <td class="unsafe">{city['PORCENTAJE_INSEGUROS']:.1f}%</td>
-                        <td>{city['TOTAL_RESPUESTAS']:,}</td>
-                    </tr>
+    # Preparar datos para el template
+    fecha_generacion = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    
+    # Tabla de años
+    tabla_años = ""
+    for año_stat in estadisticas.get('estadisticas_por_año', []):
+        tabla_años += f"""
+            <tr>
+                <td>{año_stat['año']}</td>
+                <td>{año_stat['trimestres']}</td>
+                <td>{año_stat['registros']}</td>
+                <td class="success">{año_stat['promedio_pct_seguros']}%</td>
+                <td class="warning">{año_stat['promedio_pct_inseguros']}%</td>
+            </tr>
         """
     
-    html_content += """
-                </tbody>
-            </table>
-        </div>
-    </body>
-    </html>
-    """
+    # Tabla de archivos procesados
+    tabla_archivos = ""
+    for resultado in resumen_procesamiento.get('resultados', []):
+        if resultado.get('trimestre'):
+            tabla_archivos += f"""
+                <tr>
+                    <td>{resultado['archivo']}</td>
+                    <td>{resultado['trimestre']['año']}</td>
+                    <td>T{resultado['trimestre']['trimestre']}</td>
+                    <td>{resultado['registros_yucatan']}</td>
+                    <td>{resultado['municipios']}</td>
+                </tr>
+            """
     
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(html_content)
+    # Reemplazar placeholders
+    html_content = html_content.replace('{{FECHA_GENERACION}}', fecha_generacion)
+    html_content = html_content.replace('{{ARCHIVOS_EXITOSOS}}', str(resumen_procesamiento.get('archivos_exitosos', 0)))
+    html_content = html_content.replace('{{TOTAL_ARCHIVOS}}', str(resumen_procesamiento.get('total_archivos', 0)))
+    html_content = html_content.replace('{{TOTAL_REGISTROS}}', str(estadisticas.get('total_registros', 0)))
+    html_content = html_content.replace('{{AÑOS_CUBIERTOS}}', f"{min(estadisticas.get('años_cubiertos', [2016]))}-{max(estadisticas.get('años_cubiertos', [2025]))}")
+    html_content = html_content.replace('{{TRIMESTRES_TOTALES}}', str(estadisticas.get('trimestres_totales', 0)))
+    html_content = html_content.replace('{{PROMEDIO_PCT_SEGUROS}}', str(estadisticas.get('promedio_pct_seguros', 0)))
+    html_content = html_content.replace('{{PROMEDIO_PCT_INSEGUROS}}', str(estadisticas.get('promedio_pct_inseguros', 0)))
+    html_content = html_content.replace('{{MUNICIPIOS_UNICOS}}', str(estadisticas.get('municipios_unicos', 0)))
+    html_content = html_content.replace('{{CIUDADES_UNICAS}}', str(estadisticas.get('ciudades_unicas', 0)))
+    html_content = html_content.replace('{{TABLA_AÑOS}}', tabla_años)
+    html_content = html_content.replace('{{TABLA_ARCHIVOS}}', tabla_archivos)
+    
+    # Rankings
+    municipio_seguro = estadisticas.get('municipio_mas_seguro', {})
+    html_content = html_content.replace('{{MUNICIPIO_MAS_SEGURO}}', municipio_seguro.get('nombre', 'N/A'))
+    html_content = html_content.replace('{{PCT_MAS_SEGURO}}', str(municipio_seguro.get('pct_promedio_seguros', 0)))
+    
+    municipio_inseguro = estadisticas.get('municipio_mas_inseguro', {})
+    html_content = html_content.replace('{{MUNICIPIO_MAS_INSEGURO}}', municipio_inseguro.get('nombre', 'N/A'))
+    html_content = html_content.replace('{{PCT_MAS_INSEGURO}}', str(municipio_inseguro.get('pct_promedio_inseguros', 0)))
+    
+    return html_content
 
 def main():
-    logger = setup_logging()
+    """
+    Función principal de la Fase 5
+    """
+    logger.info("=== FASE 5: GENERACIÓN DE REPORTE FINAL ===")
     
-    try:
-        logger.info("=== INICIANDO FASE 5: REPORTE FINAL ===")
-        
-        # Cargar todos los archivos procesados
-        df_all = load_all_processed_files()
-        
-        if df_all.empty:
-            logger.warning("No hay datos para generar reporte")
-            return
-        
-        # Analizar tendencias
-        trends = analyze_trends(df_all)
-        
-        # Identificar ciudades extremas
-        safest, unsafe = identify_safest_unsafe_cities(df_all)
-        
-        # Crear resumen
-        summary = {
-            'fecha_generacion': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            'total_periodos': df_all['PERIODO'].nunique(),
-            'total_municipios': df_all['NOM_MUN'].nunique(),
-            'total_ciudades': df_all['NOM_CD'].nunique(),
-            'total_respuestas': int(df_all['TOTAL_RESPUESTAS'].sum()),
-            'promedio_seguridad': float(
-                df_all['TOTAL_SEGUROS'].sum() / df_all['TOTAL_RESPUESTAS'].sum() * 100
-            ),
-            'promedio_inseguridad': float(
-                df_all['TOTAL_INSEGUROS'].sum() / df_all['TOTAL_RESPUESTAS'].sum() * 100
-            ),
-            'tendencias': trends,
-            'ciudades_mas_seguras': safest[:5],
-            'ciudades_mas_inseguras': unsafe[:5]
-        }
-        
-        # Guardar resumen JSON (el directorio reports ya debe existir desde la configuración inicial)
-        json_path = "reports/resumen_ejecutivo.json"
-        with open(json_path, 'w', encoding='utf-8') as f:
-            json.dump(summary, f, indent=2, ensure_ascii=False)
-        logger.info(f"Resumen JSON guardado: {json_path}")
-        
-        # Generar reporte HTML
-        html_path = f"reports/reporte_final_{datetime.now().strftime('%Y%m%d')}.html"
-        generate_html_report(summary, html_path)
-        logger.info(f"Reporte HTML generado: {html_path}")
-        
-        # Log de estadísticas finales
-        logger.info("=== ESTADÍSTICAS FINALES ===")
-        logger.info(f"Períodos procesados: {summary['total_periodos']}")
-        logger.info(f"Total de respuestas: {summary['total_respuestas']:,}")
-        logger.info(f"Promedio de seguridad: {summary['promedio_seguridad']:.1f}%")
-        logger.info(f"Promedio de inseguridad: {summary['promedio_inseguridad']:.1f}%")
-        
-        logger.info("=== FASE 5 COMPLETADA EXITOSAMENTE ===")
-        
-    except Exception as e:
-        logger.error(f"Error fatal en Fase 5: {e}")
-        raise
+    # Cargar resumen de procesamiento
+    resumen_path = 'temp/resumen_procesamiento.json'
+    if not Path(resumen_path).exists():
+        logger.error(f"No se encontró el resumen de procesamiento en {resumen_path}")
+        logger.error("Ejecute primero la Fase 4")
+        return False
+    
+    with open(resumen_path, 'r', encoding='utf-8') as f:
+        resumen_procesamiento = json.load(f)
+    
+    # Cargar todos los datasets procesados
+    df_completo = cargar_datasets_procesados()
+    
+    if df_completo.empty:
+        logger.error("No hay datos para generar el reporte")
+        return False
+    
+    # Generar estadísticas globales
+    logger.info("Generando estadísticas globales...")
+    estadisticas = generar_estadisticas_globales(df_completo)
+    
+    # Guardar dataset maestro
+    logger.info("Guardando dataset maestro...")
+    df_completo.to_csv('reports/dataset_maestro_yucatan.csv', index=False)
+    logger.info(f"  - Dataset maestro guardado: reports/dataset_maestro_yucatan.csv")
+    
+    # Generar reporte HTML
+    logger.info("Generando reporte HTML...")
+    html_content = generar_reporte_html(estadisticas, resumen_procesamiento)
+    
+    # Crear directorio de reportes si no existe
+    os.makedirs('reports', exist_ok=True)
+    
+    # Guardar reporte HTML
+    html_path = 'reports/reporte_ensu_yucatan.html'
+    with open(html_path, 'w', encoding='utf-8') as f:
+        f.write(html_content)
+    logger.info(f"  - Reporte HTML guardado: {html_path}")
+    
+    # Guardar estadísticas en JSON
+    json_path = 'reports/estadisticas_finales.json'
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump({
+            'fecha_generacion': datetime.now().isoformat(),
+            'estadisticas_globales': estadisticas,
+            'resumen_procesamiento': resumen_procesamiento
+        }, f, indent=2, ensure_ascii=False)
+    logger.info(f"  - Estadísticas JSON guardadas: {json_path}")
+    
+    # Resumen final
+    logger.info("\n=== RESUMEN FINAL ===")
+    logger.info(f"Total de registros procesados: {estadisticas['total_registros']}")
+    logger.info(f"Años cubiertos: {min(estadisticas['años_cubiertos'])} - {max(estadisticas['años_cubiertos'])}")
+    logger.info(f"Municipios analizados: {estadisticas['municipios_unicos']}")
+    logger.info(f"Percepción promedio de seguridad: {estadisticas['promedio_pct_seguros']}%")
+    logger.info(f"Percepción promedio de inseguridad: {estadisticas['promedio_pct_inseguros']}%")
+    
+    logger.info("\n📊 Reportes generados:")
+    logger.info("  1. reports/dataset_maestro_yucatan.csv")
+    logger.info("  2. reports/reporte_ensu_yucatan.html")
+    logger.info("  3. reports/estadisticas_finales.json")
+    
+    return True
 
 if __name__ == "__main__":
-    main()
+    exito = main()
+    exit(0 if exito else 1)
 ```
 
 ---
@@ -1687,7 +1754,7 @@ Antes de ejecutar, debes guardar cada script en su archivo correspondiente:
    - Copia el código de la Fase 2 y guárdalo en `scripts/fase2_validacion.py`
    - Copia el código de la Fase 3 y guárdalo en `scripts/fase3_verificacion_incremental.py`
    - Copia el código de la Fase 4 y guárdalo en `scripts/fase4_procesamiento.py`
-   - Copia el código de la Fase 5 y guárdalo en `scripts/fase5_reporte_final.py`
+   - Copia el código de la Fase 5 y guárdalo en `scripts/fase5_reporte.py`
    - Copia el código del script de limpieza y guárdalo en `scripts/clean_temp_files.py`
 
 3. **Hacer los scripts ejecutables** (opcional, en sistemas Unix/Linux/Mac):
@@ -1751,7 +1818,7 @@ uv run python scripts/fase4_procesamiento.py
 ls -la data/yucatan_processed/
 
 # Fase 5: Reporte Final
-uv run python scripts/fase5_reporte_final.py
+uv run python scripts/fase5_reporte.py
 
 # Abrir reporte
 open reports/reporte_final_*.html  # En Mac
@@ -1819,7 +1886,7 @@ fi
 
 # Fase 5
 echo -e "\n>>> Ejecutando Fase 5: Reporte Final"
-uv run python scripts/fase5_reporte_final.py
+uv run python scripts/fase5_reporte.py
 if [ $? -eq 0 ]; then
     echo "✓ Fase 5 completada"
 else
@@ -1891,6 +1958,31 @@ grep "DUPLICADOS" logs/fase2_validacion_*.log
 
 # Eliminar manualmente el archivo duplicado o renombrar
 # Los duplicados no se procesarán automáticamente
+```
+
+#### 5. Error: "No se encontraron registros de Yucatán"
+**Causa**: El formato de NOM_ENT varía según el año del archivo.
+**Formatos conocidos**:
+- 2016-2017: `'Yucatán\r'` (con tilde y retorno de carro)
+- 2018-2021: `'Yucatan\r'` o `'Yucatan'` (sin tilde)
+- 2022+: `'YUCATAN'` (mayúsculas sin tilde)
+
+**Solución**:
+```bash
+# Verificar formato exacto de NOM_ENT en un archivo
+uv run python -c "import pandas as pd; df = pd.read_csv('ruta/archivo.csv'); yuc = df[df['NOM_ENT'].str.contains('Yucat', case=False, na=False)]['NOM_ENT'].unique(); print('Formatos encontrados:', yuc)"
+
+# El script actualizado maneja todos los formatos usando:
+# df['NOM_ENT'].str.strip().str.upper().str.contains('YUCAT')
+```
+
+#### 6. Error: "'utf-8' codec can't decode byte"
+**Causa**: Archivos __MACOSX son metadatos de macOS.
+**Solución**:
+```bash
+# Los archivos __MACOSX son ignorados automáticamente
+# Si persiste el problema, eliminar la carpeta __MACOSX
+rm -rf data/__MACOSX
 ```
 
 #### 5. Error: "PermissionError"

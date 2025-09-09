@@ -1,0 +1,378 @@
+2025-09-08 18:10:19,585 - INFO - === FASE 2: VALIDACIÓN ===
+2025-09-08 18:10:19,596 - INFO - Archivos a validar: 11452
+2025-09-08 18:10:19,597 - INFO - Archivos principales de datos encontrados: 80
+2025-09-08 18:10:19,597 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:10:19,604 - DEBUG - Validando: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:10:19,607 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:10:19,607 - DEBUG - Validando: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:10:19,609 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:10:19,609 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:10:19,611 - DEBUG - Validando: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:10:19,613 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:10:19,613 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:10:19,615 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:10:19,617 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:10:19,617 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:10:19,618 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:10:19,618 - DEBUG - Validando: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:10:19,620 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:10:19,623 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:10:19,624 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:10:19,626 - DEBUG - Validando: conjunto_de_datos_cb_ensu_01_2015.csv
+2025-09-08 18:10:19,627 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_01_2015/conjunto_de_datos_cb_ensu_01_2015/conjunto_de_datos/conjunto_de_datos_cb_ensu_01_2015.csv: {'NOM_ENT', 'BP1_1', 'NOM_MUN'}
+2025-09-08 18:10:19,628 - DEBUG - Validando: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:10:19,629 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:10:19,629 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:10:19,632 - DEBUG - Validando: conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-08 18:10:19,635 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:10:19,635 - DEBUG - Validando: conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-08 18:10:19,637 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:10:19,637 - DEBUG - Validando: conjunto_de_datos_cb_ensu_03_2016.csv
+2025-09-08 18:10:19,639 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_03_2016_csv/conjunto_de_datos_cb_ensu_03_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2016.csv: {'NOM_ENT', 'NOM_MUN'}
+2025-09-08 18:10:19,639 - DEBUG - Validando: conjunto_de_datos_cb_ensu_02_2016.csv
+2025-09-08 18:10:19,642 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_02_2016_csv/conjunto_de_datos_cb_ensu_02_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_02_2016.csv: {'NOM_ENT', 'NOM_MUN'}
+2025-09-08 18:10:19,642 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:10:19,644 - DEBUG - Validando: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:10:19,645 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:10:19,645 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:10:19,648 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:10:19,650 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:10:19,650 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2022_1t_csv/conjunto_de_datos_ensu_cb_0322/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0322.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,650 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:10:19,651 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_04_2017_csv/conjunto_de_datos_cb_ensu_04_2017/conjunto_de_datos/._conjunto_de_datos_cb_ensu_04_2017.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,651 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:10:19,651 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_04_2016_csv/conjunto_de_datos_cb_ensu_04_2016/conjunto_de_datos/._conjunto_de_datos_cb_ensu_04_2016.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,651 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:10:19,651 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2021_4t_csv/conjunto_de_datos_CB_ENSU_12_2021/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_12_2021.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,651 - DEBUG - Validando: ._conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:10:19,651 - ERROR - Error al validar data/__MACOSX/Datos abiertos/conjunto_de_datos_CB_ENSU_03_2019/conjunto_de_datos/._conjunto_de_datos_cb_ENSU_03_2019.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,651 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:10:19,651 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2025_2t_csv/conjunto_de_datos_ensu_cb_0625/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0625.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,651 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:10:19,652 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2019_4t_csv/conjunto_de_datos_CB_ENSU_04_2019/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_04_2019.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,652 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:10:19,652 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2020_1t_csv/conjunto_de_datos_CB_ENSU_01_2020/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_01_2020.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,652 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:10:19,652 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2023_4t_csv/conjunto_de_datos_ensu_cb_1223/conjunto_de_datos/._conjunto_de_datos_ensu_cb_1223.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,652 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:10:19,652 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2023_3t_csv/conjunto_de_datos_ensu_cb_0923/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0923.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,652 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:10:19,653 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2024_1t_csv/conjunto_de_datos_ensu_cb_0324/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0324.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,653 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:10:19,653 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2021_2t_csv/conjunto_de_datos_CB_ENSU_06_2021/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_06_2021.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,653 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_01_2015.csv
+2025-09-08 18:10:19,653 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_01_2015/conjunto_de_datos_cb_ensu_01_2015/conjunto_de_datos/._conjunto_de_datos_cb_ensu_01_2015.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,653 - DEBUG - Validando: ._conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:10:19,653 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2019_2t_csv/conjunto_de_datos_cb_ENSU_2019_2t/conjunto_de_datos/._conjunto_de_datos_cb_ENSU_2019_2t.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,653 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:10:19,653 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2021_3t_csv/conjunto_de_datos_CB_ENSU_09_2021/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_09_2021.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,653 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-08 18:10:19,654 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_02_2017_csv/conjunto_de_datos_cb_ensu_02_2017/conjunto_de_datos/._conjunto_de_datos_cb_ensu_02_2017.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,654 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-08 18:10:19,654 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_03_2017_csv/conjunto_de_datos_cb_ensu_03_2017/conjunto_de_datos/._conjunto_de_datos_cb_ensu_03_2017.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,654 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_03_2016.csv
+2025-09-08 18:10:19,654 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_03_2016_csv/conjunto_de_datos_cb_ensu_03_2016/conjunto_de_datos/._conjunto_de_datos_cb_ensu_03_2016.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,654 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_02_2016.csv
+2025-09-08 18:10:19,654 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_02_2016_csv/conjunto_de_datos_cb_ensu_02_2016/conjunto_de_datos/._conjunto_de_datos_cb_ensu_02_2016.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,654 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:10:19,654 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2023_2t_csv/conjunto_de_datos_ensu_cb_0623/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0623.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,654 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:10:19,655 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ENSU_2019_1t_csv/conjunto_de_datos_cb_ensu_03_2019/conjunto_de_datos/._conjunto_de_datos_cb_ensu_03_2019.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,655 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:10:19,655 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2024_3t_csv/conjunto_de_datos_ensu_cb_0924/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0924.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,655 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:10:19,655 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2020_4t_csv/conjunto_de_datos_CB_ENSU_12_2020/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_12_2020.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,655 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:10:19,655 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2023_1t_csv/conjunto_de_datos_CB_ENSU_03_2023/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_03_2023.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,655 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_02_2015.csv
+2025-09-08 18:10:19,655 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_02_2015/conjunto_de_datos_cb_ensu_02_2015/conjunto_de_datos/._conjunto_de_datos_cb_ensu_02_2015.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,655 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_03_2015.csv
+2025-09-08 18:10:19,655 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_03_2015/conjunto_de_datos_cb_ensu_03_2015/conjunto_de_datos/._conjunto_de_datos_cb_ensu_03_2015.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,655 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:10:19,656 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2022_4t_csv/conjunto_de_datos_ensu_cb_1222/conjunto_de_datos/._conjunto_de_datos_ensu_cb_1222.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,656 - DEBUG - Validando: ._conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:10:19,656 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2018_4t_csv/conjunto_de_datos_cb_ensu_04_2018/conjunto_de_datos/._conjunto_de_datos_cb_ENSU_04_2018.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,656 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:10:19,656 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2024_2t_csv/conjunto_de_datos_ensu_cb_0624/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0624.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,656 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:10:19,656 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2021_1t_csv/conjunto_de_datos_CB_ENSU_03_2021/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_03_2021.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,656 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-08 18:10:19,656 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_01_2017_csv/conjunto_de_datos_cb_ensu_01_2017/conjunto_de_datos/._conjunto_de_datos_cb_ensu_01_2017.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,656 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_04_2015.csv
+2025-09-08 18:10:19,657 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_04_2015/conjunto_de_datos_cb_ensu_04_2015/conjunto_de_datos/._conjunto_de_datos_cb_ensu_04_2015.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,657 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_01_2016.csv
+2025-09-08 18:10:19,657 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_01_2016_csv/conjunto_de_datos_cb_ensu_01_2016/conjunto_de_datos/._conjunto_de_datos_cb_ensu_01_2016.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,657 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:10:19,657 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2025_1t_csv/conjunto_de_datos_ensu_cb_0325/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0325.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,657 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:10:19,657 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2018_3t_csv/conjunto_de_datos_cb_ensu_03_2018/conjunto_de_datos/._conjunto_de_datos_cb_ensu_03_2018.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,657 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:10:19,657 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2022_3t_csv/conjunto_de_datos_ensu_cb_0922/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0922.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,657 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:10:19,658 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2022_2t_csv/conjunto_de_datos_ensu_cb_0622/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0622.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,658 - DEBUG - Validando: ._conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-08 18:10:19,658 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC4_ENSU_09_2020/conjunto_de_datos/._conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,658 - DEBUG - Validando: ._conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:10:19,658 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020/conjunto_de_datos/._conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,658 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:10:19,658 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2024_4t_csv/conjunto_de_datos_ensu_cb_1224/conjunto_de_datos/._conjunto_de_datos_ensu_cb_1224.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:10:19,658 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:10:19,660 - DEBUG - Validando: conjunto_de_datos_cb_ensu_02_2015.csv
+2025-09-08 18:10:19,661 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_02_2015/conjunto_de_datos_cb_ensu_02_2015/conjunto_de_datos/conjunto_de_datos_cb_ensu_02_2015.csv: {'NOM_ENT', 'BP1_1', 'NOM_MUN'}
+2025-09-08 18:10:19,661 - DEBUG - Validando: conjunto_de_datos_cb_ensu_03_2015.csv
+2025-09-08 18:10:19,663 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_03_2015/conjunto_de_datos_cb_ensu_03_2015/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2015.csv: {'NOM_ENT', 'BP1_1', 'NOM_MUN'}
+2025-09-08 18:10:19,663 - DEBUG - Validando: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:10:19,664 - DEBUG - Validando: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:10:19,667 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:10:19,667 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:10:19,668 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:10:19,670 - DEBUG - Validando: conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-08 18:10:19,672 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:10:19,672 - DEBUG - Validando: conjunto_de_datos_cb_ensu_04_2015.csv
+2025-09-08 18:10:19,674 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_04_2015/conjunto_de_datos_cb_ensu_04_2015/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2015.csv: {'NOM_ENT', 'BP1_1', 'NOM_MUN'}
+2025-09-08 18:10:19,674 - DEBUG - Validando: conjunto_de_datos_cb_ensu_01_2016.csv
+2025-09-08 18:10:19,676 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_01_2016_csv/conjunto_de_datos_cb_ensu_01_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_01_2016.csv: {'NOM_ENT', 'NOM_MUN'}
+2025-09-08 18:10:19,676 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:10:19,678 - DEBUG - Validando: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:10:19,681 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:10:19,681 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:10:19,683 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:10:19,685 - DEBUG - Validando: conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-08 18:10:19,686 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC4_ENSU_09_2020/conjunto_de_datos/conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv: {'BP1_1'}
+2025-09-08 18:10:19,686 - DEBUG - Validando: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:10:19,689 - DEBUG - Validando: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:10:19,690 - WARNING - Duplicados detectados: ['2017_T7']
+2025-09-08 18:10:19,690 - INFO - Resolviendo duplicados para 2017_T7
+2025-09-08 18:10:19,694 - DEBUG - Registros de Yucatán en data/conjunto_de_datos_ensu_04_2017_csv/conjunto_de_datos_cb_ensu_04_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2017.csv: 0
+2025-09-08 18:10:19,697 - DEBUG - Registros de Yucatán en data/conjunto_de_datos_ensu_02_2017_csv/conjunto_de_datos_cb_ensu_02_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_02_2017.csv: 0
+2025-09-08 18:10:19,700 - DEBUG - Registros de Yucatán en data/conjunto_de_datos_ensu_03_2017_csv/conjunto_de_datos_cb_ensu_03_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2017.csv: 0
+2025-09-08 18:10:19,703 - DEBUG - Registros de Yucatán en data/conjunto_de_datos_ensu_01_2017_csv/conjunto_de_datos_cb_ensu_01_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_01_2017.csv: 0
+2025-09-08 18:10:19,703 - INFO - Archivo seleccionado: conjunto_de_datos_cb_ensu_04_2017.csv (0 registros de Yucatán)
+2025-09-08 18:10:19,703 - INFO - Archivos válidos: 32
+2025-09-08 18:10:19,704 - INFO - Archivos inválidos: 48
+2025-09-08 18:10:19,704 - INFO - Archivos finales (sin duplicados): 29
+2025-09-08 18:10:19,705 - INFO - Resultados guardados en: temp/archivos_validados.json
+2025-09-08 18:10:19,705 - INFO - === RESUMEN FASE 2 ===
+2025-09-08 18:10:19,705 - INFO - Total archivos principales: 80
+2025-09-08 18:10:19,705 - INFO - Archivos válidos: 29
+2025-09-08 18:10:19,705 - INFO - Archivos duplicados eliminados: 3
+2025-09-08 18:10:19,705 - INFO - Archivos inválidos: 48
+2025-09-08 18:10:19,705 - INFO - Trimestres disponibles:
+2025-09-08 18:10:19,705 - INFO -   - 2022 T1: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:10:19,705 - INFO -   - 2017 T7: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:10:19,705 - INFO -   - 2016 T7: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:10:19,705 - INFO -   - 2021 T4: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:10:19,705 - INFO -   - 2019 T7: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:10:19,705 - INFO -   - 2025 T2: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:10:19,705 - INFO -   - 2019 T4: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:10:19,705 - INFO -   - 2020 T1: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:10:19,705 - INFO -   - 2023 T4: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:10:19,705 - INFO -   - 2023 T3: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:10:19,705 - INFO -   - 2024 T1: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:10:19,705 - INFO -   - 2021 T2: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:10:19,705 - INFO -   - 2019 T2: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:10:19,705 - INFO -   - 2021 T3: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:10:19,705 - INFO -   - 2023 T2: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:10:19,705 - INFO -   - 2019 T1: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:10:19,705 - INFO -   - 2024 T3: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:10:19,705 - INFO -   - 2020 T4: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:10:19,705 - INFO -   - 2023 T1: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:10:19,705 - INFO -   - 2022 T4: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:10:19,705 - INFO -   - 2018 T4: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:10:19,705 - INFO -   - 2024 T2: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:10:19,705 - INFO -   - 2021 T1: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:10:19,705 - INFO -   - 2025 T1: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:10:19,705 - INFO -   - 2018 T3: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:10:19,705 - INFO -   - 2022 T3: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:10:19,705 - INFO -   - 2022 T2: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:10:19,705 - INFO -   - 2020 T3: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:10:19,705 - INFO -   - 2024 T4: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:20:01,937 - INFO - === FASE 2: VALIDACIÓN ===
+2025-09-08 18:20:01,948 - INFO - Archivos a validar: 11452
+2025-09-08 18:20:01,949 - INFO - Archivos principales de datos encontrados: 80
+2025-09-08 18:20:01,949 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:20:01,955 - DEBUG - Validando: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:20:01,957 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:20:01,957 - DEBUG - Validando: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:20:01,960 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:20:01,960 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:20:01,962 - DEBUG - Validando: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:20:01,964 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:20:01,964 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:20:01,966 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:20:01,968 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:20:01,968 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:20:01,970 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:20:01,970 - DEBUG - Validando: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:20:01,972 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:20:01,975 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:20:01,976 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:20:01,978 - DEBUG - Validando: conjunto_de_datos_cb_ensu_01_2015.csv
+2025-09-08 18:20:01,979 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_01_2015/conjunto_de_datos_cb_ensu_01_2015/conjunto_de_datos/conjunto_de_datos_cb_ensu_01_2015.csv: {'BP1_1', 'NOM_MUN', 'NOM_ENT'}
+2025-09-08 18:20:01,980 - DEBUG - Validando: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:20:01,981 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:20:01,981 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:20:01,984 - DEBUG - Validando: conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-08 18:20:01,986 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:20:01,986 - DEBUG - Validando: conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-08 18:20:01,988 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:20:01,989 - DEBUG - Validando: conjunto_de_datos_cb_ensu_03_2016.csv
+2025-09-08 18:20:01,991 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_03_2016_csv/conjunto_de_datos_cb_ensu_03_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2016.csv: {'NOM_MUN', 'NOM_ENT'}
+2025-09-08 18:20:01,991 - DEBUG - Validando: conjunto_de_datos_cb_ensu_02_2016.csv
+2025-09-08 18:20:01,993 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_02_2016_csv/conjunto_de_datos_cb_ensu_02_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_02_2016.csv: {'NOM_MUN', 'NOM_ENT'}
+2025-09-08 18:20:01,993 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:20:01,995 - DEBUG - Validando: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:20:01,997 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:20:01,997 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:20:01,999 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:20:02,002 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:20:02,002 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2022_1t_csv/conjunto_de_datos_ensu_cb_0322/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0322.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,002 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:20:02,002 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_04_2017_csv/conjunto_de_datos_cb_ensu_04_2017/conjunto_de_datos/._conjunto_de_datos_cb_ensu_04_2017.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,002 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:20:02,003 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_04_2016_csv/conjunto_de_datos_cb_ensu_04_2016/conjunto_de_datos/._conjunto_de_datos_cb_ensu_04_2016.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,003 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:20:02,003 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2021_4t_csv/conjunto_de_datos_CB_ENSU_12_2021/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_12_2021.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,003 - DEBUG - Validando: ._conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:20:02,003 - ERROR - Error al validar data/__MACOSX/Datos abiertos/conjunto_de_datos_CB_ENSU_03_2019/conjunto_de_datos/._conjunto_de_datos_cb_ENSU_03_2019.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,003 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:20:02,003 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2025_2t_csv/conjunto_de_datos_ensu_cb_0625/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0625.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,003 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:20:02,004 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2019_4t_csv/conjunto_de_datos_CB_ENSU_04_2019/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_04_2019.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,004 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:20:02,004 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2020_1t_csv/conjunto_de_datos_CB_ENSU_01_2020/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_01_2020.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,004 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:20:02,004 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2023_4t_csv/conjunto_de_datos_ensu_cb_1223/conjunto_de_datos/._conjunto_de_datos_ensu_cb_1223.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,004 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:20:02,004 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2023_3t_csv/conjunto_de_datos_ensu_cb_0923/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0923.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,004 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:20:02,005 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2024_1t_csv/conjunto_de_datos_ensu_cb_0324/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0324.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,005 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:20:02,005 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2021_2t_csv/conjunto_de_datos_CB_ENSU_06_2021/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_06_2021.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,005 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_01_2015.csv
+2025-09-08 18:20:02,005 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_01_2015/conjunto_de_datos_cb_ensu_01_2015/conjunto_de_datos/._conjunto_de_datos_cb_ensu_01_2015.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,005 - DEBUG - Validando: ._conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:20:02,005 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2019_2t_csv/conjunto_de_datos_cb_ENSU_2019_2t/conjunto_de_datos/._conjunto_de_datos_cb_ENSU_2019_2t.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,005 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:20:02,005 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2021_3t_csv/conjunto_de_datos_CB_ENSU_09_2021/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_09_2021.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,005 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-08 18:20:02,006 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_02_2017_csv/conjunto_de_datos_cb_ensu_02_2017/conjunto_de_datos/._conjunto_de_datos_cb_ensu_02_2017.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,006 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-08 18:20:02,006 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_03_2017_csv/conjunto_de_datos_cb_ensu_03_2017/conjunto_de_datos/._conjunto_de_datos_cb_ensu_03_2017.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,006 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_03_2016.csv
+2025-09-08 18:20:02,006 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_03_2016_csv/conjunto_de_datos_cb_ensu_03_2016/conjunto_de_datos/._conjunto_de_datos_cb_ensu_03_2016.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,006 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_02_2016.csv
+2025-09-08 18:20:02,006 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_02_2016_csv/conjunto_de_datos_cb_ensu_02_2016/conjunto_de_datos/._conjunto_de_datos_cb_ensu_02_2016.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,006 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:20:02,006 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2023_2t_csv/conjunto_de_datos_ensu_cb_0623/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0623.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,006 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:20:02,007 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ENSU_2019_1t_csv/conjunto_de_datos_cb_ensu_03_2019/conjunto_de_datos/._conjunto_de_datos_cb_ensu_03_2019.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,007 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:20:02,007 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2024_3t_csv/conjunto_de_datos_ensu_cb_0924/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0924.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,007 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:20:02,007 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2020_4t_csv/conjunto_de_datos_CB_ENSU_12_2020/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_12_2020.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,007 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:20:02,007 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2023_1t_csv/conjunto_de_datos_CB_ENSU_03_2023/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_03_2023.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,007 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_02_2015.csv
+2025-09-08 18:20:02,007 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_02_2015/conjunto_de_datos_cb_ensu_02_2015/conjunto_de_datos/._conjunto_de_datos_cb_ensu_02_2015.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,007 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_03_2015.csv
+2025-09-08 18:20:02,008 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_03_2015/conjunto_de_datos_cb_ensu_03_2015/conjunto_de_datos/._conjunto_de_datos_cb_ensu_03_2015.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,008 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:20:02,008 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2022_4t_csv/conjunto_de_datos_ensu_cb_1222/conjunto_de_datos/._conjunto_de_datos_ensu_cb_1222.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,008 - DEBUG - Validando: ._conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:20:02,008 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2018_4t_csv/conjunto_de_datos_cb_ensu_04_2018/conjunto_de_datos/._conjunto_de_datos_cb_ENSU_04_2018.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,008 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:20:02,008 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2024_2t_csv/conjunto_de_datos_ensu_cb_0624/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0624.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,008 - DEBUG - Validando: ._conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:20:02,008 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2021_1t_csv/conjunto_de_datos_CB_ENSU_03_2021/conjunto_de_datos/._conjunto_de_datos_CB_ENSU_03_2021.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,008 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-08 18:20:02,009 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_01_2017_csv/conjunto_de_datos_cb_ensu_01_2017/conjunto_de_datos/._conjunto_de_datos_cb_ensu_01_2017.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,009 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_04_2015.csv
+2025-09-08 18:20:02,009 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_04_2015/conjunto_de_datos_cb_ensu_04_2015/conjunto_de_datos/._conjunto_de_datos_cb_ensu_04_2015.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,009 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_01_2016.csv
+2025-09-08 18:20:02,009 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_01_2016_csv/conjunto_de_datos_cb_ensu_01_2016/conjunto_de_datos/._conjunto_de_datos_cb_ensu_01_2016.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,009 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:20:02,009 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2025_1t_csv/conjunto_de_datos_ensu_cb_0325/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0325.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,009 - DEBUG - Validando: ._conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:20:02,009 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2018_3t_csv/conjunto_de_datos_cb_ensu_03_2018/conjunto_de_datos/._conjunto_de_datos_cb_ensu_03_2018.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,009 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:20:02,010 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2022_3t_csv/conjunto_de_datos_ensu_cb_0922/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0922.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,010 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:20:02,010 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2022_2t_csv/conjunto_de_datos_ensu_cb_0622/conjunto_de_datos/._conjunto_de_datos_ensu_cb_0622.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,010 - DEBUG - Validando: ._conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-08 18:20:02,010 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC4_ENSU_09_2020/conjunto_de_datos/._conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,010 - DEBUG - Validando: ._conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:20:02,010 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020/conjunto_de_datos/._conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,010 - DEBUG - Validando: ._conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:20:02,010 - ERROR - Error al validar data/__MACOSX/conjunto_de_datos_ensu_2024_4t_csv/conjunto_de_datos_ensu_cb_1224/conjunto_de_datos/._conjunto_de_datos_ensu_cb_1224.csv: 'utf-8' codec can't decode byte 0xa2 in position 37: invalid start byte
+2025-09-08 18:20:02,010 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:20:02,012 - DEBUG - Validando: conjunto_de_datos_cb_ensu_02_2015.csv
+2025-09-08 18:20:02,014 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_02_2015/conjunto_de_datos_cb_ensu_02_2015/conjunto_de_datos/conjunto_de_datos_cb_ensu_02_2015.csv: {'BP1_1', 'NOM_MUN', 'NOM_ENT'}
+2025-09-08 18:20:02,014 - DEBUG - Validando: conjunto_de_datos_cb_ensu_03_2015.csv
+2025-09-08 18:20:02,015 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_03_2015/conjunto_de_datos_cb_ensu_03_2015/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2015.csv: {'BP1_1', 'NOM_MUN', 'NOM_ENT'}
+2025-09-08 18:20:02,015 - DEBUG - Validando: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:20:02,017 - DEBUG - Validando: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:20:02,019 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:20:02,019 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:20:02,021 - DEBUG - Validando: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:20:02,023 - DEBUG - Validando: conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-08 18:20:02,025 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:20:02,025 - DEBUG - Validando: conjunto_de_datos_cb_ensu_04_2015.csv
+2025-09-08 18:20:02,026 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_04_2015/conjunto_de_datos_cb_ensu_04_2015/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2015.csv: {'BP1_1', 'NOM_MUN', 'NOM_ENT'}
+2025-09-08 18:20:02,026 - DEBUG - Validando: conjunto_de_datos_cb_ensu_01_2016.csv
+2025-09-08 18:20:02,028 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_01_2016_csv/conjunto_de_datos_cb_ensu_01_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_01_2016.csv: {'NOM_MUN', 'NOM_ENT'}
+2025-09-08 18:20:02,028 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:20:02,030 - DEBUG - Validando: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:20:02,033 - INFO - Columnas opcionales faltantes (no afecta procesamiento): {'NOM_CD'}
+2025-09-08 18:20:02,033 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:20:02,035 - DEBUG - Validando: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:20:02,037 - DEBUG - Validando: conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-08 18:20:02,039 - WARNING - Columnas requeridas faltantes en data/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC4_ENSU_09_2020/conjunto_de_datos/conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv: {'BP1_1'}
+2025-09-08 18:20:02,039 - DEBUG - Validando: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:20:02,041 - DEBUG - Validando: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:20:02,043 - WARNING - Duplicados detectados: ['2017_T7']
+2025-09-08 18:20:02,043 - INFO - Resolviendo duplicados para 2017_T7
+2025-09-08 18:20:02,046 - DEBUG - Registros de Yucatán en data/conjunto_de_datos_ensu_04_2017_csv/conjunto_de_datos_cb_ensu_04_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2017.csv: 0
+2025-09-08 18:20:02,052 - DEBUG - Registros de Yucatán en data/conjunto_de_datos_ensu_02_2017_csv/conjunto_de_datos_cb_ensu_02_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_02_2017.csv: 0
+2025-09-08 18:20:02,055 - DEBUG - Registros de Yucatán en data/conjunto_de_datos_ensu_03_2017_csv/conjunto_de_datos_cb_ensu_03_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2017.csv: 0
+2025-09-08 18:20:02,059 - DEBUG - Registros de Yucatán en data/conjunto_de_datos_ensu_01_2017_csv/conjunto_de_datos_cb_ensu_01_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_01_2017.csv: 0
+2025-09-08 18:20:02,059 - INFO - Archivo seleccionado: conjunto_de_datos_cb_ensu_04_2017.csv (0 registros de Yucatán)
+2025-09-08 18:20:02,059 - INFO - Archivos válidos: 32
+2025-09-08 18:20:02,059 - INFO - Archivos inválidos: 48
+2025-09-08 18:20:02,059 - INFO - Archivos finales (sin duplicados): 29
+2025-09-08 18:20:02,060 - INFO - Resultados guardados en: temp/archivos_validados.json
+2025-09-08 18:20:02,060 - INFO - === RESUMEN FASE 2 ===
+2025-09-08 18:20:02,060 - INFO - Total archivos principales: 80
+2025-09-08 18:20:02,060 - INFO - Archivos válidos: 29
+2025-09-08 18:20:02,060 - INFO - Archivos duplicados eliminados: 3
+2025-09-08 18:20:02,060 - INFO - Archivos inválidos: 48
+2025-09-08 18:20:02,060 - INFO - Trimestres disponibles:
+2025-09-08 18:20:02,060 - INFO -   - 2022 T1: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:20:02,060 - INFO -   - 2017 T7: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:20:02,060 - INFO -   - 2016 T7: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:20:02,060 - INFO -   - 2021 T4: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:20:02,060 - INFO -   - 2019 T7: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:20:02,060 - INFO -   - 2025 T2: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:20:02,060 - INFO -   - 2019 T4: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:20:02,060 - INFO -   - 2020 T1: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:20:02,060 - INFO -   - 2023 T4: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:20:02,060 - INFO -   - 2023 T3: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:20:02,060 - INFO -   - 2024 T1: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:20:02,060 - INFO -   - 2021 T2: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:20:02,060 - INFO -   - 2019 T2: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:20:02,060 - INFO -   - 2021 T3: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:20:02,060 - INFO -   - 2023 T2: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:20:02,060 - INFO -   - 2019 T1: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:20:02,060 - INFO -   - 2024 T3: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:20:02,060 - INFO -   - 2020 T4: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:20:02,060 - INFO -   - 2023 T1: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:20:02,060 - INFO -   - 2022 T4: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:20:02,060 - INFO -   - 2018 T4: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:20:02,060 - INFO -   - 2024 T2: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:20:02,060 - INFO -   - 2021 T1: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:20:02,060 - INFO -   - 2025 T1: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:20:02,060 - INFO -   - 2018 T3: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:20:02,060 - INFO -   - 2022 T3: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:20:02,060 - INFO -   - 2022 T2: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:20:02,060 - INFO -   - 2020 T3: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:20:02,060 - INFO -   - 2024 T4: conjunto_de_datos_ensu_cb_1224.csv

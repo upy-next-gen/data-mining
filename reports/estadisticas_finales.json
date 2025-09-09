@@ -1,0 +1,434 @@
+{
+  "fecha_generacion": "2025-09-08T18:21:14.309039",
+  "estadisticas_globales": {
+    "total_registros": 111,
+    "años_cubiertos": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "trimestres_totales": 29,
+    "municipios_unicos": 18,
+    "ciudades_unicas": 5,
+    "total_respuestas_seguro": 5489,
+    "total_respuestas_inseguro": 2161,
+    "total_no_responde": 3,
+    "promedio_pct_seguros": 61.22,
+    "promedio_pct_inseguros": 38.76,
+    "estadisticas_por_año": [
+      {
+        "año": 2016,
+        "trimestres": 1,
+        "registros": 4,
+        "promedio_pct_seguros": 52.07,
+        "promedio_pct_inseguros": 47.93
+      },
+      {
+        "año": 2017,
+        "trimestres": 1,
+        "registros": 4,
+        "promedio_pct_seguros": 64.2,
+        "promedio_pct_inseguros": 35.8
+      },
+      {
+        "año": 2018,
+        "trimestres": 2,
+        "registros": 8,
+        "promedio_pct_seguros": 55.22,
+        "promedio_pct_inseguros": 44.78
+      },
+      {
+        "año": 2019,
+        "trimestres": 4,
+        "registros": 16,
+        "promedio_pct_seguros": 64.76,
+        "promedio_pct_inseguros": 35.18
+      },
+      {
+        "año": 2020,
+        "trimestres": 3,
+        "registros": 12,
+        "promedio_pct_seguros": 63.91,
+        "promedio_pct_inseguros": 36.09
+      },
+      {
+        "año": 2021,
+        "trimestres": 4,
+        "registros": 16,
+        "promedio_pct_seguros": 55.5,
+        "promedio_pct_inseguros": 44.5
+      },
+      {
+        "año": 2022,
+        "trimestres": 4,
+        "registros": 16,
+        "promedio_pct_seguros": 66.12,
+        "promedio_pct_inseguros": 33.88
+      },
+      {
+        "año": 2023,
+        "trimestres": 4,
+        "registros": 12,
+        "promedio_pct_seguros": 63.88,
+        "promedio_pct_inseguros": 36.08
+      },
+      {
+        "año": 2024,
+        "trimestres": 4,
+        "registros": 15,
+        "promedio_pct_seguros": 63.44,
+        "promedio_pct_inseguros": 36.56
+      },
+      {
+        "año": 2025,
+        "trimestres": 2,
+        "registros": 8,
+        "promedio_pct_seguros": 52.73,
+        "promedio_pct_inseguros": 47.27
+      }
+    ],
+    "municipio_mas_seguro": {
+      "nombre": "MERIDA\r",
+      "pct_promedio_seguros": 78.63
+    },
+    "municipio_mas_inseguro": {
+      "nombre": "Kanasín\r",
+      "pct_promedio_inseguros": 80.95
+    }
+  },
+  "resumen_procesamiento": {
+    "fecha_procesamiento": "2025-09-08T18:20:52.947179",
+    "total_archivos": 29,
+    "archivos_exitosos": 29,
+    "archivos_con_error": 0,
+    "archivos_sin_datos": 0,
+    "resultados": [
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_0322.csv",
+        "registros_totales": 23577,
+        "registros_yucatan": 272,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2022_T1_CB.csv",
+        "trimestre": {
+          "año": 2022,
+          "trimestre": 1
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_cb_ensu_04_2017.csv",
+        "registros_totales": 15072,
+        "registros_yucatan": 261,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2017_T7_CB.csv",
+        "trimestre": {
+          "año": 2017,
+          "trimestre": 7
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_cb_ensu_04_2016.csv",
+        "registros_totales": 13976,
+        "registros_yucatan": 257,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2016_T7_CB.csv",
+        "trimestre": {
+          "año": 2016,
+          "trimestre": 7
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_CB_ENSU_12_2021.csv",
+        "registros_totales": 23428,
+        "registros_yucatan": 268,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2021_T4_CB.csv",
+        "trimestre": {
+          "año": 2021,
+          "trimestre": 4
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_cb_ENSU_03_2019.csv",
+        "registros_totales": 22392,
+        "registros_yucatan": 270,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2019_T7_CB.csv",
+        "trimestre": {
+          "año": 2019,
+          "trimestre": 7
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_0625.csv",
+        "registros_totales": 23717,
+        "registros_yucatan": 255,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2025_T2_CB.csv",
+        "trimestre": {
+          "año": 2025,
+          "trimestre": 2
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_CB_ENSU_04_2019.csv",
+        "registros_totales": 22158,
+        "registros_yucatan": 261,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2019_T4_CB.csv",
+        "trimestre": {
+          "año": 2019,
+          "trimestre": 4
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_CB_ENSU_01_2020.csv",
+        "registros_totales": 22416,
+        "registros_yucatan": 264,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2020_T1_CB.csv",
+        "trimestre": {
+          "año": 2020,
+          "trimestre": 1
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_1223.csv",
+        "registros_totales": 24064,
+        "registros_yucatan": 268,
+        "municipios": 3,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2023_T4_CB.csv",
+        "trimestre": {
+          "año": 2023,
+          "trimestre": 4
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_0923.csv",
+        "registros_totales": 24493,
+        "registros_yucatan": 267,
+        "municipios": 3,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2023_T3_CB.csv",
+        "trimestre": {
+          "año": 2023,
+          "trimestre": 3
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_0324.csv",
+        "registros_totales": 24022,
+        "registros_yucatan": 257,
+        "municipios": 3,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2024_T1_CB.csv",
+        "trimestre": {
+          "año": 2024,
+          "trimestre": 1
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_CB_ENSU_06_2021.csv",
+        "registros_totales": 22411,
+        "registros_yucatan": 268,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2021_T2_CB.csv",
+        "trimestre": {
+          "año": 2021,
+          "trimestre": 2
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_cb_ENSU_2019_2t.csv",
+        "registros_totales": 19010,
+        "registros_yucatan": 265,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2019_T2_CB.csv",
+        "trimestre": {
+          "año": 2019,
+          "trimestre": 2
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_CB_ENSU_09_2021.csv",
+        "registros_totales": 23356,
+        "registros_yucatan": 267,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2021_T3_CB.csv",
+        "trimestre": {
+          "año": 2021,
+          "trimestre": 3
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_0623.csv",
+        "registros_totales": 24435,
+        "registros_yucatan": 271,
+        "municipios": 3,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2023_T2_CB.csv",
+        "trimestre": {
+          "año": 2023,
+          "trimestre": 2
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_cb_ensu_03_2019.csv",
+        "registros_totales": 18113,
+        "registros_yucatan": 263,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2019_T1_CB.csv",
+        "trimestre": {
+          "año": 2019,
+          "trimestre": 1
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_0924.csv",
+        "registros_totales": 24096,
+        "registros_yucatan": 258,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2024_T3_CB.csv",
+        "trimestre": {
+          "año": 2024,
+          "trimestre": 3
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_CB_ENSU_12_2020.csv",
+        "registros_totales": 22283,
+        "registros_yucatan": 264,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2020_T4_CB.csv",
+        "trimestre": {
+          "año": 2020,
+          "trimestre": 4
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_CB_ENSU_03_2023.csv",
+        "registros_totales": 23778,
+        "registros_yucatan": 262,
+        "municipios": 3,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2023_T1_CB.csv",
+        "trimestre": {
+          "año": 2023,
+          "trimestre": 1
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_1222.csv",
+        "registros_totales": 24402,
+        "registros_yucatan": 262,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2022_T4_CB.csv",
+        "trimestre": {
+          "año": 2022,
+          "trimestre": 4
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_cb_ENSU_04_2018.csv",
+        "registros_totales": 18017,
+        "registros_yucatan": 269,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2018_T4_CB.csv",
+        "trimestre": {
+          "año": 2018,
+          "trimestre": 4
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_0624.csv",
+        "registros_totales": 24114,
+        "registros_yucatan": 256,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2024_T2_CB.csv",
+        "trimestre": {
+          "año": 2024,
+          "trimestre": 2
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_CB_ENSU_03_2021.csv",
+        "registros_totales": 22307,
+        "registros_yucatan": 265,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2021_T1_CB.csv",
+        "trimestre": {
+          "año": 2021,
+          "trimestre": 1
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_0325.csv",
+        "registros_totales": 23591,
+        "registros_yucatan": 258,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2025_T1_CB.csv",
+        "trimestre": {
+          "año": 2025,
+          "trimestre": 1
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_cb_ensu_03_2018.csv",
+        "registros_totales": 20163,
+        "registros_yucatan": 265,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2018_T3_CB.csv",
+        "trimestre": {
+          "año": 2018,
+          "trimestre": 3
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_0922.csv",
+        "registros_totales": 23618,
+        "registros_yucatan": 263,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2022_T3_CB.csv",
+        "trimestre": {
+          "año": 2022,
+          "trimestre": 3
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_0622.csv",
+        "registros_totales": 23688,
+        "registros_yucatan": 275,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2022_T2_CB.csv",
+        "trimestre": {
+          "año": 2022,
+          "trimestre": 2
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv",
+        "registros_totales": 22122,
+        "registros_yucatan": 262,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2020_T3_CB.csv",
+        "trimestre": {
+          "año": 2020,
+          "trimestre": 3
+        }
+      },
+      {
+        "archivo": "conjunto_de_datos_ensu_cb_1224.csv",
+        "registros_totales": 23451,
+        "registros_yucatan": 260,
+        "municipios": 4,
+        "archivo_guardado": "data/yucatan_processed/yucatan_2024_T4_CB.csv",
+        "trimestre": {
+          "año": 2024,
+          "trimestre": 4
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1017 @@
+2025-09-08 18:10:55,765 - INFO - === FASE 4: PROCESAMIENTO PRINCIPAL ===
+2025-09-08 18:10:55,765 - INFO - Archivos a procesar: 29
+2025-09-08 18:10:55,765 - INFO - 
+[1/29] Procesando: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:10:55,765 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:10:55,765 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2022_1t_csv/conjunto_de_datos_ensu_cb_0322/conjunto_de_datos/conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:10:55,765 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:55,881 - INFO -   - Filas totales: 23577
+2025-09-08 18:10:55,882 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:55,891 - INFO -   - Registros de Yucatán: 272
+2025-09-08 18:10:55,891 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:55,892 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:55,894 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2022_T1_CB.csv
+2025-09-08 18:10:55,894 - INFO - 
+[2/29] Procesando: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:10:55,894 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:10:55,894 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_04_2017_csv/conjunto_de_datos_cb_ensu_04_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:10:55,894 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:55,978 - INFO -   - Filas totales: 15072
+2025-09-08 18:10:55,978 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:10:55,978 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:55,983 - INFO -   - Registros de Yucatán: 261
+2025-09-08 18:10:55,983 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:55,984 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:55,985 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2017_T7_CB.csv
+2025-09-08 18:10:55,985 - INFO - 
+[3/29] Procesando: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:10:55,985 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:10:55,985 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_04_2016_csv/conjunto_de_datos_cb_ensu_04_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:10:55,985 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:56,065 - INFO -   - Filas totales: 13976
+2025-09-08 18:10:56,065 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:10:56,065 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:56,070 - INFO -   - Registros de Yucatán: 257
+2025-09-08 18:10:56,070 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:56,070 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:56,071 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2016_T7_CB.csv
+2025-09-08 18:10:56,071 - INFO - 
+[4/29] Procesando: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:10:56,071 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:10:56,071 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2021_4t_csv/conjunto_de_datos_CB_ENSU_12_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:10:56,071 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:56,215 - INFO -   - Filas totales: 23428
+2025-09-08 18:10:56,215 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:56,222 - INFO -   - Registros de Yucatán: 268
+2025-09-08 18:10:56,222 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:56,223 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:56,224 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2021_T4_CB.csv
+2025-09-08 18:10:56,224 - INFO - 
+[5/29] Procesando: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:10:56,224 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:10:56,224 - DEBUG - Ruta completa: data/Datos abiertos/conjunto_de_datos_CB_ENSU_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:10:56,224 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:56,350 - INFO -   - Filas totales: 22392
+2025-09-08 18:10:56,350 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:10:56,351 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:56,357 - INFO -   - Registros de Yucatán: 270
+2025-09-08 18:10:56,357 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:56,358 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:56,358 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2019_T7_CB.csv
+2025-09-08 18:10:56,358 - INFO - 
+[6/29] Procesando: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:10:56,358 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:10:56,358 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2025_2t_csv/conjunto_de_datos_ensu_cb_0625/conjunto_de_datos/conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:10:56,358 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:56,540 - INFO -   - Filas totales: 23717
+2025-09-08 18:10:56,540 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:56,546 - INFO -   - Registros de Yucatán: 255
+2025-09-08 18:10:56,547 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:56,547 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:56,548 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2025_T2_CB.csv
+2025-09-08 18:10:56,548 - INFO - 
+[7/29] Procesando: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:10:56,548 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:10:56,548 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2019_4t_csv/conjunto_de_datos_CB_ENSU_04_2019/conjunto_de_datos/conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:10:56,548 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:56,676 - INFO -   - Filas totales: 22158
+2025-09-08 18:10:56,676 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:10:56,676 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:56,682 - INFO -   - Registros de Yucatán: 261
+2025-09-08 18:10:56,682 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:56,698 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:56,699 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2019_T4_CB.csv
+2025-09-08 18:10:56,699 - INFO - 
+[8/29] Procesando: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:10:56,699 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:10:56,699 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2020_1t_csv/conjunto_de_datos_CB_ENSU_01_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:10:56,699 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:56,821 - INFO -   - Filas totales: 22416
+2025-09-08 18:10:56,821 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:10:56,821 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:56,828 - INFO -   - Registros de Yucatán: 264
+2025-09-08 18:10:56,828 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:56,828 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:56,829 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2020_T1_CB.csv
+2025-09-08 18:10:56,829 - INFO - 
+[9/29] Procesando: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:10:56,829 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:10:56,829 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2023_4t_csv/conjunto_de_datos_ensu_cb_1223/conjunto_de_datos/conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:10:56,829 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:56,943 - INFO -   - Filas totales: 24064
+2025-09-08 18:10:56,943 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:56,949 - INFO -   - Registros de Yucatán: 268
+2025-09-08 18:10:56,949 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:56,950 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:10:56,951 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2023_T4_CB.csv
+2025-09-08 18:10:56,951 - INFO - 
+[10/29] Procesando: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:10:56,951 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:10:56,951 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2023_3t_csv/conjunto_de_datos_ensu_cb_0923/conjunto_de_datos/conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:10:56,951 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:57,177 - INFO -   - Filas totales: 24493
+2025-09-08 18:10:57,178 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:57,185 - INFO -   - Registros de Yucatán: 267
+2025-09-08 18:10:57,185 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:57,186 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:10:57,187 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2023_T3_CB.csv
+2025-09-08 18:10:57,187 - INFO - 
+[11/29] Procesando: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:10:57,187 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:10:57,187 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2024_1t_csv/conjunto_de_datos_ensu_cb_0324/conjunto_de_datos/conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:10:57,187 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:57,299 - INFO -   - Filas totales: 24022
+2025-09-08 18:10:57,299 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:57,306 - INFO -   - Registros de Yucatán: 257
+2025-09-08 18:10:57,306 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:57,307 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:10:57,308 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2024_T1_CB.csv
+2025-09-08 18:10:57,308 - INFO - 
+[12/29] Procesando: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:10:57,308 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:10:57,308 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2021_2t_csv/conjunto_de_datos_CB_ENSU_06_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:10:57,308 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:57,441 - INFO -   - Filas totales: 22411
+2025-09-08 18:10:57,441 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:57,448 - INFO -   - Registros de Yucatán: 268
+2025-09-08 18:10:57,448 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:57,449 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:57,450 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2021_T2_CB.csv
+2025-09-08 18:10:57,450 - INFO - 
+[13/29] Procesando: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:10:57,450 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:10:57,450 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2019_2t_csv/conjunto_de_datos_cb_ENSU_2019_2t/conjunto_de_datos/conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:10:57,450 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:57,555 - INFO -   - Filas totales: 19010
+2025-09-08 18:10:57,555 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:10:57,555 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:57,560 - INFO -   - Registros de Yucatán: 265
+2025-09-08 18:10:57,561 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:57,561 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:57,562 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2019_T2_CB.csv
+2025-09-08 18:10:57,562 - INFO - 
+[14/29] Procesando: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:10:57,562 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:10:57,562 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2021_3t_csv/conjunto_de_datos_CB_ENSU_09_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:10:57,562 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:57,767 - INFO -   - Filas totales: 23356
+2025-09-08 18:10:57,767 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:57,774 - INFO -   - Registros de Yucatán: 267
+2025-09-08 18:10:57,774 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:57,775 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:57,776 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2021_T3_CB.csv
+2025-09-08 18:10:57,776 - INFO - 
+[15/29] Procesando: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:10:57,776 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:10:57,776 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2023_2t_csv/conjunto_de_datos_ensu_cb_0623/conjunto_de_datos/conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:10:57,776 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:57,931 - INFO -   - Filas totales: 24435
+2025-09-08 18:10:57,931 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:57,938 - INFO -   - Registros de Yucatán: 271
+2025-09-08 18:10:57,939 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:57,939 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:10:57,940 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2023_T2_CB.csv
+2025-09-08 18:10:57,940 - INFO - 
+[16/29] Procesando: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:10:57,940 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:10:57,940 - DEBUG - Ruta completa: data/conjunto_de_datos_ENSU_2019_1t_csv/conjunto_de_datos_cb_ensu_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:10:57,940 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:58,003 - INFO -   - Filas totales: 18113
+2025-09-08 18:10:58,003 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:10:58,003 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:58,008 - INFO -   - Registros de Yucatán: 263
+2025-09-08 18:10:58,008 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:58,008 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:58,009 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2019_T1_CB.csv
+2025-09-08 18:10:58,009 - INFO - 
+[17/29] Procesando: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:10:58,009 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:10:58,009 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2024_3t_csv/conjunto_de_datos_ensu_cb_0924/conjunto_de_datos/conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:10:58,009 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:58,191 - INFO -   - Filas totales: 24096
+2025-09-08 18:10:58,191 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:58,198 - INFO -   - Registros de Yucatán: 258
+2025-09-08 18:10:58,198 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:58,199 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:58,200 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2024_T3_CB.csv
+2025-09-08 18:10:58,200 - INFO - 
+[18/29] Procesando: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:10:58,200 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:10:58,200 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2020_4t_csv/conjunto_de_datos_CB_ENSU_12_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:10:58,200 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:58,358 - INFO -   - Filas totales: 22283
+2025-09-08 18:10:58,358 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:58,365 - INFO -   - Registros de Yucatán: 264
+2025-09-08 18:10:58,365 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:58,366 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:58,367 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2020_T4_CB.csv
+2025-09-08 18:10:58,367 - INFO - 
+[19/29] Procesando: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:10:58,367 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:10:58,367 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2023_1t_csv/conjunto_de_datos_CB_ENSU_03_2023/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:10:58,367 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:58,517 - INFO -   - Filas totales: 23778
+2025-09-08 18:10:58,517 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:58,524 - INFO -   - Registros de Yucatán: 262
+2025-09-08 18:10:58,524 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:58,524 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:10:58,525 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2023_T1_CB.csv
+2025-09-08 18:10:58,525 - INFO - 
+[20/29] Procesando: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:10:58,525 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:10:58,525 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2022_4t_csv/conjunto_de_datos_ensu_cb_1222/conjunto_de_datos/conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:10:58,525 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:58,643 - INFO -   - Filas totales: 24402
+2025-09-08 18:10:58,644 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:58,650 - INFO -   - Registros de Yucatán: 262
+2025-09-08 18:10:58,650 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:58,651 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:58,652 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2022_T4_CB.csv
+2025-09-08 18:10:58,652 - INFO - 
+[21/29] Procesando: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:10:58,652 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:10:58,652 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2018_4t_csv/conjunto_de_datos_cb_ensu_04_2018/conjunto_de_datos/conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:10:58,652 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:58,744 - INFO -   - Filas totales: 18017
+2025-09-08 18:10:58,744 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:10:58,744 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:58,749 - INFO -   - Registros de Yucatán: 269
+2025-09-08 18:10:58,749 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:58,790 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:58,791 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2018_T4_CB.csv
+2025-09-08 18:10:58,791 - INFO - 
+[22/29] Procesando: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:10:58,791 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:10:58,791 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2024_2t_csv/conjunto_de_datos_ensu_cb_0624/conjunto_de_datos/conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:10:58,791 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:58,926 - INFO -   - Filas totales: 24114
+2025-09-08 18:10:58,927 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:58,933 - INFO -   - Registros de Yucatán: 256
+2025-09-08 18:10:58,933 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:58,934 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:58,935 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2024_T2_CB.csv
+2025-09-08 18:10:58,935 - INFO - 
+[23/29] Procesando: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:10:58,935 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:10:58,935 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2021_1t_csv/conjunto_de_datos_CB_ENSU_03_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:10:58,935 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:59,055 - INFO -   - Filas totales: 22307
+2025-09-08 18:10:59,055 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:59,061 - INFO -   - Registros de Yucatán: 265
+2025-09-08 18:10:59,061 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:59,062 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:59,063 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2021_T1_CB.csv
+2025-09-08 18:10:59,063 - INFO - 
+[24/29] Procesando: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:10:59,063 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:10:59,063 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2025_1t_csv/conjunto_de_datos_ensu_cb_0325/conjunto_de_datos/conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:10:59,063 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:59,181 - INFO -   - Filas totales: 23591
+2025-09-08 18:10:59,181 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:59,188 - INFO -   - Registros de Yucatán: 258
+2025-09-08 18:10:59,188 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:59,189 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:59,189 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2025_T1_CB.csv
+2025-09-08 18:10:59,189 - INFO - 
+[25/29] Procesando: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:10:59,189 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:10:59,189 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2018_3t_csv/conjunto_de_datos_cb_ensu_03_2018/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:10:59,189 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:59,326 - INFO -   - Filas totales: 20163
+2025-09-08 18:10:59,327 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:10:59,327 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:59,337 - INFO -   - Registros de Yucatán: 265
+2025-09-08 18:10:59,337 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:59,338 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:59,339 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2018_T3_CB.csv
+2025-09-08 18:10:59,339 - INFO - 
+[26/29] Procesando: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:10:59,339 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:10:59,339 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2022_3t_csv/conjunto_de_datos_ensu_cb_0922/conjunto_de_datos/conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:10:59,339 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:59,496 - INFO -   - Filas totales: 23618
+2025-09-08 18:10:59,496 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:59,502 - INFO -   - Registros de Yucatán: 263
+2025-09-08 18:10:59,502 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:59,503 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:59,504 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2022_T3_CB.csv
+2025-09-08 18:10:59,504 - INFO - 
+[27/29] Procesando: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:10:59,505 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:10:59,505 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2022_2t_csv/conjunto_de_datos_ensu_cb_0622/conjunto_de_datos/conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:10:59,505 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:59,613 - INFO -   - Filas totales: 23688
+2025-09-08 18:10:59,614 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:59,620 - INFO -   - Registros de Yucatán: 275
+2025-09-08 18:10:59,620 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:59,621 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:59,622 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2022_T2_CB.csv
+2025-09-08 18:10:59,622 - INFO - 
+[28/29] Procesando: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:10:59,622 - INFO - Procesando archivo: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:10:59,622 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020/conjunto_de_datos/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:10:59,622 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:59,793 - INFO -   - Filas totales: 22122
+2025-09-08 18:10:59,793 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:59,800 - INFO -   - Registros de Yucatán: 262
+2025-09-08 18:10:59,800 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:59,801 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:59,802 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2020_T3_CB.csv
+2025-09-08 18:10:59,802 - INFO - 
+[29/29] Procesando: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:10:59,802 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:10:59,802 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2024_4t_csv/conjunto_de_datos_ensu_cb_1224/conjunto_de_datos/conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:10:59,802 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:10:59,923 - INFO -   - Filas totales: 23451
+2025-09-08 18:10:59,923 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:10:59,929 - INFO -   - Registros de Yucatán: 260
+2025-09-08 18:10:59,930 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:10:59,930 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:10:59,931 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2024_T4_CB.csv
+2025-09-08 18:10:59,931 - INFO - 
+Resumen guardado en: temp/resumen_procesamiento.json
+2025-09-08 18:10:59,931 - INFO - 
+=== RESUMEN FASE 4 ===
+2025-09-08 18:10:59,931 - INFO - Total archivos procesados: 29
+2025-09-08 18:10:59,931 - INFO - Archivos exitosos: 29
+2025-09-08 18:10:59,931 - INFO - Archivos sin datos de Yucatán: 0
+2025-09-08 18:10:59,931 - INFO - Archivos con error: 0
+2025-09-08 18:10:59,931 - INFO - Total registros de Yucatán procesados: 7653
+2025-09-08 18:11:08,260 - INFO - === FASE 4: PROCESAMIENTO PRINCIPAL ===
+2025-09-08 18:11:08,260 - INFO - Archivos a procesar: 29
+2025-09-08 18:11:08,260 - INFO - 
+[1/29] Procesando: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:11:08,260 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:11:08,260 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2022_1t_csv/conjunto_de_datos_ensu_cb_0322/conjunto_de_datos/conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:11:08,260 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:08,365 - INFO -   - Filas totales: 23577
+2025-09-08 18:11:08,365 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:08,372 - INFO -   - Registros de Yucatán: 272
+2025-09-08 18:11:08,372 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:08,373 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:08,374 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2022_T1_CB.csv
+2025-09-08 18:11:08,374 - INFO - 
+[2/29] Procesando: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:11:08,374 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:11:08,374 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_04_2017_csv/conjunto_de_datos_cb_ensu_04_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:11:08,374 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:08,458 - INFO -   - Filas totales: 15072
+2025-09-08 18:11:08,458 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:11:08,458 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:08,462 - INFO -   - Registros de Yucatán: 261
+2025-09-08 18:11:08,463 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:08,463 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:08,464 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2017_T7_CB.csv
+2025-09-08 18:11:08,464 - INFO - 
+[3/29] Procesando: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:11:08,464 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:11:08,464 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_04_2016_csv/conjunto_de_datos_cb_ensu_04_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:11:08,464 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:08,542 - INFO -   - Filas totales: 13976
+2025-09-08 18:11:08,542 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:11:08,542 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:08,547 - INFO -   - Registros de Yucatán: 257
+2025-09-08 18:11:08,547 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:08,548 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:08,550 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2016_T7_CB.csv
+2025-09-08 18:11:08,550 - INFO - 
+[4/29] Procesando: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:11:08,550 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:11:08,550 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2021_4t_csv/conjunto_de_datos_CB_ENSU_12_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:11:08,550 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:08,695 - INFO -   - Filas totales: 23428
+2025-09-08 18:11:08,695 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:08,702 - INFO -   - Registros de Yucatán: 268
+2025-09-08 18:11:08,702 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:08,703 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:08,704 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2021_T4_CB.csv
+2025-09-08 18:11:08,704 - INFO - 
+[5/29] Procesando: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:11:08,704 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:11:08,704 - DEBUG - Ruta completa: data/Datos abiertos/conjunto_de_datos_CB_ENSU_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:11:08,704 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:08,825 - INFO -   - Filas totales: 22392
+2025-09-08 18:11:08,825 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:11:08,825 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:08,832 - INFO -   - Registros de Yucatán: 270
+2025-09-08 18:11:08,832 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:08,833 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:08,833 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2019_T7_CB.csv
+2025-09-08 18:11:08,833 - INFO - 
+[6/29] Procesando: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:11:08,833 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:11:08,833 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2025_2t_csv/conjunto_de_datos_ensu_cb_0625/conjunto_de_datos/conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:11:08,833 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:08,958 - INFO -   - Filas totales: 23717
+2025-09-08 18:11:08,958 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:08,964 - INFO -   - Registros de Yucatán: 255
+2025-09-08 18:11:08,964 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:08,965 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:08,966 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2025_T2_CB.csv
+2025-09-08 18:11:08,966 - INFO - 
+[7/29] Procesando: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:11:08,966 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:11:08,966 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2019_4t_csv/conjunto_de_datos_CB_ENSU_04_2019/conjunto_de_datos/conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:11:08,966 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:09,091 - INFO -   - Filas totales: 22158
+2025-09-08 18:11:09,091 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:11:09,091 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:09,098 - INFO -   - Registros de Yucatán: 261
+2025-09-08 18:11:09,098 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:09,112 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:09,113 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2019_T4_CB.csv
+2025-09-08 18:11:09,113 - INFO - 
+[8/29] Procesando: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:11:09,113 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:11:09,113 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2020_1t_csv/conjunto_de_datos_CB_ENSU_01_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:11:09,113 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:09,236 - INFO -   - Filas totales: 22416
+2025-09-08 18:11:09,236 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:11:09,236 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:09,242 - INFO -   - Registros de Yucatán: 264
+2025-09-08 18:11:09,243 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:09,243 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:09,245 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2020_T1_CB.csv
+2025-09-08 18:11:09,245 - INFO - 
+[9/29] Procesando: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:11:09,245 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:11:09,245 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2023_4t_csv/conjunto_de_datos_ensu_cb_1223/conjunto_de_datos/conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:11:09,245 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:09,355 - INFO -   - Filas totales: 24064
+2025-09-08 18:11:09,355 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:09,362 - INFO -   - Registros de Yucatán: 268
+2025-09-08 18:11:09,362 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:09,362 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:11:09,363 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2023_T4_CB.csv
+2025-09-08 18:11:09,363 - INFO - 
+[10/29] Procesando: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:11:09,363 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:11:09,363 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2023_3t_csv/conjunto_de_datos_ensu_cb_0923/conjunto_de_datos/conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:11:09,363 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:09,598 - INFO -   - Filas totales: 24493
+2025-09-08 18:11:09,598 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:09,607 - INFO -   - Registros de Yucatán: 267
+2025-09-08 18:11:09,607 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:09,608 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:11:09,609 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2023_T3_CB.csv
+2025-09-08 18:11:09,609 - INFO - 
+[11/29] Procesando: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:11:09,609 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:11:09,609 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2024_1t_csv/conjunto_de_datos_ensu_cb_0324/conjunto_de_datos/conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:11:09,609 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:09,730 - INFO -   - Filas totales: 24022
+2025-09-08 18:11:09,730 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:09,736 - INFO -   - Registros de Yucatán: 257
+2025-09-08 18:11:09,736 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:09,737 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:11:09,738 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2024_T1_CB.csv
+2025-09-08 18:11:09,738 - INFO - 
+[12/29] Procesando: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:11:09,738 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:11:09,738 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2021_2t_csv/conjunto_de_datos_CB_ENSU_06_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:11:09,738 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:09,871 - INFO -   - Filas totales: 22411
+2025-09-08 18:11:09,871 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:09,877 - INFO -   - Registros de Yucatán: 268
+2025-09-08 18:11:09,877 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:09,878 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:09,879 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2021_T2_CB.csv
+2025-09-08 18:11:09,879 - INFO - 
+[13/29] Procesando: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:11:09,879 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:11:09,879 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2019_2t_csv/conjunto_de_datos_cb_ENSU_2019_2t/conjunto_de_datos/conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:11:09,879 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:09,983 - INFO -   - Filas totales: 19010
+2025-09-08 18:11:09,983 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:11:09,983 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:09,990 - INFO -   - Registros de Yucatán: 265
+2025-09-08 18:11:09,990 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:09,991 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:09,992 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2019_T2_CB.csv
+2025-09-08 18:11:09,992 - INFO - 
+[14/29] Procesando: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:11:09,992 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:11:09,992 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2021_3t_csv/conjunto_de_datos_CB_ENSU_09_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:11:09,992 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:10,277 - INFO -   - Filas totales: 23356
+2025-09-08 18:11:10,277 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:10,284 - INFO -   - Registros de Yucatán: 267
+2025-09-08 18:11:10,284 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:10,285 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:10,286 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2021_T3_CB.csv
+2025-09-08 18:11:10,286 - INFO - 
+[15/29] Procesando: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:11:10,286 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:11:10,286 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2023_2t_csv/conjunto_de_datos_ensu_cb_0623/conjunto_de_datos/conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:11:10,286 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:10,437 - INFO -   - Filas totales: 24435
+2025-09-08 18:11:10,437 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:10,444 - INFO -   - Registros de Yucatán: 271
+2025-09-08 18:11:10,444 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:10,445 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:11:10,446 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2023_T2_CB.csv
+2025-09-08 18:11:10,446 - INFO - 
+[16/29] Procesando: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:11:10,446 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:11:10,446 - DEBUG - Ruta completa: data/conjunto_de_datos_ENSU_2019_1t_csv/conjunto_de_datos_cb_ensu_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:11:10,446 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:10,511 - INFO -   - Filas totales: 18113
+2025-09-08 18:11:10,511 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:11:10,511 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:10,516 - INFO -   - Registros de Yucatán: 263
+2025-09-08 18:11:10,516 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:10,517 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:10,517 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2019_T1_CB.csv
+2025-09-08 18:11:10,518 - INFO - 
+[17/29] Procesando: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:11:10,518 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:11:10,518 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2024_3t_csv/conjunto_de_datos_ensu_cb_0924/conjunto_de_datos/conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:11:10,518 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:10,706 - INFO -   - Filas totales: 24096
+2025-09-08 18:11:10,706 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:10,712 - INFO -   - Registros de Yucatán: 258
+2025-09-08 18:11:10,713 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:10,714 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:10,715 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2024_T3_CB.csv
+2025-09-08 18:11:10,715 - INFO - 
+[18/29] Procesando: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:11:10,715 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:11:10,715 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2020_4t_csv/conjunto_de_datos_CB_ENSU_12_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:11:10,715 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:10,869 - INFO -   - Filas totales: 22283
+2025-09-08 18:11:10,869 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:10,875 - INFO -   - Registros de Yucatán: 264
+2025-09-08 18:11:10,875 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:10,876 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:10,877 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2020_T4_CB.csv
+2025-09-08 18:11:10,877 - INFO - 
+[19/29] Procesando: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:11:10,877 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:11:10,877 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2023_1t_csv/conjunto_de_datos_CB_ENSU_03_2023/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:11:10,877 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:11,020 - INFO -   - Filas totales: 23778
+2025-09-08 18:11:11,020 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:11,027 - INFO -   - Registros de Yucatán: 262
+2025-09-08 18:11:11,028 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:11,028 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:11:11,029 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2023_T1_CB.csv
+2025-09-08 18:11:11,029 - INFO - 
+[20/29] Procesando: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:11:11,029 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:11:11,029 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2022_4t_csv/conjunto_de_datos_ensu_cb_1222/conjunto_de_datos/conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:11:11,029 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:11,144 - INFO -   - Filas totales: 24402
+2025-09-08 18:11:11,144 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:11,151 - INFO -   - Registros de Yucatán: 262
+2025-09-08 18:11:11,151 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:11,152 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:11,153 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2022_T4_CB.csv
+2025-09-08 18:11:11,153 - INFO - 
+[21/29] Procesando: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:11:11,153 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:11:11,153 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2018_4t_csv/conjunto_de_datos_cb_ensu_04_2018/conjunto_de_datos/conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:11:11,153 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:11,241 - INFO -   - Filas totales: 18017
+2025-09-08 18:11:11,241 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:11:11,241 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:11,246 - INFO -   - Registros de Yucatán: 269
+2025-09-08 18:11:11,247 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:11,299 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:11,300 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2018_T4_CB.csv
+2025-09-08 18:11:11,300 - INFO - 
+[22/29] Procesando: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:11:11,300 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:11:11,300 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2024_2t_csv/conjunto_de_datos_ensu_cb_0624/conjunto_de_datos/conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:11:11,301 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:11,426 - INFO -   - Filas totales: 24114
+2025-09-08 18:11:11,426 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:11,432 - INFO -   - Registros de Yucatán: 256
+2025-09-08 18:11:11,432 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:11,433 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:11,434 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2024_T2_CB.csv
+2025-09-08 18:11:11,434 - INFO - 
+[23/29] Procesando: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:11:11,434 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:11:11,434 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2021_1t_csv/conjunto_de_datos_CB_ENSU_03_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:11:11,434 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:11,556 - INFO -   - Filas totales: 22307
+2025-09-08 18:11:11,556 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:11,562 - INFO -   - Registros de Yucatán: 265
+2025-09-08 18:11:11,563 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:11,563 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:11,564 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2021_T1_CB.csv
+2025-09-08 18:11:11,564 - INFO - 
+[24/29] Procesando: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:11:11,564 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:11:11,564 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2025_1t_csv/conjunto_de_datos_ensu_cb_0325/conjunto_de_datos/conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:11:11,564 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:11,681 - INFO -   - Filas totales: 23591
+2025-09-08 18:11:11,681 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:11,688 - INFO -   - Registros de Yucatán: 258
+2025-09-08 18:11:11,688 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:11,689 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:11,690 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2025_T1_CB.csv
+2025-09-08 18:11:11,690 - INFO - 
+[25/29] Procesando: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:11:11,690 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:11:11,690 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2018_3t_csv/conjunto_de_datos_cb_ensu_03_2018/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:11:11,690 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:11,863 - INFO -   - Filas totales: 20163
+2025-09-08 18:11:11,863 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:11:11,863 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:11,869 - INFO -   - Registros de Yucatán: 265
+2025-09-08 18:11:11,869 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:11,870 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:11,871 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2018_T3_CB.csv
+2025-09-08 18:11:11,871 - INFO - 
+[26/29] Procesando: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:11:11,871 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:11:11,871 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2022_3t_csv/conjunto_de_datos_ensu_cb_0922/conjunto_de_datos/conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:11:11,871 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:12,027 - INFO -   - Filas totales: 23618
+2025-09-08 18:11:12,027 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:12,034 - INFO -   - Registros de Yucatán: 263
+2025-09-08 18:11:12,034 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:12,035 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:12,035 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2022_T3_CB.csv
+2025-09-08 18:11:12,035 - INFO - 
+[27/29] Procesando: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:11:12,035 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:11:12,036 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2022_2t_csv/conjunto_de_datos_ensu_cb_0622/conjunto_de_datos/conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:11:12,036 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:12,151 - INFO -   - Filas totales: 23688
+2025-09-08 18:11:12,151 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:12,157 - INFO -   - Registros de Yucatán: 275
+2025-09-08 18:11:12,157 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:12,158 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:12,159 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2022_T2_CB.csv
+2025-09-08 18:11:12,159 - INFO - 
+[28/29] Procesando: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:11:12,159 - INFO - Procesando archivo: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:11:12,159 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020/conjunto_de_datos/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:11:12,159 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:12,324 - INFO -   - Filas totales: 22122
+2025-09-08 18:11:12,324 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:12,331 - INFO -   - Registros de Yucatán: 262
+2025-09-08 18:11:12,331 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:12,332 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:12,333 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2020_T3_CB.csv
+2025-09-08 18:11:12,333 - INFO - 
+[29/29] Procesando: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:11:12,333 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:11:12,333 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2024_4t_csv/conjunto_de_datos_ensu_cb_1224/conjunto_de_datos/conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:11:12,333 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:11:12,451 - INFO -   - Filas totales: 23451
+2025-09-08 18:11:12,451 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:11:12,458 - INFO -   - Registros de Yucatán: 260
+2025-09-08 18:11:12,458 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:11:12,458 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:11:12,459 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2024_T4_CB.csv
+2025-09-08 18:11:12,460 - INFO - 
+Resumen guardado en: temp/resumen_procesamiento.json
+2025-09-08 18:11:12,460 - INFO - 
+=== RESUMEN FASE 4 ===
+2025-09-08 18:11:12,460 - INFO - Total archivos procesados: 29
+2025-09-08 18:11:12,460 - INFO - Archivos exitosos: 29
+2025-09-08 18:11:12,460 - INFO - Archivos sin datos de Yucatán: 0
+2025-09-08 18:11:12,460 - INFO - Archivos con error: 0
+2025-09-08 18:11:12,460 - INFO - Total registros de Yucatán procesados: 7653
+2025-09-08 18:20:48,832 - INFO - === FASE 4: PROCESAMIENTO PRINCIPAL ===
+2025-09-08 18:20:48,833 - INFO - Archivos a procesar: 29
+2025-09-08 18:20:48,833 - INFO - 
+[1/29] Procesando: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:20:48,833 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:20:48,833 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2022_1t_csv/conjunto_de_datos_ensu_cb_0322/conjunto_de_datos/conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 18:20:48,833 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:48,952 - INFO -   - Filas totales: 23577
+2025-09-08 18:20:48,953 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:48,960 - INFO -   - Registros de Yucatán: 272
+2025-09-08 18:20:48,961 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:48,962 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:48,963 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2022_T1_CB.csv
+2025-09-08 18:20:48,963 - INFO - 
+[2/29] Procesando: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:20:48,963 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:20:48,963 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_04_2017_csv/conjunto_de_datos_cb_ensu_04_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 18:20:48,963 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:49,053 - INFO -   - Filas totales: 15072
+2025-09-08 18:20:49,053 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:20:49,053 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:49,058 - INFO -   - Registros de Yucatán: 261
+2025-09-08 18:20:49,058 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:49,059 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:49,060 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2017_T7_CB.csv
+2025-09-08 18:20:49,060 - INFO - 
+[3/29] Procesando: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:20:49,060 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:20:49,060 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_04_2016_csv/conjunto_de_datos_cb_ensu_04_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 18:20:49,061 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:49,136 - INFO -   - Filas totales: 13976
+2025-09-08 18:20:49,136 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:20:49,136 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:49,141 - INFO -   - Registros de Yucatán: 257
+2025-09-08 18:20:49,141 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:49,142 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:49,143 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2016_T7_CB.csv
+2025-09-08 18:20:49,143 - INFO - 
+[4/29] Procesando: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:20:49,143 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:20:49,143 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2021_4t_csv/conjunto_de_datos_CB_ENSU_12_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 18:20:49,143 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:49,289 - INFO -   - Filas totales: 23428
+2025-09-08 18:20:49,289 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:49,297 - INFO -   - Registros de Yucatán: 268
+2025-09-08 18:20:49,297 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:49,298 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:49,299 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2021_T4_CB.csv
+2025-09-08 18:20:49,299 - INFO - 
+[5/29] Procesando: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:20:49,299 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:20:49,299 - DEBUG - Ruta completa: data/Datos abiertos/conjunto_de_datos_CB_ENSU_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 18:20:49,299 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:49,419 - INFO -   - Filas totales: 22392
+2025-09-08 18:20:49,419 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:20:49,419 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:49,426 - INFO -   - Registros de Yucatán: 270
+2025-09-08 18:20:49,426 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:49,427 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:49,428 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2019_T7_CB.csv
+2025-09-08 18:20:49,428 - INFO - 
+[6/29] Procesando: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:20:49,428 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:20:49,428 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2025_2t_csv/conjunto_de_datos_ensu_cb_0625/conjunto_de_datos/conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 18:20:49,428 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:49,553 - INFO -   - Filas totales: 23717
+2025-09-08 18:20:49,553 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:49,561 - INFO -   - Registros de Yucatán: 255
+2025-09-08 18:20:49,561 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:49,562 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:49,563 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2025_T2_CB.csv
+2025-09-08 18:20:49,563 - INFO - 
+[7/29] Procesando: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:20:49,563 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:20:49,563 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2019_4t_csv/conjunto_de_datos_CB_ENSU_04_2019/conjunto_de_datos/conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 18:20:49,563 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:49,694 - INFO -   - Filas totales: 22158
+2025-09-08 18:20:49,694 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:20:49,695 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:49,701 - INFO -   - Registros de Yucatán: 261
+2025-09-08 18:20:49,701 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:49,716 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:49,717 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2019_T4_CB.csv
+2025-09-08 18:20:49,717 - INFO - 
+[8/29] Procesando: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:20:49,717 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:20:49,717 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2020_1t_csv/conjunto_de_datos_CB_ENSU_01_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 18:20:49,717 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:49,843 - INFO -   - Filas totales: 22416
+2025-09-08 18:20:49,843 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:20:49,843 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:49,849 - INFO -   - Registros de Yucatán: 264
+2025-09-08 18:20:49,849 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:49,850 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:49,851 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2020_T1_CB.csv
+2025-09-08 18:20:49,851 - INFO - 
+[9/29] Procesando: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:20:49,851 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:20:49,851 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2023_4t_csv/conjunto_de_datos_ensu_cb_1223/conjunto_de_datos/conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 18:20:49,851 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:49,968 - INFO -   - Filas totales: 24064
+2025-09-08 18:20:49,968 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:49,975 - INFO -   - Registros de Yucatán: 268
+2025-09-08 18:20:49,975 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:49,975 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:20:49,976 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2023_T4_CB.csv
+2025-09-08 18:20:49,976 - INFO - 
+[10/29] Procesando: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:20:49,976 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:20:49,976 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2023_3t_csv/conjunto_de_datos_ensu_cb_0923/conjunto_de_datos/conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 18:20:49,976 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:50,208 - INFO -   - Filas totales: 24493
+2025-09-08 18:20:50,209 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:50,216 - INFO -   - Registros de Yucatán: 267
+2025-09-08 18:20:50,216 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:50,217 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:20:50,217 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2023_T3_CB.csv
+2025-09-08 18:20:50,217 - INFO - 
+[11/29] Procesando: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:20:50,217 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:20:50,217 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2024_1t_csv/conjunto_de_datos_ensu_cb_0324/conjunto_de_datos/conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 18:20:50,217 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:50,331 - INFO -   - Filas totales: 24022
+2025-09-08 18:20:50,331 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:50,338 - INFO -   - Registros de Yucatán: 257
+2025-09-08 18:20:50,338 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:50,339 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:20:50,339 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2024_T1_CB.csv
+2025-09-08 18:20:50,339 - INFO - 
+[12/29] Procesando: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:20:50,339 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:20:50,339 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2021_2t_csv/conjunto_de_datos_CB_ENSU_06_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 18:20:50,339 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:50,472 - INFO -   - Filas totales: 22411
+2025-09-08 18:20:50,472 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:50,479 - INFO -   - Registros de Yucatán: 268
+2025-09-08 18:20:50,479 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:50,480 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:50,481 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2021_T2_CB.csv
+2025-09-08 18:20:50,481 - INFO - 
+[13/29] Procesando: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:20:50,481 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:20:50,481 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2019_2t_csv/conjunto_de_datos_cb_ENSU_2019_2t/conjunto_de_datos/conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 18:20:50,481 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:50,583 - INFO -   - Filas totales: 19010
+2025-09-08 18:20:50,583 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:20:50,583 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:50,589 - INFO -   - Registros de Yucatán: 265
+2025-09-08 18:20:50,589 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:50,590 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:50,591 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2019_T2_CB.csv
+2025-09-08 18:20:50,591 - INFO - 
+[14/29] Procesando: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:20:50,591 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:20:50,591 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2021_3t_csv/conjunto_de_datos_CB_ENSU_09_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 18:20:50,591 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:50,794 - INFO -   - Filas totales: 23356
+2025-09-08 18:20:50,794 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:50,802 - INFO -   - Registros de Yucatán: 267
+2025-09-08 18:20:50,802 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:50,803 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:50,804 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2021_T3_CB.csv
+2025-09-08 18:20:50,804 - INFO - 
+[15/29] Procesando: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:20:50,804 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:20:50,804 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2023_2t_csv/conjunto_de_datos_ensu_cb_0623/conjunto_de_datos/conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 18:20:50,804 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:50,958 - INFO -   - Filas totales: 24435
+2025-09-08 18:20:50,958 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:50,966 - INFO -   - Registros de Yucatán: 271
+2025-09-08 18:20:50,966 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:50,966 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:20:50,967 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2023_T2_CB.csv
+2025-09-08 18:20:50,967 - INFO - 
+[16/29] Procesando: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:20:50,967 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:20:50,967 - DEBUG - Ruta completa: data/conjunto_de_datos_ENSU_2019_1t_csv/conjunto_de_datos_cb_ensu_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 18:20:50,967 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:51,027 - INFO -   - Filas totales: 18113
+2025-09-08 18:20:51,027 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:20:51,027 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:51,032 - INFO -   - Registros de Yucatán: 263
+2025-09-08 18:20:51,032 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:51,033 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:51,034 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2019_T1_CB.csv
+2025-09-08 18:20:51,034 - INFO - 
+[17/29] Procesando: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:20:51,034 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:20:51,034 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2024_3t_csv/conjunto_de_datos_ensu_cb_0924/conjunto_de_datos/conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 18:20:51,034 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:51,227 - INFO -   - Filas totales: 24096
+2025-09-08 18:20:51,227 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:51,234 - INFO -   - Registros de Yucatán: 258
+2025-09-08 18:20:51,234 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:51,235 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:51,236 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2024_T3_CB.csv
+2025-09-08 18:20:51,236 - INFO - 
+[18/29] Procesando: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:20:51,236 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:20:51,236 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2020_4t_csv/conjunto_de_datos_CB_ENSU_12_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 18:20:51,236 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:51,389 - INFO -   - Filas totales: 22283
+2025-09-08 18:20:51,389 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:51,396 - INFO -   - Registros de Yucatán: 264
+2025-09-08 18:20:51,396 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:51,397 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:51,398 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2020_T4_CB.csv
+2025-09-08 18:20:51,398 - INFO - 
+[19/29] Procesando: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:20:51,398 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:20:51,398 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2023_1t_csv/conjunto_de_datos_CB_ENSU_03_2023/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 18:20:51,398 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:51,548 - INFO -   - Filas totales: 23778
+2025-09-08 18:20:51,548 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:51,556 - INFO -   - Registros de Yucatán: 262
+2025-09-08 18:20:51,556 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:51,556 - INFO -   - Municipios/ciudades procesados: 3
+2025-09-08 18:20:51,557 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2023_T1_CB.csv
+2025-09-08 18:20:51,557 - INFO - 
+[20/29] Procesando: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:20:51,557 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:20:51,557 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2022_4t_csv/conjunto_de_datos_ensu_cb_1222/conjunto_de_datos/conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 18:20:51,558 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:51,676 - INFO -   - Filas totales: 24402
+2025-09-08 18:20:51,676 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:51,683 - INFO -   - Registros de Yucatán: 262
+2025-09-08 18:20:51,683 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:51,684 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:51,685 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2022_T4_CB.csv
+2025-09-08 18:20:51,685 - INFO - 
+[21/29] Procesando: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:20:51,685 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:20:51,685 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2018_4t_csv/conjunto_de_datos_cb_ensu_04_2018/conjunto_de_datos/conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 18:20:51,685 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:51,774 - INFO -   - Filas totales: 18017
+2025-09-08 18:20:51,774 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:20:51,775 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:51,780 - INFO -   - Registros de Yucatán: 269
+2025-09-08 18:20:51,780 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:51,834 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:51,835 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2018_T4_CB.csv
+2025-09-08 18:20:51,835 - INFO - 
+[22/29] Procesando: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:20:51,836 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:20:51,836 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2024_2t_csv/conjunto_de_datos_ensu_cb_0624/conjunto_de_datos/conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 18:20:51,836 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:51,969 - INFO -   - Filas totales: 24114
+2025-09-08 18:20:51,970 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:51,976 - INFO -   - Registros de Yucatán: 256
+2025-09-08 18:20:51,976 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:51,977 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:51,978 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2024_T2_CB.csv
+2025-09-08 18:20:51,978 - INFO - 
+[23/29] Procesando: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:20:51,978 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:20:51,978 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2021_1t_csv/conjunto_de_datos_CB_ENSU_03_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 18:20:51,978 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:52,103 - INFO -   - Filas totales: 22307
+2025-09-08 18:20:52,103 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:52,110 - INFO -   - Registros de Yucatán: 265
+2025-09-08 18:20:52,110 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:52,110 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:52,111 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2021_T1_CB.csv
+2025-09-08 18:20:52,111 - INFO - 
+[24/29] Procesando: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:20:52,111 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:20:52,111 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2025_1t_csv/conjunto_de_datos_ensu_cb_0325/conjunto_de_datos/conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 18:20:52,111 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:52,226 - INFO -   - Filas totales: 23591
+2025-09-08 18:20:52,226 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:52,233 - INFO -   - Registros de Yucatán: 258
+2025-09-08 18:20:52,233 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:52,234 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:52,234 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2025_T1_CB.csv
+2025-09-08 18:20:52,235 - INFO - 
+[25/29] Procesando: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:20:52,235 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:20:52,235 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2018_3t_csv/conjunto_de_datos_cb_ensu_03_2018/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 18:20:52,235 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:52,354 - INFO -   - Filas totales: 20163
+2025-09-08 18:20:52,354 - INFO -   - NOM_CD no encontrada, usando 'SIN_CIUDAD' como valor por defecto
+2025-09-08 18:20:52,354 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:52,360 - INFO -   - Registros de Yucatán: 265
+2025-09-08 18:20:52,360 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:52,361 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:52,362 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2018_T3_CB.csv
+2025-09-08 18:20:52,362 - INFO - 
+[26/29] Procesando: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:20:52,362 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:20:52,362 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2022_3t_csv/conjunto_de_datos_ensu_cb_0922/conjunto_de_datos/conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 18:20:52,362 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:52,514 - INFO -   - Filas totales: 23618
+2025-09-08 18:20:52,515 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:52,521 - INFO -   - Registros de Yucatán: 263
+2025-09-08 18:20:52,521 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:52,522 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:52,523 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2022_T3_CB.csv
+2025-09-08 18:20:52,523 - INFO - 
+[27/29] Procesando: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:20:52,523 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:20:52,523 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2022_2t_csv/conjunto_de_datos_ensu_cb_0622/conjunto_de_datos/conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 18:20:52,523 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:52,635 - INFO -   - Filas totales: 23688
+2025-09-08 18:20:52,635 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:52,642 - INFO -   - Registros de Yucatán: 275
+2025-09-08 18:20:52,642 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:52,643 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:52,643 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2022_T2_CB.csv
+2025-09-08 18:20:52,643 - INFO - 
+[28/29] Procesando: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:20:52,643 - INFO - Procesando archivo: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:20:52,643 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020/conjunto_de_datos/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 18:20:52,643 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:52,808 - INFO -   - Filas totales: 22122
+2025-09-08 18:20:52,808 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:52,814 - INFO -   - Registros de Yucatán: 262
+2025-09-08 18:20:52,814 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:52,815 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:52,816 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2020_T3_CB.csv
+2025-09-08 18:20:52,816 - INFO - 
+[29/29] Procesando: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:20:52,816 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:20:52,816 - DEBUG - Ruta completa: data/conjunto_de_datos_ensu_2024_4t_csv/conjunto_de_datos_ensu_cb_1224/conjunto_de_datos/conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 18:20:52,816 - DEBUG - Leyendo archivo CSV...
+2025-09-08 18:20:52,938 - INFO -   - Filas totales: 23451
+2025-09-08 18:20:52,938 - DEBUG - Filtrando datos de Yucatán...
+2025-09-08 18:20:52,945 - INFO -   - Registros de Yucatán: 260
+2025-09-08 18:20:52,945 - DEBUG - Calculando estadísticas agregadas...
+2025-09-08 18:20:52,946 - INFO -   - Municipios/ciudades procesados: 4
+2025-09-08 18:20:52,947 - INFO -   - Archivo guardado: data/yucatan_processed/yucatan_2024_T4_CB.csv
+2025-09-08 18:20:52,947 - INFO - 
+Resumen guardado en: temp/resumen_procesamiento.json
+2025-09-08 18:20:52,947 - INFO - 
+=== RESUMEN FASE 4 ===
+2025-09-08 18:20:52,947 - INFO - Total archivos procesados: 29
+2025-09-08 18:20:52,947 - INFO - Archivos exitosos: 29
+2025-09-08 18:20:52,947 - INFO - Archivos sin datos de Yucatán: 0
+2025-09-08 18:20:52,947 - INFO - Archivos con error: 0
+2025-09-08 18:20:52,947 - INFO - Total registros de Yucatán procesados: 7653

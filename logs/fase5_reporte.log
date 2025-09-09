@@ -1,0 +1,137 @@
+2025-09-08 18:14:09,017 - INFO - === FASE 5: GENERACIÓN DE REPORTE FINAL ===
+2025-09-08 18:14:09,018 - INFO - Cargando datasets procesados...
+2025-09-08 18:14:09,018 - INFO -   - Cargando: yucatan_2016_T7_CB.csv
+2025-09-08 18:14:09,020 - INFO -   - Cargando: yucatan_2017_T7_CB.csv
+2025-09-08 18:14:09,021 - INFO -   - Cargando: yucatan_2018_T3_CB.csv
+2025-09-08 18:14:09,022 - INFO -   - Cargando: yucatan_2018_T4_CB.csv
+2025-09-08 18:14:09,022 - INFO -   - Cargando: yucatan_2019_T1_CB.csv
+2025-09-08 18:14:09,023 - INFO -   - Cargando: yucatan_2019_T2_CB.csv
+2025-09-08 18:14:09,023 - INFO -   - Cargando: yucatan_2019_T4_CB.csv
+2025-09-08 18:14:09,023 - INFO -   - Cargando: yucatan_2019_T7_CB.csv
+2025-09-08 18:14:09,024 - INFO -   - Cargando: yucatan_2020_T1_CB.csv
+2025-09-08 18:14:09,024 - INFO -   - Cargando: yucatan_2020_T3_CB.csv
+2025-09-08 18:14:09,025 - INFO -   - Cargando: yucatan_2020_T4_CB.csv
+2025-09-08 18:14:09,025 - INFO -   - Cargando: yucatan_2021_T1_CB.csv
+2025-09-08 18:14:09,025 - INFO -   - Cargando: yucatan_2021_T2_CB.csv
+2025-09-08 18:14:09,026 - INFO -   - Cargando: yucatan_2021_T3_CB.csv
+2025-09-08 18:14:09,026 - INFO -   - Cargando: yucatan_2021_T4_CB.csv
+2025-09-08 18:14:09,027 - INFO -   - Cargando: yucatan_2022_T1_CB.csv
+2025-09-08 18:14:09,027 - INFO -   - Cargando: yucatan_2022_T2_CB.csv
+2025-09-08 18:14:09,027 - INFO -   - Cargando: yucatan_2022_T3_CB.csv
+2025-09-08 18:14:09,028 - INFO -   - Cargando: yucatan_2022_T4_CB.csv
+2025-09-08 18:14:09,028 - INFO -   - Cargando: yucatan_2023_T1_CB.csv
+2025-09-08 18:14:09,029 - INFO -   - Cargando: yucatan_2023_T2_CB.csv
+2025-09-08 18:14:09,029 - INFO -   - Cargando: yucatan_2023_T3_CB.csv
+2025-09-08 18:14:09,030 - INFO -   - Cargando: yucatan_2023_T4_CB.csv
+2025-09-08 18:14:09,030 - INFO -   - Cargando: yucatan_2024_T1_CB.csv
+2025-09-08 18:14:09,031 - INFO -   - Cargando: yucatan_2024_T2_CB.csv
+2025-09-08 18:14:09,031 - INFO -   - Cargando: yucatan_2024_T3_CB.csv
+2025-09-08 18:14:09,032 - INFO -   - Cargando: yucatan_2024_T4_CB.csv
+2025-09-08 18:14:09,032 - INFO -   - Cargando: yucatan_2025_T1_CB.csv
+2025-09-08 18:14:09,032 - INFO -   - Cargando: yucatan_2025_T2_CB.csv
+2025-09-08 18:14:09,033 - INFO - Total de registros combinados: 111
+2025-09-08 18:14:09,033 - INFO - Generando estadísticas globales...
+2025-09-08 18:14:09,041 - INFO - Guardando dataset maestro...
+2025-09-08 18:14:09,042 - INFO -   - Dataset maestro guardado: reports/dataset_maestro_yucatan.csv
+2025-09-08 18:14:09,042 - INFO - Generando reporte HTML...
+2025-09-08 18:14:09,042 - INFO -   - Reporte HTML guardado: reports/reporte_ensu_yucatan.html
+2025-09-08 18:14:30,389 - INFO - === FASE 5: GENERACIÓN DE REPORTE FINAL ===
+2025-09-08 18:14:30,389 - INFO - Cargando datasets procesados...
+2025-09-08 18:14:30,389 - INFO -   - Cargando: yucatan_2016_T7_CB.csv
+2025-09-08 18:14:30,392 - INFO -   - Cargando: yucatan_2017_T7_CB.csv
+2025-09-08 18:14:30,393 - INFO -   - Cargando: yucatan_2018_T3_CB.csv
+2025-09-08 18:14:30,393 - INFO -   - Cargando: yucatan_2018_T4_CB.csv
+2025-09-08 18:14:30,393 - INFO -   - Cargando: yucatan_2019_T1_CB.csv
+2025-09-08 18:14:30,394 - INFO -   - Cargando: yucatan_2019_T2_CB.csv
+2025-09-08 18:14:30,394 - INFO -   - Cargando: yucatan_2019_T4_CB.csv
+2025-09-08 18:14:30,395 - INFO -   - Cargando: yucatan_2019_T7_CB.csv
+2025-09-08 18:14:30,395 - INFO -   - Cargando: yucatan_2020_T1_CB.csv
+2025-09-08 18:14:30,396 - INFO -   - Cargando: yucatan_2020_T3_CB.csv
+2025-09-08 18:14:30,396 - INFO -   - Cargando: yucatan_2020_T4_CB.csv
+2025-09-08 18:14:30,397 - INFO -   - Cargando: yucatan_2021_T1_CB.csv
+2025-09-08 18:14:30,397 - INFO -   - Cargando: yucatan_2021_T2_CB.csv
+2025-09-08 18:14:30,398 - INFO -   - Cargando: yucatan_2021_T3_CB.csv
+2025-09-08 18:14:30,398 - INFO -   - Cargando: yucatan_2021_T4_CB.csv
+2025-09-08 18:14:30,398 - INFO -   - Cargando: yucatan_2022_T1_CB.csv
+2025-09-08 18:14:30,399 - INFO -   - Cargando: yucatan_2022_T2_CB.csv
+2025-09-08 18:14:30,399 - INFO -   - Cargando: yucatan_2022_T3_CB.csv
+2025-09-08 18:14:30,400 - INFO -   - Cargando: yucatan_2022_T4_CB.csv
+2025-09-08 18:14:30,400 - INFO -   - Cargando: yucatan_2023_T1_CB.csv
+2025-09-08 18:14:30,401 - INFO -   - Cargando: yucatan_2023_T2_CB.csv
+2025-09-08 18:14:30,401 - INFO -   - Cargando: yucatan_2023_T3_CB.csv
+2025-09-08 18:14:30,401 - INFO -   - Cargando: yucatan_2023_T4_CB.csv
+2025-09-08 18:14:30,402 - INFO -   - Cargando: yucatan_2024_T1_CB.csv
+2025-09-08 18:14:30,402 - INFO -   - Cargando: yucatan_2024_T2_CB.csv
+2025-09-08 18:14:30,403 - INFO -   - Cargando: yucatan_2024_T3_CB.csv
+2025-09-08 18:14:30,403 - INFO -   - Cargando: yucatan_2024_T4_CB.csv
+2025-09-08 18:14:30,403 - INFO -   - Cargando: yucatan_2025_T1_CB.csv
+2025-09-08 18:14:30,404 - INFO -   - Cargando: yucatan_2025_T2_CB.csv
+2025-09-08 18:14:30,405 - INFO - Total de registros combinados: 111
+2025-09-08 18:14:30,405 - INFO - Generando estadísticas globales...
+2025-09-08 18:14:30,411 - INFO - Guardando dataset maestro...
+2025-09-08 18:14:30,412 - INFO -   - Dataset maestro guardado: reports/dataset_maestro_yucatan.csv
+2025-09-08 18:14:30,412 - INFO - Generando reporte HTML...
+2025-09-08 18:14:30,412 - INFO -   - Reporte HTML guardado: reports/reporte_ensu_yucatan.html
+2025-09-08 18:14:30,412 - INFO -   - Estadísticas JSON guardadas: reports/estadisticas_finales.json
+2025-09-08 18:14:30,412 - INFO - 
+=== RESUMEN FINAL ===
+2025-09-08 18:14:30,412 - INFO - Total de registros procesados: 111
+2025-09-08 18:14:30,412 - INFO - Años cubiertos: 2016 - 2025
+2025-09-08 18:14:30,412 - INFO - Municipios analizados: 18
+2025-09-08 18:14:30,412 - INFO - Percepción promedio de seguridad: 61.22%
+2025-09-08 18:14:30,412 - INFO - Percepción promedio de inseguridad: 38.76%
+2025-09-08 18:14:30,412 - INFO - 
+📊 Reportes generados:
+2025-09-08 18:14:30,412 - INFO -   1. reports/dataset_maestro_yucatan.csv
+2025-09-08 18:14:30,412 - INFO -   2. reports/reporte_ensu_yucatan.html
+2025-09-08 18:14:30,412 - INFO -   3. reports/estadisticas_finales.json
+2025-09-08 18:21:14,283 - INFO - === FASE 5: GENERACIÓN DE REPORTE FINAL ===
+2025-09-08 18:21:14,284 - INFO - Cargando datasets procesados...
+2025-09-08 18:21:14,284 - INFO -   - Cargando: yucatan_2016_T7_CB.csv
+2025-09-08 18:21:14,287 - INFO -   - Cargando: yucatan_2017_T7_CB.csv
+2025-09-08 18:21:14,288 - INFO -   - Cargando: yucatan_2018_T3_CB.csv
+2025-09-08 18:21:14,288 - INFO -   - Cargando: yucatan_2018_T4_CB.csv
+2025-09-08 18:21:14,289 - INFO -   - Cargando: yucatan_2019_T1_CB.csv
+2025-09-08 18:21:14,290 - INFO -   - Cargando: yucatan_2019_T2_CB.csv
+2025-09-08 18:21:14,290 - INFO -   - Cargando: yucatan_2019_T4_CB.csv
+2025-09-08 18:21:14,291 - INFO -   - Cargando: yucatan_2019_T7_CB.csv
+2025-09-08 18:21:14,291 - INFO -   - Cargando: yucatan_2020_T1_CB.csv
+2025-09-08 18:21:14,292 - INFO -   - Cargando: yucatan_2020_T3_CB.csv
+2025-09-08 18:21:14,292 - INFO -   - Cargando: yucatan_2020_T4_CB.csv
+2025-09-08 18:21:14,293 - INFO -   - Cargando: yucatan_2021_T1_CB.csv
+2025-09-08 18:21:14,293 - INFO -   - Cargando: yucatan_2021_T2_CB.csv
+2025-09-08 18:21:14,293 - INFO -   - Cargando: yucatan_2021_T3_CB.csv
+2025-09-08 18:21:14,294 - INFO -   - Cargando: yucatan_2021_T4_CB.csv
+2025-09-08 18:21:14,294 - INFO -   - Cargando: yucatan_2022_T1_CB.csv
+2025-09-08 18:21:14,294 - INFO -   - Cargando: yucatan_2022_T2_CB.csv
+2025-09-08 18:21:14,295 - INFO -   - Cargando: yucatan_2022_T3_CB.csv
+2025-09-08 18:21:14,295 - INFO -   - Cargando: yucatan_2022_T4_CB.csv
+2025-09-08 18:21:14,295 - INFO -   - Cargando: yucatan_2023_T1_CB.csv
+2025-09-08 18:21:14,296 - INFO -   - Cargando: yucatan_2023_T2_CB.csv
+2025-09-08 18:21:14,296 - INFO -   - Cargando: yucatan_2023_T3_CB.csv
+2025-09-08 18:21:14,296 - INFO -   - Cargando: yucatan_2023_T4_CB.csv
+2025-09-08 18:21:14,297 - INFO -   - Cargando: yucatan_2024_T1_CB.csv
+2025-09-08 18:21:14,297 - INFO -   - Cargando: yucatan_2024_T2_CB.csv
+2025-09-08 18:21:14,297 - INFO -   - Cargando: yucatan_2024_T3_CB.csv
+2025-09-08 18:21:14,298 - INFO -   - Cargando: yucatan_2024_T4_CB.csv
+2025-09-08 18:21:14,298 - INFO -   - Cargando: yucatan_2025_T1_CB.csv
+2025-09-08 18:21:14,298 - INFO -   - Cargando: yucatan_2025_T2_CB.csv
+2025-09-08 18:21:14,300 - INFO - Total de registros combinados: 111
+2025-09-08 18:21:14,300 - INFO - Generando estadísticas globales...
+2025-09-08 18:21:14,306 - INFO - Guardando dataset maestro...
+2025-09-08 18:21:14,308 - INFO -   - Dataset maestro guardado: reports/dataset_maestro_yucatan.csv
+2025-09-08 18:21:14,308 - INFO - Generando reporte HTML...
+2025-09-08 18:21:14,308 - INFO -   - Reporte HTML guardado: reports/reporte_ensu_yucatan.html
+2025-09-08 18:21:14,309 - INFO -   - Estadísticas JSON guardadas: reports/estadisticas_finales.json
+2025-09-08 18:21:14,309 - INFO - 
+=== RESUMEN FINAL ===
+2025-09-08 18:21:14,309 - INFO - Total de registros procesados: 111
+2025-09-08 18:21:14,309 - INFO - Años cubiertos: 2016 - 2025
+2025-09-08 18:21:14,309 - INFO - Municipios analizados: 18
+2025-09-08 18:21:14,309 - INFO - Percepción promedio de seguridad: 61.22%
+2025-09-08 18:21:14,309 - INFO - Percepción promedio de inseguridad: 38.76%
+2025-09-08 18:21:14,309 - INFO - 
+📊 Reportes generados:
+2025-09-08 18:21:14,309 - INFO -   1. reports/dataset_maestro_yucatan.csv
+2025-09-08 18:21:14,309 - INFO -   2. reports/reporte_ensu_yucatan.html
+2025-09-08 18:21:14,309 - INFO -   3. reports/estadisticas_finales.json

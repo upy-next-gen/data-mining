@@ -1,0 +1,185 @@
+2025-09-08 18:10:36,500 - INFO - === FASE 3: VERIFICACIÓN INCREMENTAL ===
+2025-09-08 18:10:36,501 - INFO - Archivos validados a verificar: 29
+2025-09-08 18:10:36,501 - INFO - Total de archivos ya procesados: 0
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0322.csv (2022_T1)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_cb_ensu_04_2017.csv (2017_T7)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_cb_ensu_04_2016.csv (2016_T7)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_12_2021.csv (2021_T4)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_cb_ENSU_03_2019.csv (2019_T7)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0625.csv (2025_T2)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_04_2019.csv (2019_T4)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_01_2020.csv (2020_T1)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_1223.csv (2023_T4)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0923.csv (2023_T3)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0324.csv (2024_T1)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_06_2021.csv (2021_T2)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_cb_ENSU_2019_2t.csv (2019_T2)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_09_2021.csv (2021_T3)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0623.csv (2023_T2)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_cb_ensu_03_2019.csv (2019_T1)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0924.csv (2024_T3)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_12_2020.csv (2020_T4)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_03_2023.csv (2023_T1)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_1222.csv (2022_T4)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_cb_ENSU_04_2018.csv (2018_T4)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0624.csv (2024_T2)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_03_2021.csv (2021_T1)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0325.csv (2025_T1)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_cb_ensu_03_2018.csv (2018_T3)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0922.csv (2022_T3)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0622.csv (2022_T2)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv (2020_T3)
+2025-09-08 18:10:36,501 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_1224.csv (2024_T4)
+2025-09-08 18:10:36,502 - INFO - Resultados guardados en: temp/archivos_pendientes.json
+2025-09-08 18:10:36,502 - INFO - === RESUMEN FASE 3 ===
+2025-09-08 18:10:36,502 - INFO - Total archivos validados: 29
+2025-09-08 18:10:36,502 - INFO - Archivos ya procesados: 0
+2025-09-08 18:10:36,502 - INFO - Archivos pendientes de procesar: 29
+2025-09-08 18:10:36,502 - INFO - Archivos pendientes:
+2025-09-08 18:10:36,502 - INFO -   - conjunto_de_datos_ensu_cb_0322.csv (No procesado anteriormente)
+2025-09-08 18:10:36,502 - INFO -   - conjunto_de_datos_cb_ensu_04_2017.csv (No procesado anteriormente)
+2025-09-08 18:10:36,502 - INFO -   - conjunto_de_datos_cb_ensu_04_2016.csv (No procesado anteriormente)
+2025-09-08 18:10:36,502 - INFO -   - conjunto_de_datos_CB_ENSU_12_2021.csv (No procesado anteriormente)
+2025-09-08 18:10:36,502 - INFO -   - conjunto_de_datos_cb_ENSU_03_2019.csv (No procesado anteriormente)
+2025-09-08 18:10:36,502 - INFO -   ... y 24 más
+2025-09-08 18:20:16,575 - INFO - === FASE 3: VERIFICACIÓN INCREMENTAL ===
+2025-09-08 18:20:16,575 - INFO - Archivos validados a verificar: 29
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2023_T2_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2021_T3_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2022_T4_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2021_T1_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2025_T2_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2024_T4_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2019_T1_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2022_T2_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2018_T3_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2020_T3_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2023_T4_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2019_T7_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2020_T1_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2024_T2_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2025_T1_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2018_T4_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2021_T2_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2020_T4_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2019_T2_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2023_T3_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2023_T1_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2017_T7_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2024_T1_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2019_T4_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2021_T4_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2022_T3_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2022_T1_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2024_T3_CB.csv
+2025-09-08 18:20:16,575 - DEBUG - Archivo procesado encontrado: yucatan_2016_T7_CB.csv
+2025-09-08 18:20:16,575 - INFO - Total de archivos ya procesados: 29
+2025-09-08 18:20:16,575 - DEBUG - Trimestre ya procesado: 2023_T2
+2025-09-08 18:20:16,575 - DEBUG - Trimestre ya procesado: 2021_T3
+2025-09-08 18:20:16,575 - DEBUG - Trimestre ya procesado: 2022_T4
+2025-09-08 18:20:16,575 - DEBUG - Trimestre ya procesado: 2021_T1
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2025_T2
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2024_T4
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2019_T1
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2022_T2
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2018_T3
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2020_T3
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2023_T4
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2019_T7
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2020_T1
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2024_T2
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2025_T1
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2018_T4
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2021_T2
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2020_T4
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2019_T2
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2023_T3
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2023_T1
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2017_T7
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2024_T1
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2019_T4
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2021_T4
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2022_T3
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2022_T1
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2024_T3
+2025-09-08 18:20:16,576 - DEBUG - Trimestre ya procesado: 2016_T7
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_0322.csv (2022_T1)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_cb_ensu_04_2017.csv (2017_T7)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_cb_ensu_04_2016.csv (2016_T7)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_CB_ENSU_12_2021.csv (2021_T4)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_cb_ENSU_03_2019.csv (2019_T7)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_0625.csv (2025_T2)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_CB_ENSU_04_2019.csv (2019_T4)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_CB_ENSU_01_2020.csv (2020_T1)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_1223.csv (2023_T4)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_0923.csv (2023_T3)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_0324.csv (2024_T1)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_CB_ENSU_06_2021.csv (2021_T2)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_cb_ENSU_2019_2t.csv (2019_T2)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_CB_ENSU_09_2021.csv (2021_T3)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_0623.csv (2023_T2)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_cb_ensu_03_2019.csv (2019_T1)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_0924.csv (2024_T3)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_CB_ENSU_12_2020.csv (2020_T4)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_CB_ENSU_03_2023.csv (2023_T1)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_1222.csv (2022_T4)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_cb_ENSU_04_2018.csv (2018_T4)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_0624.csv (2024_T2)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_CB_ENSU_03_2021.csv (2021_T1)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_0325.csv (2025_T1)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_cb_ensu_03_2018.csv (2018_T3)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_0922.csv (2022_T3)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_0622.csv (2022_T2)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv (2020_T3)
+2025-09-08 18:20:16,576 - DEBUG - Archivo ya procesado: conjunto_de_datos_ensu_cb_1224.csv (2024_T4)
+2025-09-08 18:20:16,577 - INFO - Resultados guardados en: temp/archivos_pendientes.json
+2025-09-08 18:20:16,577 - INFO - === RESUMEN FASE 3 ===
+2025-09-08 18:20:16,577 - INFO - Total archivos validados: 29
+2025-09-08 18:20:16,577 - INFO - Archivos ya procesados: 29
+2025-09-08 18:20:16,577 - INFO - Archivos pendientes de procesar: 0
+2025-09-08 18:20:16,577 - INFO - No hay archivos pendientes. Todo está procesado.
+2025-09-08 18:20:16,577 - WARNING - NOTA: No hay archivos nuevos, pero se puede continuar para regenerar
+2025-09-08 18:20:34,585 - INFO - === FASE 3: VERIFICACIÓN INCREMENTAL ===
+2025-09-08 18:20:34,586 - INFO - Archivos validados a verificar: 29
+2025-09-08 18:20:34,586 - INFO - Total de archivos ya procesados: 0
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0322.csv (2022_T1)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_cb_ensu_04_2017.csv (2017_T7)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_cb_ensu_04_2016.csv (2016_T7)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_12_2021.csv (2021_T4)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_cb_ENSU_03_2019.csv (2019_T7)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0625.csv (2025_T2)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_04_2019.csv (2019_T4)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_01_2020.csv (2020_T1)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_1223.csv (2023_T4)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0923.csv (2023_T3)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0324.csv (2024_T1)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_06_2021.csv (2021_T2)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_cb_ENSU_2019_2t.csv (2019_T2)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_09_2021.csv (2021_T3)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0623.csv (2023_T2)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_cb_ensu_03_2019.csv (2019_T1)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0924.csv (2024_T3)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_12_2020.csv (2020_T4)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_03_2023.csv (2023_T1)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_1222.csv (2022_T4)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_cb_ENSU_04_2018.csv (2018_T4)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0624.csv (2024_T2)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_CB_ENSU_03_2021.csv (2021_T1)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0325.csv (2025_T1)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_cb_ensu_03_2018.csv (2018_T3)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0922.csv (2022_T3)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_0622.csv (2022_T2)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv (2020_T3)
+2025-09-08 18:20:34,586 - INFO - Archivo pendiente: conjunto_de_datos_ensu_cb_1224.csv (2024_T4)
+2025-09-08 18:20:34,587 - INFO - Resultados guardados en: temp/archivos_pendientes.json
+2025-09-08 18:20:34,587 - INFO - === RESUMEN FASE 3 ===
+2025-09-08 18:20:34,587 - INFO - Total archivos validados: 29
+2025-09-08 18:20:34,587 - INFO - Archivos ya procesados: 0
+2025-09-08 18:20:34,587 - INFO - Archivos pendientes de procesar: 29
+2025-09-08 18:20:34,587 - INFO - Archivos pendientes:
+2025-09-08 18:20:34,587 - INFO -   - conjunto_de_datos_ensu_cb_0322.csv (No procesado anteriormente)
+2025-09-08 18:20:34,587 - INFO -   - conjunto_de_datos_cb_ensu_04_2017.csv (No procesado anteriormente)
+2025-09-08 18:20:34,587 - INFO -   - conjunto_de_datos_cb_ensu_04_2016.csv (No procesado anteriormente)
+2025-09-08 18:20:34,587 - INFO -   - conjunto_de_datos_CB_ENSU_12_2021.csv (No procesado anteriormente)
+2025-09-08 18:20:34,587 - INFO -   - conjunto_de_datos_cb_ENSU_03_2019.csv (No procesado anteriormente)
+2025-09-08 18:20:34,587 - INFO -   ... y 24 más
