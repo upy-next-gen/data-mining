@@ -1,0 +1,242 @@
+2025-09-09 20:13:08,911 - INFO - Logging configurado para el reporte de evolución.
+2025-09-09 20:13:08,912 - INFO - --- Iniciando script de generación de reporte de evolución ---
+2025-09-09 20:13:08,912 - INFO - Buscando archivos procesados en: data\yucatan-inseguridad
+2025-09-09 20:13:08,914 - INFO - Se encontraron 33 archivos para consolidar.
+2025-09-09 20:13:09,830 - INFO - Datos consolidados: 5302 registros en total.
+2025-09-09 20:13:09,836 - INFO - Se encontraron 111 registros para YUCATAN.
+2025-09-09 20:13:09,838 - INFO - Datos de Yucatán cargados exitosamente. Dimensiones: (111, 11)
+2025-09-09 20:13:09,839 - INFO - --- Script finalizado (fase inicial) ---
+2025-09-09 20:14:55,354 - INFO - Logging configurado para el reporte de evolución.
+2025-09-09 20:14:55,355 - INFO - --- Iniciando script de generación de reporte de evolución ---
+2025-09-09 20:14:55,355 - INFO - Buscando archivos procesados en: data\yucatan-inseguridad
+2025-09-09 20:14:55,356 - INFO - Se encontraron 33 archivos para consolidar.
+2025-09-09 20:14:55,535 - INFO - Datos consolidados: 5302 registros en total.
+2025-09-09 20:14:55,538 - INFO - Se encontraron 111 registros para YUCATAN.
+2025-09-09 20:14:55,540 - INFO - --- Iniciando diagnóstico de duplicados de periodo ---
+2025-09-09 20:14:55,550 - WARNING - Se encontraron periodos duplicados para los siguientes municipios:
+2025-09-09 20:14:55,551 - WARNING -   - Municipio: KANASIN, Periodo: 2018-Q1, Ocurrencias: 3
+2025-09-09 20:14:55,551 - WARNING -   - Municipio: KANASIN, Periodo: 2019-Q2, Ocurrencias: 2
+2025-09-09 20:14:55,552 - WARNING -   - Municipio: MERIDA, Periodo: 2018-Q1, Ocurrencias: 3
+2025-09-09 20:14:55,552 - WARNING -   - Municipio: MERIDA, Periodo: 2019-Q2, Ocurrencias: 2
+2025-09-09 20:14:55,552 - WARNING -   - Municipio: PROGRESO, Periodo: 2018-Q1, Ocurrencias: 3
+2025-09-09 20:14:55,553 - WARNING -   - Municipio: PROGRESO, Periodo: 2019-Q2, Ocurrencias: 2
+2025-09-09 20:14:55,553 - WARNING -   - Municipio: UMAN, Periodo: 2018-Q1, Ocurrencias: 3
+2025-09-09 20:14:55,553 - WARNING -   - Municipio: UMAN, Periodo: 2019-Q2, Ocurrencias: 2
+2025-09-09 20:14:55,554 - INFO - ----------------------------------------------------
+2025-09-09 20:14:55,554 - INFO - Datos de Yucatán listos para procesar. Dimensiones: (111, 12)
+2025-09-09 20:14:55,554 - INFO - --- Script finalizado (fase de diagnóstico) ---
+2025-09-09 20:17:10,429 - INFO - Logging configurado para el reporte de evolución.
+2025-09-09 20:17:10,430 - INFO - --- Iniciando script de generación de reporte de evolución ---
+2025-09-09 20:17:10,430 - INFO - Buscando archivos procesados en: data\yucatan-inseguridad
+2025-09-09 20:17:10,431 - INFO - Se encontraron 33 archivos para consolidar.
+2025-09-09 20:17:10,606 - INFO - Datos consolidados: 5302 registros en total.
+2025-09-09 20:17:10,610 - INFO - Se encontraron 111 registros para YUCATAN.
+2025-09-09 20:17:10,612 - INFO - --- Iniciando corrección de periodos duplicados por consolidación ---
+2025-09-09 20:17:10,619 - WARNING - Se han detectado duplicados. Procediendo a consolidar.
+2025-09-09 20:17:10,633 - INFO - Consolidación completada. El número de registros se redujo de 111 a 99.
+2025-09-09 20:17:10,633 - INFO - Datos de Yucatán listos para procesar. Dimensiones: (99, 12)
+2025-09-09 20:17:10,634 - INFO - --- Script finalizado (fase de corrección) ---
+2025-09-09 20:19:26,057 - INFO - Logging configurado para el reporte de evolución.
+2025-09-09 20:19:26,058 - INFO - --- Iniciando script de generación de reporte de evolución ---
+2025-09-09 20:19:26,058 - INFO - Buscando archivos procesados en: data\yucatan-inseguridad
+2025-09-09 20:19:26,060 - INFO - Se encontraron 33 archivos para consolidar.
+2025-09-09 20:19:26,234 - INFO - Datos consolidados: 5302 registros en total.
+2025-09-09 20:19:26,237 - INFO - Se encontraron 111 registros para YUCATAN.
+2025-09-09 20:19:26,239 - INFO - --- Iniciando corrección de periodos duplicados por consolidación ---
+2025-09-09 20:19:26,242 - WARNING - Se han detectado duplicados. Procediendo a consolidar.
+2025-09-09 20:19:26,256 - INFO - Consolidación completada. El número de registros se redujo de 111 a 99.
+2025-09-09 20:19:26,257 - INFO - --- Calculando promedio estatal ponderado ---
+2025-09-09 20:19:26,267 - INFO - Cálculo del promedio estatal completado.
+2025-09-09 20:19:26,267 - INFO - Muestra del promedio estatal calculado:
+2025-09-09 20:19:26,275 - INFO - 
+   PERIODO  TOTAL_INSEGUROS_ESTATAL  TOTAL_REGISTROS_ESTATAL  PCT_INSEGUROS_ESTATAL
+0  2017-Q2                       70                      261              26.819923
+1  2018-Q1                      271                      795              34.088050
+2  2018-Q2                       78                      269              28.996283
+3  2019-Q1                      103                      263              39.163498
+4  2019-Q2                      125                      526              23.764259
+2025-09-09 20:19:26,276 - INFO - --- Script finalizado (fase de cálculo estatal) ---
+2025-09-09 20:22:09,348 - INFO - Logging configurado para el reporte de evolución.
+2025-09-09 20:22:09,348 - INFO - --- Iniciando script de generación de reporte de evolución ---
+2025-09-09 20:22:09,349 - INFO - Buscando archivos procesados en: data\yucatan-inseguridad
+2025-09-09 20:22:09,350 - INFO - Se encontraron 33 archivos para consolidar.
+2025-09-09 20:22:09,521 - INFO - Datos consolidados: 5302 registros en total.
+2025-09-09 20:22:09,525 - INFO - Se encontraron 111 registros para YUCATAN.
+2025-09-09 20:22:09,526 - INFO - --- Iniciando corrección de periodos duplicados por consolidación ---
+2025-09-09 20:22:09,533 - WARNING - Se han detectado duplicados. Procediendo a consolidar.
+2025-09-09 20:22:09,553 - INFO - Consolidación completada. El número de registros se redujo de 111 a 99.
+2025-09-09 20:22:09,553 - INFO - --- Calculando promedio estatal ponderado ---
+2025-09-09 20:22:09,565 - INFO - Cálculo del promedio estatal completado.
+2025-09-09 20:22:09,565 - INFO - Muestra del promedio estatal calculado:
+2025-09-09 20:22:09,572 - INFO - 
+   PERIODO  TOTAL_INSEGUROS_ESTATAL  TOTAL_REGISTROS_ESTATAL  PCT_INSEGUROS_ESTATAL
+0  2017-Q2                       70                      261              26.819923
+1  2018-Q1                      271                      795              34.088050
+2  2018-Q2                       78                      269              28.996283
+3  2019-Q1                      103                      263              39.163498
+4  2019-Q2                      125                      526              23.764259
+2025-09-09 20:22:09,572 - INFO - --- Script finalizado (fase de cálculo estatal) ---
+2025-09-09 20:24:17,649 - INFO - Logging configurado para el reporte de evolución.
+2025-09-09 20:24:17,650 - INFO - --- Iniciando script de generación de reporte de evolución ---
+2025-09-09 20:24:17,650 - INFO - Buscando archivos procesados en: data\yucatan-inseguridad
+2025-09-09 20:24:17,652 - INFO - Se encontraron 33 archivos para consolidar.
+2025-09-09 20:24:17,817 - INFO - Datos consolidados: 5302 registros en total.
+2025-09-09 20:24:17,821 - INFO - Se encontraron 111 registros para YUCATAN.
+2025-09-09 20:24:17,822 - INFO - --- Iniciando corrección de periodos duplicados por consolidación ---
+2025-09-09 20:24:17,827 - WARNING - Se han detectado duplicados. Procediendo a consolidar.
+2025-09-09 20:24:17,839 - INFO - Consolidación completada. El número de registros se redujo de 111 a 99.
+2025-09-09 20:24:17,840 - INFO - --- Calculando promedio estatal ponderado ---
+2025-09-09 20:24:17,856 - INFO - Cálculo del promedio estatal completado.
+2025-09-09 20:24:17,857 - INFO - --- Identificando datos faltantes (gaps) ---
+2025-09-09 20:24:17,883 - WARNING - Se encontraron 5 gaps en los datos.
+2025-09-09 20:24:17,885 - INFO -   - Municipio: UMAN, Periodos faltantes: ['2023-Q1', '2023-Q2', '2023-Q3', '2023-Q4', '2024-Q1']
+2025-09-09 20:24:17,886 - INFO - --- Análisis de gaps finalizado ---
+2025-09-09 20:24:17,886 - INFO - --- Script finalizado (fase de análisis de gaps) ---
+2025-09-09 20:27:12,430 - INFO - Logging configurado para el reporte de evolución.
+2025-09-09 20:27:12,430 - INFO - --- Iniciando script de generación de reporte de evolución ---
+2025-09-09 20:27:12,431 - INFO - Buscando archivos procesados en: data\yucatan-inseguridad
+2025-09-09 20:27:12,433 - INFO - Se encontraron 33 archivos para consolidar.
+2025-09-09 20:27:12,610 - INFO - Datos consolidados: 5302 registros en total.
+2025-09-09 20:27:12,613 - INFO - Se encontraron 111 registros para YUCATAN.
+2025-09-09 20:27:12,614 - INFO - --- Iniciando corrección de periodos duplicados por consolidación ---
+2025-09-09 20:27:12,618 - WARNING - Se han detectado duplicados. Procediendo a consolidar.
+2025-09-09 20:27:12,630 - INFO - Consolidación completada. El número de registros se redujo de 111 a 99.
+2025-09-09 20:27:12,630 - INFO - --- Calculando promedio estatal ponderado ---
+2025-09-09 20:27:12,640 - INFO - Cálculo del promedio estatal completado.
+2025-09-09 20:27:12,641 - INFO - --- Identificando datos faltantes (gaps) ---
+2025-09-09 20:27:12,649 - WARNING - Se encontraron 5 gaps en los datos.
+2025-09-09 20:27:12,651 - INFO -   - Municipio: UMAN, Periodos faltantes: ['2023-Q1', '2023-Q2', '2023-Q3', '2023-Q4', '2024-Q1']
+2025-09-09 20:27:12,651 - INFO - --- Análisis de gaps finalizado ---
+2025-09-09 20:27:12,652 - INFO - Generando gráfico de evolución para el estado de Yucatán.
+2025-09-09 20:28:54,294 - INFO - Logging configurado para el reporte de evolución.
+2025-09-09 20:28:54,294 - INFO - --- Iniciando script de generación de reporte de evolución ---
+2025-09-09 20:28:54,295 - INFO - Buscando archivos procesados en: data\yucatan-inseguridad
+2025-09-09 20:28:54,296 - INFO - Se encontraron 33 archivos para consolidar.
+2025-09-09 20:28:54,453 - INFO - Datos consolidados: 5302 registros en total.
+2025-09-09 20:28:54,456 - INFO - Se encontraron 111 registros para YUCATAN.
+2025-09-09 20:28:54,457 - INFO - --- Iniciando corrección de periodos duplicados por consolidación ---
+2025-09-09 20:28:54,461 - WARNING - Se han detectado duplicados. Procediendo a consolidar.
+2025-09-09 20:28:54,472 - INFO - Consolidación completada. El número de registros se redujo de 111 a 99.
+2025-09-09 20:28:54,473 - INFO - --- Calculando promedio estatal ponderado ---
+2025-09-09 20:28:54,482 - INFO - Cálculo del promedio estatal completado.
+2025-09-09 20:28:54,482 - INFO - --- Identificando datos faltantes (gaps) ---
+2025-09-09 20:28:54,490 - WARNING - Se encontraron 5 gaps en los datos.
+2025-09-09 20:28:54,492 - INFO -   - Municipio: UMAN, Periodos faltantes: ['2023-Q1', '2023-Q2', '2023-Q3', '2023-Q4', '2024-Q1']
+2025-09-09 20:28:54,492 - INFO - --- Análisis de gaps finalizado ---
+2025-09-09 20:28:54,492 - INFO - Generando gráfico de evolución para el estado de Yucatán.
+2025-09-09 20:28:55,164 - INFO - Gráfico estatal generado exitosamente.
+2025-09-09 20:28:55,164 - INFO - Generando gráficos de evolución para cada municipio.
+2025-09-09 20:28:55,752 - INFO - Gráfico para KANASIN generado.
+2025-09-09 20:28:56,366 - INFO - Gráfico para MERIDA generado.
+2025-09-09 20:28:56,918 - INFO - Gráfico para PROGRESO generado.
+2025-09-09 20:28:57,456 - INFO - Gráfico para UMAN generado.
+2025-09-09 20:28:57,457 - INFO - Todas las visualizaciones han sido generadas en memoria.
+2025-09-09 20:28:57,457 - INFO - --- Script finalizado (fase de visualización) ---
+2025-09-09 20:31:27,637 - INFO - Logging configurado para el reporte de evolución.
+2025-09-09 20:31:27,638 - INFO - --- Iniciando script de generación de reporte de evolución ---
+2025-09-09 20:31:27,638 - INFO - Buscando archivos procesados en: data\yucatan-inseguridad
+2025-09-09 20:31:27,640 - INFO - Se encontraron 33 archivos para consolidar.
+2025-09-09 20:31:27,815 - INFO - Datos consolidados: 5302 registros en total.
+2025-09-09 20:31:27,819 - INFO - Se encontraron 111 registros para YUCATAN.
+2025-09-09 20:31:27,820 - INFO - --- Iniciando corrección de periodos duplicados por consolidación ---
+2025-09-09 20:31:27,826 - WARNING - Se han detectado duplicados. Procediendo a consolidar.
+2025-09-09 20:31:27,842 - INFO - Consolidación completada. El número de registros se redujo de 111 a 99.
+2025-09-09 20:31:27,842 - INFO - --- Calculando promedio estatal ponderado ---
+2025-09-09 20:31:27,855 - INFO - Cálculo del promedio estatal completado.
+2025-09-09 20:31:27,855 - INFO - --- Identificando datos faltantes (gaps) ---
+2025-09-09 20:31:27,864 - WARNING - Se encontraron 5 gaps en los datos.
+2025-09-09 20:31:27,867 - INFO -   - Municipio: UMAN, Periodos faltantes: ['2023-Q1', '2023-Q2', '2023-Q3', '2023-Q4', '2024-Q1']
+2025-09-09 20:31:27,867 - INFO - --- Análisis de gaps finalizado ---
+2025-09-09 20:31:27,867 - INFO - Generando gráfico de evolución para el estado de Yucatán.
+2025-09-09 20:31:28,507 - INFO - Gráfico estatal generado exitosamente.
+2025-09-09 20:31:28,507 - INFO - Generando gráficos de evolución para cada municipio.
+2025-09-09 20:31:29,095 - INFO - Gráfico para KANASIN generado.
+2025-09-09 20:31:29,679 - INFO - Gráfico para MERIDA generado.
+2025-09-09 20:31:30,261 - INFO - Gráfico para PROGRESO generado.
+2025-09-09 20:31:30,797 - INFO - Gráfico para UMAN generado.
+2025-09-09 20:31:30,797 - INFO - Creando tabla de datos en formato HTML.
+2025-09-09 20:31:30,830 - INFO - Tabla HTML creada.
+2025-09-09 20:31:30,830 - INFO - Generando reporte HTML final.
+2025-09-09 20:31:30,841 - INFO - Reporte HTML generado exitosamente en: data\yucatan-inseguridad\reportes\reporte_yucatan_evolucion.html
+2025-09-09 20:31:30,842 - INFO - --- Script finalizado. Reporte HTML generado. ---
+2025-09-09 20:35:45,452 - INFO - Logging configurado para el reporte de evolución.
+2025-09-09 20:35:45,453 - INFO - --- Iniciando script de generación de reporte de evolución ---
+2025-09-09 20:35:45,455 - INFO - Buscando archivos procesados en: data\yucatan-inseguridad
+2025-09-09 20:35:45,459 - INFO - Se encontraron 33 archivos para consolidar.
+2025-09-09 20:35:45,642 - INFO - Datos consolidados: 5302 registros en total.
+2025-09-09 20:35:45,668 - INFO - Se encontraron 111 registros para YUCATAN.
+2025-09-09 20:35:45,669 - INFO - --- Iniciando corrección de periodos duplicados por consolidación ---
+2025-09-09 20:35:45,687 - WARNING - Se han detectado duplicados. Procediendo a consolidar.
+2025-09-09 20:35:45,714 - INFO - Consolidación completada. El número de registros se redujo de 111 a 99.
+2025-09-09 20:35:45,715 - INFO - --- Calculando promedio estatal ponderado ---
+2025-09-09 20:35:45,737 - INFO - Cálculo del promedio estatal completado.
+2025-09-09 20:35:45,737 - INFO - --- Identificando datos faltantes (gaps) ---
+2025-09-09 20:35:45,758 - WARNING - Se encontraron 5 gaps en los datos.
+2025-09-09 20:35:45,761 - INFO -   - Municipio: UMAN, Periodos faltantes: ['2023-Q1', '2023-Q2', '2023-Q3', '2023-Q4', '2024-Q1']
+2025-09-09 20:35:45,762 - INFO - --- Análisis de gaps finalizado ---
+2025-09-09 20:35:45,763 - INFO - Generando gráfico de evolución para el estado de Yucatán.
+2025-09-09 20:35:46,833 - INFO - Gráfico estatal generado exitosamente.
+2025-09-09 20:35:46,834 - INFO - Generando gráficos de evolución para cada municipio.
+2025-09-09 20:35:47,510 - INFO - Gráfico para KANASIN generado.
+2025-09-09 20:35:48,151 - INFO - Gráfico para MERIDA generado.
+2025-09-09 20:35:48,676 - INFO - Gráfico para PROGRESO generado.
+2025-09-09 20:35:49,213 - INFO - Gráfico para UMAN generado.
+2025-09-09 20:35:49,214 - INFO - Creando tabla de datos en formato HTML.
+2025-09-09 20:35:49,365 - INFO - Tabla HTML creada.
+2025-09-09 20:35:49,365 - INFO - Generando reporte HTML final.
+2025-09-09 20:35:49,378 - INFO - Reporte HTML generado exitosamente en: data\yucatan-inseguridad\reportes\reporte_yucatan_evolucion.html
+2025-09-09 20:35:49,379 - INFO - --- Script finalizado. Reporte HTML generado. ---
+2025-09-09 20:37:40,479 - INFO - Logging configurado para el reporte de evolución.
+2025-09-09 20:37:40,479 - INFO - --- Iniciando script de generación de reporte de evolución ---
+2025-09-09 20:37:40,480 - INFO - Buscando archivos procesados en: data\yucatan-inseguridad
+2025-09-09 20:37:40,482 - INFO - Se encontraron 33 archivos para consolidar.
+2025-09-09 20:37:40,654 - INFO - Datos consolidados: 5302 registros en total.
+2025-09-09 20:37:40,658 - INFO - Se encontraron 111 registros para YUCATAN.
+2025-09-09 20:37:40,660 - INFO - --- Iniciando corrección de periodos duplicados por consolidación ---
+2025-09-09 20:37:40,665 - WARNING - Se han detectado duplicados. Procediendo a consolidar.
+2025-09-09 20:37:40,684 - INFO - Consolidación completada. El número de registros se redujo de 111 a 99.
+2025-09-09 20:37:40,685 - INFO - --- Calculando promedio estatal ponderado ---
+2025-09-09 20:37:40,706 - INFO - Cálculo del promedio estatal completado.
+2025-09-09 20:37:40,707 - INFO - --- Identificando datos faltantes (gaps) ---
+2025-09-09 20:37:40,721 - WARNING - Se encontraron 5 gaps en los datos.
+2025-09-09 20:37:40,724 - INFO -   - Municipio: UMAN, Periodos faltantes: ['2023-Q1', '2023-Q2', '2023-Q3', '2023-Q4', '2024-Q1']
+2025-09-09 20:37:40,725 - INFO - --- Análisis de gaps finalizado ---
+2025-09-09 20:37:40,726 - INFO - Generando gráfico de evolución para el estado de Yucatán.
+2025-09-09 20:37:41,245 - INFO - Gráfico estatal generado exitosamente.
+2025-09-09 20:37:41,246 - INFO - Generando gráficos de evolución para cada municipio.
+2025-09-09 20:37:41,743 - INFO - Gráfico para KANASIN generado.
+2025-09-09 20:37:42,223 - INFO - Gráfico para MERIDA generado.
+2025-09-09 20:37:42,760 - INFO - Gráfico para PROGRESO generado.
+2025-09-09 20:37:43,192 - INFO - Gráfico para UMAN generado.
+2025-09-09 20:37:43,192 - INFO - Creando tabla de datos en formato HTML.
+2025-09-09 20:37:43,222 - INFO - Tabla HTML creada.
+2025-09-09 20:37:43,223 - INFO - Generando reporte HTML final.
+2025-09-09 20:37:43,234 - INFO - Reporte HTML generado exitosamente en: data\yucatan-inseguridad\reportes\reporte_yucatan_evolucion.html
+2025-09-09 20:37:43,237 - INFO - --- Script finalizado. Reporte HTML generado. ---
+2025-09-09 20:39:16,094 - INFO - Logging configurado para el reporte de evolución.
+2025-09-09 20:39:16,095 - INFO - --- Iniciando script de generación de reporte de evolución ---
+2025-09-09 20:39:16,095 - INFO - Buscando archivos procesados en: data\yucatan-inseguridad
+2025-09-09 20:39:16,097 - INFO - Se encontraron 33 archivos para consolidar.
+2025-09-09 20:39:16,329 - INFO - Datos consolidados: 5302 registros en total.
+2025-09-09 20:39:16,336 - INFO - Se encontraron 111 registros para YUCATAN.
+2025-09-09 20:39:16,337 - INFO - --- Iniciando corrección de periodos duplicados por consolidación ---
+2025-09-09 20:39:16,345 - WARNING - Se han detectado duplicados. Procediendo a consolidar.
+2025-09-09 20:39:16,363 - INFO - Consolidación completada. El número de registros se redujo de 111 a 99.
+2025-09-09 20:39:16,364 - INFO - --- Calculando promedio estatal ponderado ---
+2025-09-09 20:39:16,393 - INFO - Cálculo del promedio estatal completado.
+2025-09-09 20:39:16,394 - INFO - --- Identificando datos faltantes (gaps) ---
+2025-09-09 20:39:16,411 - WARNING - Se encontraron 5 gaps en los datos.
+2025-09-09 20:39:16,415 - INFO -   - Municipio: UMAN, Periodos faltantes: ['2023-Q1', '2023-Q2', '2023-Q3', '2023-Q4', '2024-Q1']
+2025-09-09 20:39:16,416 - INFO - --- Análisis de gaps finalizado ---
+2025-09-09 20:39:16,417 - INFO - Generando gráfico de evolución para el estado de Yucatán.
+2025-09-09 20:39:17,186 - INFO - Gráfico estatal generado exitosamente.
+2025-09-09 20:39:17,187 - INFO - Generando gráficos de evolución para cada municipio.
+2025-09-09 20:39:17,928 - INFO - Gráfico para KANASIN generado.
+2025-09-09 20:39:18,510 - INFO - Gráfico para MERIDA generado.
+2025-09-09 20:39:19,069 - INFO - Gráfico para PROGRESO generado.
+2025-09-09 20:39:19,617 - INFO - Gráfico para UMAN generado.
+2025-09-09 20:39:19,618 - INFO - Creando tabla de datos en formato HTML.
+2025-09-09 20:39:19,641 - INFO - Tabla HTML creada.
+2025-09-09 20:39:19,642 - INFO - Generando reporte HTML final.
+2025-09-09 20:39:19,650 - INFO - Reporte HTML generado exitosamente en: data\yucatan-inseguridad\reportes\reporte_yucatan_evolucion.html
+2025-09-09 20:39:19,652 - INFO - --- Script finalizado. Reporte HTML generado. ---

@@ -1,0 +1,365 @@
+2025-09-09 19:58:53,748 - INFO - Sistema de logging configurado.
+2025-09-09 19:58:53,748 - INFO - Iniciando el proceso (versión final) de datasets de la ENSU.
+2025-09-09 19:58:53,749 - INFO - Iniciando búsqueda de archivos en: data
+2025-09-09 19:58:55,194 - INFO - Se encontraron 42 archivos 'cb' para procesar.
+2025-09-09 19:58:55,195 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ENSU_03_2019.csv ---
+2025-09-09 19:58:55,236 - INFO - Archivo 'conjunto_de_datos_cb_ENSU_03_2019.csv' PASA la validación de columnas.
+2025-09-09 19:58:55,237 - INFO - Cargando y filtrando archivo: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-09 19:58:55,666 - INFO - Registros originales: 22392
+2025-09-09 19:58:55,677 - INFO - Registros válidos para procesar: 22392
+2025-09-09 19:58:55,678 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:58:56,010 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:58:56,133 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-09 19:58:56,143 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:58:56,143 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_cb_ENSU_03_2019.csv ---
+2025-09-09 19:58:56,143 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_0625.csv ---
+2025-09-09 19:58:56,175 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0625.csv' PASA la validación de columnas.
+2025-09-09 19:58:56,176 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-09 19:58:56,629 - INFO - Registros originales: 23717
+2025-09-09 19:58:56,637 - INFO - Registros válidos para procesar: 23717
+2025-09-09 19:58:56,639 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:58:57,038 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:58:57,182 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_0625.csv
+2025-09-09 19:58:57,189 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:58:57,189 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_0625.csv ---
+2025-09-09 19:58:57,190 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_0325.csv ---
+2025-09-09 19:58:57,235 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0325.csv' PASA la validación de columnas.
+2025-09-09 19:58:57,235 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-09 19:58:57,677 - INFO - Registros originales: 23591
+2025-09-09 19:58:57,685 - INFO - Registros válidos para procesar: 23591
+2025-09-09 19:58:57,687 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:58:58,043 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:58:58,152 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_0325.csv
+2025-09-09 19:58:58,158 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:58:58,158 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_0325.csv ---
+2025-09-09 19:58:58,158 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_1224.csv ---
+2025-09-09 19:58:58,190 - INFO - Archivo 'conjunto_de_datos_ensu_cb_1224.csv' PASA la validación de columnas.
+2025-09-09 19:58:58,190 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-09 19:58:58,619 - INFO - Registros originales: 23451
+2025-09-09 19:58:58,626 - INFO - Registros válidos para procesar: 23451
+2025-09-09 19:58:58,628 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:58:58,975 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:58:59,105 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_1224.csv
+2025-09-09 19:58:59,111 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:58:59,111 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_1224.csv ---
+2025-09-09 19:58:59,112 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_0924.csv ---
+2025-09-09 19:58:59,163 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0924.csv' PASA la validación de columnas.
+2025-09-09 19:58:59,163 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-09 19:58:59,838 - INFO - Registros originales: 24096
+2025-09-09 19:58:59,845 - INFO - Registros válidos para procesar: 24096
+2025-09-09 19:58:59,847 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:00,240 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:00,387 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_0924.csv
+2025-09-09 19:59:00,395 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:00,395 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_0924.csv ---
+2025-09-09 19:59:00,395 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_0624.csv ---
+2025-09-09 19:59:00,444 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0624.csv' PASA la validación de columnas.
+2025-09-09 19:59:00,445 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-09 19:59:00,910 - INFO - Registros originales: 24114
+2025-09-09 19:59:00,920 - INFO - Registros válidos para procesar: 24114
+2025-09-09 19:59:00,923 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:01,346 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:01,468 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_0624.csv
+2025-09-09 19:59:01,474 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:01,474 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_0624.csv ---
+2025-09-09 19:59:01,475 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_0324.csv ---
+2025-09-09 19:59:01,511 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0324.csv' PASA la validación de columnas.
+2025-09-09 19:59:01,512 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-09 19:59:01,965 - INFO - Registros originales: 24022
+2025-09-09 19:59:01,975 - INFO - Registros válidos para procesar: 24022
+2025-09-09 19:59:01,977 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:02,336 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:02,467 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_0324.csv
+2025-09-09 19:59:02,472 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:02,473 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_0324.csv ---
+2025-09-09 19:59:02,473 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_1223.csv ---
+2025-09-09 19:59:02,510 - INFO - Archivo 'conjunto_de_datos_ensu_cb_1223.csv' PASA la validación de columnas.
+2025-09-09 19:59:02,510 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-09 19:59:02,938 - INFO - Registros originales: 24064
+2025-09-09 19:59:02,948 - INFO - Registros válidos para procesar: 24064
+2025-09-09 19:59:02,951 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:03,353 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:03,488 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_1223.csv
+2025-09-09 19:59:03,494 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:03,495 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_1223.csv ---
+2025-09-09 19:59:03,495 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_0923.csv ---
+2025-09-09 19:59:03,554 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0923.csv' PASA la validación de columnas.
+2025-09-09 19:59:03,555 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-09 19:59:04,329 - INFO - Registros originales: 24493
+2025-09-09 19:59:04,338 - INFO - Registros válidos para procesar: 24493
+2025-09-09 19:59:04,340 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:04,720 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:04,853 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_0923.csv
+2025-09-09 19:59:04,858 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:04,859 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_0923.csv ---
+2025-09-09 19:59:04,859 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_0623.csv ---
+2025-09-09 19:59:04,902 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0623.csv' PASA la validación de columnas.
+2025-09-09 19:59:04,902 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-09 19:59:05,430 - INFO - Registros originales: 24435
+2025-09-09 19:59:05,439 - INFO - Registros válidos para procesar: 24435
+2025-09-09 19:59:05,442 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:05,819 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:05,938 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_0623.csv
+2025-09-09 19:59:05,943 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:05,943 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_0623.csv ---
+2025-09-09 19:59:05,943 - INFO - --- Procesando archivo: conjunto_de_datos_CB_ENSU_03_2023.csv ---
+2025-09-09 19:59:05,972 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_03_2023.csv' PASA la validación de columnas.
+2025-09-09 19:59:05,973 - INFO - Cargando y filtrando archivo: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-09 19:59:06,453 - INFO - Registros originales: 23778
+2025-09-09 19:59:06,466 - INFO - Registros válidos para procesar: 23778
+2025-09-09 19:59:06,469 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:06,850 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:06,973 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-09 19:59:06,980 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:06,980 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_CB_ENSU_03_2023.csv ---
+2025-09-09 19:59:06,981 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_1222.csv ---
+2025-09-09 19:59:07,016 - INFO - Archivo 'conjunto_de_datos_ensu_cb_1222.csv' PASA la validación de columnas.
+2025-09-09 19:59:07,017 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-09 19:59:07,493 - INFO - Registros originales: 24402
+2025-09-09 19:59:07,504 - INFO - Registros válidos para procesar: 24402
+2025-09-09 19:59:07,507 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:07,903 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:08,035 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_1222.csv
+2025-09-09 19:59:08,041 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:08,041 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_1222.csv ---
+2025-09-09 19:59:08,041 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_0922.csv ---
+2025-09-09 19:59:08,096 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0922.csv' PASA la validación de columnas.
+2025-09-09 19:59:08,097 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-09 19:59:08,684 - INFO - Registros originales: 23618
+2025-09-09 19:59:08,692 - INFO - Registros válidos para procesar: 23618
+2025-09-09 19:59:08,694 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:09,095 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:09,233 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_0922.csv
+2025-09-09 19:59:09,239 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:09,240 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_0922.csv ---
+2025-09-09 19:59:09,240 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_0622.csv ---
+2025-09-09 19:59:09,275 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0622.csv' PASA la validación de columnas.
+2025-09-09 19:59:09,275 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-09 19:59:09,712 - INFO - Registros originales: 23688
+2025-09-09 19:59:09,721 - INFO - Registros válidos para procesar: 23688
+2025-09-09 19:59:09,724 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:10,074 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:10,196 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_0622.csv
+2025-09-09 19:59:10,203 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:10,203 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_0622.csv ---
+2025-09-09 19:59:10,204 - INFO - --- Procesando archivo: conjunto_de_datos_ensu_cb_0322.csv ---
+2025-09-09 19:59:10,247 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0322.csv' PASA la validación de columnas.
+2025-09-09 19:59:10,247 - INFO - Cargando y filtrando archivo: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-09 19:59:10,644 - INFO - Registros originales: 23577
+2025-09-09 19:59:10,651 - INFO - Registros válidos para procesar: 23577
+2025-09-09 19:59:10,653 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:11,034 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:11,207 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_ensu_cb_0322.csv
+2025-09-09 19:59:11,213 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:11,213 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_ensu_cb_0322.csv ---
+2025-09-09 19:59:11,213 - INFO - --- Procesando archivo: conjunto_de_datos_CB_ENSU_12_2021.csv ---
+2025-09-09 19:59:11,252 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_12_2021.csv' PASA la validación de columnas.
+2025-09-09 19:59:11,252 - INFO - Cargando y filtrando archivo: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-09 19:59:11,728 - INFO - Registros originales: 23428
+2025-09-09 19:59:11,736 - INFO - Registros válidos para procesar: 23428
+2025-09-09 19:59:11,738 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:12,126 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:12,245 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-09 19:59:12,252 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:12,253 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_CB_ENSU_12_2021.csv ---
+2025-09-09 19:59:12,253 - INFO - --- Procesando archivo: conjunto_de_datos_CB_ENSU_09_2021.csv ---
+2025-09-09 19:59:12,306 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_09_2021.csv' PASA la validación de columnas.
+2025-09-09 19:59:12,306 - INFO - Cargando y filtrando archivo: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-09 19:59:12,947 - INFO - Registros originales: 23356
+2025-09-09 19:59:12,954 - INFO - Registros válidos para procesar: 23356
+2025-09-09 19:59:12,956 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:13,320 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:13,477 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-09 19:59:13,483 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:13,483 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_CB_ENSU_09_2021.csv ---
+2025-09-09 19:59:13,483 - INFO - --- Procesando archivo: conjunto_de_datos_CB_ENSU_06_2021.csv ---
+2025-09-09 19:59:13,513 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_06_2021.csv' PASA la validación de columnas.
+2025-09-09 19:59:13,514 - INFO - Cargando y filtrando archivo: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-09 19:59:13,971 - INFO - Registros originales: 22411
+2025-09-09 19:59:13,978 - INFO - Registros válidos para procesar: 22411
+2025-09-09 19:59:13,980 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:14,329 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:14,458 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-09 19:59:14,465 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:14,466 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_CB_ENSU_06_2021.csv ---
+2025-09-09 19:59:14,466 - INFO - --- Procesando archivo: conjunto_de_datos_CB_ENSU_03_2021.csv ---
+2025-09-09 19:59:14,504 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_03_2021.csv' PASA la validación de columnas.
+2025-09-09 19:59:14,504 - INFO - Cargando y filtrando archivo: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-09 19:59:14,946 - INFO - Registros originales: 22307
+2025-09-09 19:59:14,953 - INFO - Registros válidos para procesar: 22307
+2025-09-09 19:59:14,956 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:15,316 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:15,419 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-09 19:59:15,424 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:15,424 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_CB_ENSU_03_2021.csv ---
+2025-09-09 19:59:15,425 - INFO - --- Procesando archivo: conjunto_de_datos_CB_ENSU_12_2020.csv ---
+2025-09-09 19:59:15,458 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_12_2020.csv' PASA la validación de columnas.
+2025-09-09 19:59:15,458 - INFO - Cargando y filtrando archivo: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-09 19:59:16,002 - INFO - Registros originales: 22283
+2025-09-09 19:59:16,011 - INFO - Registros válidos para procesar: 22283
+2025-09-09 19:59:16,014 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:16,368 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:16,488 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-09 19:59:16,496 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:16,497 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_CB_ENSU_12_2020.csv ---
+2025-09-09 19:59:16,497 - INFO - --- Procesando archivo: conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv ---
+2025-09-09 19:59:16,534 - WARNING - Archivo 'conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv' FALLA la validación. Faltan: ['BP1_1']
+2025-09-09 19:59:16,534 - INFO - --- Procesando archivo: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+2025-09-09 19:59:16,588 - INFO - Archivo 'conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv' PASA la validación de columnas.
+2025-09-09 19:59:16,588 - INFO - Cargando y filtrando archivo: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-09 19:59:17,138 - INFO - Registros originales: 22122
+2025-09-09 19:59:17,145 - INFO - Registros válidos para procesar: 22122
+2025-09-09 19:59:17,148 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:17,505 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:17,645 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-09 19:59:17,651 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:17,651 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+2025-09-09 19:59:17,651 - INFO - --- Procesando archivo: conjunto_de_datos_CB_ENSU_01_2020.csv ---
+2025-09-09 19:59:17,680 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_01_2020.csv' PASA la validación de columnas.
+2025-09-09 19:59:17,681 - INFO - Cargando y filtrando archivo: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-09 19:59:18,112 - INFO - Registros originales: 22416
+2025-09-09 19:59:18,118 - INFO - Registros válidos para procesar: 22416
+2025-09-09 19:59:18,121 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:18,498 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:18,620 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-09 19:59:18,627 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:18,627 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_CB_ENSU_01_2020.csv ---
+2025-09-09 19:59:18,627 - INFO - --- Procesando archivo: conjunto_de_datos_CB_ENSU_04_2019.csv ---
+2025-09-09 19:59:18,666 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_04_2019.csv' PASA la validación de columnas.
+2025-09-09 19:59:18,667 - INFO - Cargando y filtrando archivo: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-09 19:59:19,080 - INFO - Registros originales: 22158
+2025-09-09 19:59:19,087 - INFO - Registros válidos para procesar: 22158
+2025-09-09 19:59:19,089 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:19,430 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:19,584 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-09 19:59:19,590 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:19,590 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_CB_ENSU_04_2019.csv ---
+2025-09-09 19:59:19,590 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+2025-09-09 19:59:19,627 - INFO - Archivo 'conjunto_de_datos_cb_ENSU_2019_2t.csv' PASA la validación de columnas.
+2025-09-09 19:59:19,627 - INFO - Cargando y filtrando archivo: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-09 19:59:19,982 - INFO - Registros originales: 19010
+2025-09-09 19:59:19,993 - INFO - Registros válidos para procesar: 19010
+2025-09-09 19:59:19,996 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:20,336 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:20,453 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-09 19:59:20,458 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:20,458 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+2025-09-09 19:59:20,458 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_03_2019.csv ---
+2025-09-09 19:59:20,487 - INFO - Archivo 'conjunto_de_datos_cb_ensu_03_2019.csv' PASA la validación de columnas.
+2025-09-09 19:59:20,488 - INFO - Cargando y filtrando archivo: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-09 19:59:20,714 - INFO - Registros originales: 18113
+2025-09-09 19:59:20,723 - INFO - Registros válidos para procesar: 18113
+2025-09-09 19:59:20,726 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:21,005 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:21,111 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-09 19:59:21,116 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:21,117 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_cb_ensu_03_2019.csv ---
+2025-09-09 19:59:21,117 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ENSU_04_2018.csv ---
+2025-09-09 19:59:21,145 - INFO - Archivo 'conjunto_de_datos_cb_ENSU_04_2018.csv' PASA la validación de columnas.
+2025-09-09 19:59:21,145 - INFO - Cargando y filtrando archivo: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-09 19:59:21,474 - INFO - Registros originales: 18017
+2025-09-09 19:59:21,482 - INFO - Registros válidos para procesar: 18017
+2025-09-09 19:59:21,485 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:21,762 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:21,887 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-09 19:59:21,892 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:21,893 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_cb_ENSU_04_2018.csv ---
+2025-09-09 19:59:21,893 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_03_2018.csv ---
+2025-09-09 19:59:21,925 - INFO - Archivo 'conjunto_de_datos_cb_ensu_03_2018.csv' PASA la validación de columnas.
+2025-09-09 19:59:21,925 - INFO - Cargando y filtrando archivo: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-09 19:59:22,292 - INFO - Registros originales: 20163
+2025-09-09 19:59:22,301 - INFO - Registros válidos para procesar: 20163
+2025-09-09 19:59:22,303 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:22,629 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:22,748 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-09 19:59:22,753 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:22,754 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_cb_ensu_03_2018.csv ---
+2025-09-09 19:59:22,754 - INFO - --- Procesando archivo:  ensu_cb_0218.csv ---
+2025-09-09 19:59:22,783 - INFO - Archivo ' ensu_cb_0218.csv' PASA la validación de columnas.
+2025-09-09 19:59:22,784 - INFO - Cargando y filtrando archivo:  ensu_cb_0218.csv
+2025-09-09 19:59:23,091 - INFO - Registros originales: 17548
+2025-09-09 19:59:23,100 - INFO - Registros válidos para procesar: 17548
+2025-09-09 19:59:23,102 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:23,371 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:23,476 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_ ensu_cb_0218.csv
+2025-09-09 19:59:23,481 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:23,482 - INFO - --- Finalizado el procesamiento de:  ensu_cb_0218.csv ---
+2025-09-09 19:59:23,482 - INFO - --- Procesando archivo: ensu_cb_0118.csv ---
+2025-09-09 19:59:23,515 - INFO - Archivo 'ensu_cb_0118.csv' PASA la validación de columnas.
+2025-09-09 19:59:23,515 - INFO - Cargando y filtrando archivo: ensu_cb_0118.csv
+2025-09-09 19:59:23,808 - INFO - Registros originales: 15172
+2025-09-09 19:59:23,814 - INFO - Registros válidos para procesar: 15172
+2025-09-09 19:59:23,816 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:24,039 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:24,154 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_ensu_cb_0118.csv
+2025-09-09 19:59:24,158 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:24,159 - INFO - --- Finalizado el procesamiento de: ensu_cb_0118.csv ---
+2025-09-09 19:59:24,159 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_04_2017.csv ---
+2025-09-09 19:59:24,189 - INFO - Archivo 'conjunto_de_datos_cb_ensu_04_2017.csv' PASA la validación de columnas.
+2025-09-09 19:59:24,189 - INFO - Cargando y filtrando archivo: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-09 19:59:24,493 - INFO - Registros originales: 15072
+2025-09-09 19:59:24,500 - INFO - Registros válidos para procesar: 15072
+2025-09-09 19:59:24,504 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:24,743 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:24,876 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-09 19:59:24,881 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:24,882 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_cb_ensu_04_2017.csv ---
+2025-09-09 19:59:24,882 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_04_2016.csv ---
+2025-09-09 19:59:24,915 - INFO - Archivo 'conjunto_de_datos_cb_ensu_04_2016.csv' PASA la validación de columnas.
+2025-09-09 19:59:24,916 - INFO - Cargando y filtrando archivo: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-09 19:59:25,165 - INFO - Registros originales: 13976
+2025-09-09 19:59:25,172 - INFO - Registros válidos para procesar: 13976
+2025-09-09 19:59:25,174 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:25,412 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:25,501 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-09 19:59:25,506 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:25,506 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_cb_ensu_04_2016.csv ---
+2025-09-09 19:59:25,506 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_04_2015.csv ---
+2025-09-09 19:59:25,521 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_04_2015.csv' FALLA la validación. Faltan: ['NOM_ENT', 'NOM_MUN', 'BP1_1']
+2025-09-09 19:59:25,522 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_03_2017.csv ---
+2025-09-09 19:59:25,553 - INFO - Archivo 'conjunto_de_datos_cb_ensu_03_2017.csv' PASA la validación de columnas.
+2025-09-09 19:59:25,553 - INFO - Cargando y filtrando archivo: conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-09 19:59:25,859 - INFO - Registros originales: 15303
+2025-09-09 19:59:25,865 - INFO - Registros válidos para procesar: 15303
+2025-09-09 19:59:25,867 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:26,105 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:26,236 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-09 19:59:26,245 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:26,245 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_cb_ensu_03_2017.csv ---
+2025-09-09 19:59:26,246 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_03_2016.csv ---
+2025-09-09 19:59:26,282 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_03_2016.csv' FALLA la validación. Faltan: ['NOM_ENT', 'NOM_MUN']
+2025-09-09 19:59:26,282 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_03_2015.csv ---
+2025-09-09 19:59:26,296 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_03_2015.csv' FALLA la validación. Faltan: ['NOM_ENT', 'NOM_MUN', 'BP1_1']
+2025-09-09 19:59:26,296 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_02_2017.csv ---
+2025-09-09 19:59:26,326 - INFO - Archivo 'conjunto_de_datos_cb_ensu_02_2017.csv' PASA la validación de columnas.
+2025-09-09 19:59:26,326 - INFO - Cargando y filtrando archivo: conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-09 19:59:26,606 - INFO - Registros originales: 15272
+2025-09-09 19:59:26,615 - INFO - Registros válidos para procesar: 15272
+2025-09-09 19:59:26,617 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:26,904 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:27,009 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-09 19:59:27,017 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:27,017 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_cb_ensu_02_2017.csv ---
+2025-09-09 19:59:27,017 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_02_2016.csv ---
+2025-09-09 19:59:27,047 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_02_2016.csv' FALLA la validación. Faltan: ['NOM_ENT', 'NOM_MUN']
+2025-09-09 19:59:27,048 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_02_2015.csv ---
+2025-09-09 19:59:27,069 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_02_2015.csv' FALLA la validación. Faltan: ['NOM_ENT', 'NOM_MUN', 'BP1_1']
+2025-09-09 19:59:27,069 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_01_2017.csv ---
+2025-09-09 19:59:27,110 - INFO - Archivo 'conjunto_de_datos_cb_ensu_01_2017.csv' PASA la validación de columnas.
+2025-09-09 19:59:27,110 - INFO - Cargando y filtrando archivo: conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-09 19:59:27,414 - INFO - Registros originales: 14497
+2025-09-09 19:59:27,423 - INFO - Registros válidos para procesar: 14497
+2025-09-09 19:59:27,425 - INFO - Normalizando columnas NOM_ENT y NOM_MUN...
+2025-09-09 19:59:27,647 - INFO - Calculando estadísticas agregadas...
+2025-09-09 19:59:27,741 - INFO - Guardando resultado en: data\yucatan-inseguridad\procesado_conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-09 19:59:27,747 - INFO - Archivo guardado exitosamente.
+2025-09-09 19:59:27,747 - INFO - --- Finalizado el procesamiento de: conjunto_de_datos_cb_ensu_01_2017.csv ---
+2025-09-09 19:59:27,747 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_01_2016.csv ---
+2025-09-09 19:59:27,776 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_01_2016.csv' FALLA la validación. Faltan: ['NOM_ENT', 'NOM_MUN']
+2025-09-09 19:59:27,776 - INFO - --- Procesando archivo: conjunto_de_datos_cb_ensu_01_2015.csv ---
+2025-09-09 19:59:27,791 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_01_2015.csv' FALLA la validación. Faltan: ['NOM_ENT', 'NOM_MUN', 'BP1_1']
+2025-09-09 19:59:27,791 - INFO - ========== RESUMEN FINAL ==========
+2025-09-09 19:59:27,791 - INFO - Total de archivos encontrados: 42
+2025-09-09 19:59:27,792 - INFO - Archivos procesados exitosamente: 34
+2025-09-09 19:59:27,792 - INFO - Archivos con errores o sin datos: 8
+2025-09-09 19:59:27,792 - INFO - ===================================

@@ -1,0 +1,51 @@
+2025-09-09 19:50:49,924 - INFO - Sistema de logging configurado.
+2025-09-09 19:50:49,924 - INFO - Iniciando el proceso de validación de datasets de la ENSU.
+2025-09-09 19:50:49,925 - INFO - Iniciando búsqueda de archivos en: data
+2025-09-09 19:50:51,673 - INFO - Se encontraron 42 archivos 'cb' para procesar.
+2025-09-09 19:50:51,825 - INFO - Archivo 'conjunto_de_datos_cb_ENSU_03_2019.csv' PASA la validación de columnas.
+2025-09-09 19:50:51,895 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0625.csv' PASA la validación de columnas.
+2025-09-09 19:50:51,957 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0325.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,016 - INFO - Archivo 'conjunto_de_datos_ensu_cb_1224.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,091 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0924.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,161 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0624.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,230 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0324.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,290 - INFO - Archivo 'conjunto_de_datos_ensu_cb_1223.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,367 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0923.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,439 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0623.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,499 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_03_2023.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,557 - INFO - Archivo 'conjunto_de_datos_ensu_cb_1222.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,623 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0922.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,687 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0622.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,742 - INFO - Archivo 'conjunto_de_datos_ensu_cb_0322.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,805 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_12_2021.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,873 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_09_2021.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,931 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_06_2021.csv' PASA la validación de columnas.
+2025-09-09 19:50:52,994 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_03_2021.csv' PASA la validación de columnas.
+2025-09-09 19:50:53,062 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_12_2020.csv' PASA la validación de columnas.
+2025-09-09 19:50:53,131 - WARNING - Archivo 'conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv' FALLA la validación. Faltan las columnas: ['BP1_1']
+2025-09-09 19:50:53,220 - INFO - Archivo 'conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv' PASA la validación de columnas.
+2025-09-09 19:50:53,283 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_01_2020.csv' PASA la validación de columnas.
+2025-09-09 19:50:53,341 - INFO - Archivo 'conjunto_de_datos_CB_ENSU_04_2019.csv' PASA la validación de columnas.
+2025-09-09 19:50:53,408 - INFO - Archivo 'conjunto_de_datos_cb_ENSU_2019_2t.csv' PASA la validación de columnas.
+2025-09-09 19:50:53,463 - INFO - Archivo 'conjunto_de_datos_cb_ensu_03_2019.csv' PASA la validación de columnas.
+2025-09-09 19:50:53,533 - INFO - Archivo 'conjunto_de_datos_cb_ENSU_04_2018.csv' PASA la validación de columnas.
+2025-09-09 19:50:53,607 - INFO - Archivo 'conjunto_de_datos_cb_ensu_03_2018.csv' PASA la validación de columnas.
+2025-09-09 19:50:53,692 - INFO - Archivo ' ensu_cb_0218.csv' PASA la validación de columnas.
+2025-09-09 19:50:53,783 - INFO - Archivo 'ensu_cb_0118.csv' PASA la validación de columnas.
+2025-09-09 19:50:53,863 - INFO - Archivo 'conjunto_de_datos_cb_ensu_04_2017.csv' PASA la validación de columnas.
+2025-09-09 19:50:53,939 - INFO - Archivo 'conjunto_de_datos_cb_ensu_04_2016.csv' PASA la validación de columnas.
+2025-09-09 19:50:54,013 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_04_2015.csv' FALLA la validación. Faltan las columnas: ['NOM_ENT', 'NOM_MUN', 'BP1_1']
+2025-09-09 19:50:54,090 - INFO - Archivo 'conjunto_de_datos_cb_ensu_03_2017.csv' PASA la validación de columnas.
+2025-09-09 19:50:54,165 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_03_2016.csv' FALLA la validación. Faltan las columnas: ['NOM_ENT', 'NOM_MUN']
+2025-09-09 19:50:54,227 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_03_2015.csv' FALLA la validación. Faltan las columnas: ['NOM_ENT', 'NOM_MUN', 'BP1_1']
+2025-09-09 19:50:54,309 - INFO - Archivo 'conjunto_de_datos_cb_ensu_02_2017.csv' PASA la validación de columnas.
+2025-09-09 19:50:54,379 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_02_2016.csv' FALLA la validación. Faltan las columnas: ['NOM_ENT', 'NOM_MUN']
+2025-09-09 19:50:54,447 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_02_2015.csv' FALLA la validación. Faltan las columnas: ['NOM_ENT', 'NOM_MUN', 'BP1_1']
+2025-09-09 19:50:54,515 - INFO - Archivo 'conjunto_de_datos_cb_ensu_01_2017.csv' PASA la validación de columnas.
+2025-09-09 19:50:54,580 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_01_2016.csv' FALLA la validación. Faltan las columnas: ['NOM_ENT', 'NOM_MUN']
+2025-09-09 19:50:54,640 - WARNING - Archivo 'conjunto_de_datos_cb_ensu_01_2015.csv' FALLA la validación. Faltan las columnas: ['NOM_ENT', 'NOM_MUN', 'BP1_1']
+2025-09-09 19:50:54,640 - INFO - --- Resumen de Validación ---
+2025-09-09 19:50:54,640 - INFO - Total de archivos encontrados: 42
+2025-09-09 19:50:54,640 - INFO - Archivos que pasan la validación: 34
+2025-09-09 19:50:54,640 - INFO - Archivos que fallan la validación: 8
+2025-09-09 19:50:54,640 - INFO - -----------------------------
