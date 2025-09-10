@@ -1,0 +1,360 @@
+2025-09-09 17:57:31,496 - INFO - =================================================
+2025-09-09 17:57:31,497 - INFO - INICIO DEL SCRIPT DE PROCESAMIENTO DE DATOS ENSU
+2025-09-09 17:57:31,497 - INFO - =================================================
+2025-09-09 17:57:33,389 - INFO - Se encontraron 84 archivos para procesar.
+2025-09-09 17:57:33,389 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2015.csv ---
+2025-09-09 17:57:33,390 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ensu_01_2015.csv. Saltando archivo.
+2025-09-09 17:57:33,395 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2015.csv ---
+2025-09-09 17:57:33,395 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ensu_01_2015.csv. Saltando archivo.
+2025-09-09 17:57:33,396 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2016.csv ---
+2025-09-09 17:57:33,397 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ensu_01_2016.csv. Saltando archivo.
+2025-09-09 17:57:33,397 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2016.csv ---
+2025-09-09 17:57:33,398 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ensu_01_2016.csv. Saltando archivo.
+2025-09-09 17:57:33,399 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2017.csv ---
+2025-09-09 17:57:33,399 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ensu_01_2017.csv. Saltando archivo.
+2025-09-09 17:57:33,401 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2017.csv ---
+2025-09-09 17:57:33,402 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ensu_01_2017.csv. Saltando archivo.
+2025-09-09 17:57:33,403 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2015.csv ---
+2025-09-09 17:57:33,404 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ensu_02_2015.csv. Saltando archivo.
+2025-09-09 17:57:33,404 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2015.csv ---
+2025-09-09 17:57:33,405 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ensu_02_2015.csv. Saltando archivo.
+2025-09-09 17:57:33,405 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2016.csv ---
+2025-09-09 17:57:33,405 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ensu_02_2016.csv. Saltando archivo.
+2025-09-09 17:57:33,406 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2016.csv ---
+2025-09-09 17:57:33,406 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ensu_02_2016.csv. Saltando archivo.
+2025-09-09 17:57:33,407 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2017.csv ---
+2025-09-09 17:57:33,407 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ensu_02_2017.csv. Saltando archivo.
+2025-09-09 17:57:33,408 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2017.csv ---
+2025-09-09 17:57:33,409 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ensu_02_2017.csv. Saltando archivo.
+2025-09-09 17:57:33,409 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2015.csv ---
+2025-09-09 17:57:33,410 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ensu_03_2015.csv. Saltando archivo.
+2025-09-09 17:57:33,410 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2015.csv ---
+2025-09-09 17:57:33,412 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ensu_03_2015.csv. Saltando archivo.
+2025-09-09 17:57:33,413 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2016.csv ---
+2025-09-09 17:57:33,415 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ensu_03_2016.csv. Saltando archivo.
+2025-09-09 17:57:33,416 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2016.csv ---
+2025-09-09 17:57:33,417 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ensu_03_2016.csv. Saltando archivo.
+2025-09-09 17:57:33,418 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2017.csv ---
+2025-09-09 17:57:33,419 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ensu_03_2017.csv. Saltando archivo.
+2025-09-09 17:57:33,420 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2017.csv ---
+2025-09-09 17:57:33,420 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ensu_03_2017.csv. Saltando archivo.
+2025-09-09 17:57:33,421 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2015.csv ---
+2025-09-09 17:57:33,422 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ensu_04_2015.csv. Saltando archivo.
+2025-09-09 17:57:33,425 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2015.csv ---
+2025-09-09 17:57:33,426 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ensu_04_2015.csv. Saltando archivo.
+2025-09-09 17:57:33,428 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2016.csv ---
+2025-09-09 17:57:33,429 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ensu_04_2016.csv. Saltando archivo.
+2025-09-09 17:57:33,430 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2016.csv ---
+2025-09-09 17:57:33,430 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ensu_04_2016.csv. Saltando archivo.
+2025-09-09 17:57:33,431 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2017.csv ---
+2025-09-09 17:57:33,433 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ensu_04_2017.csv. Saltando archivo.
+2025-09-09 17:57:33,434 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2017.csv ---
+2025-09-09 17:57:33,436 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ensu_04_2017.csv. Saltando archivo.
+2025-09-09 17:57:33,436 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\conjunto_de_datos\ensu_cb_0118.csv ---
+2025-09-09 17:57:33,437 - INFO - Año extraído: 2018, Trimestre: 1
+2025-09-09 17:57:34,006 - INFO - Archivo leído. Número inicial de registros: 15172
+2025-09-09 17:57:34,096 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 266
+2025-09-09 17:57:34,108 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:34,207 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2018_1t_cb.csv
+2025-09-09 17:57:34,215 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\diccionario_de_datos\diccionario_de_datos_ensu_cb_0118.csv ---
+2025-09-09 17:57:34,216 - INFO - Año extraído: 2018, Trimestre: 1
+2025-09-09 17:57:34,273 - INFO - Archivo leído. Número inicial de registros: 463
+2025-09-09 17:57:34,274 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_0118.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:34,276 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\conjunto_de_datos\ ensu_cb_0218.csv ---
+2025-09-09 17:57:34,276 - INFO - Año extraído: 2018, Trimestre: 2
+2025-09-09 17:57:34,895 - INFO - Archivo leído. Número inicial de registros: 17548
+2025-09-09 17:57:34,974 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 264
+2025-09-09 17:57:34,979 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:35,012 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2018_2t_cb.csv
+2025-09-09 17:57:35,022 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\diccionario_de_datos\diccionario_de_datos_ensu_cb_0218.csv ---
+2025-09-09 17:57:35,023 - INFO - Año extraído: 2018, Trimestre: 2
+2025-09-09 17:57:35,087 - INFO - Archivo leído. Número inicial de registros: 465
+2025-09-09 17:57:35,088 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_0218.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:35,089 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2018.csv ---
+2025-09-09 17:57:35,089 - INFO - Año extraído: 2018, Trimestre: 3
+2025-09-09 17:57:36,006 - INFO - Archivo leído. Número inicial de registros: 20163
+2025-09-09 17:57:36,117 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 265
+2025-09-09 17:57:36,124 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:36,168 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2018_3t_cb.csv
+2025-09-09 17:57:36,180 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2018.csv ---
+2025-09-09 17:57:36,181 - INFO - Año extraído: 2018, Trimestre: 3
+2025-09-09 17:57:36,240 - INFO - Archivo leído. Número inicial de registros: 473
+2025-09-09 17:57:36,241 - ERROR - Faltan columnas requeridas en diccionario_de_datos_cb_ensu_03_2018.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:36,242 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\conjunto_de_datos\conjunto_de_datos_cb_ENSU_04_2018.csv ---
+2025-09-09 17:57:36,243 - INFO - Año extraído: 2018, Trimestre: 4
+2025-09-09 17:57:36,899 - INFO - Archivo leído. Número inicial de registros: 18017
+2025-09-09 17:57:36,981 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 269
+2025-09-09 17:57:36,986 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:37,010 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2018_4t_cb.csv
+2025-09-09 17:57:37,063 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\diccionario_de_datos\diccionario_de_datos_cb_ENSU_04_2018.csv ---
+2025-09-09 17:57:37,111 - INFO - Año extraído: 2018, Trimestre: 4
+2025-09-09 17:57:37,307 - INFO - Archivo leído. Número inicial de registros: 454
+2025-09-09 17:57:37,308 - ERROR - Faltan columnas requeridas en diccionario_de_datos_cb_ENSU_04_2018.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:37,308 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2019.csv ---
+2025-09-09 17:57:37,309 - INFO - Año extraído: 2019, Trimestre: 1
+2025-09-09 17:57:37,784 - INFO - Archivo leído. Número inicial de registros: 18113
+2025-09-09 17:57:37,858 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 263
+2025-09-09 17:57:37,862 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:37,895 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2019_1t_cb.csv
+2025-09-09 17:57:37,900 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2019.csv ---
+2025-09-09 17:57:37,901 - INFO - Año extraído: 2019, Trimestre: 1
+2025-09-09 17:57:37,945 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_cb_ensu_03_2019.csv. Intentando con 'latin1'.
+2025-09-09 17:57:37,960 - INFO - Archivo leído. Número inicial de registros: 454
+2025-09-09 17:57:37,962 - ERROR - Faltan columnas requeridas en diccionario_de_datos_cb_ensu_03_2019.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:37,962 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\conjunto_de_datos\conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+2025-09-09 17:57:37,963 - INFO - Año extraído: 2019, Trimestre: 2
+2025-09-09 17:57:39,085 - INFO - Archivo leído. Número inicial de registros: 19010
+2025-09-09 17:57:39,196 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 265
+2025-09-09 17:57:39,206 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:39,250 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2019_2t_cb.csv
+2025-09-09 17:57:39,263 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\diccionario_de_datos\diccionario_de_datos_cb_ENSU_2019_2t.csv ---
+2025-09-09 17:57:39,264 - INFO - Año extraído: 2019, Trimestre: 2
+2025-09-09 17:57:39,314 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_cb_ENSU_2019_2t.csv. Intentando con 'latin1'.
+2025-09-09 17:57:39,323 - INFO - Archivo leído. Número inicial de registros: 462
+2025-09-09 17:57:39,324 - ERROR - Faltan columnas requeridas en diccionario_de_datos_cb_ENSU_2019_2t.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:39,326 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\conjunto_de_datos\conjunto_de_datos_CB_ENSU_04_2019.csv ---
+2025-09-09 17:57:39,327 - INFO - Año extraído: 2019, Trimestre: 4
+2025-09-09 17:57:40,349 - INFO - Archivo leído. Número inicial de registros: 22158
+2025-09-09 17:57:40,457 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 261
+2025-09-09 17:57:40,463 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:40,501 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2019_4t_cb.csv
+2025-09-09 17:57:40,516 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\diccionario_de_datos\diccionario_de_datos_CB_ENSU_04_2019.csv ---
+2025-09-09 17:57:40,517 - INFO - Año extraído: 2019, Trimestre: 4
+2025-09-09 17:57:40,559 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_CB_ENSU_04_2019.csv. Intentando con 'latin1'.
+2025-09-09 17:57:40,564 - INFO - Archivo leído. Número inicial de registros: 501
+2025-09-09 17:57:40,565 - ERROR - Faltan columnas requeridas en diccionario_de_datos_CB_ENSU_04_2019.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:40,566 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\conjunto_de_datos\conjunto_de_datos_CB_ENSU_01_2020.csv ---
+2025-09-09 17:57:40,567 - INFO - Año extraído: 2020, Trimestre: 1
+2025-09-09 17:57:41,487 - INFO - Archivo leído. Número inicial de registros: 22416
+2025-09-09 17:57:41,628 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 264
+2025-09-09 17:57:41,635 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:41,667 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2020_1t_cb.csv
+2025-09-09 17:57:41,682 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\diccionario_de_datos\diccionario_de_datos_CB_ENSU_01_2020.csv ---
+2025-09-09 17:57:41,683 - INFO - Año extraído: 2020, Trimestre: 1
+2025-09-09 17:57:41,727 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_CB_ENSU_01_2020.csv. Intentando con 'latin1'.
+2025-09-09 17:57:41,733 - INFO - Archivo leído. Número inicial de registros: 476
+2025-09-09 17:57:41,735 - ERROR - Faltan columnas requeridas en diccionario_de_datos_CB_ENSU_01_2020.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:41,739 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+2025-09-09 17:57:41,740 - INFO - Año extraído: 2020, Trimestre: 3
+2025-09-09 17:57:43,199 - INFO - Archivo leído. Número inicial de registros: 22122
+2025-09-09 17:57:43,333 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 262
+2025-09-09 17:57:43,342 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:43,370 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2020_3t_cb.csv
+2025-09-09 17:57:43,394 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\diccionario_de_datos\diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+2025-09-09 17:57:43,395 - INFO - Año extraído: 2020, Trimestre: 3
+2025-09-09 17:57:43,439 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv. Intentando con 'latin1'.
+2025-09-09 17:57:43,448 - INFO - Archivo leído. Número inicial de registros: 595
+2025-09-09 17:57:43,450 - ERROR - Faltan columnas requeridas en diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:43,451 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv ---
+2025-09-09 17:57:43,452 - INFO - Año extraído: 2020, Trimestre: 3
+2025-09-09 17:57:44,195 - INFO - Archivo leído. Número inicial de registros: 22122
+2025-09-09 17:57:44,210 - ERROR - Faltan columnas requeridas en conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv: ['BP1_1']. Saltando archivo.
+2025-09-09 17:57:44,227 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\diccionario_de_datos\diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv ---
+2025-09-09 17:57:44,237 - INFO - Año extraído: 2020, Trimestre: 3
+2025-09-09 17:57:44,532 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv. Intentando con 'latin1'.
+2025-09-09 17:57:44,576 - INFO - Archivo leído. Número inicial de registros: 472
+2025-09-09 17:57:44,590 - ERROR - Faltan columnas requeridas en diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:44,592 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\conjunto_de_datos\conjunto_de_datos_CB_ENSU_12_2020.csv ---
+2025-09-09 17:57:44,594 - INFO - Año extraído: 2020, Trimestre: 4
+2025-09-09 17:57:45,893 - INFO - Archivo leído. Número inicial de registros: 22283
+2025-09-09 17:57:46,062 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 264
+2025-09-09 17:57:46,071 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:46,103 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2020_4t_cb.csv
+2025-09-09 17:57:46,121 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\diccionario_de_datos\diccionario_de_datos_CB_ENSU_12_2020.csv ---
+2025-09-09 17:57:46,122 - INFO - Año extraído: 2020, Trimestre: 4
+2025-09-09 17:57:46,167 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_CB_ENSU_12_2020.csv. Intentando con 'latin1'.
+2025-09-09 17:57:46,177 - INFO - Archivo leído. Número inicial de registros: 573
+2025-09-09 17:57:46,179 - ERROR - Faltan columnas requeridas en diccionario_de_datos_CB_ENSU_12_2020.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:46,180 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_03_2021.csv ---
+2025-09-09 17:57:46,181 - INFO - Año extraído: 2021, Trimestre: 1
+2025-09-09 17:57:47,188 - INFO - Archivo leído. Número inicial de registros: 22307
+2025-09-09 17:57:47,325 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 265
+2025-09-09 17:57:47,332 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:47,364 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2021_1t_cb.csv
+2025-09-09 17:57:47,395 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_03_2021.csv ---
+2025-09-09 17:57:47,403 - INFO - Año extraído: 2021, Trimestre: 1
+2025-09-09 17:57:47,480 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_CB_ENSU_03_2021.csv. Intentando con 'latin1'.
+2025-09-09 17:57:47,489 - INFO - Archivo leído. Número inicial de registros: 474
+2025-09-09 17:57:47,492 - ERROR - Faltan columnas requeridas en diccionario_de_datos_CB_ENSU_03_2021.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:47,493 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_06_2021.csv ---
+2025-09-09 17:57:47,495 - INFO - Año extraído: 2021, Trimestre: 2
+2025-09-09 17:57:48,550 - INFO - Archivo leído. Número inicial de registros: 22411
+2025-09-09 17:57:48,681 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 268
+2025-09-09 17:57:48,686 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:48,724 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2021_2t_cb.csv
+2025-09-09 17:57:48,739 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_06_2021.csv ---
+2025-09-09 17:57:48,739 - INFO - Año extraído: 2021, Trimestre: 2
+2025-09-09 17:57:48,778 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_CB_ENSU_06_2021.csv. Intentando con 'latin1'.
+2025-09-09 17:57:48,783 - INFO - Archivo leído. Número inicial de registros: 509
+2025-09-09 17:57:48,784 - ERROR - Faltan columnas requeridas en diccionario_de_datos_CB_ENSU_06_2021.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:48,785 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_09_2021.csv ---
+2025-09-09 17:57:48,786 - INFO - Año extraído: 2021, Trimestre: 3
+2025-09-09 17:57:50,654 - INFO - Archivo leído. Número inicial de registros: 23356
+2025-09-09 17:57:50,824 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 267
+2025-09-09 17:57:50,831 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:50,865 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2021_3t_cb.csv
+2025-09-09 17:57:50,889 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_09_2021.csv ---
+2025-09-09 17:57:50,890 - INFO - Año extraído: 2021, Trimestre: 3
+2025-09-09 17:57:50,934 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_CB_ENSU_09_2021.csv. Intentando con 'latin1'.
+2025-09-09 17:57:50,948 - INFO - Archivo leído. Número inicial de registros: 800
+2025-09-09 17:57:50,949 - ERROR - Faltan columnas requeridas en diccionario_de_datos_CB_ENSU_09_2021.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:50,950 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_12_2021.csv ---
+2025-09-09 17:57:50,952 - INFO - Año extraído: 2021, Trimestre: 4
+2025-09-09 17:57:52,025 - INFO - Archivo leído. Número inicial de registros: 23428
+2025-09-09 17:57:52,170 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 268
+2025-09-09 17:57:52,177 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:52,218 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2021_4t_cb.csv
+2025-09-09 17:57:52,232 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_12_2021.csv ---
+2025-09-09 17:57:52,233 - INFO - Año extraído: 2021, Trimestre: 4
+2025-09-09 17:57:52,277 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_CB_ENSU_12_2021.csv. Intentando con 'latin1'.
+2025-09-09 17:57:52,285 - INFO - Archivo leído. Número inicial de registros: 514
+2025-09-09 17:57:52,286 - ERROR - Faltan columnas requeridas en diccionario_de_datos_CB_ENSU_12_2021.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:52,287 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\conjunto_de_datos\conjunto_de_datos_ensu_cb_0322.csv ---
+2025-09-09 17:57:52,288 - INFO - Año extraído: 2022, Trimestre: 1
+2025-09-09 17:57:53,130 - INFO - Archivo leído. Número inicial de registros: 23577
+2025-09-09 17:57:53,249 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 272
+2025-09-09 17:57:53,254 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:53,283 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2022_1t_cb.csv
+2025-09-09 17:57:53,291 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\diccionario_de_datos\diccionario_de_datos_ensu_cb_0322.csv ---
+2025-09-09 17:57:53,292 - INFO - Año extraído: 2022, Trimestre: 1
+2025-09-09 17:57:53,336 - INFO - Archivo leído. Número inicial de registros: 485
+2025-09-09 17:57:53,337 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_0322.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:53,337 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\conjunto_de_datos\conjunto_de_datos_ensu_cb_0622.csv ---
+2025-09-09 17:57:53,338 - INFO - Año extraído: 2022, Trimestre: 2
+2025-09-09 17:57:54,150 - INFO - Archivo leído. Número inicial de registros: 23688
+2025-09-09 17:57:54,263 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 275
+2025-09-09 17:57:54,268 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:54,299 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2022_2t_cb.csv
+2025-09-09 17:57:54,306 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\diccionario_de_datos\diccionario_de_datos_ensu_cb_0622.csv ---
+2025-09-09 17:57:54,307 - INFO - Año extraído: 2022, Trimestre: 2
+2025-09-09 17:57:54,341 - INFO - Archivo leído. Número inicial de registros: 515
+2025-09-09 17:57:54,343 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_0622.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:54,343 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\conjunto_de_datos\conjunto_de_datos_ensu_cb_0922.csv ---
+2025-09-09 17:57:54,345 - INFO - Año extraído: 2022, Trimestre: 3
+2025-09-09 17:57:55,467 - INFO - Archivo leído. Número inicial de registros: 23618
+2025-09-09 17:57:55,675 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 263
+2025-09-09 17:57:55,688 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:55,763 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2022_3t_cb.csv
+2025-09-09 17:57:55,781 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\diccionario_de_datos\diccionario_de_datos_ensu_cb_0922.csv ---
+2025-09-09 17:57:55,788 - INFO - Año extraído: 2022, Trimestre: 3
+2025-09-09 17:57:55,838 - INFO - Archivo leído. Número inicial de registros: 799
+2025-09-09 17:57:55,842 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_0922.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:55,849 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\conjunto_de_datos\conjunto_de_datos_ensu_cb_1222.csv ---
+2025-09-09 17:57:55,856 - INFO - Año extraído: 2022, Trimestre: 4
+2025-09-09 17:57:57,015 - INFO - Archivo leído. Número inicial de registros: 24402
+2025-09-09 17:57:57,153 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 262
+2025-09-09 17:57:57,160 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:57,195 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2022_4t_cb.csv
+2025-09-09 17:57:57,204 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\diccionario_de_datos\diccionario_de_datos_ensu_cb_1222.csv ---
+2025-09-09 17:57:57,205 - INFO - Año extraído: 2022, Trimestre: 4
+2025-09-09 17:57:57,261 - INFO - Archivo leído. Número inicial de registros: 524
+2025-09-09 17:57:57,262 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_1222.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:57,263 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\conjunto_de_datos\conjunto_de_datos_CB_ENSU_03_2023.csv ---
+2025-09-09 17:57:57,263 - INFO - Año extraído: 2023, Trimestre: 1
+2025-09-09 17:57:58,348 - INFO - Archivo leído. Número inicial de registros: 23778
+2025-09-09 17:57:58,459 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 262
+2025-09-09 17:57:58,465 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:58,488 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2023_1t_cb.csv
+2025-09-09 17:57:58,501 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\diccionario_de_datos\diccionario_de_datos_CB_ENSU_03_2023.csv ---
+2025-09-09 17:57:58,501 - INFO - Año extraído: 2023, Trimestre: 1
+2025-09-09 17:57:58,538 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_CB_ENSU_03_2023.csv. Intentando con 'latin1'.
+2025-09-09 17:57:58,544 - INFO - Archivo leído. Número inicial de registros: 492
+2025-09-09 17:57:58,547 - ERROR - Faltan columnas requeridas en diccionario_de_datos_CB_ENSU_03_2023.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:58,548 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\conjunto_de_datos\conjunto_de_datos_ensu_cb_0623.csv ---
+2025-09-09 17:57:58,548 - INFO - Año extraído: 2023, Trimestre: 2
+2025-09-09 17:57:59,691 - INFO - Archivo leído. Número inicial de registros: 24435
+2025-09-09 17:57:59,830 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 271
+2025-09-09 17:57:59,837 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:57:59,879 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2023_2t_cb.csv
+2025-09-09 17:57:59,894 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\diccionario_de_datos\diccionario_de_datos_ensu_cb_0623.csv ---
+2025-09-09 17:57:59,895 - INFO - Año extraído: 2023, Trimestre: 2
+2025-09-09 17:57:59,933 - WARNING - Error de codificación UTF-8 en diccionario_de_datos_ensu_cb_0623.csv. Intentando con 'latin1'.
+2025-09-09 17:57:59,939 - INFO - Archivo leído. Número inicial de registros: 524
+2025-09-09 17:57:59,940 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_0623.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:57:59,941 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\conjunto_de_datos\conjunto_de_datos_ensu_cb_0923.csv ---
+2025-09-09 17:57:59,946 - INFO - Año extraído: 2023, Trimestre: 3
+2025-09-09 17:58:02,014 - INFO - Archivo leído. Número inicial de registros: 24493
+2025-09-09 17:58:02,164 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 267
+2025-09-09 17:58:02,171 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:58:02,205 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2023_3t_cb.csv
+2025-09-09 17:58:02,229 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\diccionario_de_datos\diccionario_de_datos_ensu_cb_0923.csv ---
+2025-09-09 17:58:02,230 - INFO - Año extraído: 2023, Trimestre: 3
+2025-09-09 17:58:02,280 - INFO - Archivo leído. Número inicial de registros: 830
+2025-09-09 17:58:02,282 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_0923.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:58:02,283 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\conjunto_de_datos\conjunto_de_datos_ensu_cb_1223.csv ---
+2025-09-09 17:58:02,284 - INFO - Año extraído: 2023, Trimestre: 4
+2025-09-09 17:58:03,246 - INFO - Archivo leído. Número inicial de registros: 24064
+2025-09-09 17:58:03,386 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 268
+2025-09-09 17:58:03,391 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:58:03,412 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2023_4t_cb.csv
+2025-09-09 17:58:03,421 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\diccionario_de_datos\diccionario_de_datos_ensu_cb_1223.csv ---
+2025-09-09 17:58:03,421 - INFO - Año extraído: 2023, Trimestre: 4
+2025-09-09 17:58:03,461 - INFO - Archivo leído. Número inicial de registros: 512
+2025-09-09 17:58:03,463 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_1223.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:58:03,464 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\conjunto_de_datos\conjunto_de_datos_ensu_cb_0324.csv ---
+2025-09-09 17:58:03,465 - INFO - Año extraído: 2024, Trimestre: 1
+2025-09-09 17:58:04,356 - INFO - Archivo leído. Número inicial de registros: 24022
+2025-09-09 17:58:04,481 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 257
+2025-09-09 17:58:04,488 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:58:04,523 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2024_1t_cb.csv
+2025-09-09 17:58:04,535 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\diccionario_de_datos\diccionario_de_datos_ensu_cb_0324.csv ---
+2025-09-09 17:58:04,536 - INFO - Año extraído: 2024, Trimestre: 1
+2025-09-09 17:58:04,585 - INFO - Archivo leído. Número inicial de registros: 522
+2025-09-09 17:58:04,586 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_0324.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:58:04,587 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\conjunto_de_datos\conjunto_de_datos_ensu_cb_0624.csv ---
+2025-09-09 17:58:04,587 - INFO - Año extraído: 2024, Trimestre: 2
+2025-09-09 17:58:05,524 - INFO - Archivo leído. Número inicial de registros: 24114
+2025-09-09 17:58:05,673 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 256
+2025-09-09 17:58:05,678 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:58:05,712 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2024_2t_cb.csv
+2025-09-09 17:58:05,722 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\diccionario_de_datos\diccionario_de_datos_ensu_cb_0624.csv ---
+2025-09-09 17:58:05,723 - INFO - Año extraído: 2024, Trimestre: 2
+2025-09-09 17:58:05,760 - INFO - Archivo leído. Número inicial de registros: 517
+2025-09-09 17:58:05,762 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_0624.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:58:05,762 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\conjunto_de_datos\conjunto_de_datos_ensu_cb_0924.csv ---
+2025-09-09 17:58:05,763 - INFO - Año extraído: 2024, Trimestre: 3
+2025-09-09 17:58:07,363 - INFO - Archivo leído. Número inicial de registros: 24096
+2025-09-09 17:58:07,511 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 258
+2025-09-09 17:58:07,516 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:58:07,546 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2024_3t_cb.csv
+2025-09-09 17:58:07,561 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\diccionario_de_datos\diccionario_de_datos_ensu_cb_0924.csv ---
+2025-09-09 17:58:07,563 - INFO - Año extraído: 2024, Trimestre: 3
+2025-09-09 17:58:07,604 - INFO - Archivo leído. Número inicial de registros: 852
+2025-09-09 17:58:07,605 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_0924.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:58:07,605 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\conjunto_de_datos\conjunto_de_datos_ensu_cb_1224.csv ---
+2025-09-09 17:58:07,606 - INFO - Año extraído: 2024, Trimestre: 4
+2025-09-09 17:58:08,583 - INFO - Archivo leído. Número inicial de registros: 23451
+2025-09-09 17:58:08,706 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 260
+2025-09-09 17:58:08,712 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:58:08,745 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2024_4t_cb.csv
+2025-09-09 17:58:08,756 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\diccionario_de_datos\diccionario_de_datos_ensu_cb_1224.csv ---
+2025-09-09 17:58:08,757 - INFO - Año extraído: 2024, Trimestre: 4
+2025-09-09 17:58:08,808 - INFO - Archivo leído. Número inicial de registros: 519
+2025-09-09 17:58:08,810 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_1224.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:58:08,811 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\conjunto_de_datos\conjunto_de_datos_ensu_cb_0325.csv ---
+2025-09-09 17:58:08,811 - INFO - Año extraído: 2025, Trimestre: 1
+2025-09-09 17:58:09,719 - INFO - Archivo leído. Número inicial de registros: 23591
+2025-09-09 17:58:09,824 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 258
+2025-09-09 17:58:09,831 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:58:09,858 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2025_1t_cb.csv
+2025-09-09 17:58:09,870 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\diccionario_de_datos\diccionario_de_datos_ensu_cb_0325.csv ---
+2025-09-09 17:58:09,872 - INFO - Año extraído: 2025, Trimestre: 1
+2025-09-09 17:58:09,914 - INFO - Archivo leído. Número inicial de registros: 499
+2025-09-09 17:58:09,917 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_0325.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:58:09,918 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\conjunto_de_datos\conjunto_de_datos_ensu_cb_0625.csv ---
+2025-09-09 17:58:09,919 - INFO - Año extraído: 2025, Trimestre: 2
+2025-09-09 17:58:10,744 - INFO - Archivo leído. Número inicial de registros: 23717
+2025-09-09 17:58:10,848 - INFO - Filtrado por entidad 'YUCATAN'. Registros restantes: 255
+2025-09-09 17:58:10,853 - INFO - Agrupando y calculando estadísticas...
+2025-09-09 17:58:10,885 - INFO - Archivo procesado y guardado exitosamente en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\yucatan-inseguridad\procesado_2025_2t_cb.csv
+2025-09-09 17:58:10,897 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\diccionario_de_datos\diccionario_de_datos_ensu_cb_0625.csv ---
+2025-09-09 17:58:10,899 - INFO - Año extraído: 2025, Trimestre: 2
+2025-09-09 17:58:10,934 - INFO - Archivo leído. Número inicial de registros: 519
+2025-09-09 17:58:10,936 - ERROR - Faltan columnas requeridas en diccionario_de_datos_ensu_cb_0625.csv: ['NOM_ENT', 'NOM_MUN', 'BP1_1']. Saltando archivo.
+2025-09-09 17:58:10,937 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\conjunto_de_datos\conjunto_de_datos_cb_ENSU_03_2019.csv ---
+2025-09-09 17:58:10,938 - WARNING - No se pudo extraer año y trimestre de conjunto_de_datos_cb_ENSU_03_2019.csv. Saltando archivo.
+2025-09-09 17:58:10,938 - INFO - --- Iniciando procesamiento para: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\data\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ENSU_03_2019.csv ---
+2025-09-09 17:58:10,939 - WARNING - No se pudo extraer año y trimestre de diccionario_de_datos_cb_ENSU_03_2019.csv. Saltando archivo.
+2025-09-09 17:58:10,939 - INFO - =================================================
+2025-09-09 17:58:10,939 - INFO - FIN DEL SCRIPT DE PROCESAMIENTO
+2025-09-09 17:58:10,940 - INFO - =================================================

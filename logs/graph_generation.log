@@ -1,0 +1,13 @@
+2025-09-09 19:29:04,976 - INFO - --- Iniciando script de generación de gráficos ---
+2025-09-09 19:29:04,977 - INFO - Directorio de salida asegurado: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\images
+2025-09-09 19:29:04,979 - INFO - Se encontraron 28 archivos CSV para procesar.
+2025-09-09 19:29:05,113 - INFO - Datos cargados. Total de registros: 107. Períodos de 2018-Q1 a 2025-Q2.
+2025-09-09 19:29:05,113 - INFO - Generando Gráfico 1: Evolución estatal...
+2025-09-09 19:29:05,810 - INFO - Gráfico 1 guardado en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\images\01_evolucion_seguridad_yucatan.png
+2025-09-09 19:29:05,816 - INFO - Generando Gráfico 2: Comparativa municipal reciente...
+2025-09-09 19:29:06,264 - INFO - Gráfico 2 guardado en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\images\02_comparativa_municipios_reciente.png
+2025-09-09 19:29:06,264 - INFO - Generando Gráfico 3: Evolución de municipios principales...
+2025-09-09 19:29:06,823 - INFO - Gráfico 3 guardado en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\images\03_evolucion_municipios_principales.png
+2025-09-09 19:29:06,824 - INFO - Generando Gráfico 4: Distribución de percepción...
+2025-09-09 19:29:07,157 - INFO - Gráfico 4 guardado en: c:\Users\ramam\OneDrive\Escritorio\Data Mining\data-mining\images\04_distribucion_seguridad_reciente.png
+2025-09-09 19:29:07,157 - INFO - --- Finalizado script de generación de gráficos ---

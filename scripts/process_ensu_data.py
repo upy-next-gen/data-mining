@@ -3,8 +3,10 @@
 Script para procesar el dataset ENSU y extraer columnas específicas.
 """
 
-import pandas as pd
 import os
+
+import pandas as pd
+
 
 def process_ensu_dataset():
     # Definir rutas
@@ -45,7 +47,7 @@ def process_ensu_dataset():
     print(f"- Valores únicos en NOM_ENT: {df_selected['NOM_ENT'].nunique()}")
     print(f"- Valores únicos en NOM_MUN: {df_selected['NOM_MUN'].nunique()}")
     print(f"- Valores únicos en NOM_CD: {df_selected['NOM_CD'].nunique()}")
-    print(f"- Distribución de BP1_1:")
+    print("- Distribución de BP1_1:")
     print(df_selected['BP1_1'].value_counts().sort_index())
     
     # Mostrar primeras filas
