@@ -20,3 +20,6 @@ reportes/*.csv
 # Archivos del sistema
 .DS_Store
 Thumbs.db
+
+# Datos pesados
+datos completos/
