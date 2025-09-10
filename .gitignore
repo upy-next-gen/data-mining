@@ -1,0 +1,22 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs
+*.log
+
+# Archivos generados
+*.png
+reportes/*.html
+reportes/*.csv
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

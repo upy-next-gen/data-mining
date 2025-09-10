@@ -1,0 +1,83 @@
+[
+  {
+    "origen": "datos completos\\conjunto_de_datos_ensu_04_2016_csv\\conjunto_de_datos_cb_ensu_04_2016\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_04_2016.csv",
+    "anio": 2016,
+    "trimestre": "Q2",
+    "csv_raw": ".\\data\\yucatan-inseguridad\\insumos\\raw\\ENSU_2016_Q2_CB_raw.csv",
+    "diccionario": null,
+    "filas": 13976,
+    "columnas": 122
+  },
+  {
+    "origen": "datos completos\\conjunto_de_datos_ensu_03_2017_csv\\conjunto_de_datos_cb_ensu_03_2017\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_03_2017.csv",
+    "anio": 2017,
+    "trimestre": "Q1",
+    "csv_raw": ".\\data\\yucatan-inseguridad\\insumos\\raw\\ENSU_2017_Q1_CB_raw.csv",
+    "diccionario": null,
+    "filas": 15303,
+    "columnas": 137
+  },
+  {
+    "origen": "datos completos\\conjunto_de_datos_ensu_02_2017_csv\\conjunto_de_datos_cb_ensu_02_2017\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_02_2017.csv",
+    "anio": 2017,
+    "trimestre": "Q1",
+    "csv_raw": ".\\data\\yucatan-inseguridad\\insumos\\raw\\ENSU_2017_Q1_CB_raw.csv",
+    "diccionario": null,
+    "filas": 15272,
+    "columnas": 137
+  },
+  {
+    "origen": "datos completos\\conjunto_de_datos_ensu_01_2017_csv\\conjunto_de_datos_cb_ensu_01_2017\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_01_2017.csv",
+    "anio": 2017,
+    "trimestre": "Q1",
+    "csv_raw": ".\\data\\yucatan-inseguridad\\insumos\\raw\\ENSU_2017_Q1_CB_raw.csv",
+    "diccionario": null,
+    "filas": 14497,
+    "columnas": 136
+  },
+  {
+    "origen": "datos completos\\conjunto_de_datos_ensu_04_2017_csv\\conjunto_de_datos_cb_ensu_04_2017\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_04_2017.csv",
+    "anio": 2017,
+    "trimestre": "Q2",
+    "csv_raw": ".\\data\\yucatan-inseguridad\\insumos\\raw\\ENSU_2017_Q2_CB_raw.csv",
+    "diccionario": null,
+    "filas": 15072,
+    "columnas": 137
+  },
+  {
+    "origen": "datos completos\\conjunto_de_datos_ensu_2018_3t_csv\\conjunto_de_datos_cb_ensu_03_2018\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_03_2018.csv",
+    "anio": 2018,
+    "trimestre": "Q1",
+    "csv_raw": ".\\data\\yucatan-inseguridad\\insumos\\raw\\ENSU_2018_Q1_CB_raw.csv",
+    "diccionario": null,
+    "filas": 20163,
+    "columnas": 137
+  },
+  {
+    "origen": "datos completos\\conjunto_de_datos_ensu_2018_4t_csv\\conjunto_de_datos_cb_ensu_04_2018\\conjunto_de_datos\\conjunto_de_datos_cb_ENSU_04_2018.csv",
+    "anio": 2018,
+    "trimestre": "Q2",
+    "csv_raw": ".\\data\\yucatan-inseguridad\\insumos\\raw\\ENSU_2018_Q2_CB_raw.csv",
+    "diccionario": null,
+    "filas": 18017,
+    "columnas": 123
+  },
+  {
+    "origen": "datos completos\\conjunto_de_datos_ENSU_2019_1t_csv\\conjunto_de_datos_cb_ensu_03_2019\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_03_2019.csv",
+    "anio": 2019,
+    "trimestre": "Q1",
+    "csv_raw": ".\\data\\yucatan-inseguridad\\insumos\\raw\\ENSU_2019_Q1_CB_raw.csv",
+    "diccionario": null,
+    "filas": 18113,
+    "columnas": 131
+  },
+  {
+    "origen": "datos completos\\conjunto_de_datos_ensu_2023_1t_csv\\conjunto_de_datos_CB_ENSU_03_2023\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_03_2023.csv",
+    "anio": 2023,
+    "trimestre": "Q1",
+    "csv_raw": ".\\data\\yucatan-inseguridad\\insumos\\raw\\ENSU_2023_Q1_CB_raw.csv",
+    "diccionario": null,
+    "filas": 23778,
+    "columnas": 142
+  }
+]

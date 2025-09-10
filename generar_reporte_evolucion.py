@@ -1,22 +1,26 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Generador de reportes de evolución de percepción de inseguridad en Yucatán.
+Generador de reportes de evolución de percepción de seguridad en Yucatán.
 
 Este script genera un reporte HTML con visualizaciones que muestran la evolución
-temporal del porcentaje de percepción de inseguridad en el estado de Yucatán.
+temporal del porcentaje de percepción de inseguridad en el estado de Yucatán
+y sus municipios.
 
-Author: Cascade AI
-Date: 2025-09-09
+Autor: Cascade AI
+Fecha: 2025-09-10
 """
+
 import os
 import sys
 import re
 import glob
+import json
 import logging
 import argparse
 import base64
 from io import BytesIO
+from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Tuple, Set, Optional, Union, Any
 
@@ -25,472 +29,458 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')  # No usar interfaz gráfica
 import matplotlib.pyplot as plt
+from matplotlib.ticker import MaxNLocator
 
 
-# Configuración de logging
-def setup_logging(reportes_dir: str, timestamped: bool = False) -> logging.Logger:
+def setup_logging(log_file: str) -> logging.Logger:
     """
-    Configura el sistema de logging para el análisis.
+    Configura el sistema de logging.
     
     Args:
-        reportes_dir: Directorio donde guardar los logs
-        timestamped: Si se debe incluir timestamp en el nombre del archivo
+        log_file: Ruta al archivo de log
     
     Returns:
         Logger configurado
     """
-    os.makedirs(reportes_dir, exist_ok=True)
+    # Crear directorio para logs si no existe
+    log_dir = os.path.dirname(log_file)
+    os.makedirs(log_dir, exist_ok=True)
     
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    log_file = f"log_analisis_yucatan_{timestamp}.log" if timestamped else "log_analisis_yucatan.log"
-    log_path = os.path.join(reportes_dir, log_file)
-    
+    # Configurar logger
     logger = logging.getLogger("reporte_evolucion")
     logger.setLevel(logging.INFO)
     
+    # Formato para los logs
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    
     # Handler para archivo
-    file_handler = logging.FileHandler(log_path, encoding='utf-8')
+    file_handler = logging.FileHandler(log_file, encoding='utf-8')
+    file_handler.setFormatter(formatter)
     file_handler.setLevel(logging.INFO)
     
     # Handler para consola
     console_handler = logging.StreamHandler()
+    console_handler.setFormatter(formatter)
     console_handler.setLevel(logging.INFO)
     
-    # Formato de log
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    file_handler.setFormatter(formatter)
-    console_handler.setFormatter(formatter)
-    
-    # Agregar handlers
+    # Añadir handlers
     logger.addHandler(file_handler)
     logger.addHandler(console_handler)
     
     return logger
 
 
-def cargar_datos_procesados(directorio_datos: str, estado: str, logger: logging.Logger) -> pd.DataFrame:
+def cargar_datos_procesados(directorio_procesados: str, estado: str, logger: logging.Logger) -> pd.DataFrame:
     """
-    Carga todos los archivos procesados del directorio especificado y los combina.
+    Carga todos los archivos CSV procesados y los combina en un solo DataFrame.
     
     Args:
-        directorio_datos: Ruta al directorio con los datos procesados
-        estado: Nombre del estado a filtrar (normalizado)
-        logger: Logger para registro de eventos
+        directorio_procesados: Directorio con los archivos procesados
+        estado: Estado a filtrar (ya normalizado)
+        logger: Logger para registrar eventos
         
     Returns:
-        DataFrame combinado y filtrado por el estado especificado
+        DataFrame combinado con todos los datos
     """
-    # Buscar archivos procesados
-    patron_archivos = os.path.join(directorio_datos, "procesado_*.csv")
+    # Buscar archivos CSV procesados
+    patron_archivos = os.path.join(directorio_procesados, "procesados", "procesado_*.csv")
     archivos = glob.glob(patron_archivos)
     
     if not archivos:
-        logger.error(f"No se encontraron archivos procesados en '{directorio_datos}'")
+        logger.error(f"No se encontraron archivos procesados en {directorio_procesados}/procesados/")
         sys.exit(1)
     
-    logger.info(f"Se encontraron {len(archivos)} archivos de datos procesados:")
-    for archivo in archivos:
-        logger.info(f"  - {os.path.basename(archivo)}")
+    logger.info(f"Se encontraron {len(archivos)} archivos procesados")
     
     # Cargar y combinar archivos
-    dataframes = []
-    
+    dfs = []
     for archivo in archivos:
         try:
             df = pd.read_csv(archivo)
-            # Extraer año y trimestre del nombre del archivo para verificación
-            match = re.search(r'procesado_(\d{4})_(Q\d)_', os.path.basename(archivo))
-            if match:
-                año_archivo = int(match.group(1))
-                trimestre_archivo = match.group(2)
-                
-                # Verificar que los datos internos coincidan con el nombre
-                if df["AÑO"].iloc[0] != año_archivo or df["TRIMESTRE"].iloc[0] != trimestre_archivo:
-                    logger.warning(
-                        f"Inconsistencia en {os.path.basename(archivo)}: "
-                        f"Nombre indica {año_archivo}-{trimestre_archivo}, "
-                        f"pero contiene {df['AÑO'].iloc[0]}-{df['TRIMESTRE'].iloc[0]}"
-                    )
-            
-            dataframes.append(df)
+            dfs.append(df)
+            logger.debug(f"Archivo cargado: {archivo}")
         except Exception as e:
             logger.error(f"Error al cargar {archivo}: {str(e)}")
-            continue
     
-    if not dataframes:
+    if not dfs:
         logger.error("No se pudo cargar ningún archivo de datos")
         sys.exit(1)
     
     # Combinar todos los DataFrames
-    df_combinado = pd.concat(dataframes, ignore_index=True)
+    df_combinado = pd.concat(dfs, ignore_index=True)
     
-    # Filtrar por estado (normalizado)
-    df_filtrado = df_combinado[df_combinado["NOM_ENT"] == estado.upper()]
+    # Verificar que contenga los datos esperados
+    if len(df_combinado) == 0:
+        logger.error("No hay datos en los archivos procesados")
+        sys.exit(1)
+    
+    # Filtrar por estado (aunque debería venir ya filtrado)
+    df_filtrado = df_combinado[df_combinado["NOM_ENT"] == estado]
     
     if len(df_filtrado) == 0:
         logger.error(f"No hay datos para el estado '{estado}'")
         sys.exit(1)
     
-    logger.info(f"Se cargaron datos de {len(df_filtrado)} municipios de {estado.upper()}")
+    # Asegurar que PERIODO esté presente
+    if "PERIODO" not in df_filtrado.columns:
+        df_filtrado["PERIODO"] = df_filtrado["AÑO"].astype(str) + "-" + df_filtrado["TRIMESTRE"]
+        logger.info("Columna PERIODO generada automáticamente")
     
-    # Detectar y corregir trimestres duplicados
-    duplicados = df_filtrado.duplicated(subset=["NOM_MUN", "AÑO", "TRIMESTRE"], keep=False)
+    # Orden natural de periodos
+    periodos_ordenados = sorted(df_filtrado["PERIODO"].unique(), 
+                             key=lambda x: (int(x.split("-")[0]), x.split("-")[1]))
     
-    if duplicados.any():
-        municipios_duplicados = df_filtrado[duplicados]["NOM_MUN"].unique()
-        logger.warning(
-            f"Se detectaron trimestres duplicados para {len(municipios_duplicados)} municipios. "
-            f"Se mantiene la última versión de cada combinación municipio-año-trimestre."
-        )
-        
-        # Mantener la última aparición de cada combinación (asumiendo que es la más reciente)
-        df_filtrado = df_filtrado.drop_duplicates(
-            subset=["NOM_MUN", "AÑO", "TRIMESTRE"], 
-            keep="last"
-        )
+    # Crear mapeo de periodo a índice numérico para ordenamiento
+    mapeo_periodos = {periodo: i for i, periodo in enumerate(periodos_ordenados)}
+    df_filtrado["INDICE_PERIODO"] = df_filtrado["PERIODO"].map(mapeo_periodos)
+    
+    # Crear columna de año-trimestre para ordenar correctamente
+    df_filtrado["ORDEN_AÑO_TRIMESTRE"] = df_filtrado.apply(
+        lambda x: f"{x['AÑO']:04d}-{x['TRIMESTRE']}", axis=1
+    )
+    
+    logger.info(f"Datos cargados: {len(df_filtrado)} registros para {len(df_filtrado['NOM_MUN'].unique())} municipios")
     
     return df_filtrado
 
 
-def calcular_promedio_estatal(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
+def calcular_promedio_estatal(df: pd.DataFrame, logger: logging.Logger) -> Tuple[pd.DataFrame, float]:
     """
-    Calcula el promedio estatal ponderado de percepción de inseguridad por periodo.
+    Calcula el promedio estatal ponderado por periodo.
     
     Args:
         df: DataFrame con datos filtrados por estado
-        logger: Logger para registro de eventos
+        logger: Logger para registrar eventos
         
     Returns:
-        DataFrame con promedios estatales por periodo
+        Tuple con (DataFrame con promedios por periodo, promedio histórico)
     """
-    # Crear clave de periodo para facilitar el agrupamiento
-    df['PERIODO'] = df['AÑO'].astype(str) + '-' + df['TRIMESTRE']
+    # Agrupar por periodo
+    periodos_ordenados = sorted(df["PERIODO"].unique(), 
+                             key=lambda x: (int(x.split("-")[0]), x.split("-")[1]))
     
-    # Agrupar por periodo y calcular sumas
-    df_agrupado = df.groupby('PERIODO').agg({
-        'TOTAL_INSEGUROS': 'sum',
-        'TOTAL_REGISTROS': 'sum'
-    }).reset_index()
+    # Crear DataFrame para almacenar promedios estatales
+    promedios_estatales = []
     
-    # Calcular porcentaje estatal ponderado
-    df_agrupado['PCT_INSEGUROS_ESTATAL'] = round(
-        (df_agrupado['TOTAL_INSEGUROS'] / df_agrupado['TOTAL_REGISTROS']) * 100,
-        2
-    )
+    # Calcular promedio estatal por periodo (ponderado por TOTAL_REGISTROS)
+    for periodo in periodos_ordenados:
+        df_periodo = df[df["PERIODO"] == periodo]
+        total_registros = df_periodo["TOTAL_REGISTROS"].sum()
+        total_inseguros = df_periodo["TOTAL_INSEGUROS"].sum()
+        
+        # Calcular porcentaje ponderado
+        if total_registros > 0:
+            pct_inseguros = (total_inseguros / total_registros) * 100
+        else:
+            pct_inseguros = 0
+        
+        promedios_estatales.append({
+            "PERIODO": periodo,
+            "AÑO": df_periodo["AÑO"].iloc[0],
+            "TRIMESTRE": df_periodo["TRIMESTRE"].iloc[0],
+            "TOTAL_REGISTROS_ESTATAL": total_registros,
+            "TOTAL_INSEGUROS_ESTATAL": total_inseguros,
+            "PCT_INSEGUROS_ESTATAL": round(pct_inseguros, 2)
+        })
     
-    # Ordenar por año y trimestre
-    def ordenar_periodo(periodo):
-        año, trimestre = periodo.split('-')
-        num_trimestre = int(trimestre[1])
-        return int(año), num_trimestre
+    # Crear DataFrame
+    df_estatal = pd.DataFrame(promedios_estatales)
     
-    df_agrupado['orden'] = df_agrupado['PERIODO'].apply(ordenar_periodo)
-    df_agrupado = df_agrupado.sort_values('orden')
-    df_agrupado.drop('orden', axis=1, inplace=True)
+    # Calcular promedio histórico ponderado
+    total_registros_historico = df["TOTAL_REGISTROS"].sum()
+    total_inseguros_historico = df["TOTAL_INSEGUROS"].sum()
     
-    promedio_historico = round(
-        (df_agrupado['TOTAL_INSEGUROS'].sum() / df_agrupado['TOTAL_REGISTROS'].sum()) * 100,
-        2
-    )
+    if total_registros_historico > 0:
+        promedio_historico = round((total_inseguros_historico / total_registros_historico) * 100, 2)
+    else:
+        promedio_historico = 0
     
-    logger.info(f"Promedio estatal histórico de percepción de inseguridad: {promedio_historico}%")
-    logger.info(f"Periodos procesados: {', '.join(df_agrupado['PERIODO'])}")
+    logger.info(f"Promedio histórico estatal: {promedio_historico}%")
     
-    return df_agrupado, promedio_historico
+    return df_estatal, promedio_historico
 
 
 def identificar_periodos_municipios(df: pd.DataFrame) -> Tuple[List[str], Dict[str, Set[str]], Dict[str, int]]:
     """
-    Identifica todos los periodos y los periodos disponibles por municipio.
+    Identifica los periodos disponibles y cuáles están presentes para cada municipio.
     
     Args:
         df: DataFrame con datos filtrados por estado
         
     Returns:
-        Tuple con (lista_periodos, dict_periodos_por_municipio, dict_conteo_periodos)
+        Tuple con (lista de periodos, diccionario de periodos por municipio, conteo de periodos por municipio)
     """
-    # Crear clave de periodo para facilitar el agrupamiento
-    if 'PERIODO' not in df.columns:
-        df['PERIODO'] = df['AÑO'].astype(str) + '-' + df['TRIMESTRE']
+    # Obtener periodos ordenados
+    periodos = sorted(df["PERIODO"].unique(), 
+                   key=lambda x: (int(x.split("-")[0]), x.split("-")[1]))
     
-    # Obtener lista única de periodos ordenados
-    def ordenar_periodo(periodo):
-        año, trimestre = periodo.split('-')
-        num_trimestre = int(trimestre[1])
-        return int(año), num_trimestre
-    
-    periodos = sorted(df['PERIODO'].unique(), key=ordenar_periodo)
-    
-    # Obtener periodos por municipio
+    # Crear diccionario para almacenar periodos por municipio
     periodos_por_municipio = {}
     conteo_periodos = {}
     
-    for municipio in df['NOM_MUN'].unique():
-        periodos_muni = set(df[df['NOM_MUN'] == municipio]['PERIODO'])
-        periodos_por_municipio[municipio] = periodos_muni
-        conteo_periodos[municipio] = len(periodos_muni)
+    # Identificar periodos presentes para cada municipio
+    for municipio in df["NOM_MUN"].unique():
+        df_muni = df[df["NOM_MUN"] == municipio]
+        periodos_disponibles = set(df_muni["PERIODO"])
+        periodos_por_municipio[municipio] = periodos_disponibles
+        conteo_periodos[municipio] = len(periodos_disponibles)
     
     return periodos, periodos_por_municipio, conteo_periodos
 
 
-def generar_grafico_estatal(df_estatal: pd.DataFrame, promedio_historico: float) -> str:
+def generar_grafico_estatal(
+    df_estatal: pd.DataFrame, 
+    promedio_historico: float
+) -> str:
     """
-    Genera un gráfico con la evolución del promedio estatal de percepción de inseguridad.
+    Genera un gráfico de línea con la evolución estatal de percepción de inseguridad.
     
     Args:
         df_estatal: DataFrame con promedios estatales por periodo
-        promedio_historico: Promedio histórico ponderado estatal
+        promedio_historico: Valor del promedio histórico estatal
         
     Returns:
         String con imagen codificada en base64
     """
-    # Determinar color según promedio histórico
-    if promedio_historico < 30:
-        color = '#2ca02c'  # Verde
-    elif promedio_historico < 60:
-        color = '#ff7f0e'  # Naranja
-    else:
-        color = '#d62728'  # Rojo
-    
     # Crear figura
-    plt.figure(figsize=(10, 6.25), dpi=80)
+    plt.figure(figsize=(10, 5))
     
-    # Plotear línea principal
-    plt.plot(
-        df_estatal['PERIODO'], 
-        df_estatal['PCT_INSEGUROS_ESTATAL'],
-        marker='o',
-        linestyle='-',
-        linewidth=2.5,
-        color=color,
-        label='Percepción de inseguridad'
-    )
+    # Obtener datos
+    periodos = df_estatal["PERIODO"].tolist()
+    valores = df_estatal["PCT_INSEGUROS_ESTATAL"].tolist()
     
-    # Línea horizontal de promedio
-    plt.axhline(
-        y=promedio_historico,
-        linestyle='--',
-        color='gray',
-        alpha=0.7,
-        label=f'Promedio: {promedio_historico}%'
-    )
+    # Definir colores según niveles
+    colores = ['green' if v < 30 else 'orange' if v < 60 else 'red' for v in valores]
     
-    # Añadir grid, títulos y etiquetas
-    plt.grid(True, alpha=0.3)
-    plt.title(
-        'Evolución de la percepción de inseguridad en YUCATÁN',
-        fontsize=16,
-        pad=15
-    )
-    plt.xlabel('Periodo', fontsize=12)
-    plt.ylabel('Porcentaje (%)', fontsize=12)
-    plt.ylim(0, 100)
+    # Crear gráfico de línea
+    plt.plot(periodos, valores, marker='o', linestyle='-', color='blue', linewidth=2, zorder=5)
     
-    # Leyenda
+    # Añadir puntos con color según nivel
+    for i, (periodo, valor) in enumerate(zip(periodos, valores)):
+        plt.scatter(periodo, valor, color=colores[i], s=80, zorder=10)
+    
+    # Añadir línea de promedio histórico
+    plt.axhline(y=promedio_historico, color='gray', linestyle='--', alpha=0.7, 
+              label=f'Promedio histórico: {promedio_historico}%')
+    
+    # Añadir etiquetas y título
+    plt.title("Evolución de Percepción de Inseguridad en Yucatán", fontsize=14, fontweight='bold')
+    plt.xlabel("Periodo", fontsize=12)
+    plt.ylabel("% Percepción de Inseguridad", fontsize=12)
+    
+    # Añadir grid
+    plt.grid(True, alpha=0.3, linestyle='--')
+    
+    # Añadir leyenda
     plt.legend(loc='best')
     
-    # Mostrar valores en cada punto
-    for i, v in enumerate(df_estatal['PCT_INSEGUROS_ESTATAL']):
-        plt.annotate(
-            f"{v}%",
-            (i, v),
-            textcoords="offset points",
-            xytext=(0, 7),
-            ha='center'
-        )
+    # Rotar etiquetas del eje X
+    plt.xticks(rotation=45, ha='right')
     
-    # Guardar en formato base64
-    buffer = BytesIO()
+    # Añadir límites y márgenes
+    plt.ylim(0, 100)
     plt.tight_layout()
-    plt.savefig(buffer, format='png')
+    
+    # Guardar imagen en memoria
+    buffer = BytesIO()
+    plt.savefig(buffer, format='png', dpi=100)
     plt.close()
     
-    return base64.b64encode(buffer.getvalue()).decode('utf-8')
+    # Codificar imagen en base64
+    buffer.seek(0)
+    imagen_base64 = base64.b64encode(buffer.read()).decode('utf-8')
+    
+    return imagen_base64
 
 
 def generar_grafico_municipio(
     df: pd.DataFrame, 
-    municipio: str, 
-    periodos: List[str], 
+    municipio: str,
+    periodos: List[str],
     periodos_municipio: Set[str]
 ) -> Tuple[str, float, int]:
     """
-    Genera un gráfico de evolución para un municipio específico.
+    Genera un gráfico para un municipio específico.
     
     Args:
-        df: DataFrame con datos filtrados
+        df: DataFrame con datos filtrados por estado
         municipio: Nombre del municipio
-        periodos: Lista de todos los periodos posibles
-        periodos_municipio: Set con los periodos disponibles para este municipio
+        periodos: Lista completa de periodos
+        periodos_municipio: Set con periodos disponibles para el municipio
         
     Returns:
-        Tuple con (imagen_base64, promedio_municipio, num_periodos)
+        Tuple con (imagen base64, promedio histórico, número de periodos)
     """
-    # Filtrar datos del municipio
-    df_muni = df[df['NOM_MUN'] == municipio].copy()
+    # Filtrar datos para el municipio
+    df_muni = df[df["NOM_MUN"] == municipio]
     
-    # Crear series completa de periodos con potenciales huecos
-    series = []
+    # Crear figura (tamaño más pequeño para municipios)
+    plt.figure(figsize=(8, 4))
+    
+    # Crear arrays con valores para todos los periodos (incluyendo huecos)
+    valores = []
+    periodos_grafico = []
+    colores = []
+    
+    # Calcular promedio histórico para el municipio
+    total_registros = df_muni["TOTAL_REGISTROS"].sum()
+    total_inseguros = df_muni["TOTAL_INSEGUROS"].sum()
+    
+    if total_registros > 0:
+        promedio_historico = round((total_inseguros / total_registros) * 100, 2)
+    else:
+        promedio_historico = 0
+    
+    # Para cada periodo, verificar si hay datos para el municipio
     for periodo in periodos:
         if periodo in periodos_municipio:
-            row = df_muni[df_muni['PERIODO'] == periodo].iloc[0]
-            series.append((periodo, row['PCT_INSEGUROS']))
-        else:
-            series.append((periodo, np.nan))  # Hueco en la serie
+            # Hay datos para este periodo
+            valor = df_muni[df_muni["PERIODO"] == periodo]["PCT_INSEGUROS"].iloc[0]
+            valores.append(valor)
+            periodos_grafico.append(periodo)
+            # Color según nivel de inseguridad
+            colores.append('green' if valor < 30 else 'orange' if valor < 60 else 'red')
     
-    # Crear DataFrame para plotear
-    df_plot = pd.DataFrame(series, columns=['PERIODO', 'PCT_INSEGUROS'])
-    
-    # Calcular promedio histórico del municipio (solo con datos disponibles)
-    datos_validos = df_muni[df_muni['PERIODO'].isin(periodos_municipio)]
-    total_inseguros = datos_validos['TOTAL_INSEGUROS'].sum()
-    total_registros = datos_validos['TOTAL_REGISTROS'].sum()
-    promedio_historico = round((total_inseguros / total_registros) * 100, 2) if total_registros > 0 else 0
-    
-    # Determinar color según promedio histórico
-    if promedio_historico < 30:
-        color = '#2ca02c'  # Verde
-    elif promedio_historico < 60:
-        color = '#ff7f0e'  # Naranja
+    # Si no hay suficientes datos, mostrar mensaje
+    if len(valores) < 2:
+        plt.text(0.5, 0.5, f"Datos insuficientes para {municipio}", 
+               ha='center', va='center', transform=plt.gca().transAxes)
     else:
-        color = '#d62728'  # Rojo
+        # Crear gráfico de línea
+        plt.plot(periodos_grafico, valores, marker='o', linestyle='-', color='blue', linewidth=2, zorder=5)
+        
+        # Añadir puntos con color según nivel
+        for i, (periodo, valor) in enumerate(zip(periodos_grafico, valores)):
+            plt.scatter(periodo, valor, color=colores[i], s=60, zorder=10)
+        
+        # Añadir línea de promedio histórico
+        plt.axhline(y=promedio_historico, color='gray', linestyle='--', alpha=0.7, 
+                  label=f'Prom: {promedio_historico}%')
+        
+        # Añadir etiquetas
+        plt.ylabel("% Inseguridad", fontsize=10)
+        
+        # Añadir grid
+        plt.grid(True, alpha=0.3, linestyle=':')
+        
+        # Añadir leyenda
+        plt.legend(loc='best', fontsize=8)
     
-    # Crear figura
-    plt.figure(figsize=(8, 4.5), dpi=80)
+    # Añadir título
+    plt.title(f"{municipio}", fontsize=12, fontweight='bold')
     
-    # Plotear línea principal (con huecos donde hay valores NaN)
-    plt.plot(
-        df_plot['PERIODO'], 
-        df_plot['PCT_INSEGUROS'],
-        marker='o',
-        linestyle='-',
-        linewidth=2,
-        color=color
-    )
+    # Rotar etiquetas del eje X
+    plt.xticks(rotation=45, ha='right', fontsize=8)
     
-    # Línea horizontal de promedio
-    plt.axhline(
-        y=promedio_historico,
-        linestyle='--',
-        color='gray',
-        alpha=0.7,
-        label=f'Promedio: {promedio_historico}%'
-    )
-    
-    # Añadir grid, títulos y etiquetas
-    plt.grid(True, alpha=0.3)
-    plt.title(
-        f'{municipio}',
-        fontsize=14,
-        pad=10
-    )
-    plt.xlabel('Periodo', fontsize=10)
-    plt.ylabel('Porcentaje (%)', fontsize=10)
+    # Añadir límites y márgenes
     plt.ylim(0, 100)
-    
-    # Leyenda
-    plt.legend(loc='best')
-    
-    # Mostrar valores en cada punto (excepto NaN)
-    for i, v in enumerate(df_plot['PCT_INSEGUROS']):
-        if not pd.isna(v):
-            plt.annotate(
-                f"{v}%",
-                (i, v),
-                textcoords="offset points",
-                xytext=(0, 7),
-                ha='center',
-                fontsize=8
-            )
-    
-    # Guardar en formato base64
-    buffer = BytesIO()
     plt.tight_layout()
-    plt.savefig(buffer, format='png')
+    
+    # Guardar imagen en memoria
+    buffer = BytesIO()
+    plt.savefig(buffer, format='png', dpi=100)
     plt.close()
     
-    return base64.b64encode(buffer.getvalue()).decode('utf-8'), promedio_historico, len(periodos_municipio)
+    # Codificar imagen en base64
+    buffer.seek(0)
+    imagen_base64 = base64.b64encode(buffer.read()).decode('utf-8')
+    
+    return imagen_base64, promedio_historico, len(periodos_municipio)
 
 
 def generar_tabla_pivote(df: pd.DataFrame, periodos: List[str]) -> str:
     """
-    Genera una tabla HTML pivote con los porcentajes de inseguridad por municipio y periodo.
+    Genera una tabla pivote con porcentajes de inseguridad por municipio y periodo.
     
     Args:
         df: DataFrame con datos filtrados por estado
-        periodos: Lista ordenada de periodos
+        periodos: Lista completa de periodos ordenados
         
     Returns:
-        Código HTML de la tabla
+        HTML de la tabla pivote
     """
-    # Preparar datos para tabla pivote
-    tabla = pd.pivot_table(
+    # Crear pivot table: municipios vs periodos
+    pivot = pd.pivot_table(
         df,
         values='PCT_INSEGUROS',
         index=['NOM_MUN'],
         columns=['PERIODO'],
-        aggfunc='first'
+        aggfunc='first',  # Tomar el primer valor (ya están agregados)
+        fill_value=None
     )
     
-    # Calcular columna de promedio
-    # Para el promedio, necesitamos volver a los datos originales y calcular ponderadamente
-    promedios = {}
+    # Reordenar columnas según periodos
+    pivot = pivot[periodos]
+    
+    # Calcular promedio ponderado por municipio
+    promedios_municipios = {}
+    
     for municipio in df['NOM_MUN'].unique():
-        datos_muni = df[df['NOM_MUN'] == municipio]
-        total_inseguros = datos_muni['TOTAL_INSEGUROS'].sum()
-        total_registros = datos_muni['TOTAL_REGISTROS'].sum()
-        promedios[municipio] = round((total_inseguros / total_registros) * 100, 1) if total_registros > 0 else 0
-    
-    # Añadir columna de promedio
-    tabla['PROMEDIO'] = tabla.index.map(promedios)
-    
-    # Reordenar columnas según los periodos especificados
-    columnas_ordenadas = [col for col in periodos if col in tabla.columns] + ['PROMEDIO']
-    tabla = tabla[columnas_ordenadas]
-    
-    # Ordenar filas por promedio descendente
-    tabla = tabla.sort_values('PROMEDIO', ascending=False)
-    
-    # Formatear la tabla para HTML (1 decimal)
-    tabla_html = tabla.copy()
-    
-    # Convertir NaN a cadenas vacías y formatear números
-    for col in tabla_html.columns:
-        tabla_html[col] = tabla_html[col].apply(
-            lambda x: f"{x:.1f}" if pd.notnull(x) else ""
-        )
-    
-    # Generar HTML con estilos
-    html = """<div class='table-container'>\n<table class='data-table'>\n"""
-    
-    # Encabezado
-    html += "<thead>\n<tr>\n<th>Municipio</th>\n"
-    for col in columnas_ordenadas:
-        if col == 'PROMEDIO':
-            html += f"<th>{col}</th>\n"
+        df_muni = df[df['NOM_MUN'] == municipio]
+        total_registros = df_muni['TOTAL_REGISTROS'].sum()
+        total_inseguros = df_muni['TOTAL_INSEGUROS'].sum()
+        
+        if total_registros > 0:
+            promedio = round((total_inseguros / total_registros) * 100, 2)
+            promedios_municipios[municipio] = promedio
         else:
-            html += f"<th>{col}</th>\n"
-    html += "</tr>\n</thead>\n"
+            promedios_municipios[municipio] = None
     
-    # Cuerpo
+    # Añadir columna de promedio histórico
+    pivot['PROMEDIO'] = pd.Series(promedios_municipios)
+    
+    # Ordenar por promedio descendente
+    pivot = pivot.sort_values('PROMEDIO', ascending=False)
+    
+    # Convertir a HTML con estilos
+    html = """<div class='table-container'>\n<table class='data-table pivot-table'>\n"""
+    html += "<caption>Percepción de Inseguridad por Municipio y Periodo (%)</caption>\n"
+    
+    # Cabecera
+    html += "<thead>\n<tr>\n<th>Municipio</th>\n"
+    for periodo in periodos:
+        html += f"<th>{periodo}</th>\n"
+    html += "<th>PROMEDIO</th>\n</tr>\n</thead>\n"
+    
+    # Cuerpo de la tabla
     html += "<tbody>\n"
-    for municipio in tabla_html.index:
-        html += f"<tr>\n<td>{municipio}</td>\n"
-        for col in columnas_ordenadas:
-            valor = tabla_html.loc[municipio, col]
-            # Añadir clase CSS según valor (solo si no está vacío)
-            if valor:  # Si no está vacío
-                valor_num = float(valor)
-                if valor_num < 30:
+    
+    for municipio, row in pivot.iterrows():
+        html += "<tr>\n"
+        html += f"<td>{municipio}</td>\n"
+        
+        # Cada periodo
+        for periodo in periodos:
+            valor = row.get(periodo)
+            
+            if pd.isna(valor):
+                html += "<td class='sin-datos'>-</td>\n"
+            else:
+                # Determinar clase según nivel de inseguridad
+                if valor < 30:
                     clase = "seguro"
-                elif valor_num < 60:
+                elif valor < 60:
                     clase = "precaucion"
                 else:
                     clase = "inseguro"
-                html += f"<td class='{clase}'>{valor}</td>\n"
+                html += f"<td class='{clase}'>{valor:.1f}</td>\n"
+        
+        # Promedio
+        promedio = row.get('PROMEDIO')
+        if pd.isna(promedio):
+            html += "<td class='sin-datos'>-</td>\n"
+        else:
+            # Determinar clase según nivel
+            if promedio < 30:
+                clase = "seguro"
+            elif promedio < 60:
+                clase = "precaucion"
             else:
-                html += "<td></td>\n"  # Celda vacía
+                clase = "inseguro"
+            html += f"<td class='{clase}'>{promedio:.1f}</td>\n"
+        
         html += "</tr>\n"
+    
     html += "</tbody>\n</table>\n</div>"
     
     return html
@@ -517,7 +507,7 @@ def generar_html_completo(
         imagenes_municipios: Dict con imágenes en base64 de los municipios
         tabla_html: HTML de la tabla pivote
         periodos: Lista de periodos procesados
-        logger: Logger para registro de eventos
+        logger: Logger para registrar eventos
         
     Returns:
         Contenido HTML completo del reporte
@@ -535,7 +525,7 @@ def generar_html_completo(
         reverse=True
     )
     
-    # Generar índice con anclas
+    # Índice con anclas
     indice_html = "<ul>\n"
     indice_html += "<li><a href='#promedio-estatal'>Promedio Estatal</a></li>\n"
     indice_html += "<li><a href='#analisis-municipios'>Análisis por Municipio</a>\n<ul>\n"
@@ -561,278 +551,306 @@ def generar_html_completo(
 </section>\n"""
     
     # Sección de municipios
-    seccion_municipios = f"""<section id="analisis-municipios">\n<h2>Análisis por Municipio</h2>\n
-<p>A continuación se presenta el análisis detallado de la percepción de inseguridad 
-   para cada municipio del estado.</p>\n\n"""
+    seccion_municipios = "<section id=\"analisis-municipios\">\n\n    <h2>Análisis por Municipio</h2>\n\n"
     
-    # Agregar cada municipio con su gráfico
+    # Municipios con datos incompletos
+    municipios_incompletos = [m for m, datos in imagenes_municipios.items() 
+                           if datos[2] < len(periodos)]
+    
+    if municipios_incompletos:
+        seccion_municipios += "<div class='nota-informativa'>\n"
+        seccion_municipios += "<p><strong>Nota:</strong> Los siguientes municipios tienen datos "
+        seccion_municipios += "incompletos (no están disponibles para todos los periodos):</p>\n"
+        seccion_municipios += "<ul>\n"
+        
+        for municipio in sorted(municipios_incompletos):
+            periodos_disponibles = imagenes_municipios[municipio][2]
+            seccion_municipios += f"<li>{municipio} ({periodos_disponibles} de {len(periodos)} periodos)</li>\n"
+        
+        seccion_municipios += "</ul>\n</div>\n"
+    
+    # Grid de gráficos de municipios
+    seccion_municipios += "<div class=\"municipios-grid\">\n"
+    
     for municipio in municipios_ordenados:
-        imagen_base64, promedio, num_periodos = imagenes_municipios[municipio]
+        imagen_base64, promedio_muni, num_periodos = imagenes_municipios[municipio]
         anchor = municipio.lower().replace(" ", "-")
         
-        # Determinar clase para color de texto según promedio
-        if promedio < 30:
-            clase_color = "seguro-text"
-        elif promedio < 60:
-            clase_color = "precaucion-text"
-        else:
-            clase_color = "inseguro-text"
-        
-        seccion_municipios += f"""<div id="{anchor}" class="municipio-container">\n
-    <h3>{municipio}</h3>\n
-    <p>Promedio histórico: <span class="{clase_color}">{promedio}%</span> 
-       (basado en {num_periodos} periodo{'s' if num_periodos != 1 else ''})</p>\n
-    <div class="img-container">\n
-        <img src="data:image/png;base64,{imagen_base64}" 
-            alt="Gráfico de evolución {municipio}" class="img-responsive">\n
-    </div>\n
-</div>\n\n"""
+        seccion_municipios += f"<div id=\"{anchor}\" class=\"municipio-card\">\n"
+        seccion_municipios += f"<img src=\"data:image/png;base64,{imagen_base64}\" "
+        seccion_municipios += f"alt=\"Gráfico de {municipio}\" class=\"img-responsive\">\n"
+        seccion_municipios += "</div>\n"
     
-    seccion_municipios += "</section>\n"
+    seccion_municipios += "</div>\n</section>\n"
     
-    # Sección tabla
+    # Sección de tabla completa
     seccion_tabla = f"""<section id="tabla-completa">\n
-<h2>Tabla Completa</h2>\n
-<p>Porcentaje de percepción de inseguridad por municipio y periodo.</p>\n
-{tabla_html}\n
+    <h2>Tabla Completa por Municipio y Periodo</h2>\n
+    <p>La siguiente tabla muestra la percepción de inseguridad para cada municipio 
+    y periodo analizado. Los valores representan el porcentaje de personas que se 
+    sienten inseguras.</p>\n
+    {tabla_html}\n
 </section>\n"""
     
-    # Sección notas metodológicas
-    seccion_notas = """<section id="notas-metodologicas">\n
-<h2>Notas Metodológicas</h2>\n
-<h3>Fuente de datos</h3>\n<p>Los datos utilizados en este reporte provienen de la Encuesta Nacional de 
-   Seguridad Pública Urbana (ENSU) del INEGI.</p>\n
-<h3>Indicador de percepción</h3>\n<p>El indicador presentado corresponde al porcentaje de personas que consideran 
-   que vivir en su ciudad es inseguro (respuesta "inseguro" a la pregunta sobre 
-   percepción de seguridad).</p>\n
-<h3>Metodología de cálculo</h3>\n<ul>\n
-    <li>Se consideran tres posibles respuestas a la pregunta sobre percepción de 
-        seguridad: seguro (1), inseguro (2) o no responde (9).</li>\n
-    <li>El porcentaje de percepción de inseguridad se calcula como: 
-        (Total de respuestas "inseguro" / Total de respuestas) * 100</li>\n
-    <li>El promedio estatal es un promedio ponderado según el número de 
-        respuestas por municipio.</li>\n
-    <li>Las series temporales pueden presentar discontinuidades (huecos) cuando 
-        no hay datos disponibles para ciertos periodos.</li>\n
-</ul>\n
-<h3>Interpretación de colores</h3>\n
-<ul>\n
-    <li><span class="seguro-text">Verde</span>: Percepción de inseguridad menor al 30%</li>\n
-    <li><span class="precaucion-text">Naranja</span>: Percepción de inseguridad entre 30% y 60%</li>\n
-    <li><span class="inseguro-text">Rojo</span>: Percepción de inseguridad superior al 60%</li>\n
-</ul>\n
-</section>\n"""
+    # Notas metodológicas
+    seccion_notas = """<section id="notas-metodologicas">
+
+    <h2>Notas Metodológicas</h2>
+
+    <p>Este reporte se basa en datos de la Encuesta Nacional de Seguridad Pública Urbana (ENSU) 
+    del INEGI, con las siguientes consideraciones metodológicas:</p>
+
+    <ul>
+        <li>La pregunta analizada es "BP1_1: ¿Se siente seguro(a) en su municipio?", 
+        donde las respuestas se codifican como: 1=Seguro, 2=Inseguro, 9=No responde.</li>
+        
+        <li>Los porcentajes se calculan sobre el total de respuestas válidas para cada 
+        municipio y periodo.</li>
+        
+        
+        <li>Los promedios estatales están ponderados por el número de registros 
+        disponibles en cada municipio.</li>
+        
+        <li>Las series temporales muestran la evolución trimestral de los datos.</li>
+        
+        <li>Colores: <span class="seguro-text">Verde</span> indica nivel bajo de percepción de inseguridad (&lt;30%), 
+        <span class="precaucion-text">Amarillo</span> indica nivel medio (30-60%), 
+        <span class="inseguro-text">Rojo</span> indica nivel alto (&gt;60%).</li>
+    </ul>
+    
+    <p>Fuente de datos: Instituto Nacional de Estadística y Geografía (INEGI) - 
+    Encuesta Nacional de Seguridad Pública Urbana (ENSU).</p>
+
+</section>
+"""
     
     # Generar HTML completo con estilos CSS
-    html = f"""<!DOCTYPE html>\n
-<html lang="es">\n
-<head>\n
-    <meta charset="UTF-8">\n
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n
-    <title>Reporte de Percepción de Seguridad en Yucatán</title>\n
-    <style>\n
-        :root {{\n
-            --color-primary: #2c3e50;\n
-            --color-secondary: #34495e;\n
-            --color-accent: #3498db;\n
-            --color-text: #333;\n
-            --color-light: #f8f9fa;\n
-            --color-seguro: #2ca02c;\n
-            --color-precaucion: #ff7f0e;\n
-            --color-inseguro: #d62728;\n
-        }}\n
-        * {{\n
-            margin: 0;\n
-            padding: 0;\n
-            box-sizing: border-box;\n
-        }}\n
-        body {{\n
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
-                      "Helvetica Neue", Arial, sans-serif;\n
-            line-height: 1.6;\n
-            color: var(--color-text);\n
-            max-width: 1200px;\n
-            margin: 0 auto;\n
-            padding: 20px;\n
-        }}\n
-        header {{\n
-            background-color: var(--color-primary);\n
-            color: white;\n
-            padding: 20px;\n
-            margin-bottom: 30px;\n
-            border-radius: 5px;\n
-        }}\n
-        header p {{\n
-            margin: 5px 0;\n
-            opacity: 0.8;\n
-            font-size: 0.9em;\n
-        }}\n
-        nav {{\n
-            background-color: var(--color-light);\n
-            padding: 15px;\n
-            margin-bottom: 30px;\n
-            border-radius: 5px;\n
-            border-left: 4px solid var(--color-accent);\n
-        }}\n
-        nav h2 {{\n
-            margin-bottom: 10px;\n
-            color: var(--color-primary);\n
-        }}\n
-        ul, ol {{\n
-            margin-left: 20px;\n
-        }}\n
-        nav ul li {{\n
-            margin: 5px 0;\n
-        }}\n
-        a {{\n
-            color: var(--color-accent);\n
-            text-decoration: none;\n
-        }}\n
-        a:hover {{\n
-            text-decoration: underline;\n
-        }}\n
-        section {{\n
-            margin-bottom: 50px;\n
-            padding-bottom: 30px;\n
-            border-bottom: 1px solid #eee;\n
-        }}\n
-        h2 {{\n
-            color: var(--color-primary);\n
-            margin-bottom: 20px;\n
-            padding-bottom: 10px;\n
-            border-bottom: 2px solid var(--color-accent);\n
-        }}\n
-        h3 {{\n
-            color: var(--color-secondary);\n
-            margin-top: 25px;\n
-            margin-bottom: 15px;\n
-        }}\n
-        p {{\n
-            margin-bottom: 20px;\n
-        }}\n
-        .img-container {{\n
-            margin: 20px 0;\n
-            text-align: center;\n
-        }}\n
-        .img-responsive {{\n
-            max-width: 100%;\n
-            height: auto;\n
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);\n
-            border-radius: 5px;\n
-        }}\n
-        .municipio-container {{\n
-            margin-bottom: 40px;\n
-            padding: 15px;\n
-            background-color: var(--color-light);\n
-            border-radius: 5px;\n
-        }}\n
-        .table-container {{\n
-            overflow-x: auto;\n
-            margin: 20px 0;\n
-        }}\n
-        .data-table {{\n
-            width: 100%;\n
-            border-collapse: collapse;\n
-            font-size: 0.9em;\n
-        }}\n
-        .data-table th {{\n
-            background-color: var(--color-secondary);\n
-            color: white;\n
-            position: sticky;\n
-            top: 0;\n
-            z-index: 10;\n
-        }}\n
-        .data-table th, .data-table td {{\n
-            padding: 8px 12px;\n
-            text-align: center;\n
-            border: 1px solid #ddd;\n
-        }}\n
-        .data-table tr:nth-child(even) {{\n
-            background-color: rgba(0,0,0,0.02);\n
-        }}\n
-        .data-table tr:hover {{\n
-            background-color: rgba(0,0,0,0.05);\n
-        }}\n
-        .data-table td:first-child {{\n
-            text-align: left;\n
-            font-weight: 500;\n
-            position: sticky;\n
-            left: 0;\n
-            background-color: #f8f9fa;\n
-            z-index: 5;\n
-        }}\n
-        .seguro {{\n
-            background-color: rgba(44, 160, 44, 0.1);\n
-        }}\n
-        .precaucion {{\n
-            background-color: rgba(255, 127, 14, 0.1);\n
-        }}\n
-        .inseguro {{\n
-            background-color: rgba(214, 39, 40, 0.1);\n
-        }}\n
-        .seguro-text {{\n
-            color: var(--color-seguro);\n
-            font-weight: bold;\n
-        }}\n
-        .precaucion-text {{\n
-            color: var(--color-precaucion);\n
-            font-weight: bold;\n
-        }}\n
-        .inseguro-text {{\n
-            color: var(--color-inseguro);\n
-            font-weight: bold;\n
-        }}\n
-        .back-to-top {{\n
-            position: fixed;\n
-            bottom: 20px;\n
-            right: 20px;\n
-            background-color: var(--color-primary);\n
-            color: white;\n
-            width: 40px;\n
-            height: 40px;\n
-            text-align: center;\n
-            line-height: 40px;\n
-            border-radius: 50%;\n
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);\n
-            opacity: 0.7;\n
-            transition: opacity 0.3s;\n
-            text-decoration: none;\n
-        }}\n
-        .back-to-top:hover {{\n
-            opacity: 1;\n
-        }}\n
-        /* Responsive */\n
-        @media (max-width: 768px) {{\n
-            body {{\n
-                padding: 10px;\n
-            }}\n
-            header, nav, section {{\n
-                padding: 10px;\n
-            }}\n
-            .municipio-container {{\n
-                padding: 10px;\n
-            }}\n
-        }}\n
-    </style>\n
-</head>\n
-<body>\n
-    <header>\n
-        <h1>Reporte de Percepción de Seguridad en Yucatán</h1>\n
-        <p>Periodo analizado: {rango_periodos}</p>\n
-        <p>Fecha de generación: {fecha_generacion}</p>\n
-        <p>Fuente: INEGI - Encuesta Nacional de Seguridad Pública Urbana (ENSU)</p>\n
-    </header>\n
-    <nav>\n
-        <h2>Índice</h2>\n
-        {indice_html}\n
-    </nav>\n
-    {seccion_estatal}\n
-    {seccion_municipios}\n
-    {seccion_tabla}\n
-    {seccion_notas}\n
-    <a href="#" class="back-to-top" title="Volver arriba">↑</a>\n
-</body>\n
-</html>\n"""
+    html = f"""<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reporte de Percepción de Seguridad en Yucatán</title>
+
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+        
+        h2 {
+            font-size: 1.6em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.3em;
+            margin-top: 1.5em;
+        }
+        
+        /* Header */
+        header {
+            margin-bottom: 2em;
+            text-align: center;
+        }
+        
+        header p {
+            color: #7f8c8d;
+            margin: 0.2em 0;
+        }
+        
+        /* Navegación */
+        nav {
+            margin: 2em 0;
+            padding: 1em;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        
+        nav h2 {
+            font-size: 1.2em;
+            margin: 0 0 0.5em 0;
+        }
+        
+        nav ul {
+            margin: 0;
+            padding-left: 1.5em;
+        }
+        
+        nav li {
+            margin-bottom: 0.3em;
+        }
+        
+        /* Imágenes */
+        .img-container {
+            text-align: center;
+            margin: 2em 0;
+        }
+        
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        /* Grid de municipios */
+        .municipios-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+            margin: 2em 0;
+        }
+        
+        .municipio-card {
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        /* Tablas */
+        .table-container {
+            overflow-x: auto;
+            margin: 2em 0;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9em;
+        }
+        
+        .data-table caption {
+            font-weight: bold;
+            margin-bottom: 0.5em;
+        }
+        
+        .data-table th, .data-table td {
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        
+        .data-table th {
+            background-color: #f2f2f2;
+            position: sticky;
+            top: 0;
+        }
+        
+        .data-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .data-table tr:hover {
+            background-color: #f1f1f1;
+        }
+        
+        /* Colores para niveles de seguridad */
+        .seguro {
+            background-color: rgba(76, 175, 80, 0.2);
+        }
+        
+        .precaucion {
+            background-color: rgba(255, 193, 7, 0.2);
+        }
+        
+        .inseguro {
+            background-color: rgba(244, 67, 54, 0.2);
+        }
+        
+        .seguro-text {
+            color: #2e7d32;
+        }
+        
+        .precaucion-text {
+            color: #ff8f00;
+        }
+        
+        .inseguro-text {
+            color: #c62828;
+        }
+        
+        .sin-datos {
+            background-color: #f5f5f5;
+            color: #9e9e9e;
+        }
+        
+        /* Notas y alertas */
+        .nota-informativa {
+            background-color: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 12px;
+            margin: 1em 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        /* Botón volver arriba */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #2c3e50;
+            color: white;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            text-decoration: none;
+            opacity: 0.7;
+            z-index: 1000;
+        }
+        
+        .back-to-top:hover {
+            opacity: 1;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .municipios-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Reporte de Percepción de Seguridad en Yucatán</h1>
+        <p>Periodo analizado: {rango_periodos}</p>
+        <p>Fecha de generación: {fecha_generacion}</p>
+        <p>Fuente: INEGI - Encuesta Nacional de Seguridad Pública Urbana (ENSU)</p>
+    </header>
+    <nav>
+        <h2>Índice</h2>
+        {indice_html}
+    </nav>
+    {seccion_estatal}
+    {seccion_municipios}
+    {seccion_tabla}
+    {seccion_notas}
+    <a href="#" class="back-to-top" title="Volver arriba">↑</a>
+</body>
+</html>
+"""
     
     # Registrar en el log
     logger.info(f"Reporte HTML generado con {len(municipios_ordenados)} municipios")
@@ -842,7 +860,6 @@ def generar_html_completo(
 
 def main():
     """Función principal del script."""
-    # Parsear argumentos de línea de comandos
     parser = argparse.ArgumentParser(
         description="Generador de reportes de evolución de percepción de inseguridad en Yucatán."
     )
@@ -852,35 +869,30 @@ def main():
         help="Estado a filtrar (default: YUCATAN)"
     )
     parser.add_argument(
-        "--salida", 
-        default="data/yucatan-inseguridad/",
-        help="Directorio de salida principal (default: data/yucatan-inseguridad/)"
+        "--dir_procesados", 
+        default=".\\data\\yucatan-inseguridad",
+        help="Directorio con archivos procesados (default: .\\data\\yucatan-inseguridad)"
     )
     parser.add_argument(
-        "--reportes", 
-        default="data/yucatan-inseguridad/reportes/",
-        help="Directorio de reportes (default: data/yucatan-inseguridad/reportes/)"
+        "--dir_reportes", 
+        default=".\\data\\yucatan-inseguridad\\reportes",
+        help="Directorio para guardar reportes (default: .\\data\\yucatan-inseguridad\\reportes)"
     )
     parser.add_argument(
-        "--logs", 
-        default="data/yucatan-inseguridad/logs/",
-        help="Directorio de logs (default: data/yucatan-inseguridad/logs/)"
-    )
-    parser.add_argument(
-        "--timestamped", 
-        action="store_true",
-        help="Agregar timestamp a los nombres de archivo de salida"
+        "--log", 
+        default=".\\data\\yucatan-inseguridad\\logs\\reporte.log",
+        help="Archivo de log (default: .\\data\\yucatan-inseguridad\\logs\\reporte.log)"
     )
     
     args = parser.parse_args()
     
     try:
         # Configurar logging
-        logger = setup_logging(args.reportes, args.timestamped)
+        logger = setup_logging(args.log)
         logger.info(f"Iniciando generación de reporte para el estado: {args.estado}")
         
         # Cargar datos procesados
-        df = cargar_datos_procesados(args.salida, args.estado, logger)
+        df = cargar_datos_procesados(args.dir_procesados, args.estado, logger)
         
         # Calcular promedio estatal
         df_estatal, promedio_estatal = calcular_promedio_estatal(df, logger)
@@ -932,21 +944,23 @@ def main():
             logger=logger
         )
         
-        # Guardar el reporte HTML
-        reporte_path = os.path.join(args.reportes, "reporte_yucatan_evolucion.html")
-        os.makedirs(os.path.dirname(reporte_path), exist_ok=True)
+        # Crear directorio de reportes si no existe
+        os.makedirs(args.dir_reportes, exist_ok=True)
         
+        # Guardar reporte HTML
+        reporte_path = os.path.join(args.dir_reportes, "reporte_yucatan_evolucion.html")
         with open(reporte_path, "w", encoding="utf-8") as f:
             f.write(html)
         
         logger.info(f"Reporte HTML guardado en: {reporte_path}")
         
-        # Opcionalmente guardar datos tabulados
-        datos_tabulados_path = os.path.join(args.reportes, "datos_tabulados_yucatan.csv")
-        df.to_csv(datos_tabulados_path, index=False)
-        logger.info(f"Datos tabulados guardados en: {datos_tabulados_path}")
+        # Guardar datos tabulados
+        datos_path = os.path.join(args.dir_reportes, "datos_tabulados_yucatan.csv")
+        df.to_csv(datos_path, index=False)
+        logger.info(f"Datos tabulados guardados en: {datos_path}")
         
-        logger.info("Proceso de generación de reporte completado exitosamente")
+        print(f"\nReporte generado exitosamente en: {reporte_path}")
+        print(f"Datos tabulados guardados en: {datos_path}")
         
     except Exception as e:
         if 'logger' in locals():
