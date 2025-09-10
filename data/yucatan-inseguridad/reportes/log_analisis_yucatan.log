@@ -1,0 +1,11 @@
+2025-09-09 19:59:43,402 - reporte_evolucion - INFO - Iniciando generación de reporte para el estado: YUCATAN
+2025-09-09 19:59:43,404 - reporte_evolucion - INFO - Se encontraron 1 archivos de datos procesados:
+2025-09-09 19:59:43,404 - reporte_evolucion - INFO -   - procesado_2025_Q2_cb.csv
+2025-09-09 19:59:43,410 - reporte_evolucion - INFO - Se cargaron datos de 4 municipios de YUCATAN
+2025-09-09 19:59:43,417 - reporte_evolucion - INFO - Promedio estatal histórico de percepción de inseguridad: 38.82%
+2025-09-09 19:59:43,418 - reporte_evolucion - INFO - Periodos procesados: 2025-Q2
+2025-09-09 19:59:43,597 - reporte_evolucion - INFO - Generando gráficos municipales...
+2025-09-09 19:59:43,932 - reporte_evolucion - INFO - Reporte HTML generado con 4 municipios
+2025-09-09 19:59:43,932 - reporte_evolucion - INFO - Reporte HTML guardado en: data/yucatan-inseguridad/reportes/reporte_yucatan_evolucion.html
+2025-09-09 19:59:43,935 - reporte_evolucion - INFO - Datos tabulados guardados en: data/yucatan-inseguridad/reportes/datos_tabulados_yucatan.csv
+2025-09-09 19:59:43,935 - reporte_evolucion - INFO - Proceso de generación de reporte completado exitosamente
