@@ -1,0 +1,86 @@
+2025-09-08 20:18:56,433 - INFO - Se encontraron 42 archivos de datos para procesar.
+2025-09-08 20:18:56,434 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_01_2015.csv
+2025-09-08 20:18:56,454 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2015_1.csv
+2025-09-08 20:18:56,454 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_01_2016.csv
+2025-09-08 20:18:56,513 - ERROR - Archivo omitido: conjunto_de_datos_cb_ensu_01_2016.csv no contiene las columnas requeridas (['ENT', 'MUN', 'bp1_1']).
+2025-09-08 20:18:56,514 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-08 20:18:56,669 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2017_1.csv
+2025-09-08 20:18:56,672 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_02_2015.csv
+2025-09-08 20:18:56,687 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2015_2.csv
+2025-09-08 20:18:56,687 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_02_2016.csv
+2025-09-08 20:18:56,759 - ERROR - Archivo omitido: conjunto_de_datos_cb_ensu_02_2016.csv no contiene las columnas requeridas (['ENT', 'MUN', 'bp1_1']).
+2025-09-08 20:18:56,761 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-08 20:18:56,922 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2017_2.csv
+2025-09-08 20:18:56,925 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_03_2015.csv
+2025-09-08 20:18:56,939 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2015_3.csv
+2025-09-08 20:18:56,939 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_03_2016.csv
+2025-09-08 20:18:57,027 - ERROR - Archivo omitido: conjunto_de_datos_cb_ensu_03_2016.csv no contiene las columnas requeridas (['ENT', 'MUN', 'bp1_1']).
+2025-09-08 20:18:57,029 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-08 20:18:57,183 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2017_3.csv
+2025-09-08 20:18:57,187 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_04_2015.csv
+2025-09-08 20:18:57,202 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2015_4.csv
+2025-09-08 20:18:57,202 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-08 20:18:57,305 - ERROR - Archivo omitido: conjunto_de_datos_cb_ensu_04_2016.csv no contiene las columnas requeridas (['ENT', 'MUN', 'bp1_1']).
+2025-09-08 20:18:57,308 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-08 20:18:57,463 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2017_4.csv
+2025-09-08 20:18:57,466 - INFO - Iniciando procesamiento para: ensu_cb_0118.csv
+2025-09-08 20:18:57,618 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2018_1.csv
+2025-09-08 20:18:57,622 - INFO - Iniciando procesamiento para:  ensu_cb_0218.csv
+2025-09-08 20:18:57,798 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2018_2.csv
+2025-09-08 20:18:57,802 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-08 20:18:57,994 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2018_3.csv
+2025-09-08 20:18:57,998 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-08 20:18:58,177 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2018_4.csv
+2025-09-08 20:18:58,182 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-08 20:18:58,353 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2019_1.csv
+2025-09-08 20:18:58,354 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-08 20:18:59,202 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2019_2.csv
+2025-09-08 20:18:59,210 - INFO - Iniciando procesamiento para: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-08 20:19:00,180 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2019_4.csv
+2025-09-08 20:19:00,198 - INFO - Iniciando procesamiento para: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-08 20:19:01,053 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2020_1.csv
+2025-09-08 20:19:01,071 - INFO - Iniciando procesamiento para: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-08 20:19:02,602 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2020_3.csv
+2025-09-08 20:19:02,631 - INFO - Iniciando procesamiento para: conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-08 20:19:02,999 - ERROR - Archivo omitido: conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv no contiene las columnas requeridas (['NOM_ENT', 'NOM_MUN', 'BP1_1']).
+2025-09-08 20:19:03,004 - INFO - Iniciando procesamiento para: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-08 20:19:03,717 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2020_4.csv
+2025-09-08 20:19:03,738 - INFO - Iniciando procesamiento para: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-08 20:19:05,139 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2021_1.csv
+2025-09-08 20:19:05,158 - INFO - Iniciando procesamiento para: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-08 20:19:06,236 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2021_2.csv
+2025-09-08 20:19:06,252 - INFO - Iniciando procesamiento para: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-08 20:19:06,686 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2021_3.csv
+2025-09-08 20:19:06,692 - INFO - Iniciando procesamiento para: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-08 20:19:06,932 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2021_4.csv
+2025-09-08 20:19:06,936 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-08 20:19:07,120 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2022_1.csv
+2025-09-08 20:19:07,122 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-08 20:19:07,318 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2022_2.csv
+2025-09-08 20:19:07,320 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-08 20:19:07,556 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2022_3.csv
+2025-09-08 20:19:07,557 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-08 20:19:07,762 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2022_4.csv
+2025-09-08 20:19:07,763 - INFO - Iniciando procesamiento para: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-08 20:19:07,996 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2023_1.csv
+2025-09-08 20:19:08,001 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-08 20:19:08,286 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2023_2.csv
+2025-09-08 20:19:08,291 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-08 20:19:08,639 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2023_3.csv
+2025-09-08 20:19:08,647 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-08 20:19:08,848 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2023_4.csv
+2025-09-08 20:19:08,849 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-08 20:19:09,053 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2024_1.csv
+2025-09-08 20:19:09,055 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-08 20:19:09,280 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2024_2.csv
+2025-09-08 20:19:09,282 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-08 20:19:09,560 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2024_3.csv
+2025-09-08 20:19:09,562 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-08 20:19:09,776 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2024_4.csv
+2025-09-08 20:19:09,778 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-08 20:19:09,989 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2025_1.csv
+2025-09-08 20:19:09,991 - INFO - Iniciando procesamiento para: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-08 20:19:10,196 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2025_2.csv
+2025-09-08 20:19:10,198 - INFO - Iniciando procesamiento para: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-08 20:19:10,423 - INFO - -> Resultado guardado exitosamente en: C:\Users\jonav\Desktop\sex\data-mining\data\yucatan-inseguridad\resultados_ensu_2019_3.csv
+2025-09-08 20:19:10,427 - INFO - Procesamiento completado.

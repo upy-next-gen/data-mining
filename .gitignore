@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+"data/Archive (1).zip" 
+*.zip
+*.7z
+*.rar
+*.zip
+data/*.zip
