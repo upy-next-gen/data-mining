@@ -1,0 +1,57 @@
+2025-09-10 15:20:19,414 - INFO - Starting data mapping and processing.
+2025-09-10 15:20:19,415 - INFO - Output directory ensured: Data\yucatan-inseguridad
+2025-09-10 15:20:20,314 - INFO - Found 40 data files to process.
+2025-09-10 15:20:20,315 - INFO - Grouped files into 32 year/quarter buckets.
+2025-09-10 15:20:20,315 - INFO - Processing 3 files for Year: 2015, Quarter: 1
+2025-09-10 15:20:20,369 - INFO - Processing data for Year: 2015, Quarter: 1
+2025-09-10 15:20:20,371 - INFO - NOM_ENT column is numeric, mapping to state names.
+2025-09-10 15:20:20,374 - WARNING - Faltan las siguientes columnas en el dataset: ['NOM_MUN', 'BP1_1']
+2025-09-10 15:20:20,375 - ERROR - The dataset for Y:2015 Q:1 failed verification.
+2025-09-10 15:20:20,375 - INFO - Processing 3 files for Year: 2016, Quarter: 1
+2025-09-10 15:20:20,811 - INFO - Processing data for Year: 2016, Quarter: 1
+2025-09-10 15:20:20,812 - INFO - NOM_ENT column is numeric, mapping to state names.
+2025-09-10 15:20:20,815 - INFO - La verificación de columnas y valores de BP1_1 ha sido exitosa.
+2025-09-10 15:20:20,866 - WARNING - NOM_MUN column is numeric for Y:2016 Q:1. A catalog is needed to map to municipality names.
+2025-09-10 15:20:20,893 - INFO - Processed file saved to: Data\yucatan-inseguridad\procesado_2016_1_cb.csv
+2025-09-10 15:20:20,893 - INFO - Processing 3 files for Year: 2017, Quarter: 1
+2025-09-10 15:20:21,558 - INFO - Processing data for Year: 2017, Quarter: 1
+2025-09-10 15:20:21,560 - INFO - La verificación de columnas y valores de BP1_1 ha sido exitosa.
+2025-09-10 15:20:21,604 - INFO - No data found for YUCATAN in Y:2017 Q:1.
+2025-09-10 15:20:21,604 - INFO - Processing 1 files for Year: 2015, Quarter: 2
+2025-09-10 15:20:21,646 - INFO - Processing data for Year: 2015, Quarter: 2
+2025-09-10 15:20:21,647 - INFO - NOM_ENT column is numeric, mapping to state names.
+2025-09-10 15:20:21,648 - WARNING - Faltan las siguientes columnas en el dataset: ['NOM_MUN', 'BP1_1']
+2025-09-10 15:20:21,648 - ERROR - The dataset for Y:2015 Q:2 failed verification.
+2025-09-10 15:20:21,648 - INFO - Processing 1 files for Year: 2016, Quarter: 2
+2025-09-10 15:20:21,814 - INFO - Processing data for Year: 2016, Quarter: 2
+2025-09-10 15:20:21,816 - INFO - La verificación de columnas y valores de BP1_1 ha sido exitosa.
+2025-09-10 15:20:21,833 - INFO - No data found for YUCATAN in Y:2016 Q:2.
+2025-09-10 15:20:21,834 - INFO - Processing 1 files for Year: 2017, Quarter: 2
+2025-09-10 15:20:22,039 - INFO - Processing data for Year: 2017, Quarter: 2
+2025-09-10 15:20:22,040 - INFO - La verificación de columnas y valores de BP1_1 ha sido exitosa.
+2025-09-10 15:20:22,062 - INFO - Processed file saved to: Data\yucatan-inseguridad\procesado_2017_2_cb.csv
+2025-09-10 15:20:22,063 - INFO - Processing 1 files for Year: 2018, Quarter: 3
+2025-09-10 15:20:22,345 - INFO - Processing data for Year: 2018, Quarter: 3
+2025-09-10 15:20:22,346 - INFO - La verificación de columnas y valores de BP1_1 ha sido exitosa.
+2025-09-10 15:20:22,381 - INFO - Processed file saved to: Data\yucatan-inseguridad\procesado_2018_3_cb.csv
+2025-09-10 15:20:22,381 - INFO - Processing 1 files for Year: 2018, Quarter: 4
+2025-09-10 15:20:22,615 - INFO - Processing data for Year: 2018, Quarter: 4
+2025-09-10 15:20:22,616 - INFO - La verificación de columnas y valores de BP1_1 ha sido exitosa.
+2025-09-10 15:20:22,640 - INFO - Processed file saved to: Data\yucatan-inseguridad\procesado_2018_4_cb.csv
+2025-09-10 15:20:22,641 - INFO - Processing 2 files for Year: 2019, Quarter: 1
+2025-09-10 15:20:23,201 - INFO - Processing data for Year: 2019, Quarter: 1
+2025-09-10 15:20:23,202 - INFO - La verificación de columnas y valores de BP1_1 ha sido exitosa.
+2025-09-10 15:20:23,256 - INFO - Processed file saved to: Data\yucatan-inseguridad\procesado_2019_1_cb.csv
+2025-09-10 15:20:23,256 - INFO - Processing 1 files for Year: 2019, Quarter: 2
+2025-09-10 15:20:23,567 - INFO - Processing data for Year: 2019, Quarter: 2
+2025-09-10 15:20:23,568 - INFO - La verificación de columnas y valores de BP1_1 ha sido exitosa.
+2025-09-10 15:20:23,588 - INFO - Processed file saved to: Data\yucatan-inseguridad\procesado_2019_2_cb.csv
+2025-09-10 15:20:23,588 - INFO - Processing 1 files for Year: 2019, Quarter: 4
+2025-09-10 15:20:23,796 - INFO - Processing data for Year: 2019, Quarter: 4
+2025-09-10 15:20:23,797 - INFO - La verificación de columnas y valores de BP1_1 ha sido exitosa.
+2025-09-10 15:20:23,817 - INFO - Processed file saved to: Data\yucatan-inseguridad\procesado_2019_4_cb.csv
+2025-09-10 15:20:23,817 - INFO - Processing 1 files for Year: 2020, Quarter: 1
+2025-09-10 15:20:24,018 - INFO - Processing data for Year: 2020, Quarter: 1
+2025-09-10 15:20:24,020 - INFO - La verificación de columnas y valores de BP1_1 ha sido exitosa.
+2025-09-10 15:20:24,037 - INFO - Processed file saved to: Data\yucatan-inseguridad\procesado_2020_1_cb.csv
+2025-09-10 15:20:24,037 - INFO - Processing 2 files for Year: 2020, Quarter: 3

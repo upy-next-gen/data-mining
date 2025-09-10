@@ -1,0 +1,8 @@
+2025-09-09 20:36:12,776 - INFO - Report generation process started.
+2025-09-09 20:36:12,816 - INFO - Loaded and concatenated 28 processed files.
+2025-09-09 20:36:12,820 - INFO - Data prepared for time series analysis.
+2025-09-09 20:36:12,828 - INFO - Calculated state-level weighted average for insecurity perception.
+2025-09-09 20:36:13,793 - INFO - Generated state-level plot.
+2025-09-09 20:36:13,802 - INFO - Generated municipal-level plot.
+2025-09-09 20:36:13,802 - INFO - Generating HTML report at reporte_yucatan_evolucion.html...
+2025-09-09 20:36:14,883 - INFO - HTML report successfully generated.
