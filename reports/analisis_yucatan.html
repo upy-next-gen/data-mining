@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis Detallado de Percepción de Inseguridad en Yucatán</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5DC; /* Beige - un café claro */
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #FFFFFF;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #A52A2A; /* Brown */
+            border-bottom: 2px solid #D2691E; /* Chocolate */
+            padding-bottom: 10px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            color: #8B0000; /* DarkRed */
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 40px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+            text-align: justify;
+        }
+        .chart-container {
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        .summary-table,
+        .temporal-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .summary-table th, .summary-table td,
+        .temporal-table th, .temporal-table td {
+            border: 1px solid #D2B48C; /* Tan */
+            padding: 12px;
+            text-align: left;
+        }
+        .summary-table th, .temporal-table th {
+            background-color: #CD5C5C; /* IndianRed */
+            color: white;
+            font-size: 1.1em;
+        }
+        .summary-table tr:nth-child(even),
+        .temporal-table tr:nth-child(even) {
+            background-color: #FFE4E1; /* MistyRose */
+        }
+        .summary-table tr:hover,
+        .temporal-table tr:hover {
+            background-color: #F08080; /* LightCoral */
+            color: white;
+        }
+        .conclusion {
+            background-color: #FFF0F5; /* LavenderBlush */
+            padding: 20px;
+            border-left: 5px solid #8B0000;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Análisis de Percepción de Inseguridad en Yucatán</h1>
+        
+        <h2>Evolución General de la Percepción de Inseguridad en el Estado</h2>
+        <p>
+            El siguiente gráfico muestra la tendencia general de la percepción de inseguridad en Yucatán, agregando los datos de los municipios encuestados y ponderando el resultado para reflejar una visión a nivel estatal. La línea de tiempo revela fluctuaciones trimestrales, pero también una tendencia general que nos permite comprender el panorama completo.
+        </p>
+        <div id="insecurityTrendChart" class="chart-container"></div>
+        <p>
+            Como se observa en la gráfica, la percepción de inseguridad en Yucatán ha mostrado una <strong>tendencia general al alza</strong> a lo largo de los periodos analizados. Iniciando en un 37.0% en el primer trimestre de 2016, alcanzó un 38.8% en el segundo trimestre de 2025. Esto indica que, a pesar de los altibajos trimestrales, la proporción de la población que se siente insegura en el estado ha crecido ligeramente con el tiempo. El punto más alto de inseguridad percibida se registró en el periodo 2025-Q2, lo que sugiere un desafío continuo en esta área.
+        </p>
+
+        <h2>Promedio de Percepción de Seguridad/Inseguridad por Municipio</h2>
+        <p>
+            Para entender mejor las diferencias entre municipios, el siguiente gráfico de barras muestra el promedio de las respuestas de percepción de seguridad e inseguridad para cada localidad. Esto nos permite visualizar rápidamente qué municipios tienen una mayor o menor proporción de habitantes que se sienten inseguros en su entorno.
+        </p>
+        <div id="avgPerceptionMunicipalityChart" class="chart-container"></div>
+        <p>
+            Este gráfico refuerza la idea de que la percepción de seguridad varía significativamente entre los municipios. Se puede observar claramente cómo Mérida se destaca con un porcentaje promedio de inseguridad considerablemente menor en comparación con otros municipios como Kanasín, donde la percepción de inseguridad es notablemente más alta.
+        </p>
+
+        <h2>Comparativa de la Percepción de Inseguridad por Municipio (Tendencia)</h2>
+        <p>
+            Para un análisis más profundo, es crucial desglosar los datos por municipio. El siguiente gráfico compara la evolución de la percepción de inseguridad en las localidades más relevantes del estudio. Esto nos permite identificar si la tendencia estatal es uniforme o si existen realidades distintas y contrastantes en cada municipio.
+        </p>
+        <div id="insecurityByMunicipalityChart" class="chart-container"></div>
+        <p>
+            Esta visualización revela dinámicas muy diferentes entre los municipios. Mientras que <strong>Mérida</strong> consistentemente muestra los niveles más bajos y estables de percepción de inseguridad, otros municipios como <strong>Kanasín</strong> y <strong>Progreso</strong> presentan niveles significativamente más altos y con mayor volatilidad. Por ejemplo, Kanasín ha experimentado picos que superan el 80%, lo que contrasta fuertemente con el promedio de Mérida. Esta disparidad subraya que la experiencia de seguridad es altamente localizada dentro del estado.
+        </p>
+
+        <h2>Resumen Estadístico por Municipio</h2>
+        <p>
+            La siguiente tabla ofrece un resumen cuantitativo de la percepción de inseguridad para cada municipio, mostrando la media, los valores mínimo y máximo registrados, y la desviación estándar. Esto nos ayuda a cuantificar la variabilidad y el rango de la percepción de inseguridad en cada localidad, proporcionando una base numérica para las observaciones cualitativas.
+        </p>
+        
+        <table class="dataframe summary-table">
+          <thead>
+            <tr style="text-align: right;">
+              <th>Municipio</th>
+              <th>Media (%)</th>
+              <th>Mínimo (%)</th>
+              <th>Máximo (%)</th>
+              <th>Desv. Estándar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Kanasín</td>
+              <td>59.34</td>
+              <td>16.67</td>
+              <td>89.47</td>
+              <td>22.39</td>
+            </tr>
+            <tr>
+              <td>Mérida</td>
+              <td>25.09</td>
+              <td>14.62</td>
+              <td>34.72</td>
+              <td>5.16</td>
+            </tr>
+            <tr>
+              <td>Progreso</td>
+              <td>42.35</td>
+              <td>17.65</td>
+              <td>63.16</td>
+              <td>9.25</td>
+            </tr>
+            <tr>
+              <td>Umán</td>
+              <td>40.73</td>
+              <td>10.00</td>
+              <td>70.00</td>
+              <td>14.89</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Tabla de Tendencia Temporal de Percepción de Inseguridad</h2>
+        <p>
+            Esta tabla presenta la evolución de la percepción de seguridad e inseguridad a lo largo de los diferentes periodos, mostrando el porcentaje promedio de personas que se sienten seguras e inseguras, así como el total de registros para cada trimestre. Esto permite un análisis detallado de las fluctuaciones temporales a nivel estatal.
+        </p>
+        <table class="dataframe temporal-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>PERIODO</th>
+      <th>PCT_SEGUROS</th>
+      <th>PCT_INSEGUROS</th>
+      <th>TOTAL_REGISTROS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2016-Q2</td>
+      <td>52.07</td>
+      <td>47.93</td>
+      <td>514</td>
+    </tr>
+    <tr>
+      <td>2017-Q1</td>
+      <td>52.02</td>
+      <td>47.98</td>
+      <td>1053</td>
+    </tr>
+    <tr>
+      <td>2017-Q2</td>
+      <td>64.20</td>
+      <td>35.80</td>
+      <td>522</td>
+    </tr>
+    <tr>
+      <td>2018-Q1</td>
+      <td>58.38</td>
+      <td>41.62</td>
+      <td>532</td>
+    </tr>
+    <tr>
+      <td>2018-Q2</td>
+      <td>53.00</td>
+      <td>47.00</td>
+      <td>528</td>
+    </tr>
+    <tr>
+      <td>2018-Q3</td>
+      <td>50.47</td>
+      <td>49.53</td>
+      <td>530</td>
+    </tr>
+    <tr>
+      <td>2018-Q4</td>
+      <td>59.97</td>
+      <td>40.03</td>
+      <td>538</td>
+    </tr>
+    <tr>
+      <td>2019-Q1</td>
+      <td>69.81</td>
+      <td>30.19</td>
+      <td>540</td>
+    </tr>
+    <tr>
+      <td>2019-Q2</td>
+      <td>62.10</td>
+      <td>37.90</td>
+      <td>530</td>
+    </tr>
+    <tr>
+      <td>2019-Q4</td>
+      <td>74.83</td>
+      <td>24.93</td>
+      <td>522</td>
+    </tr>
+    <tr>
+      <td>2020-Q1</td>
+      <td>68.10</td>
+      <td>31.90</td>
+      <td>528</td>
+    </tr>
+    <tr>
+      <td>2020-Q3</td>
+      <td>70.23</td>
+      <td>29.77</td>
+      <td>524</td>
+    </tr>
+    <tr>
+      <td>2020-Q4</td>
+      <td>53.42</td>
+      <td>46.58</td>
+      <td>528</td>
+    </tr>
+    <tr>
+      <td>2021-Q1</td>
+      <td>56.41</td>
+      <td>43.59</td>
+      <td>530</td>
+    </tr>
+    <tr>
+      <td>2021-Q2</td>
+      <td>49.86</td>
+      <td>50.14</td>
+      <td>536</td>
+    </tr>
+    <tr>
+      <td>2021-Q3</td>
+      <td>55.04</td>
+      <td>44.96</td>
+      <td>534</td>
+    </tr>
+    <tr>
+      <td>2021-Q4</td>
+      <td>60.68</td>
+      <td>39.32</td>
+      <td>536</td>
+    </tr>
+    <tr>
+      <td>2022-Q1</td>
+      <td>74.08</td>
+      <td>25.92</td>
+      <td>544</td>
+    </tr>
+    <tr>
+      <td>2022-Q2</td>
+      <td>63.37</td>
+      <td>36.63</td>
+      <td>550</td>
+    </tr>
+    <tr>
+      <td>2022-Q3</td>
+      <td>62.59</td>
+      <td>37.41</td>
+      <td>526</td>
+    </tr>
+    <tr>
+      <td>2022-Q4</td>
+      <td>64.44</td>
+      <td>35.56</td>
+      <td>524</td>
+    </tr>
+    <tr>
+      <td>2023-Q1</td>
+      <td>68.54</td>
+      <td>31.30</td>
+      <td>524</td>
+    </tr>
+    <tr>
+      <td>2023-Q2</td>
+      <td>57.88</td>
+      <td>42.12</td>
+      <td>542</td>
+    </tr>
+    <tr>
+      <td>2023-Q3</td>
+      <td>65.29</td>
+      <td>34.71</td>
+      <td>534</td>
+    </tr>
+    <tr>
+      <td>2023-Q4</td>
+      <td>63.82</td>
+      <td>36.18</td>
+      <td>536</td>
+    </tr>
+    <tr>
+      <td>2024-Q1</td>
+      <td>71.70</td>
+      <td>28.30</td>
+      <td>514</td>
+    </tr>
+    <tr>
+      <td>2024-Q2</td>
+      <td>59.74</td>
+      <td>40.26</td>
+      <td>512</td>
+    </tr>
+    <tr>
+      <td>2024-Q3</td>
+      <td>69.84</td>
+      <td>30.16</td>
+      <td>516</td>
+    </tr>
+    <tr>
+      <td>2024-Q4</td>
+      <td>54.52</td>
+      <td>45.48</td>
+      <td>520</td>
+    </tr>
+    <tr>
+      <td>2025-Q1</td>
+      <td>54.44</td>
+      <td>45.56</td>
+      <td>516</td>
+    </tr>
+    <tr>
+      <td>2025-Q2</td>
+      <td>51.02</td>
+      <td>48.98</td>
+      <td>510</td>
+    </tr>
+  </tbody>
+</table>
+
+        <div class="conclusion">
+            <h2>Conclusiones del Análisis Detallado</h2>
+            <p>
+                1. <strong>Disparidad Municipal Pronunciada:</strong> El análisis demuestra que no se puede hablar de una única percepción de inseguridad en Yucatán. Existe una clara y persistente brecha entre <strong>Mérida</strong>, que goza de una percepción de seguridad mucho más alta y estable (con una media del 25.09% y baja desviación estándar), y otros municipios como <strong>Kanasín</strong>, donde la percepción de inseguridad es drásticamente mayor (media del 59.34%) y significativamente más volátil (desviación estándar de 22.39).
+            </p>
+            <p>
+                2. <strong>Focos de Atención y Volatilidad:</strong> Municipios como Kanasín y, en menor medida, Progreso y Umán, son los que más contribuyen a la percepción de inseguridad a nivel estatal. La alta desviación estándar en Kanasín (22.39) en comparación con Mérida (5.16) indica una falta de consistencia y periodos de alta tensión entre sus habitantes, lo que sugiere que la percepción de inseguridad en estos municipios es más susceptible a cambios y eventos específicos.
+            </p>
+            <p>
+                3. <strong>Ejemplos Ilustrativos del Dataset:</strong> Para comprender la magnitud de estas disparidades, consideremos algunos puntos de datos:
+                <ul>
+                    <li>En el <strong>segundo trimestre de 2017</strong>, mientras que en <strong>Mérida</strong> solo el <strong>23.15%</strong> de los encuestados se sentía inseguro, en <strong>Kanasín</strong> esa cifra ascendía a un alarmante <strong>89.47%</strong>.</li>
+                    <li>En el <strong>primer trimestre de 2022</strong>, <strong>Mérida</strong> reportó un <strong>20.64%</strong> de percepción de inseguridad, mientras que <strong>Progreso</strong> alcanzó el <strong>52.00%</strong> en el mismo periodo.</li>
+                    <li>Incluso en periodos de baja percepción para Kanasín, como el <strong>primer trimestre de 2023</strong> con un <strong>27.59%</strong>, sigue siendo comparable a los picos de Mérida, mientras que sus propios picos son significativamente más altos.</li>
+                </ul>
+                Estas cifras demuestran que la experiencia de seguridad es radicalmente diferente dependiendo del municipio.
+            </p>
+            <p>
+                4. <strong>Implicaciones de la Tendencia General:</strong> Aunque la tendencia general al alza en la percepción de inseguridad a nivel estatal es moderada, es un indicador que requiere atención. Sugiere que, a pesar de los esfuerzos, la sensación de seguridad no ha mejorado de manera uniforme en todo el estado y que las preocupaciones persisten o incluso aumentan en ciertas áreas. La estabilidad de Mérida es un activo, pero la situación en otros municipios eleva el promedio estatal y debe ser abordada de manera focalizada.
+            </p>
+            <p>
+                En resumen, el análisis detallado revela que la percepción de inseguridad en Yucatán es un fenómeno heterogéneo. La estabilidad de Mérida contrasta fuertemente con la volatilidad y los altos niveles de inseguridad percibida en municipios como Kanasín. Cualquier estrategia efectiva para mejorar la seguridad y su percepción debería enfocarse prioritariamente en estas áreas identificadas, considerando las causas específicas de la inseguridad en cada localidad y la forma en que estas afectan la percepción de sus habitantes.
+            </p>
+        </div>
+    </div>
+    <script>
+        d3.csv("dataset_yucatan.csv").then(function(data) {
+            // Convert relevant columns to numbers
+            data.forEach(function(d) {
+                d.AÑO = +d.AÑO;
+                d.TRIMESTRE = +d.TRIMESTRE;
+                d.PCT_INSEGUROS = +d.PCT_INSEGUROS;
+                d.PCT_SEGUROS = +d.PCT_SEGUROS;
+                d.TOTAL_REGISTROS = +d.TOTAL_REGISTROS;
+            });
+
+            // --- Chart 1: Evolución General de la Percepción de Inseguridad en el Estado ---
+            // Aggregate data by year and quarter for overall trend
+            let trendData = Array.from(d3.group(data, d => `${d.AÑO}-Q${d.TRIMESTRE}`), ([key, value]) => {
+                return {
+                    period: key,
+                    avg_insecurity: d3.mean(value, d => d.PCT_INSEGUROS)
+                };
+            }).sort((a, b) => d3.ascending(a.period, b.period));
+
+            let trace1 = {
+                x: trendData.map(d => d.period),
+                y: trendData.map(d => d.avg_insecurity),
+                mode: 'lines+markers',
+                name: 'Percepción de Inseguridad',
+                line: {color: '#CD5C5C'}
+            };
+
+            let layout1 = {
+                title: 'Evolución General de la Percepción de Inseguridad en Yucatán',
+                xaxis: {title: 'Periodo'},
+                yaxis: {title: 'Porcentaje de Inseguridad (%)', ticksuffix: '%'},
+                hovermode: 'closest'
+            };
+
+            Plotly.newPlot('insecurityTrendChart', [trace1], layout1);
+
+            // --- Chart 2: Promedio de Percepción de Seguridad/Inseguridad por Municipio ---
+            // Aggregate data by municipality for average perception
+            let avgMunData = Array.from(d3.group(data, d => d.NOM_MUN), ([key, value]) => {
+                return {
+                    municipio: key,
+                    avg_insecurity: d3.mean(value, d => d.PCT_INSEGUROS)
+                };
+            }).sort((a, b) => d3.descending(a.avg_insecurity, b.avg_insecurity));
+
+            let trace2 = {
+                x: avgMunData.map(d => d.municipio),
+                y: avgMunData.map(d => d.avg_insecurity),
+                type: 'bar',
+                name: 'Percepción de Inseguridad',
+                marker: {color: '#A52A2A'}
+            };
+
+            let layout2 = {
+                title: 'Promedio de Percepción de Inseguridad por Municipio',
+                xaxis: {title: 'Municipio'},
+                yaxis: {title: 'Porcentaje de Inseguridad (%)', ticksuffix: '%'},
+                hovermode: 'closest'
+            };
+
+            Plotly.newPlot('avgPerceptionMunicipalityChart', [trace2], layout2);
+
+            // --- Chart 3: Comparativa de la Percepción de Inseguridad por Municipio (Tendencia) ---
+            // Group data by municipality for trend comparison
+            let munTrendData = d3.group(data, d => d.NOM_MUN);
+            let traces3 = [];
+
+            munTrendData.forEach((values, key) => {
+                let sortedValues = values.sort((a, b) => d3.ascending(`${a.AÑO}-Q${a.TRIMESTRE}`, `${b.AÑO}-Q${b.TRIMESTRE}`));
+                traces3.push({
+                    x: sortedValues.map(d => `${d.AÑO}-Q${d.TRIMESTRE}`),
+                    y: sortedValues.map(d => d.PCT_INSEGUROS),
+                    mode: 'lines+markers',
+                    name: key
+                });
+            });
+
+            let layout3 = {
+                title: 'Comparativa de la Percepción de Inseguridad por Municipio (Tendencia)',
+                xaxis: {title: 'Periodo'},
+                yaxis: {title: 'Porcentaje de Inseguridad (%)', ticksuffix: '%'},
+                hovermode: 'closest'
+            };
+
+            Plotly.newPlot('insecurityByMunicipalityChart', traces3, layout3);
+
+        }).catch(function(error){
+            console.log("Error loading or parsing data:", error);
+        });
+    </script>
+</body>
+</html>
