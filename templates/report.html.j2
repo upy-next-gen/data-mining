@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ meta.title or 'Reporte de Inseguridad' }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+  <link rel="stylesheet" href="assets/css/report.css" />
+</head>
+<body>
+  <header role="banner">
+    <div class="title">
+      <h1>{{ meta.title or 'Reporte de Inseguridad' }}</h1>
+      <p>{{ meta.subtitle or 'Análisis descriptivo y visualizaciones' }}</p>
+      <p>{{ meta.date or generation_date }}{% if meta.authors %} · {{ meta.authors|join(', ') }}{% endif %}</p>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Tabla de contenidos">
+    <div class="wrap">
+      <a href="#resumen">Resumen</a>
+      <a href="#datos">Datos</a>
+      <a href="#kpis">KPIs</a>
+      <a href="#graficas">Gráficas</a>
+      <a href="#tablas">Tablas</a>
+      <a href="#metadatos">Metadatos</a>
+    </div>
+  </nav>
+
+  <main role="main">
+    <section id="resumen" aria-labelledby="h-resumen">
+      <h2 id="h-resumen">Resumen ejecutivo</h2>
+      <div class="card">
+        <p>{{ summary_text }}</p>
+        <ul>
+          {% for b in bullets %}
+          <li>{{ b }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <section id="datos" aria-labelledby="h-datos">
+      <h2 id="h-datos">Descripción de datos</h2>
+      <div class="card">
+        <p>Fuente: {{ data_dir }}</p>
+        <p>Archivos leídos: {{ n_files }} ({{ file_types|join(', ') }})</p>
+        <p>Filas totales: {{ total_rows }}</p>
+      </div>
+    </section>
+
+    <section id="kpis" aria-labelledby="h-kpis">
+      <h2 id="h-kpis">Indicadores (KPIs)</h2>
+      <div class="kpi-grid">
+        {% for k in kpis %}
+        <div class="kpi" role="note">
+          <div class="label">{{ k.label }}</div>
+          <div class="value">{{ k.value }}</div>
+          {% if k.note %}<div class="note">{{ k.note }}</div>{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section id="graficas" aria-labelledby="h-graficas">
+      <h2 id="h-graficas">Visualizaciones</h2>
+      {% for c in charts %}
+      <div class="card">
+        <h3>{{ c.title }}</h3>
+        <div id="{{ c.id }}" style="width:100%;height:420px;"></div>
+        {% if c.note %}<p class="note">{{ c.note }}</p>{% endif %}
+      </div>
+      {% endfor %}
+      <p class="interactive-note">Las gráficas son interactivas (zoom, hover, exportar a PNG).</p>
+    </section>
+
+    <section id="tablas" aria-labelledby="h-tablas">
+      <h2 id="h-tablas">Tablas</h2>
+      <div class="card">
+        <h3>Perfilado de columnas</h3>
+        {{ profiling_table|safe }}
+      </div>
+      <div class="card">
+        <h3>Estadísticas descriptivas (numéricas)</h3>
+        {{ describe_table|safe }}
+      </div>
+      <div class="card">
+        <h3>Vista de datos</h3>
+        {{ sample_table|safe }}
+      </div>
+    </section>
+
+    <section id="metadatos" aria-labelledby="h-metadatos">
+      <h2 id="h-metadatos">Metadatos</h2>
+      <div class="card">
+        <p>Versión del reporte: {{ version }}</p>
+        <p>Generado: {{ generation_date }}</p>
+        <p>Checksum (datos): {{ checksum }}</p>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="wrap">Reporte generado automáticamente. Sin datos personales ni credenciales embebidas.</div>
+  </footer>
+
+  <!-- Libraries: Plotly inline and DataTables via CDN -->
+  <script>
+  {{ plotly_js|safe }}
+  </script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script>
+    window.__CHARTS__ = {{ charts_json | safe }};
+  </script>
+  <script src="assets/js/init.js" defer></script>
+</body>
+</html>
+

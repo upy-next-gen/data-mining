@@ -1,0 +1,46 @@
+/* Basic reset */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; color: #1f2937; background: #fff; }
+a { color: #0f62fe; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Layout */
+header { background: #0b1220; color: #fff; padding: 24px 16px; }
+header .title { max-width: 1100px; margin: 0 auto; }
+header h1 { margin: 0; font-size: 28px; }
+header p { margin: 4px 0 0; opacity: 0.9; }
+
+nav.toc { background: #f3f4f6; border-bottom: 1px solid #e5e7eb; }
+nav.toc .wrap { max-width: 1100px; margin: 0 auto; padding: 8px 16px; display: flex; flex-wrap: wrap; gap: 10px; }
+nav.toc a { padding: 6px 10px; border-radius: 6px; background: #fff; border: 1px solid #e5e7eb; font-size: 14px; }
+
+main { max-width: 1100px; margin: 24px auto; padding: 0 16px; }
+section { margin: 28px 0; }
+section h2 { font-size: 22px; margin-bottom: 8px; }
+section h3 { font-size: 18px; margin: 14px 0 8px; }
+
+.kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 12px; }
+.kpi { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 14px; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+.kpi .label { color: #6b7280; font-size: 13px; }
+.kpi .value { font-size: 24px; font-weight: 700; margin-top: 6px; }
+.kpi .note { font-size: 12px; color: #6b7280; margin-top: 6px; }
+
+.card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 16px; margin: 16px 0; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+.card h3 { margin-top: 0; }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button { padding: .2em .8em; }
+table.dataframe { width: 100%; border-collapse: collapse; }
+table.dataframe th, table.dataframe td { border: 1px solid #e5e7eb; padding: 6px 8px; }
+table.dataframe th { background: #f9fafb; text-align: left; }
+
+footer { border-top: 1px solid #e5e7eb; margin-top: 32px; padding: 16px; color: #6b7280; font-size: 14px; }
+
+/* Print styles */
+@media print {
+  nav.toc, .interactive-note, .dt-buttons, .dataTables_length, .dataTables_filter, .dataTables_info, .dataTables_paginate { display: none !important; }
+  header { background: #fff; color: #000; border-bottom: 1px solid #000; }
+  a { color: #000; text-decoration: none; }
+  table { page-break-inside: avoid; }
+  section { page-break-after: always; }
+}
+
