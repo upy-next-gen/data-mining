@@ -4,10 +4,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ meta.title or 'Reporte de Inseguridad' }}</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  {# Fuentes opcionales via Google Fonts (omitidas para modo offline estricto) #}
+  {% if vendor_available.dt_css %}
+  <link rel="stylesheet" href="{{ vendor.dt_css }}" />
+  {% else %}
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+  {% endif %}
   <link rel="stylesheet" href="{{ assets }}/css/report.css" />
 </head>
 <body>
@@ -111,13 +113,32 @@
   <script>
   {{ plotly_js|safe }}
   </script>
-  <!-- Fallback CDN if inline Plotly is not available -->
+  {% if vendor_available.plotly_js %}
+  <script src="{{ vendor.plotly_js }}"></script>
+  {% else %}
   <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+  {% endif %}
+
+  {% if vendor_available.jquery_js %}
+  <script src="{{ vendor.jquery_js }}"></script>
+  {% else %}
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  {% endif %}
+
+  {% if vendor_available.dt_js %}
+  <script src="{{ vendor.dt_js }}"></script>
+  {% else %}
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  {% endif %}
   <script>
     window.__CHARTS__ = {{ charts_json | safe }};
   </script>
   <script src="{{ assets }}/js/init.js" defer></script>
+
+  {% if not (vendor_available.plotly_js and vendor_available.jquery_js and vendor_available.dt_js and vendor_available.dt_css) %}
+  <script>
+    console.warn('Modo offline parcial: falta alguna librería local (Plotly/jQuery/DataTables). Intenta ejecutar scripts/fetch_offline_assets.py o instalar plotly para incrustar la librería.');
+  </script>
+  {% endif %}
 </body>
 </html>

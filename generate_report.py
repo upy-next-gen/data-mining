@@ -352,6 +352,16 @@ def main(argv: List[str] | None = None) -> None:
     out_dir = os.path.dirname(args.out) or '.'
     assets_rel = os.path.relpath(args.assets, start=out_dir)
 
+    # Detect available local vendor libraries for offline usage
+    vendor_dir = os.path.join(args.assets, 'vendor')
+    vendor = {
+        'jquery_js': os.path.join(vendor_dir, 'jquery-3.7.1.min.js'),
+        'dt_js': os.path.join(vendor_dir, 'datatables.min.js'),
+        'dt_css': os.path.join(vendor_dir, 'datatables.min.css'),
+        'plotly_js': os.path.join(vendor_dir, 'plotly-2.26.0.min.js'),
+    }
+    vendor_available = {k: os.path.exists(v) for k, v in vendor.items()}
+
     context = {
         'meta': meta,
         'data_dir': os.path.relpath(data_dir),
@@ -375,6 +385,8 @@ def main(argv: List[str] | None = None) -> None:
         'checksum': md5_of_files(files),
         'plotly_js': plotly_js,
         'assets': assets_rel,
+        'vendor': {k: os.path.relpath(v, start=out_dir) for k, v in vendor.items()},
+        'vendor_available': vendor_available,
     }
 
     # Ensure assets path exists (so relative links work)
