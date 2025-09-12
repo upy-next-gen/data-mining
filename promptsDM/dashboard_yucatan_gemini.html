@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Percepción de Seguridad - Yucatán</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body { background-color: #f8f9fa; }
+        .chart-container, .kpi-card, .table-container {
+            background-color: #ffffff;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+            margin-bottom: 2rem;
+        }
+        .kpi-card h6 { color: #6c757d; }
+        .kpi-card .display-4 { font-weight: 500; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Dashboard de Percepción de Seguridad: Yucatán</span>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <!-- Metadata -->
+        <div class="row mb-3">
+            <div class="col-12 text-center text-muted">
+                <small id="dashboard-metadata"></small>
+            </div>
+        </div>
+
+        <!-- KPI Cards -->
+        <div class="row" id="kpi-cards-container"></div>
+
+        <div class="row">
+            <!-- Statewide Trend -->
+            <div class="col-md-8">
+                <div class="chart-container">
+                    <h5>Tendencia Estatal de Percepción de Inseguridad (%)</h5>
+                    <canvas id="stateTrendChart"></canvas>
+                </div>
+            </div>
+            <!-- Breakdown Chart -->
+            <div class="col-md-4">
+                <div class="chart-container">
+                    <h5>Desglose (Último Trimestre)</h5>
+                    <canvas id="breakdownDoughnutChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Per-Municipality Charts -->
+        <div class="row">
+            <div class="col-12">
+                <div class="chart-container">
+                    <h5>Evolución de la Percepción de Inseguridad (%) por Municipio</h5>
+                    <canvas id="timeSeriesChart"></canvas>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="chart-container">
+                    <h5>Comparativa de Inseguridad Más Reciente (%) por Municipio</h5>
+                    <canvas id="latestBarChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Table -->
+        <div class="row">
+            <div class="col-12">
+                <div class="table-container" id="data-tables-container">
+                    <!-- Tables will be generated here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const csvData = `NOM_ENT,NOM_MUN,TOTAL_REGISTROS,TOTAL_SEGUROS,TOTAL_INSEGUROS,TOTAL_NO_RESPONDE,PCT_SEGUROS,PCT_INSEGUROS,PCT_NO_RESPONDE,AÑO,TRIMESTRE
+YUCATAN,KANASIN,19,6,13,0,31.57894736842105,68.42105263157895,0.0,2017,2
+YUCATAN,MERIDA,216,166,50,0,76.85185185185185,23.14814814814815,0.0,2017,2
+YUCATAN,PROGRESO,17,12,5,0,70.58823529411765,29.411764705882355,0.0,2017,2
+YUCATAN,UMAN,9,7,2,0,77.77777777777779,22.22222222222222,0.0,2017,2
+YUCATAN,KANASIN,20,9,11,0,45.0,55.00000000000001,0.0,2018,1
+YUCATAN,MERIDA,222,168,54,0,75.67567567567568,24.324324324324326,0.0,2018,1
+YUCATAN,PROGRESO,10,7,3,0,70.0,30.0,0.0,2018,1
+YUCATAN,UMAN,14,6,8,0,42.85714285714285,57.14285714285714,0.0,2018,1
+YUCATAN,KANASIN,21,6,15,0,28.57142857142857,71.42857142857143,0.0,2018,2
+YUCATAN,MERIDA,217,150,67,0,69.12442396313364,30.87557603686636,0.0,2018,2
+YUCATAN,PROGRESO,12,6,6,0,50.0,50.0,0.0,2018,2
+YUCATAN,UMAN,14,9,5,0,64.28571428571429,35.714285714285715,0.0,2018,2
+YUCATAN,KANASIN,18,5,13,0,27.77777777777778,72.22222222222221,0.0,2018,3
+YUCATAN,MERIDA,216,141,75,0,65.27777777777779,34.72222222222222,0.0,2018,3
+YUCATAN,PROGRESO,17,10,7,0,58.82352941176471,41.17647058823529,0.0,2018,3
+YUCATAN,UMAN,14,7,7,0,50.0,50.0,0.0,2018,3
+YUCATAN,KANASIN,13,6,7,0,46.15384615384615,53.84615384615385,0.0,2018,4
+YUCATAN,MERIDA,219,163,56,0,74.42922374429224,25.570776255707763,0.0,2018,4
+YUCATAN,PROGRESO,18,12,6,0,66.66666666666666,33.33333333333333,0.0,2018,4
+YUCATAN,UMAN,19,10,9,0,52.63157894736842,47.368421052631575,0.0,2018,4
+YUCATAN,KANASIN,15,7,8,0,46.66666666666666,53.333333333333336,0.0,2019,1
+YUCATAN,MERIDA,221,176,45,0,79.63800904977376,20.361990950226243,0.0,2019,1
+YUCATAN,PROGRESO,17,11,6,0,64.70588235294117,35.294117647058826,0.0,2019,1
+YUCATAN,UMAN,17,15,2,0,88.23529411764706,11.76470588235294,0.0,2019,1
+YUCATAN,KANASIN,14,9,5,0,64.28571428571429,35.714285714285715,0.0,2019,2
+YUCATAN,MERIDA,217,157,60,0,72.35023041474655,27.64976958525346,0.0,2019,2
+YUCATAN,PROGRESO,17,12,5,0,70.58823529411765,29.411764705882355,0.0,2019,2
+YUCATAN,UMAN,17,7,10,0,41.17647058823529,58.82352941176471,0.0,2019,2
+YUCATAN,KANASIN,14,10,4,0,71.42857142857143,28.57142857142857,0.0,2019,4
+YUCATAN,MERIDA,212,179,31,2,84.43396226415094,14.62264150943396,0.9433962264150944,2019,4
+YUCATAN,PROGRESO,17,14,3,0,82.35294117647058,17.647058823529413,0.0,2019,4
+YUCATAN,UMAN,18,11,7,0,61.11111111111112,38.888888888889,0.0,2019,4
+YUCATAN,KANASIN,7,5,2,0,71.42857142857143,28.57142857142857,0.0,2020,1
+YUCATAN,MERIDA,216,168,48,0,77.77777777777779,22.22222222222222,0.0,2020,1
+YUCATAN,PROGRESO,23,13,10,0,56.52173913043478,43.47826086956522,0.0,2020,1
+YUCATAN,UMAN,18,12,6,0,66.66666666666666,33.33333333333333,0.0,2020,1
+YUCATAN,KANASIN,10,7,3,0,70.0,30.0,0.0,2020,3
+YUCATAN,MERIDA,212,167,45,0,78.77358490566037,21.22641509433962,0.0,2020,3
+YUCATAN,PROGRESO,28,16,12,0,57.14285714285714,42.85714285714285,0.0,2020,3
+YUCATAN,UMAN,12,9,3,0,75.0,25.0,0.0,2020,3
+YUCATAN,KANASIN,9,2,7,0,22.22222222222222,77.77777777777779,0.0,2020,4
+YUCATAN,MERIDA,215,171,44,0,79.53488372093022,20.46511627906977,0.0,2020,4
+YUCATAN,PROGRESO,28,15,13,0,53.57142857142857,46.42857142857143,0.0,2020,4
+YUCATAN,UMAN,12,7,5,0,58.333333333333336,41.66666666666667,0.0,2020,4
+YUCATAN,KANASIN,14,7,7,0,50.0,50.0,0.0,2021,1
+YUCATAN,MERIDA,215,159,56,0,73.95348837209302,26.046511627906977,0.0,2021,1
+YUCATAN,PROGRESO,23,11,12,0,47.82608695652174,52.17391304347826,0.0,2021,1
+YUCATAN,UMAN,13,7,6,0,53.84615384615385,46.15384615384615,0.0,2021,1
+YUCATAN,KANASIN,13,2,11,0,15.384615384615383,84.61538461538461,0.0,2021,2
+YUCATAN,MERIDA,218,176,42,0,80.73394495412845,19.26605504587156,0.0,2021,2
+YUCATAN,PROGRESO,22,11,11,0,50.0,50.0,0.0,2021,2
+YUCATAN,UMAN,15,8,7,0,53.333333333333336,46.66666666666666,0.0,2021,2
+YUCATAN,KANASIN,18,7,11,0,38.88888888888889,61.11111111111112,0.0,2021,3
+YUCATAN,MERIDA,217,150,67,0,69.12442396313364,30.87557603686636,0.0,2021,3
+YUCATAN,PROGRESO,17,10,7,0,58.82352941176471,41.17647058823529,0.0,2021,3
+YUCATAN,UMAN,15,8,7,0,53.333333333333336,46.66666666666666,0.0,2021,3
+YUCATAN,KANASIN,19,9,10,0,47.368421052631575,52.63157894736842,0.0,2021,4
+YUCATAN,MERIDA,219,165,54,0,75.34246575342466,24.65753424657534,0.0,2021,4
+YUCATAN,PROGRESO,20,12,8,0,60.0,40.0,0.0,2021,4
+YUCATAN,UMAN,10,6,4,0,60.0,40.0,0.0,2021,4
+YUCATAN,KANASIN,19,15,4,0,78.94736842105263,21.052631578947366,0.0,2022,1
+YUCATAN,MERIDA,218,173,45,0,79.35779816513761,20.642201834862387,0.0,2022,1
+YUCATAN,PROGRESO,25,12,13,0,48.0,52.0,0.0,2022,1
+YUCATAN,UMAN,10,9,1,0,90.0,10.0,0.0,2022,1
+YUCATAN,KANASIN,20,12,8,0,60.0,40.0,0.0,2022,2
+YUCATAN,MERIDA,222,152,70,0,68.46846846846847,31.53153153153153,0.0,2022,2
+YUCATAN,PROGRESO,24,14,10,0,58.333333333333336,41.66666666666667,0.0,2022,2
+YUCATAN,UMAN,9,6,3,0,66.66666666666666,33.33333333333333,0.0,2022,2
+YUCATAN,KANASIN,24,11,13,0,45.83333333333333,54.16666666666666,0.0,2022,3
+YUCATAN,MERIDA,211,159,52,0,75.35545023696683,24.644549763033176,0.0,2022,3
+YUCATAN,PROGRESO,24,13,11,0,54.16666666666666,45.83333333333333,0.0,2022,3
+YUCATAN,UMAN,4,3,1,0,75.0,25.0,0.0,2022,3
+YUCATAN,KANASIN,23,12,11,0,52.17391304347826,47.82608695652174,0.0,2022,4
+YUCATAN,MERIDA,212,157,55,0,74.05660377358491,25.943396226415093,0.0,2022,4
+YUCATAN,PROGRESO,23,13,10,0,56.52173913043478,43.47826086956522,0.0,2022,4
+YUCATAN,UMAN,4,3,1,0,75.0,25.0,0.0,2022,4
+YUCATAN,KANASIN,29,21,8,0,72.41379310344827,27.58620689655172,0.0,2023,1
+YUCATAN,MERIDA,211,166,44,1,78.67298578199052,20.85308056872038,0.4739336492890995,2023,1
+YUCATAN,PROGRESO,22,12,10,0,54.54545454545454,45.45454545454545,0.0,2023,1
+YUCATAN,KANASIN,30,15,15,0,50.0,50.0,0.0,2023,2
+YUCATAN,MERIDA,222,181,41,0,81.53153153153153,18.46846846846847,0.0,2023,2
+YUCATAN,PROGRESO,19,8,11,0,42.10526315789473,57.89473684210527,0.0,2023,2
+YUCATAN,KANASIN,30,25,5,0,83.33333333333334,16.666666666666664,0.0,2023,3
+YUCATAN,MERIDA,218,165,53,0,75.68807339449542,24.31192660550459,0.0,2023,3
+YUCATAN,PROGRESO,19,7,12,0,36.84210526315789,63.1578947368421,0.0,2023,3
+YUCATAN,KANASIN,30,20,10,0,66.66666666666666,33.33333333333333,0.0,2023,4
+YUCATAN,MERIDA,229,184,45,0,80.34934497816593,19.65065502183406,0.0,2023,4
+YUCATAN,PROGRESO,9,4,5,0,44.44444444444444,55.55555555555556,0.0,2023,4
+YUCATAN,KANASIN,33,25,8,0,75.75757575757575,24.24242424242424,0.0,2024,1
+YUCATAN,MERIDA,216,166,50,0,76.85185185185185,23.14814814814815,0.0,2024,1
+YUCATAN,PROGRESO,8,5,3,0,62.5,37.5,0.0,2024,1
+YUCATAN,KANASIN,21,14,7,0,66.66666666666666,33.33333333333333,0.0,2024,2
+YUCATAN,MERIDA,226,186,40,0,82.30088495575221,17.699115044247787,0.0,2024,2
+YUCATAN,PROGRESO,4,2,2,0,50.0,50.0,0.0,2024,2
+YUCATAN,UMAN,5,2,3,0,40.0,60.0,0.0,2024,2
+YUCATAN,KANASIN,25,20,5,0,80.0,20.0,0.0,2024,3
+YUCATAN,MERIDA,223,177,46,0,79.37219730941703,20.62780269058296,0.0,2024,3
+YUCATAN,PROGRESO,5,3,2,0,60.0,40.0,0.0,2024,3
+YUCATAN,UMAN,5,3,2,0,60.0,40.0,0.0,2024,3
+YUCATAN,KANASIN,35,19,16,0,54.285714285714285,45.71428571428572,0.0,2024,4
+YUCATAN,MERIDA,210,155,55,0,73.80952380952381,26.1904761904762,0.0,2024,4
+YUCATAN,PROGRESO,5,3,2,0,60.0,40.0,0.0,2024,4
+YUCATAN,UMAN,10,3,7,0,30.0,70.0,0.0,2024,4
+YUCATAN,KANASIN,29,15,14,0,51.72413793103448,48.27586206896552,0.0,2025,1
+YUCATAN,MERIDA,209,138,71,0,66.02870813397129,33.97129186602871,0.0,2025,1
+YUCATAN,PROGRESO,10,6,4,0,60.0,40.0,0.0,2025,1
+YUCATAN,UMAN,10,4,6,0,40.0,60.0,0.0,2025,1
+YUCATAN,KANASIN,25,8,17,0,32.0,68.0,0.0,2025,2
+YUCATAN,MERIDA,211,138,73,0,65.40284360189574,34.59715639810427,0.0,2025,2
+YUCATAN,PROGRESO,9,6,3,0,66.66666666666666,33.33333333333333,0.0,2025,2
+YUCATAN,UMAN,10,4,6,0,40.0,60.0,0.0,2025,2
+`;
+
+        function loadDashboard() {
+            const data = d3.csvParse(csvData);
+
+            if (!data || data.length === 0) {
+                console.error("No se pudieron cargar los datos o el archivo está vacío.");
+                return;
+            }
+
+            // --- Procesamiento de Datos ---
+            data.forEach(d => {
+                d.AÑO = +d.AÑO;
+                d.TRIMESTRE = +d.TRIMESTRE;
+                d.PCT_INSEGUROS = +d.PCT_INSEGUROS;
+                d.TOTAL_REGISTROS = +d.TOTAL_REGISTROS;
+                d.TOTAL_INSEGUROS = +d.TOTAL_INSEGUROS;
+                d.TOTAL_SEGUROS = +d.TOTAL_SEGUROS;
+                d.Periodo = `A${d.AÑO}-T${d.TRIMESTRE}`;
+            });
+
+            const municipalities = [...new Set(data.map(d => d.NOM_MUN))];
+            const periods = [...new Set(data.map(d => d.Periodo))].sort();
+            const latestYear = Math.max(...data.map(d => d.AÑO));
+            const latestQuarter = Math.max(...data.filter(d => d.AÑO === latestYear).map(d => d.TRIMESTRE));
+            const latestData = data.filter(d => d.AÑO === latestYear && d.TRIMESTRE === latestQuarter);
+
+            // --- Render Metadata & KPIs ---
+            renderMetadata(periods);
+            renderKpiCards(latestData);
+
+            // --- Render Charts ---
+            renderStateTrendChart(data, periods);
+            renderBreakdownChart(latestData);
+            renderTimeSeriesChart(data, municipalities, periods);
+            renderLatestBarChart(latestData);
+            
+            // --- Render Data Table ---
+            renderGroupedDataTables(data);
+        }
+        
+        function renderMetadata(periods) {
+            const firstPeriod = periods[0] || 'N/A';
+            const lastPeriod = periods[periods.length - 1] || 'N/A';
+            const generationDate = new Date().toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' });
+            const container = document.getElementById('dashboard-metadata');
+            container.innerHTML = `<strong>Periodo de Datos:</strong> ${firstPeriod} a ${lastPeriod} | <strong>Generado el:</strong> ${generationDate}`;
+        }
+
+        function renderKpiCards(latestData) {
+            const totalRespondents = d3.sum(latestData, d => d.TOTAL_REGISTROS);
+            const weightedAvgInsecurity = totalRespondents > 0 ? d3.sum(latestData, d => d.TOTAL_INSEGUROS) / totalRespondents : 0;
+            const maxInsecurity = d3.max(latestData, d => d.PCT_INSEGUROS);
+            const minInsecurity = d3.min(latestData, d => d.PCT_INSEGUROS);
+            const munMax = latestData.find(d => d.PCT_INSEGUROS === maxInsecurity)?.NOM_MUN || 'N/A';
+            const munMin = latestData.find(d => d.PCT_INSEGUROS === minInsecurity)?.NOM_MUN || 'N/A';
+
+            const container = document.getElementById('kpi-cards-container');
+            container.innerHTML = `
+                <div class="col-md-3"><div class="kpi-card text-center"><h6 class="card-title">Inseguridad Promedio</h6><p class="display-4">${(weightedAvgInsecurity * 100).toFixed(1)}%</p></div></div>
+                <div class="col-md-3"><div class="kpi-card text-center"><h6 class="card-title">Total de Encuestados</h6><p class="display-4">${totalRespondents}</p></div></div>
+                <div class="col-md-3"><div class="kpi-card text-center text-danger"><h6 class="card-title">Municipio con Mayor Inseguridad</h6><p class="display-4">${munMax}</p></div></div>
+                <div class="col-md-3"><div class="kpi-card text-center text-success"><h6 class="card-title">Municipio con Menor Inseguridad</h6><p class="display-4">${munMin}</p></div></div>
+            `;
+        }
+
+        function renderStateTrendChart(data, periods) {
+            const stateTrend = periods.map(p => {
+                const periodData = data.filter(d => d.Periodo === p);
+                const totalRespondents = d3.sum(periodData, d => d.TOTAL_REGISTROS);
+                if (totalRespondents === 0) return null;
+                const weightedAvg = d3.sum(periodData, d => d.TOTAL_INSEGUROS) / totalRespondents;
+                return weightedAvg * 100;
+            });
+
+            const ctx = document.getElementById('stateTrendChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: periods,
+                    datasets: [{
+                        label: 'Promedio Estatal de Inseguridad',
+                        data: stateTrend,
+                        borderColor: '#0d6efd',
+                        backgroundColor: 'rgba(13, 110, 253, 0.1)',
+                        fill: true,
+                        tension: 0.1
+                    }]
+                },
+                options: { scales: { y: { beginAtZero: true, ticks: { callback: v => v.toFixed(1) + '%' } } } }
+            });
+        }
+
+        function renderBreakdownChart(latestData) {
+            const totalInseguros = d3.sum(latestData, d => d.TOTAL_INSEGUROS);
+            const totalSeguros = d3.sum(latestData, d => d.TOTAL_SEGUROS);
+            const ctx = document.getElementById('breakdownDoughnutChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Inseguros', 'Seguros'],
+                    datasets: [{
+                        data: [totalInseguros, totalSeguros],
+                        backgroundColor: ['rgba(217, 83, 79, 0.7)', 'rgba(25, 135, 84, 0.7)']
+                    }]
+                },
+                options: { responsive: true, plugins: { legend: { position: 'bottom' } } }
+            });
+        }
+
+        function renderTimeSeriesChart(data, municipalities, periods) {
+            const datasets = municipalities.map(mun => {
+                const munData = data.filter(d => d.NOM_MUN === mun);
+                return {
+                    label: mun,
+                    data: periods.map(p => munData.find(d => d.Periodo === p)?.PCT_INSEGUROS ?? null),
+                    fill: false,
+                    tension: 0.1
+                };
+            });
+            const ctx = document.getElementById('timeSeriesChart').getContext('2d');
+            new Chart(ctx, { type: 'line', data: { labels: periods, datasets: datasets }, options: { scales: { y: { ticks: { callback: v => v + '%' } } } } });
+        }
+
+        function renderLatestBarChart(latestData) {
+            const ctx = document.getElementById('latestBarChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: latestData.map(d => d.NOM_MUN),
+                    datasets: [{
+                        label: `Percepción de Inseguridad`,
+                        data: latestData.map(d => d.PCT_INSEGUROS),
+                        backgroundColor: 'rgba(217, 83, 79, 0.5)'
+                    }]
+                },
+                options: { indexAxis: 'y', plugins: { legend: { display: false } }, scales: { x: { ticks: { callback: v => v + '%' } } } }
+            });
+        }
+
+        function renderGroupedDataTables(data) {
+            const container = document.getElementById('data-tables-container');
+            const columns = Object.keys(data[0]);
+            const dataByYear = d3.group(data, d => d.AÑO);
+
+            container.innerHTML = ''; // Clear previous content
+
+            for (const [year, rows] of dataByYear) {
+                const tableHtml = `
+                    <h4 class="mt-4">Año: ${year}</h4>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-sm">
+                            <thead><tr>${columns.map(c => `<th>${c}</th>`).join('')}</tr></thead>
+                            <tbody>${rows.map(row => `<tr>${columns.map(c => `<td>${row[c]}</td>`).join('')}</tr>`).join('')}</tbody>
+                        </table>
+                    </div>
+                `;
+                container.innerHTML += tableHtml;
+            }
+        }
+
+        loadDashboard();
+    </script>
+</body>
+</html>

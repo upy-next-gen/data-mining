@@ -1,0 +1,178 @@
+﻿"NOMBRE_CAMPO","NEMONICO","TIPO","LONGITUD","RANGO_CLAVES"
+"Unidad primaria de muestreo","UPM","Numérico","7","0100001…3299999"
+"Vivienda seleccionada","VIV_SEL","Numérico","2","01…99"
+"Renglón del Informante","R_INF","Numérico","2","01…30"
+"Clave Entidad","CVE_ENT","Numérico","2","01...32"
+"Nombre de la Entidad","NOM_ENT","Alfanumérico","250","Texto mínimo 2 caracteres"
+"Municipio","CVE_MUN","Numérico","3","001-570"
+"Nombre del Municipio","NOM_MUN","Alfanumérico","250","Texto mínimo 2 caracteres"
+"Localidad","LOC","Numérico","4","0000-1600"
+"Ciudad","CD","Numérico","2","01"
+"Ciudad","CD","Numérico","2","02"
+"Ciudad","CD","Numérico","2","03"
+"Ciudad","CD","Numérico","2","04"
+"Ciudad","CD","Numérico","2","05"
+"Ciudad","CD","Numérico","2","06"
+"Ciudad","CD","Numérico","2","07"
+"Ciudad","CD","Numérico","2","08"
+"Ciudad","CD","Numérico","2","09"
+"Ciudad","CD","Numérico","2","10"
+"Ciudad","CD","Numérico","2","11"
+"Ciudad","CD","Numérico","2","12"
+"Ciudad","CD","Numérico","2","13"
+"Ciudad","CD","Numérico","2","14"
+"Ciudad","CD","Numérico","2","15"
+"Ciudad","CD","Numérico","2","16"
+"Ciudad","CD","Numérico","2","17"
+"Ciudad","CD","Numérico","2","18"
+"Ciudad","CD","Numérico","2","19"
+"Ciudad","CD","Numérico","2","20"
+"Ciudad","CD","Numérico","2","21"
+"Ciudad","CD","Numérico","2","22"
+"Ciudad","CD","Numérico","2","23"
+"Ciudad","CD","Numérico","2","24"
+"Ciudad","CD","Numérico","2","25"
+"Ciudad","CD","Numérico","2","26"
+"Ciudad","CD","Numérico","2","27"
+"Ciudad","CD","Numérico","2","28"
+"Ciudad","CD","Numérico","2","29"
+"Ciudad","CD","Numérico","2","30"
+"Ciudad","CD","Numérico","2","31"
+"Ciudad","CD","Numérico","2","32"
+"Ciudad","CD","Numérico","2","33"
+"Ciudad","CD","Numérico","2","34"
+"Ciudad","CD","Numérico","2","35"
+"Ciudad","CD","Numérico","2","36"
+"Ciudad","CD","Numérico","2","37"
+"Ciudad","CD","Numérico","2","38"
+"Ciudad","CD","Numérico","2","39"
+"Ciudad","CD","Numérico","2","40"
+"Ciudad","CD","Numérico","2","41"
+"Ciudad","CD","Numérico","2","42"
+"Ciudad","CD","Numérico","2","43"
+"Ciudad","CD","Numérico","2","44"
+"Ciudad","CD","Numérico","2","45"
+"Ciudad","CD","Numérico","2","46"
+"Ciudad","CD","Numérico","2","47"
+"Ciudad","CD","Numérico","2","48"
+"Ciudad","CD","Numérico","2","49"
+"Ciudad","CD","Numérico","2","50"
+"Ciudad","CD","Numérico","2","51"
+"Ciudad","CD","Numérico","2","52"
+"Ciudad","CD","Numérico","2","53"
+"Ciudad","CD","Numérico","2","54"
+"Ciudad","CD","Numérico","2","55"
+"Ciudad","CD","Numérico","2","56"
+"Ciudad","CD","Numérico","2","57"
+"Ciudad","CD","Numérico","2","58"
+"Periodo","PER","Numérico","4","0118"
+"Resultado definitivo de la visita a la vivienda","R_DEF","Numérico","2","01"
+"Resultado definitivo de la visita a la vivienda","R_DEF"," "," ","02"
+"Resultado definitivo de la visita a la vivienda","R_DEF"," "," ","03"
+"Resultado definitivo de la visita a la vivienda","R_DEF"," "," ","04"
+"Resultado definitivo de la visita a la vivienda","R_DEF"," "," ","05"
+"Resultado definitivo de la visita a la vivienda","R_DEF"," "," ","06"
+"Resultado definitivo de la visita a la vivienda","R_DEF"," "," ","07"
+"Resultado definitivo de la visita a la vivienda","R_DEF"," "," ","08"
+"Resultado definitivo de la visita a la vivienda","R_DEF"," "," ","09"
+"Resultado definitivo de la visita a la vivienda","R_DEF"," "," ","10"
+"Resultado definitivo de la visita a la vivienda","R_DEF"," "," ","11"
+"Resultado definitivo de la visita a la vivienda","R_DEF"," "," ","12"
+"Hogar mudado","H_MUD","Numérico","1","0-4"
+"Seleccionado sustituido
+
+","SEL_SUST","Texto","1","A, B, C, D,Blanco"
+"Tipo de cuestionario","TIPO_CUEST","Alfanumérico","1","-"
+"Número de entrevista","N_ENT","Numérico","1","1…5"
+"Número de renglón","N_REN","Numérico","2","01…30"
+"Nombre de integrantes del hogar","NOM","Alfanumérico","250","-"
+"Condición de residencia","C_RES","Numérico","1","1"
+"Condición de residencia","C_RES","Numérico","1","2"
+"Condición de residencia","C_RES","Numérico","1","3"
+"Condición de residencia","C_RES","Numérico","1","b"
+"Parentesco con el Jefe del Hogar","PAR","Numérico","1","1"
+"Parentesco con el Jefe del Hogar","PAR","Numérico","1","2"
+"Parentesco con el Jefe del Hogar","PAR","Numérico","1","3"
+"Parentesco con el Jefe del Hogar","PAR","Numérico","1","4"
+"Parentesco con el Jefe del Hogar","PAR","Numérico","1","5"
+"Parentesco con el Jefe del Hogar","PAR","Numérico","1","6"
+"Verificación de parentesco","AP3_4A","Numérico","1","1"
+"Verificación de parentesco","AP3_4A","Numérico","1","2"
+"Verificación de parentesco","AP3_4A","Numérico","1","3"
+"Verificación de parentesco","AP3_4A","Numérico","1","4"
+"Verificación de parentesco","AP3_4A","Numérico","1","5"
+"Verificación de parentesco","AP3_4A","Numérico","1","6"
+"Verificación de parentesco","AP3_4A","Numérico","1","b"
+"Sexo","SEX","Numérico","1","1"
+"Sexo","SEX","Numérico","1","2"
+"Edad","EDAD","Numérico","2","01 … 96"
+"Edad","EDAD","Numérico","2","00"
+"Edad","EDAD","Numérico","2","97"
+"Edad","EDAD","Numérico","2","98"
+"Edad","EDAD","Numérico","2","99"
+"Edad (Verificación)","AP3_6A","Numérico","2","01 … 96"
+"Edad (Verificación)","AP3_6A","Numérico","2","00"
+"Edad (Verificación)","AP3_6A","Numérico","2","97"
+"Edad (Verificación)","AP3_6A","Numérico","2","98"
+"Edad (Verificación)","AP3_6A","Numérico","2","99"
+"Edad (Verificación)","AP3_6A","Numérico","2","b"
+"Fecha de nacimiento día","NAC_D","Numérico","2","01…31"
+"Fecha de nacimiento día","NAC_D","Numérico","2","99"
+"Fecha de nacimiento mes","NAC_M","Numérico","2","01…12"
+"Fecha de nacimiento mes","NAC_M","Numérico","2","99"
+"Código ","COD","Numérico","1","1"
+"Código ","COD","Numérico","1","2"
+"Código ","COD","Numérico","1","b"
+"Código de seleccionado","COD_SEL","Texto","1","A"
+"Código de seleccionado","COD_SEL","Texto","1","B"
+"Código de seleccionado","COD_SEL","Texto","1","C"
+"Código de seleccionado","COD_SEL","Texto","1","D"
+"Código de seleccionado","COD_SEL","Texto","1","b"
+"Código de verificación","VERIF_COD","Numérico","1","1"
+"Código de verificación","VERIF_COD","Numérico","1","2"
+"Código de verificación","VERIF_COD","Numérico","1","b"
+"Nivel de instrucción","I_NIV","Numérico","2","00"
+"Nivel de instrucción","I_NIV","Numérico","2","01"
+"Nivel de instrucción","I_NIV","Numérico","2","02"
+"Nivel de instrucción","I_NIV","Numérico","2","03"
+"Nivel de instrucción","I_NIV","Numérico","2","04"
+"Nivel de instrucción","I_NIV","Numérico","2","05"
+"Nivel de instrucción","I_NIV","Numérico","2","06"
+"Nivel de instrucción","I_NIV","Numérico","2","07"
+"Nivel de instrucción","I_NIV","Numérico","2","08"
+"Nivel de instrucción","I_NIV","Numérico","2","09"
+"Nivel de instrucción","I_NIV","Numérico","2","99"
+"Nivel de instrucción","I_NIV","Numérico","2","b"
+"Grados de estudio","I_ANIO","Numérico","1","0,…,8"
+"Grados de estudio","I_ANIO","Numérico","1","9"
+"Grados de estudio","I_ANIO","Numérico","1","b"
+"Asistencia escolar","A_ESC","Numérico","1","1"
+"Asistencia escolar","A_ESC","Numérico","1","2"
+"Asistencia escolar","A_ESC","Numérico","1","9"
+"Asistencia escolar","A_ESC","Numérico","1","b"
+"Condición de actividad","C_ACT","Numérico","1","1"
+"Condición de actividad","C_ACT","Numérico","1","2"
+"Condición de actividad","C_ACT","Numérico","1","3"
+"Condición de actividad","C_ACT","Numérico","1","4"
+"Condición de actividad","C_ACT","Numérico","1","5"
+"Condición de actividad","C_ACT","Numérico","1","6"
+"Condición de actividad","C_ACT","Numérico","1","7"
+"Condición de actividad","C_ACT","Numérico","1","8"
+"Condición de actividad","C_ACT","Numérico","1","b"
+"Verificación de actividad","V_ACT","Numérico","1","1"
+"Verificación de actividad","V_ACT","Numérico","1","2"
+"Verificación de actividad","V_ACT","Numérico","1","3"
+"Verificación de actividad","V_ACT","Numérico","1","4"
+"Verificación de actividad","V_ACT","Numérico","1","b"
+"Posición en la ocupación","POS","Numérico","1","1"
+"Posición en la ocupación","POS","Numérico","1","2"
+"Posición en la ocupación","POS","Numérico","1","3"
+"Posición en la ocupación","POS","Numérico","1","4"
+"Posición en la ocupación","POS","Numérico","1","5"
+"Posición en la ocupación","POS","Numérico","1","b"
+"Factor de expansión de vivienda","FAC_VIV","Numérico","6","""000001 … 999999"""
+"Factor de expansión del elegido","FAC_SEL","Numérico","6","""000001 … 999999"""
+"Dominio","DOMINIO","Alfanumérico","1","U"
+"Estrato sociodemográfico","EST","Numérico","1","1,2,3,4"
+"Unidad Primaria de Muestreo","UPM_DIS","Numérico","7","00001…99999"
+"Estrato de diseño ","EST_DIS","Numérico","4","""0001…9999"""
