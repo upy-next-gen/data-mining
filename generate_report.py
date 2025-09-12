@@ -159,54 +159,104 @@ def profile_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_charts(df: pd.DataFrame) -> List[Dict[str, Any]]:
-    import plotly.express as px
-    import plotly.graph_objects as go
+    charts: List[Dict[str, Any]] = []
 
-    charts = []
-
-    # 1. Line: Pct_Inseguros over Fecha
+    # 1. Línea: Pct_Inseguros vs Fecha (promedio)
     if 'Fecha' in df.columns and 'Pct_Inseguros' in df.columns:
         d1 = df[['Fecha', 'Pct_Inseguros']].dropna()
         if not d1.empty:
             s = d1.groupby('Fecha', as_index=False)['Pct_Inseguros'].mean().sort_values('Fecha')
-            fig = px.line(s, x='Fecha', y='Pct_Inseguros', markers=True, title='Tendencia de percepción de inseguridad (promedio)')
-            fig.update_layout(yaxis_title='% inseguridad', xaxis_title='Fecha')
-            charts.append({'id': 'chart_trend', 'title': 'Tendencia', 'spec': fig.to_plotly_json(), 'note': 'Promedio trimestral en todos los municipios.'})
+            spec = {
+                'data': [{
+                    'type': 'scatter', 'mode': 'lines+markers',
+                    'x': s['Fecha'].dt.strftime('%Y-%m-%d').tolist(),
+                    'y': s['Pct_Inseguros'].round(2).tolist(),
+                    'line': {'color': '#c2410c'}
+                }],
+                'layout': {
+                    'title': 'Tendencia de percepción de inseguridad (promedio)',
+                    'xaxis': {'title': 'Fecha'},
+                    'yaxis': {'title': '% inseguridad'},
+                    'margin': {'l': 50, 'r': 20, 't': 50, 'b': 50}
+                }
+            }
+            charts.append({'id': 'chart_trend', 'title': 'Tendencia', 'spec': spec, 'note': 'Promedio trimestral en todos los municipios.'})
 
-    # 2. Bar: top 10 municipios por Pct_Inseguros promedio
+    # 2. Barras: Top 10 municipios por promedio
     mun_col = 'NOM_MUN' if 'NOM_MUN' in df.columns else None
     if mun_col and 'Pct_Inseguros' in df.columns:
         d2 = df[[mun_col, 'Pct_Inseguros']].dropna()
         if not d2.empty:
             s = d2.groupby(mun_col)['Pct_Inseguros'].mean().sort_values(ascending=False).head(10).reset_index()
-            fig = px.bar(s, x='Pct_Inseguros', y=mun_col, orientation='h', title='Top 10 municipios por percepción de inseguridad (promedio)')
-            fig.update_layout(xaxis_title='% inseguridad', yaxis_title='Municipio')
-            charts.append({'id': 'chart_top_mun', 'title': 'Top municipios', 'spec': fig.to_plotly_json(), 'note': 'Promedio en el periodo disponible.'})
+            spec = {
+                'data': [{
+                    'type': 'bar', 'orientation': 'h',
+                    'x': s['Pct_Inseguros'].round(2).tolist(),
+                    'y': s[mun_col].tolist(),
+                    'marker': {'color': '#0ea5e9'}
+                }],
+                'layout': {
+                    'title': 'Top 10 municipios por percepción de inseguridad (promedio)',
+                    'xaxis': {'title': '% inseguridad'},
+                    'yaxis': {'title': 'Municipio'},
+                    'margin': {'l': 100, 'r': 20, 't': 50, 'b': 50}
+                }
+            }
+            charts.append({'id': 'chart_top_mun', 'title': 'Top municipios', 'spec': spec, 'note': 'Promedio en el periodo disponible.'})
 
-    # 3. Histogram of Pct_Inseguros
+    # 3. Histograma
     if 'Pct_Inseguros' in df.columns:
         d3 = df['Pct_Inseguros'].dropna()
         if not d3.empty:
-            fig = px.histogram(d3, nbins=30, title='Distribución de percepción de inseguridad')
-            fig.update_layout(xaxis_title='% inseguridad', yaxis_title='Frecuencia')
-            charts.append({'id': 'chart_hist', 'title': 'Distribución', 'spec': fig.to_plotly_json(), 'note': 'Muestra la dispersión y concentración de valores.'})
+            spec = {
+                'data': [{
+                    'type': 'histogram', 'x': d3.round(2).tolist(), 'nbinsx': 30,
+                    'marker': {'color': '#22c55e'}
+                }],
+                'layout': {
+                    'title': 'Distribución de percepción de inseguridad',
+                    'xaxis': {'title': '% inseguridad'},
+                    'yaxis': {'title': 'Frecuencia'}
+                }
+            }
+            charts.append({'id': 'chart_hist', 'title': 'Distribución', 'spec': spec, 'note': 'Muestra la dispersión y concentración de valores.'})
 
     # 4. Boxplot por año
     if 'Anio' in df.columns and 'Pct_Inseguros' in df.columns:
         d4 = df[['Anio', 'Pct_Inseguros']].dropna()
         if not d4.empty:
-            fig = px.box(d4, x='Anio', y='Pct_Inseguros', title='Caja y bigotes por año')
-            fig.update_layout(xaxis_title='Año', yaxis_title='% inseguridad')
-            charts.append({'id': 'chart_box_year', 'title': 'Caja por año', 'spec': fig.to_plotly_json(), 'note': 'Variabilidad interanual.'})
+            spec = {
+                'data': [{
+                    'type': 'box', 'x': d4['Anio'].astype(str).tolist(), 'y': d4['Pct_Inseguros'].tolist(),
+                    'marker': {'color': '#8b5cf6'}
+                }],
+                'layout': {
+                    'title': 'Caja y bigotes por año',
+                    'xaxis': {'title': 'Año'},
+                    'yaxis': {'title': '% inseguridad'}
+                }
+            }
+            charts.append({'id': 'chart_box_year', 'title': 'Caja por año', 'spec': spec, 'note': 'Variabilidad interanual.'})
 
     # 5. Heatmap Año x Trimestre
     if {'Anio', 'Trimestre', 'Pct_Inseguros'}.issubset(df.columns):
         d5 = df[['Anio', 'Trimestre', 'Pct_Inseguros']].dropna()
         if not d5.empty:
             p = d5.pivot_table(index='Anio', columns='Trimestre', values='Pct_Inseguros', aggfunc='mean')
-            fig = go.Figure(data=go.Heatmap(z=p.values, x=list(p.columns), y=list(p.index), colorscale='YlOrRd'))
-            fig.update_layout(title='Heatmap: % inseguridad (Año x Trimestre)', xaxis_title='Trimestre', yaxis_title='Año')
-            charts.append({'id': 'chart_heat', 'title': 'Heatmap temporal', 'spec': fig.to_plotly_json(), 'note': 'Promedio por cruce de año y trimestre.'})
+            spec = {
+                'data': [{
+                    'type': 'heatmap', 'z': p.values.tolist(),
+                    'x': [str(x) for x in list(p.columns)],
+                    'y': [int(y) for y in list(p.index)],
+                    'colorscale': 'YlOrRd'
+                }],
+                'layout': {
+                    'title': 'Heatmap: % inseguridad (Año x Trimestre)',
+                    'xaxis': {'title': 'Trimestre'},
+                    'yaxis': {'title': 'Año'}
+                }
+            }
+            charts.append({'id': 'chart_heat', 'title': 'Heatmap temporal', 'spec': spec, 'note': 'Promedio por cruce de año y trimestre.'})
 
     return charts
 
@@ -336,4 +386,3 @@ def main(argv: List[str] | None = None) -> None:
 
 if __name__ == '__main__':
     main()
-
