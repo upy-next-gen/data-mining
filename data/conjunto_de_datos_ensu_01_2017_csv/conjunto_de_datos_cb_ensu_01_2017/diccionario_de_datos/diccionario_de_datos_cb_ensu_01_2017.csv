@@ -1,440 +1,0 @@
-﻿"NOMBRE_CAMPO","NEMONICO","TIPO","LONGITUD","RANGO_CLAVES"
-"Unidad Primaria de Muestreo","upm","Numérico","7","0100001…3299999"
-"Vivienda seleccionada","viv_sel","Numérico","2","01…99"
-"Número de renglón de la persona seleccionada","r_sel","Numérico","2","01…30"
-"Clave Entidad","cve_ent","Numérico","2","01...32"
-"Nombre de la Entidad","nom_ent","Alfanumérico","250","Texto mínimo 2 caracteres"
-"Municipio","cve_mun","Numérico","3","001-570"
-"Nombre del Municipio","nom_mun","Alfanumérico","250","Texto mínimo 2 caracteres"
-"Localidad","loc","Numérico","4","-"
-"Ciudad","cd","Numérico","2","01"
-"Ciudad","cd","Numérico","2","02"
-"Ciudad","cd","Numérico","2","03"
-"Ciudad","cd","Numérico","2","04"
-"Ciudad","cd","Numérico","2","05"
-"Ciudad","cd","Numérico","2","06"
-"Ciudad","cd","Numérico","2","07"
-"Ciudad","cd","Numérico","2","08"
-"Ciudad","cd","Numérico","2","09"
-"Ciudad","cd","Numérico","2","10"
-"Ciudad","cd","Numérico","2","11"
-"Ciudad","cd","Numérico","2","12"
-"Ciudad","cd","Numérico","2","13"
-"Ciudad","cd","Numérico","2","14"
-"Ciudad","cd","Numérico","2","15"
-"Ciudad","cd","Numérico","2","16"
-"Ciudad","cd","Numérico","2","17"
-"Ciudad","cd","Numérico","2","18"
-"Ciudad","cd","Numérico","2","19"
-"Ciudad","cd","Numérico","2","20"
-"Ciudad","cd","Numérico","2","21"
-"Ciudad","cd","Numérico","2","22"
-"Ciudad","cd","Numérico","2","23"
-"Ciudad","cd","Numérico","2","24"
-"Ciudad","cd","Numérico","2","25"
-"Ciudad","cd","Numérico","2","26"
-"Ciudad","cd","Numérico","2","27"
-"Ciudad","cd","Numérico","2","28"
-"Ciudad","cd","Numérico","2","29"
-"Ciudad","cd","Numérico","2","30"
-"Ciudad","cd","Numérico","2","31"
-"Ciudad","cd","Numérico","2","32"
-"Ciudad","cd","Numérico","2","33"
-"Ciudad","cd","Numérico","2","34"
-"Ciudad","cd","Numérico","2","35"
-"Ciudad","cd","Numérico","2","36"
-"Ciudad","cd","Numérico","2","37"
-"Ciudad","cd","Numérico","2","38"
-"Ciudad","cd","Numérico","2","39"
-"Ciudad","cd","Numérico","2","40"
-"Ciudad","cd","Numérico","2","41"
-"Ciudad","cd","Numérico","2","42"
-"Ciudad","cd","Numérico","2","43"
-"Ciudad","cd","Numérico","2","44"
-"Ciudad","cd","Numérico","2","45"
-"Ciudad","cd","Numérico","2","46"
-"Ciudad","cd","Numérico","2","47"
-"Ciudad","cd","Numérico","2","48"
-"Ciudad","cd","Numérico","2","49"
-"Ciudad","cd","Numérico","2","50"
-"Ciudad","cd","Numérico","2","51"
-"Ciudad","cd","Numérico","2","52"
-"Ciudad","cd","Numérico","2","53"
-"Ciudad","cd","Numérico","2","54"
-"Periodo de la entrevista","per","Numérico","4","0117"
-"Resultado definitivo","r_def","Numérico","2","01"
-"Hogar mudado","h_mud","Numérico","1","0-4"
-"Seleccionado sustituido","sel_sust","Texto","1","A, B, C, D"
-"Tipo de cuestionario","tipo_cuest","Alfanumérico","1","E"
-"Tipo de cuestionario","tipo_cuest","Alfanumérico","1","P"
-"Número de entrevista","n_ent","Numérico","1","1…5"
-"Percepción de seguridad en la ciudad","bp1_1","Numérico","1","1"
-"Percepción de seguridad en la ciudad","bp1_1","Numérico","1","2"
-"Percepción de seguridad en la ciudad","bp1_1","Numérico","1","9"
-"Percepción de seguridad en su casa","bp1_2_01","Numérico","1","1"
-"Percepción de seguridad en su casa","bp1_2_01","Numérico","1","2"
-"Percepción de seguridad en su casa","bp1_2_01","Numérico","1","9"
-"Percepción de seguridad en su trabajo","bp1_2_02","Numérico","1","1"
-"Percepción de seguridad en su trabajo","bp1_2_02","Numérico","1","2"
-"Percepción de seguridad en su trabajo","bp1_2_02","Numérico","1","3"
-"Percepción de seguridad en su trabajo","bp1_2_02","Numérico","1","9"
-"Percepción de seguridad en las calles que habitualmente usa","bp1_2_03","Numérico","1","1"
-"Percepción de seguridad en las calles que habitualmente usa","bp1_2_03","Numérico","1","2"
-"Percepción de seguridad en las calles que habitualmente usa","bp1_2_03","Numérico","1","3"
-"Percepción de seguridad en las calles que habitualmente usa","bp1_2_03","Numérico","1","9"
-"Percepción de seguridad en la escuela","bp1_2_04","Numérico","1","1"
-"Percepción de seguridad en la escuela","bp1_2_04","Numérico","1","2"
-"Percepción de seguridad en la escuela","bp1_2_04","Numérico","1","3"
-"Percepción de seguridad en la escuela","bp1_2_04","Numérico","1","9"
-"Percepción de seguridad en el mercado","bp1_2_05","Numérico","1","1"
-"Percepción de seguridad en el mercado","bp1_2_05","Numérico","1","2"
-"Percepción de seguridad en el mercado","bp1_2_05","Numérico","1","3"
-"Percepción de seguridad en el mercado","bp1_2_05","Numérico","1","9"
-"Percepción de seguridad en el centro comercial","bp1_2_06","Numérico","1","1"
-"Percepción de seguridad en el centro comercial","bp1_2_06","Numérico","1","2"
-"Percepción de seguridad en el centro comercial","bp1_2_06","Numérico","1","3"
-"Percepción de seguridad en el centro comercial","bp1_2_06","Numérico","1","9"
-"Percepción de seguridad en el banco","bp1_2_07","Numérico","1","1"
-"Percepción de seguridad en el banco","bp1_2_07","Numérico","1","2"
-"Percepción de seguridad en el banco","bp1_2_07","Numérico","1","3"
-"Percepción de seguridad en el banco","bp1_2_07","Numérico","1","9"
-"Percepción de seguridad en el cajero automático localizado en la vía pública","bp1_2_08","Numérico","1","1"
-"Percepción de seguridad en el cajero automático localizado en la vía pública","bp1_2_08","Numérico","1","2"
-"Percepción de seguridad en el cajero automático localizado en la vía pública","bp1_2_08","Numérico","1","3"
-"Percepción de seguridad en el cajero automático localizado en la vía pública","bp1_2_08","Numérico","1","9"
-"Percepción de seguridad en el transporte público","bp1_2_09","Numérico","1","1"
-"Percepción de seguridad en el transporte público","bp1_2_09","Numérico","1","2"
-"Percepción de seguridad en el transporte público","bp1_2_09","Numérico","1","3"
-"Percepción de seguridad en el transporte público","bp1_2_09","Numérico","1","9"
-"Percepción de seguridad en el automóvil","bp1_2_10","Numérico","1","1"
-"Percepción de seguridad en el automóvil","bp1_2_10","Numérico","1","2"
-"Percepción de seguridad en el automóvil","bp1_2_10","Numérico","1","3"
-"Percepción de seguridad en el automóvil","bp1_2_10","Numérico","1","9"
-"Percepción de seguridad en la carretera","bp1_2_11","Numérico","1","1"
-"Percepción de seguridad en la carretera","bp1_2_11","Numérico","1","2"
-"Percepción de seguridad en la carretera","bp1_2_11","Numérico","1","3"
-"Percepción de seguridad en la carretera","bp1_2_11","Numérico","1","9"
-"Percepción de seguridad en el parque recreativo o centro recreativo","bp1_2_12","Numérico","1","1"
-"Percepción de seguridad en el parque recreativo o centro recreativo","bp1_2_12","Numérico","1","2"
-"Percepción de seguridad en el parque recreativo o centro recreativo","bp1_2_12","Numérico","1","3"
-"Percepción de seguridad en el parque recreativo o centro recreativo","bp1_2_12","Numérico","1","9"
-"Percepción de tendencia de seguridad pública en su ciudad","bp1_3","Numérico","1","1"
-"Percepción de tendencia de seguridad pública en su ciudad","bp1_3","Numérico","1","2"
-"Percepción de tendencia de seguridad pública en su ciudad","bp1_3","Numérico","1","3"
-"Percepción de tendencia de seguridad pública en su ciudad","bp1_3","Numérico","1","4"
-"Percepción de tendencia de seguridad pública en su ciudad","bp1_3","Numérico","1","9"
-"Incivilidades en los alrededores de su vivienda: vandalismo (grafitis, pintas, vidrios quebrados o daños) en las viviendas o negocios","bp1_4_1","Numérico","1","1"
-"Incivilidades en los alrededores de su vivienda: vandalismo (grafitis, pintas, vidrios quebrados o daños) en las viviendas o negocios","bp1_4_1","Numérico","1","2"
-"Incivilidades en los alrededores de su vivienda: vandalismo (grafitis, pintas, vidrios quebrados o daños) en las viviendas o negocios","bp1_4_1","Numérico","1","9"
-"Incivilidades en los alrededores de su vivienda: consumo de alcohol en las calles","bp1_4_2","Numérico","1","1"
-"Incivilidades en los alrededores de su vivienda: consumo de alcohol en las calles","bp1_4_2","Numérico","1","2"
-"Incivilidades en los alrededores de su vivienda: consumo de alcohol en las calles","bp1_4_2","Numérico","1","9"
-"Incivilidades en los alrededores de su vivienda: robos o asaltos","bp1_4_3","Numérico","1","1"
-"Incivilidades en los alrededores de su vivienda: robos o asaltos","bp1_4_3","Numérico","1","2"
-"Incivilidades en los alrededores de su vivienda: robos o asaltos","bp1_4_3","Numérico","1","9"
-"Incivilidades en los alrededores de su vivienda: bandas violentas o pandillerismo","bp1_4_4","Numérico","1","1"
-"Incivilidades en los alrededores de su vivienda: bandas violentas o pandillerismo","bp1_4_4","Numérico","1","2"
-"Incivilidades en los alrededores de su vivienda: bandas violentas o pandillerismo","bp1_4_4","Numérico","1","9"
-"Incivilidades en los alrededores de su vivienda: venta o consumo de droga","bp1_4_5","Numérico","1","1"
-"Incivilidades en los alrededores de su vivienda: venta o consumo de droga","bp1_4_5","Numérico","1","2"
-"Incivilidades en los alrededores de su vivienda: venta o consumo de droga","bp1_4_5","Numérico","1","9"
-"Incivilidades en los alrededores de su vivienda: disparos frecuentes con armas","bp1_4_6","Numérico","1","1"
-"Incivilidades en los alrededores de su vivienda: disparos frecuentes con armas","bp1_4_6","Numérico","1","2"
-"Incivilidades en los alrededores de su vivienda: disparos frecuentes con armas","bp1_4_6","Numérico","1","9"
-"Cambiar sus hábitos respecto a llevar cosas de valor por temor a sufrir algún delito","bp1_5_1","Numérico","1","1"
-"Cambiar sus hábitos respecto a llevar cosas de valor por temor a sufrir algún delito","bp1_5_1","Numérico","1","2"
-"Cambiar sus hábitos respecto a llevar cosas de valor por temor a sufrir algún delito","bp1_5_1","Numérico","1","3"
-"Cambiar sus hábitos respecto a llevar cosas de valor por temor a sufrir algún delito","bp1_5_1","Numérico","1","9"
-"Cambiar sus hábitos respecto a caminar por los alrededores de su vivienda, pasadas las ocho de la noche, por temor a sufrir algún delito","bp1_5_2","Numérico","1","1"
-"Cambiar sus hábitos respecto a caminar por los alrededores de su vivienda, pasadas las ocho de la noche, por temor a sufrir algún delito","bp1_5_2","Numérico","1","2"
-"Cambiar sus hábitos respecto a caminar por los alrededores de su vivienda, pasadas las ocho de la noche, por temor a sufrir algún delito","bp1_5_2","Numérico","1","3"
-"Cambiar sus hábitos respecto a caminar por los alrededores de su vivienda, pasadas las ocho de la noche, por temor a sufrir algún delito","bp1_5_2","Numérico","1","9"
-"Cambiar sus hábitos respecto a visitar a parientes o amigos por temor a sufrir algún delito","bp1_5_3","Numérico","1","1"
-"Cambiar sus hábitos respecto a visitar a parientes o amigos por temor a sufrir algún delito","bp1_5_3","Numérico","1","2"
-"Cambiar sus hábitos respecto a visitar a parientes o amigos por temor a sufrir algún delito","bp1_5_3","Numérico","1","3"
-"Cambiar sus hábitos respecto a visitar a parientes o amigos por temor a sufrir algún delito","bp1_5_3","Numérico","1","9"
-"Cambiar sus hábitos respecto a permitir que salgan de su vivienda sus hijos menores por temor a sufrir algún delito","bp1_5_4","Numérico","1","1"
-"Cambiar sus hábitos respecto a permitir que salgan de su vivienda sus hijos menores por temor a sufrir algún delito","bp1_5_4","Numérico","1","2"
-"Cambiar sus hábitos respecto a permitir que salgan de su vivienda sus hijos menores por temor a sufrir algún delito","bp1_5_4","Numérico","1","3"
-"Cambiar sus hábitos respecto a permitir que salgan de su vivienda sus hijos menores por temor a sufrir algún delito","bp1_5_4","Numérico","1","9"
-"Cambiar sus hábitos respecto a otra situación por temor a sufrir algún delito","bp1_5_5","Numérico","1","1"
-"Cambiar sus hábitos respecto a otra situación por temor a sufrir algún delito","bp1_5_5","Numérico","1","2"
-"Cambiar sus hábitos respecto a otra situación por temor a sufrir algún delito","bp1_5_5","Numérico","1","3"
-"Cambiar sus hábitos respecto a otra situación por temor a sufrir algún delito","bp1_5_5","Numérico","1","9"
-"Cambiar sus hábitos respecto a otra situación por temor a sufrir algún delito. Especifique","bp1_5_5e","Alfanumérico","250","Texto descriptivo"
-"Cambiar sus hábitos respecto a otra situación por temor a sufrir algún delito. Especifique","bp1_5_5e","Alfanumérico","250","b"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Comunicación oral con familiares, amigos o conocidos en los alrededores de la vivienda","bp1_6_1","Numérico","1","0"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Comunicación oral con familiares, amigos o conocidos en los alrededores de la vivienda","bp1_6_1","Numérico","1","1"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Comunicación oral con compañeros de trabajo o escuela","bp1_6_2","Numérico","1","0"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Comunicación oral con compañeros de trabajo o escuela","bp1_6_2","Numérico","1","1"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Facebook","bp1_6_3","Numérico","1","0"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Facebook","bp1_6_3","Numérico","1","1"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Twitter","bp1_6_4","Numérico","1","0"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Twitter","bp1_6_4","Numérico","1","1"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Whatsapp","bp1_6_5","Numérico","1","0"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Whatsapp","bp1_6_5","Numérico","1","1"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: otra aplicación electrónica","bp1_6_6","Numérico","1","0"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: otra aplicación electrónica","bp1_6_6","Numérico","1","1"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: SMS o alertas por celular","bp1_6_7","Numérico","1","0"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: SMS o alertas por celular","bp1_6_7","Numérico","1","1"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Noticieros de televisión","bp1_6_8","Numérico","1","0"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Noticieros de televisión","bp1_6_8","Numérico","1","1"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Noticieros de radio","bp1_6_9","Numérico","1","0"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Noticieros de radio","bp1_6_9","Numérico","1","1"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Periódicos o revistas en papel","bp1_6_10","Numérico","1","0"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Periódicos o revistas en papel","bp1_6_10","Numérico","1","1"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Internet","bp1_6_11","Numérico","1","0"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: Internet","bp1_6_11","Numérico","1","1"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: No sabe/no responde","bp1_6_99","Numérico","1","0"
-"Principales formas de enterarse sobre temas relacionados con la seguridad en su ciudad: No sabe/no responde","bp1_6_99","Numérico","1","1"
-"Identificación de la Policía Preventiva Municipal","bp1_7_1","Numérico","1","1"
-"Identificación de la Policía Preventiva Municipal","bp1_7_1","Numérico","1","2"
-"Identificación de la Policía Preventiva Municipal","bp1_7_1","Numérico","1","3"
-"Identificación de la Policía Preventiva Municipal","bp1_7_1","Numérico","1","9"
-"Identificación de la Policía Estatal","bp1_7_2","Numérico","1","1"
-"Identificación de la Policía Estatal","bp1_7_2","Numérico","1","2"
-"Identificación de la Policía Estatal","bp1_7_2","Numérico","1","9"
-"Identificación de la Policía Federal","bp1_7_3","Numérico","1","1"
-"Identificación de la Policía Federal","bp1_7_3","Numérico","1","2"
-"Identificación de la Policía Federal","bp1_7_3","Numérico","1","9"
-"Identificación de la Gendarmería Nacional","bp1_7_4","Numérico","1","1"
-"Identificación de la Gendarmería Nacional","bp1_7_4","Numérico","1","2"
-"Identificación de la Gendarmería Nacional","bp1_7_4","Numérico","1","9"
-"Identificación del Ejército","bp1_7_5","Numérico","1","1"
-"Identificación del Ejército","bp1_7_5","Numérico","1","2"
-"Identificación del Ejército","bp1_7_5","Numérico","1","9"
-"Identificación de la Marina","bp1_7_6","Numérico","1","1"
-"Identificación de la Marina","bp1_7_6","Numérico","1","2"
-"Identificación de la Marina","bp1_7_6","Numérico","1","9"
-"Percepción de la efectividad del desempeño de la Policía Preventiva Municipal","bp1_8_1","Numérico","1","1"
-"Percepción de la efectividad del desempeño de la Policía Preventiva Municipal","bp1_8_1","Numérico","1","2"
-"Percepción de la efectividad del desempeño de la Policía Preventiva Municipal","bp1_8_1","Numérico","1","3"
-"Percepción de la efectividad del desempeño de la Policía Preventiva Municipal","bp1_8_1","Numérico","1","4"
-"Percepción de la efectividad del desempeño de la Policía Preventiva Municipal","bp1_8_1","Numérico","1","9"
-"Percepción de la efectividad del desempeño de la Policía Preventiva Municipal","bp1_8_1","Numérico","1","b"
-"Percepción de la efectividad del desempeño de la Policía Estatal","bp1_8_2","Numérico","1","1"
-"Percepción de la efectividad del desempeño de la Policía Estatal","bp1_8_2","Numérico","1","2"
-"Percepción de la efectividad del desempeño de la Policía Estatal","bp1_8_2","Numérico","1","3"
-"Percepción de la efectividad del desempeño de la Policía Estatal","bp1_8_2","Numérico","1","4"
-"Percepción de la efectividad del desempeño de la Policía Estatal","bp1_8_2","Numérico","1","9"
-"Percepción de la efectividad del desempeño de la Policía Estatal","bp1_8_2","Numérico","1","b"
-"Percepción de la efectividad del desempeño de la Policía Federal","bp1_8_3","Numérico","1","1"
-"Percepción de la efectividad del desempeño de la Policía Federal","bp1_8_3","Numérico","1","2"
-"Percepción de la efectividad del desempeño de la Policía Federal","bp1_8_3","Numérico","1","3"
-"Percepción de la efectividad del desempeño de la Policía Federal","bp1_8_3","Numérico","1","4"
-"Percepción de la efectividad del desempeño de la Policía Federal","bp1_8_3","Numérico","1","9"
-"Percepción de la efectividad del desempeño de la Policía Federal","bp1_8_3","Numérico","1","b"
-"Percepción de la efectividad del desempeño de la Gendarmería Nacional","bp1_8_4","Numérico","1","1"
-"Percepción de la efectividad del desempeño de la Gendarmería Nacional","bp1_8_4","Numérico","1","2"
-"Percepción de la efectividad del desempeño de la Gendarmería Nacional","bp1_8_4","Numérico","1","3"
-"Percepción de la efectividad del desempeño de la Gendarmería Nacional","bp1_8_4","Numérico","1","4"
-"Percepción de la efectividad del desempeño de la Gendarmería Nacional","bp1_8_4","Numérico","1","9"
-"Percepción de la efectividad del desempeño de la Gendarmería Nacional","bp1_8_4","Numérico","1","b"
-"Percepción de la efectividad del desempeño del Ejército","bp1_8_5","Numérico","1","1"
-"Percepción de la efectividad del desempeño del Ejército","bp1_8_5","Numérico","1","2"
-"Percepción de la efectividad del desempeño del Ejército","bp1_8_5","Numérico","1","3"
-"Percepción de la efectividad del desempeño del Ejército","bp1_8_5","Numérico","1","4"
-"Percepción de la efectividad del desempeño del Ejército","bp1_8_5","Numérico","1","9"
-"Percepción de la efectividad del desempeño del Ejército","bp1_8_5","Numérico","1","b"
-"Percepción de la efectividad del desempeño de la Marina","bp1_8_6","Numérico","1","1"
-"Percepción de la efectividad del desempeño de la Marina","bp1_8_6","Numérico","1","2"
-"Percepción de la efectividad del desempeño de la Marina","bp1_8_6","Numérico","1","3"
-"Percepción de la efectividad del desempeño de la Marina","bp1_8_6","Numérico","1","4"
-"Percepción de la efectividad del desempeño de la Marina","bp1_8_6","Numérico","1","9"
-"Percepción de la efectividad del desempeño de la Marina","bp1_8_6","Numérico","1","b"
-"Percepción del grado de confianza en la Policía Preventiva Municipal","bp1_9_1","Numérico","1","1"
-"Percepción del grado de confianza en la Policía Preventiva Municipal","bp1_9_1","Numérico","1","2"
-"Percepción del grado de confianza en la Policía Preventiva Municipal","bp1_9_1","Numérico","1","3"
-"Percepción del grado de confianza en la Policía Preventiva Municipal","bp1_9_1","Numérico","1","4"
-"Percepción del grado de confianza en la Policía Preventiva Municipal","bp1_9_1","Numérico","1","9"
-"Percepción del grado de confianza en la Policía Preventiva Municipal","bp1_9_1","Numérico","1","b"
-"Percepción del grado de confianza en la Policía Estatal","bp1_9_2","Numérico","1","1"
-"Percepción del grado de confianza en la Policía Estatal","bp1_9_2","Numérico","1","2"
-"Percepción del grado de confianza en la Policía Estatal","bp1_9_2","Numérico","1","3"
-"Percepción del grado de confianza en la Policía Estatal","bp1_9_2","Numérico","1","4"
-"Percepción del grado de confianza en la Policía Estatal","bp1_9_2","Numérico","1","9"
-"Percepción del grado de confianza en la Policía Estatal","bp1_9_2","Numérico","1","b"
-"Percepción del grado de confianza en la Policía Federal","bp1_9_3","Numérico","1","1"
-"Percepción del grado de confianza en la Policía Federal","bp1_9_3","Numérico","1","2"
-"Percepción del grado de confianza en la Policía Federal","bp1_9_3","Numérico","1","3"
-"Percepción del grado de confianza en la Policía Federal","bp1_9_3","Numérico","1","4"
-"Percepción del grado de confianza en la Policía Federal","bp1_9_3","Numérico","1","9"
-"Percepción del grado de confianza en la Policía Federal","bp1_9_3","Numérico","1","b"
-"Percepción del grado de confianza en la Gendarmería Nacional","bp1_9_4","Numérico","1","1"
-"Percepción del grado de confianza en la Gendarmería Nacional","bp1_9_4","Numérico","1","2"
-"Percepción del grado de confianza en la Gendarmería Nacional","bp1_9_4","Numérico","1","3"
-"Percepción del grado de confianza en la Gendarmería Nacional","bp1_9_4","Numérico","1","4"
-"Percepción del grado de confianza en la Gendarmería Nacional","bp1_9_4","Numérico","1","9"
-"Percepción del grado de confianza en la Gendarmería Nacional","bp1_9_4","Numérico","1","b"
-"Percepción del grado de confianza en el Ejército","bp1_9_5","Numérico","1","1"
-"Percepción del grado de confianza en el Ejército","bp1_9_5","Numérico","1","2"
-"Percepción del grado de confianza en el Ejército","bp1_9_5","Numérico","1","3"
-"Percepción del grado de confianza en el Ejército","bp1_9_5","Numérico","1","4"
-"Percepción del grado de confianza en el Ejército","bp1_9_5","Numérico","1","9"
-"Percepción del grado de confianza en el Ejército","bp1_9_5","Numérico","1","b"
-"Percepción del grado de confianza en la Marina","bp1_9_6","Numérico","1","1"
-"Percepción del grado de confianza en la Marina","bp1_9_6","Numérico","1","2"
-"Percepción del grado de confianza en la Marina","bp1_9_6","Numérico","1","3"
-"Percepción del grado de confianza en la Marina","bp1_9_6","Numérico","1","4"
-"Percepción del grado de confianza en la Marina","bp1_9_6","Numérico","1","9"
-"Percepción del grado de confianza en la Marina","bp1_9_6","Numérico","1","b"
-"Percepción de conflictos o enfrentamientos que afecten o molesten","bp2_1","Numérico","1","1"
-"Percepción de conflictos o enfrentamientos que afecten o molesten","bp2_1","Numérico","1","2"
-"Percepción de conflictos o enfrentamientos que afecten o molesten","bp2_1","Numérico","1","9"
-"Conflictos o enfrentamientos: ruido por golpes con martillo, uso del taladro, música alta o fiestas","bp2_2_01","Numérico","1","0"
-"Conflictos o enfrentamientos: ruido por golpes con martillo, uso del taladro, música alta o fiestas","bp2_2_01","Numérico","1","1"
-"Conflictos o enfrentamientos: ruido por golpes con martillo, uso del taladro, música alta o fiestas","bp2_2_01","Numérico","1","b"
-"Conflictos o enfrentamientos: peleas u ofensas en el transporte público o con otros automovilistas","bp2_2_02","Numérico","1","0"
-"Conflictos o enfrentamientos: peleas u ofensas en el transporte público o con otros automovilistas","bp2_2_02","Numérico","1","1"
-"Conflictos o enfrentamientos: peleas u ofensas en el transporte público o con otros automovilistas","bp2_2_02","Numérico","1","b"
-"Conflictos o enfrentamientos: basura tirada o quemada por vecinos en su jardín, cochera o áreas comunes","bp2_2_03","Numérico","1","0"
-"Conflictos o enfrentamientos: basura tirada o quemada por vecinos en su jardín, cochera o áreas comunes","bp2_2_03","Numérico","1","1"
-"Conflictos o enfrentamientos: basura tirada o quemada por vecinos en su jardín, cochera o áreas comunes","bp2_2_03","Numérico","1","b"
-"Conflictos o enfrentamientos: falta de pago o morosidad en cuotas vecinales o de mantenimiento","bp2_2_04","Numérico","1","0"
-"Conflictos o enfrentamientos: falta de pago o morosidad en cuotas vecinales o de mantenimiento","bp2_2_04","Numérico","1","1"
-"Conflictos o enfrentamientos: falta de pago o morosidad en cuotas vecinales o de mantenimiento","bp2_2_04","Numérico","1","b"
-"Conflictos o enfrentamientos: obstrucción de su cochera, invasión de su cajón de estacionamiento o falta de espacio para estacionarse","bp2_2_05","Numérico","1","0"
-"Conflictos o enfrentamientos: obstrucción de su cochera, invasión de su cajón de estacionamiento o falta de espacio para estacionarse","bp2_2_05","Numérico","1","1"
-"Conflictos o enfrentamientos: obstrucción de su cochera, invasión de su cajón de estacionamiento o falta de espacio para estacionarse","bp2_2_05","Numérico","1","b"
-"Conflictos o enfrentamientos: falta de control de los hijos(as) de los vecinos (por burlas, molestias, daños a su casa por jugar con balones, rayones, golpes, bajar el aire a las llantas de su automóvil, etc.)","bp2_2_06","Numérico","1","0"
-"Conflictos o enfrentamientos: falta de control de los hijos(as) de los vecinos (por burlas, molestias, daños a su casa por jugar con balones, rayones, golpes, bajar el aire a las llantas de su automóvil, etc.)","bp2_2_06","Numérico","1","1"
-"Conflictos o enfrentamientos: falta de control de los hijos(as) de los vecinos (por burlas, molestias, daños a su casa por jugar con balones, rayones, golpes, bajar el aire a las llantas de su automóvil, etc.)","bp2_2_06","Numérico","1","b"
-"Conflictos o enfrentamientos: disputas familiares por herencias, divorcios, pensiones alimenticias o custodia de los hijos","bp2_2_07","Numérico","1","0"
-"Conflictos o enfrentamientos: disputas familiares por herencias, divorcios, pensiones alimenticias o custodia de los hijos","bp2_2_07","Numérico","1","1"
-"Conflictos o enfrentamientos: disputas familiares por herencias, divorcios, pensiones alimenticias o custodia de los hijos","bp2_2_07","Numérico","1","b"
-"Conflictos o enfrentamientos: chismes o malos entendidos","bp2_2_08","Numérico","1","0"
-"Conflictos o enfrentamientos: chismes o malos entendidos","bp2_2_08","Numérico","1","1"
-"Conflictos o enfrentamientos: chismes o malos entendidos","bp2_2_08","Numérico","1","b"
-"Conflictos o enfrentamientos: ladridos, ataques o desechos de mascotas","bp2_2_09","Numérico","1","0"
-"Conflictos o enfrentamientos: ladridos, ataques o desechos de mascotas","bp2_2_09","Numérico","1","1"
-"Conflictos o enfrentamientos: ladridos, ataques o desechos de mascotas","bp2_2_09","Numérico","1","b"
-"Conflictos o enfrentamientos: molestias y hostigamiento por borrachos, drogadictos o pandillas","bp2_2_10","Numérico","1","0"
-"Conflictos o enfrentamientos: molestias y hostigamiento por borrachos, drogadictos o pandillas","bp2_2_10","Numérico","1","1"
-"Conflictos o enfrentamientos: molestias y hostigamiento por borrachos, drogadictos o pandillas","bp2_2_10","Numérico","1","b"
-"Conflictos o enfrentamientos: ruido excesivo u olores desagradables por parte de algún establecimiento comercial","bp2_2_11","Numérico","1","0"
-"Conflictos o enfrentamientos: ruido excesivo u olores desagradables por parte de algún establecimiento comercial","bp2_2_11","Numérico","1","1"
-"Conflictos o enfrentamientos: ruido excesivo u olores desagradables por parte de algún establecimiento comercial","bp2_2_11","Numérico","1","b"
-"Conflictos o enfrentamientos: conflicto en la compra/consumo de producto/servicio en un establecimiento comercial","bp2_2_12","Numérico","1","0"
-"Conflictos o enfrentamientos: conflicto en la compra/consumo de producto/servicio en un establecimiento comercial","bp2_2_12","Numérico","1","1"
-"Conflictos o enfrentamientos: conflicto en la compra/consumo de producto/servicio en un establecimiento comercial","bp2_2_12","Numérico","1","b"
-"Conflictos o enfrentamientos: ambulantaje (puestos, cuidacoches)","bp2_2_13","Numérico","1","0"
-"Conflictos o enfrentamientos: ambulantaje (puestos, cuidacoches)","bp2_2_13","Numérico","1","1"
-"Conflictos o enfrentamientos: ambulantaje (puestos, cuidacoches)","bp2_2_13","Numérico","1","b"
-"Conflictos o enfrentamientos: abuso de policía(s) o de agente(s) de tránsito","bp2_2_14","Numérico","1","0"
-"Conflictos o enfrentamientos: abuso de policía(s) o de agente(s) de tránsito","bp2_2_14","Numérico","1","1"
-"Conflictos o enfrentamientos: abuso de policía(s) o de agente(s) de tránsito","bp2_2_14","Numérico","1","b"
-"Conflictos o enfrentamientos: falta de atención en sus trámites o servicios o prepotencia de un servidor público","bp2_2_15","Numérico","1","0"
-"Conflictos o enfrentamientos: falta de atención en sus trámites o servicios o prepotencia de un servidor público","bp2_2_15","Numérico","1","1"
-"Conflictos o enfrentamientos: falta de atención en sus trámites o servicios o prepotencia de un servidor público","bp2_2_15","Numérico","1","b"
-"Conflictos o enfrentamientos: grafiti o pintas a su casa por alguien que usted identifique","bp2_2_16","Numérico","1","0"
-"Conflictos o enfrentamientos: grafiti o pintas a su casa por alguien que usted identifique","bp2_2_16","Numérico","1","1"
-"Conflictos o enfrentamientos: grafiti o pintas a su casa por alguien que usted identifique","bp2_2_16","Numérico","1","b"
-"Conflictos o enfrentamientos por otra situación. Especifique","bp2_2_17","Numérico","1","0"
-"Conflictos o enfrentamientos por otra situación. Especifique","bp2_2_17","Numérico","1","1"
-"Conflictos o enfrentamientos por otra situación. Especifique","bp2_2_17","Numérico","1","b"
-"Conflictos o enfrentamientos por otra situación. Especifique","bp2_2_17e","Alfanumérico","250","Texto descriptivo"
-"Conflictos o enfrentamientos por otra situación. Especifique","bp2_2_17e","Alfanumérico","250","b"
-"Conflictos o enfrentamientos: ninguno","bp2_2_18","Numérico","1","0"
-"Conflictos o enfrentamientos: ninguno","bp2_2_18","Numérico","1","1"
-"Conflictos o enfrentamientos: ninguno","bp2_2_18","Numérico","1","b"
-"Incidentes o problemas con familiares","bp2_3_1","Numérico","1","0"
-"Incidentes o problemas con familiares","bp2_3_1","Numérico","1","1"
-"Incidentes o problemas con familiares","bp2_3_1","Numérico","1","b"
-"Incidentes o problemas con vecinos","bp2_3_2","Numérico","1","0"
-"Incidentes o problemas con vecinos","bp2_3_2","Numérico","1","1"
-"Incidentes o problemas con vecinos","bp2_3_2","Numérico","1","b"
-"Incidentes o problemas con compañeros de trabajo/escuela","bp2_3_3","Numérico","1","0"
-"Incidentes o problemas con compañeros de trabajo/escuela","bp2_3_3","Numérico","1","1"
-"Incidentes o problemas con compañeros de trabajo/escuela","bp2_3_3","Numérico","1","b"
-"Incidentes o problemas con desconocidos en la calle","bp2_3_4","Numérico","1","0"
-"Incidentes o problemas con desconocidos en la calle","bp2_3_4","Numérico","1","1"
-"Incidentes o problemas con desconocidos en la calle","bp2_3_4","Numérico","1","b"
-"Incidentes o problemas con autoridades","bp2_3_5","Numérico","1","0"
-"Incidentes o problemas con autoridades","bp2_3_5","Numérico","1","1"
-"Incidentes o problemas con autoridades","bp2_3_5","Numérico","1","b"
-"Incidentes o problemas con establecimientos","bp2_3_6","Numérico","1","0"
-"Incidentes o problemas con establecimientos","bp2_3_6","Numérico","1","1"
-"Incidentes o problemas con establecimientos","bp2_3_6","Numérico","1","b"
-"Incidentes o problemas con otro","bp2_3_7","Numérico","1","0"
-"Incidentes o problemas con otro","bp2_3_7","Numérico","1","1"
-"Incidentes o problemas con otro","bp2_3_7","Numérico","1","b"
-"Incidentes o problemas con otro. Especifique","bp2_3_7e","Alfanumérico","250","Texto descriptivo"
-"Incidentes o problemas con otro. Especifique","bp2_3_7e","Alfanumérico","250","b"
-"Tipo de consecuencias derivadas de conflictos: Gritos","bp2_4_1","Numérico","1","0"
-"Tipo de consecuencias derivadas de conflictos: Gritos","bp2_4_1","Numérico","1","1"
-"Tipo de consecuencias derivadas de conflictos: Gritos","bp2_4_1","Numérico","1","b"
-"Tipo de consecuencias derivadas de conflictos: Insultos o groserías","bp2_4_2","Numérico","1","0"
-"Tipo de consecuencias derivadas de conflictos: Insultos o groserías","bp2_4_2","Numérico","1","1"
-"Tipo de consecuencias derivadas de conflictos: Insultos o groserías","bp2_4_2","Numérico","1","b"
-"Tipo de consecuencias derivadas de conflictos: Empujones o pellizcos","bp2_4_3","Numérico","1","0"
-"Tipo de consecuencias derivadas de conflictos: Empujones o pellizcos","bp2_4_3","Numérico","1","1"
-"Tipo de consecuencias derivadas de conflictos: Empujones o pellizcos","bp2_4_3","Numérico","1","b"
-"Tipo de consecuencias derivadas de conflictos: Golpes (puñetazos, patadas)","bp2_4_4","Numérico","1","0"
-"Tipo de consecuencias derivadas de conflictos: Golpes (puñetazos, patadas)","bp2_4_4","Numérico","1","1"
-"Tipo de consecuencias derivadas de conflictos: Golpes (puñetazos, patadas)","bp2_4_4","Numérico","1","b"
-"Tipo de consecuencias derivadas de conflictos: Golpes con objetos contundentes","bp2_4_5","Numérico","1","0"
-"Tipo de consecuencias derivadas de conflictos: Golpes con objetos contundentes","bp2_4_5","Numérico","1","1"
-"Tipo de consecuencias derivadas de conflictos: Golpes con objetos contundentes","bp2_4_5","Numérico","1","b"
-"Tipo de consecuencias derivadas de conflictos: Herida con arma blanca (punzocortante)","bp2_4_6","Numérico","1","0"
-"Tipo de consecuencias derivadas de conflictos: Herida con arma blanca (punzocortante)","bp2_4_6","Numérico","1","1"
-"Tipo de consecuencias derivadas de conflictos: Herida con arma blanca (punzocortante)","bp2_4_6","Numérico","1","b"
-"Tipo de consecuencias derivadas de conflictos: Herida con arma de fuego (pistola u otra)","bp2_4_7","Numérico","1","0"
-"Tipo de consecuencias derivadas de conflictos: Herida con arma de fuego (pistola u otra)","bp2_4_7","Numérico","1","1"
-"Tipo de consecuencias derivadas de conflictos: Herida con arma de fuego (pistola u otra)","bp2_4_7","Numérico","1","b"
-"Tipo de consecuencias derivadas de conflictos: Daños materiales (casa, automóvil)","bp2_4_8","Numérico","1","0"
-"Tipo de consecuencias derivadas de conflictos: Daños materiales (casa, automóvil)","bp2_4_8","Numérico","1","1"
-"Tipo de consecuencias derivadas de conflictos: Daños materiales (casa, automóvil)","bp2_4_8","Numérico","1","b"
-"Tipo de consecuencias derivadas de conflictos: Diálogo o plática","bp2_4_9","Numérico","1","0"
-"Tipo de consecuencias derivadas de conflictos: Diálogo o plática","bp2_4_9","Numérico","1","1"
-"Tipo de consecuencias derivadas de conflictos: Diálogo o plática","bp2_4_9","Numérico","1","b"
-"Tipo de consecuencias derivadas de conflictos: Ninguno","bp2_4_10","Numérico","1","0"
-"Tipo de consecuencias derivadas de conflictos: Ninguno","bp2_4_10","Numérico","1","1"
-"Tipo de consecuencias derivadas de conflictos: Ninguno","bp2_4_10","Numérico","1","b"
-"Tipo de consecuencias derivadas de conflictos: Otro.","bp2_4_11","Numérico","1","0"
-"Tipo de consecuencias derivadas de conflictos: Otro.","bp2_4_11","Numérico","1","1"
-"Tipo de consecuencias derivadas de conflictos: Especifique","bp2_4_11e","Alfanumérico","250","Texto descriptivo"
-"Tipo de consecuencias derivadas de conflictos: Especifique","bp2_4_11e","Alfanumérico","250","b"
-"Problemas que enfrenta la ciudad: Fallas y fugas en el suministro de agua potable","bp3_1_01","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Fallas y fugas en el suministro de agua potable","bp3_1_01","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Deficiencias en la red pública de drenaje","bp3_1_02","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Deficiencias en la red pública de drenaje","bp3_1_02","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Coladeras tapadas por acumulación de desechos","bp3_1_03","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Coladeras tapadas por acumulación de desechos","bp3_1_03","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Falta de tratamiento de aguas residuales","bp3_1_04","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Falta de tratamiento de aguas residuales","bp3_1_04","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Alumbrado público insuficiente","bp3_1_05","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Alumbrado público insuficiente","bp3_1_05","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Ineficiencia en el servicio de limpia y recolección de basura","bp3_1_06","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Ineficiencia en el servicio de limpia y recolección de basura","bp3_1_06","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Mercados y centrales de abasto en mal estado","bp3_1_07","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Mercados y centrales de abasto en mal estado","bp3_1_07","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Calles y avenidas con embotellamientos frecuentes","bp3_1_08","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Calles y avenidas con embotellamientos frecuentes","bp3_1_08","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Problemas de salud derivados del manejo inadecuado de los rastros","bp3_1_09","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Problemas de salud derivados del manejo inadecuado de los rastros","bp3_1_09","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Baches en calles y avenidas","bp3_1_10","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Baches en calles y avenidas","bp3_1_10","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Parques y jardines descuidados","bp3_1_11","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Parques y jardines descuidados","bp3_1_11","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Delincuencia (robos, extorsiones, secuestros, fraudes, etc.)","bp3_1_12","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Delincuencia (robos, extorsiones, secuestros, fraudes, etc.)","bp3_1_12","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Servicio de transporte público deficiente","bp3_1_13","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Servicio de transporte público deficiente","bp3_1_13","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Otro","bp3_1_14","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Otro","bp3_1_14","Numérico","1","1"
-"Problemas que enfrenta la ciudad: Especifique","bp3_1_14e","Alfanumérico","250","Texto descriptivo"
-"Problemas que enfrenta la ciudad: Especifique","bp3_1_14e","Alfanumérico","250","b"
-"Problemas que enfrenta la ciudad: Ninguno","bp3_1_15","Numérico","1","0"
-"Problemas que enfrenta la ciudad: Ninguno","bp3_1_15","Numérico","1","1"
-"Problemas que enfrenta la ciudad: No sabe/ no responde","bp3_1_99","Numérico","1","0"
-"Problemas que enfrenta la ciudad: No sabe/ no responde","bp3_1_99","Numérico","1","1"
-"Efectividad del gobierno de su ciudad para resolver problemas","bp3_2","Numérico","1","1"
-"Efectividad del gobierno de su ciudad para resolver problemas","bp3_2","Numérico","1","2"
-"Efectividad del gobierno de su ciudad para resolver problemas","bp3_2","Numérico","1","3"
-"Efectividad del gobierno de su ciudad para resolver problemas","bp3_2","Numérico","1","4"
-"Efectividad del gobierno de su ciudad para resolver problemas","bp3_2","Numérico","1","9"
-"Factor de expansión del seleccionado","fac_sel","Numérico","6","""000001 … 999999"""
-"Dominio","dominio","Alfanumérico","1","U"
-"Estrato sociodemográfico","est","Numérico","1","1,2,3,4"
-"Unidad Primaria de Muestreo","upm_dis","Numérico","7","0100001…3299999"
-"Estrato de diseño","est_dis","Numérico","4","""001 … 500"""
