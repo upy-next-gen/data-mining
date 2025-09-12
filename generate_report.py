@@ -348,6 +348,10 @@ def main(argv: List[str] | None = None) -> None:
     generation_date = datetime.now().strftime('%Y-%m-%d %H:%M')
 
     # Context for template
+    # Compute assets path relative to output directory
+    out_dir = os.path.dirname(args.out) or '.'
+    assets_rel = os.path.relpath(args.assets, start=out_dir)
+
     context = {
         'meta': meta,
         'data_dir': os.path.relpath(data_dir),
@@ -370,6 +374,7 @@ def main(argv: List[str] | None = None) -> None:
         'generation_date': generation_date,
         'checksum': md5_of_files(files),
         'plotly_js': plotly_js,
+        'assets': assets_rel,
     }
 
     # Ensure assets path exists (so relative links work)
