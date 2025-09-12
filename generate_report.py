@@ -53,6 +53,17 @@ def md5_of_files(paths: List[str]) -> str:
     return h.hexdigest()
 
 
+def _read_csv_with_fallback(path: str) -> pd.DataFrame:
+    encodings = ['utf-8', 'utf-8-sig', 'latin-1', 'cp1252']
+    last_err = None
+    for enc in encodings:
+        try:
+            return pd.read_csv(path, encoding=enc)
+        except Exception as e:
+            last_err = e
+    raise last_err
+
+
 def load_frames(files: List[str]) -> pd.DataFrame:
     frames = []
     csvs = [f for f in files if f.lower().endswith('.csv')]
@@ -63,7 +74,7 @@ def load_frames(files: List[str]) -> pd.DataFrame:
     for f in csvs:
         tried += 1
         try:
-            frames.append(pd.read_csv(f))
+            frames.append(_read_csv_with_fallback(f))
         except Exception as e:
             print(f"[WARN] Error leyendo CSV {f}: {e}", file=sys.stderr)
 
