@@ -1,0 +1,27 @@
+Identifier: MEX-INEGI-ENSU-2022
+  
+Title: Encuesta Nacional de Seguridad Pública Urbana 2022. Datos oportunos.
+  
+Description: La ENSU se realiza en el marco del Subsistema Nacional de Información de Gobierno, Seguridad Pública e Impartición de Justicia (SNIGSPIJ) para generar información con representatividad a nivel nacional que permita estudiar el fenómeno de la seguridad pública en una serie trimestral que corresponde a los meses de marzo, junio, septiembre y diciembre. El propósito de esta encuesta es dar a conocer a la sociedad en general la información obtenida sobre la percepción acerca de la seguridad pública y proporcionar elementos para la toma de decisiones de política pública en esta materia.
+  
+Modified: 2024-05-17
+  
+Publisher: Instituto Nacional de Estadística y Geografía, INEGI
+  
+Mbox: atencion.usuarios@inegi.org.mx
+  
+License: https://www.inegi.org.mx/inegi/terminos.html
+  
+DataDictionary: https://www.inegi.org.mx/rnm/index.php/catalog/976/data_dictionary?idPro=
+  
+Keyword: "Seguridad pública", "percepción", delincuencia", "desempeño policial", "desempeño gubernamental", "autoridad", conflictos", "conductas antisociales", "sensación de inseguridad", "corrupción", "acoso", "relaciones familiares", "confianza en la administración pública".
+  
+ContactPoint: Mtro. J. Armando Aguiar Rodríguez, 800 111 4634
+  
+Temporal: 2022-07-2022-09
+  
+Spatial: Estados Unidos Mexicanos
+  
+AccrualPeriodicity: Trimestral
+
+Distribution: https://www.inegi.org.mx/programas/ensu/

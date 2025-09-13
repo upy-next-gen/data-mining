@@ -1,0 +1,114 @@
+[2025-09-13 16:37:17,170] INFO: === INICIANDO FASE 4: PROCESAMIENTO (VERSIÓN ROBUSTA) ===
+[2025-09-13 16:37:17,171] INFO: ============================================================
+[2025-09-13 16:37:17,172] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0322.csv
+[2025-09-13 16:37:17,172] INFO: Período: 2022_Q1
+[2025-09-13 16:37:17,789] INFO: Archivo leído exitosamente con codificación UTF-8.
+[2025-09-13 16:37:17,790] INFO: Iniciando normalización y filtrado para Yucatán...
+[2025-09-13 16:37:17,866] INFO: Filtrado por CVE_ENT=31. Se encontraron 272 registros.
+[2025-09-13 16:37:17,868] INFO: Normalizando columnas de municipio y ciudad...
+[2025-09-13 16:37:17,872] INFO: Agrupando datos y calculando estadísticas...
+[2025-09-13 16:37:17,885] INFO: Procesamiento del período 2022_Q1 completado. 4 registros agregados.
+[2025-09-13 16:37:17,896] INFO: Archivo procesado guardado en: data/yucatan_processed\procesado_2022_Q1_cb.csv
+[2025-09-13 16:37:17,896] INFO: ============================================================
+[2025-09-13 16:37:17,896] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0622.csv
+[2025-09-13 16:37:17,896] INFO: Período: 2022_Q2
+[2025-09-13 16:37:18,454] INFO: Archivo leído exitosamente con codificación UTF-8.
+[2025-09-13 16:37:18,454] INFO: Iniciando normalización y filtrado para Yucatán...
+[2025-09-13 16:37:18,525] INFO: Filtrado por CVE_ENT=31. Se encontraron 275 registros.
+[2025-09-13 16:37:18,526] INFO: Normalizando columnas de municipio y ciudad...
+[2025-09-13 16:37:18,529] INFO: Agrupando datos y calculando estadísticas...
+[2025-09-13 16:37:18,539] INFO: Procesamiento del período 2022_Q2 completado. 4 registros agregados.
+[2025-09-13 16:37:18,547] INFO: Archivo procesado guardado en: data/yucatan_processed\procesado_2022_Q2_cb.csv
+[2025-09-13 16:37:18,548] INFO: ============================================================
+[2025-09-13 16:37:18,548] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0922.csv
+[2025-09-13 16:37:18,548] INFO: Período: 2022_Q3
+[2025-09-13 16:37:19,279] INFO: Archivo leído exitosamente con codificación UTF-8.
+[2025-09-13 16:37:19,279] INFO: Iniciando normalización y filtrado para Yucatán...
+[2025-09-13 16:37:19,370] INFO: Filtrado por CVE_ENT=31. Se encontraron 263 registros.
+[2025-09-13 16:37:19,370] INFO: Normalizando columnas de municipio y ciudad...
+[2025-09-13 16:37:19,375] INFO: Agrupando datos y calculando estadísticas...
+[2025-09-13 16:37:19,384] INFO: Procesamiento del período 2022_Q3 completado. 4 registros agregados.
+[2025-09-13 16:37:19,394] INFO: Archivo procesado guardado en: data/yucatan_processed\procesado_2022_Q3_cb.csv
+[2025-09-13 16:37:19,395] INFO: ============================================================
+[2025-09-13 16:37:19,395] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_1222.csv
+[2025-09-13 16:37:19,395] INFO: Período: 2022_Q4
+[2025-09-13 16:37:20,042] INFO: Archivo leído exitosamente con codificación UTF-8.
+[2025-09-13 16:37:20,042] INFO: Iniciando normalización y filtrado para Yucatán...
+[2025-09-13 16:37:20,123] INFO: Filtrado por CVE_ENT=31. Se encontraron 262 registros.
+[2025-09-13 16:37:20,124] INFO: Normalizando columnas de municipio y ciudad...
+[2025-09-13 16:37:20,128] INFO: Agrupando datos y calculando estadísticas...
+[2025-09-13 16:37:20,147] INFO: Procesamiento del período 2022_Q4 completado. 4 registros agregados.
+[2025-09-13 16:37:20,155] INFO: Archivo procesado guardado en: data/yucatan_processed\procesado_2022_Q4_cb.csv
+[2025-09-13 16:37:20,155] INFO: ============================================================
+[2025-09-13 16:37:20,155] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_1223.csv
+[2025-09-13 16:37:20,155] INFO: Período: 2023_Q4
+[2025-09-13 16:37:20,688] INFO: Archivo leído exitosamente con codificación UTF-8.
+[2025-09-13 16:37:20,688] INFO: Iniciando normalización y filtrado para Yucatán...
+[2025-09-13 16:37:20,776] INFO: Filtrado por CVE_ENT=31. Se encontraron 268 registros.
+[2025-09-13 16:37:20,776] INFO: Normalizando columnas de municipio y ciudad...
+[2025-09-13 16:37:20,780] INFO: Agrupando datos y calculando estadísticas...
+[2025-09-13 16:37:20,789] INFO: Procesamiento del período 2023_Q4 completado. 3 registros agregados.
+[2025-09-13 16:37:20,797] INFO: Archivo procesado guardado en: data/yucatan_processed\procesado_2023_Q4_cb.csv
+[2025-09-13 16:37:20,797] INFO: ============================================================
+[2025-09-13 16:37:20,797] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0324.csv
+[2025-09-13 16:37:20,797] INFO: Período: 2024_Q1
+[2025-09-13 16:37:21,311] INFO: Archivo leído exitosamente con codificación UTF-8.
+[2025-09-13 16:37:21,312] INFO: Iniciando normalización y filtrado para Yucatán...
+[2025-09-13 16:37:21,388] INFO: Filtrado por CVE_ENT=31. Se encontraron 257 registros.
+[2025-09-13 16:37:21,388] INFO: Normalizando columnas de municipio y ciudad...
+[2025-09-13 16:37:21,392] INFO: Agrupando datos y calculando estadísticas...
+[2025-09-13 16:37:21,402] INFO: Procesamiento del período 2024_Q1 completado. 3 registros agregados.
+[2025-09-13 16:37:21,410] INFO: Archivo procesado guardado en: data/yucatan_processed\procesado_2024_Q1_cb.csv
+[2025-09-13 16:37:21,410] INFO: ============================================================
+[2025-09-13 16:37:21,410] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0624.csv
+[2025-09-13 16:37:21,410] INFO: Período: 2024_Q2
+[2025-09-13 16:37:21,995] INFO: Archivo leído exitosamente con codificación UTF-8.
+[2025-09-13 16:37:21,995] INFO: Iniciando normalización y filtrado para Yucatán...
+[2025-09-13 16:37:22,090] INFO: Filtrado por CVE_ENT=31. Se encontraron 256 registros.
+[2025-09-13 16:37:22,090] INFO: Normalizando columnas de municipio y ciudad...
+[2025-09-13 16:37:22,096] INFO: Agrupando datos y calculando estadísticas...
+[2025-09-13 16:37:22,111] INFO: Procesamiento del período 2024_Q2 completado. 4 registros agregados.
+[2025-09-13 16:37:22,122] INFO: Archivo procesado guardado en: data/yucatan_processed\procesado_2024_Q2_cb.csv
+[2025-09-13 16:37:22,123] INFO: ============================================================
+[2025-09-13 16:37:22,123] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0924.csv
+[2025-09-13 16:37:22,123] INFO: Período: 2024_Q3
+[2025-09-13 16:37:23,017] INFO: Archivo leído exitosamente con codificación UTF-8.
+[2025-09-13 16:37:23,018] INFO: Iniciando normalización y filtrado para Yucatán...
+[2025-09-13 16:37:23,101] INFO: Filtrado por CVE_ENT=31. Se encontraron 258 registros.
+[2025-09-13 16:37:23,101] INFO: Normalizando columnas de municipio y ciudad...
+[2025-09-13 16:37:23,106] INFO: Agrupando datos y calculando estadísticas...
+[2025-09-13 16:37:23,116] INFO: Procesamiento del período 2024_Q3 completado. 4 registros agregados.
+[2025-09-13 16:37:23,130] INFO: Archivo procesado guardado en: data/yucatan_processed\procesado_2024_Q3_cb.csv
+[2025-09-13 16:37:23,130] INFO: ============================================================
+[2025-09-13 16:37:23,130] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_1224.csv
+[2025-09-13 16:37:23,130] INFO: Período: 2024_Q4
+[2025-09-13 16:37:23,671] INFO: Archivo leído exitosamente con codificación UTF-8.
+[2025-09-13 16:37:23,671] INFO: Iniciando normalización y filtrado para Yucatán...
+[2025-09-13 16:37:23,750] INFO: Filtrado por CVE_ENT=31. Se encontraron 260 registros.
+[2025-09-13 16:37:23,750] INFO: Normalizando columnas de municipio y ciudad...
+[2025-09-13 16:37:23,754] INFO: Agrupando datos y calculando estadísticas...
+[2025-09-13 16:37:23,764] INFO: Procesamiento del período 2024_Q4 completado. 4 registros agregados.
+[2025-09-13 16:37:23,773] INFO: Archivo procesado guardado en: data/yucatan_processed\procesado_2024_Q4_cb.csv
+[2025-09-13 16:37:23,773] INFO: ============================================================
+[2025-09-13 16:37:23,773] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0325.csv
+[2025-09-13 16:37:23,774] INFO: Período: 2025_Q1
+[2025-09-13 16:37:24,297] INFO: Archivo leído exitosamente con codificación UTF-8.
+[2025-09-13 16:37:24,298] INFO: Iniciando normalización y filtrado para Yucatán...
+[2025-09-13 16:37:24,386] INFO: Filtrado por CVE_ENT=31. Se encontraron 258 registros.
+[2025-09-13 16:37:24,386] INFO: Normalizando columnas de municipio y ciudad...
+[2025-09-13 16:37:24,391] INFO: Agrupando datos y calculando estadísticas...
+[2025-09-13 16:37:24,410] INFO: Procesamiento del período 2025_Q1 completado. 4 registros agregados.
+[2025-09-13 16:37:24,419] INFO: Archivo procesado guardado en: data/yucatan_processed\procesado_2025_Q1_cb.csv
+[2025-09-13 16:37:24,420] INFO: ============================================================
+[2025-09-13 16:37:24,420] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0625.csv
+[2025-09-13 16:37:24,420] INFO: Período: 2025_Q2
+[2025-09-13 16:37:24,965] INFO: Archivo leído exitosamente con codificación UTF-8.
+[2025-09-13 16:37:24,965] INFO: Iniciando normalización y filtrado para Yucatán...
+[2025-09-13 16:37:25,046] INFO: Filtrado por CVE_ENT=31. Se encontraron 255 registros.
+[2025-09-13 16:37:25,047] INFO: Normalizando columnas de municipio y ciudad...
+[2025-09-13 16:37:25,051] INFO: Agrupando datos y calculando estadísticas...
+[2025-09-13 16:37:25,060] INFO: Procesamiento del período 2025_Q2 completado. 4 registros agregados.
+[2025-09-13 16:37:25,070] INFO: Archivo procesado guardado en: data/yucatan_processed\procesado_2025_Q2_cb.csv
+[2025-09-13 16:37:25,074] INFO: Resumen de procesamiento guardado en: temp/procesamiento_resultados.json
+[2025-09-13 16:37:25,075] INFO: 
+=== FASE 4 COMPLETADA EXITOSAMENTE ===

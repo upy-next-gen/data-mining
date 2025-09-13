@@ -1,0 +1,186 @@
+{
+  "fecha_generacion": "2025-09-13T16:37:42.469001",
+  "estadisticas_globales": {
+    "total_registros": 42,
+    "años_cubiertos": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "trimestres_totales": 11,
+    "municipios_unicos": 4,
+    "ciudades_unicas": 1,
+    "total_respuestas_seguro": 2074,
+    "total_respuestas_inseguro": 810,
+    "total_no_responde": 0,
+    "promedio_pct_seguros": 62.45,
+    "promedio_pct_inseguros": 37.55,
+    "estadisticas_por_año": [
+      {
+        "año": 2022,
+        "trimestres": 4,
+        "registros": 16,
+        "promedio_pct_seguros": 66.12,
+        "promedio_pct_inseguros": 33.88
+      },
+      {
+        "año": 2023,
+        "trimestres": 1,
+        "registros": 3,
+        "promedio_pct_seguros": 63.82,
+        "promedio_pct_inseguros": 36.18
+      },
+      {
+        "año": 2024,
+        "trimestres": 4,
+        "registros": 15,
+        "promedio_pct_seguros": 63.44,
+        "promedio_pct_inseguros": 36.56
+      },
+      {
+        "año": 2025,
+        "trimestres": 2,
+        "registros": 8,
+        "promedio_pct_seguros": 52.73,
+        "promedio_pct_inseguros": 47.27
+      }
+    ],
+    "municipio_mas_seguro": {
+      "nombre": "PROGRESO",
+      "pct_promedio_seguros": 66.67
+    },
+    "municipio_mas_inseguro": {
+      "nombre": "KANASIN",
+      "pct_promedio_inseguros": 68.0
+    }
+  },
+  "resumen_procesamiento": {
+    "timestamp": "2025-09-13T16:37:25.071328",
+    "archivos_procesados": 11,
+    "archivos_fallidos": 0,
+    "resultados": [
+      {
+        "periodo": "2022_Q1",
+        "archivo_origen": "data\\conjunto_de_datos_ensu_2022_1t_csv\\conjunto_de_datos_ensu_cb_0322\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0322.csv",
+        "archivo_salida": "data/yucatan_processed\\procesado_2022_Q1_cb.csv",
+        "exito": true,
+        "estadisticas": {
+          "periodo": "2022_Q1",
+          "registros_yucatan": 272,
+          "municipios": 4
+        }
+      },
+      {
+        "periodo": "2022_Q2",
+        "archivo_origen": "data\\conjunto_de_datos_ensu_2022_2t_csv\\conjunto_de_datos_ensu_cb_0622\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0622.csv",
+        "archivo_salida": "data/yucatan_processed\\procesado_2022_Q2_cb.csv",
+        "exito": true,
+        "estadisticas": {
+          "periodo": "2022_Q2",
+          "registros_yucatan": 275,
+          "municipios": 4
+        }
+      },
+      {
+        "periodo": "2022_Q3",
+        "archivo_origen": "data\\conjunto_de_datos_ensu_2022_3t_csv\\conjunto_de_datos_ensu_cb_0922\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0922.csv",
+        "archivo_salida": "data/yucatan_processed\\procesado_2022_Q3_cb.csv",
+        "exito": true,
+        "estadisticas": {
+          "periodo": "2022_Q3",
+          "registros_yucatan": 263,
+          "municipios": 4
+        }
+      },
+      {
+        "periodo": "2022_Q4",
+        "archivo_origen": "data\\conjunto_de_datos_ensu_2022_4t_csv\\conjunto_de_datos_ensu_cb_1222\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_1222.csv",
+        "archivo_salida": "data/yucatan_processed\\procesado_2022_Q4_cb.csv",
+        "exito": true,
+        "estadisticas": {
+          "periodo": "2022_Q4",
+          "registros_yucatan": 262,
+          "municipios": 4
+        }
+      },
+      {
+        "periodo": "2023_Q4",
+        "archivo_origen": "data\\conjunto_de_datos_ensu_2023_4t_csv\\conjunto_de_datos_ensu_cb_1223\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_1223.csv",
+        "archivo_salida": "data/yucatan_processed\\procesado_2023_Q4_cb.csv",
+        "exito": true,
+        "estadisticas": {
+          "periodo": "2023_Q4",
+          "registros_yucatan": 268,
+          "municipios": 3
+        }
+      },
+      {
+        "periodo": "2024_Q1",
+        "archivo_origen": "data\\conjunto_de_datos_ensu_2024_1t_csv\\conjunto_de_datos_ensu_cb_0324\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0324.csv",
+        "archivo_salida": "data/yucatan_processed\\procesado_2024_Q1_cb.csv",
+        "exito": true,
+        "estadisticas": {
+          "periodo": "2024_Q1",
+          "registros_yucatan": 257,
+          "municipios": 3
+        }
+      },
+      {
+        "periodo": "2024_Q2",
+        "archivo_origen": "data\\conjunto_de_datos_ensu_2024_2t_csv\\conjunto_de_datos_ensu_cb_0624\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0624.csv",
+        "archivo_salida": "data/yucatan_processed\\procesado_2024_Q2_cb.csv",
+        "exito": true,
+        "estadisticas": {
+          "periodo": "2024_Q2",
+          "registros_yucatan": 256,
+          "municipios": 4
+        }
+      },
+      {
+        "periodo": "2024_Q3",
+        "archivo_origen": "data\\conjunto_de_datos_ensu_2024_3t_csv\\conjunto_de_datos_ensu_cb_0924\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0924.csv",
+        "archivo_salida": "data/yucatan_processed\\procesado_2024_Q3_cb.csv",
+        "exito": true,
+        "estadisticas": {
+          "periodo": "2024_Q3",
+          "registros_yucatan": 258,
+          "municipios": 4
+        }
+      },
+      {
+        "periodo": "2024_Q4",
+        "archivo_origen": "data\\conjunto_de_datos_ensu_2024_4t_csv\\conjunto_de_datos_ensu_cb_1224\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_1224.csv",
+        "archivo_salida": "data/yucatan_processed\\procesado_2024_Q4_cb.csv",
+        "exito": true,
+        "estadisticas": {
+          "periodo": "2024_Q4",
+          "registros_yucatan": 260,
+          "municipios": 4
+        }
+      },
+      {
+        "periodo": "2025_Q1",
+        "archivo_origen": "data\\conjunto_de_datos_ensu_2025_1t_csv\\conjunto_de_datos_ensu_cb_0325\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0325.csv",
+        "archivo_salida": "data/yucatan_processed\\procesado_2025_Q1_cb.csv",
+        "exito": true,
+        "estadisticas": {
+          "periodo": "2025_Q1",
+          "registros_yucatan": 258,
+          "municipios": 4
+        }
+      },
+      {
+        "periodo": "2025_Q2",
+        "archivo_origen": "data\\conjunto_de_datos_ensu_2025_2t_csv\\conjunto_de_datos_ensu_cb_0625\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0625.csv",
+        "archivo_salida": "data/yucatan_processed\\procesado_2025_Q2_cb.csv",
+        "exito": true,
+        "estadisticas": {
+          "periodo": "2025_Q2",
+          "registros_yucatan": 255,
+          "municipios": 4
+        }
+      }
+    ]
+  }
+}
