@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ meta.title or 'Cómo se percibe la inseguridad en Yucatán' }}</title>
+  {% if vendor_available.dt_css %}
+  <link rel="stylesheet" href="{{ vendor.dt_css }}" />
+  {% else %}
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+  {% endif %}
+  <link rel="stylesheet" href="{{ assets }}/css/report.css" />
+</head>
+<body>
+  <header>
+    <div class="title">
+      <h1>{{ meta.title or 'Cómo se percibe la inseguridad en Yucatán' }}</h1>
+      <p>{{ meta.subtitle or 'Resultados en palabras simples, con ejemplos y gráficas' }}</p>
+      <p>{{ meta.date or generation_date }}{% if meta.authors %} · {{ meta.authors|join(', ') }}{% endif %}</p>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Contenido">
+    <div class="wrap">
+      <a href="#que-es">¿Qué es esto?</a>
+      <a href="#en-breve">En breve</a>
+      <a href="#como-vamos">¿Cómo vamos?</a>
+      <a href="#donde">¿Dónde se siente más?</a>
+      <a href="#tu-municipio">Tu municipio</a>
+      <a href="#datos">Datos y notas</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="que-es">
+      <h2>¿Qué es este reporte?</h2>
+      <div class="card">
+        <p>Este informe explica, con palabras sencillas, cómo perciben la inseguridad las personas en Yucatán. Se basa en los datos disponibles en la carpeta <code>{{ data_dir }}</code>.</p>
+        <p>“Percepción de inseguridad” es el porcentaje de personas que dicen sentirse inseguras en su entorno. No es un conteo de delitos, sino cómo la gente lo siente.</p>
+      </div>
+    </section>
+
+    <section id="en-breve">
+      <h2>En breve (puntos clave)</h2>
+      <div class="kpi-grid">
+        {% for k in kpis %}
+        <div class="kpi"><div class="label">{{ k.label }}</div><div class="value">{{ k.value }}</div><div class="note">{{ k.note }}</div></div>
+        {% endfor %}
+      </div>
+      <div class="card">
+        <ul>
+          {% for b in bullets %}
+          <li>{{ b }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <section id="como-vamos">
+      <h2>¿Cómo vamos a lo largo del tiempo?</h2>
+      <div class="card">
+        <h3>Tendencia general</h3>
+        <div id="chart_trend" style="width:100%;height:420px;"></div>
+        <p class="note">Cada punto representa un trimestre. Valores más altos implican que más personas dicen sentirse inseguras.</p>
+      </div>
+      <div class="card">
+        <h3>Distribución de resultados</h3>
+        <div id="chart_hist" style="width:100%;height:420px;"></div>
+        <p class="note">Muestra cuán concentrados o dispersos están los porcentajes.</p>
+      </div>
+    </section>
+
+    <section id="donde">
+      <h2>¿Dónde se siente más o menos inseguridad?</h2>
+      <div class="card">
+        <h3>Municipios con promedio más alto</h3>
+        <div id="chart_top_mun" style="width:100%;height:420px;"></div>
+        <p class="note">Promedio del periodo analizado. Úsalo como señal, no como sentencia.</p>
+      </div>
+      <div class="card">
+        <h3>Diferencias por año</h3>
+        <div id="chart_box_year" style="width:100%;height:420px;"></div>
+      </div>
+    </section>
+
+    <section id="tu-municipio">
+      <h2>Tu municipio</h2>
+      <div class="card">
+        <p>Busca tu municipio en la tabla y usa el buscador. Puedes ordenar por columnas.</p>
+        {{ sample_table|safe }}
+      </div>
+    </section>
+
+    <section id="datos">
+      <h2>Datos y notas</h2>
+      <div class="card">
+        <p>Archivos leídos: {{ n_files }} · Filas totales: {{ total_rows }}</p>
+        <p>El reporte fue generado el {{ generation_date }}. Datos sujetos a disponibilidad y cambios metodológicos.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap">Reporte para público general. Fuente: datasets locales del repositorio.</div></footer>
+
+  <!-- Librerías locales o CDN de respaldo -->
+  {% if vendor_available.plotly_js %}
+  <script src="{{ vendor.plotly_js }}"></script>
+  {% else %}
+  <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+  {% endif %}
+  {% if vendor_available.jquery_js %}
+  <script src="{{ vendor.jquery_js }}"></script>
+  {% else %}
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  {% endif %}
+  {% if vendor_available.dt_js %}
+  <script src="{{ vendor.dt_js }}"></script>
+  {% else %}
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  {% endif %}
+  <script>
+    window.__CHARTS__ = {{ charts_json | safe }};
+  </script>
+  <script src="{{ assets }}/js/init.js" defer></script>
+</body>
+</html>
+
