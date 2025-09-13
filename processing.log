@@ -1,0 +1,134 @@
+2025-09-09 20:32:36,914 - INFO - Buscando archivos CSV con 'cb' en el directorio: data
+2025-09-09 20:32:37,319 - INFO - Se encontraron 64 archivos candidatos.
+2025-09-09 20:32:37,319 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2015.csv ---
+2025-09-09 20:32:37,327 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2015.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:37,327 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2015.csv ---
+2025-09-09 20:32:37,328 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2015.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:37,328 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2016.csv ---
+2025-09-09 20:32:37,417 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2016.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:37,418 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2016.csv ---
+2025-09-09 20:32:37,422 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2016.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:37,422 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2017.csv ---
+2025-09-09 20:32:37,732 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2017_Q1_cb.csv
+2025-09-09 20:32:37,732 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2017.csv ---
+2025-09-09 20:32:37,738 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2017.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:37,738 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2015.csv ---
+2025-09-09 20:32:37,745 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2015.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:37,745 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2015.csv ---
+2025-09-09 20:32:37,746 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2015.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:37,746 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2016.csv ---
+2025-09-09 20:32:37,838 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2016.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:37,838 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2016.csv ---
+2025-09-09 20:32:37,842 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2016.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:37,842 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2017.csv ---
+2025-09-09 20:32:38,162 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2017_Q1_cb.csv
+2025-09-09 20:32:38,162 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2017.csv ---
+2025-09-09 20:32:38,168 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2017.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:38,168 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2015.csv ---
+2025-09-09 20:32:38,175 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2015.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:38,175 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2015.csv ---
+2025-09-09 20:32:38,176 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2015.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:38,176 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2016.csv ---
+2025-09-09 20:32:38,301 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2016.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:38,301 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2016.csv ---
+2025-09-09 20:32:38,307 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2016.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:38,307 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2017.csv ---
+2025-09-09 20:32:38,647 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2017_Q1_cb.csv
+2025-09-09 20:32:38,647 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2017.csv ---
+2025-09-09 20:32:38,652 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2017.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:38,653 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2015.csv ---
+2025-09-09 20:32:38,659 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2015.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:38,659 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2015.csv ---
+2025-09-09 20:32:38,660 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2015.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:38,660 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2016.csv ---
+2025-09-09 20:32:38,999 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2016_Q2_cb.csv
+2025-09-09 20:32:38,999 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2016.csv ---
+2025-09-09 20:32:39,005 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2016.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:39,005 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2017.csv ---
+2025-09-09 20:32:39,418 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2017_Q2_cb.csv
+2025-09-09 20:32:39,418 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2017.csv ---
+2025-09-09 20:32:39,425 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2017.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:39,425 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\conjunto_de_datos\ensu_cb_0118.csv ---
+2025-09-09 20:32:39,900 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2018_Q1_cb.csv
+2025-09-09 20:32:39,900 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\diccionario_de_datos\diccionario_de_datos_ensu_cb_0118.csv ---
+2025-09-09 20:32:39,908 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\diccionario_de_datos\diccionario_de_datos_ensu_cb_0118.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:39,908 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\conjunto_de_datos\ensu_cb_0218.csv ---
+2025-09-09 20:32:40,432 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2018_Q2_cb.csv
+2025-09-09 20:32:40,433 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\diccionario_de_datos\diccionario_de_datos_ensu_cb_0218.csv ---
+2025-09-09 20:32:40,441 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\diccionario_de_datos\diccionario_de_datos_ensu_cb_0218.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:40,441 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2018.csv ---
+2025-09-09 20:32:40,994 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2018_Q3_cb.csv
+2025-09-09 20:32:40,994 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2018.csv ---
+2025-09-09 20:32:41,001 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2018.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:41,001 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\conjunto_de_datos\conjunto_de_datos_cb_ENSU_04_2018.csv ---
+2025-09-09 20:32:41,489 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2018_Q4_cb.csv
+2025-09-09 20:32:41,490 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\diccionario_de_datos\diccionario_de_datos_cb_ENSU_04_2018.csv ---
+2025-09-09 20:32:41,496 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\diccionario_de_datos\diccionario_de_datos_cb_ENSU_04_2018.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:41,496 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2019.csv ---
+2025-09-09 20:32:41,881 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2019_Q1_cb.csv
+2025-09-09 20:32:41,881 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2019.csv ---
+2025-09-09 20:32:41,883 - WARNING - Falló la codificación UTF-8 para data\archive\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2019.csv. Intentando con 'latin1'.
+2025-09-09 20:32:41,888 - ERROR - El archivo data\archive\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2019.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:41,888 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\conjunto_de_datos\conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+2025-09-09 20:32:42,477 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2019_Q2_cb.csv
+2025-09-09 20:32:42,477 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\diccionario_de_datos\diccionario_de_datos_cb_ENSU_2019_2t.csv ---
+2025-09-09 20:32:42,478 - WARNING - Falló la codificación UTF-8 para data\archive\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\diccionario_de_datos\diccionario_de_datos_cb_ENSU_2019_2t.csv. Intentando con 'latin1'.
+2025-09-09 20:32:42,483 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\diccionario_de_datos\diccionario_de_datos_cb_ENSU_2019_2t.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:42,484 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\conjunto_de_datos\conjunto_de_datos_ensu_cb_0322.csv ---
+2025-09-09 20:32:43,018 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2022_Q1_cb.csv
+2025-09-09 20:32:43,018 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\diccionario_de_datos\diccionario_de_datos_ensu_cb_0322.csv ---
+2025-09-09 20:32:43,023 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\diccionario_de_datos\diccionario_de_datos_ensu_cb_0322.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:43,023 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\conjunto_de_datos\conjunto_de_datos_ensu_cb_0622.csv ---
+2025-09-09 20:32:43,611 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2022_Q2_cb.csv
+2025-09-09 20:32:43,611 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\diccionario_de_datos\diccionario_de_datos_ensu_cb_0622.csv ---
+2025-09-09 20:32:43,616 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\diccionario_de_datos\diccionario_de_datos_ensu_cb_0622.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:43,616 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\conjunto_de_datos\conjunto_de_datos_ensu_cb_0922.csv ---
+2025-09-09 20:32:44,410 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2022_Q3_cb.csv
+2025-09-09 20:32:44,410 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\diccionario_de_datos\diccionario_de_datos_ensu_cb_0922.csv ---
+2025-09-09 20:32:44,415 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\diccionario_de_datos\diccionario_de_datos_ensu_cb_0922.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:44,415 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\conjunto_de_datos\conjunto_de_datos_ensu_cb_1222.csv ---
+2025-09-09 20:32:44,964 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2022_Q4_cb.csv
+2025-09-09 20:32:44,964 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\diccionario_de_datos\diccionario_de_datos_ensu_cb_1222.csv ---
+2025-09-09 20:32:44,969 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\diccionario_de_datos\diccionario_de_datos_ensu_cb_1222.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:44,969 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\conjunto_de_datos\conjunto_de_datos_ensu_cb_0623.csv ---
+2025-09-09 20:32:45,732 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2023_Q2_cb.csv
+2025-09-09 20:32:45,732 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\diccionario_de_datos\diccionario_de_datos_ensu_cb_0623.csv ---
+2025-09-09 20:32:45,733 - WARNING - Falló la codificación UTF-8 para data\archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\diccionario_de_datos\diccionario_de_datos_ensu_cb_0623.csv. Intentando con 'latin1'.
+2025-09-09 20:32:45,744 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\diccionario_de_datos\diccionario_de_datos_ensu_cb_0623.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:45,744 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\conjunto_de_datos\conjunto_de_datos_ensu_cb_0923.csv ---
+2025-09-09 20:32:46,970 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2023_Q3_cb.csv
+2025-09-09 20:32:46,970 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\diccionario_de_datos\diccionario_de_datos_ensu_cb_0923.csv ---
+2025-09-09 20:32:46,987 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\diccionario_de_datos\diccionario_de_datos_ensu_cb_0923.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:46,987 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\conjunto_de_datos\conjunto_de_datos_ensu_cb_1223.csv ---
+2025-09-09 20:32:47,547 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2023_Q4_cb.csv
+2025-09-09 20:32:47,548 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\diccionario_de_datos\diccionario_de_datos_ensu_cb_1223.csv ---
+2025-09-09 20:32:47,552 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\diccionario_de_datos\diccionario_de_datos_ensu_cb_1223.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:47,553 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\conjunto_de_datos\conjunto_de_datos_ensu_cb_0324.csv ---
+2025-09-09 20:32:48,122 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2024_Q1_cb.csv
+2025-09-09 20:32:48,122 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\diccionario_de_datos\diccionario_de_datos_ensu_cb_0324.csv ---
+2025-09-09 20:32:48,127 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\diccionario_de_datos\diccionario_de_datos_ensu_cb_0324.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:48,128 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\conjunto_de_datos\conjunto_de_datos_ensu_cb_0624.csv ---
+2025-09-09 20:32:48,784 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2024_Q2_cb.csv
+2025-09-09 20:32:48,784 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\diccionario_de_datos\diccionario_de_datos_ensu_cb_0624.csv ---
+2025-09-09 20:32:48,790 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\diccionario_de_datos\diccionario_de_datos_ensu_cb_0624.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:48,790 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\conjunto_de_datos\conjunto_de_datos_ensu_cb_0924.csv ---
+2025-09-09 20:32:49,679 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2024_Q3_cb.csv
+2025-09-09 20:32:49,680 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\diccionario_de_datos\diccionario_de_datos_ensu_cb_0924.csv ---
+2025-09-09 20:32:49,686 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\diccionario_de_datos\diccionario_de_datos_ensu_cb_0924.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:49,687 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\conjunto_de_datos\conjunto_de_datos_ensu_cb_1224.csv ---
+2025-09-09 20:32:50,258 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2024_Q4_cb.csv
+2025-09-09 20:32:50,258 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\diccionario_de_datos\diccionario_de_datos_ensu_cb_1224.csv ---
+2025-09-09 20:32:50,264 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\diccionario_de_datos\diccionario_de_datos_ensu_cb_1224.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:50,265 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\conjunto_de_datos\conjunto_de_datos_ensu_cb_0325.csv ---
+2025-09-09 20:32:50,871 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2025_Q1_cb.csv
+2025-09-09 20:32:50,871 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\diccionario_de_datos\diccionario_de_datos_ensu_cb_0325.csv ---
+2025-09-09 20:32:50,876 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\diccionario_de_datos\diccionario_de_datos_ensu_cb_0325.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:50,876 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\conjunto_de_datos\conjunto_de_datos_ensu_cb_0625.csv ---
+2025-09-09 20:32:51,516 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2025_Q2_cb.csv
+2025-09-09 20:32:51,516 - INFO - --- Iniciando procesamiento para: data\archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\diccionario_de_datos\diccionario_de_datos_ensu_cb_0625.csv ---
+2025-09-09 20:32:51,523 - ERROR - El archivo data\archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\diccionario_de_datos\diccionario_de_datos_ensu_cb_0625.csv no contiene todas las columnas requeridas. Se omite.
+2025-09-09 20:32:51,523 - INFO - --- Iniciando procesamiento para: data\archive\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\conjunto_de_datos\conjunto_de_datos_cb_ENSU_03_2019.csv ---
+2025-09-09 20:32:52,142 - INFO - Procesamiento exitoso. Archivo guardado en: data\yucatan-inseguridad\procesado_2019_Q1_cb.csv
+2025-09-09 20:32:52,142 - INFO - --- Iniciando procesamiento para: data\archive\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ENSU_03_2019.csv ---
+2025-09-09 20:32:52,143 - WARNING - Falló la codificación UTF-8 para data\archive\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ENSU_03_2019.csv. Intentando con 'latin1'.
+2025-09-09 20:32:52,153 - ERROR - El archivo data\archive\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ENSU_03_2019.csv no contiene todas las columnas requeridas. Se omite.
