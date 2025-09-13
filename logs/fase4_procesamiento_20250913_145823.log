@@ -1,0 +1,106 @@
+2025-09-13 14:58:23,959 - INFO - --- Starting Phase 4: Processing Script ---
+2025-09-13 14:58:23,960 - INFO - Found 34 pending files to process.
+2025-09-13 14:58:23,960 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2022_1t_csv/conjunto_de_datos_ensu_cb_0322/conjunto_de_datos/conjunto_de_datos_ensu_cb_0322.csv for period 2022_Q1
+2025-09-13 14:58:29,605 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:58:29,613 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2022_Q1.csv
+2025-09-13 14:58:29,613 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_04_2017_csv/conjunto_de_datos_cb_ensu_04_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2017.csv for period 2017_Q4
+2025-09-13 14:58:33,254 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:58:33,258 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2017_Q4.csv
+2025-09-13 14:58:33,258 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_04_2016_csv/conjunto_de_datos_cb_ensu_04_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2016.csv for period 2016_Q4
+2025-09-13 14:58:36,631 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:58:36,635 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2016_Q4.csv
+2025-09-13 14:58:36,635 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2018_1t_csv/ensu_cb_0118/conjunto_de_datos/ensu_cb_0118.csv for period 2018_Q1
+2025-09-13 14:58:40,268 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:58:40,271 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2018_Q1.csv
+2025-09-13 14:58:40,271 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2021_4t_csv/conjunto_de_datos_CB_ENSU_12_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2021.csv for period 2021_Q4
+2025-09-13 14:58:45,923 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:58:45,927 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2021_Q4.csv
+2025-09-13 14:58:45,927 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/Datos abiertos/conjunto_de_datos_CB_ENSU_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ENSU_03_2019.csv for period 2019_Q3
+2025-09-13 14:58:51,327 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:58:51,330 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2019_Q3.csv
+2025-09-13 14:58:51,331 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2025_2t_csv/conjunto_de_datos_ensu_cb_0625/conjunto_de_datos/conjunto_de_datos_ensu_cb_0625.csv for period 2025_Q2
+2025-09-13 14:58:57,089 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:58:57,093 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2025_Q2.csv
+2025-09-13 14:58:57,093 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2019_4t_csv/conjunto_de_datos_CB_ENSU_04_2019/conjunto_de_datos/conjunto_de_datos_CB_ENSU_04_2019.csv for period 2019_Q4
+2025-09-13 14:59:02,411 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:59:02,415 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2019_Q4.csv
+2025-09-13 14:59:02,416 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2020_1t_csv/conjunto_de_datos_CB_ENSU_01_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_01_2020.csv for period 2020_Q1
+2025-09-13 14:59:07,791 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:59:07,795 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2020_Q1.csv
+2025-09-13 14:59:07,795 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2023_4t_csv/conjunto_de_datos_ensu_cb_1223/conjunto_de_datos/conjunto_de_datos_ensu_cb_1223.csv for period 2023_Q4
+2025-09-13 14:59:13,567 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:59:13,570 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2023_Q4.csv
+2025-09-13 14:59:13,570 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2023_3t_csv/conjunto_de_datos_ensu_cb_0923/conjunto_de_datos/conjunto_de_datos_ensu_cb_0923.csv for period 2023_Q3
+2025-09-13 14:59:19,565 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:59:19,569 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2023_Q3.csv
+2025-09-13 14:59:19,569 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2024_1t_csv/conjunto_de_datos_ensu_cb_0324/conjunto_de_datos/conjunto_de_datos_ensu_cb_0324.csv for period 2024_Q1
+2025-09-13 14:59:25,340 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:59:25,344 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2024_Q1.csv
+2025-09-13 14:59:25,344 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2021_2t_csv/conjunto_de_datos_CB_ENSU_06_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_06_2021.csv for period 2021_Q2
+2025-09-13 14:59:30,763 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:59:30,766 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2021_Q2.csv
+2025-09-13 14:59:30,766 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2019_2t_csv/conjunto_de_datos_cb_ENSU_2019_2t/conjunto_de_datos/conjunto_de_datos_cb_ENSU_2019_2t.csv for period 2019_Q2
+2025-09-13 14:59:35,344 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:59:35,348 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2019_Q2.csv
+2025-09-13 14:59:35,348 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2021_3t_csv/conjunto_de_datos_CB_ENSU_09_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_09_2021.csv for period 2021_Q3
+2025-09-13 14:59:41,040 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:59:41,044 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2021_Q3.csv
+2025-09-13 14:59:41,044 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_02_2017_csv/conjunto_de_datos_cb_ensu_02_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_02_2017.csv for period 2017_Q2
+2025-09-13 14:59:44,727 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:59:44,730 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2017_Q2.csv
+2025-09-13 14:59:44,730 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_03_2017_csv/conjunto_de_datos_cb_ensu_03_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2017.csv for period 2017_Q3
+2025-09-13 14:59:48,465 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:59:48,468 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2017_Q3.csv
+2025-09-13 14:59:48,468 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2023_2t_csv/conjunto_de_datos_ensu_cb_0623/conjunto_de_datos/conjunto_de_datos_ensu_cb_0623.csv for period 2023_Q2
+2025-09-13 14:59:54,351 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:59:54,355 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2023_Q2.csv
+2025-09-13 14:59:54,355 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ENSU_2019_1t_csv/conjunto_de_datos_cb_ensu_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2019.csv for period 2019_Q1
+2025-09-13 14:59:58,675 - INFO - Applied specific corrections for municipality names.
+2025-09-13 14:59:58,679 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2019_Q1.csv
+2025-09-13 14:59:58,679 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2024_3t_csv/conjunto_de_datos_ensu_cb_0924/conjunto_de_datos/conjunto_de_datos_ensu_cb_0924.csv for period 2024_Q3
+2025-09-13 15:00:04,556 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:00:04,560 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2024_Q3.csv
+2025-09-13 15:00:04,560 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2020_4t_csv/conjunto_de_datos_CB_ENSU_12_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2020.csv for period 2020_Q4
+2025-09-13 15:00:09,953 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:00:09,957 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2020_Q4.csv
+2025-09-13 15:00:09,957 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2023_1t_csv/conjunto_de_datos_CB_ENSU_03_2023/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2023.csv for period 2023_Q1
+2025-09-13 15:00:15,692 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:00:15,696 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2023_Q1.csv
+2025-09-13 15:00:15,696 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2022_4t_csv/conjunto_de_datos_ensu_cb_1222/conjunto_de_datos/conjunto_de_datos_ensu_cb_1222.csv for period 2022_Q4
+2025-09-13 15:00:21,984 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:00:21,988 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2022_Q4.csv
+2025-09-13 15:00:21,988 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2018_4t_csv/conjunto_de_datos_cb_ensu_04_2018/conjunto_de_datos/conjunto_de_datos_cb_ENSU_04_2018.csv for period 2018_Q4
+2025-09-13 15:00:26,346 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:00:26,349 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2018_Q4.csv
+2025-09-13 15:00:26,349 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2024_2t_csv/conjunto_de_datos_ensu_cb_0624/conjunto_de_datos/conjunto_de_datos_ensu_cb_0624.csv for period 2024_Q2
+2025-09-13 15:00:32,152 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:00:32,155 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2024_Q2.csv
+2025-09-13 15:00:32,155 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2021_1t_csv/conjunto_de_datos_CB_ENSU_03_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2021.csv for period 2021_Q1
+2025-09-13 15:00:37,540 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:00:37,544 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2021_Q1.csv
+2025-09-13 15:00:37,544 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_01_2017_csv/conjunto_de_datos_cb_ensu_01_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_01_2017.csv for period 2017_Q1
+2025-09-13 15:00:41,059 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:00:41,062 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2017_Q1.csv
+2025-09-13 15:00:41,062 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2025_1t_csv/conjunto_de_datos_ensu_cb_0325/conjunto_de_datos/conjunto_de_datos_ensu_cb_0325.csv for period 2025_Q1
+2025-09-13 15:00:46,727 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:00:46,731 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2025_Q1.csv
+2025-09-13 15:00:46,731 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2018_3t_csv/conjunto_de_datos_cb_ensu_03_2018/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2018.csv for period 2018_Q3
+2025-09-13 15:00:51,652 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:00:51,656 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2018_Q3.csv
+2025-09-13 15:00:51,656 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2022_3t_csv/conjunto_de_datos_ensu_cb_0922/conjunto_de_datos/conjunto_de_datos_ensu_cb_0922.csv for period 2022_Q3
+2025-09-13 15:00:57,382 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:00:57,386 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2022_Q3.csv
+2025-09-13 15:00:57,386 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2022_2t_csv/conjunto_de_datos_ensu_cb_0622/conjunto_de_datos/conjunto_de_datos_ensu_cb_0622.csv for period 2022_Q2
+2025-09-13 15:01:03,057 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:01:03,061 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2022_Q2.csv
+2025-09-13 15:01:03,061 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020/conjunto_de_datos/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv for period 2020_Q3
+2025-09-13 15:01:08,465 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:01:08,469 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2020_Q3.csv
+2025-09-13 15:01:08,469 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2018_2t_csv/ensu_cb_0218/conjunto_de_datos/ ensu_cb_0218.csv for period 2018_Q2
+2025-09-13 15:01:12,729 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:01:12,733 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2018_Q2.csv
+2025-09-13 15:01:12,733 - INFO - Processing /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/Archive/conjunto_de_datos_ensu_2024_4t_csv/conjunto_de_datos_ensu_cb_1224/conjunto_de_datos/conjunto_de_datos_ensu_cb_1224.csv for period 2024_Q4
+2025-09-13 15:01:18,349 - INFO - Applied specific corrections for municipality names.
+2025-09-13 15:01:18,354 - INFO - Successfully created processed file: /Users/eli/Documents/UPY/6to/data_mining/data-mining/data/yucatan_processed/yucatan_security_2024_Q4.csv
+2025-09-13 15:01:18,354 - INFO - Successfully created processing summary report: /Users/eli/Documents/UPY/6to/data_mining/data-mining/temp/procesamiento_resultados.json
+2025-09-13 15:01:18,354 - INFO - --- Processing script finished ---

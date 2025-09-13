@@ -1,0 +1,98 @@
+{
+  "fecha_generacion": "2025-09-13T15:01:28.990523",
+  "estadisticas_globales": {
+    "total_registros": 131,
+    "años_cubiertos": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "trimestres_totales": 34,
+    "municipios_unicos": 4,
+    "ciudades_unicas": 2,
+    "total_respuestas_seguro": 6384,
+    "total_respuestas_inseguro": 2586,
+    "total_no_responde": 3,
+    "promedio_pct_seguros": 60.07,
+    "promedio_pct_inseguros": 39.92,
+    "estadisticas_por_año": [
+      {
+        "año": 2016,
+        "trimestres": 1,
+        "registros": 4,
+        "promedio_pct_seguros": 52.07,
+        "promedio_pct_inseguros": 47.93
+      },
+      {
+        "año": 2017,
+        "trimestres": 4,
+        "registros": 16,
+        "promedio_pct_seguros": 55.26,
+        "promedio_pct_inseguros": 44.74
+      },
+      {
+        "año": 2018,
+        "trimestres": 4,
+        "registros": 16,
+        "promedio_pct_seguros": 55.46,
+        "promedio_pct_inseguros": 44.54
+      },
+      {
+        "año": 2019,
+        "trimestres": 4,
+        "registros": 16,
+        "promedio_pct_seguros": 64.76,
+        "promedio_pct_inseguros": 35.18
+      },
+      {
+        "año": 2020,
+        "trimestres": 3,
+        "registros": 12,
+        "promedio_pct_seguros": 63.91,
+        "promedio_pct_inseguros": 36.09
+      },
+      {
+        "año": 2021,
+        "trimestres": 4,
+        "registros": 16,
+        "promedio_pct_seguros": 55.5,
+        "promedio_pct_inseguros": 44.5
+      },
+      {
+        "año": 2022,
+        "trimestres": 4,
+        "registros": 16,
+        "promedio_pct_seguros": 66.12,
+        "promedio_pct_inseguros": 33.88
+      },
+      {
+        "año": 2023,
+        "trimestres": 4,
+        "registros": 12,
+        "promedio_pct_seguros": 63.88,
+        "promedio_pct_inseguros": 36.08
+      },
+      {
+        "año": 2024,
+        "trimestres": 4,
+        "registros": 15,
+        "promedio_pct_seguros": 63.44,
+        "promedio_pct_inseguros": 36.56
+      },
+      {
+        "año": 2025,
+        "trimestres": 2,
+        "registros": 8,
+        "promedio_pct_seguros": 52.73,
+        "promedio_pct_inseguros": 47.27
+      }
+    ]
+  }
+}

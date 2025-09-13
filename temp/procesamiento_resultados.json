@@ -1,0 +1,212 @@
+{
+  "timestamp": "2025-09-13T15:01:18",
+  "total_files_to_process": 34,
+  "total_successful": 34,
+  "total_errors_or_skipped": 0,
+  "results": [
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2022_1t_csv/conjunto_de_datos_ensu_cb_0322/conjunto_de_datos/conjunto_de_datos_ensu_cb_0322.csv",
+      "output_file": "yucatan_security_2022_Q1.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_04_2017_csv/conjunto_de_datos_cb_ensu_04_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2017.csv",
+      "output_file": "yucatan_security_2017_Q4.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_04_2016_csv/conjunto_de_datos_cb_ensu_04_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2016.csv",
+      "output_file": "yucatan_security_2016_Q4.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2018_1t_csv/ensu_cb_0118/conjunto_de_datos/ensu_cb_0118.csv",
+      "output_file": "yucatan_security_2018_Q1.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2021_4t_csv/conjunto_de_datos_CB_ENSU_12_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2021.csv",
+      "output_file": "yucatan_security_2021_Q4.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/Datos abiertos/conjunto_de_datos_CB_ENSU_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ENSU_03_2019.csv",
+      "output_file": "yucatan_security_2019_Q3.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2025_2t_csv/conjunto_de_datos_ensu_cb_0625/conjunto_de_datos/conjunto_de_datos_ensu_cb_0625.csv",
+      "output_file": "yucatan_security_2025_Q2.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2019_4t_csv/conjunto_de_datos_CB_ENSU_04_2019/conjunto_de_datos/conjunto_de_datos_CB_ENSU_04_2019.csv",
+      "output_file": "yucatan_security_2019_Q4.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2020_1t_csv/conjunto_de_datos_CB_ENSU_01_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_01_2020.csv",
+      "output_file": "yucatan_security_2020_Q1.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2023_4t_csv/conjunto_de_datos_ensu_cb_1223/conjunto_de_datos/conjunto_de_datos_ensu_cb_1223.csv",
+      "output_file": "yucatan_security_2023_Q4.csv",
+      "status": "Success",
+      "rows_processed": 3
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2023_3t_csv/conjunto_de_datos_ensu_cb_0923/conjunto_de_datos/conjunto_de_datos_ensu_cb_0923.csv",
+      "output_file": "yucatan_security_2023_Q3.csv",
+      "status": "Success",
+      "rows_processed": 3
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2024_1t_csv/conjunto_de_datos_ensu_cb_0324/conjunto_de_datos/conjunto_de_datos_ensu_cb_0324.csv",
+      "output_file": "yucatan_security_2024_Q1.csv",
+      "status": "Success",
+      "rows_processed": 3
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2021_2t_csv/conjunto_de_datos_CB_ENSU_06_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_06_2021.csv",
+      "output_file": "yucatan_security_2021_Q2.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2019_2t_csv/conjunto_de_datos_cb_ENSU_2019_2t/conjunto_de_datos/conjunto_de_datos_cb_ENSU_2019_2t.csv",
+      "output_file": "yucatan_security_2019_Q2.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2021_3t_csv/conjunto_de_datos_CB_ENSU_09_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_09_2021.csv",
+      "output_file": "yucatan_security_2021_Q3.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_02_2017_csv/conjunto_de_datos_cb_ensu_02_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_02_2017.csv",
+      "output_file": "yucatan_security_2017_Q2.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_03_2017_csv/conjunto_de_datos_cb_ensu_03_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2017.csv",
+      "output_file": "yucatan_security_2017_Q3.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2023_2t_csv/conjunto_de_datos_ensu_cb_0623/conjunto_de_datos/conjunto_de_datos_ensu_cb_0623.csv",
+      "output_file": "yucatan_security_2023_Q2.csv",
+      "status": "Success",
+      "rows_processed": 3
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ENSU_2019_1t_csv/conjunto_de_datos_cb_ensu_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2019.csv",
+      "output_file": "yucatan_security_2019_Q1.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2024_3t_csv/conjunto_de_datos_ensu_cb_0924/conjunto_de_datos/conjunto_de_datos_ensu_cb_0924.csv",
+      "output_file": "yucatan_security_2024_Q3.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2020_4t_csv/conjunto_de_datos_CB_ENSU_12_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2020.csv",
+      "output_file": "yucatan_security_2020_Q4.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2023_1t_csv/conjunto_de_datos_CB_ENSU_03_2023/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2023.csv",
+      "output_file": "yucatan_security_2023_Q1.csv",
+      "status": "Success",
+      "rows_processed": 3
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2022_4t_csv/conjunto_de_datos_ensu_cb_1222/conjunto_de_datos/conjunto_de_datos_ensu_cb_1222.csv",
+      "output_file": "yucatan_security_2022_Q4.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2018_4t_csv/conjunto_de_datos_cb_ensu_04_2018/conjunto_de_datos/conjunto_de_datos_cb_ENSU_04_2018.csv",
+      "output_file": "yucatan_security_2018_Q4.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2024_2t_csv/conjunto_de_datos_ensu_cb_0624/conjunto_de_datos/conjunto_de_datos_ensu_cb_0624.csv",
+      "output_file": "yucatan_security_2024_Q2.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2021_1t_csv/conjunto_de_datos_CB_ENSU_03_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2021.csv",
+      "output_file": "yucatan_security_2021_Q1.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_01_2017_csv/conjunto_de_datos_cb_ensu_01_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_01_2017.csv",
+      "output_file": "yucatan_security_2017_Q1.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2025_1t_csv/conjunto_de_datos_ensu_cb_0325/conjunto_de_datos/conjunto_de_datos_ensu_cb_0325.csv",
+      "output_file": "yucatan_security_2025_Q1.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2018_3t_csv/conjunto_de_datos_cb_ensu_03_2018/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2018.csv",
+      "output_file": "yucatan_security_2018_Q3.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2022_3t_csv/conjunto_de_datos_ensu_cb_0922/conjunto_de_datos/conjunto_de_datos_ensu_cb_0922.csv",
+      "output_file": "yucatan_security_2022_Q3.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2022_2t_csv/conjunto_de_datos_ensu_cb_0622/conjunto_de_datos/conjunto_de_datos_ensu_cb_0622.csv",
+      "output_file": "yucatan_security_2022_Q2.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020/conjunto_de_datos/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv",
+      "output_file": "yucatan_security_2020_Q3.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2018_2t_csv/ensu_cb_0218/conjunto_de_datos/ ensu_cb_0218.csv",
+      "output_file": "yucatan_security_2018_Q2.csv",
+      "status": "Success",
+      "rows_processed": 4
+    },
+    {
+      "source_file": "data/Archive/conjunto_de_datos_ensu_2024_4t_csv/conjunto_de_datos_ensu_cb_1224/conjunto_de_datos/conjunto_de_datos_ensu_cb_1224.csv",
+      "output_file": "yucatan_security_2024_Q4.csv",
+      "status": "Success",
+      "rows_processed": 4
+    }
+  ]
+}

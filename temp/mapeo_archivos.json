@@ -1,0 +1,1518 @@
+{
+  "timestamp": "2025-09-10T20:07:37",
+  "total_archivos": 84,
+  "archivos": [
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2022_1t_csv/conjunto_de_datos_ensu_cb_0322/diccionario_de_datos/diccionario_de_datos_ensu_cb_0322.csv",
+      "filename": "diccionario_de_datos_ensu_cb_0322.csv",
+      "size_mb": 0.04,
+      "modified_date": "2024-05-09T12:11:32",
+      "year": 2022,
+      "trimestre": 1,
+      "periodo_str": "2022_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2022_1t_csv/conjunto_de_datos_ensu_cb_0322/conjunto_de_datos/conjunto_de_datos_ensu_cb_0322.csv",
+      "filename": "conjunto_de_datos_ensu_cb_0322.csv",
+      "size_mb": 13.64,
+      "modified_date": "2024-05-09T12:11:40",
+      "year": 2022,
+      "trimestre": 1,
+      "periodo_str": "2022_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 137
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_04_2017_csv/conjunto_de_datos_cb_ensu_04_2017/diccionario_de_datos/diccionario_de_datos_cb_ensu_04_2017.csv",
+      "filename": "diccionario_de_datos_cb_ensu_04_2017.csv",
+      "size_mb": 0.04,
+      "modified_date": "2018-11-05T17:12:32",
+      "year": 2017,
+      "trimestre": 4,
+      "periodo_str": "2017_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_04_2017_csv/conjunto_de_datos_cb_ensu_04_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2017.csv",
+      "filename": "conjunto_de_datos_cb_ensu_04_2017.csv",
+      "size_mb": 9.98,
+      "modified_date": "2018-11-05T17:05:54",
+      "year": 2017,
+      "trimestre": 4,
+      "periodo_str": "2017_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 137
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_04_2016_csv/conjunto_de_datos_cb_ensu_04_2016/diccionario_de_datos/diccionario_de_datos_cb_ensu_04_2016.csv",
+      "filename": "diccionario_de_datos_cb_ensu_04_2016.csv",
+      "size_mb": 0.04,
+      "modified_date": "2018-11-12T15:01:20",
+      "year": 2016,
+      "trimestre": 4,
+      "periodo_str": "2016_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_04_2016_csv/conjunto_de_datos_cb_ensu_04_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2016.csv",
+      "filename": "conjunto_de_datos_cb_ensu_04_2016.csv",
+      "size_mb": 8.27,
+      "modified_date": "2018-11-12T14:34:58",
+      "year": 2016,
+      "trimestre": 4,
+      "periodo_str": "2016_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 122
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2018_1t_csv/ensu_cb_0118/diccionario_de_datos/diccionario_de_datos_ensu_cb_0118.csv",
+      "filename": "diccionario_de_datos_ensu_cb_0118.csv",
+      "size_mb": 0.04,
+      "modified_date": "2018-04-23T15:39:36",
+      "year": 2018,
+      "trimestre": 1,
+      "periodo_str": "2018_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2018_1t_csv/ensu_cb_0118/conjunto_de_datos/ensu_cb_0118.csv",
+      "filename": "ensu_cb_0118.csv",
+      "size_mb": 10.41,
+      "modified_date": "2018-04-23T17:00:56",
+      "year": 2018,
+      "trimestre": 1,
+      "periodo_str": "2018_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 138
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2021_4t_csv/conjunto_de_datos_CB_ENSU_12_2021/diccionario_de_datos/diccionario_de_datos_CB_ENSU_12_2021.csv",
+      "filename": "diccionario_de_datos_CB_ENSU_12_2021.csv",
+      "size_mb": 0.04,
+      "modified_date": "2022-01-12T11:35:22",
+      "year": 2021,
+      "trimestre": 4,
+      "periodo_str": "2021_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2021_4t_csv/conjunto_de_datos_CB_ENSU_12_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2021.csv",
+      "filename": "conjunto_de_datos_CB_ENSU_12_2021.csv",
+      "size_mb": 17.12,
+      "modified_date": "2022-01-12T11:35:32",
+      "year": 2021,
+      "trimestre": 4,
+      "periodo_str": "2021_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_PER",
+        "ID_VIV",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 142
+    },
+    {
+      "filepath": "data/Archive/Datos abiertos/conjunto_de_datos_CB_ENSU_03_2019/diccionario_de_datos/diccionario_de_datos_cb_ENSU_03_2019.csv",
+      "filename": "diccionario_de_datos_cb_ENSU_03_2019.csv",
+      "size_mb": 0.04,
+      "modified_date": "2019-10-03T17:40:44",
+      "year": 2019,
+      "trimestre": 3,
+      "periodo_str": "2019_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/Datos abiertos/conjunto_de_datos_CB_ENSU_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ENSU_03_2019.csv",
+      "filename": "conjunto_de_datos_cb_ENSU_03_2019.csv",
+      "size_mb": 14.59,
+      "modified_date": "2019-10-14T17:40:44",
+      "year": 2019,
+      "trimestre": 3,
+      "periodo_str": "2019_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 132
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2025_2t_csv/conjunto_de_datos_ensu_cb_0625/diccionario_de_datos/diccionario_de_datos_ensu_cb_0625.csv",
+      "filename": "diccionario_de_datos_ensu_cb_0625.csv",
+      "size_mb": 0.05,
+      "modified_date": "2025-07-22T13:25:10",
+      "year": 2025,
+      "trimestre": 2,
+      "periodo_str": "2025_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2025_2t_csv/conjunto_de_datos_ensu_cb_0625/conjunto_de_datos/conjunto_de_datos_ensu_cb_0625.csv",
+      "filename": "conjunto_de_datos_ensu_cb_0625.csv",
+      "size_mb": 15.12,
+      "modified_date": "2025-07-22T13:25:26",
+      "year": 2025,
+      "trimestre": 2,
+      "periodo_str": "2025_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 150
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2019_4t_csv/conjunto_de_datos_CB_ENSU_04_2019/diccionario_de_datos/diccionario_de_datos_CB_ENSU_04_2019.csv",
+      "filename": "diccionario_de_datos_CB_ENSU_04_2019.csv",
+      "size_mb": 0.04,
+      "modified_date": "2020-01-10T13:51:16",
+      "year": 2019,
+      "trimestre": 4,
+      "periodo_str": "2019_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2019_4t_csv/conjunto_de_datos_CB_ENSU_04_2019/conjunto_de_datos/conjunto_de_datos_CB_ENSU_04_2019.csv",
+      "filename": "conjunto_de_datos_CB_ENSU_04_2019.csv",
+      "size_mb": 14.91,
+      "modified_date": "2020-01-10T13:51:16",
+      "year": 2019,
+      "trimestre": 4,
+      "periodo_str": "2019_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 137
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2020_1t_csv/conjunto_de_datos_CB_ENSU_01_2020/diccionario_de_datos/diccionario_de_datos_CB_ENSU_01_2020.csv",
+      "filename": "diccionario_de_datos_CB_ENSU_01_2020.csv",
+      "size_mb": 0.04,
+      "modified_date": "2020-04-08T17:44:42",
+      "year": 2020,
+      "trimestre": 1,
+      "periodo_str": "2020_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2020_1t_csv/conjunto_de_datos_CB_ENSU_01_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_01_2020.csv",
+      "filename": "conjunto_de_datos_CB_ENSU_01_2020.csv",
+      "size_mb": 14.7,
+      "modified_date": "2020-04-08T17:44:40",
+      "year": 2020,
+      "trimestre": 1,
+      "periodo_str": "2020_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 133
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2023_4t_csv/conjunto_de_datos_ensu_cb_1223/diccionario_de_datos/diccionario_de_datos_ensu_cb_1223.csv",
+      "filename": "diccionario_de_datos_ensu_cb_1223.csv",
+      "size_mb": 0.04,
+      "modified_date": "2024-01-17T13:04:06",
+      "year": 2023,
+      "trimestre": 4,
+      "periodo_str": "2023_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2023_4t_csv/conjunto_de_datos_ensu_cb_1223/conjunto_de_datos/conjunto_de_datos_ensu_cb_1223.csv",
+      "filename": "conjunto_de_datos_ensu_cb_1223.csv",
+      "size_mb": 14.73,
+      "modified_date": "2024-01-17T13:04:20",
+      "year": 2023,
+      "trimestre": 4,
+      "periodo_str": "2023_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 145
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2023_3t_csv/conjunto_de_datos_ensu_cb_0923/diccionario_de_datos/diccionario_de_datos_ensu_cb_0923.csv",
+      "filename": "diccionario_de_datos_ensu_cb_0923.csv",
+      "size_mb": 0.1,
+      "modified_date": "2023-10-18T15:36:46",
+      "year": 2023,
+      "trimestre": 3,
+      "periodo_str": "2023_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2023_3t_csv/conjunto_de_datos_ensu_cb_0923/conjunto_de_datos/conjunto_de_datos_ensu_cb_0923.csv",
+      "filename": "conjunto_de_datos_ensu_cb_0923.csv",
+      "size_mb": 27.47,
+      "modified_date": "2023-10-18T15:37:24",
+      "year": 2023,
+      "trimestre": 3,
+      "periodo_str": "2023_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 240
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2024_1t_csv/conjunto_de_datos_ensu_cb_0324/diccionario_de_datos/diccionario_de_datos_ensu_cb_0324.csv",
+      "filename": "diccionario_de_datos_ensu_cb_0324.csv",
+      "size_mb": 0.04,
+      "modified_date": "2024-04-16T09:38:38",
+      "year": 2024,
+      "trimestre": 1,
+      "periodo_str": "2024_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2024_1t_csv/conjunto_de_datos_ensu_cb_0324/conjunto_de_datos/conjunto_de_datos_ensu_cb_0324.csv",
+      "filename": "conjunto_de_datos_ensu_cb_0324.csv",
+      "size_mb": 14.74,
+      "modified_date": "2024-04-16T09:38:48",
+      "year": 2024,
+      "trimestre": 1,
+      "periodo_str": "2024_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 145
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2021_2t_csv/conjunto_de_datos_CB_ENSU_06_2021/diccionario_de_datos/diccionario_de_datos_CB_ENSU_06_2021.csv",
+      "filename": "diccionario_de_datos_CB_ENSU_06_2021.csv",
+      "size_mb": 0.04,
+      "modified_date": "2021-07-09T16:27:32",
+      "year": 2021,
+      "trimestre": 2,
+      "periodo_str": "2021_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2021_2t_csv/conjunto_de_datos_CB_ENSU_06_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_06_2021.csv",
+      "filename": "conjunto_de_datos_CB_ENSU_06_2021.csv",
+      "size_mb": 16.39,
+      "modified_date": "2021-07-09T16:27:32",
+      "year": 2021,
+      "trimestre": 2,
+      "periodo_str": "2021_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 142
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_01_2015/conjunto_de_datos_cb_ensu_01_2015/diccionario_de_datos/diccionario_de_datos_cb_ensu_01_2015.csv",
+      "filename": "diccionario_de_datos_cb_ensu_01_2015.csv",
+      "size_mb": 0.01,
+      "modified_date": "2018-12-05T15:15:36",
+      "year": 2015,
+      "trimestre": 1,
+      "periodo_str": "2015_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_01_2015/conjunto_de_datos_cb_ensu_01_2015/conjunto_de_datos/conjunto_de_datos_cb_ensu_01_2015.csv",
+      "filename": "conjunto_de_datos_cb_ensu_01_2015.csv",
+      "size_mb": 0.25,
+      "modified_date": "2018-11-14T10:33:58",
+      "year": 2015,
+      "trimestre": 1,
+      "periodo_str": "2015_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿CD",
+        "PER",
+        "EDIS",
+        "UPM_DIS",
+        "FOL"
+      ],
+      "total_columnas": 34
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2019_2t_csv/conjunto_de_datos_cb_ENSU_2019_2t/diccionario_de_datos/diccionario_de_datos_cb_ENSU_2019_2t.csv",
+      "filename": "diccionario_de_datos_cb_ENSU_2019_2t.csv",
+      "size_mb": 0.04,
+      "modified_date": "2019-07-10T15:37:22",
+      "year": 2019,
+      "trimestre": 2,
+      "periodo_str": "2019_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "RANGO_CLAVES",
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2019_2t_csv/conjunto_de_datos_cb_ENSU_2019_2t/conjunto_de_datos/conjunto_de_datos_cb_ENSU_2019_2t.csv",
+      "filename": "conjunto_de_datos_cb_ENSU_2019_2t.csv",
+      "size_mb": 12.99,
+      "modified_date": "2019-07-10T15:37:22",
+      "year": 2019,
+      "trimestre": 2,
+      "periodo_str": "2019_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 128
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2021_3t_csv/conjunto_de_datos_CB_ENSU_09_2021/diccionario_de_datos/diccionario_de_datos_CB_ENSU_09_2021.csv",
+      "filename": "diccionario_de_datos_CB_ENSU_09_2021.csv",
+      "size_mb": 0.09,
+      "modified_date": "2021-10-14T11:21:56",
+      "year": 2021,
+      "trimestre": 3,
+      "periodo_str": "2021_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2021_3t_csv/conjunto_de_datos_CB_ENSU_09_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_09_2021.csv",
+      "filename": "conjunto_de_datos_CB_ENSU_09_2021.csv",
+      "size_mb": 23.74,
+      "modified_date": "2021-10-14T11:22:38",
+      "year": 2021,
+      "trimestre": 3,
+      "periodo_str": "2021_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 217
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_02_2017_csv/conjunto_de_datos_cb_ensu_02_2017/diccionario_de_datos/diccionario_de_datos_cb_ensu_02_2017.csv",
+      "filename": "diccionario_de_datos_cb_ensu_02_2017.csv",
+      "size_mb": 0.04,
+      "modified_date": "2018-11-12T12:20:28",
+      "year": 2017,
+      "trimestre": 2,
+      "periodo_str": "2017_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_02_2017_csv/conjunto_de_datos_cb_ensu_02_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_02_2017.csv",
+      "filename": "conjunto_de_datos_cb_ensu_02_2017.csv",
+      "size_mb": 10.21,
+      "modified_date": "2018-11-12T12:10:54",
+      "year": 2017,
+      "trimestre": 2,
+      "periodo_str": "2017_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 137
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_03_2017_csv/conjunto_de_datos_cb_ensu_03_2017/diccionario_de_datos/diccionario_de_datos_cb_ensu_03_2017.csv",
+      "filename": "diccionario_de_datos_cb_ensu_03_2017.csv",
+      "size_mb": 0.04,
+      "modified_date": "2018-11-12T11:03:04",
+      "year": 2017,
+      "trimestre": 3,
+      "periodo_str": "2017_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_03_2017_csv/conjunto_de_datos_cb_ensu_03_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2017.csv",
+      "filename": "conjunto_de_datos_cb_ensu_03_2017.csv",
+      "size_mb": 10.13,
+      "modified_date": "2018-11-12T09:49:00",
+      "year": 2017,
+      "trimestre": 3,
+      "periodo_str": "2017_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 137
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_03_2016_csv/conjunto_de_datos_cb_ensu_03_2016/diccionario_de_datos/diccionario_de_datos_cb_ensu_03_2016.csv",
+      "filename": "diccionario_de_datos_cb_ensu_03_2016.csv",
+      "size_mb": 0.04,
+      "modified_date": "2018-11-12T15:43:58",
+      "year": 2016,
+      "trimestre": 3,
+      "periodo_str": "2016_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_03_2016_csv/conjunto_de_datos_cb_ensu_03_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2016.csv",
+      "filename": "conjunto_de_datos_cb_ensu_03_2016.csv",
+      "size_mb": 7.39,
+      "modified_date": "2018-11-12T15:19:00",
+      "year": 2016,
+      "trimestre": 3,
+      "periodo_str": "2016_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "ENT",
+        "MUN"
+      ],
+      "total_columnas": 120
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_02_2016_csv/conjunto_de_datos_cb_ensu_02_2016/diccionario_de_datos/diccionario_de_datos_cb_ensu_02_2016.csv",
+      "filename": "diccionario_de_datos_cb_ensu_02_2016.csv",
+      "size_mb": 0.02,
+      "modified_date": "2018-11-13T10:35:54",
+      "year": 2016,
+      "trimestre": 2,
+      "periodo_str": "2016_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_02_2016_csv/conjunto_de_datos_cb_ensu_02_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_02_2016.csv",
+      "filename": "conjunto_de_datos_cb_ensu_02_2016.csv",
+      "size_mb": 6.18,
+      "modified_date": "2018-11-13T10:19:42",
+      "year": 2016,
+      "trimestre": 2,
+      "periodo_str": "2016_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "ENT",
+        "MUN"
+      ],
+      "total_columnas": 110
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2023_2t_csv/conjunto_de_datos_ensu_cb_0623/diccionario_de_datos/diccionario_de_datos_ensu_cb_0623.csv",
+      "filename": "diccionario_de_datos_ensu_cb_0623.csv",
+      "size_mb": 0.04,
+      "modified_date": "2023-07-17T11:37:48",
+      "year": 2023,
+      "trimestre": 2,
+      "periodo_str": "2023_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2023_2t_csv/conjunto_de_datos_ensu_cb_0623/conjunto_de_datos/conjunto_de_datos_ensu_cb_0623.csv",
+      "filename": "conjunto_de_datos_ensu_cb_0623.csv",
+      "size_mb": 18.31,
+      "modified_date": "2023-07-17T11:37:54",
+      "year": 2023,
+      "trimestre": 2,
+      "periodo_str": "2023_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 145
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ENSU_2019_1t_csv/conjunto_de_datos_cb_ensu_03_2019/diccionario_de_datos/diccionario_de_datos_cb_ensu_03_2019.csv",
+      "filename": "diccionario_de_datos_cb_ensu_03_2019.csv",
+      "size_mb": 0.03,
+      "modified_date": "2019-04-16T17:44:22",
+      "year": 2019,
+      "trimestre": 1,
+      "periodo_str": "2019_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ENSU_2019_1t_csv/conjunto_de_datos_cb_ensu_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2019.csv",
+      "filename": "conjunto_de_datos_cb_ensu_03_2019.csv",
+      "size_mb": 4.75,
+      "modified_date": "2019-04-15T15:09:22",
+      "year": 2019,
+      "trimestre": 1,
+      "periodo_str": "2019_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 131
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2024_3t_csv/conjunto_de_datos_ensu_cb_0924/diccionario_de_datos/diccionario_de_datos_ensu_cb_0924.csv",
+      "filename": "diccionario_de_datos_ensu_cb_0924.csv",
+      "size_mb": 0.1,
+      "modified_date": "2024-10-15T14:51:14",
+      "year": 2024,
+      "trimestre": 3,
+      "periodo_str": "2024_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2024_3t_csv/conjunto_de_datos_ensu_cb_0924/conjunto_de_datos/conjunto_de_datos_ensu_cb_0924.csv",
+      "filename": "conjunto_de_datos_ensu_cb_0924.csv",
+      "size_mb": 22.36,
+      "modified_date": "2024-10-15T14:51:42",
+      "year": 2024,
+      "trimestre": 3,
+      "periodo_str": "2024_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 245
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2020_4t_csv/conjunto_de_datos_CB_ENSU_12_2020/diccionario_de_datos/diccionario_de_datos_CB_ENSU_12_2020.csv",
+      "filename": "diccionario_de_datos_CB_ENSU_12_2020.csv",
+      "size_mb": 0.05,
+      "modified_date": "2021-01-12T15:55:46",
+      "year": 2020,
+      "trimestre": 4,
+      "periodo_str": "2020_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2020_4t_csv/conjunto_de_datos_CB_ENSU_12_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2020.csv",
+      "filename": "conjunto_de_datos_CB_ENSU_12_2020.csv",
+      "size_mb": 19.18,
+      "modified_date": "2021-01-12T15:55:46",
+      "year": 2020,
+      "trimestre": 4,
+      "periodo_str": "2020_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 176
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2023_1t_csv/conjunto_de_datos_CB_ENSU_03_2023/diccionario_de_datos/diccionario_de_datos_CB_ENSU_03_2023.csv",
+      "filename": "diccionario_de_datos_CB_ENSU_03_2023.csv",
+      "size_mb": 0.04,
+      "modified_date": "2023-04-13T16:45:02",
+      "year": 2023,
+      "trimestre": 1,
+      "periodo_str": "2023_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2023_1t_csv/conjunto_de_datos_CB_ENSU_03_2023/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2023.csv",
+      "filename": "conjunto_de_datos_CB_ENSU_03_2023.csv",
+      "size_mb": 17.53,
+      "modified_date": "2023-04-13T16:45:10",
+      "year": 2023,
+      "trimestre": 1,
+      "periodo_str": "2023_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 142
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_02_2015/conjunto_de_datos_cb_ensu_02_2015/diccionario_de_datos/diccionario_de_datos_cb_ensu_02_2015.csv",
+      "filename": "diccionario_de_datos_cb_ensu_02_2015.csv",
+      "size_mb": 0.01,
+      "modified_date": "2018-12-05T15:15:36",
+      "year": 2015,
+      "trimestre": 2,
+      "periodo_str": "2015_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_02_2015/conjunto_de_datos_cb_ensu_02_2015/conjunto_de_datos/conjunto_de_datos_cb_ensu_02_2015.csv",
+      "filename": "conjunto_de_datos_cb_ensu_02_2015.csv",
+      "size_mb": 0.25,
+      "modified_date": "2018-11-14T13:45:44",
+      "year": 2015,
+      "trimestre": 2,
+      "periodo_str": "2015_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿CD",
+        "PER",
+        "EDIS",
+        "UPM_DIS",
+        "FOL"
+      ],
+      "total_columnas": 34
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_03_2015/conjunto_de_datos_cb_ensu_03_2015/diccionario_de_datos/diccionario_de_datos_cb_ensu_03_2015.csv",
+      "filename": "diccionario_de_datos_cb_ensu_03_2015.csv",
+      "size_mb": 0.01,
+      "modified_date": "2018-12-05T15:15:36",
+      "year": 2015,
+      "trimestre": 3,
+      "periodo_str": "2015_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_03_2015/conjunto_de_datos_cb_ensu_03_2015/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2015.csv",
+      "filename": "conjunto_de_datos_cb_ensu_03_2015.csv",
+      "size_mb": 0.25,
+      "modified_date": "2018-11-14T13:59:32",
+      "year": 2015,
+      "trimestre": 3,
+      "periodo_str": "2015_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿CD",
+        "PER",
+        "EDIS",
+        "UPM_DIS",
+        "FOL"
+      ],
+      "total_columnas": 34
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2022_4t_csv/conjunto_de_datos_ensu_cb_1222/diccionario_de_datos/diccionario_de_datos_ensu_cb_1222.csv",
+      "filename": "diccionario_de_datos_ensu_cb_1222.csv",
+      "size_mb": 0.04,
+      "modified_date": "2024-05-09T12:22:46",
+      "year": 2022,
+      "trimestre": 4,
+      "periodo_str": "2022_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2022_4t_csv/conjunto_de_datos_ensu_cb_1222/conjunto_de_datos/conjunto_de_datos_ensu_cb_1222.csv",
+      "filename": "conjunto_de_datos_ensu_cb_1222.csv",
+      "size_mb": 14.82,
+      "modified_date": "2024-05-09T12:22:54",
+      "year": 2022,
+      "trimestre": 4,
+      "periodo_str": "2022_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 145
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2018_4t_csv/conjunto_de_datos_cb_ensu_04_2018/diccionario_de_datos/diccionario_de_datos_cb_ENSU_04_2018.csv",
+      "filename": "diccionario_de_datos_cb_ENSU_04_2018.csv",
+      "size_mb": 0.04,
+      "modified_date": "2019-01-15T10:42:28",
+      "year": 2018,
+      "trimestre": 4,
+      "periodo_str": "2018_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2018_4t_csv/conjunto_de_datos_cb_ensu_04_2018/conjunto_de_datos/conjunto_de_datos_cb_ENSU_04_2018.csv",
+      "filename": "conjunto_de_datos_cb_ENSU_04_2018.csv",
+      "size_mb": 10.97,
+      "modified_date": "2019-01-15T10:42:06",
+      "year": 2018,
+      "trimestre": 4,
+      "periodo_str": "2018_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 123
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2024_2t_csv/conjunto_de_datos_ensu_cb_0624/diccionario_de_datos/diccionario_de_datos_ensu_cb_0624.csv",
+      "filename": "diccionario_de_datos_ensu_cb_0624.csv",
+      "size_mb": 0.04,
+      "modified_date": "2024-07-17T09:26:06",
+      "year": 2024,
+      "trimestre": 2,
+      "periodo_str": "2024_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2024_2t_csv/conjunto_de_datos_ensu_cb_0624/conjunto_de_datos/conjunto_de_datos_ensu_cb_0624.csv",
+      "filename": "conjunto_de_datos_ensu_cb_0624.csv",
+      "size_mb": 15.67,
+      "modified_date": "2024-07-17T09:26:24",
+      "year": 2024,
+      "trimestre": 2,
+      "periodo_str": "2024_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 149
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2021_1t_csv/conjunto_de_datos_CB_ENSU_03_2021/diccionario_de_datos/diccionario_de_datos_CB_ENSU_03_2021.csv",
+      "filename": "diccionario_de_datos_CB_ENSU_03_2021.csv",
+      "size_mb": 0.04,
+      "modified_date": "2021-04-12T14:38:56",
+      "year": 2021,
+      "trimestre": 1,
+      "periodo_str": "2021_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2021_1t_csv/conjunto_de_datos_CB_ENSU_03_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2021.csv",
+      "filename": "conjunto_de_datos_CB_ENSU_03_2021.csv",
+      "size_mb": 15.69,
+      "modified_date": "2021-04-12T14:38:56",
+      "year": 2021,
+      "trimestre": 1,
+      "periodo_str": "2021_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 136
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_01_2017_csv/conjunto_de_datos_cb_ensu_01_2017/diccionario_de_datos/diccionario_de_datos_cb_ensu_01_2017.csv",
+      "filename": "diccionario_de_datos_cb_ensu_01_2017.csv",
+      "size_mb": 0.04,
+      "modified_date": "2018-11-12T12:48:46",
+      "year": 2017,
+      "trimestre": 1,
+      "periodo_str": "2017_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_01_2017_csv/conjunto_de_datos_cb_ensu_01_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_01_2017.csv",
+      "filename": "conjunto_de_datos_cb_ensu_01_2017.csv",
+      "size_mb": 9.61,
+      "modified_date": "2018-11-12T12:36:50",
+      "year": 2017,
+      "trimestre": 1,
+      "periodo_str": "2017_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 136
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_04_2015/conjunto_de_datos_cb_ensu_04_2015/diccionario_de_datos/diccionario_de_datos_cb_ensu_04_2015.csv",
+      "filename": "diccionario_de_datos_cb_ensu_04_2015.csv",
+      "size_mb": 0.01,
+      "modified_date": "2018-12-05T15:15:36",
+      "year": 2015,
+      "trimestre": 4,
+      "periodo_str": "2015_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_04_2015/conjunto_de_datos_cb_ensu_04_2015/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2015.csv",
+      "filename": "conjunto_de_datos_cb_ensu_04_2015.csv",
+      "size_mb": 0.25,
+      "modified_date": "2018-11-14T14:50:38",
+      "year": 2015,
+      "trimestre": 4,
+      "periodo_str": "2015_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿CD",
+        "PER",
+        "EDIS",
+        "UPM_DIS",
+        "FOL"
+      ],
+      "total_columnas": 34
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_01_2016_csv/conjunto_de_datos_cb_ensu_01_2016/diccionario_de_datos/diccionario_de_datos_cb_ensu_01_2016.csv",
+      "filename": "diccionario_de_datos_cb_ensu_01_2016.csv",
+      "size_mb": 0.01,
+      "modified_date": "2018-11-13T11:41:10",
+      "year": 2016,
+      "trimestre": 1,
+      "periodo_str": "2016_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_01_2016_csv/conjunto_de_datos_cb_ensu_01_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_01_2016.csv",
+      "filename": "conjunto_de_datos_cb_ensu_01_2016.csv",
+      "size_mb": 5.14,
+      "modified_date": "2018-11-13T11:32:20",
+      "year": 2016,
+      "trimestre": 1,
+      "periodo_str": "2016_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿VIV_SEL",
+        "H_MUD",
+        "CD",
+        "ENT",
+        "MUN"
+      ],
+      "total_columnas": 113
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2025_1t_csv/conjunto_de_datos_ensu_cb_0325/diccionario_de_datos/diccionario_de_datos_ensu_cb_0325.csv",
+      "filename": "diccionario_de_datos_ensu_cb_0325.csv",
+      "size_mb": 0.04,
+      "modified_date": "2025-04-14T15:08:40",
+      "year": 2025,
+      "trimestre": 1,
+      "periodo_str": "2025_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2025_1t_csv/conjunto_de_datos_ensu_cb_0325/conjunto_de_datos/conjunto_de_datos_ensu_cb_0325.csv",
+      "filename": "conjunto_de_datos_ensu_cb_0325.csv",
+      "size_mb": 14.82,
+      "modified_date": "2025-04-14T15:08:48",
+      "year": 2025,
+      "trimestre": 1,
+      "periodo_str": "2025_Q1",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 146
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2018_3t_csv/conjunto_de_datos_cb_ensu_03_2018/diccionario_de_datos/diccionario_de_datos_cb_ensu_03_2018.csv",
+      "filename": "diccionario_de_datos_cb_ensu_03_2018.csv",
+      "size_mb": 0.04,
+      "modified_date": "2018-10-11T15:43:06",
+      "year": 2018,
+      "trimestre": 3,
+      "periodo_str": "2018_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2018_3t_csv/conjunto_de_datos_cb_ensu_03_2018/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2018.csv",
+      "filename": "conjunto_de_datos_cb_ensu_03_2018.csv",
+      "size_mb": 13.54,
+      "modified_date": "2018-10-11T15:42:30",
+      "year": 2018,
+      "trimestre": 3,
+      "periodo_str": "2018_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 137
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2022_3t_csv/conjunto_de_datos_ensu_cb_0922/diccionario_de_datos/diccionario_de_datos_ensu_cb_0922.csv",
+      "filename": "diccionario_de_datos_ensu_cb_0922.csv",
+      "size_mb": 0.09,
+      "modified_date": "2024-05-09T12:12:38",
+      "year": 2022,
+      "trimestre": 3,
+      "periodo_str": "2022_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2022_3t_csv/conjunto_de_datos_ensu_cb_0922/conjunto_de_datos/conjunto_de_datos_ensu_cb_0922.csv",
+      "filename": "conjunto_de_datos_ensu_cb_0922.csv",
+      "size_mb": 19.42,
+      "modified_date": "2024-05-09T12:13:06",
+      "year": 2022,
+      "trimestre": 3,
+      "periodo_str": "2022_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 218
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2022_2t_csv/conjunto_de_datos_ensu_cb_0622/diccionario_de_datos/diccionario_de_datos_ensu_cb_0622.csv",
+      "filename": "diccionario_de_datos_ensu_cb_0622.csv",
+      "size_mb": 0.04,
+      "modified_date": "2024-05-09T12:12:04",
+      "year": 2022,
+      "trimestre": 2,
+      "periodo_str": "2022_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2022_2t_csv/conjunto_de_datos_ensu_cb_0622/conjunto_de_datos/conjunto_de_datos_ensu_cb_0622.csv",
+      "filename": "conjunto_de_datos_ensu_cb_0622.csv",
+      "size_mb": 14.29,
+      "modified_date": "2024-05-09T12:12:12",
+      "year": 2022,
+      "trimestre": 2,
+      "periodo_str": "2022_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 143
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC4_ENSU_09_2020/diccionario_de_datos/diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv",
+      "filename": "diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv",
+      "size_mb": 0.06,
+      "modified_date": "2020-10-09T11:46:48",
+      "year": 2020,
+      "trimestre": 3,
+      "periodo_str": "2020_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC4_ENSU_09_2020/conjunto_de_datos/conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv",
+      "filename": "conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv",
+      "size_mb": 11.34,
+      "modified_date": "2020-10-09T11:46:48",
+      "year": 2020,
+      "trimestre": 3,
+      "periodo_str": "2020_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 105
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020/diccionario_de_datos/diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv",
+      "filename": "diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv",
+      "size_mb": 0.05,
+      "modified_date": "2020-10-09T11:46:40",
+      "year": 2020,
+      "trimestre": 3,
+      "periodo_str": "2020_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020/conjunto_de_datos/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv",
+      "filename": "conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv",
+      "size_mb": 19.95,
+      "modified_date": "2020-10-09T11:46:40",
+      "year": 2020,
+      "trimestre": 3,
+      "periodo_str": "2020_Q3",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 188
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2018_2t_csv/ensu_cb_0218/diccionario_de_datos/diccionario_de_datos_ensu_cb_0218.csv",
+      "filename": "diccionario_de_datos_ensu_cb_0218.csv",
+      "size_mb": 0.04,
+      "modified_date": "2018-07-13T17:07:08",
+      "year": 2018,
+      "trimestre": 2,
+      "periodo_str": "2018_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿\"NOMBRE_CAMPO\"",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2018_2t_csv/ensu_cb_0218/conjunto_de_datos/ ensu_cb_0218.csv",
+      "filename": " ensu_cb_0218.csv",
+      "size_mb": 11.13,
+      "modified_date": "2018-07-13T17:06:18",
+      "year": 2018,
+      "trimestre": 2,
+      "periodo_str": "2018_Q2",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ï»¿UPM",
+        "VIV_SEL",
+        "R_SEL",
+        "CVE_ENT",
+        "NOM_ENT"
+      ],
+      "total_columnas": 129
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2024_4t_csv/conjunto_de_datos_ensu_cb_1224/diccionario_de_datos/diccionario_de_datos_ensu_cb_1224.csv",
+      "filename": "diccionario_de_datos_ensu_cb_1224.csv",
+      "size_mb": 0.05,
+      "modified_date": "2025-01-16T14:24:58",
+      "year": 2024,
+      "trimestre": 4,
+      "periodo_str": "2024_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "NOMBRE_CAMPO",
+        "NEMONICO",
+        "TIPO",
+        "LONGITUD",
+        "RANGO_CLAVES"
+      ],
+      "total_columnas": 5
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2024_4t_csv/conjunto_de_datos_ensu_cb_1224/conjunto_de_datos/conjunto_de_datos_ensu_cb_1224.csv",
+      "filename": "conjunto_de_datos_ensu_cb_1224.csv",
+      "size_mb": 15.23,
+      "modified_date": "2025-01-16T14:25:04",
+      "year": 2024,
+      "trimestre": 4,
+      "periodo_str": "2024_Q4",
+      "identificacion_metodo": "contenido",
+      "columnas_muestra": [
+        "ID_VIV",
+        "ID_PER",
+        "UPM",
+        "VIV_SEL",
+        "R_SEL"
+      ],
+      "total_columnas": 150
+    }
+  ]
+}

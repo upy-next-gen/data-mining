@@ -1,0 +1,1162 @@
+{
+  "timestamp": "2025-09-13T13:09:27",
+  "total_archivos_pendientes": 34,
+  "archivos_pendientes": [
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2022_1t_csv/conjunto_de_datos_ensu_cb_0322/conjunto_de_datos/conjunto_de_datos_ensu_cb_0322.csv",
+      "periodo_str": "2022_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 137
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 8770,
+          "2": 14757,
+          "9": 50
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 23577
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 272,
+        "total_registros": 23577,
+        "porcentaje_yucatan": 1.15,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_04_2017_csv/conjunto_de_datos_cb_ensu_04_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2017.csv",
+      "periodo_str": "2017_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 137
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 3980,
+          "2": 11073,
+          "9": 19
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 15072
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 261,
+        "total_registros": 15072,
+        "porcentaje_yucatan": 1.73,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_04_2016_csv/conjunto_de_datos_cb_ensu_04_2016/conjunto_de_datos/conjunto_de_datos_cb_ensu_04_2016.csv",
+      "periodo_str": "2016_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 122
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 3972,
+          "2": 9988,
+          "9": 16
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 13976
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 257,
+        "total_registros": 13976,
+        "porcentaje_yucatan": 1.84,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2018_1t_csv/ensu_cb_0118/conjunto_de_datos/ensu_cb_0118.csv",
+      "periodo_str": "2018_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 138
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 3967,
+          "2": 11179,
+          "9": 26
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 15172
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 266,
+        "total_registros": 15172,
+        "porcentaje_yucatan": 1.75,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2021_4t_csv/conjunto_de_datos_CB_ENSU_12_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2021.csv",
+      "periodo_str": "2021_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 142
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 8736,
+          "2": 14622,
+          "9": 70
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 23428
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 268,
+        "total_registros": 23428,
+        "porcentaje_yucatan": 1.14,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/Datos abiertos/conjunto_de_datos_CB_ENSU_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ENSU_03_2019.csv",
+      "periodo_str": "2019_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 132
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 7170,
+          "2": 15168,
+          "9": 54
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 22392
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 270,
+        "total_registros": 22392,
+        "porcentaje_yucatan": 1.21,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2025_2t_csv/conjunto_de_datos_ensu_cb_0625/conjunto_de_datos/conjunto_de_datos_ensu_cb_0625.csv",
+      "periodo_str": "2025_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 150
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 14290,
+          "1": 9392,
+          "9": 35
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 23717
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 255,
+        "total_registros": 23717,
+        "porcentaje_yucatan": 1.08,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2019_4t_csv/conjunto_de_datos_CB_ENSU_04_2019/conjunto_de_datos/conjunto_de_datos_CB_ENSU_04_2019.csv",
+      "periodo_str": "2019_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 137
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 15378,
+          "1": 6707,
+          "9": 73
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 22158
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 261,
+        "total_registros": 22158,
+        "porcentaje_yucatan": 1.18,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2020_1t_csv/conjunto_de_datos_CB_ENSU_01_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_01_2020.csv",
+      "periodo_str": "2020_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 133
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 15526,
+          "1": 6789,
+          "9": 101
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 22416
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 264,
+        "total_registros": 22416,
+        "porcentaje_yucatan": 1.18,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2023_4t_csv/conjunto_de_datos_ensu_cb_1223/conjunto_de_datos/conjunto_de_datos_ensu_cb_1223.csv",
+      "periodo_str": "2023_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 145
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 13625,
+          "1": 10347,
+          "9": 92
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 24064
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 268,
+        "total_registros": 24064,
+        "porcentaje_yucatan": 1.11,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2023_3t_csv/conjunto_de_datos_ensu_cb_0923/conjunto_de_datos/conjunto_de_datos_ensu_cb_0923.csv",
+      "periodo_str": "2023_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 240
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 14429,
+          "1": 9991,
+          "9": 73
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 24493
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 267,
+        "total_registros": 24493,
+        "porcentaje_yucatan": 1.09,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2024_1t_csv/conjunto_de_datos_ensu_cb_0324/conjunto_de_datos/conjunto_de_datos_ensu_cb_0324.csv",
+      "periodo_str": "2024_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 145
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 13892,
+          "1": 9983,
+          "9": 147
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 24022
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 257,
+        "total_registros": 24022,
+        "porcentaje_yucatan": 1.07,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2021_2t_csv/conjunto_de_datos_CB_ENSU_06_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_06_2021.csv",
+      "periodo_str": "2021_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 142
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 13901,
+          "1": 8438,
+          "9": 72
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 22411
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 268,
+        "total_registros": 22411,
+        "porcentaje_yucatan": 1.2,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2019_2t_csv/conjunto_de_datos_cb_ENSU_2019_2t/conjunto_de_datos/conjunto_de_datos_cb_ENSU_2019_2t.csv",
+      "periodo_str": "2019_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 128
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 13157,
+          "1": 5813,
+          "9": 40
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 19010
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 265,
+        "total_registros": 19010,
+        "porcentaje_yucatan": 1.39,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2021_3t_csv/conjunto_de_datos_CB_ENSU_09_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_09_2021.csv",
+      "periodo_str": "2021_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 217
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 14392,
+          "1": 8892,
+          "9": 72
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 23356
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 267,
+        "total_registros": 23356,
+        "porcentaje_yucatan": 1.14,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_02_2017_csv/conjunto_de_datos_cb_ensu_02_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_02_2017.csv",
+      "periodo_str": "2017_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 137
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 4314,
+          "2": 10934,
+          "9": 24
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 15272
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 264,
+        "total_registros": 15272,
+        "porcentaje_yucatan": 1.73,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_03_2017_csv/conjunto_de_datos_cb_ensu_03_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2017.csv",
+      "periodo_str": "2017_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 137
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 4128,
+          "2": 11146,
+          "9": 29
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 15303
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 263,
+        "total_registros": 15303,
+        "porcentaje_yucatan": 1.72,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2023_2t_csv/conjunto_de_datos_ensu_cb_0623/conjunto_de_datos/conjunto_de_datos_ensu_cb_0623.csv",
+      "periodo_str": "2023_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 145
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 14471,
+          "1": 9896,
+          "9": 68
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 24435
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 271,
+        "total_registros": 24435,
+        "porcentaje_yucatan": 1.11,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ENSU_2019_1t_csv/conjunto_de_datos_cb_ensu_03_2019/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2019.csv",
+      "periodo_str": "2019_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 131
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 5240,
+          "2": 12824,
+          "9": 49
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 18113
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 263,
+        "total_registros": 18113,
+        "porcentaje_yucatan": 1.45,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2024_3t_csv/conjunto_de_datos_ensu_cb_0924/conjunto_de_datos/conjunto_de_datos_ensu_cb_0924.csv",
+      "periodo_str": "2024_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 245
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 13557,
+          "1": 10480,
+          "9": 59
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 24096
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 258,
+        "total_registros": 24096,
+        "porcentaje_yucatan": 1.07,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2020_4t_csv/conjunto_de_datos_CB_ENSU_12_2020/conjunto_de_datos/conjunto_de_datos_CB_ENSU_12_2020.csv",
+      "periodo_str": "2020_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 176
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 7971,
+          "2": 14228,
+          "9": 84
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 22283
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 264,
+        "total_registros": 22283,
+        "porcentaje_yucatan": 1.18,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2023_1t_csv/conjunto_de_datos_CB_ENSU_03_2023/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2023.csv",
+      "periodo_str": "2023_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 142
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 14024,
+          "1": 9682,
+          "9": 72
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 23778
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 262,
+        "total_registros": 23778,
+        "porcentaje_yucatan": 1.1,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2022_4t_csv/conjunto_de_datos_ensu_cb_1222/conjunto_de_datos/conjunto_de_datos_ensu_cb_1222.csv",
+      "periodo_str": "2022_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 145
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 14689,
+          "1": 9618,
+          "9": 95
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 24402
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 262,
+        "total_registros": 24402,
+        "porcentaje_yucatan": 1.07,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2018_4t_csv/conjunto_de_datos_cb_ensu_04_2018/conjunto_de_datos/conjunto_de_datos_cb_ENSU_04_2018.csv",
+      "periodo_str": "2018_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 123
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 12520,
+          "1": 5442,
+          "9": 55
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 18017
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 269,
+        "total_registros": 18017,
+        "porcentaje_yucatan": 1.49,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2024_2t_csv/conjunto_de_datos_ensu_cb_0624/conjunto_de_datos/conjunto_de_datos_ensu_cb_0624.csv",
+      "periodo_str": "2024_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 149
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 13618,
+          "1": 10413,
+          "9": 83
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 24114
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 256,
+        "total_registros": 24114,
+        "porcentaje_yucatan": 1.06,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2021_1t_csv/conjunto_de_datos_CB_ENSU_03_2021/conjunto_de_datos/conjunto_de_datos_CB_ENSU_03_2021.csv",
+      "periodo_str": "2021_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 136
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 13776,
+          "1": 8430,
+          "9": 101
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 22307
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 265,
+        "total_registros": 22307,
+        "porcentaje_yucatan": 1.19,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_01_2017_csv/conjunto_de_datos_cb_ensu_01_2017/conjunto_de_datos/conjunto_de_datos_cb_ensu_01_2017.csv",
+      "periodo_str": "2017_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 136
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 4153,
+          "2": 10299,
+          "9": 45
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 14497
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 263,
+        "total_registros": 14497,
+        "porcentaje_yucatan": 1.81,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2025_1t_csv/conjunto_de_datos_ensu_cb_0325/conjunto_de_datos/conjunto_de_datos_ensu_cb_0325.csv",
+      "periodo_str": "2025_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 146
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 13983,
+          "1": 9543,
+          "9": 65
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 23591
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 258,
+        "total_registros": 23591,
+        "porcentaje_yucatan": 1.09,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2018_3t_csv/conjunto_de_datos_cb_ensu_03_2018/conjunto_de_datos/conjunto_de_datos_cb_ensu_03_2018.csv",
+      "periodo_str": "2018_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 137
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 5705,
+          "2": 14379,
+          "9": 79
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 20163
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 265,
+        "total_registros": 20163,
+        "porcentaje_yucatan": 1.31,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2022_3t_csv/conjunto_de_datos_ensu_cb_0922/conjunto_de_datos/conjunto_de_datos_ensu_cb_0922.csv",
+      "periodo_str": "2022_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 218
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 14353,
+          "1": 9182,
+          "9": 83
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 23618
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 263,
+        "total_registros": 23618,
+        "porcentaje_yucatan": 1.11,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2022_2t_csv/conjunto_de_datos_ensu_cb_0622/conjunto_de_datos/conjunto_de_datos_ensu_cb_0622.csv",
+      "periodo_str": "2022_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 143
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 15178,
+          "1": 8464,
+          "9": 46
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 23688
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 275,
+        "total_registros": 23688,
+        "porcentaje_yucatan": 1.16,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2020_3t_csv/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020/conjunto_de_datos/conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv",
+      "periodo_str": "2020_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 188
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 7909,
+          "2": 14112,
+          "9": 101
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 22122
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 262,
+        "total_registros": 22122,
+        "porcentaje_yucatan": 1.18,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2018_2t_csv/ensu_cb_0218/conjunto_de_datos/ ensu_cb_0218.csv",
+      "periodo_str": "2018_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 129
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 4955,
+          "2": 12551,
+          "9": 42
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 17548
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 264,
+        "total_registros": 17548,
+        "porcentaje_yucatan": 1.5,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data/Archive/conjunto_de_datos_ensu_2024_4t_csv/conjunto_de_datos_ensu_cb_1224/conjunto_de_datos/conjunto_de_datos_ensu_cb_1224.csv",
+      "periodo_str": "2024_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 150
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          2,
+          1,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 13762,
+          "1": 9625,
+          "9": 64
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 23451
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 260,
+        "total_registros": 23451,
+        "porcentaje_yucatan": 1.11,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    }
+  ]
+}

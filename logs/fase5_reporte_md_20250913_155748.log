@@ -1,0 +1,71 @@
+2025-09-13 15:57:48,955 - INFO - --- Starting Phase 5: Markdown Report Generation ---
+2025-09-13 15:57:48,978 - INFO - Generating time-series line chart...
+2025-09-13 15:57:49,026 - INFO - Chromium init'ed with kwargs {}
+2025-09-13 15:57:49,026 - INFO - Found chromium path: /Users/eli/Documents/UPY/6to/data_mining/data-mining/.venv/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+2025-09-13 15:57:49,027 - INFO - Temp directory created: /var/folders/b4/_3mj9ff5279dh5_d465pxnk00000gn/T/tmpgu2lu18w.
+2025-09-13 15:57:49,027 - INFO - Opening browser.
+2025-09-13 15:57:49,028 - INFO - Temp directory created: /var/folders/b4/_3mj9ff5279dh5_d465pxnk00000gn/T/tmp5m9t4nc3.
+2025-09-13 15:57:49,028 - INFO - Temporary directory at: /var/folders/b4/_3mj9ff5279dh5_d465pxnk00000gn/T/tmp5m9t4nc3
+2025-09-13 15:57:50,018 - INFO - Conforming 1 to file:///var/folders/b4/_3mj9ff5279dh5_d465pxnk00000gn/T/tmpgu2lu18w/index.html
+2025-09-13 15:57:50,019 - INFO - Waiting on all navigates
+2025-09-13 15:57:50,826 - INFO - All navigates done, putting them all in queue.
+2025-09-13 15:57:50,827 - INFO - Getting tab from queue (has 1)
+2025-09-13 15:57:50,827 - INFO - Got CB6C
+2025-09-13 15:57:50,827 - INFO - Processing Evolucin_de_la_Percepcin_de_Inseguridad_en_Yucatn.svg
+2025-09-13 15:57:50,827 - INFO - Sending big command for Evolucin_de_la_Percepcin_de_Inseguridad_en_Yucatn.svg.
+2025-09-13 15:57:50,868 - INFO - Sent big command for Evolucin_de_la_Percepcin_de_Inseguridad_en_Yucatn.svg.
+2025-09-13 15:57:50,869 - INFO - Reloading tab CB6C before return.
+2025-09-13 15:57:50,937 - INFO - Putting tab CB6C back (queue size: 0).
+2025-09-13 15:57:50,937 - INFO - Waiting for all cleanups to finish.
+2025-09-13 15:57:50,937 - INFO - Exiting Kaleido
+2025-09-13 15:57:50,937 - INFO - Closing browser.
+2025-09-13 15:57:50,938 - INFO - Closing browser.
+2025-09-13 15:57:50,938 - INFO - TemporaryDirectory.cleanup() worked.
+2025-09-13 15:57:50,939 - INFO - shutil.rmtree worked.
+2025-09-13 15:57:50,939 - INFO - Cancelling tasks.
+2025-09-13 15:57:50,939 - INFO - Exiting Kaleido/Choreo
+2025-09-13 15:57:51,021 - INFO - TemporaryDirectory.cleanup() worked.
+2025-09-13 15:57:51,021 - INFO - shutil.rmtree worked.
+2025-09-13 15:57:51,021 - INFO - TemporaryDirectory.cleanup() worked.
+2025-09-13 15:57:51,021 - INFO - shutil.rmtree worked.
+2025-09-13 15:57:51,021 - INFO - Cancelling tasks.
+2025-09-13 15:57:51,021 - INFO - Exiting Kaleido/Choreo
+2025-09-13 15:57:51,022 - INFO - Line chart saved to /Users/eli/Documents/UPY/6to/data_mining/data-mining/reports/graficas/line_chart.svg
+2025-09-13 15:57:51,022 - INFO - Generating municipality bar chart...
+2025-09-13 15:57:51,024 - INFO - TemporaryDirectory.cleanup() worked.
+2025-09-13 15:57:51,024 - INFO - shutil.rmtree worked.
+2025-09-13 15:57:51,025 - INFO - Chromium init'ed with kwargs {}
+2025-09-13 15:57:51,025 - INFO - Found chromium path: /Users/eli/Documents/UPY/6to/data_mining/data-mining/.venv/lib/python3.13/site-packages/choreographer/cli/browser_exe/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+2025-09-13 15:57:51,025 - INFO - Temp directory created: /var/folders/b4/_3mj9ff5279dh5_d465pxnk00000gn/T/tmp6fxb7uzk.
+2025-09-13 15:57:51,025 - INFO - Opening browser.
+2025-09-13 15:57:51,025 - INFO - Temp directory created: /var/folders/b4/_3mj9ff5279dh5_d465pxnk00000gn/T/tmph4vg7gap.
+2025-09-13 15:57:51,025 - INFO - Temporary directory at: /var/folders/b4/_3mj9ff5279dh5_d465pxnk00000gn/T/tmph4vg7gap
+2025-09-13 15:57:51,373 - INFO - Conforming 1 to file:///var/folders/b4/_3mj9ff5279dh5_d465pxnk00000gn/T/tmp6fxb7uzk/index.html
+2025-09-13 15:57:51,374 - INFO - Waiting on all navigates
+2025-09-13 15:57:52,086 - INFO - All navigates done, putting them all in queue.
+2025-09-13 15:57:52,087 - INFO - Getting tab from queue (has 1)
+2025-09-13 15:57:52,087 - INFO - Got 99E9
+2025-09-13 15:57:52,087 - INFO - Processing Inseguridad_Promedio_por_Municipio.svg
+2025-09-13 15:57:52,087 - INFO - Sending big command for Inseguridad_Promedio_por_Municipio.svg.
+2025-09-13 15:57:52,111 - INFO - Sent big command for Inseguridad_Promedio_por_Municipio.svg.
+2025-09-13 15:57:52,111 - INFO - Reloading tab 99E9 before return.
+2025-09-13 15:57:52,175 - INFO - Putting tab 99E9 back (queue size: 0).
+2025-09-13 15:57:52,176 - INFO - Waiting for all cleanups to finish.
+2025-09-13 15:57:52,176 - INFO - Exiting Kaleido
+2025-09-13 15:57:52,176 - INFO - Closing browser.
+2025-09-13 15:57:52,176 - INFO - Closing browser.
+2025-09-13 15:57:52,177 - INFO - TemporaryDirectory.cleanup() worked.
+2025-09-13 15:57:52,177 - INFO - shutil.rmtree worked.
+2025-09-13 15:57:52,177 - INFO - Cancelling tasks.
+2025-09-13 15:57:52,177 - INFO - Exiting Kaleido/Choreo
+2025-09-13 15:57:52,255 - INFO - TemporaryDirectory.cleanup() worked.
+2025-09-13 15:57:52,255 - INFO - shutil.rmtree worked.
+2025-09-13 15:57:52,255 - INFO - TemporaryDirectory.cleanup() worked.
+2025-09-13 15:57:52,255 - INFO - shutil.rmtree worked.
+2025-09-13 15:57:52,255 - INFO - Cancelling tasks.
+2025-09-13 15:57:52,255 - INFO - Exiting Kaleido/Choreo
+2025-09-13 15:57:52,256 - INFO - Bar chart saved to /Users/eli/Documents/UPY/6to/data_mining/data-mining/reports/graficas/bar_chart.svg
+2025-09-13 15:57:52,273 - INFO - TemporaryDirectory.cleanup() worked.
+2025-09-13 15:57:52,273 - INFO - shutil.rmtree worked.
+2025-09-13 15:57:52,274 - INFO - Successfully created Markdown report: /Users/eli/Documents/UPY/6to/data_mining/data-mining/reports/reporte_percepcion.md
+2025-09-13 15:57:52,274 - INFO - --- Markdown report generation finished ---
