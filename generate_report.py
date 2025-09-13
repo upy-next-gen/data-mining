@@ -111,6 +111,14 @@ def load_frames(files: List[str]) -> pd.DataFrame:
 
 def normalize_fields(df: pd.DataFrame) -> pd.DataFrame:
     out = df.copy()
+    # Normalizador básico: quitar acentos, mayúsculas y espacios
+    import unicodedata
+    def _norm(x: Any) -> Any:
+        if not isinstance(x, str):
+            return x
+        s = unicodedata.normalize('NFD', x)
+        s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
+        return s.upper().strip()
     # Standardize expected columns if present
     # Year and quarter
     if 'AÑO' in out.columns:
@@ -128,6 +136,17 @@ def normalize_fields(df: pd.DataFrame) -> pd.DataFrame:
         out['NOM_MUN'] = out['MUN_CODE']
     if 'NOM_ENT' not in out.columns and 'ENT_CODE' in out.columns:
         out['NOM_ENT'] = out['ENT_CODE']
+
+    # Columns canonicalized for grouping/visuals
+    if 'NOM_MUN' in out.columns:
+        out['Municipio'] = out['NOM_MUN'].astype(str).map(_norm)
+    elif 'MUN_CODE' in out.columns:
+        out['Municipio'] = out['MUN_CODE'].astype(str).map(_norm)
+
+    if 'NOM_ENT' in out.columns:
+        out['Entidad'] = out['NOM_ENT'].astype(str).map(_norm)
+    elif 'ENT_CODE' in out.columns:
+        out['Entidad'] = out['ENT_CODE'].astype(str).map(_norm)
 
     # Percent insecure
     if 'PCT_INSEGUROS' in out.columns:
@@ -194,7 +213,7 @@ def build_charts(df: pd.DataFrame) -> List[Dict[str, Any]]:
             charts.append({'id': 'chart_trend', 'title': 'Tendencia', 'spec': spec, 'note': 'Promedio trimestral en todos los municipios.'})
 
     # 2. Barras: Top 10 municipios por promedio
-    mun_col = 'NOM_MUN' if 'NOM_MUN' in df.columns else None
+    mun_col = 'Municipio' if 'Municipio' in df.columns else ('NOM_MUN' if 'NOM_MUN' in df.columns else None)
     if mun_col and 'Pct_Inseguros' in df.columns:
         d2 = df[[mun_col, 'Pct_Inseguros']].dropna()
         if not d2.empty:
@@ -335,8 +354,8 @@ def main(argv: List[str] | None = None) -> None:
     kpis = []
     total_rows = len(df)
     kpis.append({'label': 'Filas', 'value': human_int(total_rows), 'note': 'Total de registros combinados'})
-    if 'NOM_MUN' in df.columns:
-        kpis.append({'label': 'Municipios', 'value': human_int(df['NOM_MUN'].nunique(dropna=True)), 'note': 'Únicos'})
+    if 'Municipio' in df.columns:
+        kpis.append({'label': 'Municipios', 'value': human_int(df['Municipio'].nunique(dropna=True)), 'note': 'Únicos'})
     if 'Anio' in df.columns and df['Anio'].notna().any():
         anios = df['Anio'].dropna().astype(int)
         kpis.append({'label': 'Años', 'value': f"{anios.min()}–{anios.max()}"})

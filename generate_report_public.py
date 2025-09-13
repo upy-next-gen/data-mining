@@ -102,10 +102,11 @@ def main(argv: List[str] | None = None) -> None:
             trend = 'aumentó' if delta > 0 else 'disminuyó' if delta < 0 else 'se mantuvo'
             bullets.append(f"En el periodo analizado, el promedio {trend} {abs(delta):.1f} puntos porcentuales.")
 
-    if 'NOM_MUN' in df_yuc.columns and 'Pct_Inseguros' in df_yuc.columns:
-        m = df_yuc[['NOM_MUN', 'Pct_Inseguros']].dropna()
+    mun_col = 'Municipio' if 'Municipio' in df_yuc.columns else ('NOM_MUN' if 'NOM_MUN' in df_yuc.columns else None)
+    if mun_col and 'Pct_Inseguros' in df_yuc.columns:
+        m = df_yuc[[mun_col, 'Pct_Inseguros']].dropna()
         if not m.empty:
-            g = m.groupby('NOM_MUN')['Pct_Inseguros'].mean().sort_values()
+            g = m.groupby(mun_col)['Pct_Inseguros'].mean().sort_values()
             bullets.append(f"Municipio con menor percepción: {g.index[0]} ({g.iloc[0]:.1f}%).")
             bullets.append(f"Municipio con mayor percepción: {g.index[-1]} ({g.iloc[-1]:.1f}%).")
 
@@ -159,4 +160,3 @@ def main(argv: List[str] | None = None) -> None:
 
 if __name__ == '__main__':
     main()
-
