@@ -1,0 +1,1025 @@
+[2025-09-10 20:18:32,201] INFO: === INICIANDO FASE 4: PROCESAMIENTO ===
+[2025-09-10 20:18:32,222] INFO: 
+--- Procesando 2020_Q3 ---
+[2025-09-10 20:18:32,222] INFO: ============================================================
+[2025-09-10 20:18:32,222] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+[2025-09-10 20:18:32,222] INFO: Período: 2020_Q3
+[2025-09-10 20:18:32,222] INFO: Ruta completa: data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+[2025-09-10 20:18:32,230] INFO: Tamaño del archivo: 19.95 MB
+[2025-09-10 20:18:32,230] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:32,470] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:32,470] INFO:   - Registros totales: 22,122
+[2025-09-10 20:18:32,470] INFO:   - Columnas totales: 188
+[2025-09-10 20:18:32,471] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:32,480] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:32,481] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:32,481] INFO:   - Estados presentes: Aguascalientes, Baja California, Baja California Sur, Campeche, Coahuila de Zaragoza...
+[2025-09-10 20:18:32,481] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:32,481] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:32,482] INFO:   - Valores únicos (muestra): {2: 14112, 1: 7909, 9: 101}
+[2025-09-10 20:18:32,482] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:32,482] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:32,482] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:32,493] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:32,493] INFO:   - Registros con valores válidos: 22,122
+[2025-09-10 20:18:32,493] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:32,493] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:32,494] INFO:     BP1_1=1: 7,909 (35.8%)
+[2025-09-10 20:18:32,494] INFO:     BP1_1=2: 14,112 (63.8%)
+[2025-09-10 20:18:32,494] INFO:     BP1_1=9: 101 (0.5%)
+[2025-09-10 20:18:32,494] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:32,504] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:32,504] INFO:   - Registros de Yucatán: 262
+[2025-09-10 20:18:32,504] INFO:   - Porcentaje del total: 1.18%
+[2025-09-10 20:18:32,504] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:32,504] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:32,504] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:32,504] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:32,504] INFO:     Seguro (BP1_1=1): 199 (76.0%)
+[2025-09-10 20:18:32,504] INFO:     Inseguro (BP1_1=2): 63 (24.0%)
+[2025-09-10 20:18:32,504] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:32,506] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:32,507] INFO: Resumen por municipio:
+[2025-09-10 20:18:32,508] INFO:   - Kanasin: 10 respuestas, 70.0% seguro
+[2025-09-10 20:18:32,508] INFO:   - Merida: 212 respuestas, 78.8% seguro
+[2025-09-10 20:18:32,508] INFO:   - Progreso: 28 respuestas, 57.1% seguro
+[2025-09-10 20:18:32,508] INFO:   - Uman: 12 respuestas, 75.0% seguro
+[2025-09-10 20:18:32,508] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:32,508] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:32,509] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:32,509] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:32,509] INFO:   Percepción general - Seguros: 76.0%, Inseguros: 24.0%
+[2025-09-10 20:18:32,511] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2020_Q3.csv
+[2025-09-10 20:18:32,511] INFO: 
+--- Procesando 2020_Q4 ---
+[2025-09-10 20:18:32,511] INFO: ============================================================
+[2025-09-10 20:18:32,511] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_CB_ENSU_12_2020.csv
+[2025-09-10 20:18:32,511] INFO: Período: 2020_Q4
+[2025-09-10 20:18:32,511] INFO: Ruta completa: data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\conjunto_de_datos\conjunto_de_datos_CB_ENSU_12_2020.csv
+[2025-09-10 20:18:32,511] INFO: Tamaño del archivo: 19.18 MB
+[2025-09-10 20:18:32,511] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:32,737] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:32,737] INFO:   - Registros totales: 22,283
+[2025-09-10 20:18:32,737] INFO:   - Columnas totales: 176
+[2025-09-10 20:18:32,737] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:32,745] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:32,746] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:32,747] INFO:   - Estados presentes: Aguascalientes, Baja California, Baja California Sur, Campeche, Coahuila de Zaragoza...
+[2025-09-10 20:18:32,747] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:32,747] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:32,747] INFO:   - Valores únicos (muestra): {2: 14228, 1: 7971, 9: 84}
+[2025-09-10 20:18:32,747] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:32,748] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:32,748] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:32,749] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:32,749] INFO:   - Registros con valores válidos: 22,283
+[2025-09-10 20:18:32,749] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:32,749] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:32,749] INFO:     BP1_1=1: 7,971 (35.8%)
+[2025-09-10 20:18:32,749] INFO:     BP1_1=2: 14,228 (63.9%)
+[2025-09-10 20:18:32,749] INFO:     BP1_1=9: 84 (0.4%)
+[2025-09-10 20:18:32,749] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:32,758] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:32,759] INFO:   - Registros de Yucatán: 264
+[2025-09-10 20:18:32,759] INFO:   - Porcentaje del total: 1.18%
+[2025-09-10 20:18:32,759] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:32,759] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:32,759] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:32,759] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:32,759] INFO:     Seguro (BP1_1=1): 195 (73.9%)
+[2025-09-10 20:18:32,759] INFO:     Inseguro (BP1_1=2): 69 (26.1%)
+[2025-09-10 20:18:32,759] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:32,761] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:32,762] INFO: Resumen por municipio:
+[2025-09-10 20:18:32,762] INFO:   - Kanasin: 9 respuestas, 22.2% seguro
+[2025-09-10 20:18:32,762] INFO:   - Merida: 215 respuestas, 79.5% seguro
+[2025-09-10 20:18:32,762] INFO:   - Progreso: 28 respuestas, 53.6% seguro
+[2025-09-10 20:18:32,763] INFO:   - Uman: 12 respuestas, 58.3% seguro
+[2025-09-10 20:18:32,763] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:32,763] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:32,763] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:32,763] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:32,763] INFO:   Percepción general - Seguros: 73.9%, Inseguros: 26.1%
+[2025-09-10 20:18:32,764] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2020_Q4.csv
+[2025-09-10 20:18:32,764] INFO: 
+--- Procesando 2021_Q1 ---
+[2025-09-10 20:18:32,764] INFO: ============================================================
+[2025-09-10 20:18:32,764] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_CB_ENSU_03_2021.csv
+[2025-09-10 20:18:32,764] INFO: Período: 2021_Q1
+[2025-09-10 20:18:32,764] INFO: Ruta completa: data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_03_2021.csv
+[2025-09-10 20:18:32,764] INFO: Tamaño del archivo: 15.69 MB
+[2025-09-10 20:18:32,764] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:32,947] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:32,947] INFO:   - Registros totales: 22,307
+[2025-09-10 20:18:32,947] INFO:   - Columnas totales: 136
+[2025-09-10 20:18:32,947] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:32,953] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:32,954] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:32,955] INFO:   - Estados presentes: Aguascalientes, Baja California, Baja California Sur, Campeche, Coahuila de Zaragoza...
+[2025-09-10 20:18:32,955] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:32,955] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:32,955] INFO:   - Valores únicos (muestra): {2: 13776, 1: 8430, 9: 101}
+[2025-09-10 20:18:32,955] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:32,955] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:32,955] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:32,956] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:32,956] INFO:   - Registros con valores válidos: 22,307
+[2025-09-10 20:18:32,956] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:32,956] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:32,956] INFO:     BP1_1=1: 8,430 (37.8%)
+[2025-09-10 20:18:32,957] INFO:     BP1_1=2: 13,776 (61.8%)
+[2025-09-10 20:18:32,957] INFO:     BP1_1=9: 101 (0.5%)
+[2025-09-10 20:18:32,957] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:32,973] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:32,973] INFO:   - Registros de Yucatán: 265
+[2025-09-10 20:18:32,973] INFO:   - Porcentaje del total: 1.19%
+[2025-09-10 20:18:32,973] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:32,974] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:32,974] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:32,974] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:32,974] INFO:     Seguro (BP1_1=1): 184 (69.4%)
+[2025-09-10 20:18:32,974] INFO:     Inseguro (BP1_1=2): 81 (30.6%)
+[2025-09-10 20:18:32,974] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:32,975] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:32,977] INFO: Resumen por municipio:
+[2025-09-10 20:18:32,978] INFO:   - Kanasin: 14 respuestas, 50.0% seguro
+[2025-09-10 20:18:32,978] INFO:   - Merida: 215 respuestas, 74.0% seguro
+[2025-09-10 20:18:32,978] INFO:   - Progreso: 23 respuestas, 47.8% seguro
+[2025-09-10 20:18:32,978] INFO:   - Uman: 13 respuestas, 53.8% seguro
+[2025-09-10 20:18:32,978] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:32,978] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:32,978] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:32,978] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:32,978] INFO:   Percepción general - Seguros: 69.4%, Inseguros: 30.6%
+[2025-09-10 20:18:32,980] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2021_Q1.csv
+[2025-09-10 20:18:32,980] INFO: 
+--- Procesando 2021_Q2 ---
+[2025-09-10 20:18:32,981] INFO: ============================================================
+[2025-09-10 20:18:32,981] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_CB_ENSU_06_2021.csv
+[2025-09-10 20:18:32,981] INFO: Período: 2021_Q2
+[2025-09-10 20:18:32,981] INFO: Ruta completa: data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_06_2021.csv
+[2025-09-10 20:18:32,981] INFO: Tamaño del archivo: 16.39 MB
+[2025-09-10 20:18:32,981] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:33,169] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:33,169] INFO:   - Registros totales: 22,411
+[2025-09-10 20:18:33,169] INFO:   - Columnas totales: 142
+[2025-09-10 20:18:33,169] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:33,176] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:33,177] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:33,177] INFO:   - Estados presentes: Aguascalientes, Baja California, Baja California Sur, Campeche, Coahuila de Zaragoza...
+[2025-09-10 20:18:33,178] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:33,178] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:33,178] INFO:   - Valores únicos (muestra): {2: 13901, 1: 8438, 9: 72}
+[2025-09-10 20:18:33,178] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:33,178] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:33,178] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:33,179] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:33,180] INFO:   - Registros con valores válidos: 22,411
+[2025-09-10 20:18:33,180] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:33,180] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:33,180] INFO:     BP1_1=1: 8,438 (37.7%)
+[2025-09-10 20:18:33,180] INFO:     BP1_1=2: 13,901 (62.0%)
+[2025-09-10 20:18:33,180] INFO:     BP1_1=9: 72 (0.3%)
+[2025-09-10 20:18:33,180] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:33,190] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:33,190] INFO:   - Registros de Yucatán: 268
+[2025-09-10 20:18:33,190] INFO:   - Porcentaje del total: 1.20%
+[2025-09-10 20:18:33,190] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:33,190] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:33,190] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:33,190] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:33,190] INFO:     Seguro (BP1_1=1): 197 (73.5%)
+[2025-09-10 20:18:33,190] INFO:     Inseguro (BP1_1=2): 71 (26.5%)
+[2025-09-10 20:18:33,190] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:33,191] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:33,192] INFO: Resumen por municipio:
+[2025-09-10 20:18:33,193] INFO:   - Kanasin: 13 respuestas, 15.4% seguro
+[2025-09-10 20:18:33,193] INFO:   - Merida: 218 respuestas, 80.7% seguro
+[2025-09-10 20:18:33,193] INFO:   - Progreso: 22 respuestas, 50.0% seguro
+[2025-09-10 20:18:33,193] INFO:   - Uman: 15 respuestas, 53.3% seguro
+[2025-09-10 20:18:33,193] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:33,193] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:33,194] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:33,194] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:33,194] INFO:   Percepción general - Seguros: 73.5%, Inseguros: 26.5%
+[2025-09-10 20:18:33,195] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2021_Q2.csv
+[2025-09-10 20:18:33,195] INFO: 
+--- Procesando 2021_Q3 ---
+[2025-09-10 20:18:33,195] INFO: ============================================================
+[2025-09-10 20:18:33,195] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_CB_ENSU_09_2021.csv
+[2025-09-10 20:18:33,195] INFO: Período: 2021_Q3
+[2025-09-10 20:18:33,195] INFO: Ruta completa: data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_09_2021.csv
+[2025-09-10 20:18:33,196] INFO: Tamaño del archivo: 23.74 MB
+[2025-09-10 20:18:33,196] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:33,470] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:33,470] INFO:   - Registros totales: 23,356
+[2025-09-10 20:18:33,470] INFO:   - Columnas totales: 217
+[2025-09-10 20:18:33,470] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:33,480] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:33,481] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:33,482] INFO:   - Estados presentes: Aguascalientes, Baja California, Baja California Sur, Campeche, Coahuila de Zaragoza...
+[2025-09-10 20:18:33,482] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:33,482] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:33,482] INFO:   - Valores únicos (muestra): {2: 14392, 1: 8892, 9: 72}
+[2025-09-10 20:18:33,482] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:33,483] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:33,483] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:33,484] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:33,484] INFO:   - Registros con valores válidos: 23,356
+[2025-09-10 20:18:33,484] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:33,484] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:33,484] INFO:     BP1_1=1: 8,892 (38.1%)
+[2025-09-10 20:18:33,484] INFO:     BP1_1=2: 14,392 (61.6%)
+[2025-09-10 20:18:33,484] INFO:     BP1_1=9: 72 (0.3%)
+[2025-09-10 20:18:33,484] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:33,494] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:33,495] INFO:   - Registros de Yucatán: 267
+[2025-09-10 20:18:33,495] INFO:   - Porcentaje del total: 1.14%
+[2025-09-10 20:18:33,495] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:33,495] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:33,495] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:33,495] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:33,495] INFO:     Seguro (BP1_1=1): 175 (65.5%)
+[2025-09-10 20:18:33,495] INFO:     Inseguro (BP1_1=2): 92 (34.5%)
+[2025-09-10 20:18:33,495] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:33,496] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:33,497] INFO: Resumen por municipio:
+[2025-09-10 20:18:33,498] INFO:   - Kanasin: 18 respuestas, 38.9% seguro
+[2025-09-10 20:18:33,498] INFO:   - Merida: 217 respuestas, 69.1% seguro
+[2025-09-10 20:18:33,498] INFO:   - Progreso: 17 respuestas, 58.8% seguro
+[2025-09-10 20:18:33,498] INFO:   - Uman: 15 respuestas, 53.3% seguro
+[2025-09-10 20:18:33,498] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:33,498] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:33,498] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:33,499] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:33,499] INFO:   Percepción general - Seguros: 65.5%, Inseguros: 34.5%
+[2025-09-10 20:18:33,500] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2021_Q3.csv
+[2025-09-10 20:18:33,500] INFO: 
+--- Procesando 2021_Q4 ---
+[2025-09-10 20:18:33,500] INFO: ============================================================
+[2025-09-10 20:18:33,500] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_CB_ENSU_12_2021.csv
+[2025-09-10 20:18:33,500] INFO: Período: 2021_Q4
+[2025-09-10 20:18:33,500] INFO: Ruta completa: data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_12_2021.csv
+[2025-09-10 20:18:33,500] INFO: Tamaño del archivo: 17.12 MB
+[2025-09-10 20:18:33,500] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:33,685] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:33,685] INFO:   - Registros totales: 23,428
+[2025-09-10 20:18:33,685] INFO:   - Columnas totales: 142
+[2025-09-10 20:18:33,685] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:33,693] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:33,694] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:33,694] INFO:   - Estados presentes: Aguascalientes, Baja California, Baja California Sur, Campeche, Coahuila de Zaragoza...
+[2025-09-10 20:18:33,694] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:33,695] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:33,695] INFO:   - Valores únicos (muestra): {2: 14622, 1: 8736, 9: 70}
+[2025-09-10 20:18:33,695] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:33,695] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:33,695] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:33,697] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:33,697] INFO:   - Registros con valores válidos: 23,428
+[2025-09-10 20:18:33,697] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:33,697] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:33,697] INFO:     BP1_1=1: 8,736 (37.3%)
+[2025-09-10 20:18:33,697] INFO:     BP1_1=2: 14,622 (62.4%)
+[2025-09-10 20:18:33,697] INFO:     BP1_1=9: 70 (0.3%)
+[2025-09-10 20:18:33,697] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:33,707] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:33,707] INFO:   - Registros de Yucatán: 268
+[2025-09-10 20:18:33,707] INFO:   - Porcentaje del total: 1.14%
+[2025-09-10 20:18:33,707] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:33,707] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:33,708] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:33,708] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:33,708] INFO:     Seguro (BP1_1=1): 192 (71.6%)
+[2025-09-10 20:18:33,708] INFO:     Inseguro (BP1_1=2): 76 (28.4%)
+[2025-09-10 20:18:33,708] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:33,709] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:33,710] INFO: Resumen por municipio:
+[2025-09-10 20:18:33,711] INFO:   - Kanasin: 19 respuestas, 47.4% seguro
+[2025-09-10 20:18:33,711] INFO:   - Merida: 219 respuestas, 75.3% seguro
+[2025-09-10 20:18:33,711] INFO:   - Progreso: 20 respuestas, 60.0% seguro
+[2025-09-10 20:18:33,711] INFO:   - Uman: 10 respuestas, 60.0% seguro
+[2025-09-10 20:18:33,711] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:33,711] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:33,711] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:33,711] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:33,711] INFO:   Percepción general - Seguros: 71.6%, Inseguros: 28.4%
+[2025-09-10 20:18:33,712] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2021_Q4.csv
+[2025-09-10 20:18:33,712] INFO: 
+--- Procesando 2022_Q1 ---
+[2025-09-10 20:18:33,712] INFO: ============================================================
+[2025-09-10 20:18:33,713] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0322.csv
+[2025-09-10 20:18:33,713] INFO: Período: 2022_Q1
+[2025-09-10 20:18:33,713] INFO: Ruta completa: data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\conjunto_de_datos\conjunto_de_datos_ensu_cb_0322.csv
+[2025-09-10 20:18:33,713] INFO: Tamaño del archivo: 13.64 MB
+[2025-09-10 20:18:33,713] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:33,834] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:33,834] INFO:   - Registros totales: 23,577
+[2025-09-10 20:18:33,834] INFO:   - Columnas totales: 137
+[2025-09-10 20:18:33,834] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:33,837] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:33,838] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:33,839] INFO:   - Estados presentes: Aguascalientes, Baja California, Baja California Sur, Campeche, Coahuila de Zaragoza...
+[2025-09-10 20:18:33,839] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:33,839] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:33,839] INFO:   - Valores únicos (muestra): {2: 14757, 1: 8770, 9: 50}
+[2025-09-10 20:18:33,839] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:33,839] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:33,839] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:33,840] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:33,840] INFO:   - Registros con valores válidos: 23,577
+[2025-09-10 20:18:33,840] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:33,840] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:33,841] INFO:     BP1_1=1: 8,770 (37.2%)
+[2025-09-10 20:18:33,841] INFO:     BP1_1=2: 14,757 (62.6%)
+[2025-09-10 20:18:33,841] INFO:     BP1_1=9: 50 (0.2%)
+[2025-09-10 20:18:33,841] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:33,851] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:33,851] INFO:   - Registros de Yucatán: 272
+[2025-09-10 20:18:33,851] INFO:   - Porcentaje del total: 1.15%
+[2025-09-10 20:18:33,851] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:33,851] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:33,851] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:33,851] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:33,851] INFO:     Seguro (BP1_1=1): 209 (76.8%)
+[2025-09-10 20:18:33,851] INFO:     Inseguro (BP1_1=2): 63 (23.2%)
+[2025-09-10 20:18:33,851] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:33,852] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:33,853] INFO: Resumen por municipio:
+[2025-09-10 20:18:33,854] INFO:   - Kanasin: 19 respuestas, 78.9% seguro
+[2025-09-10 20:18:33,854] INFO:   - Merida: 218 respuestas, 79.4% seguro
+[2025-09-10 20:18:33,854] INFO:   - Progreso: 25 respuestas, 48.0% seguro
+[2025-09-10 20:18:33,854] INFO:   - Uman: 10 respuestas, 90.0% seguro
+[2025-09-10 20:18:33,854] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:33,854] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:33,854] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:33,854] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:33,855] INFO:   Percepción general - Seguros: 76.8%, Inseguros: 23.2%
+[2025-09-10 20:18:33,856] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2022_Q1.csv
+[2025-09-10 20:18:33,856] INFO: 
+--- Procesando 2022_Q2 ---
+[2025-09-10 20:18:33,856] INFO: ============================================================
+[2025-09-10 20:18:33,856] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0622.csv
+[2025-09-10 20:18:33,856] INFO: Período: 2022_Q2
+[2025-09-10 20:18:33,856] INFO: Ruta completa: data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\conjunto_de_datos\conjunto_de_datos_ensu_cb_0622.csv
+[2025-09-10 20:18:33,856] INFO: Tamaño del archivo: 14.29 MB
+[2025-09-10 20:18:33,856] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:33,992] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:33,992] INFO:   - Registros totales: 23,688
+[2025-09-10 20:18:33,992] INFO:   - Columnas totales: 143
+[2025-09-10 20:18:33,992] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:33,996] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:33,996] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:33,997] INFO:   - Estados presentes: Aguascalientes, Baja California, Baja California Sur, Campeche, Coahuila de Zaragoza...
+[2025-09-10 20:18:33,997] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:33,997] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:33,997] INFO:   - Valores únicos (muestra): {2: 15178, 1: 8464, 9: 46}
+[2025-09-10 20:18:33,998] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:33,998] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:33,998] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:33,999] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:33,999] INFO:   - Registros con valores válidos: 23,688
+[2025-09-10 20:18:33,999] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:33,999] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:33,999] INFO:     BP1_1=1: 8,464 (35.7%)
+[2025-09-10 20:18:33,999] INFO:     BP1_1=2: 15,178 (64.1%)
+[2025-09-10 20:18:33,999] INFO:     BP1_1=9: 46 (0.2%)
+[2025-09-10 20:18:33,999] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:34,008] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:34,008] INFO:   - Registros de Yucatán: 275
+[2025-09-10 20:18:34,008] INFO:   - Porcentaje del total: 1.16%
+[2025-09-10 20:18:34,008] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:34,009] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:34,009] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:34,009] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:34,009] INFO:     Seguro (BP1_1=1): 184 (66.9%)
+[2025-09-10 20:18:34,009] INFO:     Inseguro (BP1_1=2): 91 (33.1%)
+[2025-09-10 20:18:34,009] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:34,010] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:34,011] INFO: Resumen por municipio:
+[2025-09-10 20:18:34,012] INFO:   - Kanasin: 20 respuestas, 60.0% seguro
+[2025-09-10 20:18:34,012] INFO:   - Merida: 222 respuestas, 68.5% seguro
+[2025-09-10 20:18:34,012] INFO:   - Progreso: 24 respuestas, 58.3% seguro
+[2025-09-10 20:18:34,012] INFO:   - Uman: 9 respuestas, 66.7% seguro
+[2025-09-10 20:18:34,012] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:34,012] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:34,012] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:34,012] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:34,012] INFO:   Percepción general - Seguros: 66.9%, Inseguros: 33.1%
+[2025-09-10 20:18:34,013] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2022_Q2.csv
+[2025-09-10 20:18:34,013] INFO: 
+--- Procesando 2022_Q3 ---
+[2025-09-10 20:18:34,013] INFO: ============================================================
+[2025-09-10 20:18:34,013] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0922.csv
+[2025-09-10 20:18:34,013] INFO: Período: 2022_Q3
+[2025-09-10 20:18:34,013] INFO: Ruta completa: data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\conjunto_de_datos\conjunto_de_datos_ensu_cb_0922.csv
+[2025-09-10 20:18:34,013] INFO: Tamaño del archivo: 19.42 MB
+[2025-09-10 20:18:34,013] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:34,192] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:34,192] INFO:   - Registros totales: 23,618
+[2025-09-10 20:18:34,192] INFO:   - Columnas totales: 218
+[2025-09-10 20:18:34,193] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:34,196] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:34,197] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:34,198] INFO:   - Estados presentes: AGUASCALIENTES, BAJA CALIFORNIA, BAJA CALIFORNIA SUR, CAMPECHE, COAHUILA DE ZARAGOZA...
+[2025-09-10 20:18:34,198] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:34,198] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:34,198] INFO:   - Valores únicos (muestra): {2: 14353, 1: 9182, 9: 83}
+[2025-09-10 20:18:34,198] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:34,198] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:34,198] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:34,199] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:34,199] INFO:   - Registros con valores válidos: 23,618
+[2025-09-10 20:18:34,199] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:34,199] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:34,200] INFO:     BP1_1=1: 9,182 (38.9%)
+[2025-09-10 20:18:34,200] INFO:     BP1_1=2: 14,353 (60.8%)
+[2025-09-10 20:18:34,200] INFO:     BP1_1=9: 83 (0.4%)
+[2025-09-10 20:18:34,200] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:34,209] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:34,209] INFO:   - Registros de Yucatán: 263
+[2025-09-10 20:18:34,209] INFO:   - Porcentaje del total: 1.11%
+[2025-09-10 20:18:34,209] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:34,209] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:34,209] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:34,209] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:34,210] INFO:     Seguro (BP1_1=1): 186 (70.7%)
+[2025-09-10 20:18:34,210] INFO:     Inseguro (BP1_1=2): 77 (29.3%)
+[2025-09-10 20:18:34,210] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:34,211] WARNING:   ⚠ UMAN - MERIDA: Solo 4 respuestas
+[2025-09-10 20:18:34,211] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:34,212] INFO: Resumen por municipio:
+[2025-09-10 20:18:34,212] INFO:   - KANASIN: 24 respuestas, 45.8% seguro
+[2025-09-10 20:18:34,213] INFO:   - MERIDA: 211 respuestas, 75.4% seguro
+[2025-09-10 20:18:34,213] INFO:   - PROGRESO: 24 respuestas, 54.2% seguro
+[2025-09-10 20:18:34,213] INFO:   - UMAN: 4 respuestas, 75.0% seguro
+[2025-09-10 20:18:34,213] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:34,213] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:34,213] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:34,213] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:34,213] INFO:   Percepción general - Seguros: 70.7%, Inseguros: 29.3%
+[2025-09-10 20:18:34,214] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2022_Q3.csv
+[2025-09-10 20:18:34,214] INFO: 
+--- Procesando 2022_Q4 ---
+[2025-09-10 20:18:34,214] INFO: ============================================================
+[2025-09-10 20:18:34,214] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_1222.csv
+[2025-09-10 20:18:34,214] INFO: Período: 2022_Q4
+[2025-09-10 20:18:34,214] INFO: Ruta completa: data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\conjunto_de_datos\conjunto_de_datos_ensu_cb_1222.csv
+[2025-09-10 20:18:34,214] INFO: Tamaño del archivo: 14.82 MB
+[2025-09-10 20:18:34,214] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:34,355] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:34,356] INFO:   - Registros totales: 24,402
+[2025-09-10 20:18:34,356] INFO:   - Columnas totales: 145
+[2025-09-10 20:18:34,356] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:34,360] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:34,360] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:34,361] INFO:   - Estados presentes: AGUASCALIENTES, BAJA CALIFORNIA, BAJA CALIFORNIA SUR, CAMPECHE, COAHUILA DE ZARAGOZA...
+[2025-09-10 20:18:34,361] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:34,361] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:34,362] INFO:   - Valores únicos (muestra): {2: 14689, 1: 9618, 9: 95}
+[2025-09-10 20:18:34,362] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:34,362] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:34,362] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:34,363] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:34,363] INFO:   - Registros con valores válidos: 24,402
+[2025-09-10 20:18:34,363] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:34,363] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:34,363] INFO:     BP1_1=1: 9,618 (39.4%)
+[2025-09-10 20:18:34,364] INFO:     BP1_1=2: 14,689 (60.2%)
+[2025-09-10 20:18:34,364] INFO:     BP1_1=9: 95 (0.4%)
+[2025-09-10 20:18:34,364] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:34,373] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:34,373] INFO:   - Registros de Yucatán: 262
+[2025-09-10 20:18:34,373] INFO:   - Porcentaje del total: 1.07%
+[2025-09-10 20:18:34,373] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:34,373] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:34,373] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:34,373] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:34,374] INFO:     Seguro (BP1_1=1): 185 (70.6%)
+[2025-09-10 20:18:34,374] INFO:     Inseguro (BP1_1=2): 77 (29.4%)
+[2025-09-10 20:18:34,374] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:34,375] WARNING:   ⚠ UMAN - MERIDA: Solo 4 respuestas
+[2025-09-10 20:18:34,375] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:34,376] INFO: Resumen por municipio:
+[2025-09-10 20:18:34,377] INFO:   - KANASIN: 23 respuestas, 52.2% seguro
+[2025-09-10 20:18:34,377] INFO:   - MERIDA: 212 respuestas, 74.1% seguro
+[2025-09-10 20:18:34,377] INFO:   - PROGRESO: 23 respuestas, 56.5% seguro
+[2025-09-10 20:18:34,377] INFO:   - UMAN: 4 respuestas, 75.0% seguro
+[2025-09-10 20:18:34,377] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:34,377] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:34,377] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:34,377] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:34,377] INFO:   Percepción general - Seguros: 70.6%, Inseguros: 29.4%
+[2025-09-10 20:18:34,378] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2022_Q4.csv
+[2025-09-10 20:18:34,378] INFO: 
+--- Procesando 2023_Q1 ---
+[2025-09-10 20:18:34,378] INFO: ============================================================
+[2025-09-10 20:18:34,378] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_CB_ENSU_03_2023.csv
+[2025-09-10 20:18:34,378] INFO: Período: 2023_Q1
+[2025-09-10 20:18:34,378] INFO: Ruta completa: data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\conjunto_de_datos\conjunto_de_datos_CB_ENSU_03_2023.csv
+[2025-09-10 20:18:34,379] INFO: Tamaño del archivo: 17.53 MB
+[2025-09-10 20:18:34,379] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:34,564] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:34,565] INFO:   - Registros totales: 23,778
+[2025-09-10 20:18:34,565] INFO:   - Columnas totales: 142
+[2025-09-10 20:18:34,565] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:34,571] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:34,572] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:34,573] INFO:   - Estados presentes: AGUASCALIENTES, BAJA CALIFORNIA, BAJA CALIFORNIA SUR, CAMPECHE, COAHUILA DE ZARAGOZA...
+[2025-09-10 20:18:34,573] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:34,573] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:34,573] INFO:   - Valores únicos (muestra): {2: 14024, 1: 9682, 9: 72}
+[2025-09-10 20:18:34,573] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:34,574] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:34,574] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:34,574] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:34,575] INFO:   - Registros con valores válidos: 23,778
+[2025-09-10 20:18:34,575] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:34,575] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:34,575] INFO:     BP1_1=1: 9,682 (40.7%)
+[2025-09-10 20:18:34,575] INFO:     BP1_1=2: 14,024 (59.0%)
+[2025-09-10 20:18:34,575] INFO:     BP1_1=9: 72 (0.3%)
+[2025-09-10 20:18:34,575] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:34,585] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:34,585] INFO:   - Registros de Yucatán: 262
+[2025-09-10 20:18:34,585] INFO:   - Porcentaje del total: 1.10%
+[2025-09-10 20:18:34,585] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:34,585] INFO:   - Municipios únicos: 3
+[2025-09-10 20:18:34,585] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:34,585] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:34,586] INFO:     Seguro (BP1_1=1): 199 (76.0%)
+[2025-09-10 20:18:34,586] INFO:     Inseguro (BP1_1=2): 62 (23.7%)
+[2025-09-10 20:18:34,586] INFO:     No responde (BP1_1=9): 1 (0.4%)
+[2025-09-10 20:18:34,586] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:34,587] INFO: ✓ Agrupación completada: 3 combinaciones municipio-ciudad
+[2025-09-10 20:18:34,588] INFO: Resumen por municipio:
+[2025-09-10 20:18:34,588] INFO:   - KANASIN: 29 respuestas, 72.4% seguro
+[2025-09-10 20:18:34,588] INFO:   - MERIDA: 211 respuestas, 78.7% seguro
+[2025-09-10 20:18:34,588] INFO:   - PROGRESO: 22 respuestas, 54.5% seguro
+[2025-09-10 20:18:34,588] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:34,589] INFO:   - Municipios únicos: 3
+[2025-09-10 20:18:34,589] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:34,589] INFO:   - Total de registros agregados: 3
+[2025-09-10 20:18:34,589] INFO:   Percepción general - Seguros: 76.0%, Inseguros: 23.7%
+[2025-09-10 20:18:34,590] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2023_Q1.csv
+[2025-09-10 20:18:34,590] INFO: 
+--- Procesando 2023_Q2 ---
+[2025-09-10 20:18:34,590] INFO: ============================================================
+[2025-09-10 20:18:34,590] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0623.csv
+[2025-09-10 20:18:34,590] INFO: Período: 2023_Q2
+[2025-09-10 20:18:34,590] INFO: Ruta completa: data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\conjunto_de_datos\conjunto_de_datos_ensu_cb_0623.csv
+[2025-09-10 20:18:34,590] INFO: Tamaño del archivo: 18.31 MB
+[2025-09-10 20:18:34,590] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:34,781] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:34,781] INFO:   - Registros totales: 24,435
+[2025-09-10 20:18:34,781] INFO:   - Columnas totales: 145
+[2025-09-10 20:18:34,781] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:34,789] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:34,790] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:34,791] INFO:   - Estados presentes: AGUASCALIENTES, BAJA CALIFORNIA, BAJA CALIFORNIA SUR, CAMPECHE, COAHUILA DE ZARAGOZA...
+[2025-09-10 20:18:34,791] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:34,791] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:34,791] INFO:   - Valores únicos (muestra): {2: 14471, 1: 9896, 9: 68}
+[2025-09-10 20:18:34,791] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:34,792] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:34,792] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:34,793] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:34,793] INFO:   - Registros con valores válidos: 24,435
+[2025-09-10 20:18:34,793] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:34,793] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:34,793] INFO:     BP1_1=1: 9,896 (40.5%)
+[2025-09-10 20:18:34,793] INFO:     BP1_1=2: 14,471 (59.2%)
+[2025-09-10 20:18:34,793] INFO:     BP1_1=9: 68 (0.3%)
+[2025-09-10 20:18:34,793] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:34,803] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:34,804] INFO:   - Registros de Yucatán: 271
+[2025-09-10 20:18:34,804] INFO:   - Porcentaje del total: 1.11%
+[2025-09-10 20:18:34,804] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:34,804] INFO:   - Municipios únicos: 3
+[2025-09-10 20:18:34,804] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:34,804] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:34,804] INFO:     Seguro (BP1_1=1): 204 (75.3%)
+[2025-09-10 20:18:34,804] INFO:     Inseguro (BP1_1=2): 67 (24.7%)
+[2025-09-10 20:18:34,804] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:34,805] INFO: ✓ Agrupación completada: 3 combinaciones municipio-ciudad
+[2025-09-10 20:18:34,806] INFO: Resumen por municipio:
+[2025-09-10 20:18:34,807] INFO:   - KANASIN: 30 respuestas, 50.0% seguro
+[2025-09-10 20:18:34,807] INFO:   - MERIDA: 222 respuestas, 81.5% seguro
+[2025-09-10 20:18:34,807] INFO:   - PROGRESO: 19 respuestas, 42.1% seguro
+[2025-09-10 20:18:34,807] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:34,807] INFO:   - Municipios únicos: 3
+[2025-09-10 20:18:34,807] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:34,807] INFO:   - Total de registros agregados: 3
+[2025-09-10 20:18:34,807] INFO:   Percepción general - Seguros: 75.3%, Inseguros: 24.7%
+[2025-09-10 20:18:34,808] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2023_Q2.csv
+[2025-09-10 20:18:34,808] INFO: 
+--- Procesando 2023_Q3 ---
+[2025-09-10 20:18:34,808] INFO: ============================================================
+[2025-09-10 20:18:34,808] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0923.csv
+[2025-09-10 20:18:34,808] INFO: Período: 2023_Q3
+[2025-09-10 20:18:34,808] INFO: Ruta completa: data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\conjunto_de_datos\conjunto_de_datos_ensu_cb_0923.csv
+[2025-09-10 20:18:34,808] INFO: Tamaño del archivo: 27.47 MB
+[2025-09-10 20:18:34,808] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:35,105] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:35,105] INFO:   - Registros totales: 24,493
+[2025-09-10 20:18:35,105] INFO:   - Columnas totales: 240
+[2025-09-10 20:18:35,105] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:35,116] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:35,117] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:35,117] INFO:   - Estados presentes: AGUASCALIENTES, BAJA CALIFORNIA, BAJA CALIFORNIA SUR, CAMPECHE, COAHUILA DE ZARAGOZA...
+[2025-09-10 20:18:35,117] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:35,117] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:35,118] INFO:   - Valores únicos (muestra): {2: 14429, 1: 9991, 9: 73}
+[2025-09-10 20:18:35,118] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:35,118] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:35,118] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:35,119] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:35,119] INFO:   - Registros con valores válidos: 24,493
+[2025-09-10 20:18:35,119] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:35,120] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:35,120] INFO:     BP1_1=1: 9,991 (40.8%)
+[2025-09-10 20:18:35,120] INFO:     BP1_1=2: 14,429 (58.9%)
+[2025-09-10 20:18:35,120] INFO:     BP1_1=9: 73 (0.3%)
+[2025-09-10 20:18:35,120] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:35,130] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:35,130] INFO:   - Registros de Yucatán: 267
+[2025-09-10 20:18:35,130] INFO:   - Porcentaje del total: 1.09%
+[2025-09-10 20:18:35,130] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:35,130] INFO:   - Municipios únicos: 3
+[2025-09-10 20:18:35,130] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:35,130] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:35,130] INFO:     Seguro (BP1_1=1): 197 (73.8%)
+[2025-09-10 20:18:35,131] INFO:     Inseguro (BP1_1=2): 70 (26.2%)
+[2025-09-10 20:18:35,131] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:35,132] INFO: ✓ Agrupación completada: 3 combinaciones municipio-ciudad
+[2025-09-10 20:18:35,133] INFO: Resumen por municipio:
+[2025-09-10 20:18:35,133] INFO:   - KANASIN: 30 respuestas, 83.3% seguro
+[2025-09-10 20:18:35,133] INFO:   - MERIDA: 218 respuestas, 75.7% seguro
+[2025-09-10 20:18:35,134] INFO:   - PROGRESO: 19 respuestas, 36.8% seguro
+[2025-09-10 20:18:35,134] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:35,134] INFO:   - Municipios únicos: 3
+[2025-09-10 20:18:35,134] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:35,134] INFO:   - Total de registros agregados: 3
+[2025-09-10 20:18:35,134] INFO:   Percepción general - Seguros: 73.8%, Inseguros: 26.2%
+[2025-09-10 20:18:35,135] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2023_Q3.csv
+[2025-09-10 20:18:35,135] INFO: 
+--- Procesando 2023_Q4 ---
+[2025-09-10 20:18:35,135] INFO: ============================================================
+[2025-09-10 20:18:35,135] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_1223.csv
+[2025-09-10 20:18:35,135] INFO: Período: 2023_Q4
+[2025-09-10 20:18:35,135] INFO: Ruta completa: data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\conjunto_de_datos\conjunto_de_datos_ensu_cb_1223.csv
+[2025-09-10 20:18:35,135] INFO: Tamaño del archivo: 14.73 MB
+[2025-09-10 20:18:35,135] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:35,279] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:35,279] INFO:   - Registros totales: 24,064
+[2025-09-10 20:18:35,279] INFO:   - Columnas totales: 145
+[2025-09-10 20:18:35,279] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:35,284] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:35,285] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:35,285] INFO:   - Estados presentes: AGUASCALIENTES, BAJA CALIFORNIA, BAJA CALIFORNIA SUR, CAMPECHE, COAHUILA DE ZARAGOZA...
+[2025-09-10 20:18:35,285] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:35,286] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:35,286] INFO:   - Valores únicos (muestra): {2: 13625, 1: 10347, 9: 92}
+[2025-09-10 20:18:35,286] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:35,287] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:35,287] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:35,288] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:35,288] INFO:   - Registros con valores válidos: 24,064
+[2025-09-10 20:18:35,288] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:35,288] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:35,288] INFO:     BP1_1=1: 10,347 (43.0%)
+[2025-09-10 20:18:35,288] INFO:     BP1_1=2: 13,625 (56.6%)
+[2025-09-10 20:18:35,288] INFO:     BP1_1=9: 92 (0.4%)
+[2025-09-10 20:18:35,288] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:35,298] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:35,298] INFO:   - Registros de Yucatán: 268
+[2025-09-10 20:18:35,298] INFO:   - Porcentaje del total: 1.11%
+[2025-09-10 20:18:35,298] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:35,298] INFO:   - Municipios únicos: 3
+[2025-09-10 20:18:35,298] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:35,298] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:35,298] INFO:     Seguro (BP1_1=1): 208 (77.6%)
+[2025-09-10 20:18:35,298] INFO:     Inseguro (BP1_1=2): 60 (22.4%)
+[2025-09-10 20:18:35,298] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:35,299] INFO: ✓ Agrupación completada: 3 combinaciones municipio-ciudad
+[2025-09-10 20:18:35,300] INFO: Resumen por municipio:
+[2025-09-10 20:18:35,307] INFO:   - KANASIN: 30 respuestas, 66.7% seguro
+[2025-09-10 20:18:35,308] INFO:   - MERIDA: 229 respuestas, 80.3% seguro
+[2025-09-10 20:18:35,308] INFO:   - PROGRESO: 9 respuestas, 44.4% seguro
+[2025-09-10 20:18:35,308] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:35,308] INFO:   - Municipios únicos: 3
+[2025-09-10 20:18:35,308] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:35,308] INFO:   - Total de registros agregados: 3
+[2025-09-10 20:18:35,308] INFO:   Percepción general - Seguros: 77.6%, Inseguros: 22.4%
+[2025-09-10 20:18:35,309] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2023_Q4.csv
+[2025-09-10 20:18:35,309] INFO: 
+--- Procesando 2024_Q1 ---
+[2025-09-10 20:18:35,309] INFO: ============================================================
+[2025-09-10 20:18:35,309] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0324.csv
+[2025-09-10 20:18:35,309] INFO: Período: 2024_Q1
+[2025-09-10 20:18:35,309] INFO: Ruta completa: data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\conjunto_de_datos\conjunto_de_datos_ensu_cb_0324.csv
+[2025-09-10 20:18:35,309] INFO: Tamaño del archivo: 14.74 MB
+[2025-09-10 20:18:35,309] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:35,442] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:35,443] INFO:   - Registros totales: 24,022
+[2025-09-10 20:18:35,443] INFO:   - Columnas totales: 145
+[2025-09-10 20:18:35,443] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:35,447] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:35,447] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:35,448] INFO:   - Estados presentes: AGUASCALIENTES, BAJA CALIFORNIA, BAJA CALIFORNIA SUR, CAMPECHE, COAHUILA DE ZARAGOZA...
+[2025-09-10 20:18:35,448] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:35,448] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:35,448] INFO:   - Valores únicos (muestra): {2: 13892, 1: 9983, 9: 147}
+[2025-09-10 20:18:35,449] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:35,449] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:35,449] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:35,450] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:35,450] INFO:   - Registros con valores válidos: 24,022
+[2025-09-10 20:18:35,450] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:35,450] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:35,451] INFO:     BP1_1=1: 9,983 (41.6%)
+[2025-09-10 20:18:35,451] INFO:     BP1_1=2: 13,892 (57.8%)
+[2025-09-10 20:18:35,451] INFO:     BP1_1=9: 147 (0.6%)
+[2025-09-10 20:18:35,451] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:35,461] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:35,461] INFO:   - Registros de Yucatán: 257
+[2025-09-10 20:18:35,461] INFO:   - Porcentaje del total: 1.07%
+[2025-09-10 20:18:35,461] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:35,461] INFO:   - Municipios únicos: 3
+[2025-09-10 20:18:35,461] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:35,461] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:35,462] INFO:     Seguro (BP1_1=1): 196 (76.3%)
+[2025-09-10 20:18:35,462] INFO:     Inseguro (BP1_1=2): 61 (23.7%)
+[2025-09-10 20:18:35,462] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:35,463] INFO: ✓ Agrupación completada: 3 combinaciones municipio-ciudad
+[2025-09-10 20:18:35,464] INFO: Resumen por municipio:
+[2025-09-10 20:18:35,464] INFO:   - KANASIN: 33 respuestas, 75.8% seguro
+[2025-09-10 20:18:35,464] INFO:   - MERIDA: 216 respuestas, 76.9% seguro
+[2025-09-10 20:18:35,465] INFO:   - PROGRESO: 8 respuestas, 62.5% seguro
+[2025-09-10 20:18:35,465] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:35,465] INFO:   - Municipios únicos: 3
+[2025-09-10 20:18:35,465] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:35,465] INFO:   - Total de registros agregados: 3
+[2025-09-10 20:18:35,465] INFO:   Percepción general - Seguros: 76.3%, Inseguros: 23.7%
+[2025-09-10 20:18:35,466] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2024_Q1.csv
+[2025-09-10 20:18:35,466] INFO: 
+--- Procesando 2024_Q2 ---
+[2025-09-10 20:18:35,466] INFO: ============================================================
+[2025-09-10 20:18:35,466] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0624.csv
+[2025-09-10 20:18:35,466] INFO: Período: 2024_Q2
+[2025-09-10 20:18:35,466] INFO: Ruta completa: data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\conjunto_de_datos\conjunto_de_datos_ensu_cb_0624.csv
+[2025-09-10 20:18:35,466] INFO: Tamaño del archivo: 15.67 MB
+[2025-09-10 20:18:35,466] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:35,626] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:35,626] INFO:   - Registros totales: 24,114
+[2025-09-10 20:18:35,626] INFO:   - Columnas totales: 149
+[2025-09-10 20:18:35,626] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:35,630] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:35,631] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:35,631] INFO:   - Estados presentes: AGUASCALIENTES, BAJA CALIFORNIA, BAJA CALIFORNIA SUR, CAMPECHE, COAHUILA DE ZARAGOZA...
+[2025-09-10 20:18:35,631] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:35,631] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:35,632] INFO:   - Valores únicos (muestra): {2: 13618, 1: 10413, 9: 83}
+[2025-09-10 20:18:35,632] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:35,632] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:35,632] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:35,633] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:35,633] INFO:   - Registros con valores válidos: 24,114
+[2025-09-10 20:18:35,633] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:35,633] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:35,634] INFO:     BP1_1=1: 10,413 (43.2%)
+[2025-09-10 20:18:35,634] INFO:     BP1_1=2: 13,618 (56.5%)
+[2025-09-10 20:18:35,634] INFO:     BP1_1=9: 83 (0.3%)
+[2025-09-10 20:18:35,634] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:35,644] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:35,644] INFO:   - Registros de Yucatán: 256
+[2025-09-10 20:18:35,644] INFO:   - Porcentaje del total: 1.06%
+[2025-09-10 20:18:35,644] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:35,644] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:35,644] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:35,644] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:35,644] INFO:     Seguro (BP1_1=1): 204 (79.7%)
+[2025-09-10 20:18:35,644] INFO:     Inseguro (BP1_1=2): 52 (20.3%)
+[2025-09-10 20:18:35,645] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:35,646] WARNING:   ⚠ PROGRESO - MERIDA: Solo 4 respuestas
+[2025-09-10 20:18:35,646] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:35,647] INFO: Resumen por municipio:
+[2025-09-10 20:18:35,648] INFO:   - KANASIN: 21 respuestas, 66.7% seguro
+[2025-09-10 20:18:35,648] INFO:   - MERIDA: 226 respuestas, 82.3% seguro
+[2025-09-10 20:18:35,648] INFO:   - PROGRESO: 4 respuestas, 50.0% seguro
+[2025-09-10 20:18:35,648] INFO:   - UMAN: 5 respuestas, 40.0% seguro
+[2025-09-10 20:18:35,648] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:35,648] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:35,648] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:35,648] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:35,649] INFO:   Percepción general - Seguros: 79.7%, Inseguros: 20.3%
+[2025-09-10 20:18:35,659] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2024_Q2.csv
+[2025-09-10 20:18:35,659] INFO: 
+--- Procesando 2024_Q3 ---
+[2025-09-10 20:18:35,659] INFO: ============================================================
+[2025-09-10 20:18:35,659] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0924.csv
+[2025-09-10 20:18:35,659] INFO: Período: 2024_Q3
+[2025-09-10 20:18:35,659] INFO: Ruta completa: data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\conjunto_de_datos\conjunto_de_datos_ensu_cb_0924.csv
+[2025-09-10 20:18:35,659] INFO: Tamaño del archivo: 22.36 MB
+[2025-09-10 20:18:35,659] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:35,886] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:35,886] INFO:   - Registros totales: 24,096
+[2025-09-10 20:18:35,886] INFO:   - Columnas totales: 245
+[2025-09-10 20:18:35,886] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:35,891] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:35,892] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:35,893] INFO:   - Estados presentes: AGUASCALIENTES, BAJA CALIFORNIA, BAJA CALIFORNIA SUR, CAMPECHE, COAHUILA DE ZARAGOZA...
+[2025-09-10 20:18:35,893] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:35,893] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:35,893] INFO:   - Valores únicos (muestra): {2: 13557, 1: 10480, 9: 59}
+[2025-09-10 20:18:35,893] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:35,894] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:35,894] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:35,895] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:35,895] INFO:   - Registros con valores válidos: 24,096
+[2025-09-10 20:18:35,895] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:35,895] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:35,895] INFO:     BP1_1=1: 10,480 (43.5%)
+[2025-09-10 20:18:35,895] INFO:     BP1_1=2: 13,557 (56.3%)
+[2025-09-10 20:18:35,895] INFO:     BP1_1=9: 59 (0.2%)
+[2025-09-10 20:18:35,895] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:35,905] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:35,905] INFO:   - Registros de Yucatán: 258
+[2025-09-10 20:18:35,905] INFO:   - Porcentaje del total: 1.07%
+[2025-09-10 20:18:35,905] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:35,905] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:35,905] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:35,905] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:35,906] INFO:     Seguro (BP1_1=1): 203 (78.7%)
+[2025-09-10 20:18:35,906] INFO:     Inseguro (BP1_1=2): 55 (21.3%)
+[2025-09-10 20:18:35,906] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:35,907] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:35,908] INFO: Resumen por municipio:
+[2025-09-10 20:18:35,909] INFO:   - KANASIN: 25 respuestas, 80.0% seguro
+[2025-09-10 20:18:35,909] INFO:   - MERIDA: 223 respuestas, 79.4% seguro
+[2025-09-10 20:18:35,909] INFO:   - PROGRESO: 5 respuestas, 60.0% seguro
+[2025-09-10 20:18:35,909] INFO:   - UMAN: 5 respuestas, 60.0% seguro
+[2025-09-10 20:18:35,909] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:35,909] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:35,909] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:35,909] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:35,909] INFO:   Percepción general - Seguros: 78.7%, Inseguros: 21.3%
+[2025-09-10 20:18:35,910] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2024_Q3.csv
+[2025-09-10 20:18:35,910] INFO: 
+--- Procesando 2024_Q4 ---
+[2025-09-10 20:18:35,910] INFO: ============================================================
+[2025-09-10 20:18:35,910] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_1224.csv
+[2025-09-10 20:18:35,910] INFO: Período: 2024_Q4
+[2025-09-10 20:18:35,910] INFO: Ruta completa: data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\conjunto_de_datos\conjunto_de_datos_ensu_cb_1224.csv
+[2025-09-10 20:18:35,911] INFO: Tamaño del archivo: 15.23 MB
+[2025-09-10 20:18:35,911] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:36,060] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:36,060] INFO:   - Registros totales: 23,451
+[2025-09-10 20:18:36,060] INFO:   - Columnas totales: 150
+[2025-09-10 20:18:36,060] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:36,063] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:36,064] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:36,065] INFO:   - Estados presentes: AGUASCALIENTES, BAJA CALIFORNIA, BAJA CALIFORNIA SUR, CAMPECHE, COAHUILA DE ZARAGOZA...
+[2025-09-10 20:18:36,065] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:36,065] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:36,065] INFO:   - Valores únicos (muestra): {2: 13762, 1: 9625, 9: 64}
+[2025-09-10 20:18:36,065] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:36,066] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:36,066] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:36,067] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:36,067] INFO:   - Registros con valores válidos: 23,451
+[2025-09-10 20:18:36,067] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:36,067] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:36,067] INFO:     BP1_1=1: 9,625 (41.0%)
+[2025-09-10 20:18:36,067] INFO:     BP1_1=2: 13,762 (58.7%)
+[2025-09-10 20:18:36,067] INFO:     BP1_1=9: 64 (0.3%)
+[2025-09-10 20:18:36,067] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:36,077] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:36,077] INFO:   - Registros de Yucatán: 260
+[2025-09-10 20:18:36,077] INFO:   - Porcentaje del total: 1.11%
+[2025-09-10 20:18:36,077] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:36,077] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:36,077] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:36,077] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:36,077] INFO:     Seguro (BP1_1=1): 180 (69.2%)
+[2025-09-10 20:18:36,077] INFO:     Inseguro (BP1_1=2): 80 (30.8%)
+[2025-09-10 20:18:36,078] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:36,079] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:36,080] INFO: Resumen por municipio:
+[2025-09-10 20:18:36,080] INFO:   - KANASIN: 35 respuestas, 54.3% seguro
+[2025-09-10 20:18:36,081] INFO:   - MERIDA: 210 respuestas, 73.8% seguro
+[2025-09-10 20:18:36,081] INFO:   - PROGRESO: 5 respuestas, 60.0% seguro
+[2025-09-10 20:18:36,081] INFO:   - UMAN: 10 respuestas, 30.0% seguro
+[2025-09-10 20:18:36,081] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:36,081] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:36,081] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:36,081] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:36,081] INFO:   Percepción general - Seguros: 69.2%, Inseguros: 30.8%
+[2025-09-10 20:18:36,082] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2024_Q4.csv
+[2025-09-10 20:18:36,082] INFO: 
+--- Procesando 2025_Q1 ---
+[2025-09-10 20:18:36,082] INFO: ============================================================
+[2025-09-10 20:18:36,082] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0325.csv
+[2025-09-10 20:18:36,082] INFO: Período: 2025_Q1
+[2025-09-10 20:18:36,082] INFO: Ruta completa: data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\conjunto_de_datos\conjunto_de_datos_ensu_cb_0325.csv
+[2025-09-10 20:18:36,082] INFO: Tamaño del archivo: 14.82 MB
+[2025-09-10 20:18:36,082] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:36,224] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:36,224] INFO:   - Registros totales: 23,591
+[2025-09-10 20:18:36,224] INFO:   - Columnas totales: 146
+[2025-09-10 20:18:36,224] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:36,227] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:36,228] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:36,228] INFO:   - Estados presentes: AGUASCALIENTES, BAJA CALIFORNIA, BAJA CALIFORNIA SUR, CAMPECHE, COAHUILA DE ZARAGOZA...
+[2025-09-10 20:18:36,228] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:36,228] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:36,229] INFO:   - Valores únicos (muestra): {2: 13983, 1: 9543, 9: 65}
+[2025-09-10 20:18:36,229] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:36,229] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:36,229] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:36,231] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:36,231] INFO:   - Registros con valores válidos: 23,591
+[2025-09-10 20:18:36,231] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:36,231] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:36,231] INFO:     BP1_1=1: 9,543 (40.5%)
+[2025-09-10 20:18:36,231] INFO:     BP1_1=2: 13,983 (59.3%)
+[2025-09-10 20:18:36,231] INFO:     BP1_1=9: 65 (0.3%)
+[2025-09-10 20:18:36,231] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:36,241] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:36,241] INFO:   - Registros de Yucatán: 258
+[2025-09-10 20:18:36,241] INFO:   - Porcentaje del total: 1.09%
+[2025-09-10 20:18:36,241] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:36,241] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:36,241] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:36,241] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:36,241] INFO:     Seguro (BP1_1=1): 163 (63.2%)
+[2025-09-10 20:18:36,242] INFO:     Inseguro (BP1_1=2): 95 (36.8%)
+[2025-09-10 20:18:36,242] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:36,243] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:36,244] INFO: Resumen por municipio:
+[2025-09-10 20:18:36,245] INFO:   - KANASIN: 29 respuestas, 51.7% seguro
+[2025-09-10 20:18:36,245] INFO:   - MERIDA: 209 respuestas, 66.0% seguro
+[2025-09-10 20:18:36,245] INFO:   - PROGRESO: 10 respuestas, 60.0% seguro
+[2025-09-10 20:18:36,245] INFO:   - UMAN: 10 respuestas, 40.0% seguro
+[2025-09-10 20:18:36,245] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:36,245] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:36,245] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:36,245] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:36,245] INFO:   Percepción general - Seguros: 63.2%, Inseguros: 36.8%
+[2025-09-10 20:18:36,246] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2025_Q1.csv
+[2025-09-10 20:18:36,246] INFO: 
+--- Procesando 2025_Q2 ---
+[2025-09-10 20:18:36,246] INFO: ============================================================
+[2025-09-10 20:18:36,246] INFO: PROCESANDO ARCHIVO: conjunto_de_datos_ensu_cb_0625.csv
+[2025-09-10 20:18:36,247] INFO: Período: 2025_Q2
+[2025-09-10 20:18:36,247] INFO: Ruta completa: data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\conjunto_de_datos\conjunto_de_datos_ensu_cb_0625.csv
+[2025-09-10 20:18:36,247] INFO: Tamaño del archivo: 15.12 MB
+[2025-09-10 20:18:36,247] INFO: Leyendo archivo CSV...
+[2025-09-10 20:18:36,387] INFO: ✓ Archivo leído exitosamente
+[2025-09-10 20:18:36,387] INFO:   - Registros totales: 23,717
+[2025-09-10 20:18:36,387] INFO:   - Columnas totales: 150
+[2025-09-10 20:18:36,387] INFO: [OK] Todas las columnas requeridas presentes
+[2025-09-10 20:18:36,391] INFO: Analizando datos iniciales:
+[2025-09-10 20:18:36,392] INFO:   - Valores únicos en NOM_ENT: 32
+[2025-09-10 20:18:36,392] INFO:   - Estados presentes: AGUASCALIENTES, BAJA CALIFORNIA, BAJA CALIFORNIA SUR, CAMPECHE, COAHUILA DE ZARAGOZA...
+[2025-09-10 20:18:36,392] INFO: Analizando columna BP1_1:
+[2025-09-10 20:18:36,392] INFO:   - Tipo de datos original: int64
+[2025-09-10 20:18:36,393] INFO:   - Valores únicos (muestra): {2: 14290, 1: 9392, 9: 35}
+[2025-09-10 20:18:36,393] INFO:   - Valores nulos: 0
+[2025-09-10 20:18:36,393] INFO: Conversión a numérico completada:
+[2025-09-10 20:18:36,393] INFO:   - Nuevos nulos después de conversión: 0
+[2025-09-10 20:18:36,394] INFO: Filtrado por valores válidos de BP1_1:
+[2025-09-10 20:18:36,394] INFO:   - Registros con valores válidos: 23,717
+[2025-09-10 20:18:36,394] INFO:   - Registros descartados: 0
+[2025-09-10 20:18:36,394] INFO:   - Distribución de valores válidos:
+[2025-09-10 20:18:36,394] INFO:     BP1_1=1: 9,392 (39.6%)
+[2025-09-10 20:18:36,394] INFO:     BP1_1=2: 14,290 (60.3%)
+[2025-09-10 20:18:36,394] INFO:     BP1_1=9: 35 (0.1%)
+[2025-09-10 20:18:36,394] INFO: Filtrando registros de Yucatán...
+[2025-09-10 20:18:36,404] INFO: Resultados del filtrado por Yucatán:
+[2025-09-10 20:18:36,404] INFO:   - Registros de Yucatán: 255
+[2025-09-10 20:18:36,404] INFO:   - Porcentaje del total: 1.08%
+[2025-09-10 20:18:36,404] INFO: Análisis de datos de Yucatán:
+[2025-09-10 20:18:36,404] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:36,404] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:36,404] INFO:   - Distribución de percepción en Yucatán:
+[2025-09-10 20:18:36,404] INFO:     Seguro (BP1_1=1): 156 (61.2%)
+[2025-09-10 20:18:36,404] INFO:     Inseguro (BP1_1=2): 99 (38.8%)
+[2025-09-10 20:18:36,405] INFO: Agrupando datos por municipio y ciudad...
+[2025-09-10 20:18:36,406] INFO: ✓ Agrupación completada: 4 combinaciones municipio-ciudad
+[2025-09-10 20:18:36,406] INFO: Resumen por municipio:
+[2025-09-10 20:18:36,407] INFO:   - KANASIN: 25 respuestas, 32.0% seguro
+[2025-09-10 20:18:36,407] INFO:   - MERIDA: 211 respuestas, 65.4% seguro
+[2025-09-10 20:18:36,407] INFO:   - PROGRESO: 9 respuestas, 66.7% seguro
+[2025-09-10 20:18:36,407] INFO:   - UMAN: 10 respuestas, 40.0% seguro
+[2025-09-10 20:18:36,407] INFO: Totales finales del procesamiento:
+[2025-09-10 20:18:36,408] INFO:   - Municipios únicos: 4
+[2025-09-10 20:18:36,408] INFO:   - Ciudades únicas: 1
+[2025-09-10 20:18:36,408] INFO:   - Total de registros agregados: 4
+[2025-09-10 20:18:36,408] INFO:   Percepción general - Seguros: 61.2%, Inseguros: 38.8%
+[2025-09-10 20:18:36,409] INFO:   Archivo guardado: data/yucatan_processed\yucatan_security_2025_Q2.csv
+[2025-09-10 20:18:36,410] INFO: === RESUMEN DE PROCESAMIENTO ===
+[2025-09-10 20:18:36,410] INFO: Archivos procesados exitosamente: 20
+[2025-09-10 20:18:36,410] INFO: Archivos con errores: 0
+[2025-09-10 20:18:36,410] INFO: 
+=== FASE 4 COMPLETADA EXITOSAMENTE ===
