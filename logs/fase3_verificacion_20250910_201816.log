@@ -1,0 +1,98 @@
+[2025-09-10 20:18:16,164] INFO: === INICIANDO FASE 3: VERIFICACIÓN INCREMENTAL ===
+[2025-09-10 20:18:16,174] INFO: Directorio data/yucatan_processed no existe. Se asume que no hay archivos procesados.
+[2025-09-10 20:18:16,174] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_001
+[2025-09-10 20:18:16,174] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_002
+[2025-09-10 20:18:16,174] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_003
+[2025-09-10 20:18:16,174] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_004
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_005
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_006
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_007
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_008
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_009
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_010
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_011
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_012
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_013
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_014
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_015
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_016
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_017
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_018
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_020
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_021
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_022
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_023
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_024
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2020_Q3: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2020_Q4: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2021_Q1: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2021_Q2: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2021_Q3: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2021_Q4: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2022_Q1: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2022_Q2: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2022_Q3: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2022_Q4: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2023_Q1: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2023_Q2: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2023_Q3: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2023_Q4: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2024_Q1: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2024_Q2: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2024_Q3: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2024_Q4: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2025_Q1: Será procesado
+[2025-09-10 20:18:16,175] INFO: PENDIENTE 2025_Q2: Será procesado
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_083
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_084
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_085
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_086
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_087
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_088
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_089
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_090
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_091
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_092
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_093
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_094
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_095
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_096
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_097
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_098
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_099
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_100
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_101
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_102
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_103
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_104
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_105
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_106
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_107
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_108
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_167
+[2025-09-10 20:18:16,175] WARNING: SALTANDO archivo con período no identificado: UNKNOWN_168
+[2025-09-10 20:18:16,177] INFO: === RESUMEN DE VERIFICACIÓN INCREMENTAL ===
+[2025-09-10 20:18:16,177] INFO: Archivos pendientes de procesar: 20
+[2025-09-10 20:18:16,177] INFO: Archivos ya procesados (saltados): 0
+[2025-09-10 20:18:16,177] INFO: Períodos a procesar:
+[2025-09-10 20:18:16,177] INFO:   - 2020_Q3
+[2025-09-10 20:18:16,177] INFO:   - 2020_Q4
+[2025-09-10 20:18:16,177] INFO:   - 2021_Q1
+[2025-09-10 20:18:16,177] INFO:   - 2021_Q2
+[2025-09-10 20:18:16,177] INFO:   - 2021_Q3
+[2025-09-10 20:18:16,177] INFO:   - 2021_Q4
+[2025-09-10 20:18:16,177] INFO:   - 2022_Q1
+[2025-09-10 20:18:16,177] INFO:   - 2022_Q2
+[2025-09-10 20:18:16,177] INFO:   - 2022_Q3
+[2025-09-10 20:18:16,177] INFO:   - 2022_Q4
+[2025-09-10 20:18:16,177] INFO:   - 2023_Q1
+[2025-09-10 20:18:16,177] INFO:   - 2023_Q2
+[2025-09-10 20:18:16,177] INFO:   - 2023_Q3
+[2025-09-10 20:18:16,177] INFO:   - 2023_Q4
+[2025-09-10 20:18:16,177] INFO:   - 2024_Q1
+[2025-09-10 20:18:16,177] INFO:   - 2024_Q2
+[2025-09-10 20:18:16,177] INFO:   - 2024_Q3
+[2025-09-10 20:18:16,177] INFO:   - 2024_Q4
+[2025-09-10 20:18:16,177] INFO:   - 2025_Q1
+[2025-09-10 20:18:16,177] INFO:   - 2025_Q2
+[2025-09-10 20:18:16,177] INFO: === FASE 3 COMPLETADA EXITOSAMENTE ===

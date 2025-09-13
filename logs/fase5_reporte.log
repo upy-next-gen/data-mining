@@ -1,0 +1,115 @@
+2025-09-10 20:19:03,566 - INFO - === FASE 5: GENERACIÓN DE REPORTE FINAL ===
+2025-09-10 20:19:03,589 - INFO - Cargando datasets procesados...
+2025-09-10 20:19:03,590 - INFO -   - Cargando: yucatan_security_2020_Q3.csv
+2025-09-10 20:19:03,608 - INFO -   - Cargando: yucatan_security_2020_Q4.csv
+2025-09-10 20:19:03,629 - INFO -   - Cargando: yucatan_security_2021_Q1.csv
+2025-09-10 20:19:03,649 - INFO -   - Cargando: yucatan_security_2021_Q2.csv
+2025-09-10 20:19:03,656 - INFO -   - Cargando: yucatan_security_2021_Q3.csv
+2025-09-10 20:19:03,666 - INFO -   - Cargando: yucatan_security_2021_Q4.csv
+2025-09-10 20:19:03,679 - INFO -   - Cargando: yucatan_security_2022_Q1.csv
+2025-09-10 20:19:03,700 - INFO -   - Cargando: yucatan_security_2022_Q2.csv
+2025-09-10 20:19:03,714 - INFO -   - Cargando: yucatan_security_2022_Q3.csv
+2025-09-10 20:19:03,734 - INFO -   - Cargando: yucatan_security_2022_Q4.csv
+2025-09-10 20:19:03,752 - INFO -   - Cargando: yucatan_security_2023_Q1.csv
+2025-09-10 20:19:03,764 - INFO -   - Cargando: yucatan_security_2023_Q2.csv
+2025-09-10 20:19:03,775 - INFO -   - Cargando: yucatan_security_2023_Q3.csv
+2025-09-10 20:19:03,787 - INFO -   - Cargando: yucatan_security_2023_Q4.csv
+2025-09-10 20:19:03,797 - INFO -   - Cargando: yucatan_security_2024_Q1.csv
+2025-09-10 20:19:03,809 - INFO -   - Cargando: yucatan_security_2024_Q2.csv
+2025-09-10 20:19:03,819 - INFO -   - Cargando: yucatan_security_2024_Q3.csv
+2025-09-10 20:19:03,830 - INFO -   - Cargando: yucatan_security_2024_Q4.csv
+2025-09-10 20:19:03,840 - INFO -   - Cargando: yucatan_security_2025_Q1.csv
+2025-09-10 20:19:03,851 - INFO -   - Cargando: yucatan_security_2025_Q2.csv
+2025-09-10 20:19:03,862 - INFO - Total de registros combinados: 75
+2025-09-10 20:19:03,863 - INFO - Columnas 'AÑO' y 'TRIMESTRE' creadas a partir de 'PERIODO'.
+2025-09-10 20:19:03,864 - INFO - Nombres de municipios normalizados a mayúsculas.
+2025-09-10 20:19:03,864 - INFO - Generando estadísticas globales...
+2025-09-10 20:19:03,871 - INFO - Guardando dataset maestro...
+2025-09-10 20:19:37,215 - INFO - === FASE 5: GENERACIÓN DE REPORTE FINAL ===
+2025-09-10 20:19:37,216 - INFO - Cargando datasets procesados...
+2025-09-10 20:19:37,216 - INFO -   - Cargando: yucatan_security_2020_Q3.csv
+2025-09-10 20:19:37,218 - INFO -   - Cargando: yucatan_security_2020_Q4.csv
+2025-09-10 20:19:37,219 - INFO -   - Cargando: yucatan_security_2021_Q1.csv
+2025-09-10 20:19:37,220 - INFO -   - Cargando: yucatan_security_2021_Q2.csv
+2025-09-10 20:19:37,221 - INFO -   - Cargando: yucatan_security_2021_Q3.csv
+2025-09-10 20:19:37,222 - INFO -   - Cargando: yucatan_security_2021_Q4.csv
+2025-09-10 20:19:37,222 - INFO -   - Cargando: yucatan_security_2022_Q1.csv
+2025-09-10 20:19:37,223 - INFO -   - Cargando: yucatan_security_2022_Q2.csv
+2025-09-10 20:19:37,224 - INFO -   - Cargando: yucatan_security_2022_Q3.csv
+2025-09-10 20:19:37,225 - INFO -   - Cargando: yucatan_security_2022_Q4.csv
+2025-09-10 20:19:37,225 - INFO -   - Cargando: yucatan_security_2023_Q1.csv
+2025-09-10 20:19:37,226 - INFO -   - Cargando: yucatan_security_2023_Q2.csv
+2025-09-10 20:19:37,227 - INFO -   - Cargando: yucatan_security_2023_Q3.csv
+2025-09-10 20:19:37,228 - INFO -   - Cargando: yucatan_security_2023_Q4.csv
+2025-09-10 20:19:37,228 - INFO -   - Cargando: yucatan_security_2024_Q1.csv
+2025-09-10 20:19:37,229 - INFO -   - Cargando: yucatan_security_2024_Q2.csv
+2025-09-10 20:19:37,230 - INFO -   - Cargando: yucatan_security_2024_Q3.csv
+2025-09-10 20:19:37,231 - INFO -   - Cargando: yucatan_security_2024_Q4.csv
+2025-09-10 20:19:37,231 - INFO -   - Cargando: yucatan_security_2025_Q1.csv
+2025-09-10 20:19:37,232 - INFO -   - Cargando: yucatan_security_2025_Q2.csv
+2025-09-10 20:19:37,233 - INFO - Total de registros combinados: 75
+2025-09-10 20:19:37,234 - INFO - Columnas 'AÑO' y 'TRIMESTRE' creadas a partir de 'PERIODO'.
+2025-09-10 20:19:37,235 - INFO - Nombres de municipios normalizados a mayúsculas.
+2025-09-10 20:19:37,235 - INFO - Generando estadísticas globales...
+2025-09-10 20:19:37,242 - INFO - Guardando dataset maestro...
+2025-09-10 20:19:37,244 - INFO -   - Dataset maestro guardado: reports/dataset_maestro_yucatan.csv
+2025-09-10 20:19:37,244 - INFO - Generando reporte HTML...
+2025-09-10 20:19:37,245 - INFO -   - Reporte HTML guardado: reports/reporte_ensu_yucatan.html
+2025-09-10 20:19:37,246 - INFO -   - Estadísticas JSON guardadas: reports/estadisticas_finales.json
+2025-09-10 20:19:37,246 - INFO - 
+=== RESUMEN FINAL ===
+2025-09-10 20:19:37,247 - INFO - Total de registros procesados: 75
+2025-09-10 20:19:37,247 - INFO - Años cubiertos: 2020 - 2025
+2025-09-10 20:19:37,247 - INFO - Municipios analizados: 4
+2025-09-10 20:19:37,247 - INFO - Percepción promedio de seguridad: 61.07%
+2025-09-10 20:19:37,247 - INFO - Percepción promedio de inseguridad: 38.92%
+2025-09-10 20:19:37,247 - INFO - 
+📊 Reportes generados:
+2025-09-10 20:19:37,247 - INFO -   1. reports/dataset_maestro_yucatan.csv
+2025-09-10 20:19:37,247 - INFO -   2. reports/reporte_ensu_yucatan.html
+2025-09-10 20:19:37,247 - INFO -   3. reports/estadisticas_finales.json
+2025-09-12 18:15:51,292 - INFO - === FASE 5: GENERACIÓN DE REPORTE FINAL ===
+2025-09-12 18:15:51,295 - INFO - Cargando datasets procesados...
+2025-09-12 18:15:51,296 - INFO -   - Cargando: yucatan_security_2020_Q3.csv
+2025-09-12 18:15:51,316 - INFO -   - Cargando: yucatan_security_2020_Q4.csv
+2025-09-12 18:15:51,320 - INFO -   - Cargando: yucatan_security_2021_Q1.csv
+2025-09-12 18:15:51,323 - INFO -   - Cargando: yucatan_security_2021_Q2.csv
+2025-09-12 18:15:51,327 - INFO -   - Cargando: yucatan_security_2021_Q3.csv
+2025-09-12 18:15:51,331 - INFO -   - Cargando: yucatan_security_2021_Q4.csv
+2025-09-12 18:15:51,334 - INFO -   - Cargando: yucatan_security_2022_Q1.csv
+2025-09-12 18:15:51,338 - INFO -   - Cargando: yucatan_security_2022_Q2.csv
+2025-09-12 18:15:51,341 - INFO -   - Cargando: yucatan_security_2022_Q3.csv
+2025-09-12 18:15:51,344 - INFO -   - Cargando: yucatan_security_2022_Q4.csv
+2025-09-12 18:15:51,348 - INFO -   - Cargando: yucatan_security_2023_Q1.csv
+2025-09-12 18:15:51,351 - INFO -   - Cargando: yucatan_security_2023_Q2.csv
+2025-09-12 18:15:51,355 - INFO -   - Cargando: yucatan_security_2023_Q3.csv
+2025-09-12 18:15:51,359 - INFO -   - Cargando: yucatan_security_2023_Q4.csv
+2025-09-12 18:15:51,363 - INFO -   - Cargando: yucatan_security_2024_Q1.csv
+2025-09-12 18:15:51,367 - INFO -   - Cargando: yucatan_security_2024_Q2.csv
+2025-09-12 18:15:51,370 - INFO -   - Cargando: yucatan_security_2024_Q3.csv
+2025-09-12 18:15:51,373 - INFO -   - Cargando: yucatan_security_2024_Q4.csv
+2025-09-12 18:15:51,376 - INFO -   - Cargando: yucatan_security_2025_Q1.csv
+2025-09-12 18:15:51,379 - INFO -   - Cargando: yucatan_security_2025_Q2.csv
+2025-09-12 18:15:51,384 - INFO - Total de registros combinados: 75
+2025-09-12 18:15:51,396 - INFO - Columnas 'AÑO' y 'TRIMESTRE' creadas a partir de 'PERIODO'.
+2025-09-12 18:15:51,399 - INFO - Nombres de municipios normalizados a mayúsculas.
+2025-09-12 18:15:51,399 - INFO - Generando estadísticas globales...
+2025-09-12 18:15:51,450 - INFO - Generando gráfico de tendencia...
+2025-09-12 18:15:51,450 - INFO - Generando gráfico de tendencia...
+2025-09-12 18:15:54,175 - INFO - Guardando dataset maestro...
+2025-09-12 18:15:54,185 - INFO -   - Dataset maestro guardado: reports/dataset_maestro_yucatan.csv
+2025-09-12 18:15:54,185 - INFO - Generando reporte HTML...
+2025-09-12 18:15:54,190 - INFO -   - Reporte HTML guardado: reports/reporte_ensu_yucatan.html
+2025-09-12 18:15:54,195 - INFO -   - Estadísticas JSON guardadas: reports/estadisticas_finales.json
+2025-09-12 18:15:54,195 - INFO - 
+=== RESUMEN FINAL ===
+2025-09-12 18:15:54,195 - INFO - Total de registros procesados: 75
+2025-09-12 18:15:54,195 - INFO - Años cubiertos: 2020 - 2025
+2025-09-12 18:15:54,195 - INFO - Municipios analizados: 4
+2025-09-12 18:15:54,195 - INFO - Percepción promedio de seguridad: 61.07%
+2025-09-12 18:15:54,195 - INFO - Percepción promedio de inseguridad: 38.92%
+2025-09-12 18:15:54,196 - INFO - 
+📊 Reportes generados:
+2025-09-12 18:15:54,196 - INFO -   1. reports/dataset_maestro_yucatan.csv
+2025-09-12 18:15:54,196 - INFO -   2. reports/reporte_ensu_yucatan.html
+2025-09-12 18:15:54,196 - INFO -   3. reports/estadisticas_finales.json

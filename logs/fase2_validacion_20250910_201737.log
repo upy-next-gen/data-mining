@@ -1,0 +1,755 @@
+[2025-09-10 20:17:37,685] INFO: === INICIANDO FASE 2: VALIDACIÓN ===
+[2025-09-10 20:17:37,711] INFO: Validando: data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2015.csv
+[2025-09-10 20:17:37,733] WARNING:   [X] NO PROCESABLE - UNKNOWN_001
+[2025-09-10 20:17:37,733] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,733] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:37,733] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,733] INFO: Validando: data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2015.csv
+[2025-09-10 20:17:37,735] WARNING:   [X] NO PROCESABLE - UNKNOWN_002
+[2025-09-10 20:17:37,735] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,735] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:37,735] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,735] INFO: Validando: data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2016.csv
+[2025-09-10 20:17:37,752] WARNING:   [X] NO PROCESABLE - UNKNOWN_003
+[2025-09-10 20:17:37,752] WARNING:     Columnas faltantes: ['NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,752] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,752] INFO: Validando: data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2016.csv
+[2025-09-10 20:17:37,754] WARNING:   [X] NO PROCESABLE - UNKNOWN_004
+[2025-09-10 20:17:37,754] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,754] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:37,754] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,754] INFO: Validando: data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2017.csv
+[2025-09-10 20:17:37,828] WARNING:   [X] NO PROCESABLE - UNKNOWN_005
+[2025-09-10 20:17:37,828] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:37,828] INFO: Validando: data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2017.csv
+[2025-09-10 20:17:37,831] WARNING:   [X] NO PROCESABLE - UNKNOWN_006
+[2025-09-10 20:17:37,831] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,831] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:37,831] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,831] INFO: Validando: data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2015.csv
+[2025-09-10 20:17:37,841] WARNING:   [X] NO PROCESABLE - UNKNOWN_007
+[2025-09-10 20:17:37,841] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,841] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:37,841] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,841] INFO: Validando: data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2015.csv
+[2025-09-10 20:17:37,842] WARNING:   [X] NO PROCESABLE - UNKNOWN_008
+[2025-09-10 20:17:37,842] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,842] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:37,843] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,843] INFO: Validando: data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2016.csv
+[2025-09-10 20:17:37,859] WARNING:   [X] NO PROCESABLE - UNKNOWN_009
+[2025-09-10 20:17:37,859] WARNING:     Columnas faltantes: ['NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,859] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,859] INFO: Validando: data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2016.csv
+[2025-09-10 20:17:37,861] WARNING:   [X] NO PROCESABLE - UNKNOWN_010
+[2025-09-10 20:17:37,861] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,861] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:37,861] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,861] INFO: Validando: data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2017.csv
+[2025-09-10 20:17:37,935] WARNING:   [X] NO PROCESABLE - UNKNOWN_011
+[2025-09-10 20:17:37,935] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:37,935] INFO: Validando: data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2017.csv
+[2025-09-10 20:17:37,937] WARNING:   [X] NO PROCESABLE - UNKNOWN_012
+[2025-09-10 20:17:37,938] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,938] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:37,938] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,938] INFO: Validando: data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2015.csv
+[2025-09-10 20:17:37,948] WARNING:   [X] NO PROCESABLE - UNKNOWN_013
+[2025-09-10 20:17:37,948] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,948] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:37,948] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,948] INFO: Validando: data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2015.csv
+[2025-09-10 20:17:37,950] WARNING:   [X] NO PROCESABLE - UNKNOWN_014
+[2025-09-10 20:17:37,950] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,950] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:37,950] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,950] INFO: Validando: data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2016.csv
+[2025-09-10 20:17:37,967] WARNING:   [X] NO PROCESABLE - UNKNOWN_015
+[2025-09-10 20:17:37,967] WARNING:     Columnas faltantes: ['NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,967] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,967] INFO: Validando: data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2016.csv
+[2025-09-10 20:17:37,970] WARNING:   [X] NO PROCESABLE - UNKNOWN_016
+[2025-09-10 20:17:37,970] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:37,970] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:37,970] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:37,970] INFO: Validando: data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2017.csv
+[2025-09-10 20:17:38,045] WARNING:   [X] NO PROCESABLE - UNKNOWN_017
+[2025-09-10 20:17:38,045] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:38,045] INFO: Validando: data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2017.csv
+[2025-09-10 20:17:38,048] WARNING:   [X] NO PROCESABLE - UNKNOWN_018
+[2025-09-10 20:17:38,048] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:38,048] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,048] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,048] INFO: Validando: data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2015.csv
+[2025-09-10 20:17:38,058] WARNING:   [X] NO PROCESABLE - 2015_Q4
+[2025-09-10 20:17:38,058] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:38,058] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,058] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,058] INFO: Validando: data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2015.csv
+[2025-09-10 20:17:38,059] WARNING:   [X] NO PROCESABLE - UNKNOWN_020
+[2025-09-10 20:17:38,059] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:38,059] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,059] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,059] INFO: Validando: data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2016.csv
+[2025-09-10 20:17:38,137] WARNING:   [X] NO PROCESABLE - UNKNOWN_021
+[2025-09-10 20:17:38,137] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:38,137] INFO: Validando: data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2016.csv
+[2025-09-10 20:17:38,140] WARNING:   [X] NO PROCESABLE - UNKNOWN_022
+[2025-09-10 20:17:38,140] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:38,140] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,140] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,140] INFO: Validando: data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2017.csv
+[2025-09-10 20:17:38,211] WARNING:   [X] NO PROCESABLE - UNKNOWN_023
+[2025-09-10 20:17:38,211] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:38,211] INFO: Validando: data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2017.csv
+[2025-09-10 20:17:38,214] WARNING:   [X] NO PROCESABLE - UNKNOWN_024
+[2025-09-10 20:17:38,214] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:38,214] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,214] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,214] INFO: Validando: data\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\conjunto_de_datos\ensu_cb_0118.csv
+[2025-09-10 20:17:38,285] WARNING:   [X] NO PROCESABLE - 2018_Q1
+[2025-09-10 20:17:38,285] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:38,285] INFO: Validando: data\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\diccionario_de_datos\diccionario_de_datos_ensu_cb_0118.csv
+[2025-09-10 20:17:38,288] WARNING:   [X] NO PROCESABLE - 2018_Q1
+[2025-09-10 20:17:38,288] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:38,288] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,288] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,288] INFO: Validando: data\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\conjunto_de_datos\ ensu_cb_0218.csv
+[2025-09-10 20:17:38,357] WARNING:   [X] NO PROCESABLE - 2018_Q2
+[2025-09-10 20:17:38,357] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:38,357] INFO: Validando: data\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\diccionario_de_datos\diccionario_de_datos_ensu_cb_0218.csv
+[2025-09-10 20:17:38,360] WARNING:   [X] NO PROCESABLE - 2018_Q2
+[2025-09-10 20:17:38,360] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:38,360] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,360] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,360] INFO: Validando: data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2018.csv
+[2025-09-10 20:17:38,460] WARNING:   [X] NO PROCESABLE - 2018_Q3
+[2025-09-10 20:17:38,461] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:38,461] INFO: Validando: data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2018.csv
+[2025-09-10 20:17:38,464] WARNING:   [X] NO PROCESABLE - 2018_Q3
+[2025-09-10 20:17:38,464] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:38,464] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,464] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,464] INFO: Validando: data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\conjunto_de_datos\conjunto_de_datos_cb_ENSU_04_2018.csv
+[2025-09-10 20:17:38,537] WARNING:   [X] NO PROCESABLE - 2018_Q4
+[2025-09-10 20:17:38,537] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:38,537] INFO: Validando: data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\diccionario_de_datos\diccionario_de_datos_cb_ENSU_04_2018.csv
+[2025-09-10 20:17:38,540] WARNING:   [X] NO PROCESABLE - 2018_Q4
+[2025-09-10 20:17:38,540] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:38,540] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,540] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,540] INFO: Validando: data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2019.csv
+[2025-09-10 20:17:38,588] WARNING:   [X] NO PROCESABLE - 2019_Q1
+[2025-09-10 20:17:38,588] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:38,588] INFO: Validando: data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2019.csv
+[2025-09-10 20:17:38,589] WARNING:   [X] NO PROCESABLE - 2019_Q1
+[2025-09-10 20:17:38,589] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:38,589] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,589] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,589] INFO: Validando: data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\conjunto_de_datos\conjunto_de_datos_cb_ENSU_2019_2t.csv
+[2025-09-10 20:17:38,663] WARNING:   [X] NO PROCESABLE - 2019_Q2
+[2025-09-10 20:17:38,663] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:38,663] INFO: Validando: data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\diccionario_de_datos\diccionario_de_datos_cb_ENSU_2019_2t.csv
+[2025-09-10 20:17:38,665] WARNING:   [X] NO PROCESABLE - 2019_Q2
+[2025-09-10 20:17:38,665] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:38,665] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,665] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,665] INFO: Validando: data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\conjunto_de_datos\conjunto_de_datos_CB_ENSU_04_2019.csv
+[2025-09-10 20:17:38,755] WARNING:   [X] NO PROCESABLE - 2019_Q4
+[2025-09-10 20:17:38,755] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:38,755] INFO: Validando: data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\diccionario_de_datos\diccionario_de_datos_CB_ENSU_04_2019.csv
+[2025-09-10 20:17:38,756] WARNING:   [X] NO PROCESABLE - 2019_Q4
+[2025-09-10 20:17:38,756] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:38,756] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,756] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,756] INFO: Validando: data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\conjunto_de_datos\conjunto_de_datos_CB_ENSU_01_2020.csv
+[2025-09-10 20:17:38,843] WARNING:   [X] NO PROCESABLE - 2020_Q1
+[2025-09-10 20:17:38,843] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:38,843] INFO: Validando: data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\diccionario_de_datos\diccionario_de_datos_CB_ENSU_01_2020.csv
+[2025-09-10 20:17:38,844] WARNING:   [X] NO PROCESABLE - 2020_Q1
+[2025-09-10 20:17:38,844] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:38,844] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,844] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,844] INFO: Validando: data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+[2025-09-10 20:17:38,951] INFO:   [OK] PROCESABLE - 2020_Q3
+[2025-09-10 20:17:38,951] INFO: Validando: data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\diccionario_de_datos\diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+[2025-09-10 20:17:38,953] WARNING:   [X] NO PROCESABLE - 2020_Q3
+[2025-09-10 20:17:38,953] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:38,953] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:38,953] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:38,953] INFO: Validando: data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+[2025-09-10 20:17:39,030] WARNING:   [X] NO PROCESABLE - 2020_Q3
+[2025-09-10 20:17:39,030] WARNING:     Columnas faltantes: ['BP1_1']
+[2025-09-10 20:17:39,030] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:39,030] INFO: Validando: data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\diccionario_de_datos\diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv
+[2025-09-10 20:17:39,032] WARNING:   [X] NO PROCESABLE - 2020_Q3
+[2025-09-10 20:17:39,032] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:39,032] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:39,032] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:39,032] INFO: Validando: data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\conjunto_de_datos\conjunto_de_datos_CB_ENSU_12_2020.csv
+[2025-09-10 20:17:39,147] INFO:   [OK] PROCESABLE - 2020_Q4
+[2025-09-10 20:17:39,147] INFO: Validando: data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\diccionario_de_datos\diccionario_de_datos_CB_ENSU_12_2020.csv
+[2025-09-10 20:17:39,149] WARNING:   [X] NO PROCESABLE - 2020_Q4
+[2025-09-10 20:17:39,149] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:39,149] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:39,149] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:39,149] INFO: Validando: data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_03_2021.csv
+[2025-09-10 20:17:39,238] INFO:   [OK] PROCESABLE - 2021_Q1
+[2025-09-10 20:17:39,238] INFO: Validando: data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_03_2021.csv
+[2025-09-10 20:17:39,240] WARNING:   [X] NO PROCESABLE - 2021_Q1
+[2025-09-10 20:17:39,240] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:39,240] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:39,240] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:39,240] INFO: Validando: data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_06_2021.csv
+[2025-09-10 20:17:39,335] INFO:   [OK] PROCESABLE - 2021_Q2
+[2025-09-10 20:17:39,335] INFO: Validando: data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_06_2021.csv
+[2025-09-10 20:17:39,337] WARNING:   [X] NO PROCESABLE - 2021_Q2
+[2025-09-10 20:17:39,337] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:39,337] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:39,337] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:39,337] INFO: Validando: data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_09_2021.csv
+[2025-09-10 20:17:39,462] INFO:   [OK] PROCESABLE - 2021_Q3
+[2025-09-10 20:17:39,462] INFO: Validando: data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_09_2021.csv
+[2025-09-10 20:17:39,464] WARNING:   [X] NO PROCESABLE - 2021_Q3
+[2025-09-10 20:17:39,464] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:39,464] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:39,464] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:39,464] INFO: Validando: data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_12_2021.csv
+[2025-09-10 20:17:39,557] INFO:   [OK] PROCESABLE - 2021_Q4
+[2025-09-10 20:17:39,557] INFO: Validando: data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_12_2021.csv
+[2025-09-10 20:17:39,559] WARNING:   [X] NO PROCESABLE - 2021_Q4
+[2025-09-10 20:17:39,559] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:39,559] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:39,559] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:39,559] INFO: Validando: data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\conjunto_de_datos\conjunto_de_datos_ensu_cb_0322.csv
+[2025-09-10 20:17:39,634] INFO:   [OK] PROCESABLE - 2022_Q1
+[2025-09-10 20:17:39,635] INFO: Validando: data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\diccionario_de_datos\diccionario_de_datos_ensu_cb_0322.csv
+[2025-09-10 20:17:39,638] WARNING:   [X] NO PROCESABLE - 2022_Q1
+[2025-09-10 20:17:39,638] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:39,638] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:39,638] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:39,638] INFO: Validando: data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\conjunto_de_datos\conjunto_de_datos_ensu_cb_0622.csv
+[2025-09-10 20:17:39,714] INFO:   [OK] PROCESABLE - 2022_Q2
+[2025-09-10 20:17:39,714] INFO: Validando: data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\diccionario_de_datos\diccionario_de_datos_ensu_cb_0622.csv
+[2025-09-10 20:17:39,718] WARNING:   [X] NO PROCESABLE - 2022_Q2
+[2025-09-10 20:17:39,718] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:39,718] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:39,718] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:39,718] INFO: Validando: data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\conjunto_de_datos\conjunto_de_datos_ensu_cb_0922.csv
+[2025-09-10 20:17:39,812] INFO:   [OK] PROCESABLE - 2022_Q3
+[2025-09-10 20:17:39,812] INFO: Validando: data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\diccionario_de_datos\diccionario_de_datos_ensu_cb_0922.csv
+[2025-09-10 20:17:39,816] WARNING:   [X] NO PROCESABLE - 2022_Q3
+[2025-09-10 20:17:39,816] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:39,816] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:39,816] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:39,816] INFO: Validando: data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\conjunto_de_datos\conjunto_de_datos_ensu_cb_1222.csv
+[2025-09-10 20:17:39,894] INFO:   [OK] PROCESABLE - 2022_Q4
+[2025-09-10 20:17:39,894] INFO: Validando: data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\diccionario_de_datos\diccionario_de_datos_ensu_cb_1222.csv
+[2025-09-10 20:17:39,896] WARNING:   [X] NO PROCESABLE - 2022_Q4
+[2025-09-10 20:17:39,896] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:39,896] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:39,896] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:39,896] INFO: Validando: data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\conjunto_de_datos\conjunto_de_datos_CB_ENSU_03_2023.csv
+[2025-09-10 20:17:40,006] INFO:   [OK] PROCESABLE - 2023_Q1
+[2025-09-10 20:17:40,006] INFO: Validando: data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\diccionario_de_datos\diccionario_de_datos_CB_ENSU_03_2023.csv
+[2025-09-10 20:17:40,008] WARNING:   [X] NO PROCESABLE - 2023_Q1
+[2025-09-10 20:17:40,008] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,008] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,008] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,008] INFO: Validando: data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\conjunto_de_datos\conjunto_de_datos_ensu_cb_0623.csv
+[2025-09-10 20:17:40,112] INFO:   [OK] PROCESABLE - 2023_Q2
+[2025-09-10 20:17:40,112] INFO: Validando: data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\diccionario_de_datos\diccionario_de_datos_ensu_cb_0623.csv
+[2025-09-10 20:17:40,113] WARNING:   [X] NO PROCESABLE - 2023_Q2
+[2025-09-10 20:17:40,113] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,113] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,113] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,113] INFO: Validando: data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\conjunto_de_datos\conjunto_de_datos_ensu_cb_0923.csv
+[2025-09-10 20:17:40,243] INFO:   [OK] PROCESABLE - 2023_Q3
+[2025-09-10 20:17:40,243] INFO: Validando: data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\diccionario_de_datos\diccionario_de_datos_ensu_cb_0923.csv
+[2025-09-10 20:17:40,247] WARNING:   [X] NO PROCESABLE - 2023_Q3
+[2025-09-10 20:17:40,247] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:40,247] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,247] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,247] INFO: Validando: data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\conjunto_de_datos\conjunto_de_datos_ensu_cb_1223.csv
+[2025-09-10 20:17:40,324] INFO:   [OK] PROCESABLE - 2023_Q4
+[2025-09-10 20:17:40,324] INFO: Validando: data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\diccionario_de_datos\diccionario_de_datos_ensu_cb_1223.csv
+[2025-09-10 20:17:40,326] WARNING:   [X] NO PROCESABLE - 2023_Q4
+[2025-09-10 20:17:40,326] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:40,326] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,326] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,326] INFO: Validando: data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\conjunto_de_datos\conjunto_de_datos_ensu_cb_0324.csv
+[2025-09-10 20:17:40,405] INFO:   [OK] PROCESABLE - 2024_Q1
+[2025-09-10 20:17:40,405] INFO: Validando: data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\diccionario_de_datos\diccionario_de_datos_ensu_cb_0324.csv
+[2025-09-10 20:17:40,409] WARNING:   [X] NO PROCESABLE - 2024_Q1
+[2025-09-10 20:17:40,409] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:40,409] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,409] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,409] INFO: Validando: data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\conjunto_de_datos\conjunto_de_datos_ensu_cb_0624.csv
+[2025-09-10 20:17:40,494] INFO:   [OK] PROCESABLE - 2024_Q2
+[2025-09-10 20:17:40,494] INFO: Validando: data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\diccionario_de_datos\diccionario_de_datos_ensu_cb_0624.csv
+[2025-09-10 20:17:40,496] WARNING:   [X] NO PROCESABLE - 2024_Q2
+[2025-09-10 20:17:40,496] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:40,496] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,496] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,496] INFO: Validando: data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\conjunto_de_datos\conjunto_de_datos_ensu_cb_0924.csv
+[2025-09-10 20:17:40,601] INFO:   [OK] PROCESABLE - 2024_Q3
+[2025-09-10 20:17:40,601] INFO: Validando: data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\diccionario_de_datos\diccionario_de_datos_ensu_cb_0924.csv
+[2025-09-10 20:17:40,605] WARNING:   [X] NO PROCESABLE - 2024_Q3
+[2025-09-10 20:17:40,605] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:40,605] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,605] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,605] INFO: Validando: data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\conjunto_de_datos\conjunto_de_datos_ensu_cb_1224.csv
+[2025-09-10 20:17:40,686] INFO:   [OK] PROCESABLE - 2024_Q4
+[2025-09-10 20:17:40,686] INFO: Validando: data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\diccionario_de_datos\diccionario_de_datos_ensu_cb_1224.csv
+[2025-09-10 20:17:40,691] WARNING:   [X] NO PROCESABLE - 2024_Q4
+[2025-09-10 20:17:40,691] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:40,691] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,691] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,691] INFO: Validando: data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\conjunto_de_datos\conjunto_de_datos_ensu_cb_0325.csv
+[2025-09-10 20:17:40,769] INFO:   [OK] PROCESABLE - 2025_Q1
+[2025-09-10 20:17:40,769] INFO: Validando: data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\diccionario_de_datos\diccionario_de_datos_ensu_cb_0325.csv
+[2025-09-10 20:17:40,772] WARNING:   [X] NO PROCESABLE - 2025_Q1
+[2025-09-10 20:17:40,772] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:40,772] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,772] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,772] INFO: Validando: data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\conjunto_de_datos\conjunto_de_datos_ensu_cb_0625.csv
+[2025-09-10 20:17:40,850] INFO:   [OK] PROCESABLE - 2025_Q2
+[2025-09-10 20:17:40,850] INFO: Validando: data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\diccionario_de_datos\diccionario_de_datos_ensu_cb_0625.csv
+[2025-09-10 20:17:40,853] WARNING:   [X] NO PROCESABLE - 2025_Q2
+[2025-09-10 20:17:40,853] WARNING:     Columnas faltantes: ['BP1_1', 'NOM_CD', 'NOM_ENT', 'NOM_MUN']
+[2025-09-10 20:17:40,853] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,853] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,853] INFO: Validando: data\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\conjunto_de_datos\conjunto_de_datos_cb_ENSU_03_2019.csv
+[2025-09-10 20:17:40,944] WARNING:   [X] NO PROCESABLE - UNKNOWN_083
+[2025-09-10 20:17:40,944] WARNING:     Columnas faltantes: ['NOM_CD']
+[2025-09-10 20:17:40,945] INFO: Validando: data\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ENSU_03_2019.csv
+[2025-09-10 20:17:40,946] WARNING:   [X] NO PROCESABLE - UNKNOWN_084
+[2025-09-10 20:17:40,946] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,946] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,947] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,947] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\conjunto_de_datos\._conjunto_de_datos_cb_ensu_01_2015.csv
+[2025-09-10 20:17:40,948] WARNING:   [X] NO PROCESABLE - UNKNOWN_085
+[2025-09-10 20:17:40,948] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,948] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,948] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,948] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\diccionario_de_datos\._diccionario_de_datos_cb_ensu_01_2015.csv
+[2025-09-10 20:17:40,949] WARNING:   [X] NO PROCESABLE - UNKNOWN_086
+[2025-09-10 20:17:40,949] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,949] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,949] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,949] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\conjunto_de_datos\._conjunto_de_datos_cb_ensu_01_2016.csv
+[2025-09-10 20:17:40,950] WARNING:   [X] NO PROCESABLE - UNKNOWN_087
+[2025-09-10 20:17:40,950] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,950] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,950] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,950] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\diccionario_de_datos\._diccionario_de_datos_cb_ensu_01_2016.csv
+[2025-09-10 20:17:40,951] WARNING:   [X] NO PROCESABLE - UNKNOWN_088
+[2025-09-10 20:17:40,951] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,951] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,951] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,951] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\conjunto_de_datos\._conjunto_de_datos_cb_ensu_01_2017.csv
+[2025-09-10 20:17:40,952] WARNING:   [X] NO PROCESABLE - UNKNOWN_089
+[2025-09-10 20:17:40,952] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,952] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,952] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,952] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\diccionario_de_datos\._diccionario_de_datos_cb_ensu_01_2017.csv
+[2025-09-10 20:17:40,953] WARNING:   [X] NO PROCESABLE - UNKNOWN_090
+[2025-09-10 20:17:40,953] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,953] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,953] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,953] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\conjunto_de_datos\._conjunto_de_datos_cb_ensu_02_2015.csv
+[2025-09-10 20:17:40,954] WARNING:   [X] NO PROCESABLE - UNKNOWN_091
+[2025-09-10 20:17:40,954] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,954] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,954] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,954] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\diccionario_de_datos\._diccionario_de_datos_cb_ensu_02_2015.csv
+[2025-09-10 20:17:40,955] WARNING:   [X] NO PROCESABLE - UNKNOWN_092
+[2025-09-10 20:17:40,955] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,955] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,955] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,955] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\conjunto_de_datos\._conjunto_de_datos_cb_ensu_02_2016.csv
+[2025-09-10 20:17:40,956] WARNING:   [X] NO PROCESABLE - UNKNOWN_093
+[2025-09-10 20:17:40,956] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,956] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,956] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,956] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\diccionario_de_datos\._diccionario_de_datos_cb_ensu_02_2016.csv
+[2025-09-10 20:17:40,957] WARNING:   [X] NO PROCESABLE - UNKNOWN_094
+[2025-09-10 20:17:40,957] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,957] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,957] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,957] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\conjunto_de_datos\._conjunto_de_datos_cb_ensu_02_2017.csv
+[2025-09-10 20:17:40,958] WARNING:   [X] NO PROCESABLE - UNKNOWN_095
+[2025-09-10 20:17:40,958] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,958] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,958] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,958] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\diccionario_de_datos\._diccionario_de_datos_cb_ensu_02_2017.csv
+[2025-09-10 20:17:40,959] WARNING:   [X] NO PROCESABLE - UNKNOWN_096
+[2025-09-10 20:17:40,959] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,959] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,959] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,959] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\conjunto_de_datos\._conjunto_de_datos_cb_ensu_03_2015.csv
+[2025-09-10 20:17:40,960] WARNING:   [X] NO PROCESABLE - UNKNOWN_097
+[2025-09-10 20:17:40,960] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,960] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,960] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,960] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\diccionario_de_datos\._diccionario_de_datos_cb_ensu_03_2015.csv
+[2025-09-10 20:17:40,961] WARNING:   [X] NO PROCESABLE - UNKNOWN_098
+[2025-09-10 20:17:40,961] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,961] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,961] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,961] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\conjunto_de_datos\._conjunto_de_datos_cb_ensu_03_2016.csv
+[2025-09-10 20:17:40,962] WARNING:   [X] NO PROCESABLE - UNKNOWN_099
+[2025-09-10 20:17:40,962] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,962] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,962] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,962] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\diccionario_de_datos\._diccionario_de_datos_cb_ensu_03_2016.csv
+[2025-09-10 20:17:40,963] WARNING:   [X] NO PROCESABLE - UNKNOWN_100
+[2025-09-10 20:17:40,963] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,963] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,963] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,963] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\conjunto_de_datos\._conjunto_de_datos_cb_ensu_03_2017.csv
+[2025-09-10 20:17:40,964] WARNING:   [X] NO PROCESABLE - UNKNOWN_101
+[2025-09-10 20:17:40,964] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,964] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,964] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,964] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\diccionario_de_datos\._diccionario_de_datos_cb_ensu_03_2017.csv
+[2025-09-10 20:17:40,965] WARNING:   [X] NO PROCESABLE - UNKNOWN_102
+[2025-09-10 20:17:40,965] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,965] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,965] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,965] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\conjunto_de_datos\._conjunto_de_datos_cb_ensu_04_2015.csv
+[2025-09-10 20:17:40,966] WARNING:   [X] NO PROCESABLE - UNKNOWN_103
+[2025-09-10 20:17:40,966] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,966] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,966] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,966] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\diccionario_de_datos\._diccionario_de_datos_cb_ensu_04_2015.csv
+[2025-09-10 20:17:40,968] WARNING:   [X] NO PROCESABLE - UNKNOWN_104
+[2025-09-10 20:17:40,968] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,968] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,968] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,968] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\conjunto_de_datos\._conjunto_de_datos_cb_ensu_04_2016.csv
+[2025-09-10 20:17:40,968] WARNING:   [X] NO PROCESABLE - UNKNOWN_105
+[2025-09-10 20:17:40,969] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,969] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,969] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,969] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\diccionario_de_datos\._diccionario_de_datos_cb_ensu_04_2016.csv
+[2025-09-10 20:17:40,969] WARNING:   [X] NO PROCESABLE - UNKNOWN_106
+[2025-09-10 20:17:40,969] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,969] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,970] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,970] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\conjunto_de_datos\._conjunto_de_datos_cb_ensu_04_2017.csv
+[2025-09-10 20:17:40,970] WARNING:   [X] NO PROCESABLE - UNKNOWN_107
+[2025-09-10 20:17:40,970] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,970] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,970] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,970] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\diccionario_de_datos\._diccionario_de_datos_cb_ensu_04_2017.csv
+[2025-09-10 20:17:40,971] WARNING:   [X] NO PROCESABLE - UNKNOWN_108
+[2025-09-10 20:17:40,971] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,971] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,971] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,971] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\conjunto_de_datos\._ensu_cb_0118.csv
+[2025-09-10 20:17:40,972] WARNING:   [X] NO PROCESABLE - 2018_Q1
+[2025-09-10 20:17:40,972] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,972] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,972] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,972] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0118.csv
+[2025-09-10 20:17:40,973] WARNING:   [X] NO PROCESABLE - 2018_Q1
+[2025-09-10 20:17:40,973] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,973] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,973] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,973] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\conjunto_de_datos\._ ensu_cb_0218.csv
+[2025-09-10 20:17:40,974] WARNING:   [X] NO PROCESABLE - 2018_Q2
+[2025-09-10 20:17:40,974] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,974] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,974] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,974] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0218.csv
+[2025-09-10 20:17:40,975] WARNING:   [X] NO PROCESABLE - 2018_Q2
+[2025-09-10 20:17:40,975] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,975] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,975] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,975] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\conjunto_de_datos\._conjunto_de_datos_cb_ensu_03_2018.csv
+[2025-09-10 20:17:40,976] WARNING:   [X] NO PROCESABLE - 2018_Q3
+[2025-09-10 20:17:40,976] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,976] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,976] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,976] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\diccionario_de_datos\._diccionario_de_datos_cb_ensu_03_2018.csv
+[2025-09-10 20:17:40,977] WARNING:   [X] NO PROCESABLE - 2018_Q3
+[2025-09-10 20:17:40,977] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,977] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,977] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,977] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\conjunto_de_datos\._conjunto_de_datos_cb_ENSU_04_2018.csv
+[2025-09-10 20:17:40,978] WARNING:   [X] NO PROCESABLE - 2018_Q4
+[2025-09-10 20:17:40,978] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,978] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,978] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,978] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\diccionario_de_datos\._diccionario_de_datos_cb_ENSU_04_2018.csv
+[2025-09-10 20:17:40,979] WARNING:   [X] NO PROCESABLE - 2018_Q4
+[2025-09-10 20:17:40,979] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,979] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,979] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,979] INFO: Validando: data\__MACOSX\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\conjunto_de_datos\._conjunto_de_datos_cb_ensu_03_2019.csv
+[2025-09-10 20:17:40,980] WARNING:   [X] NO PROCESABLE - 2019_Q1
+[2025-09-10 20:17:40,980] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,980] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,980] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,980] INFO: Validando: data\__MACOSX\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\diccionario_de_datos\._diccionario_de_datos_cb_ensu_03_2019.csv
+[2025-09-10 20:17:40,981] WARNING:   [X] NO PROCESABLE - 2019_Q1
+[2025-09-10 20:17:40,981] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,981] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,981] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,981] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\conjunto_de_datos\._conjunto_de_datos_cb_ENSU_2019_2t.csv
+[2025-09-10 20:17:40,982] WARNING:   [X] NO PROCESABLE - 2019_Q2
+[2025-09-10 20:17:40,982] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,982] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,982] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,982] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\diccionario_de_datos\._diccionario_de_datos_cb_ENSU_2019_2t.csv
+[2025-09-10 20:17:40,983] WARNING:   [X] NO PROCESABLE - 2019_Q2
+[2025-09-10 20:17:40,983] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,983] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,983] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,983] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_04_2019.csv
+[2025-09-10 20:17:40,984] WARNING:   [X] NO PROCESABLE - 2019_Q4
+[2025-09-10 20:17:40,984] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,984] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,984] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,984] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_04_2019.csv
+[2025-09-10 20:17:40,985] WARNING:   [X] NO PROCESABLE - 2019_Q4
+[2025-09-10 20:17:40,985] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,985] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,985] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,985] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_01_2020.csv
+[2025-09-10 20:17:40,986] WARNING:   [X] NO PROCESABLE - 2020_Q1
+[2025-09-10 20:17:40,986] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,986] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,986] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,986] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_01_2020.csv
+[2025-09-10 20:17:40,987] WARNING:   [X] NO PROCESABLE - 2020_Q1
+[2025-09-10 20:17:40,987] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,987] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,987] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,987] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\conjunto_de_datos\._conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+[2025-09-10 20:17:40,988] WARNING:   [X] NO PROCESABLE - 2020_Q3
+[2025-09-10 20:17:40,988] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,988] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,988] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,988] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\diccionario_de_datos\._diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+[2025-09-10 20:17:40,989] WARNING:   [X] NO PROCESABLE - 2020_Q3
+[2025-09-10 20:17:40,989] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,989] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,989] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,989] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\conjunto_de_datos\._conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+[2025-09-10 20:17:40,990] WARNING:   [X] NO PROCESABLE - 2020_Q3
+[2025-09-10 20:17:40,990] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,990] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,990] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,990] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\diccionario_de_datos\._diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv
+[2025-09-10 20:17:40,991] WARNING:   [X] NO PROCESABLE - 2020_Q3
+[2025-09-10 20:17:40,991] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,991] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,991] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,991] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_12_2020.csv
+[2025-09-10 20:17:40,992] WARNING:   [X] NO PROCESABLE - 2020_Q4
+[2025-09-10 20:17:40,992] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,992] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,992] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,992] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_12_2020.csv
+[2025-09-10 20:17:40,993] WARNING:   [X] NO PROCESABLE - 2020_Q4
+[2025-09-10 20:17:40,993] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,993] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,993] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,993] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_03_2021.csv
+[2025-09-10 20:17:40,993] WARNING:   [X] NO PROCESABLE - 2021_Q1
+[2025-09-10 20:17:40,994] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,994] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,994] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,994] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_03_2021.csv
+[2025-09-10 20:17:40,994] WARNING:   [X] NO PROCESABLE - 2021_Q1
+[2025-09-10 20:17:40,995] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,995] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,995] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,995] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_06_2021.csv
+[2025-09-10 20:17:40,995] WARNING:   [X] NO PROCESABLE - 2021_Q2
+[2025-09-10 20:17:40,996] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,996] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,996] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,996] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_06_2021.csv
+[2025-09-10 20:17:40,996] WARNING:   [X] NO PROCESABLE - 2021_Q2
+[2025-09-10 20:17:40,996] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,996] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,997] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,997] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_09_2021.csv
+[2025-09-10 20:17:40,997] WARNING:   [X] NO PROCESABLE - 2021_Q3
+[2025-09-10 20:17:40,997] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,997] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,997] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,997] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_09_2021.csv
+[2025-09-10 20:17:40,998] WARNING:   [X] NO PROCESABLE - 2021_Q3
+[2025-09-10 20:17:40,998] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,998] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,998] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,998] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_12_2021.csv
+[2025-09-10 20:17:40,999] WARNING:   [X] NO PROCESABLE - 2021_Q4
+[2025-09-10 20:17:40,999] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:40,999] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:40,999] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:40,999] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_12_2021.csv
+[2025-09-10 20:17:41,000] WARNING:   [X] NO PROCESABLE - 2021_Q4
+[2025-09-10 20:17:41,000] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,000] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,000] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,000] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0322.csv
+[2025-09-10 20:17:41,001] WARNING:   [X] NO PROCESABLE - 2022_Q1
+[2025-09-10 20:17:41,001] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,001] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,001] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,001] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0322.csv
+[2025-09-10 20:17:41,002] WARNING:   [X] NO PROCESABLE - 2022_Q1
+[2025-09-10 20:17:41,002] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,002] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,002] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,002] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0622.csv
+[2025-09-10 20:17:41,003] WARNING:   [X] NO PROCESABLE - 2022_Q2
+[2025-09-10 20:17:41,003] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,003] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,003] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,003] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0622.csv
+[2025-09-10 20:17:41,004] WARNING:   [X] NO PROCESABLE - 2022_Q2
+[2025-09-10 20:17:41,004] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,004] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,004] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,004] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0922.csv
+[2025-09-10 20:17:41,005] WARNING:   [X] NO PROCESABLE - 2022_Q3
+[2025-09-10 20:17:41,005] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,005] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,005] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,005] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0922.csv
+[2025-09-10 20:17:41,006] WARNING:   [X] NO PROCESABLE - 2022_Q3
+[2025-09-10 20:17:41,006] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,006] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,006] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,006] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\conjunto_de_datos\._conjunto_de_datos_ensu_cb_1222.csv
+[2025-09-10 20:17:41,007] WARNING:   [X] NO PROCESABLE - 2022_Q4
+[2025-09-10 20:17:41,007] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,007] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,007] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,007] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\diccionario_de_datos\._diccionario_de_datos_ensu_cb_1222.csv
+[2025-09-10 20:17:41,008] WARNING:   [X] NO PROCESABLE - 2022_Q4
+[2025-09-10 20:17:41,008] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,008] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,008] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,008] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_03_2023.csv
+[2025-09-10 20:17:41,009] WARNING:   [X] NO PROCESABLE - 2023_Q1
+[2025-09-10 20:17:41,009] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,009] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,009] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,009] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_03_2023.csv
+[2025-09-10 20:17:41,010] WARNING:   [X] NO PROCESABLE - 2023_Q1
+[2025-09-10 20:17:41,010] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,010] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,010] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,010] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0623.csv
+[2025-09-10 20:17:41,011] WARNING:   [X] NO PROCESABLE - 2023_Q2
+[2025-09-10 20:17:41,011] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,011] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,011] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,011] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0623.csv
+[2025-09-10 20:17:41,012] WARNING:   [X] NO PROCESABLE - 2023_Q2
+[2025-09-10 20:17:41,012] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,012] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,012] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,012] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0923.csv
+[2025-09-10 20:17:41,013] WARNING:   [X] NO PROCESABLE - 2023_Q3
+[2025-09-10 20:17:41,013] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,013] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,013] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,013] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0923.csv
+[2025-09-10 20:17:41,014] WARNING:   [X] NO PROCESABLE - 2023_Q3
+[2025-09-10 20:17:41,014] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,014] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,014] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,014] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\conjunto_de_datos\._conjunto_de_datos_ensu_cb_1223.csv
+[2025-09-10 20:17:41,015] WARNING:   [X] NO PROCESABLE - 2023_Q4
+[2025-09-10 20:17:41,015] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,015] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,015] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,015] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\diccionario_de_datos\._diccionario_de_datos_ensu_cb_1223.csv
+[2025-09-10 20:17:41,016] WARNING:   [X] NO PROCESABLE - 2023_Q4
+[2025-09-10 20:17:41,016] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,016] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,016] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,016] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0324.csv
+[2025-09-10 20:17:41,017] WARNING:   [X] NO PROCESABLE - 2024_Q1
+[2025-09-10 20:17:41,017] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,017] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,017] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,017] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0324.csv
+[2025-09-10 20:17:41,018] WARNING:   [X] NO PROCESABLE - 2024_Q1
+[2025-09-10 20:17:41,018] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,018] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,018] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,018] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0624.csv
+[2025-09-10 20:17:41,019] WARNING:   [X] NO PROCESABLE - 2024_Q2
+[2025-09-10 20:17:41,019] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,019] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,019] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,019] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0624.csv
+[2025-09-10 20:17:41,020] WARNING:   [X] NO PROCESABLE - 2024_Q2
+[2025-09-10 20:17:41,020] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,020] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,020] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,020] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0924.csv
+[2025-09-10 20:17:41,021] WARNING:   [X] NO PROCESABLE - 2024_Q3
+[2025-09-10 20:17:41,021] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,021] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,021] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,021] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0924.csv
+[2025-09-10 20:17:41,022] WARNING:   [X] NO PROCESABLE - 2024_Q3
+[2025-09-10 20:17:41,022] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,022] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,022] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,022] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\conjunto_de_datos\._conjunto_de_datos_ensu_cb_1224.csv
+[2025-09-10 20:17:41,023] WARNING:   [X] NO PROCESABLE - 2024_Q4
+[2025-09-10 20:17:41,023] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,023] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,023] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,023] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\diccionario_de_datos\._diccionario_de_datos_ensu_cb_1224.csv
+[2025-09-10 20:17:41,024] WARNING:   [X] NO PROCESABLE - 2024_Q4
+[2025-09-10 20:17:41,024] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,024] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,024] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,024] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0325.csv
+[2025-09-10 20:17:41,025] WARNING:   [X] NO PROCESABLE - 2025_Q1
+[2025-09-10 20:17:41,025] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,025] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,025] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,025] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0325.csv
+[2025-09-10 20:17:41,026] WARNING:   [X] NO PROCESABLE - 2025_Q1
+[2025-09-10 20:17:41,026] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,026] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,026] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,026] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0625.csv
+[2025-09-10 20:17:41,027] WARNING:   [X] NO PROCESABLE - 2025_Q2
+[2025-09-10 20:17:41,027] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,027] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,027] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,027] INFO: Validando: data\__MACOSX\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0625.csv
+[2025-09-10 20:17:41,028] WARNING:   [X] NO PROCESABLE - 2025_Q2
+[2025-09-10 20:17:41,028] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,028] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,028] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,028] INFO: Validando: data\__MACOSX\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\conjunto_de_datos\._conjunto_de_datos_cb_ENSU_03_2019.csv
+[2025-09-10 20:17:41,030] WARNING:   [X] NO PROCESABLE - UNKNOWN_167
+[2025-09-10 20:17:41,030] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,030] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,030] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,030] INFO: Validando: data\__MACOSX\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\diccionario_de_datos\._diccionario_de_datos_cb_ENSU_03_2019.csv
+[2025-09-10 20:17:41,031] WARNING:   [X] NO PROCESABLE - UNKNOWN_168
+[2025-09-10 20:17:41,031] WARNING:     Columnas faltantes: []
+[2025-09-10 20:17:41,031] WARNING:     Valores inválidos en BP1_1: []
+[2025-09-10 20:17:41,031] WARNING:     No contiene datos de Yucatán
+[2025-09-10 20:17:41,034] INFO: === RESUMEN DE VALIDACIÓN ===
+[2025-09-10 20:17:41,034] INFO: Total archivos analizados: 168
+[2025-09-10 20:17:41,034] INFO: Archivos procesables: 20
+[2025-09-10 20:17:41,034] INFO: Archivos no procesables: 148
+[2025-09-10 20:17:41,034] INFO: Períodos con duplicados resueltos: 0
+[2025-09-10 20:17:41,034] INFO: === FASE 2 COMPLETADA EXITOSAMENTE ===
