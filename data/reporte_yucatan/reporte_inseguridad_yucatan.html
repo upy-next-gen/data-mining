@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Interactivo de Inseguridad en Yucatán</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Leaflet para mapa -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; background-color: #f4f7fc; margin: 0; padding: 20px; }
+        .container { max-width: 1200px; margin: auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); }
+        h1, h2, h3 { color: #1a3b5d; border-bottom: 3px solid #007bff; padding-bottom: 10px; }
+        h1 { font-size: 2.5em; text-align: center; border: none; }
+        h2 { font-size: 2em; margin-top: 50px; }
+        h3 { font-size: 1.5em; margin-top: 40px; border-bottom: 1px solid #ccc; }
+        p { color: #555; }
+        .kpi-container { display: flex; justify-content: space-around; text-align: center; margin: 30px 0; flex-wrap: wrap; gap: 15px; }
+        .kpi-card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-left: 5px solid #007bff; flex-basis: 200px; flex-grow: 1; }
+        .kpi-card .value { font-size: 2.2em; font-weight: bold; color: #0056b3; }
+        .kpi-card .label { font-size: 1em; color: #666; }
+        .chart-container { margin-top: 30px; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        .grid-2 { display: grid; grid-template-columns: 1fr 2fr; gap: 30px; align-items: center; }
+        @media (max-width: 768px) { .grid-2 { grid-template-columns: 1fr; } }
+        #heatmap { height: 500px; border-radius:10px; margin-bottom:40px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard de Percepción de Inseguridad en Yucatán</h1>
+        <p style="text-align:center;">Este dashboard interactivo se basa en los datos de la <b>Encuesta Nacional de Seguridad Urbana (ENSU)</b>, con el objetivo de mostrar cómo ha evolucionado la percepción de inseguridad en Yucatán. Aquí se presentan indicadores clave, tendencias históricas y comparativas entre los principales municipios.</p>
+        
+        <h2>Indicadores Clave (Resumen General)</h2>
+        <div class="kpi-container">
+            <div class="kpi-card"><div class="value">27.83%</div><div class="label">Promedio General de Inseguridad</div></div>
+            <div class="kpi-card"><div class="value">2025-Q2</div><div class="label">Período más Inseguro (38.82%)</div></div>
+            <div class="kpi-card"><div class="value">2019-Q2</div><div class="label">Período menos Inseguro (17.24%)</div></div>
+        </div>
+
+        <h2>Análisis General del Estado</h2>
+        <p>La percepción de inseguridad ha mostrado altibajos a lo largo de los años, con momentos de mejora significativa, pero también con repuntes en periodos recientes. El promedio estatal se mantiene relativamente bajo en comparación con la media nacional, aunque algunos municipios presentan valores preocupantes.</p>
+        
+        <div class="grid-2">
+            <div class="chart-container">
+                <h3>Distribución de Respuestas</h3>
+                <canvas id="donutChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Tendencia de Inseguridad por Período</h3>
+                <canvas id="stateTrendChart"></canvas>
+            </div>
+        </div>
+
+        <h2>Comparativa entre Municipios</h2>
+        <p>Se observa que mientras Mérida presenta niveles bajos de percepción de inseguridad, municipios como Kanasín, Umán y Progreso registran cifras mucho más elevadas, lo que refleja contrastes importantes dentro del estado.</p>
+        <div class="chart-container">
+            <h3>Promedio General de Inseguridad por Municipio</h3>
+            <canvas id="munComparisonChart"></canvas>
+        </div>
+
+        <h2>Mapa de Calor de Inseguridad</h2>
+        <p>El siguiente mapa muestra la localización de los municipios analizados y la intensidad de la percepción de inseguridad. Entre más oscuro el color, mayor el nivel de inseguridad percibida.</p>
+        <div id="heatmap"></div>
+
+        <h2>Desglose Detallado por Municipio</h2>
+        <h3>Kanasín</h3><div class="chart-container"><canvas id="chart_kanasin"></canvas></div>
+        <h3>Mérida</h3><div class="chart-container"><canvas id="chart_merida"></canvas></div>
+        <h3>Progreso</h3><div class="chart-container"><canvas id="chart_progreso"></canvas></div>
+        <h3>Umán</h3><div class="chart-container"><canvas id="chart_uman"></canvas></div>
+
+        <h2>Comparación Global en Radar</h2>
+        <p>El radar chart permite visualizar de manera rápida cuál municipio concentra mayor percepción de inseguridad y cuál se encuentra por debajo del promedio estatal.</p>
+        <div class="chart-container"><canvas id="radarChart"></canvas></div>
+
+        <h2>Conclusiones</h2>
+        <p>Los datos reflejan que Yucatán mantiene un nivel relativamente bajo de percepción de inseguridad en el contexto nacional. No obstante, existen focos rojos en municipios como Kanasín, Umán y Progreso, que requieren atención prioritaria. La continuidad en la recolección de estos datos permitirá medir los efectos de políticas públicas y acciones de seguridad en el futuro.</p>
+    </div>
+
+    <script>
+    // ====== DONUT ======
+    new Chart(document.getElementById('donutChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ["Seguro", "Inseguro", "No Responde"],
+            datasets: [{
+                label: "Distribución de Respuestas",
+                data: [5329, 2056, 3],
+                backgroundColor: ["#28a745", "#dc3545", "#ffc107"]
+            }]
+        }
+    });
+
+    // ====== LINE TREND ======
+    new Chart(document.getElementById('stateTrendChart'), {
+        type: 'line',
+        data: {
+            labels: ["2016-Q2", "2017-Q1", "2017-Q2", "2018-Q1", "2018-Q2", "2019-Q1", "2019-Q2", "2020-Q1", "2020-Q3", "2020-Q4", "2021-Q1", "2021-Q2", "2021-Q3", "2021-Q4", "2022-Q1", "2022-Q2", "2022-Q3", "2022-Q4", "2023-Q1", "2023-Q2", "2023-Q3", "2023-Q4", "2024-Q1", "2024-Q2", "2024-Q3", "2024-Q4", "2025-Q1", "2025-Q2"],
+            datasets: [{
+                label: "% de Inseguridad",
+                data: [36.96, 29.66, 26.82, 38.49, 29.0, 22.59, 17.24, 25.0, 24.05, 26.14, 30.57, 26.49, 34.46, 28.36, 23.16, 33.09, 29.28, 29.39, 23.66, 24.72, 26.22, 22.39, 23.74, 20.31, 21.32, 30.77, 36.82, 38.82],
+                borderColor: "#007bff",
+                backgroundColor: "rgba(0, 123, 255, 0.1)",
+                fill: true,
+                tension: 0.1
+            }]
+        }
+    });
+
+    // ====== MUNICIPAL COMPARISON ======
+    new Chart(document.getElementById('munComparisonChart'), {
+        type: 'bar',
+        data: {
+            labels: ["Mérida", "Umán", "Progreso", "Kanasín"],
+            datasets: [{
+                label: "Promedio General de Inseguridad (%)",
+                data: [24.25, 39.93, 43.45, 46.56],
+                backgroundColor: "#17a2b8"
+            }]
+        },
+        options: { indexAxis: "y" }
+    });
+
+    // ====== MUNICIPAL DETAILS ======
+    new Chart(document.getElementById('chart_kanasin'), {
+        type: 'line',
+        data: {
+            labels: [2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],
+            datasets: [{
+                label: "% de Inseguridad en Kanasín",
+                data: [80.95,78.95,64.52,41.38,46.15,60.94,41.86,31.93,31.58,57.41],
+                borderColor: "#6f42c1", backgroundColor: "rgba(111, 66, 193, 0.1)", fill: true
+            }]
+        }
+    });
+
+    new Chart(document.getElementById('chart_merida'), {
+        type: 'line',
+        data: {
+            labels: [2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],
+            datasets: [{
+                label: "% de Inseguridad en Mérida",
+                data: [32.21,22.97,30.11,17.55,21.31,25.2,25.72,20.8,21.83,34.29],
+                borderColor: "#6f42c1", backgroundColor: "rgba(111, 66, 193, 0.1)", fill: true
+            }]
+        }
+    });
+
+    new Chart(document.getElementById('chart_progreso'), {
+        type: 'line',
+        data: {
+            labels: [2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],
+            datasets: [{
+                label: "% de Inseguridad en Progreso",
+                data: [35.71,35.48,37.14,26.47,44.3,46.34,45.83,55.07,40.91,36.84],
+                borderColor: "#6f42c1", backgroundColor: "rgba(111, 66, 193, 0.1)", fill: true
+            }]
+        }
+    });
+
+    new Chart(document.getElementById('chart_uman'), {
+        type: 'line',
+        data: {
+            labels: [2016,2017,2018,2019,2020,2021,2022,2024,2025],
+            datasets: [{
+                label: "% de Inseguridad en Umán",
+                data: [42.86,33.33,48.48,25.71,33.33,45.28,22.22,60.0,60.0],
+                borderColor: "#6f42c1", backgroundColor: "rgba(111, 66, 193, 0.1)", fill: true
+            }]
+        }
+    });
+
+    // ====== HEATMAP ======
+    var map = L.map('heatmap').setView([20.97, -89.62], 8);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    var dataMunicipios = [
+        { name: "Mérida", coords: [20.97, -89.62], value: 24.25 },
+        { name: "Umán", coords: [20.88, -89.75], value: 39.93 },
+        { name: "Progreso", coords: [21.28, -89.67], value: 43.45 },
+        { name: "Kanasín", coords: [20.93, -89.57], value: 46.56 }
+    ];
+
+    var heatPoints = dataMunicipios.map(m => [m.coords[0], m.coords[1], m.value / 100]);
+    L.heatLayer(heatPoints, { radius: 40, blur: 25, maxZoom: 12 }).addTo(map);
+
+    dataMunicipios.forEach(m => {
+        L.marker(m.coords).addTo(map).bindPopup(`<b>${m.name}</b><br>Inseguridad: ${m.value}%`);
+    });
+
+    // ====== RADAR CHART ======
+    new Chart(document.getElementById('radarChart'), {
+        type: 'radar',
+        data: {
+            labels: ["Mérida", "Umán", "Progreso", "Kanasín"],
+            datasets: [
+                {
+                    label: "Municipios % Inseguridad",
+                    data: [24.25, 39.93, 43.45, 46.56],
+                    backgroundColor: "rgba(0, 123, 255, 0.2)",
+                    borderColor: "#007bff",
+                    pointBackgroundColor: "#0056b3"
+                },
+                {
+                    label: "Promedio Estatal (27.83%)",
+                    data: [27.83, 27.83, 27.83, 27.83], // mismo valor en todos los ejes
+                    backgroundColor: "rgba(40, 167, 69, 0.1)", // verde claro
+                    borderColor: "rgba(40, 167, 69, 1)",       // verde fuerte
+                    pointBackgroundColor: "rgba(40, 167, 69, 1)",
+                    borderDash: [6, 6] // línea punteada
+                }
+            ]
+        },
+        options: {
+            scales: {
+                r: {
+                    beginAtZero: true,
+                    max: 100,
+                    ticks: { stepSize: 20 }
+                }
+            }
+        }
+    });
+    </script>
+</body>
+</html>
+
+</html>
+    
