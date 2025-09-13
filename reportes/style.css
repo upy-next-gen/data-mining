@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Variables para una paleta de colores rica y profunda */
+:root {
+    --primary-dark: #1a2a3a; /* Azul oscuro casi negro para fondos */
+    --secondary-dark: #2c3e50; /* Gris azulado oscuro para tarjetas */
+    --accent-blue: #3498db; /* Azul vibrante para acentos y bordes */
+    --accent-green: #2ecc71; /* Verde para valores positivos */
+    --accent-red: #e74c3c; /* Rojo para valores negativos */
+    --text-light: #ecf0f1; /* Texto claro para fondos oscuros */
+    --text-muted: #bdc3c7; /* Texto secundario o menos prominente */
+    --border-color: rgba(255, 255, 255, 0.1); /* Bordes sutiles */
+    --shadow-color: rgba(0, 0, 0, 0.4); /* Sombra profunda */
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif; /* Tipografía mejorada */
+    margin: 0;
+    padding: 0;
+    /* Gradiente sutil para un fondo más dinámico */
+    background: radial-gradient(circle, var(--secondary-dark) 0%, var(--primary-dark) 100%);
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--secondary-dark);
+    box-shadow: 0 0 25px var(--shadow-color);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+h1, h2, h3 {
+    color: var(--accent-blue);
+    border-bottom: 2px solid var(--accent-blue);
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    border-bottom: none;
+    color: var(--text-light);
+    text-shadow: 2px 2px 5px var(--shadow-color);
+}
+
+.metadata {
+    text-align: center;
+    color: var(--text-muted);
+    margin-bottom: 30px;
+    font-size: 0.95em;
+}
+
+.kpi-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: var(--primary-dark);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: inset 0 0 10px var(--shadow-color);
+}
+
+.kpi {
+    text-align: center;
+    margin: 15px 20px;
+    flex: 1 1 180px;
+    min-width: 150px;
+}
+
+.kpi-value {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: var(--accent-green);
+    transition: color 0.3s ease;
+}
+
+.kpi-label {
+    font-size: 1em;
+    color: var(--text-muted);
+    margin-top: 8px;
+}
+
+/* Clases de KPI refactorizadas para mayor claridad */
+.kpi-positive {
+    color: var(--accent-green);
+}
+
+.kpi-negative {
+    color: var(--accent-red);
+}
+
+.kpi-neutral {
+    color: var(--text-muted);
+}
+
+
+.grafico-estatal {
+    margin: 40px 0;
+    text-align: center;
+    background-color: var(--primary-dark);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px var(--shadow-color);
+}
+
+.grafico-estatal img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--shadow-color);
+}
+
+.grid-municipales {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.grafico-municipal {
+    background-color: var(--primary-dark);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px var(--shadow-color);
+    text-align: center;
+}
+
+.grafico-municipal h3 {
+    color: var(--accent-blue);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.grafico-municipal img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--shadow-color);
+}
+
+.tabla {
+    width: 100%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: var(--primary-dark);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px var(--shadow-color);
+}
+
+.tabla th, .tabla td {
+    padding: 15px;
+    border: 1px solid var(--border-color);
+    text-align: left;
+    color: var(--text-light);
+}
+
+.tabla th {
+    background-color: var(--accent-blue);
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: var(--secondary-dark);
+}
+
+.tabla tr:hover {
+    background-color: rgba(52, 152, 219, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+/* --- STYLES FOR ANALYTICAL COMMENTARY --- */
+
+.analysis-section {
+    background-color: var(--primary-dark);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px var(--shadow-color);
+}
+
+.analysis-section h3 {
+    color: var(--text-light);
+    border-bottom-color: var(--accent-blue);
+    margin-top: 0;
+}
+
+.executive-summary p {
+    font-size: 1.1em;
+    text-align: center;
+    color: var(--text-muted);
+    max-width: 80ch;
+    margin: 0 auto;
+}
+
+.chart-analysis-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.analysis-column ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.analysis-column li {
+    margin-bottom: 10px;
+}
+
+.spotlight-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.spotlight-box {
+    background: var(--secondary-dark);
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid var(--accent-red);
+}
+
+.spotlight-box.positive-spotlight {
+    border-left-color: var(--accent-green);
+}
+
+.spotlight-box h4 {
+    margin-top: 0;
+    color: var(--text-light);
+    font-size: 1.2em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        margin: 10px auto;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    .kpi {
+        flex: 1 1 100%;
+        margin: 10px 0;
+    }
+    .grid-municipales {
+        grid-template-columns: 1fr;
+    }
+    .chart-analysis-container {
+        grid-template-columns: 1fr;
+    }
+}
