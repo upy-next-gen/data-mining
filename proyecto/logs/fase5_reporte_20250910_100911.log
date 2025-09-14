@@ -1,0 +1,9 @@
+2025-09-10 10:09:11,296 - INFO - --- Iniciando Fase 5: Reporte Final ---
+2025-09-10 10:09:11,298 - INFO - Encontrados 18 archivos CSV para consolidar.
+2025-09-10 10:09:11,362 - INFO - Datos consolidados exitosamente. Total de filas: 70
+2025-09-10 10:09:11,389 - INFO - Dataset maestro guardado en: C:\Users\josea\Documents\data-mining\proyecto\reports\dataset_maestro_yucatan.csv
+2025-09-10 10:09:11,424 - INFO - Resumen de procesamiento cargado desde C:\Users\josea\Documents\data-mining\proyecto\temp\procesamiento_resultados.json
+2025-09-10 10:09:11,425 - INFO - Generando reporte HTML...
+2025-09-10 10:09:11,426 - INFO - Reporte HTML guardado en: C:\Users\josea\Documents\data-mining\proyecto\reports\reporte_ensu_yucatan.html
+2025-09-10 10:09:11,429 - INFO - Estadísticas finales guardadas en: C:\Users\josea\Documents\data-mining\proyecto\reports\estadisticas_finales.json
+2025-09-10 10:09:11,429 - INFO - --- Fase 5 Finalizada ---

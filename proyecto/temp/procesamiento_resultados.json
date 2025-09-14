@@ -1,0 +1,295 @@
+{
+    "timestamp": "2025-09-10T10:05:39.398310",
+    "archivos_procesados": 18,
+    "archivos_fallidos": 0,
+    "resultados": [
+        {
+            "periodo": "2016-Q2",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_04_2016_csv\\conjunto_de_datos_cb_ensu_04_2016\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_04_2016.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2016_Q2.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2016-Q2",
+                "registros_originales": 13976,
+                "registros_yucatan": 257,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 257,
+                "porcentaje_seguros_general": 63.04,
+                "porcentaje_inseguros_general": 36.96
+            }
+        },
+        {
+            "periodo": "2017-Q1",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_02_2017_csv\\conjunto_de_datos_cb_ensu_02_2017\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_02_2017.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2017_Q1.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2017-Q1",
+                "registros_originales": 15272,
+                "registros_yucatan": 264,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 264,
+                "porcentaje_seguros_general": 66.67,
+                "porcentaje_inseguros_general": 33.33
+            }
+        },
+        {
+            "periodo": "2017-Q2",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_04_2017_csv\\conjunto_de_datos_cb_ensu_04_2017\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_04_2017.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2017_Q2.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2017-Q2",
+                "registros_originales": 15072,
+                "registros_yucatan": 261,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 261,
+                "porcentaje_seguros_general": 73.18,
+                "porcentaje_inseguros_general": 26.82
+            }
+        },
+        {
+            "periodo": "2018-Q1",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2018_1t_csv\\ensu_cb_0118\\conjunto_de_datos\\ensu_cb_0118.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2018_Q1.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2018-Q1",
+                "registros_originales": 15172,
+                "registros_yucatan": 266,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 266,
+                "porcentaje_seguros_general": 71.43,
+                "porcentaje_inseguros_general": 28.57
+            }
+        },
+        {
+            "periodo": "2018-Q2",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2018_4t_csv\\conjunto_de_datos_cb_ensu_04_2018\\conjunto_de_datos\\conjunto_de_datos_cb_ENSU_04_2018.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2018_Q2.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2018-Q2",
+                "registros_originales": 18017,
+                "registros_yucatan": 269,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 269,
+                "porcentaje_seguros_general": 71.0,
+                "porcentaje_inseguros_general": 29.0
+            }
+        },
+        {
+            "periodo": "2019-Q1",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\Datos abiertos\\conjunto_de_datos_CB_ENSU_03_2019\\conjunto_de_datos\\conjunto_de_datos_cb_ENSU_03_2019.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2019_Q1.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2019-Q1",
+                "registros_originales": 22392,
+                "registros_yucatan": 270,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 270,
+                "porcentaje_seguros_general": 77.41,
+                "porcentaje_inseguros_general": 22.59
+            }
+        },
+        {
+            "periodo": "2019-Q2",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2019_2t_csv\\conjunto_de_datos_cb_ENSU_2019_2t\\conjunto_de_datos\\conjunto_de_datos_cb_ENSU_2019_2t.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2019_Q2.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2019-Q2",
+                "registros_originales": 19010,
+                "registros_yucatan": 265,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 265,
+                "porcentaje_seguros_general": 69.81,
+                "porcentaje_inseguros_general": 30.19
+            }
+        },
+        {
+            "periodo": "2020-Q1",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2020_1t_csv\\conjunto_de_datos_CB_ENSU_01_2020\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_01_2020.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2020_Q1.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2020-Q1",
+                "registros_originales": 22416,
+                "registros_yucatan": 264,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 264,
+                "porcentaje_seguros_general": 75.0,
+                "porcentaje_inseguros_general": 25.0
+            }
+        },
+        {
+            "periodo": "2020-Q2",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2020_4t_csv\\conjunto_de_datos_CB_ENSU_12_2020\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_12_2020.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2020_Q2.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2020-Q2",
+                "registros_originales": 22283,
+                "registros_yucatan": 264,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 264,
+                "porcentaje_seguros_general": 73.86,
+                "porcentaje_inseguros_general": 26.14
+            }
+        },
+        {
+            "periodo": "2021-Q1",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2021_2t_csv\\conjunto_de_datos_CB_ENSU_06_2021\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_06_2021.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2021_Q1.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2021-Q1",
+                "registros_originales": 22411,
+                "registros_yucatan": 268,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 268,
+                "porcentaje_seguros_general": 73.51,
+                "porcentaje_inseguros_general": 26.49
+            }
+        },
+        {
+            "periodo": "2021-Q2",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2021_4t_csv\\conjunto_de_datos_CB_ENSU_12_2021\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_12_2021.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2021_Q2.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2021-Q2",
+                "registros_originales": 23428,
+                "registros_yucatan": 268,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 268,
+                "porcentaje_seguros_general": 71.64,
+                "porcentaje_inseguros_general": 28.36
+            }
+        },
+        {
+            "periodo": "2022-Q1",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2022_2t_csv\\conjunto_de_datos_ensu_cb_0622\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0622.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2022_Q1.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2022-Q1",
+                "registros_originales": 23688,
+                "registros_yucatan": 275,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 275,
+                "porcentaje_seguros_general": 66.91,
+                "porcentaje_inseguros_general": 33.09
+            }
+        },
+        {
+            "periodo": "2022-Q2",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2022_4t_csv\\conjunto_de_datos_ensu_cb_1222\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_1222.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2022_Q2.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2022-Q2",
+                "registros_originales": 24402,
+                "registros_yucatan": 262,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 262,
+                "porcentaje_seguros_general": 70.61,
+                "porcentaje_inseguros_general": 29.39
+            }
+        },
+        {
+            "periodo": "2023-Q1",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2023_2t_csv\\conjunto_de_datos_ensu_cb_0623\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0623.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2023_Q1.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2023-Q1",
+                "registros_originales": 24435,
+                "registros_yucatan": 271,
+                "municipios": 3,
+                "ciudades": 1,
+                "total_respuestas": 271,
+                "porcentaje_seguros_general": 75.28,
+                "porcentaje_inseguros_general": 24.72
+            }
+        },
+        {
+            "periodo": "2023-Q2",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2023_4t_csv\\conjunto_de_datos_ensu_cb_1223\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_1223.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2023_Q2.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2023-Q2",
+                "registros_originales": 24064,
+                "registros_yucatan": 268,
+                "municipios": 3,
+                "ciudades": 1,
+                "total_respuestas": 268,
+                "porcentaje_seguros_general": 77.61,
+                "porcentaje_inseguros_general": 22.39
+            }
+        },
+        {
+            "periodo": "2024-Q1",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2024_3t_csv\\conjunto_de_datos_ensu_cb_0924\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0924.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2024_Q1.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2024-Q1",
+                "registros_originales": 24096,
+                "registros_yucatan": 258,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 258,
+                "porcentaje_seguros_general": 78.68,
+                "porcentaje_inseguros_general": 21.32
+            }
+        },
+        {
+            "periodo": "2024-Q2",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2024_4t_csv\\conjunto_de_datos_ensu_cb_1224\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_1224.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2024_Q2.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2024-Q2",
+                "registros_originales": 23451,
+                "registros_yucatan": 260,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 260,
+                "porcentaje_seguros_general": 69.23,
+                "porcentaje_inseguros_general": 30.77
+            }
+        },
+        {
+            "periodo": "2025-Q1",
+            "archivo_origen": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2025_1t_csv\\conjunto_de_datos_ensu_cb_0325\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0325.csv",
+            "archivo_salida": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2025_Q1.csv",
+            "exito": true,
+            "estadisticas": {
+                "periodo": "2025-Q1",
+                "registros_originales": 23591,
+                "registros_yucatan": 258,
+                "municipios": 4,
+                "ciudades": 1,
+                "total_respuestas": 258,
+                "porcentaje_seguros_general": 63.18,
+                "porcentaje_inseguros_general": 36.82
+            }
+        }
+    ]
+}

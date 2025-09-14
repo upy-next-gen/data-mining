@@ -1,0 +1,91 @@
+2025-09-10 10:50:54,711 - INFO - --- Iniciando Fase 1: Mapeo y Descubrimiento ---
+2025-09-10 10:50:54,712 - INFO - Directorio raíz del proyecto: C:\Users\josea\Documents\data-mining\proyecto
+2025-09-10 10:50:54,712 - INFO - Directorio de datos a escanear: C:\Users\josea\Documents\data-mining\proyecto\data
+2025-09-10 10:50:54,712 - INFO - Iniciando escaneo recursivo de archivos CSV...
+2025-09-10 10:50:54,720 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_01_2015.csv
+2025-09-10 10:50:54,743 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_01_2015.csv': Año=2015, Trimestre=1
+2025-09-10 10:50:54,760 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_01_2016.csv
+2025-09-10 10:50:54,777 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_01_2016.csv': Año=2016, Trimestre=1
+2025-09-10 10:50:54,791 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-10 10:50:54,804 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_01_2017.csv': Año=2017, Trimestre=1
+2025-09-10 10:50:54,820 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_02_2015.csv
+2025-09-10 10:50:54,833 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_02_2015.csv': Año=2015, Trimestre=2
+2025-09-10 10:50:54,848 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_02_2016.csv
+2025-09-10 10:50:54,860 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_02_2016.csv': Año=2016, Trimestre=1
+2025-09-10 10:50:54,882 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-10 10:50:54,897 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_02_2017.csv': Año=2017, Trimestre=1
+2025-09-10 10:50:54,912 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2015.csv
+2025-09-10 10:50:54,921 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_03_2015.csv': Año=2015, Trimestre=3
+2025-09-10 10:50:54,935 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2016.csv
+2025-09-10 10:50:54,947 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_03_2016.csv': Año=2016, Trimestre=1
+2025-09-10 10:50:54,965 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-10 10:50:54,977 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_03_2017.csv': Año=2017, Trimestre=1
+2025-09-10 10:50:54,990 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_04_2015.csv
+2025-09-10 10:50:55,001 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_04_2015.csv': Año=2015, Trimestre=4
+2025-09-10 10:50:55,013 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-10 10:50:55,024 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_04_2016.csv': Año=2016, Trimestre=2
+2025-09-10 10:50:55,038 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-10 10:50:55,049 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_04_2017.csv': Año=2017, Trimestre=2
+2025-09-10 10:50:55,065 - INFO - Procesando archivo: ensu_cb_0118.csv
+2025-09-10 10:50:55,077 - INFO - Periodo encontrado en contenido de 'ensu_cb_0118.csv': Año=2018, Trimestre=1
+2025-09-10 10:50:55,090 - INFO - Procesando archivo: ensu_cb_0218.csv
+2025-09-10 10:50:55,101 - INFO - Periodo encontrado en contenido de 'ensu_cb_0218.csv': Año=2018, Trimestre=1
+2025-09-10 10:50:55,112 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-10 10:50:55,123 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_03_2018.csv': Año=2018, Trimestre=1
+2025-09-10 10:50:55,136 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-10 10:50:55,145 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ENSU_04_2018.csv': Año=2018, Trimestre=2
+2025-09-10 10:50:55,158 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-10 10:50:55,166 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_03_2019.csv': Año=2019, Trimestre=1
+2025-09-10 10:50:55,177 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-10 10:50:55,177 - INFO - Periodo encontrado en nombre de archivo 'conjunto_de_datos_cb_ENSU_2019_2t.csv': Año=2019, Trimestre=2
+2025-09-10 10:50:55,188 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-10 10:50:55,197 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_04_2019.csv': Año=2019, Trimestre=2
+2025-09-10 10:50:55,209 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-10 10:50:55,218 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_01_2020.csv': Año=2020, Trimestre=1
+2025-09-10 10:50:55,232 - INFO - Procesando archivo: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-10 10:50:55,242 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv': Año=2020, Trimestre=1
+2025-09-10 10:50:55,254 - INFO - Procesando archivo: conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-10 10:50:55,263 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv': Año=2020, Trimestre=1
+2025-09-10 10:50:55,276 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-10 10:50:55,288 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_12_2020.csv': Año=2020, Trimestre=2
+2025-09-10 10:50:55,301 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-10 10:50:55,312 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_03_2021.csv': Año=2021, Trimestre=1
+2025-09-10 10:50:55,324 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-10 10:50:55,335 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_06_2021.csv': Año=2021, Trimestre=1
+2025-09-10 10:50:55,352 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-10 10:50:55,364 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_09_2021.csv': Año=2021, Trimestre=1
+2025-09-10 10:50:55,380 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-10 10:50:55,391 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_12_2021.csv': Año=2021, Trimestre=2
+2025-09-10 10:50:55,404 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-10 10:50:55,413 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0322.csv': Año=2022, Trimestre=1
+2025-09-10 10:50:55,425 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-10 10:50:55,434 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0622.csv': Año=2022, Trimestre=1
+2025-09-10 10:50:55,451 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-10 10:50:55,463 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0922.csv': Año=2022, Trimestre=1
+2025-09-10 10:50:55,476 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-10 10:50:55,485 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_1222.csv': Año=2022, Trimestre=2
+2025-09-10 10:50:55,497 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-10 10:50:55,507 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_03_2023.csv': Año=2023, Trimestre=1
+2025-09-10 10:50:55,520 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-10 10:50:55,529 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0623.csv': Año=2023, Trimestre=1
+2025-09-10 10:50:55,549 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-10 10:50:55,562 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0923.csv': Año=2023, Trimestre=1
+2025-09-10 10:50:55,575 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-10 10:50:55,584 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_1223.csv': Año=2023, Trimestre=2
+2025-09-10 10:50:55,596 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-10 10:50:55,606 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0324.csv': Año=2024, Trimestre=1
+2025-09-10 10:50:55,620 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-10 10:50:55,629 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0624.csv': Año=2024, Trimestre=1
+2025-09-10 10:50:55,649 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-10 10:50:55,661 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0924.csv': Año=2024, Trimestre=1
+2025-09-10 10:50:55,675 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-10 10:50:55,685 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_1224.csv': Año=2024, Trimestre=2
+2025-09-10 10:50:55,699 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-10 10:50:55,710 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0325.csv': Año=2025, Trimestre=1
+2025-09-10 10:50:55,723 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-10 10:50:55,733 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0625.csv': Año=2025, Trimestre=1
+2025-09-10 10:50:55,746 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-10 10:50:55,756 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ENSU_03_2019.csv': Año=2019, Trimestre=1
+2025-09-10 10:50:55,768 - INFO - Escaneo finalizado. Se encontraron y procesaron 42 archivos.
+2025-09-10 10:50:55,772 - INFO - Resultados guardados exitosamente en: C:\Users\josea\Documents\data-mining\proyecto\temp\mapeo_archivos.json
+2025-09-10 10:50:55,773 - INFO - --- Fase 1 Finalizada ---

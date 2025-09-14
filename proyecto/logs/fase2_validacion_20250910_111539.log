@@ -1,0 +1,35 @@
+2025-09-10 11:15:39,684 - INFO - --- Iniciando Fase 2: Validación de Archivos ---
+2025-09-10 11:15:39,705 - INFO - Cargado exitosamente C:\Users\josea\Documents\data-mining\proyecto\temp\mapeo_archivos.json
+2025-09-10 11:15:39,706 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_03_2015.csv
+2025-09-10 11:15:39,720 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_04_2015.csv
+2025-09-10 11:15:39,732 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_03_2016.csv
+2025-09-10 11:15:39,785 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-10 11:15:39,970 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-10 11:15:40,154 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-10 11:15:40,328 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-10 11:15:40,548 - INFO - Validando archivo: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-10 11:15:40,742 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-10 11:15:40,971 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-10 11:15:41,229 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-10 11:15:41,485 - INFO - Validando archivo: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-10 11:15:41,778 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-10 11:15:42,096 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-10 11:15:42,348 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-10 11:15:42,651 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-10 11:15:43,001 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-10 11:15:43,322 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-10 11:15:43,549 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-10 11:15:43,766 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-10 11:15:44,052 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-10 11:15:44,300 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-10 11:15:44,584 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-10 11:15:44,874 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-10 11:15:45,273 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-10 11:15:45,501 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-10 11:15:45,736 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-10 11:15:45,979 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-10 11:15:46,303 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-10 11:15:46,534 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-10 11:15:46,812 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-10 11:15:47,066 - INFO - Resultados de validación guardados en: C:\Users\josea\Documents\data-mining\proyecto\temp\archivos_validados.json
+2025-09-10 11:15:47,066 - INFO - --- Fase 2 Finalizada: 28 procesables, 3 no procesables ---

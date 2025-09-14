@@ -1,0 +1,116 @@
+{
+    "timestamp": "2025-09-10T10:49:21.732235",
+    "total_pendientes": 0,
+    "total_saltados": 18,
+    "archivos_pendientes": [],
+    "archivos_saltados": [
+        {
+            "periodo": "2016-Q2",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_04_2016_csv\\conjunto_de_datos_cb_ensu_04_2016\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_04_2016.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2016_Q2.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:29.800838"
+        },
+        {
+            "periodo": "2017-Q1",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_02_2017_csv\\conjunto_de_datos_cb_ensu_02_2017\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_02_2017.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2017_Q1.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:30.225443"
+        },
+        {
+            "periodo": "2017-Q2",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_04_2017_csv\\conjunto_de_datos_cb_ensu_04_2017\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_04_2017.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2017_Q2.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:30.680058"
+        },
+        {
+            "periodo": "2018-Q1",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2018_1t_csv\\ensu_cb_0118\\conjunto_de_datos\\ensu_cb_0118.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2018_Q1.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:31.098877"
+        },
+        {
+            "periodo": "2018-Q2",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2018_4t_csv\\conjunto_de_datos_cb_ensu_04_2018\\conjunto_de_datos\\conjunto_de_datos_cb_ENSU_04_2018.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2018_Q2.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:31.596146"
+        },
+        {
+            "periodo": "2019-Q1",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\Datos abiertos\\conjunto_de_datos_CB_ENSU_03_2019\\conjunto_de_datos\\conjunto_de_datos_cb_ENSU_03_2019.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2019_Q1.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:32.243590"
+        },
+        {
+            "periodo": "2019-Q2",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2019_2t_csv\\conjunto_de_datos_cb_ENSU_2019_2t\\conjunto_de_datos\\conjunto_de_datos_cb_ENSU_2019_2t.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2019_Q2.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:32.709230"
+        },
+        {
+            "periodo": "2020-Q1",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2020_1t_csv\\conjunto_de_datos_CB_ENSU_01_2020\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_01_2020.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2020_Q1.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:33.383971"
+        },
+        {
+            "periodo": "2020-Q2",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2020_4t_csv\\conjunto_de_datos_CB_ENSU_12_2020\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_12_2020.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2020_Q2.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:34.168114"
+        },
+        {
+            "periodo": "2021-Q1",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2021_2t_csv\\conjunto_de_datos_CB_ENSU_06_2021\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_06_2021.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2021_Q1.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:34.826259"
+        },
+        {
+            "periodo": "2021-Q2",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2021_4t_csv\\conjunto_de_datos_CB_ENSU_12_2021\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_12_2021.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2021_Q2.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:35.663058"
+        },
+        {
+            "periodo": "2022-Q1",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2022_2t_csv\\conjunto_de_datos_ensu_cb_0622\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0622.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2022_Q1.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:36.198084"
+        },
+        {
+            "periodo": "2022-Q2",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2022_4t_csv\\conjunto_de_datos_ensu_cb_1222\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_1222.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2022_Q2.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:36.730822"
+        },
+        {
+            "periodo": "2023-Q1",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2023_2t_csv\\conjunto_de_datos_ensu_cb_0623\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0623.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2023_Q1.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:37.449049"
+        },
+        {
+            "periodo": "2023-Q2",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2023_4t_csv\\conjunto_de_datos_ensu_cb_1223\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_1223.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2023_Q2.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:37.880679"
+        },
+        {
+            "periodo": "2024-Q1",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2024_3t_csv\\conjunto_de_datos_ensu_cb_0924\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0924.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2024_Q1.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:38.521588"
+        },
+        {
+            "periodo": "2024-Q2",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2024_4t_csv\\conjunto_de_datos_ensu_cb_1224\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_1224.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2024_Q2.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:38.957520"
+        },
+        {
+            "periodo": "2025-Q1",
+            "archivo_original": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\conjunto_de_datos_ensu_2025_1t_csv\\conjunto_de_datos_ensu_cb_0325\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0325.csv",
+            "archivo_procesado": "C:\\Users\\josea\\Documents\\data-mining\\proyecto\\data\\yucatan_processed\\yucatan_security_2025_Q1.csv",
+            "fecha_procesamiento": "2025-09-10T10:05:39.394180"
+        }
+    ]
+}

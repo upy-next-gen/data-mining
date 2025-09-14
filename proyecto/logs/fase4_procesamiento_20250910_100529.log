@@ -1,0 +1,49 @@
+2025-09-10 10:05:29,314 - INFO - --- Iniciando Fase 4: Procesamiento de Archivos ---
+2025-09-10 10:05:29,315 - INFO - Cargado exitosamente C:\Users\josea\Documents\data-mining\proyecto\temp\archivos_pendientes.json
+2025-09-10 10:05:29,315 - INFO - Iniciando procesamiento de 18 archivos.
+2025-09-10 10:05:29,316 - INFO - Procesando conjunto_de_datos_cb_ensu_04_2016.csv para el periodo 2016-Q2
+2025-09-10 10:05:29,606 - WARNING - Columna 'NOM_CD' no encontrada. Se creó con valor por defecto 'SIN_CIUDAD'.
+2025-09-10 10:05:29,801 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2016_Q2.csv
+2025-09-10 10:05:29,803 - INFO - Procesando conjunto_de_datos_cb_ensu_02_2017.csv para el periodo 2017-Q1
+2025-09-10 10:05:30,115 - WARNING - Columna 'NOM_CD' no encontrada. Se creó con valor por defecto 'SIN_CIUDAD'.
+2025-09-10 10:05:30,226 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2017_Q1.csv
+2025-09-10 10:05:30,228 - INFO - Procesando conjunto_de_datos_cb_ensu_04_2017.csv para el periodo 2017-Q2
+2025-09-10 10:05:30,528 - WARNING - Columna 'NOM_CD' no encontrada. Se creó con valor por defecto 'SIN_CIUDAD'.
+2025-09-10 10:05:30,680 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2017_Q2.csv
+2025-09-10 10:05:30,683 - INFO - Procesando ensu_cb_0118.csv para el periodo 2018-Q1
+2025-09-10 10:05:30,991 - WARNING - Columna 'NOM_CD' no encontrada. Se creó con valor por defecto 'SIN_CIUDAD'.
+2025-09-10 10:05:31,099 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2018_Q1.csv
+2025-09-10 10:05:31,101 - INFO - Procesando conjunto_de_datos_cb_ENSU_04_2018.csv para el periodo 2018-Q2
+2025-09-10 10:05:31,392 - WARNING - Columna 'NOM_CD' no encontrada. Se creó con valor por defecto 'SIN_CIUDAD'.
+2025-09-10 10:05:31,597 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2018_Q2.csv
+2025-09-10 10:05:31,599 - INFO - Procesando conjunto_de_datos_cb_ENSU_03_2019.csv para el periodo 2019-Q1
+2025-09-10 10:05:32,093 - WARNING - Columna 'NOM_CD' no encontrada. Se creó con valor por defecto 'SIN_CIUDAD'.
+2025-09-10 10:05:32,243 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2019_Q1.csv
+2025-09-10 10:05:32,246 - INFO - Procesando conjunto_de_datos_cb_ENSU_2019_2t.csv para el periodo 2019-Q2
+2025-09-10 10:05:32,615 - WARNING - Columna 'NOM_CD' no encontrada. Se creó con valor por defecto 'SIN_CIUDAD'.
+2025-09-10 10:05:32,710 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2019_Q2.csv
+2025-09-10 10:05:32,713 - INFO - Procesando conjunto_de_datos_CB_ENSU_01_2020.csv para el periodo 2020-Q1
+2025-09-10 10:05:33,221 - WARNING - Columna 'NOM_CD' no encontrada. Se creó con valor por defecto 'SIN_CIUDAD'.
+2025-09-10 10:05:33,384 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2020_Q1.csv
+2025-09-10 10:05:33,387 - INFO - Procesando conjunto_de_datos_CB_ENSU_12_2020.csv para el periodo 2020-Q2
+2025-09-10 10:05:34,168 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2020_Q2.csv
+2025-09-10 10:05:34,171 - INFO - Procesando conjunto_de_datos_CB_ENSU_06_2021.csv para el periodo 2021-Q1
+2025-09-10 10:05:34,826 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2021_Q1.csv
+2025-09-10 10:05:34,829 - INFO - Procesando conjunto_de_datos_CB_ENSU_12_2021.csv para el periodo 2021-Q2
+2025-09-10 10:05:35,664 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2021_Q2.csv
+2025-09-10 10:05:35,673 - INFO - Procesando conjunto_de_datos_ensu_cb_0622.csv para el periodo 2022-Q1
+2025-09-10 10:05:36,199 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2022_Q1.csv
+2025-09-10 10:05:36,202 - INFO - Procesando conjunto_de_datos_ensu_cb_1222.csv para el periodo 2022-Q2
+2025-09-10 10:05:36,731 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2022_Q2.csv
+2025-09-10 10:05:36,735 - INFO - Procesando conjunto_de_datos_ensu_cb_0623.csv para el periodo 2023-Q1
+2025-09-10 10:05:37,449 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2023_Q1.csv
+2025-09-10 10:05:37,452 - INFO - Procesando conjunto_de_datos_ensu_cb_1223.csv para el periodo 2023-Q2
+2025-09-10 10:05:37,881 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2023_Q2.csv
+2025-09-10 10:05:37,883 - INFO - Procesando conjunto_de_datos_ensu_cb_0924.csv para el periodo 2024-Q1
+2025-09-10 10:05:38,522 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2024_Q1.csv
+2025-09-10 10:05:38,526 - INFO - Procesando conjunto_de_datos_ensu_cb_1224.csv para el periodo 2024-Q2
+2025-09-10 10:05:38,958 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2024_Q2.csv
+2025-09-10 10:05:38,982 - INFO - Procesando conjunto_de_datos_ensu_cb_0325.csv para el periodo 2025-Q1
+2025-09-10 10:05:39,395 - INFO - Archivo procesado guardado en: C:\Users\josea\Documents\data-mining\proyecto\data\yucatan_processed\yucatan_security_2025_Q1.csv
+2025-09-10 10:05:39,401 - INFO - Resultados del procesamiento guardados en: C:\Users\josea\Documents\data-mining\proyecto\temp\procesamiento_resultados.json
+2025-09-10 10:05:39,401 - INFO - --- Fase 4 Finalizada: 18 procesados, 0 fallidos ---
