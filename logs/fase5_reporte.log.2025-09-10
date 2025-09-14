@@ -1,0 +1,187 @@
+2025-09-10 15:37:23,226 - INFO - Starting Phase 5: Reporting
+2025-09-10 15:37:23,233 - ERROR - Error during report generation: 'PORCENTAJE_SEGUROS'
+Traceback (most recent call last):
+  File "C:\Users\nixle\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'PORCENTAJE_SEGUROS'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\scripts\fase5_reporte.py", line 43, in generate_report
+    df['PORCENTAJE_SEGUROS'] = pd.to_numeric(df['PORCENTAJE_SEGUROS'], errors='coerce')
+                                             ~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nixle\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\nixle\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'PORCENTAJE_SEGUROS'
+2025-09-10 19:00:30,241 - INFO - Starting Phase 5: Reporting
+2025-09-10 19:00:30,266 - ERROR - Error during report generation: 'PORCENTAJE_SEGUROS'
+Traceback (most recent call last):
+  File "C:\Users\nixle\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'PORCENTAJE_SEGUROS'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\scripts\fase5_reporte.py", line 43, in generate_report
+    df['PORCENTAJE_SEGUROS'] = pd.to_numeric(df['PORCENTAJE_SEGUROS'], errors='coerce')
+                                             ~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nixle\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\nixle\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'PORCENTAJE_SEGUROS'
+2025-09-10 19:04:50,918 - INFO - Starting Phase 5: Reporting
+2025-09-10 19:04:50,928 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-10 19:04:50,928 - ERROR - Error during report generation: 'PERIODO'
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'PERIODO'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\scripts\fase5_reporte.py", line 49, in generate_report
+    df['PERIODO_SORT'] = df['PERIODO'].astype(str).str.replace('T', '.', regex=False).astype(float)
+                         ~~^^^^^^^^^^^
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\core\frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'PERIODO'
+2025-09-10 19:05:04,122 - INFO - Starting Phase 5: Reporting
+2025-09-10 19:05:04,132 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-10 19:05:04,133 - ERROR - Error during report generation: 'PERIODO'
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'PERIODO'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\scripts\fase5_reporte.py", line 49, in generate_report
+    df['PERIODO_SORT'] = df['PERIODO'].astype(str).str.replace('T', '.', regex=False).astype(float)
+                         ~~^^^^^^^^^^^
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\core\frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'PERIODO'
+2025-09-10 19:06:22,475 - INFO - Starting Phase 5: Reporting
+2025-09-10 19:06:22,487 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-10 19:06:23,177 - ERROR - Error during report generation: name 'json' is not defined
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\scripts\fase5_reporte.py", line 132, in generate_report
+    df_json_js = json.dumps(df_records, ensure_ascii=False)                  # <-- seguro en JS
+                 ^^^^
+NameError: name 'json' is not defined. Did you forget to import 'json'?
+2025-09-10 19:06:35,494 - INFO - Starting Phase 5: Reporting
+2025-09-10 19:06:35,512 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-10 19:06:35,931 - INFO - HTML length (chars): 49757
+2025-09-10 19:06:35,932 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-10 20:12:42,668 - INFO - Starting Phase 5: Reporting
+2025-09-10 20:12:42,707 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-10 20:12:43,246 - INFO - HTML length (chars): 50480
+2025-09-10 20:12:43,248 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-10 20:16:57,227 - INFO - Starting Phase 5: Reporting
+2025-09-10 20:16:57,273 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-10 20:16:57,754 - INFO - HTML length (chars): 50405
+2025-09-10 20:16:57,756 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-10 20:20:45,677 - INFO - Starting Phase 5: Reporting
+2025-09-10 20:20:45,728 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-10 20:20:46,173 - INFO - HTML length (chars): 50405
+2025-09-10 20:20:46,175 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-10 20:22:51,503 - INFO - Starting Phase 5: Reporting
+2025-09-10 20:22:51,540 - ERROR - Error during report generation: 'utf-8' codec can't decode byte 0xd1 in position 151: invalid continuation byte
+Traceback (most recent call last):
+  File "c:\Users\nixle\Documents\DATA MINING 6TO\data-mining\scripts\fase5_reporte.py", line 41, in generate_report
+    df = pd.read_csv(consolidated_csv_path, delimiter=',', encoding='utf-8-sig')
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "pandas/_libs/parsers.pyx", line 574, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 663, in pandas._libs.parsers.TextReader._get_header
+  File "pandas/_libs/parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas/_libs/parsers.pyx", line 2053, in pandas._libs.parsers.raise_parser_error
+  File "<frozen codecs>", line 325, in decode
+  File "C:\Users\nixle\AppData\Local\Programs\Python\Python313\Lib\encodings\utf_8_sig.py", line 69, in _buffer_decode
+    return codecs.utf_8_decode(input, errors, final)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd1 in position 151: invalid continuation byte
+2025-09-10 20:34:01,873 - INFO - Starting Phase 5: Reporting
+2025-09-10 20:34:01,909 - ERROR - Error during report generation: 'A—O'
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'A—O'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\scripts\fase5_reporte.py", line 44, in generate_report
+    df['PERIODO'] = df['A—O'].astype(str) + 'T' + df['TRIMESTRE'].astype(str)
+                    ~~^^^^^^^
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\core\frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'A—O'
+2025-09-10 21:00:25,741 - INFO - Starting Phase 5: Reporting
+2025-09-10 21:00:25,747 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-10 21:00:26,043 - INFO - HTML length (chars): 50405
+2025-09-10 21:00:26,043 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-10 21:26:09,252 - INFO - Starting Phase 5: Reporting
+2025-09-10 21:26:09,286 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-10 21:26:09,545 - INFO - HTML length (chars): 49042
+2025-09-10 21:26:09,547 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-10 23:41:57,995 - INFO - Starting Phase 5: Reporting
+2025-09-10 23:41:58,009 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-10 23:41:58,527 - INFO - HTML length (chars): 63112
+2025-09-10 23:41:58,529 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-10 23:48:23,813 - INFO - Starting Phase 5: Reporting
+2025-09-10 23:48:23,824 - ERROR - Error during report generation: No se encontr√≥ PERIODO ni (ANIO, TRIMESTRE) para componerlo.
+Traceback (most recent call last):
+  File "c:\Users\nixle\Documents\DATA MINING 6TO\data-mining\scripts\fase5_reporte.py", line 97, in generate_report
+    raise ValueError("No se encontr√≥ PERIODO ni (ANIO, TRIMESTRE) para componerlo.")
+ValueError: No se encontr√≥ PERIODO ni (ANIO, TRIMESTRE) para componerlo.

@@ -1,0 +1,153 @@
+2025-09-11 01:06:46,216 - INFO - Starting Phase 5: Reporting
+2025-09-11 01:06:46,245 - ERROR - Error during report generation: 'PERIODO'
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'PERIODO'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\scripts\fase5_reporte.py", line 86, in generate_report
+    df['PERIODO_SORT_FILTER'] = df['PERIODO'].astype(str).str.replace('T','.', regex=False)
+                                ~~^^^^^^^^^^^
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\core\frame.py", line 4107, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'PERIODO'
+2025-09-11 01:09:26,809 - INFO - Starting Phase 5: Reporting
+2025-09-11 01:09:26,817 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 01:09:27,142 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 01:16:08,274 - INFO - Starting Phase 5: Reporting
+2025-09-11 01:16:08,284 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 01:16:08,535 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 09:19:22,594 - INFO - Starting Phase 5: Reporting
+2025-09-11 09:19:22,610 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 09:19:22,926 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 09:19:38,563 - INFO - Starting Phase 5: Reporting
+2025-09-11 09:19:38,570 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 09:19:38,796 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 09:46:59,398 - INFO - Starting Phase 5: Reporting
+2025-09-11 09:46:59,422 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 09:46:59,879 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 09:47:57,252 - INFO - Starting Phase 5: Reporting
+2025-09-11 09:47:57,271 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 09:47:57,743 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 09:57:34,923 - INFO - Starting Phase 5: Reporting
+2025-09-11 09:57:34,940 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 09:57:35,478 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 10:03:23,990 - INFO - Starting Phase 5: Reporting
+2025-09-11 10:03:24,003 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 10:03:24,397 - ERROR - Error during report generation: No module named 'statsmodels'
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\scripts\fase5_reporte.py", line 199, in generate_report
+    fig_overall = px.scatter(df_period_melted, x='PERIODO_SORT', y='Porcentaje', color='Indicador',
+                             trendline="ols", trendline_scope="overall",
+    ...<2 lines>...
+                             color_discrete_map={'AVG_PCT_SEGUROS':'#EC407A','AVG_PCT_INSEGUROS':'#F8BBD0'},
+                             custom_data=['PERIODO'])
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\plotly\express\_chart_types.py", line 69, in scatter
+    return make_figure(args=locals(), constructor=go.Scatter)
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\plotly\express\_core.py", line 2785, in make_figure
+    patch, fit_results = make_trace_kwargs(
+                         ~~~~~~~~~~~~~~~~~^
+        args, trendline_spec, args["data_frame"], {}, sizeref
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\plotly\express\_core.py", line 430, in make_trace_kwargs
+    y_out, hover_header, fit_results = trendline_function(
+                                       ~~~~~~~~~~~~~~~~~~^
+        args["trendline_options"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        non_missing.to_numpy(),  # numpy array
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\plotly\express\trendline_functions\__init__.py", line 42, in ols
+    import statsmodels.api as sm
+ModuleNotFoundError: No module named 'statsmodels'
+2025-09-11 10:27:03,506 - INFO - Starting Phase 5: Reporting
+2025-09-11 10:27:03,518 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 10:27:03,894 - ERROR - Error during report generation: No module named 'statsmodels'
+Traceback (most recent call last):
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\scripts\fase5_reporte.py", line 199, in generate_report
+    fig_overall = px.scatter(df_period_melted, x='PERIODO_SORT', y='Porcentaje', color='Indicador',
+                             trendline="ols", trendline_scope="overall",
+    ...<2 lines>...
+                             color_discrete_map={'AVG_PCT_SEGUROS':'#EC407A','AVG_PCT_INSEGUROS':'#F8BBD0'},
+                             custom_data=['PERIODO'])
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\plotly\express\_chart_types.py", line 69, in scatter
+    return make_figure(args=locals(), constructor=go.Scatter)
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\plotly\express\_core.py", line 2785, in make_figure
+    patch, fit_results = make_trace_kwargs(
+                         ~~~~~~~~~~~~~~~~~^
+        args, trendline_spec, args["data_frame"], {}, sizeref
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\plotly\express\_core.py", line 430, in make_trace_kwargs
+    y_out, hover_header, fit_results = trendline_function(
+                                       ~~~~~~~~~~~~~~~~~~^
+        args["trendline_options"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        non_missing.to_numpy(),  # numpy array
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nixle\Documents\DATA MINING 6TO\data-mining\.venv\Lib\site-packages\plotly\express\trendline_functions\__init__.py", line 42, in ols
+    import statsmodels.api as sm
+ModuleNotFoundError: No module named 'statsmodels'
+2025-09-11 10:34:30,204 - INFO - Starting Phase 5: Reporting
+2025-09-11 10:34:30,218 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 10:34:45,216 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 10:36:17,573 - INFO - Starting Phase 5: Reporting
+2025-09-11 10:36:17,586 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 10:36:19,570 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 10:36:46,606 - INFO - Starting Phase 5: Reporting
+2025-09-11 10:36:46,624 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 10:36:48,503 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 10:41:46,863 - INFO - Starting Phase 5: Reporting
+2025-09-11 10:41:46,874 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 10:41:48,844 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 10:47:05,785 - INFO - Starting Phase 5: Reporting
+2025-09-11 10:47:05,798 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 10:47:08,003 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 10:47:52,320 - INFO - Starting Phase 5: Reporting
+2025-09-11 10:47:52,336 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 10:47:54,250 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 10:58:15,522 - INFO - Starting Phase 5: Reporting
+2025-09-11 10:58:15,536 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 10:58:16,009 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 11:03:27,797 - INFO - Starting Phase 5: Reporting
+2025-09-11 11:03:27,812 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 11:03:28,273 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 11:35:02,452 - INFO - Starting Phase 5: Reporting
+2025-09-11 11:35:02,471 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 11:35:02,869 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 11:42:01,287 - INFO - Starting Phase 5: Reporting
+2025-09-11 11:42:01,299 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 11:42:01,723 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 11:44:45,474 - INFO - Starting Phase 5: Reporting
+2025-09-11 11:44:45,489 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 11:44:45,949 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 12:03:58,698 - INFO - Starting Phase 5: Reporting
+2025-09-11 12:03:58,721 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 12:03:59,155 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 12:05:07,132 - INFO - Starting Phase 5: Reporting
+2025-09-11 12:05:07,147 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 12:05:07,549 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 12:26:40,262 - INFO - Starting Phase 5: Reporting
+2025-09-11 12:26:40,282 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 12:26:40,740 - INFO - HTML report generated at reports\analysis_report.html
+2025-09-11 12:29:37,395 - INFO - Starting Phase 5: Reporting
+2025-09-11 12:29:37,414 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-11 12:29:37,842 - INFO - HTML report generated at reports\analysis_report.html

@@ -1,0 +1,5 @@
+2025-09-09 18:21:41,699 - INFO - Starting Phase 5: Reporting
+2025-09-09 18:21:41,722 - INFO - Master dataset saved to reports\dataset_maestro_yucatan.csv
+2025-09-09 18:21:41,727 - INFO - Final statistics saved to reports\estadisticas_finales.json
+2025-09-09 18:21:41,917 - INFO - HTML report saved to reports\reporte_ensu_yucatan.html
+2025-09-09 18:21:41,917 - INFO - Phase 5: Reporting complete.

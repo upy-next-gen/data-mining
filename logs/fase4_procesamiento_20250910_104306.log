@@ -1,0 +1,14 @@
+2025-09-10 10:43:06,800 - INFO - Starting Phase 4: Processing
+2025-09-10 10:43:06,842 - INFO - Processing file: data\Archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\conjunto_de_datos\conjunto_de_datos_ensu_cb_0322.csv
+2025-09-10 10:43:07,225 - INFO - Processing file: data\Archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\conjunto_de_datos\conjunto_de_datos_ensu_cb_0622.csv
+2025-09-10 10:43:07,608 - INFO - Processing file: data\Archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\conjunto_de_datos\conjunto_de_datos_ensu_cb_0922.csv
+2025-09-10 10:43:08,113 - INFO - Processing file: data\Archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\conjunto_de_datos\conjunto_de_datos_ensu_cb_1222.csv
+2025-09-10 10:43:08,491 - INFO - Processing file: data\Archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\conjunto_de_datos\conjunto_de_datos_ensu_cb_1223.csv
+2025-09-10 10:43:08,879 - INFO - Processing file: data\Archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\conjunto_de_datos\conjunto_de_datos_ensu_cb_0324.csv
+2025-09-10 10:43:09,254 - INFO - Processing file: data\Archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\conjunto_de_datos\conjunto_de_datos_ensu_cb_0624.csv
+2025-09-10 10:43:09,655 - INFO - Processing file: data\Archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\conjunto_de_datos\conjunto_de_datos_ensu_cb_0924.csv
+2025-09-10 10:43:10,224 - INFO - Processing file: data\Archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\conjunto_de_datos\conjunto_de_datos_ensu_cb_1224.csv
+2025-09-10 10:43:10,624 - INFO - Processing file: data\Archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\conjunto_de_datos\conjunto_de_datos_ensu_cb_0325.csv
+2025-09-10 10:43:11,017 - INFO - Processing file: data\Archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\conjunto_de_datos\conjunto_de_datos_ensu_cb_0625.csv
+2025-09-10 10:43:11,464 - INFO - Consolidated data saved to data/yucatan_processed\yucatan_security_consolidado.csv
+2025-09-10 10:43:11,465 - INFO - Phase 4: Processing complete. Summary saved to temp/procesamiento_resultados.json
