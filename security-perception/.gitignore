@@ -1,9 +1,0 @@
-# Ignorar archivos de Mac
-.DS_Store
-
-# Ignora todos los archivos y subcarpetas dentro de la carpeta 'data'
-data/*
-
-# Excepción: ¡incluye este archivo específico!
-!data/yucatan_processed
-!data/yucatan_processed/**
