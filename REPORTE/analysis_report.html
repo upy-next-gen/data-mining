@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Percepción de Seguridad en Yucatán</title>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<style>
+  :root{
+    --pink0:#FFF0F5; --pink1:#FCE4EC; --pink2:#F8BBD0; --pink3:#F48FB1; --pink4:#EC407A; --pink5:#C2185B;
+    --dark-bg: #121212; --dark-card: #1E1E1E; --dark-text: #E0E0E0; --dark-border: #424242;
+  }
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:var(--pink0);color:#333; transition: background-color 0.3s, color 0.3s;}
+  .container{max-width:1100px;margin:0 auto;padding:24px;}
+  .card{background:white;border-radius:14px;box-shadow:0 10px 20px rgba(0,0,0,.08);padding:24px;margin:18px 0; transition: background-color 0.3s;}
+  h1{color:var(--pink5);text-align:center;margin:8px 0 4px;}
+  h2{color:var(--pink4);border-bottom:3px solid var(--pink2);padding-bottom:6px;margin-top:8px}
+  .sub{color:#555;text-align:center;margin-bottom:16px}
+  .kpi{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  .kpi .card{background:linear-gradient(180deg, var(--pink2), #fff);}
+  .pill{display:inline-block;background:var(--pink2);padding:4px 10px;border-radius:999px;color:#7A1B3A;margin-right:6px}
+  .hl{background:var(--pink1);padding:8px;border-radius:8px}
+  .grid{display:grid;grid-template-columns:1fr;gap:18px}
+  @media(min-width:960px){.grid{grid-template-columns:1fr 1fr}}
+  .table-pink{border-collapse:collapse;width:100%;font-size:14px}
+  .table-pink th,.table-pink td{border:1px solid var(--pink2);padding:8px}
+  .table-pink th{background:var(--pink2);color:#7A1B3A}
+  .filters{display:flex;gap:12px;flex-wrap:wrap;margin:8px 0}
+  select{padding:8px;border:2px solid var(--pink2);border-radius:10px}
+  footer{color:#666;text-align:center;margin:40px 0 10px}
+  .theme-switch-wrapper {display: flex;align-items: center;justify-content: flex-end;}
+  .theme-switch {display: inline-block;height: 24px;position: relative;width: 50px;}
+  .theme-switch input {display:none;}
+  .slider {background-color: #ccc;bottom: 0;cursor: pointer;left: 0;position: absolute;right: 0;top: 0;transition: .4s;}
+  .slider:before {background-color: #fff;bottom: 4px;content: "";height: 16px;left: 4px;position: absolute;transition: .4s;width: 16px;}
+  input:checked + .slider {background-color: var(--pink4);}
+  input:checked + .slider:before {transform: translateX(26px);}
+  .slider.round {border-radius: 34px;}
+  .slider.round:before {border-radius: 50%;}
+  body.dark-mode {background: var(--dark-bg); color: var(--dark-text);}
+  body.dark-mode .card {background: var(--dark-card);}
+  body.dark-mode h1 {color: var(--pink3);}
+  body.dark-mode h2 {color: var(--pink4); border-bottom-color: var(--dark-border);}
+  body.dark-mode .sub {color: #aaa;}
+  body.dark-mode .table-pink th, body.dark-mode .table-pink td {border-color: var(--dark-border);}
+  body.dark-mode .table-pink th {background: #333; color: var(--pink3);}
+  body.dark-mode select {background: var(--dark-card); color: var(--dark-text); border-color: var(--dark-border);}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+      <input type="checkbox" id="checkbox" />
+      <div class="slider round"></div>
+    </label>
+  </div>
+  <h1>🌸 Análisis de Percepción de Seguridad en Yucatán</h1>
+  <p class="sub">Fuente: <code>dataset_maestro_yucatan.csv</code> • Generado: 2025-09-11 12:29</p>
+  <div class="card">
+    <p>Este reporte presenta un análisis de la percepción de seguridad en varios municipios de Yucatán, basado en datos recopilados a lo largo de diferentes períodos. El objetivo es visualizar tendencias, comparar municipios y extraer insights clave sobre la seguridad en la región.</p>
+  </div>
+  <div class="kpi">
+    <div class="card">
+      <h2>🔐 Promedio Seguridad</h2>
+      <p class="hl"><strong>60.07%</strong> de personas se sienten <span class="pill">Seguras</span> en promedio.</p>
+      <p>Trimestre con mayor seguridad: <strong>2019T4</strong></p>
+    </div>
+    <div class="card">
+      <h2>⚠️ Promedio Inseguridad</h2>
+      <p class="hl"><strong>39.92%</strong> se sienten <span class="pill">Inseguras</span> en promedio.</p>
+      <p>Trimestre con menor seguridad: <strong>2021T2</strong></p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>📈 Análisis de Tendencia General</h2>
+    <p>La percepción de seguridad promedio comenzó en <b>52.07%</b> en el período 2016T2 
+                                     y finalizó en <b>51.02%</b> en 2025T2. 
+                                     El punto más alto se alcanzó en <b>2019T4</b> con un <b>74.83%</b>, 
+                                     mientras que el más bajo fue en <b>2021T2</b> con un <b>49.86%</b>.</p>
+  </div>
+
+  <div class="card">
+      <h2>🏙️ Resumen por Municipio</h2>
+      <p>La siguiente tabla muestra el porcentaje promedio de percepción de seguridad e inseguridad para cada municipio, junto con el número de observaciones (encuestas) consideradas.</p>
+      <table border="1" class="dataframe table-pink">
+  <thead>
+    <tr style="text-align: right;">
+      <th>NOM_MUN</th>
+      <th>AVG_PCT_SEGUROS</th>
+      <th>AVG_PCT_INSEGUROS</th>
+      <th>N_OBS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MERIDA</td>
+      <td>74.78</td>
+      <td>25.17</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>UMAN</td>
+      <td>58.74</td>
+      <td>41.26</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>PROGRESO</td>
+      <td>57.58</td>
+      <td>42.42</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>KANASIN</td>
+      <td>48.97</td>
+      <td>51.03</td>
+      <td>34</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+  <div class="card">
+    <h2>📊 Comparativa Anual</h2>
+    <p>Este gráfico de barras muestra la percepción de seguridad promedio para cada año, permitiendo una comparación clara de la evolución a largo plazo.</p>
+    <div id="anual"></div>
+  </div>
+
+  <div class="card">
+    <h2>⚡ Análisis de Volatilidad</h2>
+    <p>La volatilidad (calculada como la desviación estándar) mide qué tan estables son los niveles de percepción de seguridad en un municipio. Un valor alto indica grandes fluctuaciones, mientras que un valor bajo sugiere una percepción más consistente a lo largo del tiempo.</p>
+    <table border="1" class="dataframe table-pink">
+  <thead>
+    <tr style="text-align: right;">
+      <th>NOM_MUN</th>
+      <th>VOLATILIDAD</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KANASIN</td>
+      <td>20.52</td>
+    </tr>
+    <tr>
+      <td>UMAN</td>
+      <td>14.73</td>
+    </tr>
+    <tr>
+      <td>PROGRESO</td>
+      <td>9.12</td>
+    </tr>
+    <tr>
+      <td>MERIDA</td>
+      <td>5.40</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+  <div class="card">
+    <h2>⏳ Evolución por municipio</h2>
+    <p>Este gráfico interactivo permite analizar la tendencia de la percepción de seguridad de forma individual para cada municipio. Use el selector para elegir un municipio y observar su evolución a lo largo de los diferentes períodos.</p>
+    <div class="filters">
+      <label>Municipio:
+        <select id="munSel"></select>
+      </label>
+    </div>
+    <div id="trend"></div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>🔍 Muestra del dataset</h2>
+      <div class="filters">
+        <label>Municipio:
+          <select id="sampleMunSel"></select>
+        </label>
+      </div>
+      <div id="sample_table"></div>
+    </div>
+    <div class="card">
+      <h2>🥇 Top 2 municipios más seguros</h2>
+      <table border="1" class="dataframe table-pink">
+  <thead>
+    <tr style="text-align: right;">
+      <th>NOM_MUN</th>
+      <th>AVG_PCT_SEGUROS</th>
+      <th>AVG_PCT_INSEGUROS</th>
+      <th>N_OBS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MERIDA</td>
+      <td>74.78</td>
+      <td>25.17</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>UMAN</td>
+      <td>58.74</td>
+      <td>41.26</td>
+      <td>29</td>
+    </tr>
+  </tbody>
+</table>
+      <h2>🥀 Bottom 2 municipios con menor seguridad</h2>
+      <table border="1" class="dataframe table-pink">
+  <thead>
+    <tr style="text-align: right;">
+      <th>NOM_MUN</th>
+      <th>AVG_PCT_SEGUROS</th>
+      <th>AVG_PCT_INSEGUROS</th>
+      <th>N_OBS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>KANASIN</td>
+      <td>48.97</td>
+      <td>51.03</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>PROGRESO</td>
+      <td>57.58</td>
+      <td>42.42</td>
+      <td>34</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>🗓️ Resumen por período</h2>
+    <table border="1" class="dataframe table-pink">
+  <thead>
+    <tr style="text-align: right;">
+      <th>PERIODO</th>
+      <th>AVG_PCT_SEGUROS</th>
+      <th>AVG_PCT_INSEGUROS</th>
+      <th>N_OBS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2016T2</td>
+      <td>52.07</td>
+      <td>47.93</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2017T1</td>
+      <td>52.29</td>
+      <td>47.71</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>2017T2</td>
+      <td>64.20</td>
+      <td>35.80</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2018T1</td>
+      <td>58.39</td>
+      <td>41.62</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2018T2</td>
+      <td>53.00</td>
+      <td>47.00</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2018T3</td>
+      <td>50.47</td>
+      <td>49.53</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2018T4</td>
+      <td>59.97</td>
+      <td>40.03</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2019T1</td>
+      <td>61.06</td>
+      <td>38.94</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>2019T2</td>
+      <td>62.10</td>
+      <td>37.90</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2019T4</td>
+      <td>74.83</td>
+      <td>24.93</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2020T1</td>
+      <td>68.10</td>
+      <td>31.90</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2020T3</td>
+      <td>70.23</td>
+      <td>29.77</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2020T4</td>
+      <td>53.41</td>
+      <td>46.59</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2021T1</td>
+      <td>56.41</td>
+      <td>43.59</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2021T2</td>
+      <td>49.86</td>
+      <td>50.14</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2021T3</td>
+      <td>55.04</td>
+      <td>44.96</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2021T4</td>
+      <td>60.68</td>
+      <td>39.32</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2022T1</td>
+      <td>74.08</td>
+      <td>25.92</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2022T2</td>
+      <td>63.37</td>
+      <td>36.63</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2022T3</td>
+      <td>62.59</td>
+      <td>37.41</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2022T4</td>
+      <td>64.44</td>
+      <td>35.56</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2023T1</td>
+      <td>68.54</td>
+      <td>31.30</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2023T2</td>
+      <td>57.88</td>
+      <td>42.12</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2023T3</td>
+      <td>65.29</td>
+      <td>34.71</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2023T4</td>
+      <td>63.82</td>
+      <td>36.18</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2024T1</td>
+      <td>71.70</td>
+      <td>28.30</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2024T2</td>
+      <td>59.74</td>
+      <td>40.26</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2024T3</td>
+      <td>69.84</td>
+      <td>30.16</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2024T4</td>
+      <td>54.52</td>
+      <td>45.48</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025T1</td>
+      <td>54.44</td>
+      <td>45.56</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2025T2</td>
+      <td>51.02</td>
+      <td>48.98</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+  <div class="card">
+    <h2>💡 Conclusiones</h2>
+    <p>
+El análisis de los datos recopilados revela varias tendencias clave.
+El trimestre con la percepción de seguridad más alta fue <b>2019T4</b>,
+mientras que el trimestre con la percepción más baja fue <b>2021T2</b>.
+<br><br>
+En el ámbito municipal, los municipios de <b>MERIDA, UMAN</b>
+consistentemente muestran los niveles más altos de percepción de seguridad.
+Por otro lado, los municipios de <b>KANASIN, PROGRESO</b>
+presentan áreas de oportunidad significativas, con una percepción de inseguridad más marcada.
+<br><br>
+Estos resultados sugieren que, si bien hay una base sólida de seguridad en ciertas áreas,
+es crucial enfocar los esfuerzos en las zonas con menor percepción de seguridad para entender
+las causas subyacentes y desarrollar estrategias efectivas de mejora.
+</p>
+  </div>
+
+  <footer>Hecho con cariño en tonos rosa ✨</footer>
+</div>
+
+<script>
+  // Cargar figuras
+  var fig_trend   = {"data":[{"hovertemplate":"NOM_MUN=KANASIN\u003cbr\u003ePERIODO=%{x}\u003cbr\u003e% Seguros=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"KANASIN","line":{"color":"rgb(102, 197, 204)","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"KANASIN","orientation":"v","showlegend":true,"x":["2016T2","2017T1","2017T1","2017T1","2017T2","2018T1","2018T2","2018T3","2018T4","2019T1","2019T1","2019T2","2019T4","2020T1","2020T3","2020T4","2021T1","2021T2","2021T3","2021T4","2022T1","2022T2","2022T3","2022T4","2023T1","2023T2","2023T3","2023T4","2024T1","2024T2","2024T3","2024T4","2025T1","2025T2"],"xaxis":"x","y":{"dtype":"f8","bdata":"zczMzMwMM0DXo3A9Chc6QHsUrkfhujZAj8L1KFwPJUAUrkfhepQ\u002fQAAAAAAAgEZAUrgeheuRPEBI4XoUrsc7QDMzMzMzE0dAAAAAAAAARED2KFyPwlVHQMP1KFyPElBA7FG4HoXbUUDsUbgehdtRQAAAAAAAgFFAuB6F61E4NkAAAAAAAABJQMP1KFyPwi5AUrgehetxQ0CPwvUoXK9HQM3MzMzMvFNAAAAAAAAATkAK16NwPepGQPYoXI\u002fCFUpACtejcD0aUkAAAAAAAABJQIXrUbge1VRAexSuR+GqUEBxPQrXo\u002fBSQHsUrkfhqlBAAAAAAAAAVECF61G4HiVLQFyPwvUo3ElAAAAAAAAAQEA="},"yaxis":"y","type":"scatter"},{"hovertemplate":"NOM_MUN=MERIDA\u003cbr\u003ePERIODO=%{x}\u003cbr\u003e% Seguros=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"MERIDA","line":{"color":"rgb(246, 207, 113)","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"MERIDA","orientation":"v","showlegend":true,"x":["2016T2","2017T1","2017T1","2017T1","2017T2","2018T1","2018T2","2018T3","2018T4","2019T1","2019T1","2019T2","2019T4","2020T1","2020T3","2020T4","2021T1","2021T2","2021T3","2021T4","2022T1","2022T2","2022T3","2022T4","2023T1","2023T2","2023T3","2023T4","2024T1","2024T2","2024T3","2024T4","2025T1","2025T2"],"xaxis":"x","y":{"dtype":"f8","bdata":"w\u002fUoXI\u002fyUECkcD0K1+NRQHsUrkfhClJAPQrXo3BNU0BmZmZmZjZTQOxRuB6F61JASOF6FK5HUUBSuB6F61FQQOxRuB6Fm1JA16NwPQrXT0ApXI\u002fC9ehTQGZmZmZmFlJA7FG4HoUbVUBSuB6F63FTQOF6FK5HsVNAUrgehevhU0DNzMzMzHxSQB+F61G4LlRASOF6FK5HUUD2KFyPwtVSQNejcD0K11NArkfhehQeUUDXo3A9CtdSQKRwPQrXg1JAexSuR+GqU0BSuB6F62FUQFyPwvUo7FJAZmZmZmYWVEBmZmZmZjZTQDMzMzMzk1RASOF6FK7XU0CkcD0K13NSQFK4HoXrgVBAmpmZmZlZUEA="},"yaxis":"y","type":"scatter"},{"hovertemplate":"NOM_MUN=PROGRESO\u003cbr\u003ePERIODO=%{x}\u003cbr\u003e% Seguros=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"PROGRESO","line":{"color":"rgb(248, 156, 116)","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"PROGRESO","orientation":"v","showlegend":true,"x":["2016T2","2017T1","2017T1","2017T1","2017T2","2018T1","2018T2","2018T3","2018T4","2019T1","2019T1","2019T2","2019T4","2020T1","2020T3","2020T4","2021T1","2021T2","2021T3","2021T4","2022T1","2022T2","2022T3","2022T4","2023T1","2023T2","2023T3","2023T4","2024T1","2024T2","2024T3","2024T4","2025T1","2025T2"],"xaxis":"x","y":{"dtype":"f8","bdata":"w\u002fUoXI8SUEAAAAAAAABJQArXo3A9qkpAUrgeheuRTED2KFyPwqVRQAAAAAAAgFFAAAAAAAAASUApXI\u002fC9WhNQHsUrkfhqlBArkfhehSOTkA9CtejcC1QQPYoXI\u002fCpVFAZmZmZmaWVEDD9Shcj0JMQFK4HoXrkUxAKVyPwvXISkAK16NwPepHQAAAAAAAAElAKVyPwvVoTUAAAAAAAABOQAAAAAAAAEhACtejcD0qTUD2KFyPwhVLQMP1KFyPQkxAZmZmZmZGS0CuR+F6FA5FQOxRuB6Fa0JAuB6F61E4RkAAAAAAAEBPQAAAAAAAAElAAAAAAAAATkAAAAAAAABOQAAAAAAAAE5AexSuR+GqUEA="},"yaxis":"y","type":"scatter"},{"hovertemplate":"NOM_MUN=UMAN\u003cbr\u003ePERIODO=%{x}\u003cbr\u003e% Seguros=%{y}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"UMAN","line":{"color":"rgb(220, 176, 242)","dash":"solid"},"marker":{"symbol":"circle"},"mode":"lines","name":"UMAN","orientation":"v","showlegend":true,"x":["2016T2","2017T1","2017T1","2017T1","2017T2","2018T1","2018T2","2018T3","2018T4","2019T1","2019T1","2019T2","2019T4","2020T1","2020T3","2020T4","2021T1","2021T2","2021T3","2021T4","2022T1","2022T2","2022T3","2022T4","2024T2","2024T3","2024T4","2025T1","2025T2"],"xaxis":"x","y":{"dtype":"f8","bdata":"UrgeheuRTEAAAAAAAABOQHsUrkfhqlBAAAAAAAAATkBSuB6F63FTQK5H4XoUbkVAw\u002fUoXI8SUEAAAAAAAABJQHE9CtejUEpAuB6F61E4RkCPwvUoXA9WQNejcD0Kl0RArkfhehSOTkB7FK5H4apQQAAAAAAAwFJACtejcD0qTUDNzMzMzOxKQArXo3A9qkpACtejcD2qSkAAAAAAAABOQAAAAAAAgFZAexSuR+GqUEAAAAAAAMBSQAAAAAAAwFJAAAAAAAAAREAAAAAAAABOQAAAAAAAAD5AAAAAAAAAREAAAAAAAABEQA=="},"yaxis":"y","type":"scatter"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"PERIODO"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"% Seguros"}},"legend":{"title":{"text":"NOM_MUN"},"tracegroupgap":0},"title":{"text":"Evoluci\u00f3n de la Percepci\u00f3n de Seguridad por Municipio"}}};
+  var fig_pie     = {"data":[{"hole":0.4,"labels":["Segur@s","Insegur@s"],"marker":{"colors":["#EC407A","#F8BBD0"]},"values":[60.06679389312977,39.92229007633588],"type":"pie"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"title":{"text":"Percepci\u00f3n General (Promedios)"}}};
+  var fig_anual   = {"data":[{"hovertemplate":"A\u00f1o=%{x}\u003cbr\u003eSeguridad Promedio (%)=%{y}\u003cbr\u003etext=%{text}\u003cextra\u003e\u003c\u002fextra\u003e","legendgroup":"","marker":{"color":"#EC407A","pattern":{"shape":""}},"name":"","orientation":"v","showlegend":false,"text":["52.07%","55.26%","55.46%","64.76%","63.91%","55.50%","66.12%","63.88%","63.44%","52.73%"],"textposition":"outside","x":["2016","2017","2018","2019","2020","2021","2022","2023","2024","2025"],"xaxis":"x","y":{"dtype":"f8","bdata":"cT0K16MISkCkcD0K16FLQAvXo3A9uktAexSuR+EwUEC1gU4b6PRPQOxRuB6Fv0tAw\u002fUoXI+HUEApXI\u002fC9fBPQBdLfrHkt09AhetRuB5dSkA="},"yaxis":"y","type":"bar"}],"layout":{"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"A\u00f1o"}},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"Seguridad Promedio (%)"}},"legend":{"tracegroupgap":0},"title":{"text":"Percepci\u00f3n de Seguridad Promedio por A\u00f1o"},"barmode":"relative"}};
+
+  var light_template = 'plotly_white';
+  var dark_template = 'plotly_dark';
+
+  Plotly.newPlot('trend', fig_trend.data, fig_trend.layout, {responsive:true});
+  Plotly.newPlot('anual', fig_anual.data, fig_anual.layout, {responsive:true});
+
+  // Datos para filtro
+  var allData = [{"PERIODO": "2016T2", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 19.05, "PCT_INSEGUROS": 80.95}, {"PERIODO": "2017T1", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 26.09, "PCT_INSEGUROS": 73.91}, {"PERIODO": "2017T1", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 22.73, "PCT_INSEGUROS": 77.27}, {"PERIODO": "2017T1", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 10.53, "PCT_INSEGUROS": 89.47}, {"PERIODO": "2017T2", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 31.58, "PCT_INSEGUROS": 68.42}, {"PERIODO": "2018T1", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 45.0, "PCT_INSEGUROS": 55.0}, {"PERIODO": "2018T2", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 28.57, "PCT_INSEGUROS": 71.43}, {"PERIODO": "2018T3", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 27.78, "PCT_INSEGUROS": 72.22}, {"PERIODO": "2018T4", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 46.15, "PCT_INSEGUROS": 53.85}, {"PERIODO": "2019T1", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 40.0, "PCT_INSEGUROS": 60.0}, {"PERIODO": "2019T1", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 46.67, "PCT_INSEGUROS": 53.33}, {"PERIODO": "2019T2", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 64.29, "PCT_INSEGUROS": 35.71}, {"PERIODO": "2019T4", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 71.43, "PCT_INSEGUROS": 28.57}, {"PERIODO": "2020T1", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 71.43, "PCT_INSEGUROS": 28.57}, {"PERIODO": "2020T3", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 70.0, "PCT_INSEGUROS": 30.0}, {"PERIODO": "2020T4", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 22.22, "PCT_INSEGUROS": 77.78}, {"PERIODO": "2021T1", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 50.0, "PCT_INSEGUROS": 50.0}, {"PERIODO": "2021T2", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 15.38, "PCT_INSEGUROS": 84.62}, {"PERIODO": "2021T3", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 38.89, "PCT_INSEGUROS": 61.11}, {"PERIODO": "2021T4", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 47.37, "PCT_INSEGUROS": 52.63}, {"PERIODO": "2022T1", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 78.95, "PCT_INSEGUROS": 21.05}, {"PERIODO": "2022T2", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 60.0, "PCT_INSEGUROS": 40.0}, {"PERIODO": "2022T3", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 45.83, "PCT_INSEGUROS": 54.17}, {"PERIODO": "2022T4", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 52.17, "PCT_INSEGUROS": 47.83}, {"PERIODO": "2023T1", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 72.41, "PCT_INSEGUROS": 27.59}, {"PERIODO": "2023T2", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 50.0, "PCT_INSEGUROS": 50.0}, {"PERIODO": "2023T3", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 83.33, "PCT_INSEGUROS": 16.67}, {"PERIODO": "2023T4", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 66.67, "PCT_INSEGUROS": 33.33}, {"PERIODO": "2024T1", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 75.76, "PCT_INSEGUROS": 24.24}, {"PERIODO": "2024T2", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 66.67, "PCT_INSEGUROS": 33.33}, {"PERIODO": "2024T3", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 80.0, "PCT_INSEGUROS": 20.0}, {"PERIODO": "2024T4", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 54.29, "PCT_INSEGUROS": 45.71}, {"PERIODO": "2025T1", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 51.72, "PCT_INSEGUROS": 48.28}, {"PERIODO": "2025T2", "NOM_MUN": "KANASIN", "PCT_SEGUROS": 32.0, "PCT_INSEGUROS": 68.0}, {"PERIODO": "2016T2", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 67.79, "PCT_INSEGUROS": 32.21}, {"PERIODO": "2017T1", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 71.56, "PCT_INSEGUROS": 28.44}, {"PERIODO": "2017T1", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 72.17, "PCT_INSEGUROS": 27.83}, {"PERIODO": "2017T1", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 77.21, "PCT_INSEGUROS": 22.79}, {"PERIODO": "2017T2", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 76.85, "PCT_INSEGUROS": 23.15}, {"PERIODO": "2018T1", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 75.68, "PCT_INSEGUROS": 24.32}, {"PERIODO": "2018T2", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 69.12, "PCT_INSEGUROS": 30.88}, {"PERIODO": "2018T3", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 65.28, "PCT_INSEGUROS": 34.72}, {"PERIODO": "2018T4", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 74.43, "PCT_INSEGUROS": 25.57}, {"PERIODO": "2019T1", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 63.68, "PCT_INSEGUROS": 36.32}, {"PERIODO": "2019T1", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 79.64, "PCT_INSEGUROS": 20.36}, {"PERIODO": "2019T2", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 72.35, "PCT_INSEGUROS": 27.65}, {"PERIODO": "2019T4", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 84.43, "PCT_INSEGUROS": 14.62}, {"PERIODO": "2020T1", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 77.78, "PCT_INSEGUROS": 22.22}, {"PERIODO": "2020T3", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 78.77, "PCT_INSEGUROS": 21.23}, {"PERIODO": "2020T4", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 79.53, "PCT_INSEGUROS": 20.47}, {"PERIODO": "2021T1", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 73.95, "PCT_INSEGUROS": 26.05}, {"PERIODO": "2021T2", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 80.73, "PCT_INSEGUROS": 19.27}, {"PERIODO": "2021T3", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 69.12, "PCT_INSEGUROS": 30.88}, {"PERIODO": "2021T4", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 75.34, "PCT_INSEGUROS": 24.66}, {"PERIODO": "2022T1", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 79.36, "PCT_INSEGUROS": 20.64}, {"PERIODO": "2022T2", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 68.47, "PCT_INSEGUROS": 31.53}, {"PERIODO": "2022T3", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 75.36, "PCT_INSEGUROS": 24.64}, {"PERIODO": "2022T4", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 74.06, "PCT_INSEGUROS": 25.94}, {"PERIODO": "2023T1", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 78.67, "PCT_INSEGUROS": 20.85}, {"PERIODO": "2023T2", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 81.53, "PCT_INSEGUROS": 18.47}, {"PERIODO": "2023T3", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 75.69, "PCT_INSEGUROS": 24.31}, {"PERIODO": "2023T4", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 80.35, "PCT_INSEGUROS": 19.65}, {"PERIODO": "2024T1", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 76.85, "PCT_INSEGUROS": 23.15}, {"PERIODO": "2024T2", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 82.3, "PCT_INSEGUROS": 17.7}, {"PERIODO": "2024T3", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 79.37, "PCT_INSEGUROS": 20.63}, {"PERIODO": "2024T4", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 73.81, "PCT_INSEGUROS": 26.19}, {"PERIODO": "2025T1", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 66.03, "PCT_INSEGUROS": 33.97}, {"PERIODO": "2025T2", "NOM_MUN": "MERIDA", "PCT_SEGUROS": 65.4, "PCT_INSEGUROS": 34.6}, {"PERIODO": "2016T2", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 64.29, "PCT_INSEGUROS": 35.71}, {"PERIODO": "2017T1", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 50.0, "PCT_INSEGUROS": 50.0}, {"PERIODO": "2017T1", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 53.33, "PCT_INSEGUROS": 46.67}, {"PERIODO": "2017T1", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 57.14, "PCT_INSEGUROS": 42.86}, {"PERIODO": "2017T2", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 70.59, "PCT_INSEGUROS": 29.41}, {"PERIODO": "2018T1", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 70.0, "PCT_INSEGUROS": 30.0}, {"PERIODO": "2018T2", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 50.0, "PCT_INSEGUROS": 50.0}, {"PERIODO": "2018T3", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 58.82, "PCT_INSEGUROS": 41.18}, {"PERIODO": "2018T4", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 66.67, "PCT_INSEGUROS": 33.33}, {"PERIODO": "2019T1", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 61.11, "PCT_INSEGUROS": 38.89}, {"PERIODO": "2019T1", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 64.71, "PCT_INSEGUROS": 35.29}, {"PERIODO": "2019T2", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 70.59, "PCT_INSEGUROS": 29.41}, {"PERIODO": "2019T4", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 82.35, "PCT_INSEGUROS": 17.65}, {"PERIODO": "2020T1", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 56.52, "PCT_INSEGUROS": 43.48}, {"PERIODO": "2020T3", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 57.14, "PCT_INSEGUROS": 42.86}, {"PERIODO": "2020T4", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 53.57, "PCT_INSEGUROS": 46.43}, {"PERIODO": "2021T1", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 47.83, "PCT_INSEGUROS": 52.17}, {"PERIODO": "2021T2", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 50.0, "PCT_INSEGUROS": 50.0}, {"PERIODO": "2021T3", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 58.82, "PCT_INSEGUROS": 41.18}, {"PERIODO": "2021T4", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 60.0, "PCT_INSEGUROS": 40.0}, {"PERIODO": "2022T1", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 48.0, "PCT_INSEGUROS": 52.0}, {"PERIODO": "2022T2", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 58.33, "PCT_INSEGUROS": 41.67}, {"PERIODO": "2022T3", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 54.17, "PCT_INSEGUROS": 45.83}, {"PERIODO": "2022T4", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 56.52, "PCT_INSEGUROS": 43.48}, {"PERIODO": "2023T1", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 54.55, "PCT_INSEGUROS": 45.45}, {"PERIODO": "2023T2", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 42.11, "PCT_INSEGUROS": 57.89}, {"PERIODO": "2023T3", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 36.84, "PCT_INSEGUROS": 63.16}, {"PERIODO": "2023T4", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 44.44, "PCT_INSEGUROS": 55.56}, {"PERIODO": "2024T1", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 62.5, "PCT_INSEGUROS": 37.5}, {"PERIODO": "2024T2", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 50.0, "PCT_INSEGUROS": 50.0}, {"PERIODO": "2024T3", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 60.0, "PCT_INSEGUROS": 40.0}, {"PERIODO": "2024T4", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 60.0, "PCT_INSEGUROS": 40.0}, {"PERIODO": "2025T1", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 60.0, "PCT_INSEGUROS": 40.0}, {"PERIODO": "2025T2", "NOM_MUN": "PROGRESO", "PCT_SEGUROS": 66.67, "PCT_INSEGUROS": 33.33}, {"PERIODO": "2016T2", "NOM_MUN": "UMAN", "PCT_SEGUROS": 57.14, "PCT_INSEGUROS": 42.86}, {"PERIODO": "2017T1", "NOM_MUN": "UMAN", "PCT_SEGUROS": 60.0, "PCT_INSEGUROS": 40.0}, {"PERIODO": "2017T1", "NOM_MUN": "UMAN", "PCT_SEGUROS": 66.67, "PCT_INSEGUROS": 33.33}, {"PERIODO": "2017T1", "NOM_MUN": "UMAN", "PCT_SEGUROS": 60.0, "PCT_INSEGUROS": 40.0}, {"PERIODO": "2017T2", "NOM_MUN": "UMAN", "PCT_SEGUROS": 77.78, "PCT_INSEGUROS": 22.22}, {"PERIODO": "2018T1", "NOM_MUN": "UMAN", "PCT_SEGUROS": 42.86, "PCT_INSEGUROS": 57.14}, {"PERIODO": "2018T2", "NOM_MUN": "UMAN", "PCT_SEGUROS": 64.29, "PCT_INSEGUROS": 35.71}, {"PERIODO": "2018T3", "NOM_MUN": "UMAN", "PCT_SEGUROS": 50.0, "PCT_INSEGUROS": 50.0}, {"PERIODO": "2018T4", "NOM_MUN": "UMAN", "PCT_SEGUROS": 52.63, "PCT_INSEGUROS": 47.37}, {"PERIODO": "2019T1", "NOM_MUN": "UMAN", "PCT_SEGUROS": 44.44, "PCT_INSEGUROS": 55.56}, {"PERIODO": "2019T1", "NOM_MUN": "UMAN", "PCT_SEGUROS": 88.24, "PCT_INSEGUROS": 11.76}, {"PERIODO": "2019T2", "NOM_MUN": "UMAN", "PCT_SEGUROS": 41.18, "PCT_INSEGUROS": 58.82}, {"PERIODO": "2019T4", "NOM_MUN": "UMAN", "PCT_SEGUROS": 61.11, "PCT_INSEGUROS": 38.89}, {"PERIODO": "2020T1", "NOM_MUN": "UMAN", "PCT_SEGUROS": 66.67, "PCT_INSEGUROS": 33.33}, {"PERIODO": "2020T3", "NOM_MUN": "UMAN", "PCT_SEGUROS": 75.0, "PCT_INSEGUROS": 25.0}, {"PERIODO": "2020T4", "NOM_MUN": "UMAN", "PCT_SEGUROS": 58.33, "PCT_INSEGUROS": 41.67}, {"PERIODO": "2021T1", "NOM_MUN": "UMAN", "PCT_SEGUROS": 53.85, "PCT_INSEGUROS": 46.15}, {"PERIODO": "2021T2", "NOM_MUN": "UMAN", "PCT_SEGUROS": 53.33, "PCT_INSEGUROS": 46.67}, {"PERIODO": "2021T3", "NOM_MUN": "UMAN", "PCT_SEGUROS": 53.33, "PCT_INSEGUROS": 46.67}, {"PERIODO": "2021T4", "NOM_MUN": "UMAN", "PCT_SEGUROS": 60.0, "PCT_INSEGUROS": 40.0}, {"PERIODO": "2022T1", "NOM_MUN": "UMAN", "PCT_SEGUROS": 90.0, "PCT_INSEGUROS": 10.0}, {"PERIODO": "2022T2", "NOM_MUN": "UMAN", "PCT_SEGUROS": 66.67, "PCT_INSEGUROS": 33.33}, {"PERIODO": "2022T3", "NOM_MUN": "UMAN", "PCT_SEGUROS": 75.0, "PCT_INSEGUROS": 25.0}, {"PERIODO": "2022T4", "NOM_MUN": "UMAN", "PCT_SEGUROS": 75.0, "PCT_INSEGUROS": 25.0}, {"PERIODO": "2024T2", "NOM_MUN": "UMAN", "PCT_SEGUROS": 40.0, "PCT_INSEGUROS": 60.0}, {"PERIODO": "2024T3", "NOM_MUN": "UMAN", "PCT_SEGUROS": 60.0, "PCT_INSEGUROS": 40.0}, {"PERIODO": "2024T4", "NOM_MUN": "UMAN", "PCT_SEGUROS": 30.0, "PCT_INSEGUROS": 70.0}, {"PERIODO": "2025T1", "NOM_MUN": "UMAN", "PCT_SEGUROS": 40.0, "PCT_INSEGUROS": 60.0}, {"PERIODO": "2025T2", "NOM_MUN": "UMAN", "PCT_SEGUROS": 40.0, "PCT_INSEGUROS": 60.0}]; // [{PERIODO,NOM_MUN,PCT_SEGUROS,PCT_INSEGUROS}]
+  var uniqueMuns = ["KANASIN", "MERIDA", "PROGRESO", "UMAN"];
+
+  // Poblar selector de evolución
+  var sel = document.getElementById('munSel');
+  uniqueMuns.forEach(function(m){ var opt=document.createElement('option'); opt.value=m; opt.text=m; sel.appendChild(opt); });
+  if(uniqueMuns.length>0){ sel.value = uniqueMuns[0]; }
+
+  // Poblar selector de muestra
+  var sampleSel = document.getElementById('sampleMunSel');
+  uniqueMuns.forEach(function(m){ var opt=document.createElement('option'); opt.value=m; opt.text=m; sampleSel.appendChild(opt); });
+  if(uniqueMuns.length>0){ sampleSel.value = uniqueMuns[0]; }
+
+  function drawTrend(mun){
+    var rows = allData.filter(r => r.NOM_MUN === mun).sort((a,b)=>{
+      const fa = parseFloat(String(a.PERIODO).replace('T','.'));
+      const fb = parseFloat(String(b.PERIODO).replace('T','.'));
+      return fa - fb;
+    });
+    var x = rows.map(r=>r.PERIODO);
+    var yS = rows.map(r=>r.PCT_SEGUROS);
+    var yI = rows.map(r=>r.PCT_INSEGUROS);
+
+    var layout = {
+      title: 'Evolución para ' + mun,
+      xaxis: {title:'Período'},
+      yaxis: {title:'Porcentaje'},
+      showlegend:true
+    };
+    Plotly.relayout('trend', { 'layout.template': document.body.classList.contains('dark-mode') ? dark_template : light_template });
+    var data = [
+      {type:'scatter', mode:'lines+markers', name:'Segur@s',   x:x, y:yS, line:{color:'#EC407A'}},
+      {type:'scatter', mode:'lines+markers', name:'Insegur@s', x:x, y:yI, line:{color:'#F8BBD0'}}
+    ];
+    Plotly.newPlot('trend', data, layout, {responsive:true});
+  }
+
+  function drawSampleTable(mun) {
+      var table_div = document.getElementById('sample_table');
+      var rows = allData.filter(r => r.NOM_MUN === mun);
+      var table = '<table class="dataframe table-pink"><thead><tr><th>PERIODO</th><th>NOM_MUN</th><th>PCT_SEGUROS</th><th>PCT_INSEGUROS</th></tr></thead><tbody>';
+      rows.slice(0, 15).forEach(function(r) {
+          table += `<tr><td>${r.PERIODO}</td><td>${r.NOM_MUN}</td><td>${r.PCT_SEGUROS}</td><td>${r.PCT_INSEGUROS}</td></tr>`;
+      });
+      table += '</tbody></table>';
+      table_div.innerHTML = table;
+  }
+
+  // Theme switcher
+  const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+  function switchTheme(e) {
+      if (e.target.checked) {
+          document.body.classList.add('dark-mode');
+          localStorage.setItem('theme', 'dark');
+          Plotly.relayout('trend', {template: dark_template});
+          Plotly.relayout('anual', {template: dark_template});
+      } else {
+          document.body.classList.remove('dark-mode');
+          localStorage.setItem('theme', 'light');
+          Plotly.relayout('trend', {template: light_template});
+          Plotly.relayout('anual', {template: light_template});
+      }
+  }
+  toggleSwitch.addEventListener('change', switchTheme, false);
+
+  // Check for saved theme
+  const currentTheme = localStorage.getItem('theme');
+  if (currentTheme) {
+      document.body.classList.toggle('dark-mode', currentTheme === 'dark');
+      if (currentTheme === 'dark') {
+          toggleSwitch.checked = true;
+          Plotly.relayout('trend', {template: dark_template});
+          Plotly.relayout('anual', {template: dark_template});
+      }
+  }
+
+  sel.addEventListener('change', function(){ drawTrend(this.value); });
+  sampleSel.addEventListener('change', function(){ drawSampleTable(this.value); });
+
+  // Dibujo inicial
+  if(uniqueMuns.length>0){
+      drawTrend(uniqueMuns[0]);
+      drawSampleTable(uniqueMuns[0]);
+  }
+
+</script>
+</body>
+</html>

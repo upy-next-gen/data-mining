@@ -1,0 +1,14 @@
+2025-09-10 10:17:26,601 - INFO - Starting Phase 3: Incremental Verification
+2025-09-10 10:17:26,603 - INFO - Found 1 processed files in data/yucatan_processed
+2025-09-10 10:17:26,604 - WARNING - Could not find periodo_str for validated file: data\Archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\conjunto_de_datos\conjunto_de_datos_ensu_cb_0322.csv
+2025-09-10 10:17:26,604 - WARNING - Could not find periodo_str for validated file: data\Archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\conjunto_de_datos\conjunto_de_datos_ensu_cb_0622.csv
+2025-09-10 10:17:26,611 - WARNING - Could not find periodo_str for validated file: data\Archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\conjunto_de_datos\conjunto_de_datos_ensu_cb_0922.csv
+2025-09-10 10:17:26,612 - WARNING - Could not find periodo_str for validated file: data\Archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\conjunto_de_datos\conjunto_de_datos_ensu_cb_1222.csv
+2025-09-10 10:17:26,612 - WARNING - Could not find periodo_str for validated file: data\Archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\conjunto_de_datos\conjunto_de_datos_ensu_cb_1223.csv
+2025-09-10 10:17:26,613 - WARNING - Could not find periodo_str for validated file: data\Archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\conjunto_de_datos\conjunto_de_datos_ensu_cb_0324.csv
+2025-09-10 10:17:26,613 - WARNING - Could not find periodo_str for validated file: data\Archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\conjunto_de_datos\conjunto_de_datos_ensu_cb_0624.csv
+2025-09-10 10:17:26,613 - WARNING - Could not find periodo_str for validated file: data\Archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\conjunto_de_datos\conjunto_de_datos_ensu_cb_0924.csv
+2025-09-10 10:17:26,614 - WARNING - Could not find periodo_str for validated file: data\Archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\conjunto_de_datos\conjunto_de_datos_ensu_cb_1224.csv
+2025-09-10 10:17:26,615 - WARNING - Could not find periodo_str for validated file: data\Archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\conjunto_de_datos\conjunto_de_datos_ensu_cb_0325.csv
+2025-09-10 10:17:26,616 - WARNING - Could not find periodo_str for validated file: data\Archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\conjunto_de_datos\conjunto_de_datos_ensu_cb_0625.csv
+2025-09-10 10:17:26,617 - INFO - Phase 3: Incremental Verification complete. Pending files list saved to temp/archivos_pendientes.json

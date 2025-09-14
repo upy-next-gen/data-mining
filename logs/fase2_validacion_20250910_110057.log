@@ -1,0 +1,642 @@
+2025-09-10 11:00:57,175 - INFO - Starting Phase 2: Validation
+2025-09-10 11:00:57,181 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2015\0_indice_tablas_ensu012015.csv
+2025-09-10 11:00:57,188 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2015.csv
+2025-09-10 11:00:57,207 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2015.csv
+2025-09-10 11:00:57,217 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cs_ensu_01_2015\conjunto_de_datos\conjunto_de_datos_cs_ensu_01_2015.csv
+2025-09-10 11:00:57,265 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cs_ensu_01_2015\diccionario_de_datos\diccionario_de_datos_cs_ensu_01_2015.csv
+2025-09-10 11:00:57,269 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_viv_ensu_01_2015\conjunto_de_datos\conjunto_de_datos_viv_ensu_01_2015.csv
+2025-09-10 11:00:57,292 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_viv_ensu_01_2015\diccionario_de_datos\diccionario_de_datos_viv_ensu_01_2015.csv
+2025-09-10 11:00:57,298 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2016_csv\0_indice_tablas_ensu012016.csv
+2025-09-10 11:00:57,302 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2016.csv
+2025-09-10 11:00:57,475 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2016.csv
+2025-09-10 11:00:57,483 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cs_ensu_01_2016\conjunto_de_datos\conjunto_de_datos_cs_ensu_01_2016.csv
+2025-09-10 11:00:57,736 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cs_ensu_01_2016\diccionario_de_datos\diccionario_de_datos_cs_ensu_01_2016.csv
+2025-09-10 11:00:57,749 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_viv_ensu_01_2016\conjunto_de_datos\conjunto_de_datos_viv_ensu_01_2016.csv
+2025-09-10 11:00:57,797 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_viv_ensu_01_2016\conjunto_de_datos\conjunto_de_datos_viv_ensu_01_2016.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:00:57,798 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_viv_ensu_01_2016\diccionario_de_datos\diccionario_de_datos_viv_ensu_01_2016.csv
+2025-09-10 11:00:57,803 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2017_csv\0_indice_tablas_ensu012017.csv
+2025-09-10 11:00:57,805 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-10 11:00:58,056 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2017.csv
+2025-09-10 11:00:58,065 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cs_ensu_01_2017\conjunto_de_datos\conjunto_de_datos_cs_ensu_01_2017.csv
+2025-09-10 11:00:58,418 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cs_ensu_01_2017\diccionario_de_datos\diccionario_de_datos_cs_ensu_01_2017.csv
+2025-09-10 11:00:58,432 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_viv_ensu_01_2017\conjunto_de_datos\conjunto_de_datos_viv_ensu_01_2017.csv
+2025-09-10 11:00:58,501 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_viv_ensu_01_2017\diccionario_de_datos\diccionario_de_datos_viv_ensu_01_2017.csv
+2025-09-10 11:00:58,506 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2015\0_indice_tablas_ensu022015.csv
+2025-09-10 11:00:58,508 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2015.csv
+2025-09-10 11:00:58,525 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2015.csv
+2025-09-10 11:00:58,527 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cs_ensu_02_2015\conjunto_de_datos\conjunto_de_datos_cs_ensu_02_2015.csv
+2025-09-10 11:00:58,579 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cs_ensu_02_2015\diccionario_de_datos\diccionario_de_datos_cs_ensu_02_2015.csv
+2025-09-10 11:00:58,583 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_viv_ensu_02_2015\conjunto_de_datos\conjunto_de_datos_viv_ensu_02_2015.csv
+2025-09-10 11:00:58,605 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_viv_ensu_02_2015\diccionario_de_datos\diccionario_de_datos_viv_ensu_02_2015.csv
+2025-09-10 11:00:58,607 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2016_csv\0_indice_tablas_ensu022016.csv
+2025-09-10 11:00:58,610 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2016.csv
+2025-09-10 11:00:58,786 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2016.csv
+2025-09-10 11:00:58,795 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cs_ensu_02_2016\conjunto_de_datos\conjunto_de_datos_cs_ensu_02_2016.csv
+2025-09-10 11:00:59,078 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cs_ensu_02_2016\diccionario_de_datos\diccionario_de_datos_cs_ensu_02_2016.csv
+2025-09-10 11:00:59,088 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_viv_ensu_02_2016\conjunto_de_datos\conjunto_de_datos_viv_ensu_02_2016.csv
+2025-09-10 11:00:59,142 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_viv_ensu_02_2016\diccionario_de_datos\diccionario_de_datos_viv_ensu_02_2016.csv
+2025-09-10 11:00:59,145 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2017_csv\0_indice_tablas_ensu022017.csv
+2025-09-10 11:00:59,148 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-10 11:00:59,441 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2017.csv
+2025-09-10 11:00:59,459 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cs_ensu_02_2017\conjunto_de_datos\conjunto_de_datos_cs_ensu_02_2017.csv
+2025-09-10 11:00:59,802 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cs_ensu_02_2017\diccionario_de_datos\diccionario_de_datos_cs_ensu_02_2017.csv
+2025-09-10 11:00:59,815 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_viv_ensu_02_2017\conjunto_de_datos\conjunto_de_datos_viv_ensu_02_2017.csv
+2025-09-10 11:00:59,887 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_viv_ensu_02_2017\diccionario_de_datos\diccionario_de_datos_viv_ensu_02_2017.csv
+2025-09-10 11:00:59,892 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2015\0_indice_tablas_ensu032015.csv
+2025-09-10 11:00:59,895 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2015.csv
+2025-09-10 11:00:59,910 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2015.csv
+2025-09-10 11:00:59,913 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cs_ensu_03_2015\conjunto_de_datos\conjunto_de_datos_cs_ensu_03_2015.csv
+2025-09-10 11:00:59,960 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cs_ensu_03_2015\diccionario_de_datos\diccionario_de_datos_cs_ensu_03_2015.csv
+2025-09-10 11:00:59,967 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_viv_ensu_03_2015\conjunto_de_datos\conjunto_de_datos_viv_ensu_03_2015.csv
+2025-09-10 11:00:59,991 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_viv_ensu_03_2015\diccionario_de_datos\diccionario_de_datos_viv_ensu_03_2015.csv
+2025-09-10 11:00:59,993 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2016_csv\0_indice_tablas_ensu032016.csv
+2025-09-10 11:00:59,996 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2016.csv
+2025-09-10 11:01:00,254 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2016.csv
+2025-09-10 11:01:00,263 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cs_ensu_03_2016\conjunto_de_datos\conjunto_de_datos_cs_ensu_03_2016.csv
+2025-09-10 11:01:00,546 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cs_ensu_03_2016\diccionario_de_datos\diccionario_de_datos_cs_ensu_03_2016.csv
+2025-09-10 11:01:00,556 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_viv_ensu_03_2016\conjunto_de_datos\conjunto_de_datos_viv_ensu_03_2016.csv
+2025-09-10 11:01:00,621 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_viv_ensu_03_2016\diccionario_de_datos\diccionario_de_datos_viv_ensu_03_2016.csv
+2025-09-10 11:01:00,625 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2017_csv\0_indice_tablas_ensu032017.csv
+2025-09-10 11:01:00,627 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-10 11:01:00,910 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2017.csv
+2025-09-10 11:01:00,922 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cs_ensu_03_2017\conjunto_de_datos\conjunto_de_datos_cs_ensu_03_2017.csv
+2025-09-10 11:01:01,257 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cs_ensu_03_2017\diccionario_de_datos\diccionario_de_datos_cs_ensu_03_2017.csv
+2025-09-10 11:01:01,268 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_viv_ensu_03_2017\conjunto_de_datos\conjunto_de_datos_viv_ensu_03_2017.csv
+2025-09-10 11:01:01,339 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_viv_ensu_03_2017\diccionario_de_datos\diccionario_de_datos_viv_ensu_03_2017.csv
+2025-09-10 11:01:01,343 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2015\0_indice_tablas_ensu042015.csv
+2025-09-10 11:01:01,346 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2015.csv
+2025-09-10 11:01:01,359 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2015.csv
+2025-09-10 11:01:01,363 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cs_ensu_04_2015\conjunto_de_datos\conjunto_de_datos_cs_ensu_04_2015.csv
+2025-09-10 11:01:01,409 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cs_ensu_04_2015\diccionario_de_datos\diccionario_de_datos_cs_ensu_04_2015.csv
+2025-09-10 11:01:01,414 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_viv_ensu_04_2015\conjunto_de_datos\conjunto_de_datos_viv_ensu_04_2015.csv
+2025-09-10 11:01:01,436 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_viv_ensu_04_2015\diccionario_de_datos\diccionario_de_datos_viv_ensu_04_2015.csv
+2025-09-10 11:01:01,439 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2016_csv\0_indice_tablas_ensu042016.csv
+2025-09-10 11:01:01,441 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-10 11:01:01,675 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2016.csv
+2025-09-10 11:01:01,688 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cs_ensu_04_2016\conjunto_de_datos\conjunto_de_datos_cs_ensu_04_2016.csv
+2025-09-10 11:01:02,010 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cs_ensu_04_2016\diccionario_de_datos\diccionario_de_datos_cs_ensu_04_2016.csv
+2025-09-10 11:01:02,021 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_viv_ensu_04_2016\conjunto_de_datos\conjunto_de_datos_viv_ensu_04_2016.csv
+2025-09-10 11:01:02,083 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_viv_ensu_04_2016\diccionario_de_datos\diccionario_de_datos_viv_ensu_04_2016.csv
+2025-09-10 11:01:02,088 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2017_csv\0_indice_tablas_ensu042017.csv
+2025-09-10 11:01:02,090 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-10 11:01:02,370 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2017.csv
+2025-09-10 11:01:02,381 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cs_ensu_04_2017\conjunto_de_datos\conjunto_de_datos_cs_ensu_04_2017.csv
+2025-09-10 11:01:02,697 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cs_ensu_04_2017\diccionario_de_datos\diccionario_de_datos_cs_ensu_04_2017.csv
+2025-09-10 11:01:02,708 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_viv_ensu_04_2017\conjunto_de_datos\conjunto_de_datos_viv_ensu_04_2017.csv
+2025-09-10 11:01:02,776 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_viv_ensu_04_2017\diccionario_de_datos\diccionario_de_datos_viv_ensu_04_2017.csv
+2025-09-10 11:01:02,780 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_1t_csv\0_indice_tablas_ensu012018.csv
+2025-09-10 11:01:02,783 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\conjunto_de_datos\ensu_cb_0118.csv
+2025-09-10 11:01:03,052 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\diccionario_de_datos\diccionario_de_datos_ensu_cb_0118.csv
+2025-09-10 11:01:03,063 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_1t_csv\ensu_cs_0118\conjunto_de_datos\ensu_cs_0118.csv
+2025-09-10 11:01:03,386 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_1t_csv\ensu_cs_0118\diccionario_de_datos\diccionario_de_datos_ensu_cs_0118.csv
+2025-09-10 11:01:03,410 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_1t_csv\ensu_viv_0118\conjunto_de_datos\ensu_viv_0118.csv
+2025-09-10 11:01:03,489 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_1t_csv\ensu_viv_0118\diccionario_de_datos\diccionario_de_datos_ensu_viv_0118.csv
+2025-09-10 11:01:03,493 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_2t_csv\0_indice_tablas_ensu0218.csv
+2025-09-10 11:01:03,495 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\conjunto_de_datos\ensu_cb_0218.csv
+2025-09-10 11:01:03,789 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\diccionario_de_datos\diccionario_de_datos_ensu_cb_0218.csv
+2025-09-10 11:01:03,801 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_2t_csv\ensu_cs_0218\conjunto_de_datos\ensu_cs_0218.csv
+2025-09-10 11:01:04,161 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_2t_csv\ensu_cs_0218\diccionario_de_datos\diccionario_de_datos_ensu_cs_0218.csv
+2025-09-10 11:01:04,173 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_2t_csv\ensu_viv_0218\conjunto_de_datos\ensu_viv_0218.csv
+2025-09-10 11:01:04,247 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_2t_csv\ensu_viv_0218\diccionario_de_datos\diccionario_de_datos_ensu_viv_0218.csv
+2025-09-10 11:01:04,252 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_3t_csv\0_indice_tablas_ensu0318.csv
+2025-09-10 11:01:04,254 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-10 11:01:04,607 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2018.csv
+2025-09-10 11:01:04,621 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cs_ensu_03_2018\conjunto_de_datos\conjunto_de_datos_cs_ensu_03_2018.csv
+2025-09-10 11:01:05,048 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cs_ensu_03_2018\diccionario_de_datos\diccionario_de_datos_cs_ensu_03_2018.csv
+2025-09-10 11:01:05,060 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_viv_ensu_03_2018\conjunto_de_datos\conjunto_de_datos_viv_ensu_03_2018.csv
+2025-09-10 11:01:05,141 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_viv_ensu_03_2018\diccionario_de_datos\diccionario_de_datos_viv_ensu_03_2018.csv
+2025-09-10 11:01:05,146 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_4t_csv\0_indice_tablas_ensu0418.csv
+2025-09-10 11:01:05,149 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\conjunto_de_datos\conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-10 11:01:05,435 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\diccionario_de_datos\diccionario_de_datos_cb_ENSU_04_2018.csv
+2025-09-10 11:01:05,448 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cs_ensu_04_2018\conjunto_de_datos\conjunto_de_datos_cs_ENSU_04_2018.csv
+2025-09-10 11:01:05,798 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cs_ensu_04_2018\diccionario_de_datos\diccionario_de_datos_cs_ENSU_04_2018.csv
+2025-09-10 11:01:05,810 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_viv_ensu_04_2018\conjunto_de_datos\conjunto_de_datos_viv_ENSU_04_2018.csv
+2025-09-10 11:01:05,892 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_viv_ensu_04_2018\diccionario_de_datos\diccionario_de_datos_viv_ENSU_04_2018.csv
+2025-09-10 11:01:05,896 - INFO - Validating file: data\Archive\conjunto_de_datos_ENSU_2019_1t_csv\0_indice_tablas_ensu0319.csv
+2025-09-10 11:01:05,899 - INFO - Validating file: data\Archive\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-10 11:01:06,124 - INFO - Validating file: data\Archive\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2019.csv
+2025-09-10 11:01:06,130 - INFO - Validating file: data\Archive\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cs_ensu_03_2019\conjunto_de_datos\conjunto_de_datos_cs_ensu_03_2019.csv
+2025-09-10 11:01:06,417 - INFO - Validating file: data\Archive\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cs_ensu_03_2019\diccionario_de_datos\diccionario_de_datos_cs_ensu_03_2019.csv
+2025-09-10 11:01:06,424 - INFO - Validating file: data\Archive\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_viv_ensu_03_2019\conjunto_de_datos\conjunto_de_datos_viv_ensu_03_2019.csv
+2025-09-10 11:01:06,486 - INFO - Validating file: data\Archive\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_viv_ensu_03_2019\diccionario_de_datos\diccionario_de_datos_viv_ensu_03_2019.csv
+2025-09-10 11:01:06,490 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_2t_csv\0_indice_tablas_ENSU_2019_2t.csv
+2025-09-10 11:01:06,492 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\conjunto_de_datos\conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-10 11:01:06,824 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\diccionario_de_datos\diccionario_de_datos_cb_ENSU_2019_2t.csv
+2025-09-10 11:01:06,835 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cs_ENSU_2019_2t\conjunto_de_datos\conjunto_de_datos_cs_ENSU_2019_2t.csv
+2025-09-10 11:01:07,235 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cs_ENSU_2019_2t\diccionario_de_datos\diccionario_de_datos_cs_ENSU_2019_2t.csv
+2025-09-10 11:01:07,246 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_viv_ENSU_2019_2t\conjunto_de_datos\conjunto_de_datos_viv_ENSU_2019_2t.csv
+2025-09-10 11:01:07,324 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_viv_ENSU_2019_2t\diccionario_de_datos\diccionario_de_datos_viv_ENSU_2019_2t.csv
+2025-09-10 11:01:07,330 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_4t_csv\0_indice_tablas_ENSU_04_2019.csv
+2025-09-10 11:01:07,332 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\conjunto_de_datos\conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-10 11:01:07,721 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\diccionario_de_datos\diccionario_de_datos_CB_ENSU_04_2019.csv
+2025-09-10 11:01:07,734 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CS_ENSU_04_2019\conjunto_de_datos\conjunto_de_datos_CS_ENSU_04_2019.csv
+2025-09-10 11:01:08,177 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CS_ENSU_04_2019\diccionario_de_datos\diccionario_de_datos_CS_ENSU_04_2019.csv
+2025-09-10 11:01:08,190 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_VIV_ENSU_04_2019\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_04_2019.csv
+2025-09-10 11:01:08,289 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_VIV_ENSU_04_2019\diccionario_de_datos\diccionario_de_datos_VIV_ENSU_04_2019.csv
+2025-09-10 11:01:08,294 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_1t_csv\0_indice_tablas_ENSU_01_2020.csv
+2025-09-10 11:01:08,296 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\conjunto_de_datos\conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-10 11:01:08,688 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\diccionario_de_datos\diccionario_de_datos_CB_ENSU_01_2020.csv
+2025-09-10 11:01:08,702 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CS_ENSU_01_2020\conjunto_de_datos\conjunto_de_datos_CS_ENSU_01_2020.csv
+2025-09-10 11:01:09,083 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CS_ENSU_01_2020\diccionario_de_datos\diccionario_de_datos_CS_ENSU_01_2020.csv
+2025-09-10 11:01:09,094 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_VIV_ENSU_01_2020\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_01_2020.csv
+2025-09-10 11:01:09,197 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_VIV_ENSU_01_2020\diccionario_de_datos\diccionario_de_datos_VIV_ENSU_01_2020.csv
+2025-09-10 11:01:09,201 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_3t_csv\0_indice_tablas_ENSU_09_2020.csv
+2025-09-10 11:01:09,203 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-10 11:01:09,721 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:09,722 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\diccionario_de_datos\diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-10 11:01:09,743 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-10 11:01:09,991 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:09,991 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\diccionario_de_datos\diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-10 11:01:10,000 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CS_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CS_ENSU_09_2020.csv
+2025-09-10 11:01:10,426 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CS_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CS_ENSU_09_2020.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:10,427 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CS_ENSU_09_2020\diccionario_de_datos\diccionario_de_datos_CS_ENSU_09_2020.csv
+2025-09-10 11:01:10,440 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_VIV_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_09_2020.csv
+2025-09-10 11:01:10,537 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_VIV_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_09_2020.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:10,537 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_VIV_ENSU_09_2020\diccionario_de_datos\diccionario_de_datos_VIV_ENSU_09_2020.csv
+2025-09-10 11:01:10,542 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_4t_csv\0_indice_tablas_ENSU_12_2020.csv
+2025-09-10 11:01:10,544 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\conjunto_de_datos\conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-10 11:01:11,074 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\conjunto_de_datos\conjunto_de_datos_CB_ENSU_12_2020.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:11,075 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\diccionario_de_datos\diccionario_de_datos_CB_ENSU_12_2020.csv
+2025-09-10 11:01:11,094 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CS_ENSU_12_2020\conjunto_de_datos\conjunto_de_datos_CS_ENSU_12_2020.csv
+2025-09-10 11:01:11,546 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CS_ENSU_12_2020\conjunto_de_datos\conjunto_de_datos_CS_ENSU_12_2020.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:11,547 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CS_ENSU_12_2020\diccionario_de_datos\diccionario_de_datos_CS_ENSU_12_2020.csv
+2025-09-10 11:01:11,561 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_VIV_ENSU_12_2020\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_12_2020.csv
+2025-09-10 11:01:11,677 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_VIV_ENSU_12_2020\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_12_2020.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:11,678 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_VIV_ENSU_12_2020\diccionario_de_datos\diccionario_de_datos_VIV_ENSU_12_2020.csv
+2025-09-10 11:01:11,683 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_1t_csv\0_indice_tablas_ENSU_03_2021.csv
+2025-09-10 11:01:11,685 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-10 11:01:12,090 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_03_2021.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:12,091 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_03_2021.csv
+2025-09-10 11:01:12,106 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CS_ENSU_03_2021\conjunto_de_datos\conjunto_de_datos_CS_ENSU_03_2021.csv
+2025-09-10 11:01:12,561 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CS_ENSU_03_2021\conjunto_de_datos\conjunto_de_datos_CS_ENSU_03_2021.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:12,562 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CS_ENSU_03_2021\diccionario_de_datos\diccionario_de_datos_CS_ENSU_03_2021.csv
+2025-09-10 11:01:12,576 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_VIV_ENSU_03_2021\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_03_2021.csv
+2025-09-10 11:01:12,672 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_VIV_ENSU_03_2021\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_03_2021.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:12,673 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_VIV_ENSU_03_2021\diccionario_de_datos\diccionario_de_datos_VIV_ENSU_03_2021.csv
+2025-09-10 11:01:12,677 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_2t_csv\0_indice_tablas_ENSU_06_2021.csv
+2025-09-10 11:01:12,680 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-10 11:01:13,122 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_06_2021.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:13,123 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_06_2021.csv
+2025-09-10 11:01:13,138 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CS_ENSU_06_2021\conjunto_de_datos\conjunto_de_datos_CS_ENSU_06_2021.csv
+2025-09-10 11:01:13,612 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CS_ENSU_06_2021\conjunto_de_datos\conjunto_de_datos_CS_ENSU_06_2021.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:13,613 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CS_ENSU_06_2021\diccionario_de_datos\diccionario_de_datos_CS_ENSU_06_2021.csv
+2025-09-10 11:01:13,630 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_VIV_ENSU_06_2021\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_06_2021.csv
+2025-09-10 11:01:13,733 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_VIV_ENSU_06_2021\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_06_2021.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:13,734 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_VIV_ENSU_06_2021\diccionario_de_datos\diccionario_de_datos_VIV_ENSU_06_2021.csv
+2025-09-10 11:01:13,741 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_3t_csv\0_indice_tablas_ENSU_09_2021.csv
+2025-09-10 11:01:13,744 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-10 11:01:14,314 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_09_2021.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:14,314 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_09_2021.csv
+2025-09-10 11:01:14,336 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CS_ENSU_09_2021\conjunto_de_datos\conjunto_de_datos_CS_ENSU_09_2021.csv
+2025-09-10 11:01:14,829 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CS_ENSU_09_2021\conjunto_de_datos\conjunto_de_datos_CS_ENSU_09_2021.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:14,830 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CS_ENSU_09_2021\diccionario_de_datos\diccionario_de_datos_CS_ENSU_09_2021.csv
+2025-09-10 11:01:14,847 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_VIV_ENSU_09_2021\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_09_2021.csv
+2025-09-10 11:01:14,994 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_VIV_ENSU_09_2021\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_09_2021.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:14,994 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_VIV_ENSU_09_2021\diccionario_de_datos\diccionario_de_datos_VIV_ENSU_09_2021.csv
+2025-09-10 11:01:14,999 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_4t_csv\0_indice_tablas_ENSU_12_2021.csv
+2025-09-10 11:01:15,002 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-10 11:01:15,472 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_12_2021.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:15,473 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_12_2021.csv
+2025-09-10 11:01:15,486 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CS_ENSU_12_2021\conjunto_de_datos\conjunto_de_datos_CS_ENSU_12_2021.csv
+2025-09-10 11:01:15,981 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CS_ENSU_12_2021\conjunto_de_datos\conjunto_de_datos_CS_ENSU_12_2021.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:15,983 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CS_ENSU_12_2021\diccionario_de_datos\diccionario_de_datos_CS_ENSU_12_2021.csv
+2025-09-10 11:01:15,997 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_VIV_ENSU_12_2021\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_12_2021.csv
+2025-09-10 11:01:16,098 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_VIV_ENSU_12_2021\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_12_2021.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:16,098 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_VIV_ENSU_12_2021\diccionario_de_datos\diccionario_de_datos_VIV_ENSU_12_2021.csv
+2025-09-10 11:01:16,103 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_1t_csv\0_indice_tablas_ensu0322.csv
+2025-09-10 11:01:16,105 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\conjunto_de_datos\conjunto_de_datos_ensu_cb_0322.csv
+2025-09-10 11:01:16,439 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\conjunto_de_datos\conjunto_de_datos_ensu_cb_0322.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:16,439 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\diccionario_de_datos\diccionario_de_datos_ensu_cb_0322.csv
+2025-09-10 11:01:16,448 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cs_0322\conjunto_de_datos\conjunto_de_datos_ensu_cs_0322.csv
+2025-09-10 11:01:16,866 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cs_0322\conjunto_de_datos\conjunto_de_datos_ensu_cs_0322.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:16,868 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cs_0322\diccionario_de_datos\diccionario_de_datos_ensu_cs_0322.csv
+2025-09-10 11:01:16,877 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_viv_0322\conjunto_de_datos\conjunto_de_datos_ensu_viv_0322.csv
+2025-09-10 11:01:16,976 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_viv_0322\conjunto_de_datos\conjunto_de_datos_ensu_viv_0322.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:16,976 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_viv_0322\diccionario_de_datos\diccionario_de_datos_ensu_viv_0322.csv
+2025-09-10 11:01:16,983 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_2t_csv\0_indice_tablas_ensu0622.csv
+2025-09-10 11:01:16,985 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\conjunto_de_datos\conjunto_de_datos_ensu_cb_0622.csv
+2025-09-10 11:01:17,356 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\conjunto_de_datos\conjunto_de_datos_ensu_cb_0622.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:17,357 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\diccionario_de_datos\diccionario_de_datos_ensu_cb_0622.csv
+2025-09-10 11:01:17,364 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cs_0622\conjunto_de_datos\conjunto_de_datos_ensu_cs_0622.csv
+2025-09-10 11:01:17,791 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cs_0622\conjunto_de_datos\conjunto_de_datos_ensu_cs_0622.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:17,792 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cs_0622\diccionario_de_datos\diccionario_de_datos_ensu_cs_0622.csv
+2025-09-10 11:01:17,800 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_viv_0622\conjunto_de_datos\conjunto_de_datos_ensu_viv_0622.csv
+2025-09-10 11:01:17,891 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_viv_0622\conjunto_de_datos\conjunto_de_datos_ensu_viv_0622.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:17,891 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_viv_0622\diccionario_de_datos\diccionario_de_datos_ensu_viv_0622.csv
+2025-09-10 11:01:17,897 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_3t_csv\0_indice_tablas_ensu0922.csv
+2025-09-10 11:01:17,900 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\conjunto_de_datos\conjunto_de_datos_ensu_cb_0922.csv
+2025-09-10 11:01:18,353 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\conjunto_de_datos\conjunto_de_datos_ensu_cb_0922.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:18,353 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\diccionario_de_datos\diccionario_de_datos_ensu_cb_0922.csv
+2025-09-10 11:01:18,363 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cs_0922\conjunto_de_datos\conjunto_de_datos_ensu_cs_0922.csv
+2025-09-10 11:01:18,787 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cs_0922\conjunto_de_datos\conjunto_de_datos_ensu_cs_0922.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:18,789 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cs_0922\diccionario_de_datos\diccionario_de_datos_ensu_cs_0922.csv
+2025-09-10 11:01:18,798 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_viv_0922\conjunto_de_datos\conjunto_de_datos_ensu_viv_0922.csv
+2025-09-10 11:01:18,886 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_viv_0922\conjunto_de_datos\conjunto_de_datos_ensu_viv_0922.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:18,887 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_viv_0922\diccionario_de_datos\diccionario_de_datos_ensu_viv_0922.csv
+2025-09-10 11:01:18,894 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_4t_csv\0_indice_tablas_ensu1222.csv
+2025-09-10 11:01:18,897 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\conjunto_de_datos\conjunto_de_datos_ensu_cb_1222.csv
+2025-09-10 11:01:19,275 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\conjunto_de_datos\conjunto_de_datos_ensu_cb_1222.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:19,276 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\diccionario_de_datos\diccionario_de_datos_ensu_cb_1222.csv
+2025-09-10 11:01:19,284 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cs_1222\conjunto_de_datos\conjunto_de_datos_ensu_cs_1222.csv
+2025-09-10 11:01:19,707 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cs_1222\conjunto_de_datos\conjunto_de_datos_ensu_cs_1222.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:19,708 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cs_1222\diccionario_de_datos\diccionario_de_datos_ensu_cs_1222.csv
+2025-09-10 11:01:19,718 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_viv_1222\conjunto_de_datos\conjunto_de_datos_ensu_viv_1222.csv
+2025-09-10 11:01:19,825 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_viv_1222\conjunto_de_datos\conjunto_de_datos_ensu_viv_1222.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:19,825 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_viv_1222\diccionario_de_datos\diccionario_de_datos_ensu_viv_1222.csv
+2025-09-10 11:01:19,829 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_1t_csv\0_indice_tablas_ENSU_03_2023.csv
+2025-09-10 11:01:19,832 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\conjunto_de_datos\conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-10 11:01:20,293 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\conjunto_de_datos\conjunto_de_datos_CB_ENSU_03_2023.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:20,293 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\diccionario_de_datos\diccionario_de_datos_CB_ENSU_03_2023.csv
+2025-09-10 11:01:20,309 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CS_ENSU_03_2023\conjunto_de_datos\conjunto_de_datos_CS_ENSU_03_2023.csv
+2025-09-10 11:01:20,830 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CS_ENSU_03_2023\conjunto_de_datos\conjunto_de_datos_CS_ENSU_03_2023.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:20,832 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CS_ENSU_03_2023\diccionario_de_datos\diccionario_de_datos_CS_ENSU_03_2023.csv
+2025-09-10 11:01:20,843 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_VIV_ENSU_03_2023\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_03_2023.csv
+2025-09-10 11:01:20,947 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_VIV_ENSU_03_2023\conjunto_de_datos\conjunto_de_datos_VIV_ENSU_03_2023.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:20,948 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_VIV_ENSU_03_2023\diccionario_de_datos\diccionario_de_datos_VIV_ENSU_03_2023.csv
+2025-09-10 11:01:20,952 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_2t_csv\0_indice_tablas_ensu_0623.csv
+2025-09-10 11:01:20,955 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\conjunto_de_datos\conjunto_de_datos_ensu_cb_0623.csv
+2025-09-10 11:01:21,403 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\conjunto_de_datos\conjunto_de_datos_ensu_cb_0623.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:21,404 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\diccionario_de_datos\diccionario_de_datos_ensu_cb_0623.csv
+2025-09-10 11:01:21,419 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cs_0623\conjunto_de_datos\conjunto_de_datos_ensu_cs_0623.csv
+2025-09-10 11:01:21,940 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cs_0623\conjunto_de_datos\conjunto_de_datos_ensu_cs_0623.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:21,941 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cs_0623\diccionario_de_datos\diccionario_de_datos_ensu_cs_0623.csv
+2025-09-10 11:01:21,955 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_viv_0623\conjunto_de_datos\conjunto_de_datos_ensu_viv_0623.csv
+2025-09-10 11:01:22,074 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_viv_0623\conjunto_de_datos\conjunto_de_datos_ensu_viv_0623.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:22,075 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_viv_0623\diccionario_de_datos\diccionario_de_datos_ensu_viv_0623.csv
+2025-09-10 11:01:22,080 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_3t_csv\0_indice_tablas_ensu0923.csv
+2025-09-10 11:01:22,084 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\conjunto_de_datos\conjunto_de_datos_ensu_cb_0923.csv
+2025-09-10 11:01:22,730 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\conjunto_de_datos\conjunto_de_datos_ensu_cb_0923.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:22,731 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\diccionario_de_datos\diccionario_de_datos_ensu_cb_0923.csv
+2025-09-10 11:01:22,747 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cs_0923\conjunto_de_datos\conjunto_de_datos_ensu_cs_0923.csv
+2025-09-10 11:01:23,133 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cs_0923\conjunto_de_datos\conjunto_de_datos_ensu_cs_0923.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:23,134 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cs_0923\diccionario_de_datos\diccionario_de_datos_ensu_cs_0923.csv
+2025-09-10 11:01:23,147 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_viv_0923\conjunto_de_datos\conjunto_de_datos_ensu_viv_0923.csv
+2025-09-10 11:01:23,236 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_viv_0923\conjunto_de_datos\conjunto_de_datos_ensu_viv_0923.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:23,236 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_viv_0923\diccionario_de_datos\diccionario_de_datos_ensu_viv_0923.csv
+2025-09-10 11:01:23,240 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_4t_csv\0_indice_tablas_ensu1223.csv
+2025-09-10 11:01:23,242 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\conjunto_de_datos\conjunto_de_datos_ensu_cb_1223.csv
+2025-09-10 11:01:23,566 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\conjunto_de_datos\conjunto_de_datos_ensu_cb_1223.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:23,567 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\diccionario_de_datos\diccionario_de_datos_ensu_cb_1223.csv
+2025-09-10 11:01:23,574 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cs_1223\conjunto_de_datos\conjunto_de_datos_ensu_cs_1223.csv
+2025-09-10 11:01:23,972 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cs_1223\conjunto_de_datos\conjunto_de_datos_ensu_cs_1223.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:23,973 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cs_1223\diccionario_de_datos\diccionario_de_datos_ensu_cs_1223.csv
+2025-09-10 11:01:23,982 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_viv_1223\conjunto_de_datos\conjunto_de_datos_ensu_viv_1223.csv
+2025-09-10 11:01:24,072 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_viv_1223\conjunto_de_datos\conjunto_de_datos_ensu_viv_1223.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:24,073 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_viv_1223\diccionario_de_datos\diccionario_de_datos_ensu_viv_1223.csv
+2025-09-10 11:01:24,078 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_1t_csv\0_indice_tablas_ensu0324.csv
+2025-09-10 11:01:24,081 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\conjunto_de_datos\conjunto_de_datos_ensu_cb_0324.csv
+2025-09-10 11:01:24,527 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\conjunto_de_datos\conjunto_de_datos_ensu_cb_0324.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:24,527 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\diccionario_de_datos\diccionario_de_datos_ensu_cb_0324.csv
+2025-09-10 11:01:24,537 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cs_0324\conjunto_de_datos\conjunto_de_datos_ensu_cs_0324.csv
+2025-09-10 11:01:24,987 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cs_0324\conjunto_de_datos\conjunto_de_datos_ensu_cs_0324.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:24,988 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cs_0324\diccionario_de_datos\diccionario_de_datos_ensu_cs_0324.csv
+2025-09-10 11:01:24,998 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_viv_0324\conjunto_de_datos\conjunto_de_datos_ensu_viv_0324.csv
+2025-09-10 11:01:25,092 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_viv_0324\conjunto_de_datos\conjunto_de_datos_ensu_viv_0324.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:25,093 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_viv_0324\diccionario_de_datos\diccionario_de_datos_ensu_viv_0324.csv
+2025-09-10 11:01:25,099 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_2t_csv\0_indice_tablas_ensu0624.csv
+2025-09-10 11:01:25,101 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\conjunto_de_datos\conjunto_de_datos_ensu_cb_0624.csv
+2025-09-10 11:01:25,508 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\conjunto_de_datos\conjunto_de_datos_ensu_cb_0624.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:25,509 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\diccionario_de_datos\diccionario_de_datos_ensu_cb_0624.csv
+2025-09-10 11:01:25,522 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cs_0624\conjunto_de_datos\conjunto_de_datos_ensu_cs_0624.csv
+2025-09-10 11:01:26,072 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cs_0624\conjunto_de_datos\conjunto_de_datos_ensu_cs_0624.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:26,073 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cs_0624\diccionario_de_datos\diccionario_de_datos_ensu_cs_0624.csv
+2025-09-10 11:01:26,089 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_viv_0624\conjunto_de_datos\conjunto_de_datos_ensu_viv_0624.csv
+2025-09-10 11:01:26,198 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_viv_0624\conjunto_de_datos\conjunto_de_datos_ensu_viv_0624.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:26,199 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_viv_0624\diccionario_de_datos\diccionario_de_datos_ensu_viv_0624.csv
+2025-09-10 11:01:26,205 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_3t_csv\0_indice_tablas_ensu0924.csv
+2025-09-10 11:01:26,207 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\conjunto_de_datos\conjunto_de_datos_ensu_cb_0924.csv
+2025-09-10 11:01:26,794 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\conjunto_de_datos\conjunto_de_datos_ensu_cb_0924.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:26,794 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\diccionario_de_datos\diccionario_de_datos_ensu_cb_0924.csv
+2025-09-10 11:01:26,809 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cs_0924\conjunto_de_datos\conjunto_de_datos_ensu_cs_0924.csv
+2025-09-10 11:01:27,329 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cs_0924\conjunto_de_datos\conjunto_de_datos_ensu_cs_0924.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:27,331 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cs_0924\diccionario_de_datos\diccionario_de_datos_ensu_cs_0924.csv
+2025-09-10 11:01:27,344 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_viv_0924\conjunto_de_datos\conjunto_de_datos_ensu_viv_0924.csv
+2025-09-10 11:01:27,454 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_viv_0924\conjunto_de_datos\conjunto_de_datos_ensu_viv_0924.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:27,455 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_viv_0924\diccionario_de_datos\diccionario_de_datos_ensu_viv_0924.csv
+2025-09-10 11:01:27,460 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_4t_csv\0_indice_tablas_ensu1224.csv
+2025-09-10 11:01:27,463 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\conjunto_de_datos\conjunto_de_datos_ensu_cb_1224.csv
+2025-09-10 11:01:27,851 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\conjunto_de_datos\conjunto_de_datos_ensu_cb_1224.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:27,851 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\diccionario_de_datos\diccionario_de_datos_ensu_cb_1224.csv
+2025-09-10 11:01:27,863 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cs_1224\conjunto_de_datos\conjunto_de_datos_ensu_cs_1224.csv
+2025-09-10 11:01:28,348 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cs_1224\conjunto_de_datos\conjunto_de_datos_ensu_cs_1224.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:28,350 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cs_1224\diccionario_de_datos\diccionario_de_datos_ensu_cs_1224.csv
+2025-09-10 11:01:28,363 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_viv_1224\conjunto_de_datos\conjunto_de_datos_ensu_viv_1224.csv
+2025-09-10 11:01:28,459 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_viv_1224\conjunto_de_datos\conjunto_de_datos_ensu_viv_1224.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:28,460 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_viv_1224\diccionario_de_datos\diccionario_de_datos_ensu_viv_1224.csv
+2025-09-10 11:01:28,466 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_1t_csv\0_indice_tablas_ensu0325.csv
+2025-09-10 11:01:28,468 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\conjunto_de_datos\conjunto_de_datos_ensu_cb_0325.csv
+2025-09-10 11:01:28,854 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\conjunto_de_datos\conjunto_de_datos_ensu_cb_0325.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:28,855 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\diccionario_de_datos\diccionario_de_datos_ensu_cb_0325.csv
+2025-09-10 11:01:28,865 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cs_0325\conjunto_de_datos\conjunto_de_datos_ensu_cs_0325.csv
+2025-09-10 11:01:29,319 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cs_0325\conjunto_de_datos\conjunto_de_datos_ensu_cs_0325.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:29,320 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cs_0325\diccionario_de_datos\diccionario_de_datos_ensu_cs_0325.csv
+2025-09-10 11:01:29,331 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_viv_0325\conjunto_de_datos\conjunto_de_datos_ensu_viv_0325.csv
+2025-09-10 11:01:29,434 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_viv_0325\conjunto_de_datos\conjunto_de_datos_ensu_viv_0325.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:29,434 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_viv_0325\diccionario_de_datos\diccionario_de_datos_ensu_viv_0325.csv
+2025-09-10 11:01:29,440 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_2t_csv\0_indice_tablas_ensu0625.csv
+2025-09-10 11:01:29,442 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\conjunto_de_datos\conjunto_de_datos_ensu_cb_0625.csv
+2025-09-10 11:01:29,822 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\conjunto_de_datos\conjunto_de_datos_ensu_cb_0625.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:29,822 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\diccionario_de_datos\diccionario_de_datos_ensu_cb_0625.csv
+2025-09-10 11:01:29,830 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cs_0625\conjunto_de_datos\conjunto_de_datos_ensu_cs_0625.csv
+2025-09-10 11:01:30,288 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cs_0625\conjunto_de_datos\conjunto_de_datos_ensu_cs_0625.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:30,289 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cs_0625\diccionario_de_datos\diccionario_de_datos_ensu_cs_0625.csv
+2025-09-10 11:01:30,300 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_viv_0625\conjunto_de_datos\conjunto_de_datos_ensu_viv_0625.csv
+2025-09-10 11:01:30,399 - ERROR - Could not process file data\Archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_viv_0625\conjunto_de_datos\conjunto_de_datos_ensu_viv_0625.csv: 'DataFrame' object has no attribute 'str'
+2025-09-10 11:01:30,399 - INFO - Validating file: data\Archive\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_viv_0625\diccionario_de_datos\diccionario_de_datos_ensu_viv_0625.csv
+2025-09-10 11:01:30,405 - INFO - Validating file: data\Archive\Datos abiertos\0_indice_tablas_ENSU_03_2019.csv
+2025-09-10 11:01:30,406 - INFO - Validating file: data\Archive\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\conjunto_de_datos\conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-10 11:01:30,783 - INFO - Validating file: data\Archive\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ENSU_03_2019.csv
+2025-09-10 11:01:30,801 - INFO - Validating file: data\Archive\Datos abiertos\conjunto_de_datos_CS_ENSU_03_2019\conjunto_de_datos\conjunto_de_datos_cs_ENSU_03_2019.csv
+2025-09-10 11:01:31,249 - INFO - Validating file: data\Archive\Datos abiertos\conjunto_de_datos_CS_ENSU_03_2019\diccionario_de_datos\diccionario_de_datos_cs_ENSU_03_2019.csv
+2025-09-10 11:01:31,277 - INFO - Validating file: data\Archive\Datos abiertos\conjunto_de_datos_VIV_ENSU_03_2019\conjunto_de_datos\conjunto_de_datos_viv_ENSU_03_2019.csv
+2025-09-10 11:01:31,369 - INFO - Validating file: data\Archive\Datos abiertos\conjunto_de_datos_VIV_ENSU_03_2019\diccionario_de_datos\diccionario_de_datos_viv_ENSU_03_2019.csv
+2025-09-10 11:01:31,374 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2015\._0_indice_tablas_ensu012015.csv
+2025-09-10 11:01:31,376 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\conjunto_de_datos\._conjunto_de_datos_cb_ensu_01_2015.csv
+2025-09-10 11:01:31,380 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\diccionario_de_datos\._diccionario_de_datos_cb_ensu_01_2015.csv
+2025-09-10 11:01:31,381 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cs_ensu_01_2015\conjunto_de_datos\._conjunto_de_datos_cs_ensu_01_2015.csv
+2025-09-10 11:01:31,383 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cs_ensu_01_2015\diccionario_de_datos\._diccionario_de_datos_cs_ensu_01_2015.csv
+2025-09-10 11:01:31,385 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_viv_ensu_01_2015\conjunto_de_datos\._conjunto_de_datos_viv_ensu_01_2015.csv
+2025-09-10 11:01:31,388 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_viv_ensu_01_2015\diccionario_de_datos\._diccionario_de_datos_viv_ensu_01_2015.csv
+2025-09-10 11:01:31,389 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2016_csv\._0_indice_tablas_ensu012016.csv
+2025-09-10 11:01:31,391 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\conjunto_de_datos\._conjunto_de_datos_cb_ensu_01_2016.csv
+2025-09-10 11:01:31,393 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\diccionario_de_datos\._diccionario_de_datos_cb_ensu_01_2016.csv
+2025-09-10 11:01:31,395 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cs_ensu_01_2016\conjunto_de_datos\._conjunto_de_datos_cs_ensu_01_2016.csv
+2025-09-10 11:01:31,397 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cs_ensu_01_2016\diccionario_de_datos\._diccionario_de_datos_cs_ensu_01_2016.csv
+2025-09-10 11:01:31,399 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_viv_ensu_01_2016\conjunto_de_datos\._conjunto_de_datos_viv_ensu_01_2016.csv
+2025-09-10 11:01:31,400 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_viv_ensu_01_2016\diccionario_de_datos\._diccionario_de_datos_viv_ensu_01_2016.csv
+2025-09-10 11:01:31,402 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2017_csv\._0_indice_tablas_ensu012017.csv
+2025-09-10 11:01:31,405 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\conjunto_de_datos\._conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-10 11:01:31,406 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\diccionario_de_datos\._diccionario_de_datos_cb_ensu_01_2017.csv
+2025-09-10 11:01:31,408 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cs_ensu_01_2017\conjunto_de_datos\._conjunto_de_datos_cs_ensu_01_2017.csv
+2025-09-10 11:01:31,409 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cs_ensu_01_2017\diccionario_de_datos\._diccionario_de_datos_cs_ensu_01_2017.csv
+2025-09-10 11:01:31,411 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_viv_ensu_01_2017\conjunto_de_datos\._conjunto_de_datos_viv_ensu_01_2017.csv
+2025-09-10 11:01:31,413 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_viv_ensu_01_2017\diccionario_de_datos\._diccionario_de_datos_viv_ensu_01_2017.csv
+2025-09-10 11:01:31,415 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2015\._0_indice_tablas_ensu022015.csv
+2025-09-10 11:01:31,416 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\conjunto_de_datos\._conjunto_de_datos_cb_ensu_02_2015.csv
+2025-09-10 11:01:31,418 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\diccionario_de_datos\._diccionario_de_datos_cb_ensu_02_2015.csv
+2025-09-10 11:01:31,419 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cs_ensu_02_2015\conjunto_de_datos\._conjunto_de_datos_cs_ensu_02_2015.csv
+2025-09-10 11:01:31,422 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cs_ensu_02_2015\diccionario_de_datos\._diccionario_de_datos_cs_ensu_02_2015.csv
+2025-09-10 11:01:31,423 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_viv_ensu_02_2015\conjunto_de_datos\._conjunto_de_datos_viv_ensu_02_2015.csv
+2025-09-10 11:01:31,425 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_viv_ensu_02_2015\diccionario_de_datos\._diccionario_de_datos_viv_ensu_02_2015.csv
+2025-09-10 11:01:31,426 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2016_csv\._0_indice_tablas_ensu022016.csv
+2025-09-10 11:01:31,427 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\conjunto_de_datos\._conjunto_de_datos_cb_ensu_02_2016.csv
+2025-09-10 11:01:31,429 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\diccionario_de_datos\._diccionario_de_datos_cb_ensu_02_2016.csv
+2025-09-10 11:01:31,431 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cs_ensu_02_2016\conjunto_de_datos\._conjunto_de_datos_cs_ensu_02_2016.csv
+2025-09-10 11:01:31,433 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cs_ensu_02_2016\diccionario_de_datos\._diccionario_de_datos_cs_ensu_02_2016.csv
+2025-09-10 11:01:31,434 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_viv_ensu_02_2016\conjunto_de_datos\._conjunto_de_datos_viv_ensu_02_2016.csv
+2025-09-10 11:01:31,436 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_viv_ensu_02_2016\diccionario_de_datos\._diccionario_de_datos_viv_ensu_02_2016.csv
+2025-09-10 11:01:31,438 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2017_csv\._0_indice_tablas_ensu022017.csv
+2025-09-10 11:01:31,440 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\conjunto_de_datos\._conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-10 11:01:31,442 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\diccionario_de_datos\._diccionario_de_datos_cb_ensu_02_2017.csv
+2025-09-10 11:01:31,443 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cs_ensu_02_2017\conjunto_de_datos\._conjunto_de_datos_cs_ensu_02_2017.csv
+2025-09-10 11:01:31,445 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cs_ensu_02_2017\diccionario_de_datos\._diccionario_de_datos_cs_ensu_02_2017.csv
+2025-09-10 11:01:31,447 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_viv_ensu_02_2017\conjunto_de_datos\._conjunto_de_datos_viv_ensu_02_2017.csv
+2025-09-10 11:01:31,449 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_viv_ensu_02_2017\diccionario_de_datos\._diccionario_de_datos_viv_ensu_02_2017.csv
+2025-09-10 11:01:31,450 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2015\._0_indice_tablas_ensu032015.csv
+2025-09-10 11:01:31,452 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\conjunto_de_datos\._conjunto_de_datos_cb_ensu_03_2015.csv
+2025-09-10 11:01:31,455 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\diccionario_de_datos\._diccionario_de_datos_cb_ensu_03_2015.csv
+2025-09-10 11:01:31,456 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cs_ensu_03_2015\conjunto_de_datos\._conjunto_de_datos_cs_ensu_03_2015.csv
+2025-09-10 11:01:31,458 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cs_ensu_03_2015\diccionario_de_datos\._diccionario_de_datos_cs_ensu_03_2015.csv
+2025-09-10 11:01:31,459 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_viv_ensu_03_2015\conjunto_de_datos\._conjunto_de_datos_viv_ensu_03_2015.csv
+2025-09-10 11:01:31,461 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_viv_ensu_03_2015\diccionario_de_datos\._diccionario_de_datos_viv_ensu_03_2015.csv
+2025-09-10 11:01:31,462 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2016_csv\._0_indice_tablas_ensu032016.csv
+2025-09-10 11:01:31,464 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\conjunto_de_datos\._conjunto_de_datos_cb_ensu_03_2016.csv
+2025-09-10 11:01:31,465 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\diccionario_de_datos\._diccionario_de_datos_cb_ensu_03_2016.csv
+2025-09-10 11:01:31,466 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cs_ensu_03_2016\conjunto_de_datos\._conjunto_de_datos_cs_ensu_03_2016.csv
+2025-09-10 11:01:31,467 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cs_ensu_03_2016\diccionario_de_datos\._diccionario_de_datos_cs_ensu_03_2016.csv
+2025-09-10 11:01:31,469 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_viv_ensu_03_2016\conjunto_de_datos\._conjunto_de_datos_viv_ensu_03_2016.csv
+2025-09-10 11:01:31,470 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_viv_ensu_03_2016\diccionario_de_datos\._diccionario_de_datos_viv_ensu_03_2016.csv
+2025-09-10 11:01:31,472 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2017_csv\._0_indice_tablas_ensu032017.csv
+2025-09-10 11:01:31,474 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\conjunto_de_datos\._conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-10 11:01:31,475 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\diccionario_de_datos\._diccionario_de_datos_cb_ensu_03_2017.csv
+2025-09-10 11:01:31,476 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cs_ensu_03_2017\conjunto_de_datos\._conjunto_de_datos_cs_ensu_03_2017.csv
+2025-09-10 11:01:31,478 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cs_ensu_03_2017\diccionario_de_datos\._diccionario_de_datos_cs_ensu_03_2017.csv
+2025-09-10 11:01:31,480 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_viv_ensu_03_2017\conjunto_de_datos\._conjunto_de_datos_viv_ensu_03_2017.csv
+2025-09-10 11:01:31,481 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_viv_ensu_03_2017\diccionario_de_datos\._diccionario_de_datos_viv_ensu_03_2017.csv
+2025-09-10 11:01:31,483 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2015\._0_indice_tablas_ensu042015.csv
+2025-09-10 11:01:31,484 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\conjunto_de_datos\._conjunto_de_datos_cb_ensu_04_2015.csv
+2025-09-10 11:01:31,486 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\diccionario_de_datos\._diccionario_de_datos_cb_ensu_04_2015.csv
+2025-09-10 11:01:31,488 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cs_ensu_04_2015\conjunto_de_datos\._conjunto_de_datos_cs_ensu_04_2015.csv
+2025-09-10 11:01:31,492 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cs_ensu_04_2015\diccionario_de_datos\._diccionario_de_datos_cs_ensu_04_2015.csv
+2025-09-10 11:01:31,493 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_viv_ensu_04_2015\conjunto_de_datos\._conjunto_de_datos_viv_ensu_04_2015.csv
+2025-09-10 11:01:31,495 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_viv_ensu_04_2015\diccionario_de_datos\._diccionario_de_datos_viv_ensu_04_2015.csv
+2025-09-10 11:01:31,496 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2016_csv\._0_indice_tablas_ensu042016.csv
+2025-09-10 11:01:31,498 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\conjunto_de_datos\._conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-10 11:01:31,499 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\diccionario_de_datos\._diccionario_de_datos_cb_ensu_04_2016.csv
+2025-09-10 11:01:31,500 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cs_ensu_04_2016\conjunto_de_datos\._conjunto_de_datos_cs_ensu_04_2016.csv
+2025-09-10 11:01:31,501 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cs_ensu_04_2016\diccionario_de_datos\._diccionario_de_datos_cs_ensu_04_2016.csv
+2025-09-10 11:01:31,503 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_viv_ensu_04_2016\conjunto_de_datos\._conjunto_de_datos_viv_ensu_04_2016.csv
+2025-09-10 11:01:31,505 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_viv_ensu_04_2016\diccionario_de_datos\._diccionario_de_datos_viv_ensu_04_2016.csv
+2025-09-10 11:01:31,506 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2017_csv\._0_indice_tablas_ensu042017.csv
+2025-09-10 11:01:31,507 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\conjunto_de_datos\._conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-10 11:01:31,509 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\diccionario_de_datos\._diccionario_de_datos_cb_ensu_04_2017.csv
+2025-09-10 11:01:31,510 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cs_ensu_04_2017\conjunto_de_datos\._conjunto_de_datos_cs_ensu_04_2017.csv
+2025-09-10 11:01:31,512 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cs_ensu_04_2017\diccionario_de_datos\._diccionario_de_datos_cs_ensu_04_2017.csv
+2025-09-10 11:01:31,513 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_viv_ensu_04_2017\conjunto_de_datos\._conjunto_de_datos_viv_ensu_04_2017.csv
+2025-09-10 11:01:31,515 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_viv_ensu_04_2017\diccionario_de_datos\._diccionario_de_datos_viv_ensu_04_2017.csv
+2025-09-10 11:01:31,516 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_1t_csv\._0_indice_tablas_ensu012018.csv
+2025-09-10 11:01:31,517 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\conjunto_de_datos\._ensu_cb_0118.csv
+2025-09-10 11:01:31,518 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0118.csv
+2025-09-10 11:01:31,521 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_1t_csv\ensu_cs_0118\conjunto_de_datos\._ensu_cs_0118.csv
+2025-09-10 11:01:31,522 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_1t_csv\ensu_cs_0118\diccionario_de_datos\._diccionario_de_datos_ensu_cs_0118.csv
+2025-09-10 11:01:31,523 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_1t_csv\ensu_viv_0118\conjunto_de_datos\._ensu_viv_0118.csv
+2025-09-10 11:01:31,525 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_1t_csv\ensu_viv_0118\diccionario_de_datos\._diccionario_de_datos_ensu_viv_0118.csv
+2025-09-10 11:01:31,526 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_2t_csv\._0_indice_tablas_ensu0218.csv
+2025-09-10 11:01:31,527 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\conjunto_de_datos\._ ensu_cb_0218.csv
+2025-09-10 11:01:31,529 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0218.csv
+2025-09-10 11:01:31,530 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_2t_csv\ensu_cs_0218\conjunto_de_datos\._ ensu_cs_0218.csv
+2025-09-10 11:01:31,531 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_2t_csv\ensu_cs_0218\diccionario_de_datos\._diccionario_de_datos_ensu_cs_0218.csv
+2025-09-10 11:01:31,532 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_2t_csv\ensu_viv_0218\conjunto_de_datos\._ ensu_viv_0218.csv
+2025-09-10 11:01:31,534 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_2t_csv\ensu_viv_0218\diccionario_de_datos\._diccionario_de_datos_ensu_viv_0218.csv
+2025-09-10 11:01:31,535 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_3t_csv\._0_indice_tablas_ensu0318.csv
+2025-09-10 11:01:31,536 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\conjunto_de_datos\._conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-10 11:01:31,539 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\diccionario_de_datos\._diccionario_de_datos_cb_ensu_03_2018.csv
+2025-09-10 11:01:31,540 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cs_ensu_03_2018\conjunto_de_datos\._conjunto_de_datos_cs_ensu_03_2018.csv
+2025-09-10 11:01:31,542 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cs_ensu_03_2018\diccionario_de_datos\._diccionario_de_datos_cs_ensu_03_2018.csv
+2025-09-10 11:01:31,543 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_viv_ensu_03_2018\conjunto_de_datos\._conjunto_de_datos_viv_ensu_03_2018.csv
+2025-09-10 11:01:31,545 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_viv_ensu_03_2018\diccionario_de_datos\._diccionario_de_datos_viv_ensu_03_2018.csv
+2025-09-10 11:01:31,547 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_4t_csv\._0_indice_tablas_ensu0418.csv
+2025-09-10 11:01:31,548 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\conjunto_de_datos\._conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-10 11:01:31,550 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\diccionario_de_datos\._diccionario_de_datos_cb_ENSU_04_2018.csv
+2025-09-10 11:01:31,551 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cs_ensu_04_2018\conjunto_de_datos\._conjunto_de_datos_cs_ENSU_04_2018.csv
+2025-09-10 11:01:31,552 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cs_ensu_04_2018\diccionario_de_datos\._diccionario_de_datos_cs_ENSU_04_2018.csv
+2025-09-10 11:01:31,554 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_viv_ensu_04_2018\conjunto_de_datos\._conjunto_de_datos_viv_ENSU_04_2018.csv
+2025-09-10 11:01:31,555 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_viv_ensu_04_2018\diccionario_de_datos\._diccionario_de_datos_viv_ENSU_04_2018.csv
+2025-09-10 11:01:31,556 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ENSU_2019_1t_csv\._0_indice_tablas_ensu0319.csv
+2025-09-10 11:01:31,557 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\conjunto_de_datos\._conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-10 11:01:31,559 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\diccionario_de_datos\._diccionario_de_datos_cb_ensu_03_2019.csv
+2025-09-10 11:01:31,560 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cs_ensu_03_2019\conjunto_de_datos\._conjunto_de_datos_cs_ensu_03_2019.csv
+2025-09-10 11:01:31,561 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cs_ensu_03_2019\diccionario_de_datos\._diccionario_de_datos_cs_ensu_03_2019.csv
+2025-09-10 11:01:31,563 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_viv_ensu_03_2019\conjunto_de_datos\._conjunto_de_datos_viv_ensu_03_2019.csv
+2025-09-10 11:01:31,564 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_viv_ensu_03_2019\diccionario_de_datos\._diccionario_de_datos_viv_ensu_03_2019.csv
+2025-09-10 11:01:31,566 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_2t_csv\._0_indice_tablas_ENSU_2019_2t.csv
+2025-09-10 11:01:31,567 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\conjunto_de_datos\._conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-10 11:01:31,568 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\diccionario_de_datos\._diccionario_de_datos_cb_ENSU_2019_2t.csv
+2025-09-10 11:01:31,569 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cs_ENSU_2019_2t\conjunto_de_datos\._conjunto_de_datos_cs_ENSU_2019_2t.csv
+2025-09-10 11:01:31,571 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cs_ENSU_2019_2t\diccionario_de_datos\._diccionario_de_datos_cs_ENSU_2019_2t.csv
+2025-09-10 11:01:31,572 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_viv_ENSU_2019_2t\conjunto_de_datos\._conjunto_de_datos_viv_ENSU_2019_2t.csv
+2025-09-10 11:01:31,574 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_viv_ENSU_2019_2t\diccionario_de_datos\._diccionario_de_datos_viv_ENSU_2019_2t.csv
+2025-09-10 11:01:31,575 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_4t_csv\._0_indice_tablas_ENSU_04_2019.csv
+2025-09-10 11:01:31,576 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-10 11:01:31,578 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_04_2019.csv
+2025-09-10 11:01:31,580 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CS_ENSU_04_2019\conjunto_de_datos\._conjunto_de_datos_CS_ENSU_04_2019.csv
+2025-09-10 11:01:31,581 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CS_ENSU_04_2019\diccionario_de_datos\._diccionario_de_datos_CS_ENSU_04_2019.csv
+2025-09-10 11:01:31,582 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_VIV_ENSU_04_2019\conjunto_de_datos\._conjunto_de_datos_VIV_ENSU_04_2019.csv
+2025-09-10 11:01:31,584 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_VIV_ENSU_04_2019\diccionario_de_datos\._diccionario_de_datos_VIV_ENSU_04_2019.csv
+2025-09-10 11:01:31,585 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_1t_csv\._0_indice_tablas_ENSU_01_2020.csv
+2025-09-10 11:01:31,586 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-10 11:01:31,588 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_01_2020.csv
+2025-09-10 11:01:31,590 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CS_ENSU_01_2020\conjunto_de_datos\._conjunto_de_datos_CS_ENSU_01_2020.csv
+2025-09-10 11:01:31,591 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CS_ENSU_01_2020\diccionario_de_datos\._diccionario_de_datos_CS_ENSU_01_2020.csv
+2025-09-10 11:01:31,598 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_VIV_ENSU_01_2020\conjunto_de_datos\._conjunto_de_datos_VIV_ENSU_01_2020.csv
+2025-09-10 11:01:31,600 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_VIV_ENSU_01_2020\diccionario_de_datos\._diccionario_de_datos_VIV_ENSU_01_2020.csv
+2025-09-10 11:01:31,601 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\._0_indice_tablas_ENSU_09_2020.csv
+2025-09-10 11:01:31,603 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\conjunto_de_datos\._conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-10 11:01:31,605 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\diccionario_de_datos\._diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-10 11:01:31,606 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\conjunto_de_datos\._conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-10 11:01:31,608 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\diccionario_de_datos\._diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-10 11:01:31,609 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CS_ENSU_09_2020\conjunto_de_datos\._conjunto_de_datos_CS_ENSU_09_2020.csv
+2025-09-10 11:01:31,611 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CS_ENSU_09_2020\diccionario_de_datos\._diccionario_de_datos_CS_ENSU_09_2020.csv
+2025-09-10 11:01:31,612 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_VIV_ENSU_09_2020\conjunto_de_datos\._conjunto_de_datos_VIV_ENSU_09_2020.csv
+2025-09-10 11:01:31,614 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_VIV_ENSU_09_2020\diccionario_de_datos\._diccionario_de_datos_VIV_ENSU_09_2020.csv
+2025-09-10 11:01:31,615 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_4t_csv\._0_indice_tablas_ENSU_12_2020.csv
+2025-09-10 11:01:31,616 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-10 11:01:31,618 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_12_2020.csv
+2025-09-10 11:01:31,622 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CS_ENSU_12_2020\conjunto_de_datos\._conjunto_de_datos_CS_ENSU_12_2020.csv
+2025-09-10 11:01:31,624 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CS_ENSU_12_2020\diccionario_de_datos\._diccionario_de_datos_CS_ENSU_12_2020.csv
+2025-09-10 11:01:31,626 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_VIV_ENSU_12_2020\conjunto_de_datos\._conjunto_de_datos_VIV_ENSU_12_2020.csv
+2025-09-10 11:01:31,627 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_VIV_ENSU_12_2020\diccionario_de_datos\._diccionario_de_datos_VIV_ENSU_12_2020.csv
+2025-09-10 11:01:31,631 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_1t_csv\._0_indice_tablas_ENSU_03_2021.csv
+2025-09-10 11:01:31,634 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-10 11:01:31,635 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_03_2021.csv
+2025-09-10 11:01:31,637 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CS_ENSU_03_2021\conjunto_de_datos\._conjunto_de_datos_CS_ENSU_03_2021.csv
+2025-09-10 11:01:31,639 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CS_ENSU_03_2021\diccionario_de_datos\._diccionario_de_datos_CS_ENSU_03_2021.csv
+2025-09-10 11:01:31,640 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_VIV_ENSU_03_2021\conjunto_de_datos\._conjunto_de_datos_VIV_ENSU_03_2021.csv
+2025-09-10 11:01:31,642 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_VIV_ENSU_03_2021\diccionario_de_datos\._diccionario_de_datos_VIV_ENSU_03_2021.csv
+2025-09-10 11:01:31,643 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_2t_csv\._0_indice_tablas_ENSU_06_2021.csv
+2025-09-10 11:01:31,645 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-10 11:01:31,647 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_06_2021.csv
+2025-09-10 11:01:31,649 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CS_ENSU_06_2021\conjunto_de_datos\._conjunto_de_datos_CS_ENSU_06_2021.csv
+2025-09-10 11:01:31,650 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CS_ENSU_06_2021\diccionario_de_datos\._diccionario_de_datos_CS_ENSU_06_2021.csv
+2025-09-10 11:01:31,653 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_VIV_ENSU_06_2021\conjunto_de_datos\._conjunto_de_datos_VIV_ENSU_06_2021.csv
+2025-09-10 11:01:31,655 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_VIV_ENSU_06_2021\diccionario_de_datos\._diccionario_de_datos_VIV_ENSU_06_2021.csv
+2025-09-10 11:01:31,656 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_3t_csv\._0_indice_tablas_ENSU_09_2021.csv
+2025-09-10 11:01:31,658 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-10 11:01:31,659 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_09_2021.csv
+2025-09-10 11:01:31,660 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CS_ENSU_09_2021\conjunto_de_datos\._conjunto_de_datos_CS_ENSU_09_2021.csv
+2025-09-10 11:01:31,662 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CS_ENSU_09_2021\diccionario_de_datos\._diccionario_de_datos_CS_ENSU_09_2021.csv
+2025-09-10 11:01:31,664 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_VIV_ENSU_09_2021\conjunto_de_datos\._conjunto_de_datos_VIV_ENSU_09_2021.csv
+2025-09-10 11:01:31,665 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_VIV_ENSU_09_2021\diccionario_de_datos\._diccionario_de_datos_VIV_ENSU_09_2021.csv
+2025-09-10 11:01:31,667 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_4t_csv\._0_indice_tablas_ENSU_12_2021.csv
+2025-09-10 11:01:31,669 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-10 11:01:31,671 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_12_2021.csv
+2025-09-10 11:01:31,673 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CS_ENSU_12_2021\conjunto_de_datos\._conjunto_de_datos_CS_ENSU_12_2021.csv
+2025-09-10 11:01:31,674 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CS_ENSU_12_2021\diccionario_de_datos\._diccionario_de_datos_CS_ENSU_12_2021.csv
+2025-09-10 11:01:31,676 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_VIV_ENSU_12_2021\conjunto_de_datos\._conjunto_de_datos_VIV_ENSU_12_2021.csv
+2025-09-10 11:01:31,677 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_VIV_ENSU_12_2021\diccionario_de_datos\._diccionario_de_datos_VIV_ENSU_12_2021.csv
+2025-09-10 11:01:31,680 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_1t_csv\._0_indice_tablas_ensu0322.csv
+2025-09-10 11:01:31,681 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0322.csv
+2025-09-10 11:01:31,682 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0322.csv
+2025-09-10 11:01:31,684 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cs_0322\conjunto_de_datos\._conjunto_de_datos_ensu_cs_0322.csv
+2025-09-10 11:01:31,685 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cs_0322\diccionario_de_datos\._diccionario_de_datos_ensu_cs_0322.csv
+2025-09-10 11:01:31,686 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_viv_0322\conjunto_de_datos\._conjunto_de_datos_ensu_viv_0322.csv
+2025-09-10 11:01:31,688 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_viv_0322\diccionario_de_datos\._diccionario_de_datos_ensu_viv_0322.csv
+2025-09-10 11:01:31,689 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_2t_csv\._0_indice_tablas_ensu0622.csv
+2025-09-10 11:01:31,690 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0622.csv
+2025-09-10 11:01:31,691 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0622.csv
+2025-09-10 11:01:31,693 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cs_0622\conjunto_de_datos\._conjunto_de_datos_ensu_cs_0622.csv
+2025-09-10 11:01:31,694 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cs_0622\diccionario_de_datos\._diccionario_de_datos_ensu_cs_0622.csv
+2025-09-10 11:01:31,696 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_viv_0622\conjunto_de_datos\._conjunto_de_datos_ensu_viv_0622.csv
+2025-09-10 11:01:31,698 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_viv_0622\diccionario_de_datos\._diccionario_de_datos_ensu_viv_0622.csv
+2025-09-10 11:01:31,699 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_3t_csv\._0_indice_tablas_ensu0922.csv
+2025-09-10 11:01:31,700 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0922.csv
+2025-09-10 11:01:31,701 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0922.csv
+2025-09-10 11:01:31,703 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cs_0922\conjunto_de_datos\._conjunto_de_datos_ensu_cs_0922.csv
+2025-09-10 11:01:31,704 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cs_0922\diccionario_de_datos\._diccionario_de_datos_ensu_cs_0922.csv
+2025-09-10 11:01:31,705 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_viv_0922\conjunto_de_datos\._conjunto_de_datos_ensu_viv_0922.csv
+2025-09-10 11:01:31,707 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_viv_0922\diccionario_de_datos\._diccionario_de_datos_ensu_viv_0922.csv
+2025-09-10 11:01:31,708 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_4t_csv\._0_indice_tablas_ensu1222.csv
+2025-09-10 11:01:31,709 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\conjunto_de_datos\._conjunto_de_datos_ensu_cb_1222.csv
+2025-09-10 11:01:31,711 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\diccionario_de_datos\._diccionario_de_datos_ensu_cb_1222.csv
+2025-09-10 11:01:31,713 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cs_1222\conjunto_de_datos\._conjunto_de_datos_ensu_cs_1222.csv
+2025-09-10 11:01:31,716 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cs_1222\diccionario_de_datos\._diccionario_de_datos_ensu_cs_1222.csv
+2025-09-10 11:01:31,718 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_viv_1222\conjunto_de_datos\._conjunto_de_datos_ensu_viv_1222.csv
+2025-09-10 11:01:31,719 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_viv_1222\diccionario_de_datos\._diccionario_de_datos_ensu_viv_1222.csv
+2025-09-10 11:01:31,722 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_1t_csv\._0_indice_tablas_ENSU_03_2023.csv
+2025-09-10 11:01:31,723 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\conjunto_de_datos\._conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-10 11:01:31,725 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\diccionario_de_datos\._diccionario_de_datos_CB_ENSU_03_2023.csv
+2025-09-10 11:01:31,726 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CS_ENSU_03_2023\conjunto_de_datos\._conjunto_de_datos_CS_ENSU_03_2023.csv
+2025-09-10 11:01:31,728 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CS_ENSU_03_2023\diccionario_de_datos\._diccionario_de_datos_CS_ENSU_03_2023.csv
+2025-09-10 11:01:31,730 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_VIV_ENSU_03_2023\conjunto_de_datos\._conjunto_de_datos_VIV_ENSU_03_2023.csv
+2025-09-10 11:01:31,731 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_VIV_ENSU_03_2023\diccionario_de_datos\._diccionario_de_datos_VIV_ENSU_03_2023.csv
+2025-09-10 11:01:31,733 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_2t_csv\._0_indice_tablas_ensu_0623.csv
+2025-09-10 11:01:31,734 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0623.csv
+2025-09-10 11:01:31,735 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0623.csv
+2025-09-10 11:01:31,739 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cs_0623\conjunto_de_datos\._conjunto_de_datos_ensu_cs_0623.csv
+2025-09-10 11:01:31,742 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cs_0623\diccionario_de_datos\._diccionario_de_datos_ensu_cs_0623.csv
+2025-09-10 11:01:31,743 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_viv_0623\conjunto_de_datos\._conjunto_de_datos_ensu_viv_0623.csv
+2025-09-10 11:01:31,746 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_viv_0623\diccionario_de_datos\._diccionario_de_datos_ensu_viv_0623.csv
+2025-09-10 11:01:31,747 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_3t_csv\._0_indice_tablas_ensu0923.csv
+2025-09-10 11:01:31,749 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0923.csv
+2025-09-10 11:01:31,750 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0923.csv
+2025-09-10 11:01:31,752 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cs_0923\conjunto_de_datos\._conjunto_de_datos_ensu_cs_0923.csv
+2025-09-10 11:01:31,754 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cs_0923\diccionario_de_datos\._diccionario_de_datos_ensu_cs_0923.csv
+2025-09-10 11:01:31,756 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_viv_0923\conjunto_de_datos\._conjunto_de_datos_ensu_viv_0923.csv
+2025-09-10 11:01:31,757 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_viv_0923\diccionario_de_datos\._diccionario_de_datos_ensu_viv_0923.csv
+2025-09-10 11:01:31,759 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_4t_csv\._0_indice_tablas_ensu1223.csv
+2025-09-10 11:01:31,760 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\conjunto_de_datos\._conjunto_de_datos_ensu_cb_1223.csv
+2025-09-10 11:01:31,762 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\diccionario_de_datos\._diccionario_de_datos_ensu_cb_1223.csv
+2025-09-10 11:01:31,764 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cs_1223\conjunto_de_datos\._conjunto_de_datos_ensu_cs_1223.csv
+2025-09-10 11:01:31,765 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cs_1223\diccionario_de_datos\._diccionario_de_datos_ensu_cs_1223.csv
+2025-09-10 11:01:31,767 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_viv_1223\conjunto_de_datos\._conjunto_de_datos_ensu_viv_1223.csv
+2025-09-10 11:01:31,768 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_viv_1223\diccionario_de_datos\._diccionario_de_datos_ensu_viv_1223.csv
+2025-09-10 11:01:31,769 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_1t_csv\._0_indice_tablas_ensu0324.csv
+2025-09-10 11:01:31,771 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0324.csv
+2025-09-10 11:01:31,773 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0324.csv
+2025-09-10 11:01:31,774 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cs_0324\conjunto_de_datos\._conjunto_de_datos_ensu_cs_0324.csv
+2025-09-10 11:01:31,775 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cs_0324\diccionario_de_datos\._diccionario_de_datos_ensu_cs_0324.csv
+2025-09-10 11:01:31,777 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_viv_0324\conjunto_de_datos\._conjunto_de_datos_ensu_viv_0324.csv
+2025-09-10 11:01:31,778 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_viv_0324\diccionario_de_datos\._diccionario_de_datos_ensu_viv_0324.csv
+2025-09-10 11:01:31,779 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_2t_csv\._0_indice_tablas_ensu0624.csv
+2025-09-10 11:01:31,781 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0624.csv
+2025-09-10 11:01:31,782 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0624.csv
+2025-09-10 11:01:31,783 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cs_0624\conjunto_de_datos\._conjunto_de_datos_ensu_cs_0624.csv
+2025-09-10 11:01:31,784 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cs_0624\diccionario_de_datos\._diccionario_de_datos_ensu_cs_0624.csv
+2025-09-10 11:01:31,786 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_viv_0624\conjunto_de_datos\._conjunto_de_datos_ensu_viv_0624.csv
+2025-09-10 11:01:31,787 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_viv_0624\diccionario_de_datos\._diccionario_de_datos_ensu_viv_0624.csv
+2025-09-10 11:01:31,789 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_3t_csv\._0_indice_tablas_ensu0924.csv
+2025-09-10 11:01:31,790 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0924.csv
+2025-09-10 11:01:31,792 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0924.csv
+2025-09-10 11:01:31,794 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cs_0924\conjunto_de_datos\._conjunto_de_datos_ensu_cs_0924.csv
+2025-09-10 11:01:31,796 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cs_0924\diccionario_de_datos\._diccionario_de_datos_ensu_cs_0924.csv
+2025-09-10 11:01:31,798 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_viv_0924\conjunto_de_datos\._conjunto_de_datos_ensu_viv_0924.csv
+2025-09-10 11:01:31,799 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_viv_0924\diccionario_de_datos\._diccionario_de_datos_ensu_viv_0924.csv
+2025-09-10 11:01:31,800 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_4t_csv\._0_indice_tablas_ensu1224.csv
+2025-09-10 11:01:31,801 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\conjunto_de_datos\._conjunto_de_datos_ensu_cb_1224.csv
+2025-09-10 11:01:31,803 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\diccionario_de_datos\._diccionario_de_datos_ensu_cb_1224.csv
+2025-09-10 11:01:31,804 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cs_1224\conjunto_de_datos\._conjunto_de_datos_ensu_cs_1224.csv
+2025-09-10 11:01:31,805 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cs_1224\diccionario_de_datos\._diccionario_de_datos_ensu_cs_1224.csv
+2025-09-10 11:01:31,807 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_viv_1224\conjunto_de_datos\._conjunto_de_datos_ensu_viv_1224.csv
+2025-09-10 11:01:31,808 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_viv_1224\diccionario_de_datos\._diccionario_de_datos_ensu_viv_1224.csv
+2025-09-10 11:01:31,809 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_1t_csv\._0_indice_tablas_ensu0325.csv
+2025-09-10 11:01:31,811 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0325.csv
+2025-09-10 11:01:31,813 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0325.csv
+2025-09-10 11:01:31,814 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cs_0325\conjunto_de_datos\._conjunto_de_datos_ensu_cs_0325.csv
+2025-09-10 11:01:31,815 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cs_0325\diccionario_de_datos\._diccionario_de_datos_ensu_cs_0325.csv
+2025-09-10 11:01:31,817 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_viv_0325\conjunto_de_datos\._conjunto_de_datos_ensu_viv_0325.csv
+2025-09-10 11:01:31,818 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_viv_0325\diccionario_de_datos\._diccionario_de_datos_ensu_viv_0325.csv
+2025-09-10 11:01:31,819 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_2t_csv\._0_indice_tablas_ensu0625.csv
+2025-09-10 11:01:31,821 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\conjunto_de_datos\._conjunto_de_datos_ensu_cb_0625.csv
+2025-09-10 11:01:31,822 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\diccionario_de_datos\._diccionario_de_datos_ensu_cb_0625.csv
+2025-09-10 11:01:31,824 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cs_0625\conjunto_de_datos\._conjunto_de_datos_ensu_cs_0625.csv
+2025-09-10 11:01:31,825 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cs_0625\diccionario_de_datos\._diccionario_de_datos_ensu_cs_0625.csv
+2025-09-10 11:01:31,827 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_viv_0625\conjunto_de_datos\._conjunto_de_datos_ensu_viv_0625.csv
+2025-09-10 11:01:31,828 - INFO - Validating file: data\Archive\__MACOSX\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_viv_0625\diccionario_de_datos\._diccionario_de_datos_ensu_viv_0625.csv
+2025-09-10 11:01:31,830 - INFO - Validating file: data\Archive\__MACOSX\Datos abiertos\._0_indice_tablas_ENSU_03_2019.csv
+2025-09-10 11:01:31,831 - INFO - Validating file: data\Archive\__MACOSX\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\conjunto_de_datos\._conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-10 11:01:31,832 - INFO - Validating file: data\Archive\__MACOSX\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\diccionario_de_datos\._diccionario_de_datos_cb_ENSU_03_2019.csv
+2025-09-10 11:01:31,834 - INFO - Validating file: data\Archive\__MACOSX\Datos abiertos\conjunto_de_datos_CS_ENSU_03_2019\conjunto_de_datos\._conjunto_de_datos_cs_ENSU_03_2019.csv
+2025-09-10 11:01:31,835 - INFO - Validating file: data\Archive\__MACOSX\Datos abiertos\conjunto_de_datos_CS_ENSU_03_2019\diccionario_de_datos\._diccionario_de_datos_cs_ENSU_03_2019.csv
+2025-09-10 11:01:31,836 - INFO - Validating file: data\Archive\__MACOSX\Datos abiertos\conjunto_de_datos_VIV_ENSU_03_2019\conjunto_de_datos\._conjunto_de_datos_viv_ENSU_03_2019.csv
+2025-09-10 11:01:31,838 - INFO - Validating file: data\Archive\__MACOSX\Datos abiertos\conjunto_de_datos_VIV_ENSU_03_2019\diccionario_de_datos\._diccionario_de_datos_viv_ENSU_03_2019.csv
+2025-09-10 11:01:31,854 - INFO - Phase 2: Validation complete. Results saved to temp/archivos_validados.json
