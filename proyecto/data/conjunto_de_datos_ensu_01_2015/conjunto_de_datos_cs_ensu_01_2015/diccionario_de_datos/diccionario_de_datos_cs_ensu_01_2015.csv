@@ -1,0 +1,75 @@
+﻿"NOMBRE_CAMPO","NEMONICO","TIPO","LONGITUD","RANGO_CLAVES"
+"Condición de residencia","c_res","Character","1","1"
+"Condición de residencia","c_res","Character","1","2"
+"Condición de residencia","c_res","Character","1","3"
+"Parentesco con el Jefe del Hogar","par","Character","1","1"
+"Parentesco con el Jefe del Hogar","par","Character","1","2"
+"Parentesco con el Jefe del Hogar","par","Character","1","3"
+"Parentesco con el Jefe del Hogar","par","Character","1","4"
+"Parentesco con el Jefe del Hogar","par","Character","1","5"
+"Parentesco con el Jefe del Hogar","par","Character","1","6"
+"Parentesco con el Jefe del Hogar","par","Character","1","7"
+"Parentesco con el Jefe del Hogar","par","Character","1","8"
+"Parentesco con el Jefe del Hogar","par","Character","1","9"
+"Sexo","sex","Character","1","1"
+"Sexo","sex","Character","1","2"
+"Alfabetismo","alf","Character","1","1"
+"Alfabetismo","alf","Character","1","2"
+"Nivel de instrucción","i_niv","Character","2","00"
+"Nivel de instrucción","i_niv","Character","2","01"
+"Nivel de instrucción","i_niv","Character","2","02"
+"Nivel de instrucción","i_niv","Character","2","03"
+"Nivel de instrucción","i_niv","Character","2","04"
+"Nivel de instrucción","i_niv","Character","2","05"
+"Nivel de instrucción","i_niv","Character","2","06"
+"Nivel de instrucción","i_niv","Character","2","07"
+"Nivel de instrucción","i_niv","Character","2","08"
+"Nivel de instrucción","i_niv","Character","2","09"
+"Nivel de instrucción","i_niv","Character","2","99"
+"Asistencia escolar","a_esc","Character","1","1"
+"Asistencia escolar","a_esc","Character","1","2"
+"Estado conyugal","e_con","Character","1","1"
+"Estado conyugal","e_con","Character","1","2"
+"Estado conyugal","e_con","Character","1","3"
+"Estado conyugal","e_con","Character","1","4"
+"Estado conyugal","e_con","Character","1","5"
+"Estado conyugal","e_con","Character","1","6"
+"Estado conyugal","e_con","Character","1","9"
+"Condición de actividad","c_act","Character","2","01"
+"Condición de actividad","c_act","Character","2","02"
+"Condición de actividad","c_act","Character","2","03"
+"Condición de actividad","c_act","Character","2","04"
+"Condición de actividad","c_act","Character","2","05"
+"Condición de actividad","c_act","Character","2","06"
+"Condición de actividad","c_act","Character","2","07"
+"Condición de actividad","c_act","Character","2","08"
+"Condición de actividad","c_act","Character","2","09"
+"Condición de actividad","c_act","Character","2","10"
+"Condición de actividad","c_act","Character","2","99"
+"Ocupación","ocu","Character","1","1"
+"Ocupación","ocu","Character","1","2"
+"Ocupación","ocu","Character","1","3"
+"Ocupación","ocu","Character","1","4"
+"Ocupación","ocu","Character","1","5"
+"Ocupación","ocu","Character","1","6"
+"Ocupación","ocu","Character","1","7"
+"Ocupación","ocu","Character","1","9"
+"Actividad económica","a_eco","Character","1","1"
+"Actividad económica","a_eco","Character","1","2"
+"Actividad económica","a_eco","Character","1","3"
+"Actividad económica","a_eco","Character","1","4"
+"Actividad económica","a_eco","Character","1","5"
+"Actividad económica","a_eco","Character","1","6"
+"Actividad económica","a_eco","Character","1","7"
+"Actividad económica","a_eco","Character","1","9"
+"Posición en la ocupación","pos","Character","1","1"
+"Posición en la ocupación","pos","Character","1","2"
+"Posición en la ocupación","pos","Character","1","3"
+"Posición en la ocupación","pos","Character","1","4"
+"Posición en la ocupación","pos","Character","1","5"
+"Posición en la ocupación","pos","Character","1","6"
+"Periodo del Ingreso","i_per","Character","1","1"
+"Periodo del Ingreso","i_per","Character","1","2"
+"Periodo del Ingreso","i_per","Character","1","3"
+"Periodo del Ingreso","i_per","Character","1","4"
+"Periodo del Ingreso","i_per","Character","1","5"

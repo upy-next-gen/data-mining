@@ -1,0 +1,343 @@
+2025-09-10 09:40:41,966 - INFO - --- Iniciando Fase 1: Mapeo y Descubrimiento ---
+2025-09-10 09:40:41,967 - INFO - Directorio raíz del proyecto: C:\Users\josea\Documents\data-mining\proyecto
+2025-09-10 09:40:41,967 - INFO - Directorio de datos a escanear: C:\Users\josea\Documents\data-mining\proyecto\data
+2025-09-10 09:40:41,967 - INFO - Iniciando escaneo recursivo de archivos CSV...
+2025-09-10 09:40:41,973 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_01_2015.csv
+2025-09-10 09:40:41,989 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_01_2015.csv': Año=2015, Trimestre=1
+2025-09-10 09:40:41,998 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_01_2015.csv
+2025-09-10 09:40:42,001 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_01_2015.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,006 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_01_2016.csv
+2025-09-10 09:40:42,017 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_01_2016.csv': Año=2016, Trimestre=1
+2025-09-10 09:40:42,025 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_01_2016.csv
+2025-09-10 09:40:42,027 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_01_2016.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,034 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-10 09:40:42,048 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_01_2017.csv': Año=2017, Trimestre=1
+2025-09-10 09:40:42,058 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_01_2017.csv
+2025-09-10 09:40:42,062 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_01_2017.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,070 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_02_2015.csv
+2025-09-10 09:40:42,080 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_02_2015.csv': Año=2015, Trimestre=2
+2025-09-10 09:40:42,092 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_02_2015.csv
+2025-09-10 09:40:42,095 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_02_2015.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,101 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_02_2016.csv
+2025-09-10 09:40:42,110 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_02_2016.csv': Año=2016, Trimestre=1
+2025-09-10 09:40:42,117 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_02_2016.csv
+2025-09-10 09:40:42,120 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_02_2016.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,125 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-10 09:40:42,135 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_02_2017.csv': Año=2017, Trimestre=1
+2025-09-10 09:40:42,143 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_02_2017.csv
+2025-09-10 09:40:42,146 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_02_2017.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,153 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2015.csv
+2025-09-10 09:40:42,160 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_03_2015.csv': Año=2015, Trimestre=3
+2025-09-10 09:40:42,166 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_03_2015.csv
+2025-09-10 09:40:42,168 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_03_2015.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,173 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2016.csv
+2025-09-10 09:40:42,184 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_03_2016.csv': Año=2016, Trimestre=1
+2025-09-10 09:40:42,225 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_03_2016.csv
+2025-09-10 09:40:42,228 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_03_2016.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,234 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-10 09:40:42,245 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_03_2017.csv': Año=2017, Trimestre=1
+2025-09-10 09:40:42,254 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_03_2017.csv
+2025-09-10 09:40:42,257 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_03_2017.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,263 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_04_2015.csv
+2025-09-10 09:40:42,270 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_04_2015.csv': Año=2015, Trimestre=4
+2025-09-10 09:40:42,277 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_04_2015.csv
+2025-09-10 09:40:42,278 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_04_2015.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,284 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-10 09:40:42,295 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_04_2016.csv': Año=2016, Trimestre=2
+2025-09-10 09:40:42,303 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_04_2016.csv
+2025-09-10 09:40:42,305 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_04_2016.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,312 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-10 09:40:42,322 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_04_2017.csv': Año=2017, Trimestre=2
+2025-09-10 09:40:42,335 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_04_2017.csv
+2025-09-10 09:40:42,338 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_04_2017.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,345 - INFO - Procesando archivo: ensu_cb_0118.csv
+2025-09-10 09:40:42,356 - INFO - Periodo encontrado en contenido de 'ensu_cb_0118.csv': Año=2018, Trimestre=1
+2025-09-10 09:40:42,364 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_0118.csv
+2025-09-10 09:40:42,366 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_0118.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,372 - INFO - Procesando archivo: ensu_cb_0218.csv
+2025-09-10 09:40:42,383 - INFO - Periodo encontrado en contenido de 'ensu_cb_0218.csv': Año=2018, Trimestre=1
+2025-09-10 09:40:42,391 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_0218.csv
+2025-09-10 09:40:42,395 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_0218.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,403 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-10 09:40:42,416 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_03_2018.csv': Año=2018, Trimestre=1
+2025-09-10 09:40:42,426 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_03_2018.csv
+2025-09-10 09:40:42,428 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_03_2018.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,435 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-10 09:40:42,447 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ENSU_04_2018.csv': Año=2018, Trimestre=2
+2025-09-10 09:40:42,456 - INFO - Procesando archivo: diccionario_de_datos_cb_ENSU_04_2018.csv
+2025-09-10 09:40:42,459 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ENSU_04_2018.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,464 - INFO - Procesando archivo: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-10 09:40:42,474 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ensu_03_2019.csv': Año=2019, Trimestre=1
+2025-09-10 09:40:42,483 - INFO - Procesando archivo: diccionario_de_datos_cb_ensu_03_2019.csv
+2025-09-10 09:40:42,485 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ensu_03_2019.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,491 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-10 09:40:42,492 - INFO - Periodo encontrado en nombre de archivo 'conjunto_de_datos_cb_ENSU_2019_2t.csv': Año=2019, Trimestre=2
+2025-09-10 09:40:42,500 - INFO - Procesando archivo: diccionario_de_datos_cb_ENSU_2019_2t.csv
+2025-09-10 09:40:42,501 - INFO - Periodo encontrado en nombre de archivo 'diccionario_de_datos_cb_ENSU_2019_2t.csv': Año=2019, Trimestre=2
+2025-09-10 09:40:42,506 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-10 09:40:42,519 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_04_2019.csv': Año=2019, Trimestre=2
+2025-09-10 09:40:42,528 - INFO - Procesando archivo: diccionario_de_datos_CB_ENSU_04_2019.csv
+2025-09-10 09:40:42,531 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_CB_ENSU_04_2019.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,537 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-10 09:40:42,547 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_01_2020.csv': Año=2020, Trimestre=1
+2025-09-10 09:40:42,556 - INFO - Procesando archivo: diccionario_de_datos_CB_ENSU_01_2020.csv
+2025-09-10 09:40:42,561 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_CB_ENSU_01_2020.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,573 - INFO - Procesando archivo: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-10 09:40:42,587 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv': Año=2020, Trimestre=1
+2025-09-10 09:40:42,597 - INFO - Procesando archivo: diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-10 09:40:42,600 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,607 - INFO - Procesando archivo: conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-10 09:40:42,620 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv': Año=2020, Trimestre=1
+2025-09-10 09:40:42,629 - INFO - Procesando archivo: diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-10 09:40:42,633 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,643 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-10 09:40:42,661 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_12_2020.csv': Año=2020, Trimestre=2
+2025-09-10 09:40:42,673 - INFO - Procesando archivo: diccionario_de_datos_CB_ENSU_12_2020.csv
+2025-09-10 09:40:42,677 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_CB_ENSU_12_2020.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,686 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-10 09:40:42,700 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_03_2021.csv': Año=2021, Trimestre=1
+2025-09-10 09:40:42,710 - INFO - Procesando archivo: diccionario_de_datos_CB_ENSU_03_2021.csv
+2025-09-10 09:40:42,715 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_CB_ENSU_03_2021.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,721 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-10 09:40:42,734 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_06_2021.csv': Año=2021, Trimestre=1
+2025-09-10 09:40:42,743 - INFO - Procesando archivo: diccionario_de_datos_CB_ENSU_06_2021.csv
+2025-09-10 09:40:42,746 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_CB_ENSU_06_2021.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,757 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-10 09:40:42,771 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_09_2021.csv': Año=2021, Trimestre=1
+2025-09-10 09:40:42,782 - INFO - Procesando archivo: diccionario_de_datos_CB_ENSU_09_2021.csv
+2025-09-10 09:40:42,786 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_CB_ENSU_09_2021.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,794 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-10 09:40:42,805 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_12_2021.csv': Año=2021, Trimestre=2
+2025-09-10 09:40:42,814 - INFO - Procesando archivo: diccionario_de_datos_CB_ENSU_12_2021.csv
+2025-09-10 09:40:42,817 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_CB_ENSU_12_2021.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,823 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-10 09:40:42,833 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0322.csv': Año=2022, Trimestre=1
+2025-09-10 09:40:42,843 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_0322.csv
+2025-09-10 09:40:42,846 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_0322.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,853 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-10 09:40:42,863 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0622.csv': Año=2022, Trimestre=1
+2025-09-10 09:40:42,873 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_0622.csv
+2025-09-10 09:40:42,876 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_0622.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,888 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-10 09:40:42,901 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0922.csv': Año=2022, Trimestre=1
+2025-09-10 09:40:42,915 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_0922.csv
+2025-09-10 09:40:42,920 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_0922.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,928 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-10 09:40:42,938 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_1222.csv': Año=2022, Trimestre=2
+2025-09-10 09:40:42,947 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_1222.csv
+2025-09-10 09:40:42,950 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_1222.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,956 - INFO - Procesando archivo: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-10 09:40:42,968 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_CB_ENSU_03_2023.csv': Año=2023, Trimestre=1
+2025-09-10 09:40:42,977 - INFO - Procesando archivo: diccionario_de_datos_CB_ENSU_03_2023.csv
+2025-09-10 09:40:42,980 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_CB_ENSU_03_2023.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:42,986 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-10 09:40:42,999 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0623.csv': Año=2023, Trimestre=1
+2025-09-10 09:40:43,008 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_0623.csv
+2025-09-10 09:40:43,011 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_0623.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,025 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-10 09:40:43,042 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0923.csv': Año=2023, Trimestre=1
+2025-09-10 09:40:43,056 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_0923.csv
+2025-09-10 09:40:43,063 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_0923.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,073 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-10 09:40:43,083 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_1223.csv': Año=2023, Trimestre=2
+2025-09-10 09:40:43,092 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_1223.csv
+2025-09-10 09:40:43,094 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_1223.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,105 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-10 09:40:43,119 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0324.csv': Año=2024, Trimestre=1
+2025-09-10 09:40:43,132 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_0324.csv
+2025-09-10 09:40:43,135 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_0324.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,141 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-10 09:40:43,163 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0624.csv': Año=2024, Trimestre=1
+2025-09-10 09:40:43,173 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_0624.csv
+2025-09-10 09:40:43,176 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_0624.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,190 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-10 09:40:43,202 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0924.csv': Año=2024, Trimestre=1
+2025-09-10 09:40:43,213 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_0924.csv
+2025-09-10 09:40:43,217 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_0924.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,223 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-10 09:40:43,234 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_1224.csv': Año=2024, Trimestre=2
+2025-09-10 09:40:43,244 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_1224.csv
+2025-09-10 09:40:43,247 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_1224.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,254 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-10 09:40:43,265 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0325.csv': Año=2025, Trimestre=1
+2025-09-10 09:40:43,274 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_0325.csv
+2025-09-10 09:40:43,277 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_0325.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,283 - INFO - Procesando archivo: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-10 09:40:43,293 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_ensu_cb_0625.csv': Año=2025, Trimestre=1
+2025-09-10 09:40:43,301 - INFO - Procesando archivo: diccionario_de_datos_ensu_cb_0625.csv
+2025-09-10 09:40:43,304 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_ensu_cb_0625.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,310 - INFO - Procesando archivo: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-10 09:40:43,320 - INFO - Periodo encontrado en contenido de 'conjunto_de_datos_cb_ENSU_03_2019.csv': Año=2019, Trimestre=1
+2025-09-10 09:40:43,328 - INFO - Procesando archivo: diccionario_de_datos_cb_ENSU_03_2019.csv
+2025-09-10 09:40:43,330 - WARNING - No se pudo identificar el periodo para 'diccionario_de_datos_cb_ENSU_03_2019.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,342 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_01_2015.csv
+2025-09-10 09:40:43,344 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_01_2015.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,346 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_01_2015.csv
+2025-09-10 09:40:43,348 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_01_2015.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,357 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_01_2016.csv
+2025-09-10 09:40:43,359 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_01_2016.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,360 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_01_2016.csv
+2025-09-10 09:40:43,362 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_01_2016.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,377 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-10 09:40:43,378 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_01_2017.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,380 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_01_2017.csv
+2025-09-10 09:40:43,381 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_01_2017.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,388 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_02_2015.csv
+2025-09-10 09:40:43,390 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_02_2015.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,391 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_02_2015.csv
+2025-09-10 09:40:43,393 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_02_2015.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,404 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_02_2016.csv
+2025-09-10 09:40:43,406 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_02_2016.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,408 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_02_2016.csv
+2025-09-10 09:40:43,409 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_02_2016.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,425 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-10 09:40:43,427 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_02_2017.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,429 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_02_2017.csv
+2025-09-10 09:40:43,431 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_02_2017.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,436 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_03_2015.csv
+2025-09-10 09:40:43,438 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_03_2015.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,439 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_03_2015.csv
+2025-09-10 09:40:43,441 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_03_2015.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,453 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_03_2016.csv
+2025-09-10 09:40:43,455 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_03_2016.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,456 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_03_2016.csv
+2025-09-10 09:40:43,458 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_03_2016.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,474 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-10 09:40:43,478 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_03_2017.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,481 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_03_2017.csv
+2025-09-10 09:40:43,484 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_03_2017.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,492 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_04_2015.csv
+2025-09-10 09:40:43,499 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_04_2015.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,502 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_04_2015.csv
+2025-09-10 09:40:43,504 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_04_2015.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,522 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-10 09:40:43,525 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_04_2016.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,528 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_04_2016.csv
+2025-09-10 09:40:43,530 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_04_2016.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,552 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-10 09:40:43,554 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_04_2017.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,556 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_04_2017.csv
+2025-09-10 09:40:43,558 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_04_2017.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,575 - INFO - Procesando archivo: ._ensu_cb_0118.csv
+2025-09-10 09:40:43,577 - WARNING - No se pudo identificar el periodo para '._ensu_cb_0118.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,579 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_0118.csv
+2025-09-10 09:40:43,581 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_0118.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,596 - INFO - Procesando archivo: ._ ensu_cb_0218.csv
+2025-09-10 09:40:43,598 - WARNING - No se pudo identificar el periodo para '._ ensu_cb_0218.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,600 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_0218.csv
+2025-09-10 09:40:43,602 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_0218.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,619 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-10 09:40:43,622 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_03_2018.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,624 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_03_2018.csv
+2025-09-10 09:40:43,627 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_03_2018.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,643 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-10 09:40:43,645 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ENSU_04_2018.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,647 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ENSU_04_2018.csv
+2025-09-10 09:40:43,649 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ENSU_04_2018.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,665 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-10 09:40:43,667 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ensu_03_2019.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,668 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ensu_03_2019.csv
+2025-09-10 09:40:43,670 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ensu_03_2019.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,687 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-10 09:40:43,687 - INFO - Periodo encontrado en nombre de archivo '._conjunto_de_datos_cb_ENSU_2019_2t.csv': Año=2019, Trimestre=2
+2025-09-10 09:40:43,689 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ENSU_2019_2t.csv
+2025-09-10 09:40:43,689 - INFO - Periodo encontrado en nombre de archivo '._diccionario_de_datos_cb_ENSU_2019_2t.csv': Año=2019, Trimestre=2
+2025-09-10 09:40:43,706 - INFO - Procesando archivo: ._conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-10 09:40:43,708 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_CB_ENSU_04_2019.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,710 - INFO - Procesando archivo: ._diccionario_de_datos_CB_ENSU_04_2019.csv
+2025-09-10 09:40:43,711 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_CB_ENSU_04_2019.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,735 - INFO - Procesando archivo: ._conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-10 09:40:43,737 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_CB_ENSU_01_2020.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,739 - INFO - Procesando archivo: ._diccionario_de_datos_CB_ENSU_01_2020.csv
+2025-09-10 09:40:43,741 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_CB_ENSU_01_2020.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,748 - INFO - Procesando archivo: ._conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-10 09:40:43,750 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,752 - INFO - Procesando archivo: ._diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-10 09:40:43,754 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,763 - INFO - Procesando archivo: ._conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-10 09:40:43,765 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,767 - INFO - Procesando archivo: ._diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-10 09:40:43,769 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,793 - INFO - Procesando archivo: ._conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-10 09:40:43,795 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_CB_ENSU_12_2020.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,797 - INFO - Procesando archivo: ._diccionario_de_datos_CB_ENSU_12_2020.csv
+2025-09-10 09:40:43,800 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_CB_ENSU_12_2020.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,817 - INFO - Procesando archivo: ._conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-10 09:40:43,819 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_CB_ENSU_03_2021.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,822 - INFO - Procesando archivo: ._diccionario_de_datos_CB_ENSU_03_2021.csv
+2025-09-10 09:40:43,826 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_CB_ENSU_03_2021.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,847 - INFO - Procesando archivo: ._conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-10 09:40:43,849 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_CB_ENSU_06_2021.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,851 - INFO - Procesando archivo: ._diccionario_de_datos_CB_ENSU_06_2021.csv
+2025-09-10 09:40:43,853 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_CB_ENSU_06_2021.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,863 - INFO - Procesando archivo: ._conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-10 09:40:43,865 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_CB_ENSU_09_2021.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,867 - INFO - Procesando archivo: ._diccionario_de_datos_CB_ENSU_09_2021.csv
+2025-09-10 09:40:43,869 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_CB_ENSU_09_2021.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,887 - INFO - Procesando archivo: ._conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-10 09:40:43,889 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_CB_ENSU_12_2021.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,891 - INFO - Procesando archivo: ._diccionario_de_datos_CB_ENSU_12_2021.csv
+2025-09-10 09:40:43,893 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_CB_ENSU_12_2021.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,910 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_0322.csv
+2025-09-10 09:40:43,912 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_0322.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,915 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_0322.csv
+2025-09-10 09:40:43,916 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_0322.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,934 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_0622.csv
+2025-09-10 09:40:43,936 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_0622.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,938 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_0622.csv
+2025-09-10 09:40:43,940 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_0622.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,948 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_0922.csv
+2025-09-10 09:40:43,950 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_0922.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,952 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_0922.csv
+2025-09-10 09:40:43,954 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_0922.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,973 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_1222.csv
+2025-09-10 09:40:43,976 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_1222.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:43,979 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_1222.csv
+2025-09-10 09:40:43,986 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_1222.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,008 - INFO - Procesando archivo: ._conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-10 09:40:44,010 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_CB_ENSU_03_2023.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,012 - INFO - Procesando archivo: ._diccionario_de_datos_CB_ENSU_03_2023.csv
+2025-09-10 09:40:44,014 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_CB_ENSU_03_2023.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,031 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_0623.csv
+2025-09-10 09:40:44,033 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_0623.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,035 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_0623.csv
+2025-09-10 09:40:44,036 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_0623.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,047 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_0923.csv
+2025-09-10 09:40:44,050 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_0923.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,052 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_0923.csv
+2025-09-10 09:40:44,055 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_0923.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,077 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_1223.csv
+2025-09-10 09:40:44,079 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_1223.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,081 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_1223.csv
+2025-09-10 09:40:44,082 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_1223.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,100 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_0324.csv
+2025-09-10 09:40:44,102 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_0324.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,106 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_0324.csv
+2025-09-10 09:40:44,112 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_0324.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,140 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_0624.csv
+2025-09-10 09:40:44,144 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_0624.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,146 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_0624.csv
+2025-09-10 09:40:44,148 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_0624.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,156 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_0924.csv
+2025-09-10 09:40:44,157 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_0924.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,159 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_0924.csv
+2025-09-10 09:40:44,161 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_0924.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,180 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_1224.csv
+2025-09-10 09:40:44,181 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_1224.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,183 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_1224.csv
+2025-09-10 09:40:44,185 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_1224.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,205 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_0325.csv
+2025-09-10 09:40:44,207 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_0325.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,209 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_0325.csv
+2025-09-10 09:40:44,211 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_0325.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,230 - INFO - Procesando archivo: ._conjunto_de_datos_ensu_cb_0625.csv
+2025-09-10 09:40:44,232 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_ensu_cb_0625.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,233 - INFO - Procesando archivo: ._diccionario_de_datos_ensu_cb_0625.csv
+2025-09-10 09:40:44,235 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_ensu_cb_0625.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,250 - INFO - Procesando archivo: ._conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-10 09:40:44,252 - WARNING - No se pudo identificar el periodo para '._conjunto_de_datos_cb_ENSU_03_2019.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,254 - INFO - Procesando archivo: ._diccionario_de_datos_cb_ENSU_03_2019.csv
+2025-09-10 09:40:44,256 - WARNING - No se pudo identificar el periodo para '._diccionario_de_datos_cb_ENSU_03_2019.csv'. Marcado como UNKNOWN.
+2025-09-10 09:40:44,262 - INFO - Escaneo finalizado. Se encontraron y procesaron 168 archivos.
+2025-09-10 09:40:44,304 - INFO - Resultados guardados exitosamente en: C:\Users\josea\Documents\data-mining\proyecto\temp\mapeo_archivos.json
+2025-09-10 09:40:44,304 - INFO - --- Fase 1 Finalizada ---

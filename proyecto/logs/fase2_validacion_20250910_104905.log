@@ -1,0 +1,56 @@
+2025-09-10 10:49:05,501 - INFO - --- Iniciando Fase 2: Validación de Archivos ---
+2025-09-10 10:49:05,503 - INFO - Cargado exitosamente C:\Users\josea\Documents\data-mining\proyecto\temp\mapeo_archivos.json
+2025-09-10 10:49:05,503 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_01_2015.csv
+2025-09-10 10:49:05,518 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_02_2015.csv
+2025-09-10 10:49:05,528 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_03_2015.csv
+2025-09-10 10:49:05,538 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_04_2015.csv
+2025-09-10 10:49:05,587 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_01_2016.csv
+2025-09-10 10:49:05,608 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_02_2016.csv
+2025-09-10 10:49:05,625 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_03_2016.csv
+2025-09-10 10:49:05,641 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_04_2016.csv
+2025-09-10 10:49:05,803 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_01_2017.csv
+2025-09-10 10:49:05,975 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_02_2017.csv
+2025-09-10 10:49:06,151 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_03_2017.csv
+2025-09-10 10:49:06,325 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_04_2017.csv
+2025-09-10 10:49:06,515 - INFO - Validando archivo: ensu_cb_0118.csv
+2025-09-10 10:49:06,730 - INFO - Validando archivo: ensu_cb_0218.csv
+2025-09-10 10:49:06,918 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_03_2018.csv
+2025-09-10 10:49:07,128 - INFO - Validando archivo: conjunto_de_datos_cb_ENSU_04_2018.csv
+2025-09-10 10:49:07,304 - INFO - Validando archivo: conjunto_de_datos_cb_ensu_03_2019.csv
+2025-09-10 10:49:07,435 - INFO - Validando archivo: conjunto_de_datos_cb_ENSU_03_2019.csv
+2025-09-10 10:49:07,681 - INFO - Validando archivo: conjunto_de_datos_cb_ENSU_2019_2t.csv
+2025-09-10 10:49:07,880 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_04_2019.csv
+2025-09-10 10:49:08,145 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_01_2020.csv
+2025-09-10 10:49:08,380 - INFO - Validando archivo: conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+2025-09-10 10:49:08,655 - INFO - Validando archivo: conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+2025-09-10 10:49:08,665 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_12_2020.csv
+2025-09-10 10:49:08,967 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_03_2021.csv
+2025-09-10 10:49:09,212 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_06_2021.csv
+2025-09-10 10:49:09,484 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_09_2021.csv
+2025-09-10 10:49:09,809 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_12_2021.csv
+2025-09-10 10:49:10,098 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0322.csv
+2025-09-10 10:49:10,327 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0622.csv
+2025-09-10 10:49:10,564 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0922.csv
+2025-09-10 10:49:10,845 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_1222.csv
+2025-09-10 10:49:11,080 - INFO - Validando archivo: conjunto_de_datos_CB_ENSU_03_2023.csv
+2025-09-10 10:49:11,393 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0623.csv
+2025-09-10 10:49:11,690 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0923.csv
+2025-09-10 10:49:12,093 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_1223.csv
+2025-09-10 10:49:12,328 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0324.csv
+2025-09-10 10:49:12,559 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0624.csv
+2025-09-10 10:49:12,767 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0924.csv
+2025-09-10 10:49:13,019 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_1224.csv
+2025-09-10 10:49:13,210 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0325.csv
+2025-09-10 10:49:13,374 - INFO - Validando archivo: conjunto_de_datos_ensu_cb_0625.csv
+2025-09-10 10:49:13,534 - INFO - Resolviendo duplicados para el periodo 2017-Q1
+2025-09-10 10:49:13,534 - INFO - Resolviendo duplicados para el periodo 2018-Q1
+2025-09-10 10:49:13,535 - INFO - Resolviendo duplicados para el periodo 2019-Q1
+2025-09-10 10:49:13,535 - INFO - Resolviendo duplicados para el periodo 2019-Q2
+2025-09-10 10:49:13,535 - INFO - Resolviendo duplicados para el periodo 2020-Q1
+2025-09-10 10:49:13,535 - INFO - Resolviendo duplicados para el periodo 2021-Q1
+2025-09-10 10:49:13,536 - INFO - Resolviendo duplicados para el periodo 2022-Q1
+2025-09-10 10:49:13,536 - INFO - Resolviendo duplicados para el periodo 2023-Q1
+2025-09-10 10:49:13,536 - INFO - Resolviendo duplicados para el periodo 2024-Q1
+2025-09-10 10:49:13,536 - INFO - Resolviendo duplicados para el periodo 2025-Q1
+2025-09-10 10:49:13,540 - INFO - Resultados de validación guardados en: C:\Users\josea\Documents\data-mining\proyecto\temp\archivos_validados.json
+2025-09-10 10:49:13,540 - INFO - --- Fase 2 Finalizada: 18 procesables, 24 no procesables ---
