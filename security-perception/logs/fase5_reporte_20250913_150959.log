@@ -1,0 +1,7 @@
+[2025-09-13 15:09:59,666] INFO: === INICIANDO FASE 5: REPORTE FINAL ===
+[2025-09-13 15:09:59,666] INFO: Buscando archivos procesados en: data/yucatan_processed/*.csv
+[2025-09-13 15:09:59,680] INFO: Se consolidaron 34 archivos con un total de 131 registros.
+[2025-09-13 15:09:59,682] INFO: Dataset maestro guardado en: reports/dataset_maestro_yucatan.csv
+[2025-09-13 15:09:59,683] INFO: Estadísticas guardadas en: reports/estadisticas_finales.json
+[2025-09-13 15:09:59,689] INFO: Reporte HTML guardado en: reports/reporte_ensu_yucatan_20250913.html
+[2025-09-13 15:09:59,689] INFO: === FASE 5 COMPLETADA EXITOSAMENTE ===
