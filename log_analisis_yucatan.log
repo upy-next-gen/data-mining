@@ -1,0 +1,19 @@
+2025-09-14 02:11:02,285 - INFO - === Report Generation Script Start ===
+2025-09-14 02:11:02,287 - INFO - Searching for processed files in: C:\Users\elian\downloads\Inseguridad_yucatan\data\yucatan-inseguridad
+2025-09-14 02:11:02,287 - INFO - Found 13 files to consolidate.
+2025-09-14 02:11:02,447 - INFO - Consolidated DataFrame shape: (47, 11)
+2025-09-14 02:11:02,461 - INFO - Created and sorted by 'PERIODO' column.
+2025-09-14 02:11:02,462 - INFO - Calculating statewide weighted average...
+2025-09-14 02:11:02,475 - INFO - Statewide weighted average calculation complete.
+2025-09-14 02:11:02,476 - INFO - Creating plot: Percepción de Inseguridad en Yucatán (Estatal)
+2025-09-14 02:11:04,436 - INFO - Creating plot: Percepción de Inseguridad en MERIDA
+2025-09-14 02:11:05,130 - INFO - Creating plot: Percepción de Inseguridad en Kanasin
+2025-09-14 02:11:06,095 - INFO - Creating plot: Percepción de Inseguridad en Merida
+2025-09-14 02:11:06,890 - INFO - Creating plot: Percepción de Inseguridad en Progreso
+2025-09-14 02:11:07,475 - INFO - Creating plot: Percepción de Inseguridad en Uman
+2025-09-14 02:11:08,045 - INFO - Creating plot: Percepción de Inseguridad en KANASIN
+2025-09-14 02:11:08,614 - INFO - Creating plot: Percepción de Inseguridad en PROGRESO
+2025-09-14 02:11:09,200 - INFO - Creating plot: Percepción de Inseguridad en UMAN
+2025-09-14 02:11:09,796 - INFO - Generating HTML report...
+2025-09-14 02:11:09,856 - INFO - HTML report successfully generated at: C:\Users\elian\downloads\Inseguridad_yucatan\reporte_yucatan_evolucion.html
+2025-09-14 02:11:09,857 - INFO - === Report Generation Script End ===
