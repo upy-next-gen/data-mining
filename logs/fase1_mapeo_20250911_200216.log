@@ -1,0 +1,951 @@
+[2025-09-11 20:02:16,183] INFO: === INICIANDO ESCANEO DE DIRECTORIO: data ===
+[2025-09-11 20:02:16,184] INFO: Directorio absoluto: C:\Users\ingen\Documents\data-mining\data
+[2025-09-11 20:02:16,189] INFO: Directorio data\conjunto_de_datos_ensu_01_2015: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,191] INFO: Directorio data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\catalogos: 22 archivos CSV encontrados
+[2025-09-11 20:02:16,193] INFO: Directorio data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,196] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2015.csv
+[2025-09-11 20:02:16,196] INFO:   - Tamaño: 0.25 MB
+[2025-09-11 20:02:16,197] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,219] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,228] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,228] INFO:   - Metadata completa para período: UNKNOWN_001
+[2025-09-11 20:02:16,229] INFO: Directorio data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,229] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cb_ensu_01_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2015.csv
+[2025-09-11 20:02:16,229] INFO:   - Tamaño: 0.01 MB
+[2025-09-11 20:02:16,229] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,231] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,234] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,234] INFO:   - Metadata completa para período: UNKNOWN_002
+[2025-09-11 20:02:16,235] INFO: Directorio data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cs_ensu_01_2015\catalogos: 12 archivos CSV encontrados
+[2025-09-11 20:02:16,235] INFO: Directorio data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cs_ensu_01_2015\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,236] INFO: Directorio data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_cs_ensu_01_2015\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,237] INFO: Directorio data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_viv_ensu_01_2015\catalogos: 2 archivos CSV encontrados
+[2025-09-11 20:02:16,237] INFO: Directorio data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_viv_ensu_01_2015\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,237] INFO: Directorio data\conjunto_de_datos_ensu_01_2015\conjunto_de_datos_viv_ensu_01_2015\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,238] INFO: Directorio data\conjunto_de_datos_ensu_01_2016_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,239] INFO: Directorio data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\catalogos: 90 archivos CSV encontrados
+[2025-09-11 20:02:16,239] INFO: Directorio data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,239] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2016.csv
+[2025-09-11 20:02:16,240] INFO:   - Tamaño: 5.14 MB
+[2025-09-11 20:02:16,240] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,253] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,269] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD']
+[2025-09-11 20:02:16,269] INFO:   - Metadata completa para período: UNKNOWN_003
+[2025-09-11 20:02:16,269] INFO: Directorio data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,270] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cb_ensu_01_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2016.csv
+[2025-09-11 20:02:16,271] INFO:   - Tamaño: 0.01 MB
+[2025-09-11 20:02:16,271] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,274] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,279] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,279] INFO:   - Metadata completa para período: UNKNOWN_004
+[2025-09-11 20:02:16,280] INFO: Directorio data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cs_ensu_01_2016\catalogos: 30 archivos CSV encontrados
+[2025-09-11 20:02:16,281] INFO: Directorio data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cs_ensu_01_2016\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,281] INFO: Directorio data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_cs_ensu_01_2016\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,282] INFO: Directorio data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_viv_ensu_01_2016\catalogos: 21 archivos CSV encontrados
+[2025-09-11 20:02:16,282] INFO: Directorio data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_viv_ensu_01_2016\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,282] INFO: Directorio data\conjunto_de_datos_ensu_01_2016_csv\conjunto_de_datos_viv_ensu_01_2016\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,283] INFO: Directorio data\conjunto_de_datos_ensu_01_2017_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,285] INFO: Directorio data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\catalogos: 134 archivos CSV encontrados
+[2025-09-11 20:02:16,285] INFO: Directorio data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,286] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_01_2017.csv
+[2025-09-11 20:02:16,286] INFO:   - Tamaño: 9.61 MB
+[2025-09-11 20:02:16,286] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,302] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,318] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,318] INFO:   - Metadata completa para período: UNKNOWN_005
+[2025-09-11 20:02:16,319] INFO: Directorio data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,319] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cb_ensu_01_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_01_2017.csv
+[2025-09-11 20:02:16,319] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,319] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,322] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,325] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,325] INFO:   - Metadata completa para período: UNKNOWN_006
+[2025-09-11 20:02:16,326] INFO: Directorio data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cs_ensu_01_2017\catalogos: 36 archivos CSV encontrados
+[2025-09-11 20:02:16,327] INFO: Directorio data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cs_ensu_01_2017\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,327] INFO: Directorio data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_cs_ensu_01_2017\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,328] INFO: Directorio data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_viv_ensu_01_2017\catalogos: 23 archivos CSV encontrados
+[2025-09-11 20:02:16,329] INFO: Directorio data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_viv_ensu_01_2017\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,329] INFO: Directorio data\conjunto_de_datos_ensu_01_2017_csv\conjunto_de_datos_viv_ensu_01_2017\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,330] INFO: Directorio data\conjunto_de_datos_ensu_02_2015: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,331] INFO: Directorio data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\catalogos: 22 archivos CSV encontrados
+[2025-09-11 20:02:16,331] INFO: Directorio data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,331] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2015.csv
+[2025-09-11 20:02:16,331] INFO:   - Tamaño: 0.25 MB
+[2025-09-11 20:02:16,332] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,340] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,348] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,349] INFO:   - Metadata completa para período: UNKNOWN_007
+[2025-09-11 20:02:16,349] INFO: Directorio data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,349] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cb_ensu_02_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2015.csv
+[2025-09-11 20:02:16,349] INFO:   - Tamaño: 0.01 MB
+[2025-09-11 20:02:16,350] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,352] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,354] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,354] INFO:   - Metadata completa para período: UNKNOWN_008
+[2025-09-11 20:02:16,355] INFO: Directorio data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cs_ensu_02_2015\catalogos: 12 archivos CSV encontrados
+[2025-09-11 20:02:16,355] INFO: Directorio data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cs_ensu_02_2015\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,356] INFO: Directorio data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_cs_ensu_02_2015\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,356] INFO: Directorio data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_viv_ensu_02_2015\catalogos: 2 archivos CSV encontrados
+[2025-09-11 20:02:16,357] INFO: Directorio data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_viv_ensu_02_2015\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,357] INFO: Directorio data\conjunto_de_datos_ensu_02_2015\conjunto_de_datos_viv_ensu_02_2015\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,358] INFO: Directorio data\conjunto_de_datos_ensu_02_2016_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,359] INFO: Directorio data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\catalogos: 108 archivos CSV encontrados
+[2025-09-11 20:02:16,359] INFO: Directorio data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,359] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2016.csv
+[2025-09-11 20:02:16,360] INFO:   - Tamaño: 6.18 MB
+[2025-09-11 20:02:16,360] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,374] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,388] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD']
+[2025-09-11 20:02:16,388] INFO:   - Metadata completa para período: UNKNOWN_009
+[2025-09-11 20:02:16,389] INFO: Directorio data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,389] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cb_ensu_02_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2016.csv
+[2025-09-11 20:02:16,389] INFO:   - Tamaño: 0.02 MB
+[2025-09-11 20:02:16,390] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,393] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,396] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,397] INFO:   - Metadata completa para período: UNKNOWN_010
+[2025-09-11 20:02:16,398] INFO: Directorio data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cs_ensu_02_2016\catalogos: 34 archivos CSV encontrados
+[2025-09-11 20:02:16,398] INFO: Directorio data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cs_ensu_02_2016\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,399] INFO: Directorio data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_cs_ensu_02_2016\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,400] INFO: Directorio data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_viv_ensu_02_2016\catalogos: 21 archivos CSV encontrados
+[2025-09-11 20:02:16,400] INFO: Directorio data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_viv_ensu_02_2016\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,400] INFO: Directorio data\conjunto_de_datos_ensu_02_2016_csv\conjunto_de_datos_viv_ensu_02_2016\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,401] INFO: Directorio data\conjunto_de_datos_ensu_02_2017_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,402] INFO: Directorio data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\catalogos: 135 archivos CSV encontrados
+[2025-09-11 20:02:16,402] INFO: Directorio data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,403] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_02_2017.csv
+[2025-09-11 20:02:16,403] INFO:   - Tamaño: 10.21 MB
+[2025-09-11 20:02:16,403] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,417] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,431] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,431] INFO:   - Metadata completa para período: UNKNOWN_011
+[2025-09-11 20:02:16,432] INFO: Directorio data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,432] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cb_ensu_02_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_02_2017.csv
+[2025-09-11 20:02:16,433] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,433] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,436] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,439] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,440] INFO:   - Metadata completa para período: UNKNOWN_012
+[2025-09-11 20:02:16,441] INFO: Directorio data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cs_ensu_02_2017\catalogos: 36 archivos CSV encontrados
+[2025-09-11 20:02:16,441] INFO: Directorio data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cs_ensu_02_2017\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,442] INFO: Directorio data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_cs_ensu_02_2017\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,443] INFO: Directorio data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_viv_ensu_02_2017\catalogos: 23 archivos CSV encontrados
+[2025-09-11 20:02:16,443] INFO: Directorio data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_viv_ensu_02_2017\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,443] INFO: Directorio data\conjunto_de_datos_ensu_02_2017_csv\conjunto_de_datos_viv_ensu_02_2017\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,444] INFO: Directorio data\conjunto_de_datos_ensu_03_2015: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,445] INFO: Directorio data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\catalogos: 22 archivos CSV encontrados
+[2025-09-11 20:02:16,445] INFO: Directorio data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,445] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2015.csv
+[2025-09-11 20:02:16,446] INFO:   - Tamaño: 0.25 MB
+[2025-09-11 20:02:16,446] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,454] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,461] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,462] INFO:   - Metadata completa para período: UNKNOWN_013
+[2025-09-11 20:02:16,462] INFO: Directorio data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,462] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cb_ensu_03_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2015.csv
+[2025-09-11 20:02:16,462] INFO:   - Tamaño: 0.01 MB
+[2025-09-11 20:02:16,463] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,465] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,467] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,467] INFO:   - Metadata completa para período: UNKNOWN_014
+[2025-09-11 20:02:16,468] INFO: Directorio data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cs_ensu_03_2015\catalogos: 12 archivos CSV encontrados
+[2025-09-11 20:02:16,469] INFO: Directorio data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cs_ensu_03_2015\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,470] INFO: Directorio data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_cs_ensu_03_2015\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,471] INFO: Directorio data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_viv_ensu_03_2015\catalogos: 2 archivos CSV encontrados
+[2025-09-11 20:02:16,472] INFO: Directorio data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_viv_ensu_03_2015\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,472] INFO: Directorio data\conjunto_de_datos_ensu_03_2015\conjunto_de_datos_viv_ensu_03_2015\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,473] INFO: Directorio data\conjunto_de_datos_ensu_03_2016_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,475] INFO: Directorio data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\catalogos: 118 archivos CSV encontrados
+[2025-09-11 20:02:16,476] INFO: Directorio data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,476] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2016.csv
+[2025-09-11 20:02:16,477] INFO:   - Tamaño: 7.39 MB
+[2025-09-11 20:02:16,477] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,492] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,508] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD']
+[2025-09-11 20:02:16,508] INFO:   - Metadata completa para período: UNKNOWN_015
+[2025-09-11 20:02:16,509] INFO: Directorio data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,509] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cb_ensu_03_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2016.csv
+[2025-09-11 20:02:16,509] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,510] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,513] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,517] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,518] INFO:   - Metadata completa para período: UNKNOWN_016
+[2025-09-11 20:02:16,519] INFO: Directorio data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cs_ensu_03_2016\catalogos: 34 archivos CSV encontrados
+[2025-09-11 20:02:16,520] INFO: Directorio data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cs_ensu_03_2016\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,520] INFO: Directorio data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_cs_ensu_03_2016\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,521] INFO: Directorio data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_viv_ensu_03_2016\catalogos: 21 archivos CSV encontrados
+[2025-09-11 20:02:16,522] INFO: Directorio data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_viv_ensu_03_2016\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,522] INFO: Directorio data\conjunto_de_datos_ensu_03_2016_csv\conjunto_de_datos_viv_ensu_03_2016\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,522] INFO: Directorio data\conjunto_de_datos_ensu_03_2017_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,524] INFO: Directorio data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\catalogos: 135 archivos CSV encontrados
+[2025-09-11 20:02:16,524] INFO: Directorio data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,524] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2017.csv
+[2025-09-11 20:02:16,524] INFO:   - Tamaño: 10.13 MB
+[2025-09-11 20:02:16,525] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,539] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,552] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,552] INFO:   - Metadata completa para período: UNKNOWN_017
+[2025-09-11 20:02:16,552] INFO: Directorio data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,553] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cb_ensu_03_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2017.csv
+[2025-09-11 20:02:16,553] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,553] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,556] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,558] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,559] INFO:   - Metadata completa para período: UNKNOWN_018
+[2025-09-11 20:02:16,560] INFO: Directorio data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cs_ensu_03_2017\catalogos: 35 archivos CSV encontrados
+[2025-09-11 20:02:16,560] INFO: Directorio data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cs_ensu_03_2017\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,560] INFO: Directorio data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_cs_ensu_03_2017\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,561] INFO: Directorio data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_viv_ensu_03_2017\catalogos: 23 archivos CSV encontrados
+[2025-09-11 20:02:16,562] INFO: Directorio data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_viv_ensu_03_2017\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,562] INFO: Directorio data\conjunto_de_datos_ensu_03_2017_csv\conjunto_de_datos_viv_ensu_03_2017\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,563] INFO: Directorio data\conjunto_de_datos_ensu_04_2015: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,565] INFO: Directorio data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\catalogos: 22 archivos CSV encontrados
+[2025-09-11 20:02:16,566] INFO: Directorio data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,566] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2015.csv
+[2025-09-11 20:02:16,567] INFO:   - Tamaño: 0.25 MB
+[2025-09-11 20:02:16,567] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,576] INFO:   - Período extraído del contenido: 2015 Q4
+[2025-09-11 20:02:16,585] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,585] INFO:   - Metadata completa para período: 2015_Q4
+[2025-09-11 20:02:16,586] INFO: Directorio data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,586] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cb_ensu_04_2015\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2015.csv
+[2025-09-11 20:02:16,586] INFO:   - Tamaño: 0.01 MB
+[2025-09-11 20:02:16,586] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,589] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,591] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,591] INFO:   - Metadata completa para período: UNKNOWN_020
+[2025-09-11 20:02:16,592] INFO: Directorio data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cs_ensu_04_2015\catalogos: 12 archivos CSV encontrados
+[2025-09-11 20:02:16,593] INFO: Directorio data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cs_ensu_04_2015\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,593] INFO: Directorio data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_cs_ensu_04_2015\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,594] INFO: Directorio data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_viv_ensu_04_2015\catalogos: 2 archivos CSV encontrados
+[2025-09-11 20:02:16,594] INFO: Directorio data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_viv_ensu_04_2015\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,595] INFO: Directorio data\conjunto_de_datos_ensu_04_2015\conjunto_de_datos_viv_ensu_04_2015\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,595] INFO: Directorio data\conjunto_de_datos_ensu_04_2016_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,596] INFO: Directorio data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\catalogos: 116 archivos CSV encontrados
+[2025-09-11 20:02:16,597] INFO: Directorio data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,597] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2016.csv
+[2025-09-11 20:02:16,597] INFO:   - Tamaño: 8.27 MB
+[2025-09-11 20:02:16,597] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,610] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,622] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,622] INFO:   - Metadata completa para período: UNKNOWN_021
+[2025-09-11 20:02:16,623] INFO: Directorio data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,623] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cb_ensu_04_2016\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2016.csv
+[2025-09-11 20:02:16,623] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,623] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,627] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,630] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,631] INFO:   - Metadata completa para período: UNKNOWN_022
+[2025-09-11 20:02:16,632] INFO: Directorio data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cs_ensu_04_2016\catalogos: 36 archivos CSV encontrados
+[2025-09-11 20:02:16,633] INFO: Directorio data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cs_ensu_04_2016\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,633] INFO: Directorio data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_cs_ensu_04_2016\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,634] INFO: Directorio data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_viv_ensu_04_2016\catalogos: 23 archivos CSV encontrados
+[2025-09-11 20:02:16,635] INFO: Directorio data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_viv_ensu_04_2016\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,635] INFO: Directorio data\conjunto_de_datos_ensu_04_2016_csv\conjunto_de_datos_viv_ensu_04_2016\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,636] INFO: Directorio data\conjunto_de_datos_ensu_04_2017_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,637] INFO: Directorio data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\catalogos: 135 archivos CSV encontrados
+[2025-09-11 20:02:16,637] INFO: Directorio data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,637] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\conjunto_de_datos\conjunto_de_datos_cb_ensu_04_2017.csv
+[2025-09-11 20:02:16,638] INFO:   - Tamaño: 9.98 MB
+[2025-09-11 20:02:16,638] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,652] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,665] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,665] INFO:   - Metadata completa para período: UNKNOWN_023
+[2025-09-11 20:02:16,666] INFO: Directorio data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,666] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cb_ensu_04_2017\diccionario_de_datos\diccionario_de_datos_cb_ensu_04_2017.csv
+[2025-09-11 20:02:16,666] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,666] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:16,669] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:16,673] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,673] INFO:   - Metadata completa para período: UNKNOWN_024
+[2025-09-11 20:02:16,675] INFO: Directorio data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cs_ensu_04_2017\catalogos: 36 archivos CSV encontrados
+[2025-09-11 20:02:16,676] INFO: Directorio data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cs_ensu_04_2017\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,676] INFO: Directorio data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_cs_ensu_04_2017\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,678] INFO: Directorio data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_viv_ensu_04_2017\catalogos: 23 archivos CSV encontrados
+[2025-09-11 20:02:16,678] INFO: Directorio data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_viv_ensu_04_2017\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,679] INFO: Directorio data\conjunto_de_datos_ensu_04_2017_csv\conjunto_de_datos_viv_ensu_04_2017\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,679] INFO: Directorio data\conjunto_de_datos_ensu_2018_1t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,681] INFO: Directorio data\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\catalogos: 135 archivos CSV encontrados
+[2025-09-11 20:02:16,682] INFO: Directorio data\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,682] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\conjunto_de_datos\ensu_cb_0118.csv
+[2025-09-11 20:02:16,682] INFO:   - Tamaño: 10.41 MB
+[2025-09-11 20:02:16,682] INFO:   - Período extraído del nombre: 2018 Q1
+[2025-09-11 20:02:16,697] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,697] INFO:   - Metadata completa para período: 2018_Q1
+[2025-09-11 20:02:16,698] INFO: Directorio data\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,698] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2018_1t_csv\ensu_cb_0118\diccionario_de_datos\diccionario_de_datos_ensu_cb_0118.csv
+[2025-09-11 20:02:16,698] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,698] INFO:   - Período extraído del nombre: 2018 Q1
+[2025-09-11 20:02:16,701] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,701] INFO:   - Metadata completa para período: 2018_Q1
+[2025-09-11 20:02:16,703] INFO: Directorio data\conjunto_de_datos_ensu_2018_1t_csv\ensu_cs_0118\catalogos: 36 archivos CSV encontrados
+[2025-09-11 20:02:16,703] INFO: Directorio data\conjunto_de_datos_ensu_2018_1t_csv\ensu_cs_0118\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,703] INFO: Directorio data\conjunto_de_datos_ensu_2018_1t_csv\ensu_cs_0118\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,705] INFO: Directorio data\conjunto_de_datos_ensu_2018_1t_csv\ensu_viv_0118\catalogos: 23 archivos CSV encontrados
+[2025-09-11 20:02:16,705] INFO: Directorio data\conjunto_de_datos_ensu_2018_1t_csv\ensu_viv_0118\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,705] INFO: Directorio data\conjunto_de_datos_ensu_2018_1t_csv\ensu_viv_0118\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,706] INFO: Directorio data\conjunto_de_datos_ensu_2018_2t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,707] INFO: Directorio data\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\catalogos: 127 archivos CSV encontrados
+[2025-09-11 20:02:16,707] INFO: Directorio data\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,708] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\conjunto_de_datos\ ensu_cb_0218.csv
+[2025-09-11 20:02:16,708] INFO:   - Tamaño: 11.13 MB
+[2025-09-11 20:02:16,708] INFO:   - Período extraído del nombre: 2018 Q2
+[2025-09-11 20:02:16,722] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,722] INFO:   - Metadata completa para período: 2018_Q2
+[2025-09-11 20:02:16,723] INFO: Directorio data\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,723] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2018_2t_csv\ensu_cb_0218\diccionario_de_datos\diccionario_de_datos_ensu_cb_0218.csv
+[2025-09-11 20:02:16,723] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,724] INFO:   - Período extraído del nombre: 2018 Q2
+[2025-09-11 20:02:16,728] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,728] INFO:   - Metadata completa para período: 2018_Q2
+[2025-09-11 20:02:16,730] INFO: Directorio data\conjunto_de_datos_ensu_2018_2t_csv\ensu_cs_0218\catalogos: 36 archivos CSV encontrados
+[2025-09-11 20:02:16,730] INFO: Directorio data\conjunto_de_datos_ensu_2018_2t_csv\ensu_cs_0218\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,731] INFO: Directorio data\conjunto_de_datos_ensu_2018_2t_csv\ensu_cs_0218\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,732] INFO: Directorio data\conjunto_de_datos_ensu_2018_2t_csv\ensu_viv_0218\catalogos: 23 archivos CSV encontrados
+[2025-09-11 20:02:16,732] INFO: Directorio data\conjunto_de_datos_ensu_2018_2t_csv\ensu_viv_0218\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,732] INFO: Directorio data\conjunto_de_datos_ensu_2018_2t_csv\ensu_viv_0218\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,733] INFO: Directorio data\conjunto_de_datos_ensu_2018_3t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,734] INFO: Directorio data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\catalogos: 135 archivos CSV encontrados
+[2025-09-11 20:02:16,734] INFO: Directorio data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,734] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2018.csv
+[2025-09-11 20:02:16,735] INFO:   - Tamaño: 13.54 MB
+[2025-09-11 20:02:16,735] INFO:   - Período extraído del nombre: 2018 Q3
+[2025-09-11 20:02:16,748] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,749] INFO:   - Metadata completa para período: 2018_Q3
+[2025-09-11 20:02:16,749] INFO: Directorio data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,749] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cb_ensu_03_2018\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2018.csv
+[2025-09-11 20:02:16,749] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,750] INFO:   - Período extraído del nombre: 2018 Q3
+[2025-09-11 20:02:16,753] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,753] INFO:   - Metadata completa para período: 2018_Q3
+[2025-09-11 20:02:16,755] INFO: Directorio data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cs_ensu_03_2018\catalogos: 36 archivos CSV encontrados
+[2025-09-11 20:02:16,755] INFO: Directorio data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cs_ensu_03_2018\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,755] INFO: Directorio data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_cs_ensu_03_2018\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,756] INFO: Directorio data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_viv_ensu_03_2018\catalogos: 23 archivos CSV encontrados
+[2025-09-11 20:02:16,756] INFO: Directorio data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_viv_ensu_03_2018\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,757] INFO: Directorio data\conjunto_de_datos_ensu_2018_3t_csv\conjunto_de_datos_viv_ensu_03_2018\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,757] INFO: Directorio data\conjunto_de_datos_ensu_2018_4t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,758] INFO: Directorio data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\catalogos: 119 archivos CSV encontrados
+[2025-09-11 20:02:16,759] INFO: Directorio data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,759] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\conjunto_de_datos\conjunto_de_datos_cb_ENSU_04_2018.csv
+[2025-09-11 20:02:16,759] INFO:   - Tamaño: 10.97 MB
+[2025-09-11 20:02:16,759] INFO:   - Período extraído del nombre: 2018 Q4
+[2025-09-11 20:02:16,772] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,772] INFO:   - Metadata completa para período: 2018_Q4
+[2025-09-11 20:02:16,773] INFO: Directorio data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,773] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cb_ensu_04_2018\diccionario_de_datos\diccionario_de_datos_cb_ENSU_04_2018.csv
+[2025-09-11 20:02:16,773] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,773] INFO:   - Período extraído del nombre: 2018 Q4
+[2025-09-11 20:02:16,776] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,776] INFO:   - Metadata completa para período: 2018_Q4
+[2025-09-11 20:02:16,778] INFO: Directorio data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cs_ensu_04_2018\catalogos: 35 archivos CSV encontrados
+[2025-09-11 20:02:16,778] INFO: Directorio data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cs_ensu_04_2018\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,778] INFO: Directorio data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_cs_ensu_04_2018\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,779] INFO: Directorio data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_viv_ensu_04_2018\catalogos: 23 archivos CSV encontrados
+[2025-09-11 20:02:16,780] INFO: Directorio data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_viv_ensu_04_2018\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,780] INFO: Directorio data\conjunto_de_datos_ensu_2018_4t_csv\conjunto_de_datos_viv_ensu_04_2018\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,780] INFO: Directorio data\conjunto_de_datos_ENSU_2019_1t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,782] INFO: Directorio data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\catalogos: 131 archivos CSV encontrados
+[2025-09-11 20:02:16,782] INFO: Directorio data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,783] INFO: Archivo CB identificado: data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\conjunto_de_datos\conjunto_de_datos_cb_ensu_03_2019.csv
+[2025-09-11 20:02:16,783] INFO:   - Tamaño: 4.75 MB
+[2025-09-11 20:02:16,783] INFO:   - Período extraído del nombre: 2019 Q1
+[2025-09-11 20:02:16,800] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,800] INFO:   - Metadata completa para período: 2019_Q1
+[2025-09-11 20:02:16,801] INFO: Directorio data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,801] INFO: Archivo CB identificado: data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cb_ensu_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ensu_03_2019.csv
+[2025-09-11 20:02:16,801] INFO:   - Tamaño: 0.03 MB
+[2025-09-11 20:02:16,801] INFO:   - Período extraído del nombre: 2019 Q1
+[2025-09-11 20:02:16,804] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,804] INFO:   - Metadata completa para período: 2019_Q1
+[2025-09-11 20:02:16,806] INFO: Directorio data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cs_ensu_03_2019\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:16,806] INFO: Directorio data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cs_ensu_03_2019\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,806] INFO: Directorio data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_cs_ensu_03_2019\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,807] INFO: Directorio data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_viv_ensu_03_2019\catalogos: 26 archivos CSV encontrados
+[2025-09-11 20:02:16,808] INFO: Directorio data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_viv_ensu_03_2019\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,808] INFO: Directorio data\conjunto_de_datos_ENSU_2019_1t_csv\conjunto_de_datos_viv_ensu_03_2019\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,809] INFO: Directorio data\conjunto_de_datos_ensu_2019_2t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,811] INFO: Directorio data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\catalogos: 128 archivos CSV encontrados
+[2025-09-11 20:02:16,811] INFO: Directorio data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,812] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\conjunto_de_datos\conjunto_de_datos_cb_ENSU_2019_2t.csv
+[2025-09-11 20:02:16,812] INFO:   - Tamaño: 12.99 MB
+[2025-09-11 20:02:16,812] INFO:   - Período extraído del nombre: 2019 Q2
+[2025-09-11 20:02:16,825] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,825] INFO:   - Metadata completa para período: 2019_Q2
+[2025-09-11 20:02:16,826] INFO: Directorio data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,826] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cb_ENSU_2019_2t\diccionario_de_datos\diccionario_de_datos_cb_ENSU_2019_2t.csv
+[2025-09-11 20:02:16,826] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,827] INFO:   - Período extraído del nombre: 2019 Q2
+[2025-09-11 20:02:16,831] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,831] INFO:   - Metadata completa para período: 2019_Q2
+[2025-09-11 20:02:16,832] INFO: Directorio data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cs_ENSU_2019_2t\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:16,833] INFO: Directorio data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cs_ENSU_2019_2t\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,833] INFO: Directorio data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_cs_ENSU_2019_2t\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,834] INFO: Directorio data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_viv_ENSU_2019_2t\catalogos: 26 archivos CSV encontrados
+[2025-09-11 20:02:16,834] INFO: Directorio data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_viv_ENSU_2019_2t\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,834] INFO: Directorio data\conjunto_de_datos_ensu_2019_2t_csv\conjunto_de_datos_viv_ENSU_2019_2t\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,835] INFO: Directorio data\conjunto_de_datos_ensu_2019_4t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,836] INFO: Directorio data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\catalogos: 137 archivos CSV encontrados
+[2025-09-11 20:02:16,836] INFO: Directorio data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,837] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\conjunto_de_datos\conjunto_de_datos_CB_ENSU_04_2019.csv
+[2025-09-11 20:02:16,837] INFO:   - Tamaño: 14.91 MB
+[2025-09-11 20:02:16,837] INFO:   - Período extraído del nombre: 2019 Q4
+[2025-09-11 20:02:16,851] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,852] INFO:   - Metadata completa para período: 2019_Q4
+[2025-09-11 20:02:16,852] INFO: Directorio data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,852] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CB_ENSU_04_2019\diccionario_de_datos\diccionario_de_datos_CB_ENSU_04_2019.csv
+[2025-09-11 20:02:16,852] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,853] INFO:   - Período extraído del nombre: 2019 Q4
+[2025-09-11 20:02:16,856] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,856] INFO:   - Metadata completa para período: 2019_Q4
+[2025-09-11 20:02:16,857] INFO: Directorio data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CS_ENSU_04_2019\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:16,858] INFO: Directorio data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CS_ENSU_04_2019\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,858] INFO: Directorio data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_CS_ENSU_04_2019\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,859] INFO: Directorio data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_VIV_ENSU_04_2019\catalogos: 26 archivos CSV encontrados
+[2025-09-11 20:02:16,860] INFO: Directorio data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_VIV_ENSU_04_2019\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,861] INFO: Directorio data\conjunto_de_datos_ensu_2019_4t_csv\conjunto_de_datos_VIV_ENSU_04_2019\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,861] INFO: Directorio data\conjunto_de_datos_ensu_2020_1t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,863] INFO: Directorio data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\catalogos: 133 archivos CSV encontrados
+[2025-09-11 20:02:16,863] INFO: Directorio data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,863] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\conjunto_de_datos\conjunto_de_datos_CB_ENSU_01_2020.csv
+[2025-09-11 20:02:16,864] INFO:   - Tamaño: 14.70 MB
+[2025-09-11 20:02:16,864] INFO:   - Período extraído del nombre: 2020 Q1
+[2025-09-11 20:02:16,876] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:16,876] INFO:   - Metadata completa para período: 2020_Q1
+[2025-09-11 20:02:16,877] INFO: Directorio data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,877] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CB_ENSU_01_2020\diccionario_de_datos\diccionario_de_datos_CB_ENSU_01_2020.csv
+[2025-09-11 20:02:16,878] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,878] INFO:   - Período extraído del nombre: 2020 Q1
+[2025-09-11 20:02:16,882] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,882] INFO:   - Metadata completa para período: 2020_Q1
+[2025-09-11 20:02:16,884] INFO: Directorio data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CS_ENSU_01_2020\catalogos: 37 archivos CSV encontrados
+[2025-09-11 20:02:16,884] INFO: Directorio data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CS_ENSU_01_2020\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,885] INFO: Directorio data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_CS_ENSU_01_2020\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,886] INFO: Directorio data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_VIV_ENSU_01_2020\catalogos: 26 archivos CSV encontrados
+[2025-09-11 20:02:16,886] INFO: Directorio data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_VIV_ENSU_01_2020\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,886] INFO: Directorio data\conjunto_de_datos_ensu_2020_1t_csv\conjunto_de_datos_VIV_ENSU_01_2020\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,887] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,893] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\catalogos: 188 archivos CSV encontrados
+[2025-09-11 20:02:16,894] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,894] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+[2025-09-11 20:02:16,894] INFO:   - Tamaño: 19.95 MB
+[2025-09-11 20:02:16,895] INFO:   - Período extraído del nombre: 2020 Q3
+[2025-09-11 20:02:16,911] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:16,912] INFO:   - Metadata completa para período: 2020_Q3
+[2025-09-11 20:02:16,912] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,912] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\diccionario_de_datos\diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv
+[2025-09-11 20:02:16,913] INFO:   - Tamaño: 0.05 MB
+[2025-09-11 20:02:16,913] INFO:   - Período extraído del nombre: 2020 Q3
+[2025-09-11 20:02:16,916] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,917] INFO:   - Metadata completa para período: 2020_Q3
+[2025-09-11 20:02:16,921] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\catalogos: 105 archivos CSV encontrados
+[2025-09-11 20:02:16,921] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,922] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\conjunto_de_datos\conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv
+[2025-09-11 20:02:16,922] INFO:   - Tamaño: 11.34 MB
+[2025-09-11 20:02:16,922] INFO:   - Período extraído del nombre: 2020 Q3
+[2025-09-11 20:02:16,935] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['BP1_1']
+[2025-09-11 20:02:16,936] INFO:   - Metadata completa para período: 2020_Q3
+[2025-09-11 20:02:16,936] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,936] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CB_SEC4_ENSU_09_2020\diccionario_de_datos\diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv
+[2025-09-11 20:02:16,937] INFO:   - Tamaño: 0.06 MB
+[2025-09-11 20:02:16,937] INFO:   - Período extraído del nombre: 2020 Q3
+[2025-09-11 20:02:16,942] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,942] INFO:   - Metadata completa para período: 2020_Q3
+[2025-09-11 20:02:16,943] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CS_ENSU_09_2020\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:16,944] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CS_ENSU_09_2020\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,944] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_CS_ENSU_09_2020\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,945] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_VIV_ENSU_09_2020\catalogos: 28 archivos CSV encontrados
+[2025-09-11 20:02:16,945] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_VIV_ENSU_09_2020\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,946] INFO: Directorio data\conjunto_de_datos_ensu_2020_3t_csv\conjunto_de_datos_VIV_ENSU_09_2020\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,946] INFO: Directorio data\conjunto_de_datos_ensu_2020_4t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,949] INFO: Directorio data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\catalogos: 176 archivos CSV encontrados
+[2025-09-11 20:02:16,950] INFO: Directorio data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,950] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\conjunto_de_datos\conjunto_de_datos_CB_ENSU_12_2020.csv
+[2025-09-11 20:02:16,951] INFO:   - Tamaño: 19.18 MB
+[2025-09-11 20:02:16,951] INFO:   - Período extraído del nombre: 2020 Q4
+[2025-09-11 20:02:16,970] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:16,970] INFO:   - Metadata completa para período: 2020_Q4
+[2025-09-11 20:02:16,971] INFO: Directorio data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,971] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CB_ENSU_12_2020\diccionario_de_datos\diccionario_de_datos_CB_ENSU_12_2020.csv
+[2025-09-11 20:02:16,971] INFO:   - Tamaño: 0.05 MB
+[2025-09-11 20:02:16,971] INFO:   - Período extraído del nombre: 2020 Q4
+[2025-09-11 20:02:16,975] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,975] INFO:   - Metadata completa para período: 2020_Q4
+[2025-09-11 20:02:16,977] INFO: Directorio data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CS_ENSU_12_2020\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:16,977] INFO: Directorio data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CS_ENSU_12_2020\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,978] INFO: Directorio data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_CS_ENSU_12_2020\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,979] INFO: Directorio data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_VIV_ENSU_12_2020\catalogos: 28 archivos CSV encontrados
+[2025-09-11 20:02:16,979] INFO: Directorio data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_VIV_ENSU_12_2020\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,980] INFO: Directorio data\conjunto_de_datos_ensu_2020_4t_csv\conjunto_de_datos_VIV_ENSU_12_2020\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,980] INFO: Directorio data\conjunto_de_datos_ensu_2021_1t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,981] INFO: Directorio data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\catalogos: 136 archivos CSV encontrados
+[2025-09-11 20:02:16,982] INFO: Directorio data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,982] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_03_2021.csv
+[2025-09-11 20:02:16,982] INFO:   - Tamaño: 15.69 MB
+[2025-09-11 20:02:16,983] INFO:   - Período extraído del nombre: 2021 Q1
+[2025-09-11 20:02:16,995] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:16,995] INFO:   - Metadata completa para período: 2021_Q1
+[2025-09-11 20:02:16,996] INFO: Directorio data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:16,996] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CB_ENSU_03_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_03_2021.csv
+[2025-09-11 20:02:16,996] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:16,996] INFO:   - Período extraído del nombre: 2021 Q1
+[2025-09-11 20:02:16,999] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:16,999] INFO:   - Metadata completa para período: 2021_Q1
+[2025-09-11 20:02:17,000] INFO: Directorio data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CS_ENSU_03_2021\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:17,002] INFO: Directorio data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CS_ENSU_03_2021\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,002] INFO: Directorio data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_CS_ENSU_03_2021\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,003] INFO: Directorio data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_VIV_ENSU_03_2021\catalogos: 28 archivos CSV encontrados
+[2025-09-11 20:02:17,003] INFO: Directorio data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_VIV_ENSU_03_2021\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,004] INFO: Directorio data\conjunto_de_datos_ensu_2021_1t_csv\conjunto_de_datos_VIV_ENSU_03_2021\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,004] INFO: Directorio data\conjunto_de_datos_ensu_2021_2t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,005] INFO: Directorio data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\catalogos: 142 archivos CSV encontrados
+[2025-09-11 20:02:17,006] INFO: Directorio data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,006] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_06_2021.csv
+[2025-09-11 20:02:17,006] INFO:   - Tamaño: 16.39 MB
+[2025-09-11 20:02:17,007] INFO:   - Período extraído del nombre: 2021 Q2
+[2025-09-11 20:02:17,020] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,021] INFO:   - Metadata completa para período: 2021_Q2
+[2025-09-11 20:02:17,021] INFO: Directorio data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,021] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CB_ENSU_06_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_06_2021.csv
+[2025-09-11 20:02:17,022] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:17,022] INFO:   - Período extraído del nombre: 2021 Q2
+[2025-09-11 20:02:17,025] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,025] INFO:   - Metadata completa para período: 2021_Q2
+[2025-09-11 20:02:17,026] INFO: Directorio data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CS_ENSU_06_2021\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:17,027] INFO: Directorio data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CS_ENSU_06_2021\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,027] INFO: Directorio data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_CS_ENSU_06_2021\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,028] INFO: Directorio data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_VIV_ENSU_06_2021\catalogos: 28 archivos CSV encontrados
+[2025-09-11 20:02:17,028] INFO: Directorio data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_VIV_ENSU_06_2021\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,029] INFO: Directorio data\conjunto_de_datos_ensu_2021_2t_csv\conjunto_de_datos_VIV_ENSU_06_2021\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,029] INFO: Directorio data\conjunto_de_datos_ensu_2021_3t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,037] INFO: Directorio data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\catalogos: 217 archivos CSV encontrados
+[2025-09-11 20:02:17,037] INFO: Directorio data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,038] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_09_2021.csv
+[2025-09-11 20:02:17,038] INFO:   - Tamaño: 23.74 MB
+[2025-09-11 20:02:17,038] INFO:   - Período extraído del nombre: 2021 Q3
+[2025-09-11 20:02:17,063] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,063] INFO:   - Metadata completa para período: 2021_Q3
+[2025-09-11 20:02:17,064] INFO: Directorio data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,064] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CB_ENSU_09_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_09_2021.csv
+[2025-09-11 20:02:17,065] INFO:   - Tamaño: 0.09 MB
+[2025-09-11 20:02:17,065] INFO:   - Período extraído del nombre: 2021 Q3
+[2025-09-11 20:02:17,070] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,070] INFO:   - Metadata completa para período: 2021_Q3
+[2025-09-11 20:02:17,071] INFO: Directorio data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CS_ENSU_09_2021\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:17,071] INFO: Directorio data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CS_ENSU_09_2021\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,072] INFO: Directorio data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_CS_ENSU_09_2021\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,073] INFO: Directorio data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_VIV_ENSU_09_2021\catalogos: 28 archivos CSV encontrados
+[2025-09-11 20:02:17,073] INFO: Directorio data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_VIV_ENSU_09_2021\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,073] INFO: Directorio data\conjunto_de_datos_ensu_2021_3t_csv\conjunto_de_datos_VIV_ENSU_09_2021\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,074] INFO: Directorio data\conjunto_de_datos_ensu_2021_4t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,075] INFO: Directorio data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\catalogos: 142 archivos CSV encontrados
+[2025-09-11 20:02:17,076] INFO: Directorio data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,076] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\conjunto_de_datos\conjunto_de_datos_CB_ENSU_12_2021.csv
+[2025-09-11 20:02:17,077] INFO:   - Tamaño: 17.12 MB
+[2025-09-11 20:02:17,077] INFO:   - Período extraído del nombre: 2021 Q4
+[2025-09-11 20:02:17,091] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,091] INFO:   - Metadata completa para período: 2021_Q4
+[2025-09-11 20:02:17,091] INFO: Directorio data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,092] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CB_ENSU_12_2021\diccionario_de_datos\diccionario_de_datos_CB_ENSU_12_2021.csv
+[2025-09-11 20:02:17,092] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:17,092] INFO:   - Período extraído del nombre: 2021 Q4
+[2025-09-11 20:02:17,097] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,097] INFO:   - Metadata completa para período: 2021_Q4
+[2025-09-11 20:02:17,098] INFO: Directorio data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CS_ENSU_12_2021\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:17,099] INFO: Directorio data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CS_ENSU_12_2021\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,099] INFO: Directorio data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_CS_ENSU_12_2021\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,100] INFO: Directorio data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_VIV_ENSU_12_2021\catalogos: 28 archivos CSV encontrados
+[2025-09-11 20:02:17,100] INFO: Directorio data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_VIV_ENSU_12_2021\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,100] INFO: Directorio data\conjunto_de_datos_ensu_2021_4t_csv\conjunto_de_datos_VIV_ENSU_12_2021\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,101] INFO: Directorio data\conjunto_de_datos_ensu_2022_1t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,102] INFO: Directorio data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\catalogos: 137 archivos CSV encontrados
+[2025-09-11 20:02:17,102] INFO: Directorio data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,103] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\conjunto_de_datos\conjunto_de_datos_ensu_cb_0322.csv
+[2025-09-11 20:02:17,103] INFO:   - Tamaño: 13.64 MB
+[2025-09-11 20:02:17,103] INFO:   - Período extraído del nombre: 2022 Q1
+[2025-09-11 20:02:17,116] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,116] INFO:   - Metadata completa para período: 2022_Q1
+[2025-09-11 20:02:17,117] INFO: Directorio data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,117] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cb_0322\diccionario_de_datos\diccionario_de_datos_ensu_cb_0322.csv
+[2025-09-11 20:02:17,118] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:17,118] INFO:   - Período extraído del nombre: 2022 Q1
+[2025-09-11 20:02:17,121] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,121] INFO:   - Metadata completa para período: 2022_Q1
+[2025-09-11 20:02:17,122] INFO: Directorio data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cs_0322\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:17,123] INFO: Directorio data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cs_0322\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,123] INFO: Directorio data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_cs_0322\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,124] INFO: Directorio data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_viv_0322\catalogos: 28 archivos CSV encontrados
+[2025-09-11 20:02:17,124] INFO: Directorio data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_viv_0322\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,124] INFO: Directorio data\conjunto_de_datos_ensu_2022_1t_csv\conjunto_de_datos_ensu_viv_0322\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,126] INFO: Directorio data\conjunto_de_datos_ensu_2022_2t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,127] INFO: Directorio data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\catalogos: 143 archivos CSV encontrados
+[2025-09-11 20:02:17,128] INFO: Directorio data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,129] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\conjunto_de_datos\conjunto_de_datos_ensu_cb_0622.csv
+[2025-09-11 20:02:17,129] INFO:   - Tamaño: 14.29 MB
+[2025-09-11 20:02:17,129] INFO:   - Período extraído del nombre: 2022 Q2
+[2025-09-11 20:02:17,141] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,142] INFO:   - Metadata completa para período: 2022_Q2
+[2025-09-11 20:02:17,142] INFO: Directorio data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,142] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cb_0622\diccionario_de_datos\diccionario_de_datos_ensu_cb_0622.csv
+[2025-09-11 20:02:17,143] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:17,143] INFO:   - Período extraído del nombre: 2022 Q2
+[2025-09-11 20:02:17,146] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,147] INFO:   - Metadata completa para período: 2022_Q2
+[2025-09-11 20:02:17,148] INFO: Directorio data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cs_0622\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:17,148] INFO: Directorio data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cs_0622\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,149] INFO: Directorio data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_cs_0622\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,150] INFO: Directorio data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_viv_0622\catalogos: 28 archivos CSV encontrados
+[2025-09-11 20:02:17,150] INFO: Directorio data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_viv_0622\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,150] INFO: Directorio data\conjunto_de_datos_ensu_2022_2t_csv\conjunto_de_datos_ensu_viv_0622\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,151] INFO: Directorio data\conjunto_de_datos_ensu_2022_3t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,158] INFO: Directorio data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\catalogos: 218 archivos CSV encontrados
+[2025-09-11 20:02:17,159] INFO: Directorio data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,159] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\conjunto_de_datos\conjunto_de_datos_ensu_cb_0922.csv
+[2025-09-11 20:02:17,159] INFO:   - Tamaño: 19.42 MB
+[2025-09-11 20:02:17,160] INFO:   - Período extraído del nombre: 2022 Q3
+[2025-09-11 20:02:17,175] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,175] INFO:   - Metadata completa para período: 2022_Q3
+[2025-09-11 20:02:17,176] INFO: Directorio data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,176] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cb_0922\diccionario_de_datos\diccionario_de_datos_ensu_cb_0922.csv
+[2025-09-11 20:02:17,176] INFO:   - Tamaño: 0.09 MB
+[2025-09-11 20:02:17,177] INFO:   - Período extraído del nombre: 2022 Q3
+[2025-09-11 20:02:17,180] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,181] INFO:   - Metadata completa para período: 2022_Q3
+[2025-09-11 20:02:17,182] INFO: Directorio data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cs_0922\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:17,182] INFO: Directorio data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cs_0922\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,182] INFO: Directorio data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_cs_0922\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,183] INFO: Directorio data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_viv_0922\catalogos: 28 archivos CSV encontrados
+[2025-09-11 20:02:17,184] INFO: Directorio data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_viv_0922\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,184] INFO: Directorio data\conjunto_de_datos_ensu_2022_3t_csv\conjunto_de_datos_ensu_viv_0922\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,185] INFO: Directorio data\conjunto_de_datos_ensu_2022_4t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,186] INFO: Directorio data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\catalogos: 145 archivos CSV encontrados
+[2025-09-11 20:02:17,186] INFO: Directorio data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,186] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\conjunto_de_datos\conjunto_de_datos_ensu_cb_1222.csv
+[2025-09-11 20:02:17,187] INFO:   - Tamaño: 14.82 MB
+[2025-09-11 20:02:17,187] INFO:   - Período extraído del nombre: 2022 Q4
+[2025-09-11 20:02:17,199] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,199] INFO:   - Metadata completa para período: 2022_Q4
+[2025-09-11 20:02:17,200] INFO: Directorio data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,200] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cb_1222\diccionario_de_datos\diccionario_de_datos_ensu_cb_1222.csv
+[2025-09-11 20:02:17,200] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:17,200] INFO:   - Período extraído del nombre: 2022 Q4
+[2025-09-11 20:02:17,203] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,203] INFO:   - Metadata completa para período: 2022_Q4
+[2025-09-11 20:02:17,205] INFO: Directorio data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cs_1222\catalogos: 41 archivos CSV encontrados
+[2025-09-11 20:02:17,206] INFO: Directorio data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cs_1222\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,206] INFO: Directorio data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_cs_1222\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,208] INFO: Directorio data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_viv_1222\catalogos: 29 archivos CSV encontrados
+[2025-09-11 20:02:17,208] INFO: Directorio data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_viv_1222\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,209] INFO: Directorio data\conjunto_de_datos_ensu_2022_4t_csv\conjunto_de_datos_ensu_viv_1222\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,210] INFO: Directorio data\conjunto_de_datos_ensu_2023_1t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,213] INFO: Directorio data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\catalogos: 142 archivos CSV encontrados
+[2025-09-11 20:02:17,213] INFO: Directorio data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,214] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\conjunto_de_datos\conjunto_de_datos_CB_ENSU_03_2023.csv
+[2025-09-11 20:02:17,214] INFO:   - Tamaño: 17.53 MB
+[2025-09-11 20:02:17,214] INFO:   - Período extraído del nombre: 2023 Q1
+[2025-09-11 20:02:17,231] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,231] INFO:   - Metadata completa para período: 2023_Q1
+[2025-09-11 20:02:17,232] INFO: Directorio data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,232] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CB_ENSU_03_2023\diccionario_de_datos\diccionario_de_datos_CB_ENSU_03_2023.csv
+[2025-09-11 20:02:17,232] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:17,233] INFO:   - Período extraído del nombre: 2023 Q1
+[2025-09-11 20:02:17,237] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,237] INFO:   - Metadata completa para período: 2023_Q1
+[2025-09-11 20:02:17,238] INFO: Directorio data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CS_ENSU_03_2023\catalogos: 41 archivos CSV encontrados
+[2025-09-11 20:02:17,239] INFO: Directorio data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CS_ENSU_03_2023\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,239] INFO: Directorio data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_CS_ENSU_03_2023\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,241] INFO: Directorio data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_VIV_ENSU_03_2023\catalogos: 29 archivos CSV encontrados
+[2025-09-11 20:02:17,241] INFO: Directorio data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_VIV_ENSU_03_2023\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,242] INFO: Directorio data\conjunto_de_datos_ensu_2023_1t_csv\conjunto_de_datos_VIV_ENSU_03_2023\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,243] INFO: Directorio data\conjunto_de_datos_ensu_2023_2t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,245] INFO: Directorio data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\catalogos: 145 archivos CSV encontrados
+[2025-09-11 20:02:17,245] INFO: Directorio data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,245] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\conjunto_de_datos\conjunto_de_datos_ensu_cb_0623.csv
+[2025-09-11 20:02:17,246] INFO:   - Tamaño: 18.31 MB
+[2025-09-11 20:02:17,246] INFO:   - Período extraído del nombre: 2023 Q2
+[2025-09-11 20:02:17,261] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,261] INFO:   - Metadata completa para período: 2023_Q2
+[2025-09-11 20:02:17,261] INFO: Directorio data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,262] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cb_0623\diccionario_de_datos\diccionario_de_datos_ensu_cb_0623.csv
+[2025-09-11 20:02:17,262] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:17,262] INFO:   - Período extraído del nombre: 2023 Q2
+[2025-09-11 20:02:17,266] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,267] INFO:   - Metadata completa para período: 2023_Q2
+[2025-09-11 20:02:17,268] INFO: Directorio data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cs_0623\catalogos: 41 archivos CSV encontrados
+[2025-09-11 20:02:17,269] INFO: Directorio data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cs_0623\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,269] INFO: Directorio data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_cs_0623\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,271] INFO: Directorio data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_viv_0623\catalogos: 29 archivos CSV encontrados
+[2025-09-11 20:02:17,271] INFO: Directorio data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_viv_0623\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,272] INFO: Directorio data\conjunto_de_datos_ensu_2023_2t_csv\conjunto_de_datos_ensu_viv_0623\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,273] INFO: Directorio data\conjunto_de_datos_ensu_2023_3t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,286] INFO: Directorio data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\catalogos: 240 archivos CSV encontrados
+[2025-09-11 20:02:17,286] INFO: Directorio data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,287] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\conjunto_de_datos\conjunto_de_datos_ensu_cb_0923.csv
+[2025-09-11 20:02:17,287] INFO:   - Tamaño: 27.47 MB
+[2025-09-11 20:02:17,287] INFO:   - Período extraído del nombre: 2023 Q3
+[2025-09-11 20:02:17,305] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,305] INFO:   - Metadata completa para período: 2023_Q3
+[2025-09-11 20:02:17,306] INFO: Directorio data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,306] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cb_0923\diccionario_de_datos\diccionario_de_datos_ensu_cb_0923.csv
+[2025-09-11 20:02:17,306] INFO:   - Tamaño: 0.10 MB
+[2025-09-11 20:02:17,306] INFO:   - Período extraído del nombre: 2023 Q3
+[2025-09-11 20:02:17,310] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,311] INFO:   - Metadata completa para período: 2023_Q3
+[2025-09-11 20:02:17,312] INFO: Directorio data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cs_0923\catalogos: 41 archivos CSV encontrados
+[2025-09-11 20:02:17,312] INFO: Directorio data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cs_0923\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,312] INFO: Directorio data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_cs_0923\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,314] INFO: Directorio data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_viv_0923\catalogos: 29 archivos CSV encontrados
+[2025-09-11 20:02:17,314] INFO: Directorio data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_viv_0923\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,314] INFO: Directorio data\conjunto_de_datos_ensu_2023_3t_csv\conjunto_de_datos_ensu_viv_0923\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,315] INFO: Directorio data\conjunto_de_datos_ensu_2023_4t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,316] INFO: Directorio data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\catalogos: 145 archivos CSV encontrados
+[2025-09-11 20:02:17,316] INFO: Directorio data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,317] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\conjunto_de_datos\conjunto_de_datos_ensu_cb_1223.csv
+[2025-09-11 20:02:17,317] INFO:   - Tamaño: 14.73 MB
+[2025-09-11 20:02:17,317] INFO:   - Período extraído del nombre: 2023 Q4
+[2025-09-11 20:02:17,328] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,328] INFO:   - Metadata completa para período: 2023_Q4
+[2025-09-11 20:02:17,328] INFO: Directorio data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,329] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cb_1223\diccionario_de_datos\diccionario_de_datos_ensu_cb_1223.csv
+[2025-09-11 20:02:17,329] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:17,329] INFO:   - Período extraído del nombre: 2023 Q4
+[2025-09-11 20:02:17,332] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,332] INFO:   - Metadata completa para período: 2023_Q4
+[2025-09-11 20:02:17,334] INFO: Directorio data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cs_1223\catalogos: 41 archivos CSV encontrados
+[2025-09-11 20:02:17,334] INFO: Directorio data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cs_1223\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,334] INFO: Directorio data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_cs_1223\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,335] INFO: Directorio data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_viv_1223\catalogos: 29 archivos CSV encontrados
+[2025-09-11 20:02:17,335] INFO: Directorio data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_viv_1223\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,336] INFO: Directorio data\conjunto_de_datos_ensu_2023_4t_csv\conjunto_de_datos_ensu_viv_1223\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,336] INFO: Directorio data\conjunto_de_datos_ensu_2024_1t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,337] INFO: Directorio data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\catalogos: 145 archivos CSV encontrados
+[2025-09-11 20:02:17,338] INFO: Directorio data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,338] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\conjunto_de_datos\conjunto_de_datos_ensu_cb_0324.csv
+[2025-09-11 20:02:17,338] INFO:   - Tamaño: 14.74 MB
+[2025-09-11 20:02:17,338] INFO:   - Período extraído del nombre: 2024 Q1
+[2025-09-11 20:02:17,352] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,352] INFO:   - Metadata completa para período: 2024_Q1
+[2025-09-11 20:02:17,353] INFO: Directorio data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,353] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cb_0324\diccionario_de_datos\diccionario_de_datos_ensu_cb_0324.csv
+[2025-09-11 20:02:17,353] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:17,353] INFO:   - Período extraído del nombre: 2024 Q1
+[2025-09-11 20:02:17,356] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,357] INFO:   - Metadata completa para período: 2024_Q1
+[2025-09-11 20:02:17,358] INFO: Directorio data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cs_0324\catalogos: 41 archivos CSV encontrados
+[2025-09-11 20:02:17,358] INFO: Directorio data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cs_0324\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,358] INFO: Directorio data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_cs_0324\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,359] INFO: Directorio data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_viv_0324\catalogos: 29 archivos CSV encontrados
+[2025-09-11 20:02:17,360] INFO: Directorio data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_viv_0324\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,361] INFO: Directorio data\conjunto_de_datos_ensu_2024_1t_csv\conjunto_de_datos_ensu_viv_0324\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,362] INFO: Directorio data\conjunto_de_datos_ensu_2024_2t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,364] INFO: Directorio data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\catalogos: 149 archivos CSV encontrados
+[2025-09-11 20:02:17,364] INFO: Directorio data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,365] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\conjunto_de_datos\conjunto_de_datos_ensu_cb_0624.csv
+[2025-09-11 20:02:17,365] INFO:   - Tamaño: 15.67 MB
+[2025-09-11 20:02:17,365] INFO:   - Período extraído del nombre: 2024 Q2
+[2025-09-11 20:02:17,381] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,381] INFO:   - Metadata completa para período: 2024_Q2
+[2025-09-11 20:02:17,382] INFO: Directorio data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,382] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cb_0624\diccionario_de_datos\diccionario_de_datos_ensu_cb_0624.csv
+[2025-09-11 20:02:17,382] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:17,382] INFO:   - Período extraído del nombre: 2024 Q2
+[2025-09-11 20:02:17,385] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,385] INFO:   - Metadata completa para período: 2024_Q2
+[2025-09-11 20:02:17,387] INFO: Directorio data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cs_0624\catalogos: 43 archivos CSV encontrados
+[2025-09-11 20:02:17,387] INFO: Directorio data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cs_0624\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,387] INFO: Directorio data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_cs_0624\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,388] INFO: Directorio data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_viv_0624\catalogos: 30 archivos CSV encontrados
+[2025-09-11 20:02:17,388] INFO: Directorio data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_viv_0624\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,389] INFO: Directorio data\conjunto_de_datos_ensu_2024_2t_csv\conjunto_de_datos_ensu_viv_0624\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,389] INFO: Directorio data\conjunto_de_datos_ensu_2024_3t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,400] INFO: Directorio data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\catalogos: 245 archivos CSV encontrados
+[2025-09-11 20:02:17,401] INFO: Directorio data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,401] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\conjunto_de_datos\conjunto_de_datos_ensu_cb_0924.csv
+[2025-09-11 20:02:17,401] INFO:   - Tamaño: 22.36 MB
+[2025-09-11 20:02:17,401] INFO:   - Período extraído del nombre: 2024 Q3
+[2025-09-11 20:02:17,417] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,417] INFO:   - Metadata completa para período: 2024_Q3
+[2025-09-11 20:02:17,417] INFO: Directorio data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,417] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cb_0924\diccionario_de_datos\diccionario_de_datos_ensu_cb_0924.csv
+[2025-09-11 20:02:17,418] INFO:   - Tamaño: 0.10 MB
+[2025-09-11 20:02:17,418] INFO:   - Período extraído del nombre: 2024 Q3
+[2025-09-11 20:02:17,422] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,422] INFO:   - Metadata completa para período: 2024_Q3
+[2025-09-11 20:02:17,423] INFO: Directorio data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cs_0924\catalogos: 43 archivos CSV encontrados
+[2025-09-11 20:02:17,424] INFO: Directorio data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cs_0924\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,424] INFO: Directorio data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_cs_0924\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,425] INFO: Directorio data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_viv_0924\catalogos: 30 archivos CSV encontrados
+[2025-09-11 20:02:17,426] INFO: Directorio data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_viv_0924\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,426] INFO: Directorio data\conjunto_de_datos_ensu_2024_3t_csv\conjunto_de_datos_ensu_viv_0924\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,426] INFO: Directorio data\conjunto_de_datos_ensu_2024_4t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,428] INFO: Directorio data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\catalogos: 150 archivos CSV encontrados
+[2025-09-11 20:02:17,428] INFO: Directorio data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,428] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\conjunto_de_datos\conjunto_de_datos_ensu_cb_1224.csv
+[2025-09-11 20:02:17,429] INFO:   - Tamaño: 15.23 MB
+[2025-09-11 20:02:17,429] INFO:   - Período extraído del nombre: 2024 Q4
+[2025-09-11 20:02:17,440] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,440] INFO:   - Metadata completa para período: 2024_Q4
+[2025-09-11 20:02:17,441] INFO: Directorio data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,441] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cb_1224\diccionario_de_datos\diccionario_de_datos_ensu_cb_1224.csv
+[2025-09-11 20:02:17,441] INFO:   - Tamaño: 0.05 MB
+[2025-09-11 20:02:17,441] INFO:   - Período extraído del nombre: 2024 Q4
+[2025-09-11 20:02:17,445] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,445] INFO:   - Metadata completa para período: 2024_Q4
+[2025-09-11 20:02:17,446] INFO: Directorio data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cs_1224\catalogos: 42 archivos CSV encontrados
+[2025-09-11 20:02:17,446] INFO: Directorio data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cs_1224\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,447] INFO: Directorio data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_cs_1224\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,448] INFO: Directorio data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_viv_1224\catalogos: 29 archivos CSV encontrados
+[2025-09-11 20:02:17,448] INFO: Directorio data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_viv_1224\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,448] INFO: Directorio data\conjunto_de_datos_ensu_2024_4t_csv\conjunto_de_datos_ensu_viv_1224\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,449] INFO: Directorio data\conjunto_de_datos_ensu_2025_1t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,450] INFO: Directorio data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\catalogos: 146 archivos CSV encontrados
+[2025-09-11 20:02:17,450] INFO: Directorio data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,450] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\conjunto_de_datos\conjunto_de_datos_ensu_cb_0325.csv
+[2025-09-11 20:02:17,451] INFO:   - Tamaño: 14.82 MB
+[2025-09-11 20:02:17,451] INFO:   - Período extraído del nombre: 2025 Q1
+[2025-09-11 20:02:17,463] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,464] INFO:   - Metadata completa para período: 2025_Q1
+[2025-09-11 20:02:17,464] INFO: Directorio data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,464] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cb_0325\diccionario_de_datos\diccionario_de_datos_ensu_cb_0325.csv
+[2025-09-11 20:02:17,464] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:17,465] INFO:   - Período extraído del nombre: 2025 Q1
+[2025-09-11 20:02:17,468] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,468] INFO:   - Metadata completa para período: 2025_Q1
+[2025-09-11 20:02:17,469] INFO: Directorio data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cs_0325\catalogos: 42 archivos CSV encontrados
+[2025-09-11 20:02:17,469] INFO: Directorio data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cs_0325\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,470] INFO: Directorio data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_cs_0325\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,471] INFO: Directorio data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_viv_0325\catalogos: 29 archivos CSV encontrados
+[2025-09-11 20:02:17,471] INFO: Directorio data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_viv_0325\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,472] INFO: Directorio data\conjunto_de_datos_ensu_2025_1t_csv\conjunto_de_datos_ensu_viv_0325\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,472] INFO: Directorio data\conjunto_de_datos_ensu_2025_2t_csv: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,473] INFO: Directorio data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\catalogos: 150 archivos CSV encontrados
+[2025-09-11 20:02:17,474] INFO: Directorio data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,474] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\conjunto_de_datos\conjunto_de_datos_ensu_cb_0625.csv
+[2025-09-11 20:02:17,474] INFO:   - Tamaño: 15.12 MB
+[2025-09-11 20:02:17,474] INFO:   - Período extraído del nombre: 2025 Q2
+[2025-09-11 20:02:17,487] INFO:   - [OK] Todas las columnas requeridas presentes
+[2025-09-11 20:02:17,487] INFO:   - Metadata completa para período: 2025_Q2
+[2025-09-11 20:02:17,487] INFO: Directorio data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,488] INFO: Archivo CB identificado: data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cb_0625\diccionario_de_datos\diccionario_de_datos_ensu_cb_0625.csv
+[2025-09-11 20:02:17,488] INFO:   - Tamaño: 0.05 MB
+[2025-09-11 20:02:17,488] INFO:   - Período extraído del nombre: 2025 Q2
+[2025-09-11 20:02:17,492] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,492] INFO:   - Metadata completa para período: 2025_Q2
+[2025-09-11 20:02:17,493] INFO: Directorio data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cs_0625\catalogos: 42 archivos CSV encontrados
+[2025-09-11 20:02:17,493] INFO: Directorio data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cs_0625\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,493] INFO: Directorio data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_cs_0625\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,494] INFO: Directorio data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_viv_0625\catalogos: 29 archivos CSV encontrados
+[2025-09-11 20:02:17,495] INFO: Directorio data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_viv_0625\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,495] INFO: Directorio data\conjunto_de_datos_ensu_2025_2t_csv\conjunto_de_datos_ensu_viv_0625\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,495] INFO: Directorio data\Datos abiertos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,497] INFO: Directorio data\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\catalogos: 132 archivos CSV encontrados
+[2025-09-11 20:02:17,497] INFO: Directorio data\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,497] INFO: Archivo CB identificado: data\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\conjunto_de_datos\conjunto_de_datos_cb_ENSU_03_2019.csv
+[2025-09-11 20:02:17,497] INFO:   - Tamaño: 14.59 MB
+[2025-09-11 20:02:17,498] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:17,510] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:17,521] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_CD']
+[2025-09-11 20:02:17,521] INFO:   - Metadata completa para período: UNKNOWN_083
+[2025-09-11 20:02:17,522] INFO: Directorio data\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,522] INFO: Archivo CB identificado: data\Datos abiertos\conjunto_de_datos_CB_ENSU_03_2019\diccionario_de_datos\diccionario_de_datos_cb_ENSU_03_2019.csv
+[2025-09-11 20:02:17,522] INFO:   - Tamaño: 0.04 MB
+[2025-09-11 20:02:17,522] INFO:   - Período no encontrado en nombre, analizando contenido CSV...
+[2025-09-11 20:02:17,525] WARNING:   - [ADVERTENCIA] No se pudo identificar el período
+[2025-09-11 20:02:17,528] WARNING:   - [ADVERTENCIA] Columnas requeridas faltantes: ['NOM_ENT', 'NOM_MUN', 'NOM_CD', 'BP1_1']
+[2025-09-11 20:02:17,528] INFO:   - Metadata completa para período: UNKNOWN_084
+[2025-09-11 20:02:17,529] INFO: Directorio data\Datos abiertos\conjunto_de_datos_CS_ENSU_03_2019\catalogos: 40 archivos CSV encontrados
+[2025-09-11 20:02:17,530] INFO: Directorio data\Datos abiertos\conjunto_de_datos_CS_ENSU_03_2019\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,530] INFO: Directorio data\Datos abiertos\conjunto_de_datos_CS_ENSU_03_2019\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,531] INFO: Directorio data\Datos abiertos\conjunto_de_datos_VIV_ENSU_03_2019\catalogos: 26 archivos CSV encontrados
+[2025-09-11 20:02:17,531] INFO: Directorio data\Datos abiertos\conjunto_de_datos_VIV_ENSU_03_2019\conjunto_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,532] INFO: Directorio data\Datos abiertos\conjunto_de_datos_VIV_ENSU_03_2019\diccionario_de_datos: 1 archivos CSV encontrados
+[2025-09-11 20:02:17,532] INFO: === RESUMEN DE ESCANEO ===
+[2025-09-11 20:02:17,532] INFO: Total de archivos CSV en el directorio: 8395
+[2025-09-11 20:02:17,532] INFO: Total de archivos CB encontrados: 84
+[2025-09-11 20:02:17,533] INFO: Archivos con período identificado: 59
+[2025-09-11 20:02:17,541] INFO: Mapeo guardado en: temp/mapeo_archivos.json
+[2025-09-11 20:02:17,541] INFO: Total de archivos encontrados: 84
+[2025-09-11 20:02:17,541] INFO: === RESUMEN POR PERÍODO ===
+[2025-09-11 20:02:17,541] INFO:   2015_Q4: 1 archivo(s)
+[2025-09-11 20:02:17,541] INFO:   2018_Q1: 2 archivo(s)
+[2025-09-11 20:02:17,542] WARNING:     ADVERTENCIA: Múltiples archivos para 2018_Q1
+[2025-09-11 20:02:17,542] INFO:   2018_Q2: 2 archivo(s)
+[2025-09-11 20:02:17,542] WARNING:     ADVERTENCIA: Múltiples archivos para 2018_Q2
+[2025-09-11 20:02:17,542] INFO:   2018_Q3: 2 archivo(s)
+[2025-09-11 20:02:17,542] WARNING:     ADVERTENCIA: Múltiples archivos para 2018_Q3
+[2025-09-11 20:02:17,542] INFO:   2018_Q4: 2 archivo(s)
+[2025-09-11 20:02:17,542] WARNING:     ADVERTENCIA: Múltiples archivos para 2018_Q4
+[2025-09-11 20:02:17,542] INFO:   2019_Q1: 2 archivo(s)
+[2025-09-11 20:02:17,542] WARNING:     ADVERTENCIA: Múltiples archivos para 2019_Q1
+[2025-09-11 20:02:17,542] INFO:   2019_Q2: 2 archivo(s)
+[2025-09-11 20:02:17,543] WARNING:     ADVERTENCIA: Múltiples archivos para 2019_Q2
+[2025-09-11 20:02:17,543] INFO:   2019_Q4: 2 archivo(s)
+[2025-09-11 20:02:17,543] WARNING:     ADVERTENCIA: Múltiples archivos para 2019_Q4
+[2025-09-11 20:02:17,543] INFO:   2020_Q1: 2 archivo(s)
+[2025-09-11 20:02:17,543] WARNING:     ADVERTENCIA: Múltiples archivos para 2020_Q1
+[2025-09-11 20:02:17,543] INFO:   2020_Q3: 4 archivo(s)
+[2025-09-11 20:02:17,543] WARNING:     ADVERTENCIA: Múltiples archivos para 2020_Q3
+[2025-09-11 20:02:17,543] INFO:   2020_Q4: 2 archivo(s)
+[2025-09-11 20:02:17,543] WARNING:     ADVERTENCIA: Múltiples archivos para 2020_Q4
+[2025-09-11 20:02:17,543] INFO:   2021_Q1: 2 archivo(s)
+[2025-09-11 20:02:17,543] WARNING:     ADVERTENCIA: Múltiples archivos para 2021_Q1
+[2025-09-11 20:02:17,543] INFO:   2021_Q2: 2 archivo(s)
+[2025-09-11 20:02:17,544] WARNING:     ADVERTENCIA: Múltiples archivos para 2021_Q2
+[2025-09-11 20:02:17,544] INFO:   2021_Q3: 2 archivo(s)
+[2025-09-11 20:02:17,544] WARNING:     ADVERTENCIA: Múltiples archivos para 2021_Q3
+[2025-09-11 20:02:17,544] INFO:   2021_Q4: 2 archivo(s)
+[2025-09-11 20:02:17,544] WARNING:     ADVERTENCIA: Múltiples archivos para 2021_Q4
+[2025-09-11 20:02:17,544] INFO:   2022_Q1: 2 archivo(s)
+[2025-09-11 20:02:17,544] WARNING:     ADVERTENCIA: Múltiples archivos para 2022_Q1
+[2025-09-11 20:02:17,544] INFO:   2022_Q2: 2 archivo(s)
+[2025-09-11 20:02:17,544] WARNING:     ADVERTENCIA: Múltiples archivos para 2022_Q2
+[2025-09-11 20:02:17,544] INFO:   2022_Q3: 2 archivo(s)
+[2025-09-11 20:02:17,545] WARNING:     ADVERTENCIA: Múltiples archivos para 2022_Q3
+[2025-09-11 20:02:17,545] INFO:   2022_Q4: 2 archivo(s)
+[2025-09-11 20:02:17,545] WARNING:     ADVERTENCIA: Múltiples archivos para 2022_Q4
+[2025-09-11 20:02:17,545] INFO:   2023_Q1: 2 archivo(s)
+[2025-09-11 20:02:17,545] WARNING:     ADVERTENCIA: Múltiples archivos para 2023_Q1
+[2025-09-11 20:02:17,545] INFO:   2023_Q2: 2 archivo(s)
+[2025-09-11 20:02:17,545] WARNING:     ADVERTENCIA: Múltiples archivos para 2023_Q2
+[2025-09-11 20:02:17,545] INFO:   2023_Q3: 2 archivo(s)
+[2025-09-11 20:02:17,545] WARNING:     ADVERTENCIA: Múltiples archivos para 2023_Q3
+[2025-09-11 20:02:17,545] INFO:   2023_Q4: 2 archivo(s)
+[2025-09-11 20:02:17,545] WARNING:     ADVERTENCIA: Múltiples archivos para 2023_Q4
+[2025-09-11 20:02:17,546] INFO:   2024_Q1: 2 archivo(s)
+[2025-09-11 20:02:17,546] WARNING:     ADVERTENCIA: Múltiples archivos para 2024_Q1
+[2025-09-11 20:02:17,546] INFO:   2024_Q2: 2 archivo(s)
+[2025-09-11 20:02:17,546] WARNING:     ADVERTENCIA: Múltiples archivos para 2024_Q2
+[2025-09-11 20:02:17,546] INFO:   2024_Q3: 2 archivo(s)
+[2025-09-11 20:02:17,546] WARNING:     ADVERTENCIA: Múltiples archivos para 2024_Q3
+[2025-09-11 20:02:17,546] INFO:   2024_Q4: 2 archivo(s)
+[2025-09-11 20:02:17,546] WARNING:     ADVERTENCIA: Múltiples archivos para 2024_Q4
+[2025-09-11 20:02:17,546] INFO:   2025_Q1: 2 archivo(s)
+[2025-09-11 20:02:17,546] WARNING:     ADVERTENCIA: Múltiples archivos para 2025_Q1
+[2025-09-11 20:02:17,546] INFO:   2025_Q2: 2 archivo(s)
+[2025-09-11 20:02:17,546] WARNING:     ADVERTENCIA: Múltiples archivos para 2025_Q2
+[2025-09-11 20:02:17,547] INFO:   UNKNOWN_001: 1 archivo(s)
+[2025-09-11 20:02:17,547] INFO:   UNKNOWN_002: 1 archivo(s)
+[2025-09-11 20:02:17,547] INFO:   UNKNOWN_003: 1 archivo(s)
+[2025-09-11 20:02:17,547] INFO:   UNKNOWN_004: 1 archivo(s)
+[2025-09-11 20:02:17,547] INFO:   UNKNOWN_005: 1 archivo(s)
+[2025-09-11 20:02:17,547] INFO:   UNKNOWN_006: 1 archivo(s)
+[2025-09-11 20:02:17,547] INFO:   UNKNOWN_007: 1 archivo(s)
+[2025-09-11 20:02:17,547] INFO:   UNKNOWN_008: 1 archivo(s)
+[2025-09-11 20:02:17,547] INFO:   UNKNOWN_009: 1 archivo(s)
+[2025-09-11 20:02:17,547] INFO:   UNKNOWN_010: 1 archivo(s)
+[2025-09-11 20:02:17,547] INFO:   UNKNOWN_011: 1 archivo(s)
+[2025-09-11 20:02:17,548] INFO:   UNKNOWN_012: 1 archivo(s)
+[2025-09-11 20:02:17,548] INFO:   UNKNOWN_013: 1 archivo(s)
+[2025-09-11 20:02:17,548] INFO:   UNKNOWN_014: 1 archivo(s)
+[2025-09-11 20:02:17,548] INFO:   UNKNOWN_015: 1 archivo(s)
+[2025-09-11 20:02:17,548] INFO:   UNKNOWN_016: 1 archivo(s)
+[2025-09-11 20:02:17,548] INFO:   UNKNOWN_017: 1 archivo(s)
+[2025-09-11 20:02:17,549] INFO:   UNKNOWN_018: 1 archivo(s)
+[2025-09-11 20:02:17,549] INFO:   UNKNOWN_020: 1 archivo(s)
+[2025-09-11 20:02:17,549] INFO:   UNKNOWN_021: 1 archivo(s)
+[2025-09-11 20:02:17,549] INFO:   UNKNOWN_022: 1 archivo(s)
+[2025-09-11 20:02:17,549] INFO:   UNKNOWN_023: 1 archivo(s)
+[2025-09-11 20:02:17,549] INFO:   UNKNOWN_024: 1 archivo(s)
+[2025-09-11 20:02:17,550] INFO:   UNKNOWN_083: 1 archivo(s)
+[2025-09-11 20:02:17,550] INFO:   UNKNOWN_084: 1 archivo(s)
+[2025-09-11 20:02:17,550] INFO: === FASE 1 COMPLETADA EXITOSAMENTE ===

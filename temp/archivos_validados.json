@@ -1,0 +1,2284 @@
+{
+  "timestamp": "2025-09-11T20:03:49.930387",
+  "total_archivos": 84,
+  "procesables": 11,
+  "no_procesables": 73,
+  "duplicados_info": {},
+  "archivos_seleccionados": {},
+  "validaciones": [
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_01_2015\\conjunto_de_datos_cb_ensu_01_2015\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_01_2015.csv",
+      "periodo_str": "UNKNOWN_001",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 34
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_01_2015\\conjunto_de_datos_cb_ensu_01_2015\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_01_2015.csv",
+      "periodo_str": "UNKNOWN_002",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_01_2016_csv\\conjunto_de_datos_cb_ensu_01_2016\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_01_2016.csv",
+      "periodo_str": "UNKNOWN_003",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 113
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 595,
+          "1": 396,
+          "9": 9
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_01_2016_csv\\conjunto_de_datos_cb_ensu_01_2016\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_01_2016.csv",
+      "periodo_str": "UNKNOWN_004",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_01_2017_csv\\conjunto_de_datos_cb_ensu_01_2017\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_01_2017.csv",
+      "periodo_str": "UNKNOWN_005",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 136
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 659,
+          "1": 339,
+          "9": 2
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 14497,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_01_2017_csv\\conjunto_de_datos_cb_ensu_01_2017\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_01_2017.csv",
+      "periodo_str": "UNKNOWN_006",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_02_2015\\conjunto_de_datos_cb_ensu_02_2015\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_02_2015.csv",
+      "periodo_str": "UNKNOWN_007",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 34
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_02_2015\\conjunto_de_datos_cb_ensu_02_2015\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_02_2015.csv",
+      "periodo_str": "UNKNOWN_008",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_02_2016_csv\\conjunto_de_datos_cb_ensu_02_2016\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_02_2016.csv",
+      "periodo_str": "UNKNOWN_009",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 110
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 581,
+          "1": 411,
+          "9": 8
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_02_2016_csv\\conjunto_de_datos_cb_ensu_02_2016\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_02_2016.csv",
+      "periodo_str": "UNKNOWN_010",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_02_2017_csv\\conjunto_de_datos_cb_ensu_02_2017\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_02_2017.csv",
+      "periodo_str": "UNKNOWN_011",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 137
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 696,
+          "1": 303,
+          "9": 1
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 15272,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_02_2017_csv\\conjunto_de_datos_cb_ensu_02_2017\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_02_2017.csv",
+      "periodo_str": "UNKNOWN_012",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_03_2015\\conjunto_de_datos_cb_ensu_03_2015\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_03_2015.csv",
+      "periodo_str": "UNKNOWN_013",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 34
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_03_2015\\conjunto_de_datos_cb_ensu_03_2015\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_03_2015.csv",
+      "periodo_str": "UNKNOWN_014",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_03_2016_csv\\conjunto_de_datos_cb_ensu_03_2016\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_03_2016.csv",
+      "periodo_str": "UNKNOWN_015",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 120
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 631,
+          "1": 365,
+          "9": 4
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_03_2016_csv\\conjunto_de_datos_cb_ensu_03_2016\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_03_2016.csv",
+      "periodo_str": "UNKNOWN_016",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_03_2017_csv\\conjunto_de_datos_cb_ensu_03_2017\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_03_2017.csv",
+      "periodo_str": "UNKNOWN_017",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 137
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 742,
+          "1": 258
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 15303,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_03_2017_csv\\conjunto_de_datos_cb_ensu_03_2017\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_03_2017.csv",
+      "periodo_str": "UNKNOWN_018",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_04_2015\\conjunto_de_datos_cb_ensu_04_2015\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_04_2015.csv",
+      "periodo_str": "2015_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 34
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_04_2015\\conjunto_de_datos_cb_ensu_04_2015\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_04_2015.csv",
+      "periodo_str": "UNKNOWN_020",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_04_2016_csv\\conjunto_de_datos_cb_ensu_04_2016\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_04_2016.csv",
+      "periodo_str": "UNKNOWN_021",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 122
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 658,
+          "1": 342
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 13976,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_04_2016_csv\\conjunto_de_datos_cb_ensu_04_2016\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_04_2016.csv",
+      "periodo_str": "UNKNOWN_022",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_04_2017_csv\\conjunto_de_datos_cb_ensu_04_2017\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_04_2017.csv",
+      "periodo_str": "UNKNOWN_023",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 137
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 763,
+          "1": 236,
+          "9": 1
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 15072,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_04_2017_csv\\conjunto_de_datos_cb_ensu_04_2017\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_04_2017.csv",
+      "periodo_str": "UNKNOWN_024",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2018_1t_csv\\ensu_cb_0118\\conjunto_de_datos\\ensu_cb_0118.csv",
+      "periodo_str": "2018_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 138
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 731,
+          "1": 267,
+          "9": 2
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 15172,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2018_1t_csv\\ensu_cb_0118\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_0118.csv",
+      "periodo_str": "2018_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2018_2t_csv\\ensu_cb_0218\\conjunto_de_datos\\ ensu_cb_0218.csv",
+      "periodo_str": "2018_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 129
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 687,
+          "1": 310,
+          "9": 3
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 17548,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2018_2t_csv\\ensu_cb_0218\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_0218.csv",
+      "periodo_str": "2018_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2018_3t_csv\\conjunto_de_datos_cb_ensu_03_2018\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_03_2018.csv",
+      "periodo_str": "2018_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 137
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 653,
+          "1": 344,
+          "9": 3
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 20163,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2018_3t_csv\\conjunto_de_datos_cb_ensu_03_2018\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_03_2018.csv",
+      "periodo_str": "2018_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2018_4t_csv\\conjunto_de_datos_cb_ensu_04_2018\\conjunto_de_datos\\conjunto_de_datos_cb_ENSU_04_2018.csv",
+      "periodo_str": "2018_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 123
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 640,
+          "1": 355,
+          "9": 5
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 18017,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2018_4t_csv\\conjunto_de_datos_cb_ensu_04_2018\\diccionario_de_datos\\diccionario_de_datos_cb_ENSU_04_2018.csv",
+      "periodo_str": "2018_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ENSU_2019_1t_csv\\conjunto_de_datos_cb_ensu_03_2019\\conjunto_de_datos\\conjunto_de_datos_cb_ensu_03_2019.csv",
+      "periodo_str": "2019_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 131
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 619,
+          "1": 375,
+          "9": 6
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 263,
+        "total_registros": 18113,
+        "porcentaje_yucatan": 1.45,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ENSU_2019_1t_csv\\conjunto_de_datos_cb_ensu_03_2019\\diccionario_de_datos\\diccionario_de_datos_cb_ensu_03_2019.csv",
+      "periodo_str": "2019_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 86: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 86: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 86: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2019_2t_csv\\conjunto_de_datos_cb_ENSU_2019_2t\\conjunto_de_datos\\conjunto_de_datos_cb_ENSU_2019_2t.csv",
+      "periodo_str": "2019_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 128
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 617,
+          "1": 378,
+          "9": 5
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 19010,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2019_2t_csv\\conjunto_de_datos_cb_ENSU_2019_2t\\diccionario_de_datos\\diccionario_de_datos_cb_ENSU_2019_2t.csv",
+      "periodo_str": "2019_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 100: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 100: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 100: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2019_4t_csv\\conjunto_de_datos_CB_ENSU_04_2019\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_04_2019.csv",
+      "periodo_str": "2019_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 137
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 580,
+          "1": 420
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 22158,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2019_4t_csv\\conjunto_de_datos_CB_ENSU_04_2019\\diccionario_de_datos\\diccionario_de_datos_CB_ENSU_04_2019.csv",
+      "periodo_str": "2019_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 100: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 100: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 100: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2020_1t_csv\\conjunto_de_datos_CB_ENSU_01_2020\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_01_2020.csv",
+      "periodo_str": "2020_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 133
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 624,
+          "1": 371,
+          "9": 5
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 22416,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2020_1t_csv\\conjunto_de_datos_CB_ENSU_01_2020\\diccionario_de_datos\\diccionario_de_datos_CB_ENSU_01_2020.csv",
+      "periodo_str": "2020_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 100: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 100: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 100: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2020_3t_csv\\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\\conjunto_de_datos\\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv",
+      "periodo_str": "2020_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 188
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 519,
+          "1": 481
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 22122,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2020_3t_csv\\conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020\\diccionario_de_datos\\diccionario_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv",
+      "periodo_str": "2020_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2020_3t_csv\\conjunto_de_datos_CB_SEC4_ENSU_09_2020\\conjunto_de_datos\\conjunto_de_datos_CB_SEC4_ENSU_09_2020.csv",
+      "periodo_str": "2020_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "BP1_1"
+        ],
+        "columnas_totales": 105
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 22122,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2020_3t_csv\\conjunto_de_datos_CB_SEC4_ENSU_09_2020\\diccionario_de_datos\\diccionario_de_datos_CB_SEC4_ENSU_09_2020.csv",
+      "periodo_str": "2020_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2020_4t_csv\\conjunto_de_datos_CB_ENSU_12_2020\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_12_2020.csv",
+      "periodo_str": "2020_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 176
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 571,
+          "1": 425,
+          "9": 4
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 22283,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2020_4t_csv\\conjunto_de_datos_CB_ENSU_12_2020\\diccionario_de_datos\\diccionario_de_datos_CB_ENSU_12_2020.csv",
+      "periodo_str": "2020_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2021_1t_csv\\conjunto_de_datos_CB_ENSU_03_2021\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_03_2021.csv",
+      "periodo_str": "2021_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 136
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 554,
+          "1": 442,
+          "9": 4
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 22307,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2021_1t_csv\\conjunto_de_datos_CB_ENSU_03_2021\\diccionario_de_datos\\diccionario_de_datos_CB_ENSU_03_2021.csv",
+      "periodo_str": "2021_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2021_2t_csv\\conjunto_de_datos_CB_ENSU_06_2021\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_06_2021.csv",
+      "periodo_str": "2021_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 142
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 612,
+          "1": 383,
+          "9": 5
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 22411,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2021_2t_csv\\conjunto_de_datos_CB_ENSU_06_2021\\diccionario_de_datos\\diccionario_de_datos_CB_ENSU_06_2021.csv",
+      "periodo_str": "2021_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2021_3t_csv\\conjunto_de_datos_CB_ENSU_09_2021\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_09_2021.csv",
+      "periodo_str": "2021_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 217
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 559,
+          "1": 437,
+          "9": 4
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 23356,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2021_3t_csv\\conjunto_de_datos_CB_ENSU_09_2021\\diccionario_de_datos\\diccionario_de_datos_CB_ENSU_09_2021.csv",
+      "periodo_str": "2021_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2021_4t_csv\\conjunto_de_datos_CB_ENSU_12_2021\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_12_2021.csv",
+      "periodo_str": "2021_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 142
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 558,
+          "1": 442
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 23428,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2021_4t_csv\\conjunto_de_datos_CB_ENSU_12_2021\\diccionario_de_datos\\diccionario_de_datos_CB_ENSU_12_2021.csv",
+      "periodo_str": "2021_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 117: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2022_1t_csv\\conjunto_de_datos_ensu_cb_0322\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0322.csv",
+      "periodo_str": "2022_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 137
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 595,
+          "1": 403,
+          "9": 2
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 272,
+        "total_registros": 23577,
+        "porcentaje_yucatan": 1.15,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2022_1t_csv\\conjunto_de_datos_ensu_cb_0322\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_0322.csv",
+      "periodo_str": "2022_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2022_2t_csv\\conjunto_de_datos_ensu_cb_0622\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0622.csv",
+      "periodo_str": "2022_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 143
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 644,
+          "1": 355,
+          "9": 1
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 275,
+        "total_registros": 23688,
+        "porcentaje_yucatan": 1.16,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2022_2t_csv\\conjunto_de_datos_ensu_cb_0622\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_0622.csv",
+      "periodo_str": "2022_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2022_3t_csv\\conjunto_de_datos_ensu_cb_0922\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0922.csv",
+      "periodo_str": "2022_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 218
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 569,
+          "1": 426,
+          "9": 5
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 263,
+        "total_registros": 23618,
+        "porcentaje_yucatan": 1.11,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2022_3t_csv\\conjunto_de_datos_ensu_cb_0922\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_0922.csv",
+      "periodo_str": "2022_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2022_4t_csv\\conjunto_de_datos_ensu_cb_1222\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_1222.csv",
+      "periodo_str": "2022_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 145
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 520,
+          "1": 474,
+          "9": 6
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 262,
+        "total_registros": 24402,
+        "porcentaje_yucatan": 1.07,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2022_4t_csv\\conjunto_de_datos_ensu_cb_1222\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_1222.csv",
+      "periodo_str": "2022_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2023_1t_csv\\conjunto_de_datos_CB_ENSU_03_2023\\conjunto_de_datos\\conjunto_de_datos_CB_ENSU_03_2023.csv",
+      "periodo_str": "2023_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 142
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 530,
+          "1": 467,
+          "9": 3
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 23778,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2023_1t_csv\\conjunto_de_datos_CB_ENSU_03_2023\\diccionario_de_datos\\diccionario_de_datos_CB_ENSU_03_2023.csv",
+      "periodo_str": "2023_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 96: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 96: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 96: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2023_2t_csv\\conjunto_de_datos_ensu_cb_0623\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0623.csv",
+      "periodo_str": "2023_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 145
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 505,
+          "1": 493,
+          "9": 2
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 24435,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2023_2t_csv\\conjunto_de_datos_ensu_cb_0623\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_0623.csv",
+      "periodo_str": "2023_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 96: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 96: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 96: invalid continuation byte"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2023_3t_csv\\conjunto_de_datos_ensu_cb_0923\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0923.csv",
+      "periodo_str": "2023_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 240
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 519,
+          "2": 478,
+          "9": 3
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 24493,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2023_3t_csv\\conjunto_de_datos_ensu_cb_0923\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_0923.csv",
+      "periodo_str": "2023_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2023_4t_csv\\conjunto_de_datos_ensu_cb_1223\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_1223.csv",
+      "periodo_str": "2023_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 145
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 580,
+          "2": 417,
+          "9": 3
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 268,
+        "total_registros": 24064,
+        "porcentaje_yucatan": 1.11,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2023_4t_csv\\conjunto_de_datos_ensu_cb_1223\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_1223.csv",
+      "periodo_str": "2023_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2024_1t_csv\\conjunto_de_datos_ensu_cb_0324\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0324.csv",
+      "periodo_str": "2024_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 145
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 511,
+          "1": 484,
+          "9": 5
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 257,
+        "total_registros": 24022,
+        "porcentaje_yucatan": 1.07,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2024_1t_csv\\conjunto_de_datos_ensu_cb_0324\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_0324.csv",
+      "periodo_str": "2024_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2024_2t_csv\\conjunto_de_datos_ensu_cb_0624\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0624.csv",
+      "periodo_str": "2024_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 149
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 506,
+          "2": 492,
+          "9": 2
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 256,
+        "total_registros": 24114,
+        "porcentaje_yucatan": 1.06,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2024_2t_csv\\conjunto_de_datos_ensu_cb_0624\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_0624.csv",
+      "periodo_str": "2024_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2024_3t_csv\\conjunto_de_datos_ensu_cb_0924\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0924.csv",
+      "periodo_str": "2024_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 245
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 509,
+          "2": 491
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 258,
+        "total_registros": 24096,
+        "porcentaje_yucatan": 1.07,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2024_3t_csv\\conjunto_de_datos_ensu_cb_0924\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_0924.csv",
+      "periodo_str": "2024_Q3",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2024_4t_csv\\conjunto_de_datos_ensu_cb_1224\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_1224.csv",
+      "periodo_str": "2024_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 150
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "1": 508,
+          "2": 491,
+          "9": 1
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 260,
+        "total_registros": 23451,
+        "porcentaje_yucatan": 1.11,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2024_4t_csv\\conjunto_de_datos_ensu_cb_1224\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_1224.csv",
+      "periodo_str": "2024_Q4",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2025_1t_csv\\conjunto_de_datos_ensu_cb_0325\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0325.csv",
+      "periodo_str": "2025_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 146
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 505,
+          "1": 490,
+          "9": 5
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 258,
+        "total_registros": 23591,
+        "porcentaje_yucatan": 1.09,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2025_1t_csv\\conjunto_de_datos_ensu_cb_0325\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_0325.csv",
+      "periodo_str": "2025_Q1",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2025_2t_csv\\conjunto_de_datos_ensu_cb_0625\\conjunto_de_datos\\conjunto_de_datos_ensu_cb_0625.csv",
+      "periodo_str": "2025_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": true,
+        "columnas_faltantes": [],
+        "columnas_totales": 150
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 565,
+          "1": 433,
+          "9": 2
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": true,
+        "registros_yucatan": 255,
+        "total_registros": 23717,
+        "porcentaje_yucatan": 1.08,
+        "estados_unicos": 32
+      },
+      "es_procesable": true
+    },
+    {
+      "filepath": "data\\conjunto_de_datos_ensu_2025_2t_csv\\conjunto_de_datos_ensu_cb_0625\\diccionario_de_datos\\diccionario_de_datos_ensu_cb_0625.csv",
+      "periodo_str": "2025_Q2",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_ENT",
+          "NOM_CD",
+          "BP1_1",
+          "NOM_MUN"
+        ],
+        "columnas_totales": 5
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['BP1_1']"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "Usecols do not match columns, columns expected but not found: ['NOM_ENT']"
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\Datos abiertos\\conjunto_de_datos_CB_ENSU_03_2019\\conjunto_de_datos\\conjunto_de_datos_cb_ENSU_03_2019.csv",
+      "periodo_str": "UNKNOWN_083",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "columnas_faltantes": [
+          "NOM_CD"
+        ],
+        "columnas_totales": 132
+      },
+      "validacion_bp1_1": {
+        "valores_validos": true,
+        "valores_unicos": [
+          1,
+          2,
+          9
+        ],
+        "valores_invalidos": [],
+        "distribucion": {
+          "2": 619,
+          "1": 378,
+          "9": 3
+        },
+        "nulls_count": 0,
+        "nulls_percentage": 0.0,
+        "muestra_size": 1000
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "registros_yucatan": 0,
+        "total_registros": 22392,
+        "porcentaje_yucatan": 0.0,
+        "estados_unicos": 32
+      },
+      "es_procesable": false
+    },
+    {
+      "filepath": "data\\Datos abiertos\\conjunto_de_datos_CB_ENSU_03_2019\\diccionario_de_datos\\diccionario_de_datos_cb_ENSU_03_2019.csv",
+      "periodo_str": "UNKNOWN_084",
+      "validacion_columnas": {
+        "columnas_presentes": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 100: invalid continuation byte"
+      },
+      "validacion_bp1_1": {
+        "valores_validos": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 100: invalid continuation byte"
+      },
+      "validacion_yucatan": {
+        "tiene_yucatan": false,
+        "error": "'utf-8' codec can't decode byte 0xe9 in position 100: invalid continuation byte"
+      },
+      "es_procesable": false
+    }
+  ]
+}
