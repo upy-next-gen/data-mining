@@ -8,3 +8,23 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Archivos de datos grandes (mantener solo procesados)
+raw data/
+data/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS específicos
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Recursos que se pueden regenerar (opcional)
+# resources/
