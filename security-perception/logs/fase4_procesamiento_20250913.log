@@ -1,0 +1,1042 @@
+[2025-09-13 15:09:46,154] INFO: === INICIANDO FASE 4: PROCESAMIENTO ===
+[2025-09-13 15:09:46,154] INFO: --- Procesando 2016_Q4 desde conjunto_de_datos_cb_ensu_04_2016.csv ---
+[2025-09-13 15:09:46,226] INFO: ✓ Procesamiento de 2016_Q4 exitoso.
+[2025-09-13 15:09:46,229] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q4.csv
+[2025-09-13 15:09:46,229] INFO: --- Procesando 2017_Q1 desde conjunto_de_datos_cb_ensu_01_2017.csv ---
+[2025-09-13 15:09:46,297] INFO: ✓ Procesamiento de 2017_Q1 exitoso.
+[2025-09-13 15:09:46,298] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q1.csv
+[2025-09-13 15:09:46,298] INFO: --- Procesando 2017_Q2 desde conjunto_de_datos_cb_ensu_02_2017.csv ---
+[2025-09-13 15:09:46,377] INFO: ✓ Procesamiento de 2017_Q2 exitoso.
+[2025-09-13 15:09:46,378] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q2.csv
+[2025-09-13 15:09:46,378] INFO: --- Procesando 2017_Q3 desde conjunto_de_datos_cb_ensu_03_2017.csv ---
+[2025-09-13 15:09:46,448] INFO: ✓ Procesamiento de 2017_Q3 exitoso.
+[2025-09-13 15:09:46,448] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q3.csv
+[2025-09-13 15:09:46,448] INFO: --- Procesando 2017_Q4 desde conjunto_de_datos_cb_ensu_04_2017.csv ---
+[2025-09-13 15:09:46,512] INFO: ✓ Procesamiento de 2017_Q4 exitoso.
+[2025-09-13 15:09:46,513] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q4.csv
+[2025-09-13 15:09:46,513] INFO: --- Procesando 2018_Q1 desde ensu_cb_0118.csv ---
+[2025-09-13 15:09:46,576] INFO: ✓ Procesamiento de 2018_Q1 exitoso.
+[2025-09-13 15:09:46,577] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q1.csv
+[2025-09-13 15:09:46,577] INFO: --- Procesando 2018_Q2 desde  ensu_cb_0218.csv ---
+[2025-09-13 15:09:46,650] INFO: ✓ Procesamiento de 2018_Q2 exitoso.
+[2025-09-13 15:09:46,651] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q2.csv
+[2025-09-13 15:09:46,651] INFO: --- Procesando 2018_Q3 desde conjunto_de_datos_cb_ensu_03_2018.csv ---
+[2025-09-13 15:09:46,740] INFO: ✓ Procesamiento de 2018_Q3 exitoso.
+[2025-09-13 15:09:46,741] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q3.csv
+[2025-09-13 15:09:46,741] INFO: --- Procesando 2018_Q4 desde conjunto_de_datos_cb_ENSU_04_2018.csv ---
+[2025-09-13 15:09:46,808] INFO: ✓ Procesamiento de 2018_Q4 exitoso.
+[2025-09-13 15:09:46,808] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q4.csv
+[2025-09-13 15:09:46,808] INFO: --- Procesando 2019_Q1 desde conjunto_de_datos_cb_ensu_03_2019.csv ---
+[2025-09-13 15:09:46,856] INFO: ✓ Procesamiento de 2019_Q1 exitoso.
+[2025-09-13 15:09:46,857] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q1.csv
+[2025-09-13 15:09:46,857] INFO: --- Procesando 2019_Q2 desde conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+[2025-09-13 15:09:46,940] INFO: ✓ Procesamiento de 2019_Q2 exitoso.
+[2025-09-13 15:09:46,940] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q2.csv
+[2025-09-13 15:09:46,940] INFO: --- Procesando 2019_Q3 desde conjunto_de_datos_cb_ENSU_03_2019.csv ---
+[2025-09-13 15:09:47,034] INFO: ✓ Procesamiento de 2019_Q3 exitoso.
+[2025-09-13 15:09:47,034] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q3.csv
+[2025-09-13 15:09:47,034] INFO: --- Procesando 2019_Q4 desde conjunto_de_datos_CB_ENSU_04_2019.csv ---
+[2025-09-13 15:09:47,127] INFO: ✓ Procesamiento de 2019_Q4 exitoso.
+[2025-09-13 15:09:47,128] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q4.csv
+[2025-09-13 15:09:47,128] INFO: --- Procesando 2020_Q1 desde conjunto_de_datos_CB_ENSU_01_2020.csv ---
+[2025-09-13 15:09:47,217] INFO: ✓ Procesamiento de 2020_Q1 exitoso.
+[2025-09-13 15:09:47,217] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q1.csv
+[2025-09-13 15:09:47,217] INFO: --- Procesando 2020_Q3 desde conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+[2025-09-13 15:09:47,332] INFO: ✓ Procesamiento de 2020_Q3 exitoso.
+[2025-09-13 15:09:47,333] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q3.csv
+[2025-09-13 15:09:47,333] INFO: --- Procesando 2020_Q4 desde conjunto_de_datos_CB_ENSU_12_2020.csv ---
+[2025-09-13 15:09:47,442] INFO: ✓ Procesamiento de 2020_Q4 exitoso.
+[2025-09-13 15:09:47,442] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q4.csv
+[2025-09-13 15:09:47,442] INFO: --- Procesando 2021_Q1 desde conjunto_de_datos_CB_ENSU_03_2021.csv ---
+[2025-09-13 15:09:47,531] INFO: ✓ Procesamiento de 2021_Q1 exitoso.
+[2025-09-13 15:09:47,531] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q1.csv
+[2025-09-13 15:09:47,531] INFO: --- Procesando 2021_Q2 desde conjunto_de_datos_CB_ENSU_06_2021.csv ---
+[2025-09-13 15:09:47,626] INFO: ✓ Procesamiento de 2021_Q2 exitoso.
+[2025-09-13 15:09:47,627] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q2.csv
+[2025-09-13 15:09:47,627] INFO: --- Procesando 2021_Q3 desde conjunto_de_datos_CB_ENSU_09_2021.csv ---
+[2025-09-13 15:09:47,758] INFO: ✓ Procesamiento de 2021_Q3 exitoso.
+[2025-09-13 15:09:47,759] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q3.csv
+[2025-09-13 15:09:47,759] INFO: --- Procesando 2021_Q4 desde conjunto_de_datos_CB_ENSU_12_2021.csv ---
+[2025-09-13 15:09:47,853] INFO: ✓ Procesamiento de 2021_Q4 exitoso.
+[2025-09-13 15:09:47,853] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q4.csv
+[2025-09-13 15:09:47,853] INFO: --- Procesando 2022_Q1 desde conjunto_de_datos_ensu_cb_0322.csv ---
+[2025-09-13 15:09:47,931] INFO: ✓ Procesamiento de 2022_Q1 exitoso.
+[2025-09-13 15:09:47,932] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q1.csv
+[2025-09-13 15:09:47,932] INFO: --- Procesando 2022_Q2 desde conjunto_de_datos_ensu_cb_0622.csv ---
+[2025-09-13 15:09:48,021] INFO: ✓ Procesamiento de 2022_Q2 exitoso.
+[2025-09-13 15:09:48,021] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q2.csv
+[2025-09-13 15:09:48,021] INFO: --- Procesando 2022_Q3 desde conjunto_de_datos_ensu_cb_0922.csv ---
+[2025-09-13 15:09:48,135] INFO: ✓ Procesamiento de 2022_Q3 exitoso.
+[2025-09-13 15:09:48,135] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q3.csv
+[2025-09-13 15:09:48,135] INFO: --- Procesando 2022_Q4 desde conjunto_de_datos_ensu_cb_1222.csv ---
+[2025-09-13 15:09:48,253] INFO: ✓ Procesamiento de 2022_Q4 exitoso.
+[2025-09-13 15:09:48,254] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q4.csv
+[2025-09-13 15:09:48,254] INFO: --- Procesando 2023_Q1 desde conjunto_de_datos_CB_ENSU_03_2023.csv ---
+[2025-09-13 15:09:48,351] INFO: ✓ Procesamiento de 2023_Q1 exitoso.
+[2025-09-13 15:09:48,351] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q1.csv
+[2025-09-13 15:09:48,351] INFO: --- Procesando 2023_Q2 desde conjunto_de_datos_ensu_cb_0623.csv ---
+[2025-09-13 15:09:48,456] INFO: ✓ Procesamiento de 2023_Q2 exitoso.
+[2025-09-13 15:09:48,457] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q2.csv
+[2025-09-13 15:09:48,457] INFO: --- Procesando 2023_Q3 desde conjunto_de_datos_ensu_cb_0923.csv ---
+[2025-09-13 15:09:48,611] INFO: ✓ Procesamiento de 2023_Q3 exitoso.
+[2025-09-13 15:09:48,612] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q3.csv
+[2025-09-13 15:09:48,612] INFO: --- Procesando 2023_Q4 desde conjunto_de_datos_ensu_cb_1223.csv ---
+[2025-09-13 15:09:48,698] INFO: ✓ Procesamiento de 2023_Q4 exitoso.
+[2025-09-13 15:09:48,698] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q4.csv
+[2025-09-13 15:09:48,698] INFO: --- Procesando 2024_Q1 desde conjunto_de_datos_ensu_cb_0324.csv ---
+[2025-09-13 15:09:48,782] INFO: ✓ Procesamiento de 2024_Q1 exitoso.
+[2025-09-13 15:09:48,783] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q1.csv
+[2025-09-13 15:09:48,783] INFO: --- Procesando 2024_Q2 desde conjunto_de_datos_ensu_cb_0624.csv ---
+[2025-09-13 15:09:48,872] INFO: ✓ Procesamiento de 2024_Q2 exitoso.
+[2025-09-13 15:09:48,873] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q2.csv
+[2025-09-13 15:09:48,873] INFO: --- Procesando 2024_Q3 desde conjunto_de_datos_ensu_cb_0924.csv ---
+[2025-09-13 15:09:49,002] INFO: ✓ Procesamiento de 2024_Q3 exitoso.
+[2025-09-13 15:09:49,003] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q3.csv
+[2025-09-13 15:09:49,003] INFO: --- Procesando 2024_Q4 desde conjunto_de_datos_ensu_cb_1224.csv ---
+[2025-09-13 15:09:49,090] INFO: ✓ Procesamiento de 2024_Q4 exitoso.
+[2025-09-13 15:09:49,090] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q4.csv
+[2025-09-13 15:09:49,090] INFO: --- Procesando 2025_Q1 desde conjunto_de_datos_ensu_cb_0325.csv ---
+[2025-09-13 15:09:49,173] INFO: ✓ Procesamiento de 2025_Q1 exitoso.
+[2025-09-13 15:09:49,173] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q1.csv
+[2025-09-13 15:09:49,173] INFO: --- Procesando 2025_Q2 desde conjunto_de_datos_ensu_cb_0625.csv ---
+[2025-09-13 15:09:49,262] INFO: ✓ Procesamiento de 2025_Q2 exitoso.
+[2025-09-13 15:09:49,262] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q2.csv
+[2025-09-13 15:09:49,262] INFO: === FASE 4 COMPLETADA EXITOSAMENTE ===
+[2025-09-13 15:24:17,055] INFO: === INICIANDO FASE 4: PROCESAMIENTO (FORMATO FINAL) ===
+[2025-09-13 15:24:17,056] INFO: --- Procesando 2016_Q4 desde conjunto_de_datos_cb_ensu_04_2016.csv ---
+[2025-09-13 15:24:17,125] INFO: ✓ Procesamiento de 2016_Q4 exitoso con el formato final.
+[2025-09-13 15:24:17,126] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q4.csv
+[2025-09-13 15:24:17,126] INFO: --- Procesando 2017_Q1 desde conjunto_de_datos_cb_ensu_01_2017.csv ---
+[2025-09-13 15:24:17,194] INFO: ✓ Procesamiento de 2017_Q1 exitoso con el formato final.
+[2025-09-13 15:24:17,195] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q1.csv
+[2025-09-13 15:24:17,195] INFO: --- Procesando 2017_Q2 desde conjunto_de_datos_cb_ensu_02_2017.csv ---
+[2025-09-13 15:24:17,279] INFO: ✓ Procesamiento de 2017_Q2 exitoso con el formato final.
+[2025-09-13 15:24:17,279] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q2.csv
+[2025-09-13 15:24:17,279] INFO: --- Procesando 2017_Q3 desde conjunto_de_datos_cb_ensu_03_2017.csv ---
+[2025-09-13 15:24:17,343] INFO: ✓ Procesamiento de 2017_Q3 exitoso con el formato final.
+[2025-09-13 15:24:17,344] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q3.csv
+[2025-09-13 15:24:17,344] INFO: --- Procesando 2017_Q4 desde conjunto_de_datos_cb_ensu_04_2017.csv ---
+[2025-09-13 15:24:17,408] INFO: ✓ Procesamiento de 2017_Q4 exitoso con el formato final.
+[2025-09-13 15:24:17,408] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q4.csv
+[2025-09-13 15:24:17,408] INFO: --- Procesando 2018_Q1 desde ensu_cb_0118.csv ---
+[2025-09-13 15:24:17,473] INFO: ✓ Procesamiento de 2018_Q1 exitoso con el formato final.
+[2025-09-13 15:24:17,474] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q1.csv
+[2025-09-13 15:24:17,474] INFO: --- Procesando 2018_Q2 desde  ensu_cb_0218.csv ---
+[2025-09-13 15:24:17,541] INFO: ✓ Procesamiento de 2018_Q2 exitoso con el formato final.
+[2025-09-13 15:24:17,542] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q2.csv
+[2025-09-13 15:24:17,542] INFO: --- Procesando 2018_Q3 desde conjunto_de_datos_cb_ensu_03_2018.csv ---
+[2025-09-13 15:24:17,632] INFO: ✓ Procesamiento de 2018_Q3 exitoso con el formato final.
+[2025-09-13 15:24:17,632] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q3.csv
+[2025-09-13 15:24:17,633] INFO: --- Procesando 2018_Q4 desde conjunto_de_datos_cb_ENSU_04_2018.csv ---
+[2025-09-13 15:24:17,702] INFO: ✓ Procesamiento de 2018_Q4 exitoso con el formato final.
+[2025-09-13 15:24:17,702] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q4.csv
+[2025-09-13 15:24:17,702] INFO: --- Procesando 2019_Q1 desde conjunto_de_datos_cb_ensu_03_2019.csv ---
+[2025-09-13 15:24:17,748] INFO: ✓ Procesamiento de 2019_Q1 exitoso con el formato final.
+[2025-09-13 15:24:17,748] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q1.csv
+[2025-09-13 15:24:17,748] INFO: --- Procesando 2019_Q2 desde conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+[2025-09-13 15:24:17,824] INFO: ✓ Procesamiento de 2019_Q2 exitoso con el formato final.
+[2025-09-13 15:24:17,825] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q2.csv
+[2025-09-13 15:24:17,825] INFO: --- Procesando 2019_Q3 desde conjunto_de_datos_cb_ENSU_03_2019.csv ---
+[2025-09-13 15:24:17,914] INFO: ✓ Procesamiento de 2019_Q3 exitoso con el formato final.
+[2025-09-13 15:24:17,915] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q3.csv
+[2025-09-13 15:24:17,915] INFO: --- Procesando 2019_Q4 desde conjunto_de_datos_CB_ENSU_04_2019.csv ---
+[2025-09-13 15:24:18,003] INFO: ✓ Procesamiento de 2019_Q4 exitoso con el formato final.
+[2025-09-13 15:24:18,004] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q4.csv
+[2025-09-13 15:24:18,004] INFO: --- Procesando 2020_Q1 desde conjunto_de_datos_CB_ENSU_01_2020.csv ---
+[2025-09-13 15:24:18,090] INFO: ✓ Procesamiento de 2020_Q1 exitoso con el formato final.
+[2025-09-13 15:24:18,091] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q1.csv
+[2025-09-13 15:24:18,091] INFO: --- Procesando 2020_Q3 desde conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+[2025-09-13 15:24:18,203] INFO: ✓ Procesamiento de 2020_Q3 exitoso con el formato final.
+[2025-09-13 15:24:18,204] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q3.csv
+[2025-09-13 15:24:18,204] INFO: --- Procesando 2020_Q4 desde conjunto_de_datos_CB_ENSU_12_2020.csv ---
+[2025-09-13 15:24:18,311] INFO: ✓ Procesamiento de 2020_Q4 exitoso con el formato final.
+[2025-09-13 15:24:18,312] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q4.csv
+[2025-09-13 15:24:18,312] INFO: --- Procesando 2021_Q1 desde conjunto_de_datos_CB_ENSU_03_2021.csv ---
+[2025-09-13 15:24:18,402] INFO: ✓ Procesamiento de 2021_Q1 exitoso con el formato final.
+[2025-09-13 15:24:18,402] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q1.csv
+[2025-09-13 15:24:18,402] INFO: --- Procesando 2021_Q2 desde conjunto_de_datos_CB_ENSU_06_2021.csv ---
+[2025-09-13 15:24:18,498] INFO: ✓ Procesamiento de 2021_Q2 exitoso con el formato final.
+[2025-09-13 15:24:18,499] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q2.csv
+[2025-09-13 15:24:18,499] INFO: --- Procesando 2021_Q3 desde conjunto_de_datos_CB_ENSU_09_2021.csv ---
+[2025-09-13 15:24:18,629] INFO: ✓ Procesamiento de 2021_Q3 exitoso con el formato final.
+[2025-09-13 15:24:18,630] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q3.csv
+[2025-09-13 15:24:18,630] INFO: --- Procesando 2021_Q4 desde conjunto_de_datos_CB_ENSU_12_2021.csv ---
+[2025-09-13 15:24:18,726] INFO: ✓ Procesamiento de 2021_Q4 exitoso con el formato final.
+[2025-09-13 15:24:18,726] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q4.csv
+[2025-09-13 15:24:18,726] INFO: --- Procesando 2022_Q1 desde conjunto_de_datos_ensu_cb_0322.csv ---
+[2025-09-13 15:24:18,804] INFO: ✓ Procesamiento de 2022_Q1 exitoso con el formato final.
+[2025-09-13 15:24:18,804] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q1.csv
+[2025-09-13 15:24:18,804] INFO: --- Procesando 2022_Q2 desde conjunto_de_datos_ensu_cb_0622.csv ---
+[2025-09-13 15:24:18,889] INFO: ✓ Procesamiento de 2022_Q2 exitoso con el formato final.
+[2025-09-13 15:24:18,890] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q2.csv
+[2025-09-13 15:24:18,890] INFO: --- Procesando 2022_Q3 desde conjunto_de_datos_ensu_cb_0922.csv ---
+[2025-09-13 15:24:19,009] INFO: ✓ Procesamiento de 2022_Q3 exitoso con el formato final.
+[2025-09-13 15:24:19,009] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q3.csv
+[2025-09-13 15:24:19,009] INFO: --- Procesando 2022_Q4 desde conjunto_de_datos_ensu_cb_1222.csv ---
+[2025-09-13 15:24:19,095] INFO: ✓ Procesamiento de 2022_Q4 exitoso con el formato final.
+[2025-09-13 15:24:19,096] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q4.csv
+[2025-09-13 15:24:19,096] INFO: --- Procesando 2023_Q1 desde conjunto_de_datos_CB_ENSU_03_2023.csv ---
+[2025-09-13 15:24:19,191] INFO: ✓ Procesamiento de 2023_Q1 exitoso con el formato final.
+[2025-09-13 15:24:19,192] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q1.csv
+[2025-09-13 15:24:19,192] INFO: --- Procesando 2023_Q2 desde conjunto_de_datos_ensu_cb_0623.csv ---
+[2025-09-13 15:24:19,296] INFO: ✓ Procesamiento de 2023_Q2 exitoso con el formato final.
+[2025-09-13 15:24:19,296] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q2.csv
+[2025-09-13 15:24:19,296] INFO: --- Procesando 2023_Q3 desde conjunto_de_datos_ensu_cb_0923.csv ---
+[2025-09-13 15:24:19,443] INFO: ✓ Procesamiento de 2023_Q3 exitoso con el formato final.
+[2025-09-13 15:24:19,444] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q3.csv
+[2025-09-13 15:24:19,444] INFO: --- Procesando 2023_Q4 desde conjunto_de_datos_ensu_cb_1223.csv ---
+[2025-09-13 15:24:19,527] INFO: ✓ Procesamiento de 2023_Q4 exitoso con el formato final.
+[2025-09-13 15:24:19,528] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q4.csv
+[2025-09-13 15:24:19,528] INFO: --- Procesando 2024_Q1 desde conjunto_de_datos_ensu_cb_0324.csv ---
+[2025-09-13 15:24:19,613] INFO: ✓ Procesamiento de 2024_Q1 exitoso con el formato final.
+[2025-09-13 15:24:19,613] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q1.csv
+[2025-09-13 15:24:19,614] INFO: --- Procesando 2024_Q2 desde conjunto_de_datos_ensu_cb_0624.csv ---
+[2025-09-13 15:24:19,704] INFO: ✓ Procesamiento de 2024_Q2 exitoso con el formato final.
+[2025-09-13 15:24:19,705] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q2.csv
+[2025-09-13 15:24:19,705] INFO: --- Procesando 2024_Q3 desde conjunto_de_datos_ensu_cb_0924.csv ---
+[2025-09-13 15:24:19,837] INFO: ✓ Procesamiento de 2024_Q3 exitoso con el formato final.
+[2025-09-13 15:24:19,838] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q3.csv
+[2025-09-13 15:24:19,838] INFO: --- Procesando 2024_Q4 desde conjunto_de_datos_ensu_cb_1224.csv ---
+[2025-09-13 15:24:19,928] INFO: ✓ Procesamiento de 2024_Q4 exitoso con el formato final.
+[2025-09-13 15:24:19,929] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q4.csv
+[2025-09-13 15:24:19,929] INFO: --- Procesando 2025_Q1 desde conjunto_de_datos_ensu_cb_0325.csv ---
+[2025-09-13 15:24:20,017] INFO: ✓ Procesamiento de 2025_Q1 exitoso con el formato final.
+[2025-09-13 15:24:20,018] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q1.csv
+[2025-09-13 15:24:20,018] INFO: --- Procesando 2025_Q2 desde conjunto_de_datos_ensu_cb_0625.csv ---
+[2025-09-13 15:24:20,106] INFO: ✓ Procesamiento de 2025_Q2 exitoso con el formato final.
+[2025-09-13 15:24:20,106] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q2.csv
+[2025-09-13 15:24:20,106] INFO: === FASE 4 COMPLETADA EXITOSAMENTE ===
+[2025-09-13 15:33:41,702] INFO: === INICIANDO FASE 4: PROCESAMIENTO (VERSIÓN FINAL CORREGIDA) ===
+[2025-09-13 15:33:41,702] INFO: --- Procesando 2016_Q4 desde conjunto_de_datos_cb_ensu_04_2016.csv ---
+[2025-09-13 15:33:41,770] INFO: ✓ Procesamiento de 2016_Q4 exitoso con el formato final.
+[2025-09-13 15:33:41,771] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q4.csv
+[2025-09-13 15:33:41,771] INFO: --- Procesando 2017_Q1 desde conjunto_de_datos_cb_ensu_01_2017.csv ---
+[2025-09-13 15:33:41,834] INFO: ✓ Procesamiento de 2017_Q1 exitoso con el formato final.
+[2025-09-13 15:33:41,834] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q1.csv
+[2025-09-13 15:33:41,834] INFO: --- Procesando 2017_Q2 desde conjunto_de_datos_cb_ensu_02_2017.csv ---
+[2025-09-13 15:33:41,917] INFO: ✓ Procesamiento de 2017_Q2 exitoso con el formato final.
+[2025-09-13 15:33:41,917] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q2.csv
+[2025-09-13 15:33:41,917] INFO: --- Procesando 2017_Q3 desde conjunto_de_datos_cb_ensu_03_2017.csv ---
+[2025-09-13 15:33:41,983] INFO: ✓ Procesamiento de 2017_Q3 exitoso con el formato final.
+[2025-09-13 15:33:41,983] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q3.csv
+[2025-09-13 15:33:41,983] INFO: --- Procesando 2017_Q4 desde conjunto_de_datos_cb_ensu_04_2017.csv ---
+[2025-09-13 15:33:42,048] INFO: ✓ Procesamiento de 2017_Q4 exitoso con el formato final.
+[2025-09-13 15:33:42,049] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q4.csv
+[2025-09-13 15:33:42,049] INFO: --- Procesando 2018_Q1 desde ensu_cb_0118.csv ---
+[2025-09-13 15:33:42,116] INFO: ✓ Procesamiento de 2018_Q1 exitoso con el formato final.
+[2025-09-13 15:33:42,118] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q1.csv
+[2025-09-13 15:33:42,118] INFO: --- Procesando 2018_Q2 desde  ensu_cb_0218.csv ---
+[2025-09-13 15:33:42,190] INFO: ✓ Procesamiento de 2018_Q2 exitoso con el formato final.
+[2025-09-13 15:33:42,191] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q2.csv
+[2025-09-13 15:33:42,191] INFO: --- Procesando 2018_Q3 desde conjunto_de_datos_cb_ensu_03_2018.csv ---
+[2025-09-13 15:33:42,277] INFO: ✓ Procesamiento de 2018_Q3 exitoso con el formato final.
+[2025-09-13 15:33:42,278] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q3.csv
+[2025-09-13 15:33:42,278] INFO: --- Procesando 2018_Q4 desde conjunto_de_datos_cb_ENSU_04_2018.csv ---
+[2025-09-13 15:33:42,341] INFO: ✓ Procesamiento de 2018_Q4 exitoso con el formato final.
+[2025-09-13 15:33:42,341] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q4.csv
+[2025-09-13 15:33:42,341] INFO: --- Procesando 2019_Q1 desde conjunto_de_datos_cb_ensu_03_2019.csv ---
+[2025-09-13 15:33:42,389] INFO: ✓ Procesamiento de 2019_Q1 exitoso con el formato final.
+[2025-09-13 15:33:42,390] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q1.csv
+[2025-09-13 15:33:42,390] INFO: --- Procesando 2019_Q2 desde conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+[2025-09-13 15:33:42,471] INFO: ✓ Procesamiento de 2019_Q2 exitoso con el formato final.
+[2025-09-13 15:33:42,471] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q2.csv
+[2025-09-13 15:33:42,471] INFO: --- Procesando 2019_Q3 desde conjunto_de_datos_cb_ENSU_03_2019.csv ---
+[2025-09-13 15:33:42,559] INFO: ✓ Procesamiento de 2019_Q3 exitoso con el formato final.
+[2025-09-13 15:33:42,559] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q3.csv
+[2025-09-13 15:33:42,559] INFO: --- Procesando 2019_Q4 desde conjunto_de_datos_CB_ENSU_04_2019.csv ---
+[2025-09-13 15:33:42,653] INFO: ✓ Procesamiento de 2019_Q4 exitoso con el formato final.
+[2025-09-13 15:33:42,653] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q4.csv
+[2025-09-13 15:33:42,653] INFO: --- Procesando 2020_Q1 desde conjunto_de_datos_CB_ENSU_01_2020.csv ---
+[2025-09-13 15:33:42,743] INFO: ✓ Procesamiento de 2020_Q1 exitoso con el formato final.
+[2025-09-13 15:33:42,744] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q1.csv
+[2025-09-13 15:33:42,744] INFO: --- Procesando 2020_Q3 desde conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+[2025-09-13 15:33:42,864] INFO: ✓ Procesamiento de 2020_Q3 exitoso con el formato final.
+[2025-09-13 15:33:42,865] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q3.csv
+[2025-09-13 15:33:42,865] INFO: --- Procesando 2020_Q4 desde conjunto_de_datos_CB_ENSU_12_2020.csv ---
+[2025-09-13 15:33:42,975] INFO: ✓ Procesamiento de 2020_Q4 exitoso con el formato final.
+[2025-09-13 15:33:42,976] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q4.csv
+[2025-09-13 15:33:42,976] INFO: --- Procesando 2021_Q1 desde conjunto_de_datos_CB_ENSU_03_2021.csv ---
+[2025-09-13 15:33:43,113] INFO: ✓ Procesamiento de 2021_Q1 exitoso con el formato final.
+[2025-09-13 15:33:43,114] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q1.csv
+[2025-09-13 15:33:43,114] INFO: --- Procesando 2021_Q2 desde conjunto_de_datos_CB_ENSU_06_2021.csv ---
+[2025-09-13 15:33:43,208] INFO: ✓ Procesamiento de 2021_Q2 exitoso con el formato final.
+[2025-09-13 15:33:43,209] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q2.csv
+[2025-09-13 15:33:43,209] INFO: --- Procesando 2021_Q3 desde conjunto_de_datos_CB_ENSU_09_2021.csv ---
+[2025-09-13 15:33:43,340] INFO: ✓ Procesamiento de 2021_Q3 exitoso con el formato final.
+[2025-09-13 15:33:43,341] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q3.csv
+[2025-09-13 15:33:43,341] INFO: --- Procesando 2021_Q4 desde conjunto_de_datos_CB_ENSU_12_2021.csv ---
+[2025-09-13 15:33:43,437] INFO: ✓ Procesamiento de 2021_Q4 exitoso con el formato final.
+[2025-09-13 15:33:43,438] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q4.csv
+[2025-09-13 15:33:43,438] INFO: --- Procesando 2022_Q1 desde conjunto_de_datos_ensu_cb_0322.csv ---
+[2025-09-13 15:33:43,517] INFO: ✓ Procesamiento de 2022_Q1 exitoso con el formato final.
+[2025-09-13 15:33:43,517] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q1.csv
+[2025-09-13 15:33:43,517] INFO: --- Procesando 2022_Q2 desde conjunto_de_datos_ensu_cb_0622.csv ---
+[2025-09-13 15:33:43,607] INFO: ✓ Procesamiento de 2022_Q2 exitoso con el formato final.
+[2025-09-13 15:33:43,608] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q2.csv
+[2025-09-13 15:33:43,608] INFO: --- Procesando 2022_Q3 desde conjunto_de_datos_ensu_cb_0922.csv ---
+[2025-09-13 15:33:43,723] INFO: ✓ Procesamiento de 2022_Q3 exitoso con el formato final.
+[2025-09-13 15:33:43,724] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q3.csv
+[2025-09-13 15:33:43,724] INFO: --- Procesando 2022_Q4 desde conjunto_de_datos_ensu_cb_1222.csv ---
+[2025-09-13 15:33:43,811] INFO: ✓ Procesamiento de 2022_Q4 exitoso con el formato final.
+[2025-09-13 15:33:43,812] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q4.csv
+[2025-09-13 15:33:43,812] INFO: --- Procesando 2023_Q1 desde conjunto_de_datos_CB_ENSU_03_2023.csv ---
+[2025-09-13 15:33:43,907] INFO: ✓ Procesamiento de 2023_Q1 exitoso con el formato final.
+[2025-09-13 15:33:43,908] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q1.csv
+[2025-09-13 15:33:43,908] INFO: --- Procesando 2023_Q2 desde conjunto_de_datos_ensu_cb_0623.csv ---
+[2025-09-13 15:33:44,012] INFO: ✓ Procesamiento de 2023_Q2 exitoso con el formato final.
+[2025-09-13 15:33:44,012] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q2.csv
+[2025-09-13 15:33:44,012] INFO: --- Procesando 2023_Q3 desde conjunto_de_datos_ensu_cb_0923.csv ---
+[2025-09-13 15:33:44,170] INFO: ✓ Procesamiento de 2023_Q3 exitoso con el formato final.
+[2025-09-13 15:33:44,171] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q3.csv
+[2025-09-13 15:33:44,171] INFO: --- Procesando 2023_Q4 desde conjunto_de_datos_ensu_cb_1223.csv ---
+[2025-09-13 15:33:44,260] INFO: ✓ Procesamiento de 2023_Q4 exitoso con el formato final.
+[2025-09-13 15:33:44,261] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q4.csv
+[2025-09-13 15:33:44,261] INFO: --- Procesando 2024_Q1 desde conjunto_de_datos_ensu_cb_0324.csv ---
+[2025-09-13 15:33:44,347] INFO: ✓ Procesamiento de 2024_Q1 exitoso con el formato final.
+[2025-09-13 15:33:44,348] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q1.csv
+[2025-09-13 15:33:44,348] INFO: --- Procesando 2024_Q2 desde conjunto_de_datos_ensu_cb_0624.csv ---
+[2025-09-13 15:33:44,437] INFO: ✓ Procesamiento de 2024_Q2 exitoso con el formato final.
+[2025-09-13 15:33:44,437] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q2.csv
+[2025-09-13 15:33:44,437] INFO: --- Procesando 2024_Q3 desde conjunto_de_datos_ensu_cb_0924.csv ---
+[2025-09-13 15:33:44,564] INFO: ✓ Procesamiento de 2024_Q3 exitoso con el formato final.
+[2025-09-13 15:33:44,565] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q3.csv
+[2025-09-13 15:33:44,565] INFO: --- Procesando 2024_Q4 desde conjunto_de_datos_ensu_cb_1224.csv ---
+[2025-09-13 15:33:44,653] INFO: ✓ Procesamiento de 2024_Q4 exitoso con el formato final.
+[2025-09-13 15:33:44,653] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q4.csv
+[2025-09-13 15:33:44,653] INFO: --- Procesando 2025_Q1 desde conjunto_de_datos_ensu_cb_0325.csv ---
+[2025-09-13 15:33:44,740] INFO: ✓ Procesamiento de 2025_Q1 exitoso con el formato final.
+[2025-09-13 15:33:44,741] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q1.csv
+[2025-09-13 15:33:44,741] INFO: --- Procesando 2025_Q2 desde conjunto_de_datos_ensu_cb_0625.csv ---
+[2025-09-13 15:33:44,837] INFO: ✓ Procesamiento de 2025_Q2 exitoso con el formato final.
+[2025-09-13 15:33:44,837] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q2.csv
+[2025-09-13 15:33:44,837] INFO: === FASE 4 COMPLETADA EXITOSAMENTE ===
+[2025-09-13 15:45:13,158] INFO: === INICIANDO FASE 4: PROCESAMIENTO ===
+[2025-09-13 15:45:13,259] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q4.csv
+[2025-09-13 15:45:13,351] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q1.csv
+[2025-09-13 15:45:13,474] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q2.csv
+[2025-09-13 15:45:13,575] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q3.csv
+[2025-09-13 15:45:13,677] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q4.csv
+[2025-09-13 15:45:13,784] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q1.csv
+[2025-09-13 15:45:13,952] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q2.csv
+[2025-09-13 15:45:14,099] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q3.csv
+[2025-09-13 15:45:14,210] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q4.csv
+[2025-09-13 15:45:14,299] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q1.csv
+[2025-09-13 15:45:14,412] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q2.csv
+[2025-09-13 15:45:14,612] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q3.csv
+[2025-09-13 15:45:14,790] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q4.csv
+[2025-09-13 15:45:14,948] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q1.csv
+[2025-09-13 15:45:15,168] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q3.csv
+[2025-09-13 15:45:15,369] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q4.csv
+[2025-09-13 15:45:15,528] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q1.csv
+[2025-09-13 15:45:15,703] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q2.csv
+[2025-09-13 15:45:15,938] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q3.csv
+[2025-09-13 15:45:16,112] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q4.csv
+[2025-09-13 15:45:16,245] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q1.csv
+[2025-09-13 15:45:16,390] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q2.csv
+[2025-09-13 15:45:16,584] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q3.csv
+[2025-09-13 15:45:16,729] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q4.csv
+[2025-09-13 15:45:16,904] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q1.csv
+[2025-09-13 15:45:17,093] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q2.csv
+[2025-09-13 15:45:17,360] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q3.csv
+[2025-09-13 15:45:17,507] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q4.csv
+[2025-09-13 15:45:17,721] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q1.csv
+[2025-09-13 15:45:17,875] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q2.csv
+[2025-09-13 15:45:18,096] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q3.csv
+[2025-09-13 15:45:18,245] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q4.csv
+[2025-09-13 15:45:18,393] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q1.csv
+[2025-09-13 15:45:18,544] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q2.csv
+[2025-09-13 15:45:18,544] INFO: === FASE 4 COMPLETADA ===
+[2025-09-13 15:50:41,022] INFO: === INICIANDO FASE 4: PROCESAMIENTO ===
+[2025-09-13 15:50:41,125] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q4.csv
+[2025-09-13 15:50:41,224] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q1.csv
+[2025-09-13 15:50:41,350] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q2.csv
+[2025-09-13 15:50:41,453] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q3.csv
+[2025-09-13 15:50:41,559] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q4.csv
+[2025-09-13 15:50:41,662] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q1.csv
+[2025-09-13 15:50:41,787] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q2.csv
+[2025-09-13 15:50:41,932] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q3.csv
+[2025-09-13 15:50:42,044] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q4.csv
+[2025-09-13 15:50:42,131] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q1.csv
+[2025-09-13 15:50:42,254] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q2.csv
+[2025-09-13 15:50:42,456] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q3.csv
+[2025-09-13 15:50:42,611] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q4.csv
+[2025-09-13 15:50:42,769] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q1.csv
+[2025-09-13 15:50:43,035] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q3.csv
+[2025-09-13 15:50:43,223] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q4.csv
+[2025-09-13 15:50:43,382] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q1.csv
+[2025-09-13 15:50:43,557] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q2.csv
+[2025-09-13 15:50:43,800] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q3.csv
+[2025-09-13 15:50:43,974] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q4.csv
+[2025-09-13 15:50:44,109] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q1.csv
+[2025-09-13 15:50:44,247] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q2.csv
+[2025-09-13 15:50:44,442] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q3.csv
+[2025-09-13 15:50:44,585] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q4.csv
+[2025-09-13 15:50:44,763] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q1.csv
+[2025-09-13 15:50:44,944] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q2.csv
+[2025-09-13 15:50:45,205] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q3.csv
+[2025-09-13 15:50:45,357] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q4.csv
+[2025-09-13 15:50:45,581] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q1.csv
+[2025-09-13 15:50:45,731] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q2.csv
+[2025-09-13 15:50:45,960] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q3.csv
+[2025-09-13 15:50:46,110] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q4.csv
+[2025-09-13 15:50:46,254] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q1.csv
+[2025-09-13 15:50:46,398] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q2.csv
+[2025-09-13 15:50:46,398] INFO: === FASE 4 COMPLETADA ===
+[2025-09-13 15:51:08,800] INFO: === INICIANDO FASE 4: PROCESAMIENTO (VERSIÓN FINAL CON NOM_CD CORRECTO) ===
+[2025-09-13 15:51:08,800] INFO: --- Procesando 2016_Q4 desde conjunto_de_datos_cb_ensu_04_2016.csv ---
+[2025-09-13 15:51:08,891] INFO: ✓ Procesamiento de 2016_Q4 exitoso con el formato final.
+[2025-09-13 15:51:08,893] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q4.csv
+[2025-09-13 15:51:08,893] INFO: --- Procesando 2017_Q1 desde conjunto_de_datos_cb_ensu_01_2017.csv ---
+[2025-09-13 15:51:08,987] INFO: ✓ Procesamiento de 2017_Q1 exitoso con el formato final.
+[2025-09-13 15:51:08,988] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q1.csv
+[2025-09-13 15:51:08,988] INFO: --- Procesando 2017_Q2 desde conjunto_de_datos_cb_ensu_02_2017.csv ---
+[2025-09-13 15:51:09,110] INFO: ✓ Procesamiento de 2017_Q2 exitoso con el formato final.
+[2025-09-13 15:51:09,111] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q2.csv
+[2025-09-13 15:51:09,111] INFO: --- Procesando 2017_Q3 desde conjunto_de_datos_cb_ensu_03_2017.csv ---
+[2025-09-13 15:51:09,211] INFO: ✓ Procesamiento de 2017_Q3 exitoso con el formato final.
+[2025-09-13 15:51:09,212] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q3.csv
+[2025-09-13 15:51:09,212] INFO: --- Procesando 2017_Q4 desde conjunto_de_datos_cb_ensu_04_2017.csv ---
+[2025-09-13 15:51:09,311] INFO: ✓ Procesamiento de 2017_Q4 exitoso con el formato final.
+[2025-09-13 15:51:09,312] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q4.csv
+[2025-09-13 15:51:09,312] INFO: --- Procesando 2018_Q1 desde ensu_cb_0118.csv ---
+[2025-09-13 15:51:09,417] INFO: ✓ Procesamiento de 2018_Q1 exitoso con el formato final.
+[2025-09-13 15:51:09,418] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q1.csv
+[2025-09-13 15:51:09,418] INFO: --- Procesando 2018_Q2 desde  ensu_cb_0218.csv ---
+[2025-09-13 15:51:09,533] INFO: ✓ Procesamiento de 2018_Q2 exitoso con el formato final.
+[2025-09-13 15:51:09,535] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q2.csv
+[2025-09-13 15:51:09,535] INFO: --- Procesando 2018_Q3 desde conjunto_de_datos_cb_ensu_03_2018.csv ---
+[2025-09-13 15:51:09,678] INFO: ✓ Procesamiento de 2018_Q3 exitoso con el formato final.
+[2025-09-13 15:51:09,683] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q3.csv
+[2025-09-13 15:51:09,683] INFO: --- Procesando 2018_Q4 desde conjunto_de_datos_cb_ENSU_04_2018.csv ---
+[2025-09-13 15:51:09,794] INFO: ✓ Procesamiento de 2018_Q4 exitoso con el formato final.
+[2025-09-13 15:51:09,795] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q4.csv
+[2025-09-13 15:51:09,795] INFO: --- Procesando 2019_Q1 desde conjunto_de_datos_cb_ensu_03_2019.csv ---
+[2025-09-13 15:51:09,880] INFO: ✓ Procesamiento de 2019_Q1 exitoso con el formato final.
+[2025-09-13 15:51:09,880] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q1.csv
+[2025-09-13 15:51:09,880] INFO: --- Procesando 2019_Q2 desde conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+[2025-09-13 15:51:09,998] INFO: ✓ Procesamiento de 2019_Q2 exitoso con el formato final.
+[2025-09-13 15:51:09,999] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q2.csv
+[2025-09-13 15:51:09,999] INFO: --- Procesando 2019_Q3 desde conjunto_de_datos_cb_ENSU_03_2019.csv ---
+[2025-09-13 15:51:10,188] INFO: ✓ Procesamiento de 2019_Q3 exitoso con el formato final.
+[2025-09-13 15:51:10,190] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q3.csv
+[2025-09-13 15:51:10,190] INFO: --- Procesando 2019_Q4 desde conjunto_de_datos_CB_ENSU_04_2019.csv ---
+[2025-09-13 15:51:10,349] INFO: ✓ Procesamiento de 2019_Q4 exitoso con el formato final.
+[2025-09-13 15:51:10,350] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q4.csv
+[2025-09-13 15:51:10,350] INFO: --- Procesando 2020_Q1 desde conjunto_de_datos_CB_ENSU_01_2020.csv ---
+[2025-09-13 15:51:10,500] INFO: ✓ Procesamiento de 2020_Q1 exitoso con el formato final.
+[2025-09-13 15:51:10,501] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q1.csv
+[2025-09-13 15:51:10,501] INFO: --- Procesando 2020_Q3 desde conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+[2025-09-13 15:51:10,724] INFO: ✓ Procesamiento de 2020_Q3 exitoso con el formato final.
+[2025-09-13 15:51:10,725] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q3.csv
+[2025-09-13 15:51:10,725] INFO: --- Procesando 2020_Q4 desde conjunto_de_datos_CB_ENSU_12_2020.csv ---
+[2025-09-13 15:51:10,910] INFO: ✓ Procesamiento de 2020_Q4 exitoso con el formato final.
+[2025-09-13 15:51:10,911] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q4.csv
+[2025-09-13 15:51:10,911] INFO: --- Procesando 2021_Q1 desde conjunto_de_datos_CB_ENSU_03_2021.csv ---
+[2025-09-13 15:51:11,068] INFO: ✓ Procesamiento de 2021_Q1 exitoso con el formato final.
+[2025-09-13 15:51:11,070] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q1.csv
+[2025-09-13 15:51:11,070] INFO: --- Procesando 2021_Q2 desde conjunto_de_datos_CB_ENSU_06_2021.csv ---
+[2025-09-13 15:51:11,247] INFO: ✓ Procesamiento de 2021_Q2 exitoso con el formato final.
+[2025-09-13 15:51:11,248] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q2.csv
+[2025-09-13 15:51:11,248] INFO: --- Procesando 2021_Q3 desde conjunto_de_datos_CB_ENSU_09_2021.csv ---
+[2025-09-13 15:51:11,485] INFO: ✓ Procesamiento de 2021_Q3 exitoso con el formato final.
+[2025-09-13 15:51:11,485] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q3.csv
+[2025-09-13 15:51:11,485] INFO: --- Procesando 2021_Q4 desde conjunto_de_datos_CB_ENSU_12_2021.csv ---
+[2025-09-13 15:51:11,661] INFO: ✓ Procesamiento de 2021_Q4 exitoso con el formato final.
+[2025-09-13 15:51:11,662] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q4.csv
+[2025-09-13 15:51:11,662] INFO: --- Procesando 2022_Q1 desde conjunto_de_datos_ensu_cb_0322.csv ---
+[2025-09-13 15:51:11,845] INFO: ✓ Procesamiento de 2022_Q1 exitoso con el formato final.
+[2025-09-13 15:51:11,845] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q1.csv
+[2025-09-13 15:51:11,846] INFO: --- Procesando 2022_Q2 desde conjunto_de_datos_ensu_cb_0622.csv ---
+[2025-09-13 15:51:11,992] INFO: ✓ Procesamiento de 2022_Q2 exitoso con el formato final.
+[2025-09-13 15:51:11,993] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q2.csv
+[2025-09-13 15:51:11,993] INFO: --- Procesando 2022_Q3 desde conjunto_de_datos_ensu_cb_0922.csv ---
+[2025-09-13 15:51:12,180] INFO: ✓ Procesamiento de 2022_Q3 exitoso con el formato final.
+[2025-09-13 15:51:12,181] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q3.csv
+[2025-09-13 15:51:12,181] INFO: --- Procesando 2022_Q4 desde conjunto_de_datos_ensu_cb_1222.csv ---
+[2025-09-13 15:51:12,340] INFO: ✓ Procesamiento de 2022_Q4 exitoso con el formato final.
+[2025-09-13 15:51:12,341] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q4.csv
+[2025-09-13 15:51:12,341] INFO: --- Procesando 2023_Q1 desde conjunto_de_datos_CB_ENSU_03_2023.csv ---
+[2025-09-13 15:51:12,515] INFO: ✓ Procesamiento de 2023_Q1 exitoso con el formato final.
+[2025-09-13 15:51:12,516] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q1.csv
+[2025-09-13 15:51:12,516] INFO: --- Procesando 2023_Q2 desde conjunto_de_datos_ensu_cb_0623.csv ---
+[2025-09-13 15:51:12,704] INFO: ✓ Procesamiento de 2023_Q2 exitoso con el formato final.
+[2025-09-13 15:51:12,705] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q2.csv
+[2025-09-13 15:51:12,705] INFO: --- Procesando 2023_Q3 desde conjunto_de_datos_ensu_cb_0923.csv ---
+[2025-09-13 15:51:12,985] INFO: ✓ Procesamiento de 2023_Q3 exitoso con el formato final.
+[2025-09-13 15:51:12,986] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q3.csv
+[2025-09-13 15:51:12,987] INFO: --- Procesando 2023_Q4 desde conjunto_de_datos_ensu_cb_1223.csv ---
+[2025-09-13 15:51:13,132] INFO: ✓ Procesamiento de 2023_Q4 exitoso con el formato final.
+[2025-09-13 15:51:13,134] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q4.csv
+[2025-09-13 15:51:13,134] INFO: --- Procesando 2024_Q1 desde conjunto_de_datos_ensu_cb_0324.csv ---
+[2025-09-13 15:51:13,371] INFO: ✓ Procesamiento de 2024_Q1 exitoso con el formato final.
+[2025-09-13 15:51:13,373] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q1.csv
+[2025-09-13 15:51:13,373] INFO: --- Procesando 2024_Q2 desde conjunto_de_datos_ensu_cb_0624.csv ---
+[2025-09-13 15:51:13,530] INFO: ✓ Procesamiento de 2024_Q2 exitoso con el formato final.
+[2025-09-13 15:51:13,531] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q2.csv
+[2025-09-13 15:51:13,531] INFO: --- Procesando 2024_Q3 desde conjunto_de_datos_ensu_cb_0924.csv ---
+[2025-09-13 15:51:13,743] INFO: ✓ Procesamiento de 2024_Q3 exitoso con el formato final.
+[2025-09-13 15:51:13,744] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q3.csv
+[2025-09-13 15:51:13,744] INFO: --- Procesando 2024_Q4 desde conjunto_de_datos_ensu_cb_1224.csv ---
+[2025-09-13 15:51:13,892] INFO: ✓ Procesamiento de 2024_Q4 exitoso con el formato final.
+[2025-09-13 15:51:13,893] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q4.csv
+[2025-09-13 15:51:13,893] INFO: --- Procesando 2025_Q1 desde conjunto_de_datos_ensu_cb_0325.csv ---
+[2025-09-13 15:51:14,039] INFO: ✓ Procesamiento de 2025_Q1 exitoso con el formato final.
+[2025-09-13 15:51:14,040] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q1.csv
+[2025-09-13 15:51:14,040] INFO: --- Procesando 2025_Q2 desde conjunto_de_datos_ensu_cb_0625.csv ---
+[2025-09-13 15:51:14,183] INFO: ✓ Procesamiento de 2025_Q2 exitoso con el formato final.
+[2025-09-13 15:51:14,185] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q2.csv
+[2025-09-13 15:51:14,185] INFO: === FASE 4 COMPLETADA EXITOSAMENTE ===
+[2025-09-13 16:12:01,188] INFO: === INICIANDO FASE 4: PROCESAMIENTO (Soporte numérico y sin trimestre) ===
+[2025-09-13 16:12:01,188] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2016.csv ---
+[2025-09-13 16:12:01,249] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016.csv
+[2025-09-13 16:12:01,249] INFO: --- Procesando conjunto_de_datos_cb_ensu_01_2017.csv ---
+[2025-09-13 16:12:01,302] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017.csv
+[2025-09-13 16:12:01,302] INFO: --- Procesando conjunto_de_datos_cb_ensu_02_2017.csv ---
+[2025-09-13 16:12:01,375] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017.csv
+[2025-09-13 16:12:01,375] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2017.csv ---
+[2025-09-13 16:12:01,426] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017.csv
+[2025-09-13 16:12:01,426] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2017.csv ---
+[2025-09-13 16:12:01,473] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017.csv
+[2025-09-13 16:12:01,473] INFO: --- Procesando ensu_cb_0118.csv ---
+[2025-09-13 16:12:01,525] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018.csv
+[2025-09-13 16:12:01,525] INFO: --- Procesando  ensu_cb_0218.csv ---
+[2025-09-13 16:12:01,580] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018.csv
+[2025-09-13 16:12:01,580] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2018.csv ---
+[2025-09-13 16:12:01,649] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018.csv
+[2025-09-13 16:12:01,649] INFO: --- Procesando conjunto_de_datos_cb_ENSU_04_2018.csv ---
+[2025-09-13 16:12:01,709] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018.csv
+[2025-09-13 16:12:01,709] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2019.csv ---
+[2025-09-13 16:12:01,755] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019.csv
+[2025-09-13 16:12:01,755] INFO: --- Procesando conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+[2025-09-13 16:12:01,823] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019.csv
+[2025-09-13 16:12:01,823] INFO: --- Procesando conjunto_de_datos_cb_ENSU_03_2019.csv ---
+[2025-09-13 16:12:01,901] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019.csv
+[2025-09-13 16:12:01,901] INFO: --- Procesando conjunto_de_datos_CB_ENSU_04_2019.csv ---
+[2025-09-13 16:12:01,978] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019.csv
+[2025-09-13 16:12:01,978] INFO: --- Procesando conjunto_de_datos_CB_ENSU_01_2020.csv ---
+[2025-09-13 16:12:02,051] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020.csv
+[2025-09-13 16:12:02,052] INFO: --- Procesando conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+[2025-09-13 16:12:02,142] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020.csv
+[2025-09-13 16:12:02,142] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2020.csv ---
+[2025-09-13 16:12:02,230] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020.csv
+[2025-09-13 16:12:02,230] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2021.csv ---
+[2025-09-13 16:12:02,307] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021.csv
+[2025-09-13 16:12:02,307] INFO: --- Procesando conjunto_de_datos_CB_ENSU_06_2021.csv ---
+[2025-09-13 16:12:02,413] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021.csv
+[2025-09-13 16:12:02,413] INFO: --- Procesando conjunto_de_datos_CB_ENSU_09_2021.csv ---
+[2025-09-13 16:12:02,520] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021.csv
+[2025-09-13 16:12:02,520] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2021.csv ---
+[2025-09-13 16:12:02,600] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021.csv
+[2025-09-13 16:12:02,600] INFO: --- Procesando conjunto_de_datos_ensu_cb_0322.csv ---
+[2025-09-13 16:12:02,671] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022.csv
+[2025-09-13 16:12:02,671] INFO: --- Procesando conjunto_de_datos_ensu_cb_0622.csv ---
+[2025-09-13 16:12:02,746] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022.csv
+[2025-09-13 16:12:02,746] INFO: --- Procesando conjunto_de_datos_ensu_cb_0922.csv ---
+[2025-09-13 16:12:02,843] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022.csv
+[2025-09-13 16:12:02,843] INFO: --- Procesando conjunto_de_datos_ensu_cb_1222.csv ---
+[2025-09-13 16:12:02,924] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022.csv
+[2025-09-13 16:12:02,924] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2023.csv ---
+[2025-09-13 16:12:03,010] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023.csv
+[2025-09-13 16:12:03,010] INFO: --- Procesando conjunto_de_datos_ensu_cb_0623.csv ---
+[2025-09-13 16:12:03,097] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023.csv
+[2025-09-13 16:12:03,097] INFO: --- Procesando conjunto_de_datos_ensu_cb_0923.csv ---
+[2025-09-13 16:12:03,222] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023.csv
+[2025-09-13 16:12:03,222] INFO: --- Procesando conjunto_de_datos_ensu_cb_1223.csv ---
+[2025-09-13 16:12:03,303] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023.csv
+[2025-09-13 16:12:03,303] INFO: --- Procesando conjunto_de_datos_ensu_cb_0324.csv ---
+[2025-09-13 16:12:03,382] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024.csv
+[2025-09-13 16:12:03,383] INFO: --- Procesando conjunto_de_datos_ensu_cb_0624.csv ---
+[2025-09-13 16:12:03,464] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024.csv
+[2025-09-13 16:12:03,464] INFO: --- Procesando conjunto_de_datos_ensu_cb_0924.csv ---
+[2025-09-13 16:12:03,580] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024.csv
+[2025-09-13 16:12:03,580] INFO: --- Procesando conjunto_de_datos_ensu_cb_1224.csv ---
+[2025-09-13 16:12:03,663] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024.csv
+[2025-09-13 16:12:03,663] INFO: --- Procesando conjunto_de_datos_ensu_cb_0325.csv ---
+[2025-09-13 16:12:03,742] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025.csv
+[2025-09-13 16:12:03,743] INFO: --- Procesando conjunto_de_datos_ensu_cb_0625.csv ---
+[2025-09-13 16:12:03,824] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025.csv
+[2025-09-13 16:12:03,824] INFO: === FASE 4 COMPLETADA ===
+[2025-09-13 16:45:28,580] INFO: === INICIANDO FASE 4 (CON TRIMESTRE) ===
+[2025-09-13 16:45:28,580] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2016.csv ---
+[2025-09-13 16:45:28,634] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q4.csv
+[2025-09-13 16:45:28,634] INFO: --- Procesando conjunto_de_datos_cb_ensu_01_2017.csv ---
+[2025-09-13 16:45:28,681] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q1.csv
+[2025-09-13 16:45:28,681] INFO: --- Procesando conjunto_de_datos_cb_ensu_02_2017.csv ---
+[2025-09-13 16:45:28,752] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q2.csv
+[2025-09-13 16:45:28,752] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2017.csv ---
+[2025-09-13 16:45:28,802] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q3.csv
+[2025-09-13 16:45:28,802] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2017.csv ---
+[2025-09-13 16:45:28,852] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q4.csv
+[2025-09-13 16:45:28,852] INFO: --- Procesando ensu_cb_0118.csv ---
+[2025-09-13 16:45:28,902] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q1.csv
+[2025-09-13 16:45:28,902] INFO: --- Procesando  ensu_cb_0218.csv ---
+[2025-09-13 16:45:28,954] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q2.csv
+[2025-09-13 16:45:28,954] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2018.csv ---
+[2025-09-13 16:45:29,022] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q3.csv
+[2025-09-13 16:45:29,023] INFO: --- Procesando conjunto_de_datos_cb_ENSU_04_2018.csv ---
+[2025-09-13 16:45:29,075] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q4.csv
+[2025-09-13 16:45:29,075] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2019.csv ---
+[2025-09-13 16:45:29,120] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q1.csv
+[2025-09-13 16:45:29,120] INFO: --- Procesando conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+[2025-09-13 16:45:29,184] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q2.csv
+[2025-09-13 16:45:29,185] INFO: --- Procesando conjunto_de_datos_cb_ENSU_03_2019.csv ---
+[2025-09-13 16:45:29,262] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q3.csv
+[2025-09-13 16:45:29,262] INFO: --- Procesando conjunto_de_datos_CB_ENSU_04_2019.csv ---
+[2025-09-13 16:45:29,341] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q4.csv
+[2025-09-13 16:45:29,341] INFO: --- Procesando conjunto_de_datos_CB_ENSU_01_2020.csv ---
+[2025-09-13 16:45:29,414] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q1.csv
+[2025-09-13 16:45:29,414] INFO: --- Procesando conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+[2025-09-13 16:45:29,507] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q3.csv
+[2025-09-13 16:45:29,507] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2020.csv ---
+[2025-09-13 16:45:29,595] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q4.csv
+[2025-09-13 16:45:29,595] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2021.csv ---
+[2025-09-13 16:45:29,674] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q1.csv
+[2025-09-13 16:45:29,674] INFO: --- Procesando conjunto_de_datos_CB_ENSU_06_2021.csv ---
+[2025-09-13 16:45:29,762] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q2.csv
+[2025-09-13 16:45:29,762] INFO: --- Procesando conjunto_de_datos_CB_ENSU_09_2021.csv ---
+[2025-09-13 16:45:29,908] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q3.csv
+[2025-09-13 16:45:29,908] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2021.csv ---
+[2025-09-13 16:45:29,990] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q4.csv
+[2025-09-13 16:45:29,990] INFO: --- Procesando conjunto_de_datos_ensu_cb_0322.csv ---
+[2025-09-13 16:45:30,064] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q1.csv
+[2025-09-13 16:45:30,064] INFO: --- Procesando conjunto_de_datos_ensu_cb_0622.csv ---
+[2025-09-13 16:45:30,141] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q2.csv
+[2025-09-13 16:45:30,141] INFO: --- Procesando conjunto_de_datos_ensu_cb_0922.csv ---
+[2025-09-13 16:45:30,251] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q3.csv
+[2025-09-13 16:45:30,251] INFO: --- Procesando conjunto_de_datos_ensu_cb_1222.csv ---
+[2025-09-13 16:45:30,334] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q4.csv
+[2025-09-13 16:45:30,334] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2023.csv ---
+[2025-09-13 16:45:30,418] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q1.csv
+[2025-09-13 16:45:30,418] INFO: --- Procesando conjunto_de_datos_ensu_cb_0623.csv ---
+[2025-09-13 16:45:30,501] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q2.csv
+[2025-09-13 16:45:30,501] INFO: --- Procesando conjunto_de_datos_ensu_cb_0923.csv ---
+[2025-09-13 16:45:30,625] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q3.csv
+[2025-09-13 16:45:30,625] INFO: --- Procesando conjunto_de_datos_ensu_cb_1223.csv ---
+[2025-09-13 16:45:30,704] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q4.csv
+[2025-09-13 16:45:30,704] INFO: --- Procesando conjunto_de_datos_ensu_cb_0324.csv ---
+[2025-09-13 16:45:30,782] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q1.csv
+[2025-09-13 16:45:30,782] INFO: --- Procesando conjunto_de_datos_ensu_cb_0624.csv ---
+[2025-09-13 16:45:30,865] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q2.csv
+[2025-09-13 16:45:30,865] INFO: --- Procesando conjunto_de_datos_ensu_cb_0924.csv ---
+[2025-09-13 16:45:30,984] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q3.csv
+[2025-09-13 16:45:30,984] INFO: --- Procesando conjunto_de_datos_ensu_cb_1224.csv ---
+[2025-09-13 16:45:31,065] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q4.csv
+[2025-09-13 16:45:31,065] INFO: --- Procesando conjunto_de_datos_ensu_cb_0325.csv ---
+[2025-09-13 16:45:31,142] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q1.csv
+[2025-09-13 16:45:31,142] INFO: --- Procesando conjunto_de_datos_ensu_cb_0625.csv ---
+[2025-09-13 16:45:31,221] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q2.csv
+[2025-09-13 16:45:31,221] INFO: Fase 4 completada
+[2025-09-13 16:59:51,172] INFO: === INICIANDO FASE 4 (Versión Anti `\r`) ===
+[2025-09-13 16:59:51,173] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2016.csv ---
+[2025-09-13 16:59:51,240] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016.csv
+[2025-09-13 16:59:51,240] INFO: --- Procesando conjunto_de_datos_cb_ensu_01_2017.csv ---
+[2025-09-13 16:59:51,300] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017.csv
+[2025-09-13 16:59:51,300] INFO: --- Procesando conjunto_de_datos_cb_ensu_02_2017.csv ---
+[2025-09-13 16:59:51,355] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017.csv
+[2025-09-13 16:59:51,355] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2017.csv ---
+[2025-09-13 16:59:51,412] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017.csv
+[2025-09-13 16:59:51,412] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2017.csv ---
+[2025-09-13 16:59:51,467] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017.csv
+[2025-09-13 16:59:51,467] INFO: --- Procesando ensu_cb_0118.csv ---
+[2025-09-13 16:59:51,524] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018.csv
+[2025-09-13 16:59:51,524] INFO: --- Procesando  ensu_cb_0218.csv ---
+[2025-09-13 16:59:51,583] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018.csv
+[2025-09-13 16:59:51,583] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2018.csv ---
+[2025-09-13 16:59:51,657] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018.csv
+[2025-09-13 16:59:51,657] INFO: --- Procesando conjunto_de_datos_cb_ENSU_04_2018.csv ---
+[2025-09-13 16:59:51,723] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018.csv
+[2025-09-13 16:59:51,723] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2019.csv ---
+[2025-09-13 16:59:51,770] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019.csv
+[2025-09-13 16:59:51,770] INFO: --- Procesando conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+[2025-09-13 16:59:51,842] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019.csv
+[2025-09-13 16:59:51,842] INFO: --- Procesando conjunto_de_datos_cb_ENSU_03_2019.csv ---
+[2025-09-13 16:59:51,957] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019.csv
+[2025-09-13 16:59:51,957] INFO: --- Procesando conjunto_de_datos_CB_ENSU_04_2019.csv ---
+[2025-09-13 16:59:52,040] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019.csv
+[2025-09-13 16:59:52,040] INFO: --- Procesando conjunto_de_datos_CB_ENSU_01_2020.csv ---
+[2025-09-13 16:59:52,123] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020.csv
+[2025-09-13 16:59:52,123] INFO: --- Procesando conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+[2025-09-13 16:59:52,226] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020.csv
+[2025-09-13 16:59:52,226] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2020.csv ---
+[2025-09-13 16:59:52,316] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020.csv
+[2025-09-13 16:59:52,316] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2021.csv ---
+[2025-09-13 16:59:52,397] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021.csv
+[2025-09-13 16:59:52,397] INFO: --- Procesando conjunto_de_datos_CB_ENSU_06_2021.csv ---
+[2025-09-13 16:59:52,493] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021.csv
+[2025-09-13 16:59:52,493] INFO: --- Procesando conjunto_de_datos_CB_ENSU_09_2021.csv ---
+[2025-09-13 16:59:52,606] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021.csv
+[2025-09-13 16:59:52,606] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2021.csv ---
+[2025-09-13 16:59:52,689] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021.csv
+[2025-09-13 16:59:52,689] INFO: --- Procesando conjunto_de_datos_ensu_cb_0322.csv ---
+[2025-09-13 16:59:52,767] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022.csv
+[2025-09-13 16:59:52,767] INFO: --- Procesando conjunto_de_datos_ensu_cb_0622.csv ---
+[2025-09-13 16:59:52,846] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022.csv
+[2025-09-13 16:59:52,846] INFO: --- Procesando conjunto_de_datos_ensu_cb_0922.csv ---
+[2025-09-13 16:59:52,955] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022.csv
+[2025-09-13 16:59:52,955] INFO: --- Procesando conjunto_de_datos_ensu_cb_1222.csv ---
+[2025-09-13 16:59:53,047] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022.csv
+[2025-09-13 16:59:53,047] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2023.csv ---
+[2025-09-13 16:59:53,138] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023.csv
+[2025-09-13 16:59:53,138] INFO: --- Procesando conjunto_de_datos_ensu_cb_0623.csv ---
+[2025-09-13 16:59:53,226] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023.csv
+[2025-09-13 16:59:53,226] INFO: --- Procesando conjunto_de_datos_ensu_cb_0923.csv ---
+[2025-09-13 16:59:53,357] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023.csv
+[2025-09-13 16:59:53,357] INFO: --- Procesando conjunto_de_datos_ensu_cb_1223.csv ---
+[2025-09-13 16:59:53,443] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023.csv
+[2025-09-13 16:59:53,443] INFO: --- Procesando conjunto_de_datos_ensu_cb_0324.csv ---
+[2025-09-13 16:59:53,529] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024.csv
+[2025-09-13 16:59:53,529] INFO: --- Procesando conjunto_de_datos_ensu_cb_0624.csv ---
+[2025-09-13 16:59:53,617] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024.csv
+[2025-09-13 16:59:53,617] INFO: --- Procesando conjunto_de_datos_ensu_cb_0924.csv ---
+[2025-09-13 16:59:53,737] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024.csv
+[2025-09-13 16:59:53,737] INFO: --- Procesando conjunto_de_datos_ensu_cb_1224.csv ---
+[2025-09-13 16:59:53,824] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024.csv
+[2025-09-13 16:59:53,824] INFO: --- Procesando conjunto_de_datos_ensu_cb_0325.csv ---
+[2025-09-13 16:59:53,908] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025.csv
+[2025-09-13 16:59:53,908] INFO: --- Procesando conjunto_de_datos_ensu_cb_0625.csv ---
+[2025-09-13 16:59:53,994] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025.csv
+[2025-09-13 16:59:53,994] INFO: === FASE 4 COMPLETADA ===
+[2025-09-13 17:08:31,153] INFO: === INICIANDO FASE 4 ===
+[2025-09-13 17:08:31,153] INFO: --- Procesando conjunto_de_datos_cb_ensu_01_2016.csv ---
+[2025-09-13 17:08:31,200] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q1.csv
+[2025-09-13 17:08:31,200] INFO: --- Procesando conjunto_de_datos_cb_ensu_02_2016.csv ---
+[2025-09-13 17:08:31,237] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q2.csv
+[2025-09-13 17:08:31,237] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2016.csv ---
+[2025-09-13 17:08:31,278] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q3.csv
+[2025-09-13 17:08:31,278] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2016.csv ---
+[2025-09-13 17:08:31,329] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q4.csv
+[2025-09-13 17:08:31,329] INFO: --- Procesando conjunto_de_datos_cb_ensu_01_2017.csv ---
+[2025-09-13 17:08:31,380] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q1.csv
+[2025-09-13 17:08:31,380] INFO: --- Procesando conjunto_de_datos_cb_ensu_02_2017.csv ---
+[2025-09-13 17:08:31,452] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q2.csv
+[2025-09-13 17:08:31,452] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2017.csv ---
+[2025-09-13 17:08:31,509] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q3.csv
+[2025-09-13 17:08:31,509] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2017.csv ---
+[2025-09-13 17:08:31,572] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q4.csv
+[2025-09-13 17:08:31,572] INFO: --- Procesando ensu_cb_0118.csv ---
+[2025-09-13 17:08:31,627] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q1.csv
+[2025-09-13 17:08:31,627] INFO: --- Procesando  ensu_cb_0218.csv ---
+[2025-09-13 17:08:31,687] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q2.csv
+[2025-09-13 17:08:31,688] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2018.csv ---
+[2025-09-13 17:08:31,762] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q3.csv
+[2025-09-13 17:08:31,762] INFO: --- Procesando conjunto_de_datos_cb_ENSU_04_2018.csv ---
+[2025-09-13 17:08:31,826] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q4.csv
+[2025-09-13 17:08:31,827] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2019.csv ---
+[2025-09-13 17:08:31,874] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q1.csv
+[2025-09-13 17:08:31,874] INFO: --- Procesando conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+[2025-09-13 17:08:31,948] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q2.csv
+[2025-09-13 17:08:31,948] INFO: --- Procesando conjunto_de_datos_cb_ENSU_03_2019.csv ---
+[2025-09-13 17:08:32,028] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q3.csv
+[2025-09-13 17:08:32,028] INFO: --- Procesando conjunto_de_datos_CB_ENSU_04_2019.csv ---
+[2025-09-13 17:08:32,113] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q4.csv
+[2025-09-13 17:08:32,114] INFO: --- Procesando conjunto_de_datos_CB_ENSU_01_2020.csv ---
+[2025-09-13 17:08:32,196] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q1.csv
+[2025-09-13 17:08:32,196] INFO: --- Procesando conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+[2025-09-13 17:08:32,298] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q3.csv
+[2025-09-13 17:08:32,298] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2020.csv ---
+[2025-09-13 17:08:32,399] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q4.csv
+[2025-09-13 17:08:32,399] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2021.csv ---
+[2025-09-13 17:08:32,483] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q1.csv
+[2025-09-13 17:08:32,483] INFO: --- Procesando conjunto_de_datos_CB_ENSU_06_2021.csv ---
+[2025-09-13 17:08:32,567] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q2.csv
+[2025-09-13 17:08:32,567] INFO: --- Procesando conjunto_de_datos_CB_ENSU_09_2021.csv ---
+[2025-09-13 17:08:32,677] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q3.csv
+[2025-09-13 17:08:32,677] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2021.csv ---
+[2025-09-13 17:08:32,763] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q4.csv
+[2025-09-13 17:08:32,764] INFO: --- Procesando conjunto_de_datos_ensu_cb_0322.csv ---
+[2025-09-13 17:08:32,839] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q1.csv
+[2025-09-13 17:08:32,839] INFO: --- Procesando conjunto_de_datos_ensu_cb_0622.csv ---
+[2025-09-13 17:08:32,952] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q2.csv
+[2025-09-13 17:08:32,952] INFO: --- Procesando conjunto_de_datos_ensu_cb_0922.csv ---
+[2025-09-13 17:08:33,074] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q3.csv
+[2025-09-13 17:08:33,074] INFO: --- Procesando conjunto_de_datos_ensu_cb_1222.csv ---
+[2025-09-13 17:08:33,157] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q4.csv
+[2025-09-13 17:08:33,157] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2023.csv ---
+[2025-09-13 17:08:33,243] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q1.csv
+[2025-09-13 17:08:33,243] INFO: --- Procesando conjunto_de_datos_ensu_cb_0623.csv ---
+[2025-09-13 17:08:33,333] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q2.csv
+[2025-09-13 17:08:33,334] INFO: --- Procesando conjunto_de_datos_ensu_cb_0923.csv ---
+[2025-09-13 17:08:33,469] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q3.csv
+[2025-09-13 17:08:33,469] INFO: --- Procesando conjunto_de_datos_ensu_cb_1223.csv ---
+[2025-09-13 17:08:33,555] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q4.csv
+[2025-09-13 17:08:33,555] INFO: --- Procesando conjunto_de_datos_ensu_cb_0324.csv ---
+[2025-09-13 17:08:33,665] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q1.csv
+[2025-09-13 17:08:33,665] INFO: --- Procesando conjunto_de_datos_ensu_cb_0624.csv ---
+[2025-09-13 17:08:33,753] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q2.csv
+[2025-09-13 17:08:33,753] INFO: --- Procesando conjunto_de_datos_ensu_cb_0924.csv ---
+[2025-09-13 17:08:33,876] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q3.csv
+[2025-09-13 17:08:33,876] INFO: --- Procesando conjunto_de_datos_ensu_cb_1224.csv ---
+[2025-09-13 17:08:33,964] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q4.csv
+[2025-09-13 17:08:33,964] INFO: --- Procesando conjunto_de_datos_ensu_cb_0325.csv ---
+[2025-09-13 17:08:34,048] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q1.csv
+[2025-09-13 17:08:34,048] INFO: --- Procesando conjunto_de_datos_ensu_cb_0625.csv ---
+[2025-09-13 17:08:34,137] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q2.csv
+[2025-09-13 17:08:34,137] INFO: === FASE 4 COMPLETADA ===
+[2025-09-13 17:12:57,868] INFO: === INICIANDO FASE 4 (Versión Estricta) ===
+[2025-09-13 17:12:57,868] INFO: --- Procesando conjunto_de_datos_cb_ensu_01_2016.csv ---
+[2025-09-13 17:12:57,875] WARNING: SALTANDO: El archivo conjunto_de_datos_cb_ensu_01_2016.csv no contiene columnas de entidad y municipio claras (ej: NOM_MUN).
+[2025-09-13 17:12:57,875] INFO: --- Procesando conjunto_de_datos_cb_ensu_02_2016.csv ---
+[2025-09-13 17:12:57,878] WARNING: SALTANDO: El archivo conjunto_de_datos_cb_ensu_02_2016.csv no contiene columnas de entidad y municipio claras (ej: NOM_MUN).
+[2025-09-13 17:12:57,878] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2016.csv ---
+[2025-09-13 17:12:57,881] WARNING: SALTANDO: El archivo conjunto_de_datos_cb_ensu_03_2016.csv no contiene columnas de entidad y municipio claras (ej: NOM_MUN).
+[2025-09-13 17:12:57,881] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2016.csv ---
+[2025-09-13 17:12:57,943] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q4.csv
+[2025-09-13 17:12:57,943] INFO: --- Procesando conjunto_de_datos_cb_ensu_01_2017.csv ---
+[2025-09-13 17:12:58,003] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q1.csv
+[2025-09-13 17:12:58,003] INFO: --- Procesando conjunto_de_datos_cb_ensu_02_2017.csv ---
+[2025-09-13 17:12:58,077] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q2.csv
+[2025-09-13 17:12:58,077] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2017.csv ---
+[2025-09-13 17:12:58,133] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q3.csv
+[2025-09-13 17:12:58,134] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2017.csv ---
+[2025-09-13 17:12:58,188] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q4.csv
+[2025-09-13 17:12:58,188] INFO: --- Procesando ensu_cb_0118.csv ---
+[2025-09-13 17:12:58,245] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q1.csv
+[2025-09-13 17:12:58,245] INFO: --- Procesando  ensu_cb_0218.csv ---
+[2025-09-13 17:12:58,306] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q2.csv
+[2025-09-13 17:12:58,306] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2018.csv ---
+[2025-09-13 17:12:58,386] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q3.csv
+[2025-09-13 17:12:58,386] INFO: --- Procesando conjunto_de_datos_cb_ENSU_04_2018.csv ---
+[2025-09-13 17:12:58,446] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q4.csv
+[2025-09-13 17:12:58,446] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2019.csv ---
+[2025-09-13 17:12:58,495] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q1.csv
+[2025-09-13 17:12:58,495] INFO: --- Procesando conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+[2025-09-13 17:12:58,573] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q2.csv
+[2025-09-13 17:12:58,573] INFO: --- Procesando conjunto_de_datos_cb_ENSU_03_2019.csv ---
+[2025-09-13 17:12:58,655] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q3.csv
+[2025-09-13 17:12:58,655] INFO: --- Procesando conjunto_de_datos_CB_ENSU_04_2019.csv ---
+[2025-09-13 17:12:58,733] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q4.csv
+[2025-09-13 17:12:58,733] INFO: --- Procesando conjunto_de_datos_CB_ENSU_01_2020.csv ---
+[2025-09-13 17:12:58,812] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q1.csv
+[2025-09-13 17:12:58,812] INFO: --- Procesando conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+[2025-09-13 17:12:58,911] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q3.csv
+[2025-09-13 17:12:58,911] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2020.csv ---
+[2025-09-13 17:12:59,006] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q4.csv
+[2025-09-13 17:12:59,006] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2021.csv ---
+[2025-09-13 17:12:59,089] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q1.csv
+[2025-09-13 17:12:59,089] INFO: --- Procesando conjunto_de_datos_CB_ENSU_06_2021.csv ---
+[2025-09-13 17:12:59,179] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q2.csv
+[2025-09-13 17:12:59,179] INFO: --- Procesando conjunto_de_datos_CB_ENSU_09_2021.csv ---
+[2025-09-13 17:12:59,336] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q3.csv
+[2025-09-13 17:12:59,336] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2021.csv ---
+[2025-09-13 17:12:59,426] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q4.csv
+[2025-09-13 17:12:59,426] INFO: --- Procesando conjunto_de_datos_ensu_cb_0322.csv ---
+[2025-09-13 17:12:59,515] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q1.csv
+[2025-09-13 17:12:59,516] INFO: --- Procesando conjunto_de_datos_ensu_cb_0622.csv ---
+[2025-09-13 17:12:59,601] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q2.csv
+[2025-09-13 17:12:59,601] INFO: --- Procesando conjunto_de_datos_ensu_cb_0922.csv ---
+[2025-09-13 17:12:59,731] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q3.csv
+[2025-09-13 17:12:59,731] INFO: --- Procesando conjunto_de_datos_ensu_cb_1222.csv ---
+[2025-09-13 17:12:59,817] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q4.csv
+[2025-09-13 17:12:59,817] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2023.csv ---
+[2025-09-13 17:12:59,904] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q1.csv
+[2025-09-13 17:12:59,904] INFO: --- Procesando conjunto_de_datos_ensu_cb_0623.csv ---
+[2025-09-13 17:12:59,995] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q2.csv
+[2025-09-13 17:12:59,995] INFO: --- Procesando conjunto_de_datos_ensu_cb_0923.csv ---
+[2025-09-13 17:13:00,127] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q3.csv
+[2025-09-13 17:13:00,127] INFO: --- Procesando conjunto_de_datos_ensu_cb_1223.csv ---
+[2025-09-13 17:13:00,211] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q4.csv
+[2025-09-13 17:13:00,211] INFO: --- Procesando conjunto_de_datos_ensu_cb_0324.csv ---
+[2025-09-13 17:13:00,295] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q1.csv
+[2025-09-13 17:13:00,295] INFO: --- Procesando conjunto_de_datos_ensu_cb_0624.csv ---
+[2025-09-13 17:13:00,388] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q2.csv
+[2025-09-13 17:13:00,388] INFO: --- Procesando conjunto_de_datos_ensu_cb_0924.csv ---
+[2025-09-13 17:13:00,509] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q3.csv
+[2025-09-13 17:13:00,510] INFO: --- Procesando conjunto_de_datos_ensu_cb_1224.csv ---
+[2025-09-13 17:13:00,597] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q4.csv
+[2025-09-13 17:13:00,597] INFO: --- Procesando conjunto_de_datos_ensu_cb_0325.csv ---
+[2025-09-13 17:13:00,680] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q1.csv
+[2025-09-13 17:13:00,680] INFO: --- Procesando conjunto_de_datos_ensu_cb_0625.csv ---
+[2025-09-13 17:13:00,767] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q2.csv
+[2025-09-13 17:13:00,767] INFO: === FASE 4 COMPLETADA ===
+[2025-09-13 17:46:26,868] INFO: === INICIANDO FASE 4 (con Normalización) ===
+[2025-09-13 17:46:26,869] INFO: --- Procesando conjunto_de_datos_cb_ensu_01_2016.csv ---
+[2025-09-13 17:46:26,908] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:26,918] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q1.csv
+[2025-09-13 17:46:26,918] INFO: --- Procesando conjunto_de_datos_cb_ensu_02_2016.csv ---
+[2025-09-13 17:46:26,952] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:26,955] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q2.csv
+[2025-09-13 17:46:26,955] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2016.csv ---
+[2025-09-13 17:46:26,996] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:26,999] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q3.csv
+[2025-09-13 17:46:26,999] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2016.csv ---
+[2025-09-13 17:46:27,047] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,050] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q4.csv
+[2025-09-13 17:46:27,050] INFO: --- Procesando conjunto_de_datos_cb_ensu_01_2017.csv ---
+[2025-09-13 17:46:27,101] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,104] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q1.csv
+[2025-09-13 17:46:27,104] INFO: --- Procesando conjunto_de_datos_cb_ensu_02_2017.csv ---
+[2025-09-13 17:46:27,176] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,179] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q2.csv
+[2025-09-13 17:46:27,179] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2017.csv ---
+[2025-09-13 17:46:27,235] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,238] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q3.csv
+[2025-09-13 17:46:27,239] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2017.csv ---
+[2025-09-13 17:46:27,290] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,294] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q4.csv
+[2025-09-13 17:46:27,294] INFO: --- Procesando ensu_cb_0118.csv ---
+[2025-09-13 17:46:27,348] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,351] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q1.csv
+[2025-09-13 17:46:27,351] INFO: --- Procesando  ensu_cb_0218.csv ---
+[2025-09-13 17:46:27,411] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,415] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q2.csv
+[2025-09-13 17:46:27,415] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2018.csv ---
+[2025-09-13 17:46:27,487] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,490] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q3.csv
+[2025-09-13 17:46:27,490] INFO: --- Procesando conjunto_de_datos_cb_ENSU_04_2018.csv ---
+[2025-09-13 17:46:27,551] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,554] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q4.csv
+[2025-09-13 17:46:27,554] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2019.csv ---
+[2025-09-13 17:46:27,600] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,603] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q1.csv
+[2025-09-13 17:46:27,604] INFO: --- Procesando conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+[2025-09-13 17:46:27,668] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,671] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q2.csv
+[2025-09-13 17:46:27,671] INFO: --- Procesando conjunto_de_datos_cb_ENSU_03_2019.csv ---
+[2025-09-13 17:46:27,745] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,749] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q3.csv
+[2025-09-13 17:46:27,749] INFO: --- Procesando conjunto_de_datos_CB_ENSU_04_2019.csv ---
+[2025-09-13 17:46:27,823] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,828] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q4.csv
+[2025-09-13 17:46:27,828] INFO: --- Procesando conjunto_de_datos_CB_ENSU_01_2020.csv ---
+[2025-09-13 17:46:27,912] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:27,915] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q1.csv
+[2025-09-13 17:46:27,915] INFO: --- Procesando conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+[2025-09-13 17:46:28,010] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:28,013] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q3.csv
+[2025-09-13 17:46:28,013] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2020.csv ---
+[2025-09-13 17:46:28,105] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:28,108] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q4.csv
+[2025-09-13 17:46:28,108] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2021.csv ---
+[2025-09-13 17:46:28,186] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:28,189] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q1.csv
+[2025-09-13 17:46:28,189] INFO: --- Procesando conjunto_de_datos_CB_ENSU_06_2021.csv ---
+[2025-09-13 17:46:28,275] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:28,278] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q2.csv
+[2025-09-13 17:46:28,278] INFO: --- Procesando conjunto_de_datos_CB_ENSU_09_2021.csv ---
+[2025-09-13 17:46:28,395] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:28,398] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q3.csv
+[2025-09-13 17:46:28,398] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2021.csv ---
+[2025-09-13 17:46:28,480] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:28,483] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q4.csv
+[2025-09-13 17:46:28,483] INFO: --- Procesando conjunto_de_datos_ensu_cb_0322.csv ---
+[2025-09-13 17:46:28,555] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:28,558] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q1.csv
+[2025-09-13 17:46:28,558] INFO: --- Procesando conjunto_de_datos_ensu_cb_0622.csv ---
+[2025-09-13 17:46:28,639] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:28,642] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q2.csv
+[2025-09-13 17:46:28,642] INFO: --- Procesando conjunto_de_datos_ensu_cb_0922.csv ---
+[2025-09-13 17:46:28,751] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:28,754] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q3.csv
+[2025-09-13 17:46:28,754] INFO: --- Procesando conjunto_de_datos_ensu_cb_1222.csv ---
+[2025-09-13 17:46:28,835] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:28,838] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q4.csv
+[2025-09-13 17:46:28,838] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2023.csv ---
+[2025-09-13 17:46:28,923] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:28,926] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q1.csv
+[2025-09-13 17:46:28,926] INFO: --- Procesando conjunto_de_datos_ensu_cb_0623.csv ---
+[2025-09-13 17:46:29,013] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:29,016] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q2.csv
+[2025-09-13 17:46:29,016] INFO: --- Procesando conjunto_de_datos_ensu_cb_0923.csv ---
+[2025-09-13 17:46:29,149] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:29,152] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q3.csv
+[2025-09-13 17:46:29,152] INFO: --- Procesando conjunto_de_datos_ensu_cb_1223.csv ---
+[2025-09-13 17:46:29,238] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:29,241] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q4.csv
+[2025-09-13 17:46:29,241] INFO: --- Procesando conjunto_de_datos_ensu_cb_0324.csv ---
+[2025-09-13 17:46:29,325] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:29,328] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q1.csv
+[2025-09-13 17:46:29,328] INFO: --- Procesando conjunto_de_datos_ensu_cb_0624.csv ---
+[2025-09-13 17:46:29,412] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:29,415] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q2.csv
+[2025-09-13 17:46:29,415] INFO: --- Procesando conjunto_de_datos_ensu_cb_0924.csv ---
+[2025-09-13 17:46:29,533] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:29,536] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q3.csv
+[2025-09-13 17:46:29,536] INFO: --- Procesando conjunto_de_datos_ensu_cb_1224.csv ---
+[2025-09-13 17:46:29,618] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:29,621] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q4.csv
+[2025-09-13 17:46:29,621] INFO: --- Procesando conjunto_de_datos_ensu_cb_0325.csv ---
+[2025-09-13 17:46:29,700] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:29,703] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q1.csv
+[2025-09-13 17:46:29,703] INFO: --- Procesando conjunto_de_datos_ensu_cb_0625.csv ---
+[2025-09-13 17:46:29,785] INFO: Normalizando nombres de municipios (quitando acentos, convirtiendo a mayúsculas)...
+[2025-09-13 17:46:29,788] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q2.csv
+[2025-09-13 17:46:29,788] INFO: === FASE 4 COMPLETADA ===
+[2025-09-13 17:50:49,678] INFO: === INICIANDO FASE 4 (con unificación de Mérida) ===
+[2025-09-13 17:50:49,678] INFO: --- Procesando conjunto_de_datos_cb_ensu_01_2016.csv ---
+[2025-09-13 17:50:49,716] WARNING: No se encontró columna de Municipio. Asignando 'MERIDA' por defecto.
+[2025-09-13 17:50:49,723] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q1.csv
+[2025-09-13 17:50:49,723] INFO: --- Procesando conjunto_de_datos_cb_ensu_02_2016.csv ---
+[2025-09-13 17:50:49,759] WARNING: No se encontró columna de Municipio. Asignando 'MERIDA' por defecto.
+[2025-09-13 17:50:49,763] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q2.csv
+[2025-09-13 17:50:49,763] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2016.csv ---
+[2025-09-13 17:50:49,805] WARNING: No se encontró columna de Municipio. Asignando 'MERIDA' por defecto.
+[2025-09-13 17:50:49,808] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q3.csv
+[2025-09-13 17:50:49,808] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2016.csv ---
+[2025-09-13 17:50:49,858] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2016_Q4.csv
+[2025-09-13 17:50:49,859] INFO: --- Procesando conjunto_de_datos_cb_ensu_01_2017.csv ---
+[2025-09-13 17:50:49,912] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q1.csv
+[2025-09-13 17:50:49,912] INFO: --- Procesando conjunto_de_datos_cb_ensu_02_2017.csv ---
+[2025-09-13 17:50:49,989] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q2.csv
+[2025-09-13 17:50:49,989] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2017.csv ---
+[2025-09-13 17:50:50,045] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q3.csv
+[2025-09-13 17:50:50,045] INFO: --- Procesando conjunto_de_datos_cb_ensu_04_2017.csv ---
+[2025-09-13 17:50:50,104] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2017_Q4.csv
+[2025-09-13 17:50:50,104] INFO: --- Procesando ensu_cb_0118.csv ---
+[2025-09-13 17:50:50,161] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q1.csv
+[2025-09-13 17:50:50,161] INFO: --- Procesando  ensu_cb_0218.csv ---
+[2025-09-13 17:50:50,225] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q2.csv
+[2025-09-13 17:50:50,225] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2018.csv ---
+[2025-09-13 17:50:50,300] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q3.csv
+[2025-09-13 17:50:50,300] INFO: --- Procesando conjunto_de_datos_cb_ENSU_04_2018.csv ---
+[2025-09-13 17:50:50,361] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2018_Q4.csv
+[2025-09-13 17:50:50,361] INFO: --- Procesando conjunto_de_datos_cb_ensu_03_2019.csv ---
+[2025-09-13 17:50:50,410] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q1.csv
+[2025-09-13 17:50:50,410] INFO: --- Procesando conjunto_de_datos_cb_ENSU_2019_2t.csv ---
+[2025-09-13 17:50:50,478] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q2.csv
+[2025-09-13 17:50:50,479] INFO: --- Procesando conjunto_de_datos_cb_ENSU_03_2019.csv ---
+[2025-09-13 17:50:50,558] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q3.csv
+[2025-09-13 17:50:50,558] INFO: --- Procesando conjunto_de_datos_CB_ENSU_04_2019.csv ---
+[2025-09-13 17:50:50,636] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2019_Q4.csv
+[2025-09-13 17:50:50,636] INFO: --- Procesando conjunto_de_datos_CB_ENSU_01_2020.csv ---
+[2025-09-13 17:50:50,715] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q1.csv
+[2025-09-13 17:50:50,715] INFO: --- Procesando conjunto_de_datos_CB_SEC1_2_3_ENSU_09_2020.csv ---
+[2025-09-13 17:50:50,819] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q3.csv
+[2025-09-13 17:50:50,819] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2020.csv ---
+[2025-09-13 17:50:50,912] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2020_Q4.csv
+[2025-09-13 17:50:50,912] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2021.csv ---
+[2025-09-13 17:50:51,000] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q1.csv
+[2025-09-13 17:50:51,000] INFO: --- Procesando conjunto_de_datos_CB_ENSU_06_2021.csv ---
+[2025-09-13 17:50:51,084] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q2.csv
+[2025-09-13 17:50:51,084] INFO: --- Procesando conjunto_de_datos_CB_ENSU_09_2021.csv ---
+[2025-09-13 17:50:51,202] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q3.csv
+[2025-09-13 17:50:51,202] INFO: --- Procesando conjunto_de_datos_CB_ENSU_12_2021.csv ---
+[2025-09-13 17:50:51,287] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2021_Q4.csv
+[2025-09-13 17:50:51,287] INFO: --- Procesando conjunto_de_datos_ensu_cb_0322.csv ---
+[2025-09-13 17:50:51,358] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q1.csv
+[2025-09-13 17:50:51,358] INFO: --- Procesando conjunto_de_datos_ensu_cb_0622.csv ---
+[2025-09-13 17:50:51,446] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q2.csv
+[2025-09-13 17:50:51,446] INFO: --- Procesando conjunto_de_datos_ensu_cb_0922.csv ---
+[2025-09-13 17:50:51,557] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q3.csv
+[2025-09-13 17:50:51,557] INFO: --- Procesando conjunto_de_datos_ensu_cb_1222.csv ---
+[2025-09-13 17:50:51,649] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2022_Q4.csv
+[2025-09-13 17:50:51,649] INFO: --- Procesando conjunto_de_datos_CB_ENSU_03_2023.csv ---
+[2025-09-13 17:50:51,736] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q1.csv
+[2025-09-13 17:50:51,736] INFO: --- Procesando conjunto_de_datos_ensu_cb_0623.csv ---
+[2025-09-13 17:50:51,825] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q2.csv
+[2025-09-13 17:50:51,825] INFO: --- Procesando conjunto_de_datos_ensu_cb_0923.csv ---
+[2025-09-13 17:50:51,949] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q3.csv
+[2025-09-13 17:50:51,949] INFO: --- Procesando conjunto_de_datos_ensu_cb_1223.csv ---
+[2025-09-13 17:50:52,034] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2023_Q4.csv
+[2025-09-13 17:50:52,034] INFO: --- Procesando conjunto_de_datos_ensu_cb_0324.csv ---
+[2025-09-13 17:50:52,158] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q1.csv
+[2025-09-13 17:50:52,158] INFO: --- Procesando conjunto_de_datos_ensu_cb_0624.csv ---
+[2025-09-13 17:50:52,241] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q2.csv
+[2025-09-13 17:50:52,241] INFO: --- Procesando conjunto_de_datos_ensu_cb_0924.csv ---
+[2025-09-13 17:50:52,363] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q3.csv
+[2025-09-13 17:50:52,363] INFO: --- Procesando conjunto_de_datos_ensu_cb_1224.csv ---
+[2025-09-13 17:50:52,448] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2024_Q4.csv
+[2025-09-13 17:50:52,448] INFO: --- Procesando conjunto_de_datos_ensu_cb_0325.csv ---
+[2025-09-13 17:50:52,530] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q1.csv
+[2025-09-13 17:50:52,530] INFO: --- Procesando conjunto_de_datos_ensu_cb_0625.csv ---
+[2025-09-13 17:50:52,612] INFO: Archivo procesado guardado en: data/yucatan_processed/yucatan_security_2025_Q2.csv
+[2025-09-13 17:50:52,613] INFO: === FASE 4 COMPLETADA ===

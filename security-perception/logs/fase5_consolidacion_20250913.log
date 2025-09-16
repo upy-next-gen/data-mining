@@ -1,0 +1,4 @@
+[2025-09-13 17:50:59,171] INFO: Iniciando consolidación de datos para el dataset maestro...
+[2025-09-13 17:50:59,186] INFO: Se consolidaron y ordenaron 37 archivos.
+[2025-09-13 17:50:59,186] INFO: Dataset maestro guardado exitosamente en: reports/dataset_final_yucatan.csv
+[2025-09-13 17:50:59,186] INFO:  FASE 5: CONSOLIDACIÓN COMPLETADA 

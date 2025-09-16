@@ -8,3 +8,13 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Ignorar archivos de Mac
+.DS_Store
+
+# Ignora todos los archivos y subcarpetas dentro de la carpeta 'data'
+security-perception/data/*
+
+# Excepción: ¡incluye este archivo específico!
+security-perception/data/yucatan_processed
+!security-perception/data/yucatan_processed/**
