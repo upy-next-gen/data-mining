@@ -2,8 +2,6 @@
 
 Este documento recopila los **prompts clave** que utilicé para desarrollar el pipeline de análisis de datos de la **Encuesta Nacional de Seguridad Pública Urbana (ENSU)** en Yucatán.
 
----
-
 ## Prompt Inicial
 
 > **Actúa como un desarrollador Python senior y arquitecto de software.**  
@@ -17,7 +15,6 @@ Este documento recopila los **prompts clave** que utilicé para desarrollar el p
 > 4. **Codificación por Demanda:** Solo después de mi confirmación escribirás el código completo en un único bloque.  
 > 5. **Ciclo de Fases:** Al terminar cada fase, pregunta si podemos continuar con la siguiente.
 
----
 
 ## Especificaciones del Proyecto
 
@@ -39,7 +36,6 @@ El objetivo es procesar múltiples trimestres de datos de la ENSU para el estado
 ### Estructura de Carpetas
 `data/`, `data/yucatan_processed/`, `logs/`, `temp/`, `reports/`, `scripts/`
 
----
 
 ## Fases del Pipeline
 
@@ -76,7 +72,6 @@ El objetivo es procesar múltiples trimestres de datos de la ENSU para el estado
   - Gráficos por municipio
   - Tabla de datos completa
 
----
 
 ## Ejemplo de Respuesta Inicial del Asistente
 
@@ -86,10 +81,8 @@ Cuando le compartí las especificaciones completas, el asistente respondió:
 > El plan consiste en un pipeline de 6 fases para procesar los datos.  
 > ¿Estás listo para que desarrolle el script para la Fase 1: Mapeo y Descubrimiento?”*
 
----
 
 ## Notas
 - El código de cada fase se escribió solo tras mi confirmación en cada paso.
 - El proyecto usa **Python 3**, `pandas`, `matplotlib`, y registro de logs en cada fase.
 
----
